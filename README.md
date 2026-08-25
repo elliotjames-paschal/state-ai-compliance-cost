@@ -1,0 +1,44 @@
+# State AI Compliance Cost Model
+
+**Draft for feedback — all inputs are placeholders pending statute coding.**
+
+A bottom-up estimate of what state-by-state AI regulation costs a firm *above* a single
+hypothetical federal standard. Live dashboard: https://elliotjames-paschal.github.io/state-ai-compliance-cost/
+
+## How the model works
+
+- **Bottom-up.** Each bill is decomposed into duties — legal review, engineering build, ongoing
+  operations — with triangular hour estimates. Cost is hours × rates, the same approach federal
+  agencies use for regulatory burden estimates.
+- **Increment, not total.** The first build in each requirement family stands in for what a single
+  federal standard would require; only per-state divergence beyond it is claimed.
+- **Scope carefully.** Bills are sorted by who they bind. Criminal prohibitions and bills binding
+  state agencies or schools are excluded from the estimate by default (toggles show what
+  indiscriminate counting adds).
+- **Reuse from statutes.** Within a family, each additional state costs (1 − reuse) of a fresh
+  build. Reuse will be derived by comparing coded statutory parameters across states (age
+  thresholds, notice timing, appeal deadlines, audit frequency) — not assigned.
+- **Range, not point.** 4,000 seeded Monte Carlo draws over duty hours; the conservative end (p10)
+  leads.
+
+Every assumption — rates, roles, horizon, scope, baseline, reuse — is exposed as a dashboard
+control so a skeptic can substitute their own and see what it produces.
+
+## Repository layout
+
+```
+index.html      dashboard markup
+styles.css      styling
+app.js          model (Monte Carlo + reuse logic) and rendering — no dependencies, no build step
+data/bills.js   the dataset; schema documented at the top of the file
+```
+
+## Status
+
+The statute coding pass is in progress. Duty hours, reuse values, and bill selection in
+`data/bills.js` are illustrative placeholders. The final version will ship the coded dataset with
+every extracted parameter anchored to the quoted statutory provision, double-coded, and
+hand-validated on a sample.
+
+Feedback: open an issue, or comment on anything that looks wrong — framing, layout, scoping
+choices, or the model structure itself.
