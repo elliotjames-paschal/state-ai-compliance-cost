@@ -34,11 +34,13 @@ control so a skeptic can substitute their own and see what it produces.
 ## Repository layout
 
 ```
-index.html      markup for both tabs
-styles.css      styling
-app.js          explorer (map) + model (Monte Carlo, reuse logic) + rendering — no dependencies, no build step
-data/bills.js   the dataset; schema documented at the top of the file
-data/us-map.js  US state shapes (pre-projected Albers, decoded from us-atlas / Census Bureau)
+index.html           markup for both tabs
+styles.css           styling
+app.js               explorer (map) + model (Monte Carlo, reuse logic) + rendering — no dependencies, no build step
+data/bills-2026.js   passed 2026 state AI bills (as of 7/31/2026) — drives the explorer; no coding yet
+data/bills.js        placeholder coded subset — drives the cost model until statute coding completes
+data/us-map.js       US state shapes (pre-projected Albers, decoded from us-atlas / Census Bureau)
+data/source/         the source spreadsheet the explorer dataset was converted from
 ```
 
 ## Status

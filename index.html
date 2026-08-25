@@ -20,8 +20,8 @@
 </nav>
 
 <div class="draft-banner">
-  Draft for feedback &mdash; duty-hour and reuse values are illustrative placeholders. Statute coding is
-  in progress; every number will be replaced by coded values anchored to enacted text.
+  Draft for feedback &mdash; the explorer shows the full dataset of passed 2026 bills; the cost model
+  still runs on an illustrative placeholder subset until statute coding completes.
 </div>
 
 <!-- ================= TAB 1 · STATE LAW EXPLORER ================= -->
@@ -29,26 +29,24 @@
 
   <header class="page-head">
     <h1>Where state AI law stands</h1>
-    <p>Each state's AI legislation, sorted by who it binds. Not every bill creates a compliance
-    obligation on a company &mdash; some are criminal prohibitions, some bind state agencies or schools.
-    Only the ones that reach companies carry into the cost model.</p>
+    <p>Every state AI bill passed in the 2026 session, as of July 31, 2026. Click a state for its
+    bills; filter by topic. Statute coding &mdash; who each bill binds, what duties it creates, and how
+    much work carries between states &mdash; is in progress and will feed the cost model.</p>
   </header>
 
   <div class="stat-strip" id="stat-strip"></div>
 
   <div class="explorer-layout">
     <div class="map-col">
-      <div class="chips" id="chips">
-        <button class="chip active" data-filter="all">All bills</button>
-        <button class="chip" data-filter="company">Binds companies</button>
-        <button class="chip" data-filter="criminal">Criminal prohibitions</button>
-        <button class="chip" data-filter="public-sector">Binds state agencies</button>
-        <button class="chip" data-filter="education">Binds schools</button>
+      <div class="filter-row">
+        <label class="filter-label" for="cat-filter">Topic</label>
+        <select id="cat-filter"><option value="all">All topics</option></select>
+        <label class="check-inline"><input type="checkbox" id="enacted-only"> Enacted only</label>
       </div>
       <div id="usmap"></div>
       <div class="legend" id="legend"></div>
-      <p class="map-note">Coverage reflects the current working dataset, not a census of all enacted
-      state AI law. Municipal ordinances (e.g. NYC) are shown under their state.</p>
+      <p class="map-note">Dataset: passed AI legislation, 2026 session (as of 7/31/2026). A few bills
+      have passed one chamber but are not yet enacted &mdash; the toggle filters them out.</p>
     </div>
 
     <aside class="state-panel" id="state-panel"></aside>
@@ -167,7 +165,7 @@
       </section>
 
       <section class="card">
-        <h2>Bills in the dataset <span class="hint" id="bill-count"></span></h2>
+        <h2>Coded bills in the model <span class="hint" id="bill-count"></span></h2>
         <table id="bills-table">
           <thead>
             <tr><th>Bill</th><th>State</th><th>Requirement family</th><th>Binds</th><th>Key parameters</th><th>Status</th></tr>
@@ -207,6 +205,7 @@
 </footer>
 
 <script src="data/us-map.js"></script>
+<script src="data/bills-2026.js"></script>
 <script src="data/bills.js"></script>
 <script src="app.js"></script>
 </body>

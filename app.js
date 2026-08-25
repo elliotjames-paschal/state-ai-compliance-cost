@@ -49,14 +49,15 @@
   // Tab 1 — State law explorer
   // ========================================================================
 
-  var explorer = { filter: "all", selected: null };
+  var BILLS = window.BILLS_2026.bills;
+  var explorer = { category: "all", enactedOnly: false, selected: null };
 
   // choropleth: fill + whether the state label should render white
   var SCALE = [
     { min: 0, fill: "#efece7", dark: false, label: "0" },
-    { min: 1, fill: "#f8cdb6", dark: false, label: "1" },
-    { min: 2, fill: "#ef8557", dark: true,  label: "2–3" },
-    { min: 4, fill: "#c23e15", dark: true,  label: "4+" }
+    { min: 1, fill: "#f8cdb6", dark: false, label: "1–2" },
+    { min: 3, fill: "#ef8557", dark: true,  label: "3–5" },
+    { min: 6, fill: "#c23e15", dark: true,  label: "6+" }
   ];
 
   // manual label nudges where the bbox centroid sits badly (viewBox units)
@@ -64,8 +65,9 @@
   var LABEL_MIN_AREA = 900;
 
   function billsForFilter() {
-    return DATA.bills.filter(function (b) {
-      return explorer.filter === "all" || b.category === explorer.filter;
+    return BILLS.filter(function (b) {
+      if (explorer.enactedOnly && !b.enacted) return false;
+      return explorer.category === "all" || b.category === explorer.category;
     });
   }
 
@@ -153,12 +155,12 @@
 
   function renderStatStrip() {
     var bills = billsForFilter();
-    var states = {}, fams = {};
-    bills.forEach(function (b) { states[b.state] = 1; fams[b.family] = 1; });
+    var states = {}, cats = {};
+    bills.forEach(function (b) { states[b.state] = 1; cats[b.category] = 1; });
     var stats = [
-      [bills.length, "bills in dataset"],
-      [Object.keys(states).length, "states covered"],
-      [Object.keys(fams).length, "requirement families"]
+      [bills.length, "bills passed"],
+      [Object.keys(states).length, "states"],
+      [Object.keys(cats).length, "topics"]
     ];
     $("stat-strip").innerHTML = stats.map(function (s) {
       return "<div class='stat'><div class='stat-value'>" + s[0] +
@@ -166,38 +168,45 @@
     }).join("");
   }
 
+  function esc(s) {
+    return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  }
+
   function billCard(b) {
-    var params = Object.keys(b.params).map(function (k) {
-      return b.params[k] === null ? null : "<strong>" + k + "</strong>: " + b.params[k];
-    }).filter(Boolean).join(" · ");
+    var meta = [];
+    if (b.sponsor) meta.push(esc(b.sponsor));
+    if (b.enacted && b.effectiveDate) meta.push("effective " + b.effectiveDate);
+    if (!b.enacted && b.lastActionDate) meta.push("last action " + b.lastActionDate);
     return "<div class='bill-card'>" +
-      "<span class='bill-id'>" + b.id + "</span>" +
-      "<div class='bill-title'>" + b.name + "</div>" +
+      "<span class='bill-id'>" + esc(b.id) + "</span>" +
+      "<div class='bill-title'>" + esc(b.description) + "</div>" +
       "<div class='bill-meta'>" +
-        "<span class='badge " + b.category + "'>" + CATEGORY_LABELS[b.category] + "</span>" +
-        "<span class='badge family'>" + DATA.families[b.family].label + "</span>" +
-        "<span class='badge'>" + b.status + "</span>" +
+        "<span class='badge company'>" + esc(b.category) + "</span>" +
+        "<span class='badge" + (b.enacted ? "" : " pending") + "'>" + esc(b.status) + "</span>" +
       "</div>" +
-      (params ? "<div class='bill-params'>" + params + "</div>" : "") +
+      (meta.length ? "<div class='bill-params'>" + meta.join(" · ") + "</div>" : "") +
       "</div>";
   }
 
   function renderPanel() {
     var panel = $("state-panel");
+    var filtered = explorer.category !== "all" || explorer.enactedOnly;
 
     if (!explorer.selected) {
       var byCat = {};
       billsForFilter().forEach(function (b) { byCat[b.category] = (byCat[b.category] || 0) + 1; });
+      var top = Object.keys(byCat).sort(function (a, b) { return byCat[b] - byCat[a]; }).slice(0, 8);
       panel.innerHTML =
         "<h3>United States</h3>" +
-        "<p class='panel-sub'>Working dataset · select a state for its bills</p>" +
+        "<p class='panel-sub'>2026 session · as of " + window.BILLS_2026.asOf +
+        " · select a state for its bills</p>" +
         "<div class='panel-breakdown'>" +
-        Object.keys(CATEGORY_LABELS).map(function (c) {
-          return "<div><span>" + CATEGORY_LABELS[c] + "</span><span>" + (byCat[c] || 0) + "</span></div>";
+        top.map(function (c) {
+          return "<div><span>" + esc(c) + "</span><span>" + byCat[c] + "</span></div>";
         }).join("") +
         "</div>" +
-        "<p class='panel-empty'>Only bills that bind companies carry into the cost model. " +
-        "Use the filters to see how the map changes when scope is drawn differently.</p>";
+        "<p class='panel-empty'>Statute coding &mdash; who each bill binds and what duties it creates &mdash; " +
+        "is in progress. Once coded, bills that reach companies flow into the cost model.</p>";
       return;
     }
 
@@ -206,12 +215,11 @@
     panel.innerHTML =
       "<h3>" + STATE_NAMES[ab] + "</h3>" +
       "<p class='panel-sub'>" + bills.length + (bills.length === 1 ? " bill" : " bills") +
-      " in dataset" + (explorer.filter !== "all" ? " (filtered)" : "") + "</p>" +
+      " passed in 2026" + (filtered ? " (filtered)" : "") + "</p>" +
       (bills.length
         ? bills.map(billCard).join("")
-        : "<p class='panel-empty'>No bills in the working dataset for this state" +
-          (explorer.filter !== "all" ? " under the current filter" : "") +
-          ". That reflects dataset coverage, not necessarily an absence of law.</p>");
+        : "<p class='panel-empty'>No 2026 passed bills for this state" +
+          (filtered ? " under the current filter" : "") + " in the dataset.</p>");
   }
 
   function refreshExplorer() {
@@ -220,14 +228,26 @@
     renderPanel();
   }
 
-  document.querySelectorAll(".chip").forEach(function (chip) {
-    chip.addEventListener("click", function () {
-      explorer.filter = chip.dataset.filter;
-      document.querySelectorAll(".chip").forEach(function (c) {
-        c.classList.toggle("active", c === chip);
-      });
-      refreshExplorer();
+  function populateCategoryFilter() {
+    var counts = {};
+    BILLS.forEach(function (b) { counts[b.category] = (counts[b.category] || 0) + 1; });
+    var select = $("cat-filter");
+    Object.keys(counts).sort(function (a, b) { return counts[b] - counts[a]; }).forEach(function (c) {
+      var opt = document.createElement("option");
+      opt.value = c;
+      opt.textContent = c + " (" + counts[c] + ")";
+      select.appendChild(opt);
     });
+  }
+
+  $("cat-filter").addEventListener("input", function () {
+    explorer.category = this.value;
+    refreshExplorer();
+  });
+
+  $("enacted-only").addEventListener("input", function () {
+    explorer.enactedOnly = this.checked;
+    refreshExplorer();
   });
 
   // ========================================================================
@@ -494,6 +514,7 @@
 
   buildMap();
   renderLegend();
+  populateCategoryFilter();
   refreshExplorer();
   recompute();
   showTab(location.hash === "#model" ? "model" : "explorer");
