@@ -4,158 +4,209 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>State AI Compliance Cost Model</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
+<nav class="topbar">
+  <div class="brand">State AI <span class="brand-accent">/</span> Compliance Cost Model</div>
+  <div class="tabs" role="tablist">
+    <button class="tab-btn" data-tab="explorer" role="tab">State Law Explorer</button>
+    <button class="tab-btn" data-tab="model" role="tab">Cost Model</button>
+  </div>
+</nav>
+
 <div class="draft-banner">
-  DRAFT — all duty-hour and reuse values below are illustrative placeholders. Statute coding is in
-  progress; every number will be replaced by coded values anchored to enacted text.
+  Draft for feedback &mdash; duty-hour and reuse values are illustrative placeholders. Statute coding is
+  in progress; every number will be replaced by coded values anchored to enacted text.
 </div>
 
-<header>
-  <h1>State AI Compliance Cost Model</h1>
-  <p class="subtitle">What does state-by-state AI regulation cost a firm <em>above</em> a single
-  hypothetical federal standard? Bottom-up: hours &times; rates for specific duties, Monte Carlo over
-  the inputs. Every assumption is a control &mdash; move any of them and see what your own number is.</p>
-</header>
+<!-- ================= TAB 1 · STATE LAW EXPLORER ================= -->
+<div id="tab-explorer" class="tab-panel">
 
-<div class="layout">
+  <header class="page-head">
+    <h1>Where state AI law stands</h1>
+    <p>Each state's AI legislation, sorted by who it binds. Not every bill creates a compliance
+    obligation on a company &mdash; some are criminal prohibitions, some bind state agencies or schools.
+    Only the ones that reach companies carry into the cost model.</p>
+  </header>
 
-  <aside class="controls">
-    <section>
-      <h2>Hourly rates</h2>
-      <div class="control">
-        <label for="rate-legal">Outside / in-house counsel</label>
-        <div class="rate-row"><span>$</span><input type="number" id="rate-legal" min="0" step="10" value="350"><span>/hr</span></div>
+  <div class="stat-strip" id="stat-strip"></div>
+
+  <div class="explorer-layout">
+    <div class="map-col">
+      <div class="chips" id="chips">
+        <button class="chip active" data-filter="all">All bills</button>
+        <button class="chip" data-filter="company">Binds companies</button>
+        <button class="chip" data-filter="criminal">Criminal prohibitions</button>
+        <button class="chip" data-filter="public-sector">Binds state agencies</button>
+        <button class="chip" data-filter="education">Binds schools</button>
       </div>
-      <div class="control">
-        <label for="rate-eng">Software engineer</label>
-        <div class="rate-row"><span>$</span><input type="number" id="rate-eng" min="0" step="10" value="150"><span>/hr</span></div>
-      </div>
-      <div class="control">
-        <label for="rate-ops">Compliance operations</label>
-        <div class="rate-row"><span>$</span><input type="number" id="rate-ops" min="0" step="5" value="85"><span>/hr</span></div>
-      </div>
-    </section>
+      <div id="usmap"></div>
+      <div class="legend" id="legend"></div>
+      <p class="map-note">Coverage reflects the current working dataset, not a census of all enacted
+      state AI law. Municipal ordinances (e.g. NYC) are shown under their state.</p>
+    </div>
 
-    <section>
-      <h2>Firm &amp; horizon</h2>
-      <div class="control">
-        <label for="firm-scale">Firm archetype <span class="hint">scales duty hours</span></label>
-        <select id="firm-scale">
-          <option value="0.4">Startup (0.4&times; hours)</option>
-          <option value="1" selected>Mid-size (1&times; hours)</option>
-          <option value="2.5">Large (2.5&times; hours)</option>
-        </select>
-      </div>
-      <div class="control">
-        <label for="horizon">Time horizon <output id="horizon-out">5 yr</output></label>
-        <input type="range" id="horizon" min="1" max="10" step="1" value="5">
-      </div>
-    </section>
-
-    <section>
-      <h2>Scope <span class="hint">who the bill binds</span></h2>
-      <div class="control check"><label><input type="checkbox" data-cat="company" checked> Companies <span class="hint">carries into estimate</span></label></div>
-      <div class="control check"><label><input type="checkbox" data-cat="criminal"> Criminal prohibitions</label></div>
-      <div class="control check"><label><input type="checkbox" data-cat="public-sector"> State agencies</label></div>
-      <div class="control check"><label><input type="checkbox" data-cat="education"> Schools</label></div>
-      <p class="note">Only bills that create compliance obligations on companies are counted by
-      default. Toggling the others shows what indiscriminate counting adds.</p>
-    </section>
-
-    <section>
-      <h2>Federal baseline</h2>
-      <div class="control check">
-        <label><input type="checkbox" id="baseline" checked> Count only the increment above a federal standard</label>
-      </div>
-      <p class="note">When on, the first build in each requirement family is not claimed &mdash; a firm
-      would do that work under a single federal rule anyway. Only per-state divergence costs count.</p>
-    </section>
-
-    <section>
-      <h2>Reuse factor</h2>
-      <div class="control check">
-        <label><input type="checkbox" id="reuse-override"> Override statute-derived reuse</label>
-      </div>
-      <div class="control">
-        <label for="reuse">Global reuse <output id="reuse-out">55%</output></label>
-        <input type="range" id="reuse" min="0" max="95" step="5" value="55" disabled>
-      </div>
-      <p class="note">How much of the work for one state carries to the next. Defaults are per-family
-      values that will come from coded statute parameters (age thresholds, notice timing, audit
-      frequency). Think they're wrong? Override with your own.</p>
-    </section>
-
-    <section>
-      <h2>Aggregate</h2>
-      <div class="control">
-        <label for="n-firms">Firms in scope nationally</label>
-        <input type="number" id="n-firms" min="1" step="100" value="1000">
-      </div>
-    </section>
-
-    <button id="reset">Reset to defaults</button>
-  </aside>
-
-  <main>
-    <section class="headline card">
-      <h2>Incremental cost per firm, <span id="headline-horizon">5-year</span> horizon</h2>
-      <div class="headline-figures">
-        <div class="fig lead"><div class="fig-label">Conservative (p10)</div><div class="fig-value" id="p10">&mdash;</div></div>
-        <div class="fig"><div class="fig-label">Central (p50)</div><div class="fig-value" id="p50">&mdash;</div></div>
-        <div class="fig"><div class="fig-label">Upper (p90)</div><div class="fig-value" id="p90">&mdash;</div></div>
-      </div>
-      <p class="aggregate-line" id="aggregate-line"></p>
-    </section>
-
-    <section class="card">
-      <h2>Distribution of simulated outcomes <span class="hint" id="mc-meta"></span></h2>
-      <div id="histogram"></div>
-    </section>
-
-    <section class="card">
-      <h2>Where the cost comes from <span class="hint">median contribution by requirement family</span></h2>
-      <div id="families"></div>
-    </section>
-
-    <section class="card">
-      <h2>Bills in the dataset <span class="hint" id="bill-count"></span></h2>
-      <table id="bills-table">
-        <thead>
-          <tr><th>Bill</th><th>State</th><th>Requirement family</th><th>Binds</th><th>Key parameters</th><th>Status</th></tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-    </section>
-
-    <section class="card methodology">
-      <h2>Method in brief</h2>
-      <ul>
-        <li><strong>Bottom-up.</strong> Each bill is decomposed into duties &mdash; legal review, engineering
-        build, ongoing operations &mdash; with triangular hour estimates. Cost is hours &times; rates, the same
-        approach federal agencies use for regulatory burden estimates.</li>
-        <li><strong>Increment, not total.</strong> The first build in a requirement family stands in for what a
-        single federal standard would require; only per-state divergence beyond it is claimed.</li>
-        <li><strong>Reuse from statutes.</strong> Within a family, each additional state costs
-        (1&nbsp;&minus;&nbsp;reuse) of a fresh build. Reuse will be derived by comparing coded parameters
-        across states, not assigned.</li>
-        <li><strong>Range, not point.</strong> 4,000 Monte Carlo draws over duty hours (seeded, so results
-        are reproducible), with a shared estimation-error factor across bills so uncertainty doesn't
-        wash out in the sum. The conservative end leads.</li>
-      </ul>
-      <p class="note">Feedback welcome &mdash; open an issue on the repo or annotate anything that looks
-      wrong. The coded dataset will ship alongside the final version so every input is auditable.</p>
-    </section>
-  </main>
+    <aside class="state-panel" id="state-panel"></aside>
+  </div>
 
 </div>
+
+<!-- ================= TAB 2 · COST MODEL ================= -->
+<div id="tab-model" class="tab-panel hidden">
+
+  <header class="page-head">
+    <h1>What fragmentation costs</h1>
+    <p>What does state-by-state AI regulation cost a firm <em>above</em> a single hypothetical federal
+    standard? Bottom-up: hours &times; rates for specific duties, Monte Carlo over the inputs. Every
+    assumption is a control &mdash; move any of them and see what your own number is.</p>
+  </header>
+
+  <div class="layout">
+
+    <aside class="controls">
+      <section>
+        <h2>Hourly rates</h2>
+        <div class="control">
+          <label for="rate-legal">Outside / in-house counsel</label>
+          <div class="rate-row"><span>$</span><input type="number" id="rate-legal" min="0" step="10" value="350"><span>/hr</span></div>
+        </div>
+        <div class="control">
+          <label for="rate-eng">Software engineer</label>
+          <div class="rate-row"><span>$</span><input type="number" id="rate-eng" min="0" step="10" value="150"><span>/hr</span></div>
+        </div>
+        <div class="control">
+          <label for="rate-ops">Compliance operations</label>
+          <div class="rate-row"><span>$</span><input type="number" id="rate-ops" min="0" step="5" value="85"><span>/hr</span></div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Firm &amp; horizon</h2>
+        <div class="control">
+          <label for="firm-scale">Firm archetype <span class="hint">scales duty hours</span></label>
+          <select id="firm-scale">
+            <option value="0.4">Startup (0.4&times; hours)</option>
+            <option value="1" selected>Mid-size (1&times; hours)</option>
+            <option value="2.5">Large (2.5&times; hours)</option>
+          </select>
+        </div>
+        <div class="control">
+          <label for="horizon">Time horizon <output id="horizon-out">5 yr</output></label>
+          <input type="range" id="horizon" min="1" max="10" step="1" value="5">
+        </div>
+      </section>
+
+      <section>
+        <h2>Scope <span class="hint">who the bill binds</span></h2>
+        <div class="control check"><label><input type="checkbox" data-cat="company" checked> Companies <span class="hint">carries into estimate</span></label></div>
+        <div class="control check"><label><input type="checkbox" data-cat="criminal"> Criminal prohibitions</label></div>
+        <div class="control check"><label><input type="checkbox" data-cat="public-sector"> State agencies</label></div>
+        <div class="control check"><label><input type="checkbox" data-cat="education"> Schools</label></div>
+        <p class="note">Only bills that create compliance obligations on companies are counted by
+        default. Toggling the others shows what indiscriminate counting adds.</p>
+      </section>
+
+      <section>
+        <h2>Federal baseline</h2>
+        <div class="control check">
+          <label><input type="checkbox" id="baseline" checked> Count only the increment above a federal standard</label>
+        </div>
+        <p class="note">When on, the first build in each requirement family is not claimed &mdash; a firm
+        would do that work under a single federal rule anyway. Only per-state divergence costs count.</p>
+      </section>
+
+      <section>
+        <h2>Reuse factor</h2>
+        <div class="control check">
+          <label><input type="checkbox" id="reuse-override"> Override statute-derived reuse</label>
+        </div>
+        <div class="control">
+          <label for="reuse">Global reuse <output id="reuse-out">55%</output></label>
+          <input type="range" id="reuse" min="0" max="95" step="5" value="55" disabled>
+        </div>
+        <p class="note">How much of the work for one state carries to the next. Defaults are per-family
+        values that will come from coded statute parameters (age thresholds, notice timing, audit
+        frequency). Think they're wrong? Override with your own.</p>
+      </section>
+
+      <section>
+        <h2>Aggregate</h2>
+        <div class="control">
+          <label for="n-firms">Firms in scope nationally</label>
+          <input type="number" id="n-firms" min="1" step="100" value="1000">
+        </div>
+      </section>
+
+      <button id="reset">Reset to defaults</button>
+    </aside>
+
+    <main>
+      <section class="headline card">
+        <h2>Incremental cost per firm, <span id="headline-horizon">5-year</span> horizon</h2>
+        <div class="headline-figures">
+          <div class="fig lead"><div class="fig-label">Conservative (p10)</div><div class="fig-value" id="p10">&mdash;</div></div>
+          <div class="fig"><div class="fig-label">Central (p50)</div><div class="fig-value" id="p50">&mdash;</div></div>
+          <div class="fig"><div class="fig-label">Upper (p90)</div><div class="fig-value" id="p90">&mdash;</div></div>
+        </div>
+        <p class="aggregate-line" id="aggregate-line"></p>
+      </section>
+
+      <section class="card">
+        <h2>Distribution of simulated outcomes <span class="hint" id="mc-meta"></span></h2>
+        <div id="histogram"></div>
+      </section>
+
+      <section class="card">
+        <h2>Where the cost comes from <span class="hint">median contribution by requirement family</span></h2>
+        <div id="families"></div>
+      </section>
+
+      <section class="card">
+        <h2>Bills in the dataset <span class="hint" id="bill-count"></span></h2>
+        <table id="bills-table">
+          <thead>
+            <tr><th>Bill</th><th>State</th><th>Requirement family</th><th>Binds</th><th>Key parameters</th><th>Status</th></tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </section>
+
+      <section class="card methodology">
+        <h2>Method in brief</h2>
+        <ul>
+          <li><strong>Bottom-up.</strong> Each bill is decomposed into duties &mdash; legal review, engineering
+          build, ongoing operations &mdash; with triangular hour estimates. Cost is hours &times; rates, the same
+          approach federal agencies use for regulatory burden estimates.</li>
+          <li><strong>Increment, not total.</strong> The first build in a requirement family stands in for what a
+          single federal standard would require; only per-state divergence beyond it is claimed.</li>
+          <li><strong>Reuse from statutes.</strong> Within a family, each additional state costs
+          (1&nbsp;&minus;&nbsp;reuse) of a fresh build. Reuse will be derived by comparing coded parameters
+          across states, not assigned.</li>
+          <li><strong>Range, not point.</strong> 4,000 Monte Carlo draws over duty hours (seeded, so results
+          are reproducible), with a shared estimation-error factor across bills so uncertainty doesn't
+          wash out in the sum. The conservative end leads.</li>
+        </ul>
+        <p class="note">Feedback welcome &mdash; open an issue on the repo or annotate anything that looks
+        wrong. The coded dataset will ship alongside the final version so every input is auditable.</p>
+      </section>
+    </main>
+
+  </div>
+</div>
+
+<div id="tooltip" class="tooltip hidden"></div>
 
 <footer>
-  <p>Elliot Paschal &middot; August 2026 &middot; draft for feedback &middot; placeholder inputs pending statute coding</p>
+  <p>Elliot Paschal &middot; August 2026 &middot; draft for feedback &middot; placeholder inputs pending statute coding &middot;
+  <a href="https://github.com/elliotjames-paschal/state-ai-compliance-cost">source &amp; issues</a></p>
 </footer>
 
+<script src="data/us-map.js"></script>
 <script src="data/bills.js"></script>
 <script src="app.js"></script>
 </body>

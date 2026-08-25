@@ -5,6 +5,13 @@
 A bottom-up estimate of what state-by-state AI regulation costs a firm *above* a single
 hypothetical federal standard. Live dashboard: https://elliotjames-paschal.github.io/state-ai-compliance-cost/
 
+Two views:
+
+1. **State Law Explorer** — an interactive US map of the working dataset. Click a state for its
+   bills; filter by who each bill binds (companies, criminal prohibitions, state agencies, schools).
+   The exploratory starting point: see the laws before arguing about the cost.
+2. **Cost Model** — the bottom-up estimate with every assumption exposed as a control.
+
 ## How the model works
 
 - **Bottom-up.** Each bill is decomposed into duties — legal review, engineering build, ongoing
@@ -27,10 +34,11 @@ control so a skeptic can substitute their own and see what it produces.
 ## Repository layout
 
 ```
-index.html      dashboard markup
+index.html      markup for both tabs
 styles.css      styling
-app.js          model (Monte Carlo + reuse logic) and rendering — no dependencies, no build step
+app.js          explorer (map) + model (Monte Carlo, reuse logic) + rendering — no dependencies, no build step
 data/bills.js   the dataset; schema documented at the top of the file
+data/us-map.js  US state shapes (pre-projected Albers, decoded from us-atlas / Census Bureau)
 ```
 
 ## Status
