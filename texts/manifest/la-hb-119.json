@@ -1,0 +1,15 @@
+{
+ "id": "LA HB 119",
+ "slug": "la-hb-119",
+ "state": "LA",
+ "sourcePage": "https://www.legis.la.gov/legis/BillInfo.aspx?s=26rs&b=HB119&sbi=y",
+ "docUrl": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1481219",
+ "docFormat": "pdf",
+ "version": "Chaptered",
+ "rawFile": "texts/raw/la-hb-119.pdf",
+ "txtFile": "texts/la-hb-119.txt",
+ "chars": 14670,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3448538 (Chaptered 0000-00-00)"
+}

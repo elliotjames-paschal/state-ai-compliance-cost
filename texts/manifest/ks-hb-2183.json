@@ -1,0 +1,15 @@
+{
+ "id": "KS HB 2183",
+ "slug": "ks-hb-2183",
+ "state": "KS",
+ "sourcePage": "https://kslegislature.gov/li/b2025_26/measures/hb2183/",
+ "docUrl": "https://kslegislature.gov/li/b2025_26/measures/documents/hb2183_00_0000.pdf",
+ "docFormat": "pdf",
+ "version": "Introduced",
+ "rawFile": "texts/raw/ks-hb-2183.pdf",
+ "txtFile": "texts/ks-hb-2183.txt",
+ "chars": 14905,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3092919 (Introduced 2025-01-30)"
+}

@@ -1,0 +1,711 @@
+Enrolled Copy H.B. 110
+1 Offender Modifications
+2026 GENERAL SESSION
+STATE OF UTAH
+Chief Sponsor: Tyler Clancy
+Senate Sponsor: Michael K. McKell
+2  
+3 LONG TITLE
+4 General Description:
+5 This bill addresses provisions related to offenders.
+6 Highlighted Provisions:
+7 This bill:
+8 ▸ allows a court to order the Division of Adult Probation and Parole to supervise an
+9  individual convicted of class B misdemeanors under certain circumstances;
+10 ▸ requires the Board of Pardons and Parole (board), if considering whether to parole an
+11  offender who has previously been paroled and had the offender's parole revoked due to a
+12  new criminal offense, to consider the facts and circumstances of the new criminal
+13  offense in determining whether the offender should be paroled again;
+14 ▸ allows the board, with certain exceptions, to only consider a pardon for an offender who
+15  has committed an offense that requires the offender to register on the Sex, Kidnap, and
+16  Child Abuse Offender Registry (the registry) if:
+17  ● for a sex offender required to register on the registry for 10 years, 10 years have
+18  passed from when the sex offender entered the community after the sex offender's
+19  conviction; or
+20  ● for a sex offender required to register on the registry for the sex offender's lifetime, 20
+21  years have passed from when the sex offender entered the community after the sex
+22  offender's conviction;
+23 ▸ does not allow an offender who has committed an offense that requires the offender to
+24  register on the registry at the time the offender is sentenced to receive a certificate of
+25  eligibility of expungement from the Bureau of Criminal Identification; and
+26 ▸ adds to the requirements for the board to meet before the board may parole an offender
+27  before the offender's minimum term of imprisonment has been met.
+H.B. 110 Enrolled Copy
+28 Money Appropriated in this Bill:
+29 None
+30 Other Special Clauses:
+31 None
+32 Utah Code Sections Affected:
+33 AMENDS:
+34 64-14-204, as renumbered and amended by Laws of Utah 2025, Chapter 214
+35 77-18-105, as last amended by Laws of Utah 2025, First Special Session, Chapter 17
+36 77-27-5, as last amended by Laws of Utah 2025, Chapters 476, 526
+37 77-27-9, as last amended by Laws of Utah 2022, Chapter 430
+38 77-40a-303, as last amended by Laws of Utah 2025, Chapters 239, 277 and 291
+39 ENACTS:
+40 77-27-5.6, Utah Code Annotated 1953
+41 REPEALS:
+42 77-27-31, as enacted by Laws of Utah 1980, Chapter 15
+43  
+44 Be it enacted by the Legislature of the state of Utah:
+45 Section 1.  Section 64-14-204 is amended to read:
+46 64-14-204 . Supervision of sentenced offenders placed in community --
+47  Rulemaking -- POST certified parole or probation officers and peace officers -- Duties --
+48  Supervision fee -- Coordination with local mental health authority.
+49 (1)(a)  The division, except as otherwise provided by law, shall supervise a sentenced
+50 offender placed in the community if the offender:
+51 (i)(A)  is placed on probation by a court;
+52 (B)  is released on parole by the Board of Pardons and Parole; or
+53 (C)  is accepted for supervision under the terms of the Interstate Compact for the
+54 Supervision of Parolees and Probationers; and
+55 (ii)  has been convicted of:
+56 (A)  a felony;
+57 (B)  a class A misdemeanor when an element of the offense is the use or attempted
+58 use of physical force against an individual or property;[ or]
+59 (C)  notwithstanding Subsection (1)(a)(ii)(B), a class A misdemeanor if the
+60 division is ordered by a court to supervise the offender under Section 77-18-105[.] ;
+61 or
+- 2 -
+Enrolled Copy H.B. 110
+62 (D)  a class B misdemeanor if the division is ordered by a court to supervise the
+63 offender under Subsection 77-18-105(5)(b)(iii).
+64 (b)  If a sentenced offender participates in substance use treatment or a residential
+65 vocational or life skills program, as defined in Section 13-53-102, while under
+66 supervision on probation or parole, the division shall monitor the offender's
+67 compliance with and completion of the treatment or program.
+68 (c)  The department shall establish standards for:
+69 (i)  the supervision of offenders in accordance with the adult sentencing and
+70 supervision length guidelines, as defined in Section 63M-7-401.1, giving priority,
+71 based on available resources, to felony offenders and offenders sentenced under
+72 Subsection 58-37-8 (2)(b)(ii); and
+73 (ii)  the monitoring described in Subsection (1)(b).
+74 (2)  The division shall apply the graduated and evidence-based responses established in the
+75 adult sentencing and supervision length guidelines, as defined in Section 63M-7-401.1,
+76 to facilitate a prompt and appropriate response to an individual's violation of the terms of
+77 probation or parole, including:
+78 (a)  sanctions to be used in response to a violation of the terms of probation or parole; and
+79 (b)  requesting approval from the court or Board of Pardons and Parole to impose a
+80 sanction for an individual's violation of the terms of probation or parole, for a period
+81 of incarceration of not more than three consecutive days and not more than a total of
+82 six days within a period of 30 days.
+83 (3)  The division shall implement a program of graduated incentives as established in the
+84 adult sentencing and supervision length guidelines, as defined in Section 63M-7-401.1
+85 to facilitate the department's prompt and appropriate response to an offender's:
+86 (a)  compliance with the terms of probation or parole; or
+87 (b)  positive conduct that exceeds those terms.
+88 (4)(a)  The department shall, in collaboration with the State Commission on Criminal and
+89 Juvenile Justice and the Division of Substance Use and Mental Health, create
+90 standards and procedures for the collection of information, including cost savings
+91 related to recidivism reduction and the reduction in the number of inmates, related to
+92 the use of the graduated and evidence-based responses and graduated incentives, and
+93 offenders' outcomes.
+94 (b)  The collected information shall be provided to the State Commission on Criminal
+95 and Juvenile Justice not less frequently than annually on or before August 31.
+- 3 -
+H.B. 110 Enrolled Copy
+96 (5)  Employees of the division who are POST certified as law enforcement officers or
+97 correctional officers and who are designated as parole and probation officers by the
+98 executive director have the following duties:
+99 (a)  monitoring, investigating, and supervising a parolee's or probationer's compliance
+100 with the conditions of the parole or probation agreement;
+101 (b)  investigating or apprehending any offender who has escaped from the custody of the
+102 department or absconded from supervision by the division;
+103 (c)  supervising any offender during transportation; or
+104 (d)  collecting DNA specimens when the specimens are required under Section 53-10-404.
+105 (6)(a)(i)  A monthly supervision fee of $30 shall be collected from each offender on
+106 probation or parole.
+107 (ii)  The fee described in Subsection (6)(a)(i) may be suspended or waived by the
+108 division upon a showing by the offender that imposition would create a substantial
+109 hardship or if the offender owes restitution to a victim.
+110 (b)(i)  The department shall make rules in accordance with Title 63G, Chapter 3, Utah
+111 Administrative Rulemaking Act, specifying the criteria for suspension or waiver
+112 of the supervision fee and the circumstances under which an offender may request
+113 a hearing.
+114 (ii)  In determining whether the imposition of the supervision fee would constitute a
+115 substantial hardship, the division shall consider the financial resources of the
+116 offender and the burden that the fee would impose, with regard to the offender's
+117 other obligations.
+118 (c)  The division shall deposit money received from the monthly supervision fee
+119 established in this Subsection (6) into the General Fund as a parole and probation
+120 dedicated credit to be used to cover costs incurred in the collection of the fee and in
+121 the development of offender supervision programs.
+122 (7)(a)  For offenders placed on probation under Section 77-18-105 or parole under
+123 Subsection 76-3-202(2)(a) on or after October 1, 2015, but before January 1, 2019,
+124 the division shall establish a program allowing an offender to earn a reduction credit
+125 of 30 days from the offender's period of probation or parole for each month the
+126 offender complies with the terms of the offender's probation or parole agreement,
+127 including the case action plan.
+128 (b)(i)  For offenders placed on probation under Section 77-18-105 or parole under
+129 Section 76-3-202 on or after July 1, 2026, the division shall establish a program,
+- 4 -
+Enrolled Copy H.B. 110
+130 consistent with the adult sentencing and supervision length guidelines, as defined
+131 in Section 63M-7-401.1, to provide incentives for an offender that maintains
+132 eligible employment, as defined in Section 64-13g-101.
+133 (ii)  The program under Subsection (7)(b)(i) may include a credit towards the
+134 reduction of the length of supervision for an offender at a rate of up to 30 days for
+135 each month that the offender maintains eligible employment, as defined in Section
+136 64-13g-101.
+137 (iii)  A court, or the Board of Pardons and Parole, is not required to grant a request for
+138 termination of supervision under the program described in this Subsection (7)(b) if
+139 the court, or the Board of Pardons and Parole, finds that:
+140 (A)  the offender presents a substantial risk to public safety;
+141 (B)  termination would prevent the offender from completing risk reduction
+142 programming or treatment; or
+143 (C)  the eligibility criteria for termination of supervision, as established in the adult
+144 sentencing and supervision length guidelines, as defined in Section
+145 63M-7-401.1, have not been met.
+146 (iv)  This Subsection (7)(b) does not prohibit the division, or another supervision
+147 services provider, from requesting termination of supervision based on the
+148 eligibility criteria in the adult sentencing and supervision length guidelines, as
+149 defined in Section 63M-7-401.1.
+150 (c)  The division shall:
+151 (i)  maintain a record of credits earned by an offender under this Subsection (7); and
+152 (ii)  request from the court or the Board of Pardons and Parole the termination of
+153 probation or parole not fewer than 30 days prior to the termination date that
+154 reflects the credits earned under this Subsection (7).
+155 (d)  This Subsection (7) does not prohibit the division from requesting a termination date
+156 earlier than the termination date established by earned credits under Subsection (7)(c).
+157 (e)  The court or the Board of Pardons and Parole shall terminate an offender's probation
+158 or parole upon completion of the period of probation or parole accrued by time
+159 served and credits earned under this Subsection (7) unless the court or the Board of
+160 Pardons and Parole finds that termination would interrupt the completion of a
+161 necessary treatment program, in which case the termination of probation or parole
+162 shall occur when the treatment program is completed.
+163 (f)  The department shall report annually to the State Commission on Criminal and
+- 5 -
+H.B. 110 Enrolled Copy
+164 Juvenile Justice on or before August 31:
+165 (i)  the number of offenders who have earned probation or parole credits under this
+166 Subsection (7) in one or more months of the preceding fiscal year and the
+167 percentage of the offenders on probation or parole during that time that this
+168 number represents;
+169 (ii)  the average number of credits earned by those offenders who earned credits;
+170 (iii)  the number of offenders who earned credits by county of residence while on
+171 probation or parole;
+172 (iv)  the cost savings associated with sentencing reform programs and practices; and
+173 (v)  a description of how the savings will be invested in treatment and
+174 early-intervention programs and practices at the county and state levels.
+175 (8)(a)  The department shall coordinate with a local mental health authority to complete
+176 the requirements of this Subsection (8) for an offender who:
+177 (i)  is a habitual offender as that term is defined in Section 77-18-102;
+178 (ii)  has a mental illness as that term is defined in Section 26B-5-301; and
+179 (iii)  based on a risk and needs assessment:
+180 (A)  is at a high risk of reoffending; and
+181 (B)  has risk factors that may be addressed by available community-based services.
+182 (b)  For an offender described in Subsection (8)(a), at any time clinically appropriate or
+183 at least three months before termination of an offender's parole or expiration of an
+184 offender's sentence, the department shall coordinate with the Department of Health
+185 and Human Services and the relevant local mental health authority to provide
+186 applicable clinical assessments and transitional treatment planning and services for
+187 the offender so that the offender may receive appropriate treatment and support
+188 services after the termination of parole or expiration of sentence.
+189 (c)  The local mental health authority may determine whether the offender:
+190 (i)  meets the criteria for civil commitment;
+191 (ii)  meets the criteria for assisted outpatient treatment; or
+192 (iii)  would benefit from assignment to an assertive community treatment team or
+193 available community-based services.
+194 (d)  Based on the local mental health authority's determination under Subsection (8)(c),
+195 the local mental health authority shall, as appropriate:
+196 (i)  initiate an involuntary commitment court proceeding;
+197 (ii)  file a written application for assisted outpatient treatment; or
+- 6 -
+Enrolled Copy H.B. 110
+198 (iii)  seek to have the offender assigned to an assertive community treatment team or
+199 available community-based services.
+200 (e)  On or before November 1, 2025, the department shall provide a report to the Law
+201 Enforcement and Criminal Justice Interim Committee regarding any proposed
+202 changes to the requirements in this Subsection (8), including whether the
+203 requirements of this Subsection (8) should also apply to any other category of
+204 offenders.
+205 Section 2.  Section 77-18-105 is amended to read:
+206 77-18-105 . Pleas held in abeyance -- Suspension of a sentence -- Probation --
+207  Supervision -- Terms and conditions of probation -- Time periods for probation -- Bench
+208  supervision for payments on criminal accounts receivable.
+209 (1)  If a defendant enters a plea of guilty or no contest in conjunction with a plea in
+210 abeyance agreement, the court may hold the plea in abeyance:
+211 (a)  in accordance with Chapter 2a, Pleas in Abeyance; and
+212 (b)  under the terms of the plea in abeyance agreement.
+213 (2)  If a defendant is convicted, the court:
+214 (a)  shall impose a sentence in accordance with Section 76-3-201; and
+215 (b)  subject to Subsection (5), may suspend the execution of the sentence and place the
+216 defendant:
+217 (i)  on probation under the supervision of the division;
+218 (ii)  on probation under the supervision of an agency of a local government or a
+219 private organization; or
+220 (iii)  on court probation under the jurisdiction of the sentencing court.
+221 (3)(a)  The legal custody of all probationers under the supervision of the division is with
+222 the department.
+223 (b)  The legal custody of all probationers under the jurisdiction of the sentencing court is
+224 vested as ordered by the court.
+225 (c)  The court has continuing jurisdiction over all probationers.
+226 (4)(a)  Court probation may include an administrative level of services, including
+227 notification to the sentencing court of scheduled periodic reviews of the probationer's
+228 compliance with conditions.
+229 (b)  Supervised probation services provided by the division, an agency of a local
+230 government, or a private organization shall specifically address the defendant's risk
+231 of reoffending as identified by a screening or an assessment.
+- 7 -
+H.B. 110 Enrolled Copy
+232 (c)  If a court orders supervised probation and determines that a public probation
+233 provider is unavailable or inappropriate to supervise the defendant, the court shall
+234 make available to the defendant the list of private probation providers prepared by a
+235 criminal justice coordinating council under Section 17E-2-201.
+236 (5)(a)  Before ordering supervised probation, the court shall consider the supervision
+237 costs to the defendant for each entity that can supervise the defendant.
+238 (b)(i)  A court may order an agency of a local government to supervise the probation
+239 for an individual convicted of any crime if:
+240 (A)  the agency has the capacity to supervise the individual; and
+241 (B)  the individual's supervision needs will be met by the agency.
+242 (ii)  A court may only order:
+243 (A)  except as provided in Subsection (5)(b)(iii), the division to supervise the
+244 probation for an individual convicted of a class A misdemeanor or any felony;
+245 or
+246 (B)  a private organization to supervise the probation for an individual convicted of
+247 a class A, B, or C misdemeanor or an infraction.
+248 (iii)  A court may order the division to supervise the probation for an individual
+249 convicted of a class B misdemeanor if:
+250 (A)  the individual has previously been convicted of 5 or more class B
+251 misdemeanors;
+252 (B)  the court determines the individual is currently homeless; and
+253 (C)  the division consents to supervise the individual.
+254 (c)  A court may not order a specific private organization to supervise an individual
+255 unless there is only one private organization that can provide the specific supervision
+256 services required to meet the individual's supervision needs.
+257 (6)(a)  If a defendant is placed on probation, the court may order the defendant as a
+258 condition of the defendant's probation:
+259 (i)  to provide for the support of persons for whose support the defendant is legally
+260 liable;
+261 (ii)  to participate in available treatment programs, including any treatment program in
+262 which the defendant is currently participating if the program is acceptable to the
+263 court;
+264 (iii)  be voluntarily admitted to the custody of the Division of Substance Use and
+265 Mental Health for treatment at the Utah State Hospital in accordance with Section
+- 8 -
+Enrolled Copy H.B. 110
+266 77-18-106;
+267 (iv)  if the defendant is on probation for a felony offense, to serve a period of time as
+268 an initial condition of probation that does not exceed one year in a county jail
+269 designated by the department, after considering any recommendation by the court
+270 as to which jail the court finds most appropriate;
+271 (v)  to serve a term of home confinement in accordance with Section 77-18-107;
+272 (vi)  to participate in compensatory service programs, including the compensatory
+273 service program described in Section 76-3-410;
+274 (vii)  to pay for the costs of investigation, probation, or treatment services;
+275 (viii)  to pay restitution to a victim with interest in accordance with Chapter 38b,
+276 Crime Victims Restitution Act; or
+277 (ix)  to comply with other terms and conditions the court considers appropriate to
+278 ensure public safety or increase a defendant's likelihood of success on probation.
+279 (b)  If a defendant is placed on probation and a condition of the defendant's probation is
+280 routine or random drug testing, the defendant shall sign a waiver consistent with the
+281 Health Insurance Portability and Accountability Act, 42 U.S.C. Sec. 1320d et seq.,
+282 allowing the treatment provider conducting the drug testing to notify the defendant's
+283 supervising probation officer regarding the results of the defendant's drug testing.
+284 (c)(i)  Notwithstanding Subsection (6)(a)(iv), the court may modify the probation of a
+285 defendant to include a period of time that is served in a county jail immediately
+286 before the termination of probation as long as that period of time does not exceed
+287 one year.
+288 (ii)  If a defendant is ordered to serve time in a county jail as a sanction for a
+289 probation violation, the one-year limitation described in Subsection (6)(a)(iv) or
+290 (6)(c)(i) does not apply to the period of time that the court orders the defendant to
+291 serve in a county jail under this Subsection (6)(c)(ii).
+292 (7)(a)  Except as provided in Subsection (7)(b), probation of an individual placed on
+293 probation after December 31, 2018:
+294 (i)  may not exceed the individual's maximum sentence;
+295 (ii)  shall be for a period of time that is in accordance with the adult sentencing and
+296 supervision length guidelines, as defined in Section 63M-7-401.1, to the extent the
+297 guidelines are consistent with the requirements of the law; and
+298 (iii)  shall be terminated in accordance with the adult sentencing and supervision
+299 length guidelines, as defined in Section 63M-7-401.1, to the extent the guidelines
+- 9 -
+H.B. 110 Enrolled Copy
+300 are consistent with the requirements of the law.
+301 (b)  Probation of an individual placed on probation after December 31, 2018, whose
+302 maximum sentence is one year or less, may not exceed 36 months.
+303 (c)  Probation of an individual placed on probation on or after October 1, 2015, but
+304 before January 1, 2019, may be terminated at any time at the discretion of the court
+305 or upon completion without violation of 36 months probation in felony or class A
+306 misdemeanor cases, 12 months in cases of class B or C misdemeanors or infractions,
+307 or as allowed in accordance with Section 64-13-21 regarding earned credits.
+308 (d)  This Subsection (7) does not apply to the probation of an individual convicted of an
+309 offense for criminal nonsupport under Section 76-7-201.
+310 (8)(a)  Notwithstanding Subsection (7), if there is an unpaid balance of the criminal
+311 accounts receivable for the defendant upon termination of the probation period for
+312 the defendant under Subsection (7), the court may require the defendant to continue
+313 to make payments towards the criminal accounts receivable in accordance with the
+314 payment schedule established by the court under Section 77-32b-103.
+315 (b)  A court may not require the defendant to make payments as described in Subsection
+316 (8)(a) beyond the expiration of the defendant's sentence.
+317 (c)  If the court requires a defendant to continue to pay in accordance with the payment
+318 schedule for the criminal accounts receivable under this Subsection (8) and the
+319 defendant defaults on the criminal accounts receivable, the court shall proceed with
+320 an order for a civil judgment of restitution and a civil accounts receivable for the
+321 defendant as described in Section 77-18-114.
+322 (d)(i)  Upon a motion from the prosecuting attorney, the victim, or upon the court's
+323 own motion, the court may require a defendant to show cause as to why the
+324 defendant's failure to pay in accordance with the payment schedule should not be
+325 treated as contempt of court.
+326 (ii)  A court may hold a defendant in contempt for failure to make payments for a
+327 criminal accounts receivable in accordance with Title 78B, Chapter 6, Part 3,
+328 Contempt.
+329 (e)  This Subsection (8) does not apply to the probation of an individual convicted of an
+330 offense for criminal nonsupport under Section 76-7-201.
+331 (9)  When making any decision regarding probation:
+332 (a)  the court shall consider information provided by the Department of Corrections
+333 regarding a defendant's individual case action plan, including any progress the
+- 10 -
+Enrolled Copy H.B. 110
+334 defendant has made in satisfying the case action plan's completion requirements; and
+335 (b)  the court may not rely solely on an algorithm or a risk assessment tool score.
+336 Section 3.  Section 77-27-5 is amended to read:
+337 77-27-5 . Board of Pardons and Parole authority.
+338 (1)(a)  Subject to this chapter and other laws of the state, and except for a conviction for
+339 treason or impeachment, the board shall determine by majority decision when and
+340 under what conditions an offender's conviction may be pardoned or commuted.
+341 (b)  The board shall determine by majority decision when and under what conditions an
+342 offender committed to serve a sentence at a penal or correctional facility, which is
+343 under the jurisdiction of the department, may:
+344 (i)  be released upon parole;
+345 (ii)  have a fine or forfeiture remitted;
+346 (iii)  have the offender's criminal accounts receivable remitted in accordance with
+347 Section 77-32b-105 or 77-32b-106;
+348 (iv)  have the offender's payment schedule modified in accordance with Section
+349 77-32b-103; or
+350 (v)  have the offender's sentence terminated.
+351 (c)  The board shall prioritize public safety when making a determination under
+352 Subsection (1)(a) or (1)(b).
+353 (d)(i)  The board may sit together or in panels to conduct hearings.
+354 (ii)  The chair shall appoint members to the panels in any combination and in
+355 accordance with rules made by the board in accordance with Title 63G, Chapter 3,
+356 Utah Administrative Rulemaking Act.
+357 (iii)  The chair may participate on any panel and when doing so is chair of the panel.
+358 (iv)  The chair of the board may designate the chair for any other panel.
+359 (e)(i)  Except after a hearing before the board, or the board's appointed examiner, in
+360 an open session, the board may not:
+361 (A)  remit a fine or forfeiture for an offender or the offender's criminal accounts
+362 receivable;
+363 (B)  release the offender on parole; or
+364 (C)  commute, pardon, or terminate an offender's sentence.
+365 (ii)  An action taken under this Subsection (1) other than by a majority of the board
+366 shall be affirmed by a majority of the board.
+367 (f)  A commutation or pardon may be granted only after a full hearing before the board.
+- 11 -
+H.B. 110 Enrolled Copy
+368 (2)(a)  In the case of a hearing, timely prior notice of the time and location of the hearing
+369 shall be given to the offender.
+370 (b)  The county or district attorney's office responsible for prosecution of the case, the
+371 sentencing court, and law enforcement officials responsible for the defendant's arrest
+372 and conviction shall be notified of any board hearings through the board's website.
+373 (c)  Whenever possible, the victim or the victim's representative, if designated, shall be
+374 notified of original hearings and any hearing after that if notification is requested and
+375 current contact information has been provided to the board.
+376 (d)(i)  Notice to the victim or the victim's representative shall include information
+377 provided in Section 77-27-9.5, and any related rules made by the board under that
+378 section.
+379 (ii)  The information under Subsection (2)(d)(i) shall be provided in terms that are
+380 reasonable for the lay person to understand.
+381 (3)(a)  A decision by the board is final and not subject for judicial review if the decision
+382 is regarding:
+383 (i)  a pardon, parole, commutation, or termination of an offender's sentence;
+384 (ii)  restitution, the modification of an offender's payment schedule for restitution, or
+385 an order for costs; or
+386 (iii)  the remission of an offender's criminal accounts receivable or a fine or forfeiture.
+387 (b)  Deliberative processes are not public and the board is exempt from Title 52, Chapter
+388 4, Open and Public Meetings Act, when the board is engaged in the board's
+389 deliberative process.
+390 (c)  [Pursuant to] In accordance with Subsection 63G-2-103(25)(b)(xii), records of the
+391 deliberative process are exempt from Title 63G, Chapter 2, Government Records
+392 Access and Management Act.
+393 (d)  Unless it will interfere with a constitutional right, deliberative processes are not
+394 subject to disclosure, including discovery.
+395 (e)  Nothing in this section prevents the obtaining or enforcement of a civil judgment.
+396 (4)(a)  This chapter [may not be construed as a denial of or limitation of] does not deny or
+397 limit the governor's power to grant respite or reprieves in all cases of convictions for
+398 offenses against the state, except treason or conviction on impeachment.
+399 (b)  Notwithstanding Subsection (4)(a), respites or reprieves may not extend beyond the
+400 next session of the board.
+401 (c)  At the next session of the board, the board:
+- 12 -
+Enrolled Copy H.B. 110
+402 (i)  shall continue or terminate the respite or reprieve; or
+403 (ii)  may commute the punishment or pardon the offense as provided.
+404 (d)  In the case of conviction for treason, the governor may suspend execution of the
+405 sentence until the case is reported to the Legislature at the Legislature's next session.
+406 (e)  The Legislature shall pardon or commute the sentence or direct the sentence's
+407 execution.
+408 (5)(a)  In determining when, where, and under what conditions an offender serving a
+409 sentence may be paroled or pardoned, have a fine or forfeiture remitted, have the
+410 offender's criminal accounts receivable remitted, or have the offender's sentence
+411 commuted or terminated, the board shall:
+412 (i)  consider whether the offender has made restitution ordered by the court under
+413 Section 77-38b-205, or is prepared to pay restitution as a condition of any parole,
+414 pardon, remission of a criminal accounts receivable or a fine or forfeiture, or a
+415 commutation or termination of the offender's sentence;
+416 (ii)  except as provided in Subsection (5)(b), develop and use a list of criteria for
+417 making determinations under this Subsection (5);
+418 (iii)  consider information provided by the department regarding an offender's
+419 individual case action plan;[ and]
+420 (iv)  review an offender's status within 60 days after the day on which the board
+421 receives notice from the department that the offender has completed all of the
+422 offender's case action plan components that relate to activities that can be
+423 accomplished while the offender is imprisoned[.] ; and
+424 (v)  if considering whether to parole an offender who has previously been paroled and
+425 had the parole revoked due to the commission of a new criminal offense by the
+426 offender, consider the facts and circumstances of the new criminal offense when
+427 determining whether the offender should be paroled again.
+428 (b)  The board shall determine whether to remit an offender's criminal accounts
+429 receivable under this Subsection (5) in accordance with Section 77-32b-105 or
+430 77-32b-106.
+431 (6)  In determining whether parole may be terminated, the board shall consider:
+432 (a)  the offense committed by the parolee; and
+433 (b)  the parole period under Section 76-3-202, and in accordance with Section 77-27-13.
+434 (7)  For an offender placed on parole after December 31, 2018, the board shall terminate
+435 parole in accordance with the adult sentencing and supervision length guidelines, as
+- 13 -
+H.B. 110 Enrolled Copy
+436 defined in Section 63M-7-401.1, to the extent the guidelines are consistent with the
+437 requirements of the law.
+438 (8)  The board may not rely solely on an algorithm or a risk assessment tool score in
+439 determining whether parole should be granted or terminated for an offender.
+440 (9)  The board may intervene as a limited-purpose party in a judicial or administrative
+441 proceeding, including a criminal action, to seek:
+442 (a)  correction of an order that has or will impact the board's jurisdiction; or
+443 (b)  clarification regarding an order that may impact the board's jurisdiction.
+444 (10)  A motion to intervene brought under Subsection (9)(a) shall be raised within 60 days
+445 after the day on which a court enters the order that impacts the board's jurisdiction.
+446 Section 4.  Section 77-27-5.6 is enacted to read:
+447 77-27-5.6 . Pardon timelines for an offender on the Sex, Kidnap, and Child
+448  Abuse Offender Registry.
+449 (1)  As used in this section:
+450 (a)  "Division" means the Division of Juvenile Justice and Youth Services.
+451 (b)  "Minor" means the same as that term is defined in Section 80-1-102.
+452 (c)  "Registry" means the Sex, Kidnap, and Child Abuse Offender Registry created in
+453 Section 53-29-102.
+454 (d)  "Sex offender" means the same as that term is defined in Section 53-29-101.
+455 (2)  The board may only consider issuing a pardon to an offender for an offense that requires
+456 the offender to register as a sex offender on the registry if:
+457 (a)  for an offender who is required to register for 10 years under Subsection
+458 53-29-203(1)(a), 10 years have passed after the later of:
+459 (i)  the day on which the offender was placed on probation;
+460 (ii)  the day on which the offender was released from incarceration to parole;
+461 (iii)  the day on which the offender's sentence was terminated without parole;
+462 (iv)  the day on which the offender entered a community-based residential program; or
+463 (v)  for a minor, the day on which the division's custody of the offender was
+464 terminated; or
+465 (b)  for an offender who is required to register for the offender's lifetime under
+466 Subsection 53-29-203(1)(b), 20 years have passed after the later of:
+467 (i)  the day on which the offender was placed on probation;
+468 (ii)  the day on which the offender was released from incarceration to parole;
+469 (iii)  the day on which the offender's sentence was terminated without parole;
+- 14 -
+Enrolled Copy H.B. 110
+470 (iv)  the day on which the offender entered a community-based residential program; or
+471 (v)  for a minor, the day on which the division's custody of the offender was
+472 terminated.
+473 (3)  The timelines described in Subsection (2) do not apply to:
+474 (a)  an individual whose conviction was vacated, reversed, or otherwise set aside; or
+475 (b)  an individual who was found to be factually innocent by a court after filing a petition
+476 for:
+477 (i)  postconviction relief under Title 78B, Chapter 9, Postconviction Remedies Act; or
+478 (ii)  a writ of habeas corpus under 28 U.S.C. Sec. 2254.
+479 Section 5.  Section 77-27-9 is amended to read:
+480 77-27-9 . Parole proceedings.
+481 (1)(a)  The Board of Pardons and Parole may parole any offender or terminate the
+482 sentence of any offender committed to a penal or correctional facility under the
+483 jurisdiction of the Department of Corrections except as provided in Subsection (2).
+484 (b)  The board may not release any offender before the minimum term has been served
+485 unless the board:
+486 (i)  [ ]finds mitigating circumstances which justify the release;
+487 (ii)  finds by clear and convincing evidence that the offender is no longer a threat to
+488 public safety; and
+489 (iii)  [ unless the board has granted] holds a full hearing, in open session, after
+490 previous notice of the time and location of the hearing, and recorded the
+491 proceedings and decisions of the board.
+492 (c)  The board may not parole any offender or terminate the sentence of any offender
+493 unless the board has granted a full hearing, in open session, after previous notice of
+494 the time and location of the hearing, and recorded the proceedings and decisions of
+495 the board.
+496 (d)  The release of an offender shall be at the initiative of the board, which shall consider
+497 each case as the offender becomes eligible.  However, a prisoner may submit the
+498 prisoner's own application, subject to the rules of the board promulgated in
+499 accordance with Title 63G, Chapter 3, Utah Administrative Rulemaking Act.
+500 (2)(a)  An individual sentenced to prison [prior to] before April 29, 1996, for a first
+501 degree felony involving child kidnapping, a violation of Section 76-5-301.1;
+502 aggravated kidnapping, a violation of Section 76-5-302; rape of a child, a violation of
+503 Section 76-5-402.1; object rape of a child, a violation of Section 76-5-402.3; sodomy
+- 15 -
+H.B. 110 Enrolled Copy
+504 upon a child, a violation of Section 76-5-403.1; aggravated sexual abuse of a child, a
+505 violation of Section 76-5-404.3; aggravated sexual assault, a violation of Section
+506 76-5-405; or a prior offense as described in Section 76-3-407, may not be eligible for
+507 release on parole by the Board of Pardons and Parole until the offender has fully
+508 completed serving the minimum mandatory sentence imposed by the court. [ ]This
+509 Subsection (2)(a) supersedes any other provision of law.
+510 (b)  The board may not parole any offender or commute or terminate the sentence of any
+511 offender before the offender has served the minimum term for the offense, if the
+512 offender was sentenced [prior to] before April 29, 1996, and if:
+513 (i)  the offender was convicted of forcible sexual abuse, forcible sodomy, rape,
+514 aggravated assault, kidnapping, aggravated kidnapping, or aggravated sexual
+515 assault as defined in Title 76, Chapter 5, Offenses Against the Individual; and
+516 (ii)  the victim of the offense was under 18 years old at the time the offense was
+517 committed.
+518 (c)  For a crime committed on or after April 29, 1996, but before January 1, 2019, the
+519 board may parole any offender under Subsections (2)(b)(i) and (ii) for lifetime parole
+520 as provided in this section.
+521 (d)  The board may not pardon or parole any offender or commute or terminate the
+522 sentence of any offender who is sentenced to life in prison without parole except as
+523 provided in Subsection (7).
+524 (e)  [On or after April 27, 1992, the] The board may commute a sentence of death only to
+525 a sentence of life in prison without parole.
+526 (f)  The restrictions imposed in Subsections (2)(d) and (e) apply to all cases that come
+527 before the Board of Pardons and Parole on or after April 27, 1992.
+528 (g)  The board may not parole any offender convicted of a homicide unless:
+529 (i)  the remains of the victim have been recovered; or
+530 (ii)  the offender can demonstrate by a preponderance of the evidence that the
+531 offender has cooperated in good faith in efforts to locate the remains.
+532 (h)  Subsection (2)(g) applies to any offender convicted of a homicide after February 25,
+533 2021, or any offender who was incarcerated in a correctional facility on or after
+534 February 25, 2021, for a homicide offense.
+535 (3)  The board may rescind:
+536 (a)  an inmate's prison release date [prior to] before the inmate being released from
+537 custody; or
+- 16 -
+Enrolled Copy H.B. 110
+538 (b)  an offender's termination date from parole [prior to] before the offender being
+539 terminated from parole.
+540 (4)(a)  The board may issue subpoenas to compel the attendance of witnesses and the
+541 production of evidence, to administer oaths, and to take testimony for the purpose of
+542 any investigation by the board or any of the board's members or by a designated
+543 hearing examiner in the performance of the board's duties.
+544 (b)  A person who willfully disobeys a properly served subpoena issued by the board is
+545 guilty of a class B misdemeanor.
+546 (5)(a)  The board may adopt rules consistent with law for the board's government,
+547 meetings and hearings, the conduct of proceedings before the board, the parole and
+548 pardon of offenders, the commutation and termination of sentences, and the general
+549 conditions under which parole may be granted and revoked.
+550 (b)  The rules shall ensure an adequate opportunity for victims to participate at hearings
+551 held under this chapter, as provided in Section 77-27-9.5.
+552 (c)  The rules may allow the board to establish reasonable and equitable time limits on
+553 the presentations by all participants in hearings held under this chapter.
+554 (6)  The board does not provide counseling or therapy for victims as a part of their
+555 participation in any hearing under this chapter.
+556 (7)  The board may parole a person sentenced to life in prison without parole if the board
+557 finds by clear and convincing evidence that the person is permanently incapable of being
+558 a threat to the safety of society.
+559 Section 6.  Section 77-40a-303 is amended to read:
+560 77-40a-303 . Requirements for a certificate of eligibility to expunge records of a
+561  conviction.
+562 (1)  Except as otherwise provided by this section, a petitioner is eligible to receive a
+563 certificate of eligibility from the bureau to expunge the records of a conviction if:
+564 (a)  the petitioner has paid in full all fines and interest ordered by the court related to the
+565 conviction for which expungement is sought;
+566 (b)  the petitioner has paid in full all restitution ordered by the court under Section
+567 77-38b-205; and
+568 (c)  the following time periods have passed after the day on which the petitioner was
+569 convicted or released from incarceration, parole, or probation, whichever occurred
+570 last, for the conviction that the petitioner seeks to expunge:
+571 (i)  10 years for the conviction of a misdemeanor under Subsection 41-6a-501(2);
+- 17 -
+H.B. 110 Enrolled Copy
+572 (ii)  10 years for the conviction of a felony for operating a motor vehicle with any amount of a
+573 controlled substance in an individual's body and causing serious bodily injury or death, as
+574 codified before May 4, 2022, Laws of Utah 2021,
+575 Chapter 236, Section 1, Subsection 58-37-8(2)(g);
+576 (iii)  seven years for the conviction of a felony;
+577 (iv)  five years for the conviction of a drug possession offense that is a felony;
+578 (v)  five years for the conviction of a class A misdemeanor;
+579 (vi)  four years for the conviction of a class B misdemeanor; or
+580 (vii)  three years for the conviction of a class C misdemeanor or infraction.
+581 (2)  A petitioner is not eligible to receive a certificate of eligibility from the bureau to
+582 expunge the records of a conviction under Subsection (1) if:
+583 (a)  except as provided in Subsection (3), the conviction for which expungement is
+584 sought is:
+585 (i)  a capital felony;
+586 (ii)  a first degree felony;
+587 (iii)  a felony conviction of a violent felony as defined in Subsection
+588 76-3-203.5(1)(c)(i);
+589 (iv)  a felony conviction described in Subsection 41-6a-501(2); or
+590 (v)  an offense, or a combination of offenses, that require registration as a sex
+591 offender, kidnap offender, or child abuse offender under Title 53, Chapter 29, Sex,
+592 Kidnap, and Child Abuse Registry, at the time of sentencing or at the time of the
+593 application for the certificate of eligibility;
+594 (b)  there is a criminal proceeding for a misdemeanor or felony offense pending against
+595 the petitioner, unless the criminal proceeding is for a traffic offense;
+596 (c)  there is a plea in abeyance for a misdemeanor or felony offense pending against the
+597 petitioner, unless the plea in abeyance is for a traffic offense;
+598 (d)  the petitioner is currently incarcerated, on parole, or on probation, unless the
+599 petitioner is on probation or parole for an infraction, a traffic offense, or a minor
+600 regulatory offense;
+601 (e)  the petitioner intentionally or knowingly provides false or misleading information on
+602 the application for a certificate of eligibility;
+603 (f)  there is a civil protective order, a criminal protective order, or a criminal stalking
+604 injunction against the petitioner that is in effect; or
+605 (g)  the bureau determines that the petitioner's criminal history makes the petitioner
+- 18 -
+Enrolled Copy H.B. 110
+606 ineligible for a certificate of eligibility under Subsection (4) or (5).
+607 (3)  Subsection (2)(a) does not apply to a conviction for a qualifying sexual offense, as
+608 defined in Section 76-3-209, if, at the time of the offense, a petitioner who committed
+609 the offense was at least 14 years old but under 18 years old, unless the petitioner was
+610 convicted by a district court as an adult in accordance with Title 80, Chapter 6, Part 5,
+611 Minor Tried as an Adult.
+612 (4)  Subject to Subsections (6), (7), and (8), a petitioner is not eligible to receive a certificate
+613 of eligibility if, at the time the petitioner seeks the certificate of eligibility, the bureau
+614 determines that the petitioner's criminal history, including previously expunged
+615 convictions, contains any of the following:
+616 (a)  two or more felony convictions other than for drug possession offenses, each of
+617 which is contained in a separate criminal episode;
+618 (b)  any combination of three or more convictions other than for drug possession offenses
+619 that include two class A misdemeanor convictions, each of which is contained in a
+620 separate criminal episode;
+621 (c)  any combination of four or more convictions other than for drug possession offenses
+622 that include three class B misdemeanor convictions, each of which is contained in a
+623 separate criminal episode; or
+624 (d)  five or more convictions other than for drug possession offenses of any degree
+625 whether misdemeanor or felony, each of which is contained in a separate criminal
+626 episode.
+627 (5)  Subject to Subsections (7) and (8), a petitioner is not eligible to receive a certificate of
+628 eligibility if, at the time the petitioner seeks the certificate of eligibility, the bureau
+629 determines that the petitioner's criminal history, including previously expunged
+630 convictions, contains any of the following:
+631 (a)  three or more felony convictions for drug possession offenses, each of which is
+632 contained in a separate criminal episode; or
+633 (b)  any combination of five or more convictions for drug possession offenses, each of
+634 which is contained in a separate criminal episode.
+635 (6)  If the petitioner's criminal history contains convictions for both a drug possession
+636 offense and a non-drug possession offense arising from the same criminal episode, the
+637 bureau shall count that criminal episode as a conviction under Subsection (4) if any
+638 non-drug possession offense in that episode:
+639 (a)  is a felony or class A misdemeanor; or
+- 19 -
+H.B. 110 Enrolled Copy
+640 (b)  has the same or a longer waiting period under Subsection (1)(c) than any drug
+641 possession offense in that episode.
+642 (7)  Except as provided in Subsection (8), if at least 10 years have passed after the day on
+643 which the petitioner was convicted or released from incarceration, parole, or probation,
+644 whichever occurred last, for all convictions:
+645 (a)  each numerical eligibility limit under Subsections (4)(a) and (b) shall be increased by
+646 one; and
+647 (b)  each numerical eligibility limit under Subsections (4)(c) and (d) is not applicable if
+648 the highest level of convicted offense in the criminal episode is:
+649 (i)  a class B misdemeanor;
+650 (ii)  a class C misdemeanor;
+651 (iii)  a drug possession offense if none of the non-drug possession offenses in the
+652 criminal episode are a felony or a class A misdemeanor; or
+653 (iv)  an infraction.
+654 (8)  When determining whether a petitioner is eligible for a certificate of eligibility under
+655 Subsection (4), (5), or (7), the bureau may not consider a petitioner's pending case or
+656 prior conviction for:
+657 (a)  an infraction;
+658 (b)  a traffic offense;
+659 (c)  a minor regulatory offense; or
+660 (d)  a clean slate eligible case that was automatically expunged.
+661 (9)  If the petitioner received a pardon before May 14, 2013, from the Board of Pardons and
+662 Parole, the petitioner is entitled to an expungement order for all pardoned crimes in
+663 accordance with Section 77-27-5.1.
+664 Section 7.  Repealer.
+665 This bill repeals:
+666 Section 77-27-31, Short title.
+667 Section 8.  Effective Date.
+668 This bill takes effect on May 6, 2026.
+- 20 -

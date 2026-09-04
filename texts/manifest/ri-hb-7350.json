@@ -1,0 +1,15 @@
+{
+ "id": "RI HB 7350",
+ "slug": "ri-hb-7350",
+ "state": "RI",
+ "sourcePage": "https://status.rilegislature.gov/",
+ "docUrl": "https://webserver.rilegislature.gov/BillText26/HouseText26/H7350Aaa.pdf",
+ "docFormat": "pdf",
+ "version": "Amended",
+ "rawFile": "texts/raw/ri-hb-7350.pdf",
+ "txtFile": "texts/ri-hb-7350.txt",
+ "chars": 6492,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3446673 (Amended 2026-06-08)"
+}

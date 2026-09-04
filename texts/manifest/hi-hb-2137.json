@@ -1,0 +1,15 @@
+{
+ "id": "HI HB 2137",
+ "slug": "hi-hb-2137",
+ "state": "HI",
+ "sourcePage": "https://www.capitol.hawaii.gov/sessions/session2026/bills/HB2137_CD1_.HTM",
+ "docUrl": "https://www.capitol.hawaii.gov/sessions/session2026/bills/HB2137_CD1_.HTM",
+ "docFormat": "html",
+ "version": "CD1 (final)",
+ "rawFile": "texts/raw/hi-hb-2137.html",
+ "txtFile": "texts/hi-hb-2137.txt",
+ "chars": 8187,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "LegiScan copies are summary stubs; original recovered via Wayback Machine snapshot 2026-07-22"
+}

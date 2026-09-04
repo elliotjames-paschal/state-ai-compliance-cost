@@ -1,0 +1,691 @@
+                STATE OF NEW YORK
+
+        ________________________________________________________________________
+
+                                          8831
+
+                    IN SENATE
+
+                                     January 8, 2026
+                                       ___________
+
+        Introduced  by Sen. GONZALEZ -- read twice and ordered printed, and when
+          printed to be committed to the Committee on Rules
+
+        AN ACT to amend the state technology law,  the  education  law  and  the
+          civil  service  law,  in  relation  to the use of automated employment
+          decision-making tools and artificial intelligence systems  by  certain
+          state  and  local  entities;  to  amend  a chapter of the laws of 2025
+          amending the state technology law, the education  law  and  the  civil
+          service  law relating to automated decision-making by government agen-
+          cies, as proposed in  legislative  bills  numbers  S.  7599-C  and  A.
+          8295-D,  in  relation  to  the  effectiveness  thereof;  and to repeal
+          certain provisions of the state technology law, the education law, the
+          civil service law and a chapter of the laws of 2025 amending the state
+          technology law, the education law and the civil service  law  relating
+          to  automated  decision-making  by government agencies, as proposed in
+          legislative bills numbers S. 7599-C and A.  8295-D, relating thereto
+
+          
+The People of the State of New York, represented in Senate and  Assem-
+bly, do enact as follows:
+
+     1    Section  1. Article 5 of the state technology law, as added by a chap-
+     2  ter of the laws of 2025 amending the state technology law, the education
+     3  law and the civil service law relating to automated  decision-making  by
+     4  government  agencies, as proposed in legislative bills numbers S. 7599-C
+     5  and A. 8295-D, is REPEALED.
+     6    § 2. Section 103-f of the state technology law, as added by a  chapter
+     7  of the laws of 2025 amending the state technology law, the education law
+     8  and  the  civil  service  law  relating  to automated decision-making by
+     9  government agencies, as proposed in legislative bills numbers S.  7599-C
+    10  and A.  8295-D, is REPEALED.
+    11    §  3.  Section  3  of a chapter of the laws of 2025 amending the state
+    12  technology law, the education law and the civil service law relating  to
+    13  automated  decision-making by government agencies, as proposed in legis-
+    14  lative bills numbers S. 7599-C and A. 8295-D, is REPEALED.
+    15    § 4. Section 401 of the state technology law is amended  by  adding  a
+    16  new subdivision 3 to read as follows:
+
+         EXPLANATION--Matter in 
+italics
+ (underscored) is new; matter in brackets
+                              [
+] is old law to be omitted.
+                                                                   LBD11535-20-6
+
+        S. 8831                             2
+
+     1    
+3. "Covered entity" shall mean any county, city, town, village, school
+
+     2  
+district,  board  of cooperative educational services, county vocational
+
+     3  
+education and extension board, district corporation, the state universi-
+
+     4  
+ty of New York, the city university of New York, or community college.
+
+     5    §  5.  The section heading of section 402 of the state technology law,
+     6  as amended by chapter 96 of the laws of 2025,  is  amended  to  read  as
+     7  follows:
+     8    Disclosure of automated employment decision-making tools 
+used by state
+
+     9  
+agencies
+.
+    10    § 6. The state technology law is amended by adding a new section 402-a
+    11  to read as follows:
+    12    
+§ 402-a. Disclosure of automated employment decision-making tools used
+
+    13  
+by  covered  entities.  To  the extent feasible, any covered entity that
+
+    14  
+utilizes an automated employment decision-making tool, shall  publish  a
+
+    15  
+list  of such automated employment decision-making tools on such covered
+
+    16  
+entity's website no later than the thirtieth of December next succeeding
+
+    17  
+the date on which this section shall have become  a  law,  and  annually
+
+    18  
+thereafter. To the extent feasible, such disclosure shall include:
+
+    19    
+1.  a  description  of  the  automated employment decision-making tool
+
+    20  
+utilized by such covered entity;
+
+    21    
+2. the date that the covered entity use of such  automated  employment
+
+    22  
+decision-making tool began;
+
+    23    
+3. a summary of the purpose and use of such automated employment deci-
+
+    24  
+sion-making tool; and
+
+    25    
+4. any other information deemed relevant by the covered entity.
+
+    26    §  7.  Section  1950  of  the education law is amended by adding a new
+    27  subdivision 20 to read as follows:
+    28    
+20. (a) The use of artificial  intelligence  systems,  as  defined  by
+
+    29  
+section  one  hundred  three-e  of  the  state technology law, shall not
+
+    30  
+affect the:  (i) existing rights of employees pursuant  to  an  existing
+
+    31  
+collective  bargaining  agreement; or (ii) the existing representational
+
+    32  
+relationships among employee organizations or the  bargaining  relation-
+
+    33  
+ships between the employer and an employee organization.
+
+    34    
+(b)  The  use of such artificial intelligence systems shall not result
+
+    35  
+in the: (i) discharge,  displacement  or  loss  of  position,  including
+
+    36  
+partial  displacement  such  as a reduction in the hours of non-overtime
+
+    37  
+work, wages, or employment benefits, or  result  in  the  impairment  of
+
+    38  
+existing  collective bargaining agreements; or (ii) transfer of existing
+
+    39  
+duties and functions currently performed by employees of  the  board  of
+
+    40  
+cooperative educational services to an artificial intelligence system.
+
+    41    
+(c) The use of such artificial intelligence system shall not alter the
+
+    42  
+rights  or  benefits, and privileges, including but not limited to terms
+
+    43  
+and conditions of employment and civil service  status.  The  collective
+
+    44  
+bargaining unit membership status of all existing employees of the board
+
+    45  
+of education shall be preserved and protected.
+
+    46    § 8. Subdivision 4 of section 2510 of the education law, as added by a
+    47  chapter  of  the  laws  of  2025  amending the state technology law, the
+    48  education law and the civil service law relating to automated  decision-
+    49  making  by government agencies, as proposed in legislative bills numbers
+    50  S. 7599-C and A. 8295-D, is amended to read as follows:
+    51    4. (a) The use  of  artificial  intelligence  systems  as  defined  by
+    52  section  one  hundred three-e of the state technology law [
+and automated
+
+    53  
+decision-making tools as defined by section  five  hundred  one  of  the
+
+    54  
+state  technology  law
+]  shall  not  affect  (i)  the existing rights of
+    55  employees pursuant to an existing collective  bargaining  agreement,  or
+    56  (ii)  the  existing representational relationships among employee organ-
+
+        S. 8831                             3
+
+     1  izations or the bargaining relationships between  the  employer  and  an
+     2  employee organization.
+     3    (b)  The  use  of  such artificial intelligence systems [
+and automated
+
+     4  
+decision-making tools
+] shall not result in the: (i) discharge, displace-
+     5  ment or loss of position,  including  partial  displacement  such  as  a
+     6  reduction  in the hours of non-overtime work, wages, or employment bene-
+     7  fits, or result in the  impairment  of  existing  collective  bargaining
+     8  agreements;  or (ii) transfer of existing duties and functions currently
+     9  performed by employees of the [
+state or any agency or  public  authority
+
+    10  
+thereof
+]  
+school district
+ to an artificial intelligence system [
+or auto-
+
+    11  
+mated decision-making tool
+].
+    12    (c) The use of such artificial intelligence system [
+or automated deci-
+
+    13  
+sion-making tool
+] shall not alter the rights  or  benefits,  and  privi-
+    14  leges,  including  but not limited to terms and conditions of employment
+    15  and civil service status.  The  collective  bargaining  unit  membership
+    16  status  of  all  existing  employees  of the board of education shall be
+    17  preserved and protected.
+    18    § 9. Subdivision 5 of section 2585 of the education law, as added by a
+    19  chapter of the laws of 2025  amending  the  state  technology  law,  the
+    20  education  law and the civil service law relating to automated decision-
+    21  making by government agencies, as proposed in legislative bills  numbers
+    22  S. 7599-C and A. 8295-D, is amended to read as follows:
+    23    5.  (a)  The  use  of  artificial  intelligence  systems as defined by
+    24  section one hundred three-e of the state technology law  [
+and  automated
+
+    25  
+decision-making  tools  as  defined  by  section five hundred one of the
+
+    26  
+state technology law
+] shall  not  affect  (i)  the  existing  rights  of
+    27  employees  pursuant  to  an existing collective bargaining agreement, or
+    28  (ii) the existing representational relationships among  employee  organ-
+    29  izations  or  the  bargaining  relationships between the employer and an
+    30  employee organization.
+    31    (b) The use of such artificial  intelligence  systems  [
+and  automated
+
+    32  
+decision-making tools
+] shall not result in the: (i) discharge, displace-
+    33  ment  or  loss  of  position,  including  partial displacement such as a
+    34  reduction in the hours of non-overtime work, wages, or employment  bene-
+    35  fits,  or  result  in  the  impairment of existing collective bargaining
+    36  agreements; or (ii) transfer of existing duties and functions  currently
+    37  performed  by  employees of the [
+state or any agency or public authority
+
+    38  
+thereof
+] 
+school district
+ to an artificial intelligence system [
+or  auto-
+
+    39  
+mated decision making tool
+].
+    40    (c)  The  use  of  such  artificial intelligence system [
+and automated
+
+    41  
+decision-making tool
+] shall not alter the rights or benefits, and privi-
+    42  leges, including but not limited to terms and conditions  of  employment
+    43  and  civil  service  status.  The  collective bargaining unit membership
+    44  status of all existing employees of the  board  of  education  shall  be
+    45  preserved and protected.
+    46    §  10. Subdivision 9 of section 2588 of the education law, as added by
+    47  a chapter of the laws of 2025 amending the  state  technology  law,  the
+    48  education  law and the civil service law relating to automated decision-
+    49  making by government agencies, as proposed in legislative bills  numbers
+    50  S. 7599-C and A. 8295-D, is amended to read as follows:
+    51    9.  (a)  The  use  of  artificial  intelligence  systems as defined by
+    52  section one hundred three-e of the state technology law  [
+and  automated
+
+    53  
+decision-making  tools  as  defined  by  section five hundred one of the
+
+    54  
+state technology law
+] shall  not  affect  (i)  the  existing  rights  of
+    55  employees  pursuant  to  an existing collective bargaining agreement, or
+    56  (ii) the existing representational relationships among  employee  organ-
+
+        S. 8831                             4
+
+     1  izations  or  the  bargaining  relationships between the employer and an
+     2  employee organization.
+     3    (b)  The  use of such artificial intelligence systems shall not result
+     4  in the: (i) discharge,  displacement  or  loss  of  position,  including
+     5  partial  displacement  such  as a reduction in the hours of non-overtime
+     6  work, wages, or employment benefits, or  result  in  the  impairment  of
+     7  existing  collective bargaining agreements; or (ii) transfer of existing
+     8  duties and functions currently performed by [
+employees of
+] the [
+state or
+
+     9  
+any agency or public authority thereof to and
+] 
+teaching and  supervisory
+
+    10  
+staff  of  the city school district to an
+ artificial intelligence system
+    11  [
+or automated decision-making tool
+].
+    12    (c) The use of such  artificial  intelligence  system  [
+and  automated
+
+    13  
+decision-making tool
+] shall not alter the rights or benefits, and privi-
+    14  leges,  including  but not limited to terms and conditions of employment
+    15  and civil service status.  The  collective  bargaining  unit  membership
+    16  status  of  all  existing  employees  of the board of education shall be
+    17  preserved and protected.
+    18    § 11. Subdivision 4 of section 3013 of the education law, as added  by
+    19  a  chapter  of  the  laws of 2025 amending the state technology law, the
+    20  education law and the civil service law relating to automated  decision-
+    21  making  by government agencies, as proposed in legislative bills numbers
+    22  S. 7599-C and A. 8295-D, is amended to read as follows:
+    23    4. (a) The use  of  artificial  intelligence  systems  as  defined  by
+    24  section  one  hundred three-e of the state technology law [
+and automated
+
+    25  
+decision-making tools as defined by section  five  hundred  one  of  the
+
+    26  
+state  technology  law
+]  shall  not  affect  (i)  the existing rights of
+    27  employees pursuant to an existing collective  bargaining  agreement,  or
+    28  (ii)  the  existing representational relationships among employee organ-
+    29  izations or the bargaining relationships between  the  employer  and  an
+    30  employee organization.
+    31    (b)  The  use  of  such artificial intelligence systems [
+and automated
+
+    32  
+decision-making tools
+] shall not result in the: (i) discharge, displace-
+    33  ment or loss of position,  including  partial  displacement  such  as  a
+    34  reduction  in the hours of non-overtime work, wages, or employment bene-
+    35  fits, or result in the  impairment  of  existing  collective  bargaining
+    36  agreements;  or (ii) transfer of existing duties and functions currently
+    37  performed by employees of the [
+state or any agency or  public  authority
+
+    38  
+thereof
+]  
+school  district, board of cooperative educational services or
+
+    39  
+county vocational education and extension board
+ to an artificial  intel-
+    40  ligence system [
+or automated decision-making tool
+].
+    41    (c)  The  use  of  such  artificial intelligence system [
+and automated
+
+    42  
+decision-making tool
+] shall not alter the rights or benefits, and privi-
+    43  leges, including but not limited to terms and conditions  of  employment
+    44  and  civil  service  status.  The  collective bargaining unit membership
+    45  status of all existing employees of the board  of  education,  board  of
+    46  cooperative  educational services, or board of trustees thereof shall be
+    47  preserved and protected.
+    48    § 12. Subdivision 10 of section  80  of  the  civil  service  law,  as
+    49  amended  by  a chapter of the laws of 2025 amending the state technology
+    50  law, the education law and the civil service law relating  to  automated
+    51  decision-making by government agencies, as proposed in legislative bills
+    52  numbers S. 7599-C and A. 8295-D, is amended to read as follows:
+    53    10.  (a)  The  use  of  artificial  intelligence systems as defined by
+    54  section one hundred three-e of the state technology law  [
+and  automated
+
+    55  
+decision-making  tools  as  defined  by  section five hundred one of the
+
+    56  
+state technology law
+] shall  not  affect  (i)  the  existing  rights  of
+
+        S. 8831                             5
+
+     1  employees  pursuant  to  an existing collective bargaining agreement, or
+     2  (ii) the existing representational relationships among  employee  organ-
+     3  izations  or  the  bargaining  relationships between the employer and an
+     4  employee organization.
+     5    (b)  The  use  of  such artificial intelligence systems [
+and automated
+
+     6  
+decision-making tools
+] shall not result in the: (i) discharge, displace-
+     7  ment or loss of position,  including  partial  displacement  such  as  a
+     8  reduction  in the hours of non-overtime work, wages, or employment bene-
+     9  fits, or result in the  impairment  of  existing  collective  bargaining
+    10  agreements; or
+    11    (ii)  transfer of existing duties and functions currently performed by
+    12  employees of the state or any agency or  public  authority  thereof
+,  or
+
+    13  
+county,  city,  town,  village,  public  improvement  district,  special
+
+    14  
+district, school district, board of cooperative educational services  or
+
+    15  
+county  vocational education and extension board
+ to an artificial intel-
+    16  ligence system [
+or automated decision-making tool
+].
+    17    (c) The use of [
+such
+] 
+an
+ artificial intelligence system [
+and automated
+
+    18  
+decision-making tool
+] shall not alter the rights or benefits, and privi-
+    19  leges, including but not limited to terms and conditions of  employment,
+    20  civil  service  status, and collective bargaining unit membership status
+    21  of all existing employees of the state or any agency or public authority
+    22  thereof
+, or county, city, town, village,  public  improvement  district,
+
+    23  
+special  district,  school  district,  board  of cooperative educational
+
+    24  
+services or county vocational education and  extension  board
+  shall  be
+    25  preserved and protected.
+    26    §  13.  Section  355-a of the education law is amended by adding a new
+    27  subdivision 14 to read as follows:
+    28    
+14. (a) The use of artificial  intelligence  systems,  as  defined  by
+
+    29  
+section  one  hundred  three-e  of  the  state technology law, shall not
+
+    30  
+affect (i) the existing rights of employees  pursuant  to  a  collective
+
+    31  
+bargaining  agreement;  or  (ii) the existing representational relation-
+
+    32  
+ships among  employee  organizations  or  the  bargaining  relationships
+
+    33  
+between the employer and an employee organization.
+
+    34    
+(b)  The  use of such artificial intelligence systems shall not result
+
+    35  
+in the: (i) discharge,  displacement  or  loss  of  position,  including
+
+    36  
+partial  displacement  such  as a reduction in the hours of non-overtime
+
+    37  
+work, wages, or employment benefits, or  result  in  the  impairment  of
+
+    38  
+existing collective bargaining agreements; or
+
+    39    
+(ii) transfer of duties and functions currently performed by employees
+
+    40  
+of  the  state  university  of  New  York  to an artificial intelligence
+
+    41  
+system.
+
+    42    
+(c) The use of an artificial intelligence system shall not  alter  the
+
+    43  
+rights  or  benefits, and privileges, including but not limited to terms
+
+    44  
+and conditions of  employment,  civil  service  status,  and  collective
+
+    45  
+bargaining unit membership status of all existing employees of the state
+
+    46  
+university of New York shall be preserved and protected.
+
+    47    §  14.  Section  6206  of the education law is amended by adding a new
+    48  subdivision 24 to read as follows:
+    49    
+24. (a) The use of artificial  intelligence  systems,  as  defined  by
+
+    50  
+section  one  hundred  three-e  of  the  state technology law, shall not
+
+    51  
+affect (i) the existing rights of employees  pursuant  to  a  collective
+
+    52  
+bargaining  agreement;  or  (ii) the existing representational relation-
+
+    53  
+ships among  employee  organizations  or  the  bargaining  relationships
+
+    54  
+between the employer and an employee organization.
+
+    55    
+(b)  The  use of such artificial intelligence systems shall not result
+
+    56  
+in the: (i) discharge,  displacement  or  loss  of  position,  including
+
+        S. 8831                             6
+
+     1  
+partial  displacement  such  as a reduction in the hours of non-overtime
+
+     2  
+work, wages, or employment benefits, or  result  in  the  impairment  of
+
+     3  
+existing collective bargaining agreements; or
+
+     4    
+(ii) transfer of duties and functions currently performed by employees
+
+     5  
+of the city university of New York to an artificial intelligence system.
+
+     6    
+(c)  The  use of an artificial intelligence system shall not alter the
+
+     7  
+rights or benefits, and privileges, including but not limited  to  terms
+
+     8  
+and  conditions  of  employment,  civil  service  status, and collective
+
+     9  
+bargaining unit membership status of all existing employees of the  city
+
+    10  
+university of New York shall be preserved and protected.
+
+    11    §  15.  Section  6306  of the education law is amended by adding a new
+    12  subdivision 12 to read as follows:
+    13    
+12. (a) The use of artificial  intelligence  systems,  as  defined  by
+
+    14  
+section  one  hundred  three-e  of  the  state technology law, shall not
+
+    15  
+affect (i) the existing rights of employees  pursuant  to  a  collective
+
+    16  
+bargaining  agreement;  or  (ii) the existing representational relation-
+
+    17  
+ships among  employee  organizations  or  the  bargaining  relationships
+
+    18  
+between the employer and an employee organization.
+
+    19    
+(b)  The  use of such artificial intelligence systems shall not result
+
+    20  
+in the: (i) discharge,  displacement  or  loss  of  position,  including
+
+    21  
+partial  displacement  such  as a reduction in the hours of non-overtime
+
+    22  
+work, wages, or employment benefits, or  result  in  the  impairment  of
+
+    23  
+collective bargaining agreements; or
+
+    24    
+(ii)  transfer of existing duties and functions currently performed by
+
+    25  
+employees of  each  community  college  to  an  artificial  intelligence
+
+    26  
+system.
+
+    27    
+(c)  The  use of an artificial intelligence system shall not alter the
+
+    28  
+rights or benefits, and privileges, including but not limited  to  terms
+
+    29  
+and  conditions  of  employment,  civil  service  status, and collective
+
+    30  
+bargaining unit membership status of  all  existing  employees  of  each
+
+    31  
+community college shall be preserved and protected.
+
+    32    §  16.  Section 115 of the education law, as added by a chapter of the
+    33  laws of 2025 amending the state technology law, the  education  law  and
+    34  the  civil  service law relating to automated decision-making by govern-
+    35  ment agencies, as proposed in legislative bills numbers S. 7599-C and A.
+    36  8295-D, is REPEALED.
+    37    § 17. Section 10 of a chapter of the laws of 2025 amending  the  state
+    38  technology  law, the education law and the civil service law relating to
+    39  automated decision-making by government agencies, as proposed in  legis-
+    40  lative  bills  numbers  S.  7599-C  and A. 8295-D, is amended to read as
+    41  follows:
+    42    § 10. This act shall take effect immediately 
+and shall expire  and  be
+
+    43  
+deemed  repealed July 1, 2028
+; provided, however, that [
+if chapter 96 of
+
+    44  
+the laws of 2025 shall not have taken effect on or before such date then
+
+    45  
+section nine of this act shall take effect on the same date and  in  the
+
+    46  
+same  manner as such chapter of the laws of 2025, takes effect; provided
+
+    47  
+further, however, that section one of this act  shall  take  effect  one
+
+    48  
+year  after it shall have become a law; provided further, however, that
+]
+    49  the amendments to subdivision 10 of section 80 of the civil service  law
+    50  made  by  section  nine  of this act shall not affect the expiration and
+    51  repeal of such subdivision and shall be deemed repealed therewith.
+    52    § 18. This act shall take effect immediately; provided, however that:
+    53    (a) sections one, two, three, four, five,  six,  seven,  eight,  nine,
+    54  ten,  eleven, twelve, thirteen, fourteen, fifteen and sixteen shall take
+    55  effect on the same date and in the same manner as a chapter of the  laws
+    56  of  2025  amending  the  state technology law, the education law and the
+
+        S. 8831                             7
+
+     1  civil service law relating to automated  decision-making  by  government
+     2  agencies,  as  proposed  in  legislative  bills numbers S. 7599-C and A.
+     3  8295-D, takes effect; and
+     4    (b)  the  amendments  to  subdivision  10  of  section 80 of the civil
+     5  service law made by section twelve of this  act  shall  not  affect  the
+     6  expiration  and  repeal of such subdivision and shall be deemed repealed
+     7  therewith.

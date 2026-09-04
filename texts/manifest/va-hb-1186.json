@@ -1,0 +1,15 @@
+{
+ "id": "VA HB 1186",
+ "slug": "va-hb-1186",
+ "state": "VA",
+ "sourcePage": "https://lis.virginia.gov/bill-details/20261/HB1186",
+ "docUrl": "https://lis.virginia.gov/bill-details/20261/HB1186/text/CHAP0937",
+ "docFormat": "html",
+ "version": "Chaptered",
+ "rawFile": "texts/raw/va-hb-1186.html",
+ "txtFile": "texts/va-hb-1186.txt",
+ "chars": 6597,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3426928 (Chaptered 2026-04-13)"
+}

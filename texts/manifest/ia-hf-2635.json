@@ -1,0 +1,15 @@
+{
+ "id": "IA HF 2635",
+ "slug": "ia-hf-2635",
+ "state": "IA",
+ "sourcePage": "https://www.legis.iowa.gov/legislation/BillBook?ga=91&ba=HF2635",
+ "docUrl": "https://www.legis.iowa.gov/docs/publications/LGE/91/attachments/HF2635.html",
+ "docFormat": "html",
+ "version": "Enrolled",
+ "rawFile": "texts/raw/ia-hf-2635.html",
+ "txtFile": "texts/ia-hf-2635.txt",
+ "chars": 39674,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3389543 (Enrolled 2026-03-10)"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "IL SB 315",
+ "slug": "il-sb-315",
+ "state": "IL",
+ "sourcePage": "https://www.ilga.gov/Legislation/BillStatus?DocNum=315&GAID=18&DocTypeID=SB&LegId=157797&SessionID=114",
+ "docUrl": "https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=197587&DocName=10400SB0315enr&DocNum=315&DocTypeID=SB&LegID=157797&GAID=18&SessionID=114&SpecSess=&Session=",
+ "docFormat": "html",
+ "version": "Enrolled",
+ "rawFile": "texts/raw/il-sb-315.html",
+ "txtFile": "texts/il-sb-315.txt",
+ "chars": 76946,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3442967 (Enrolled 2026-05-29)"
+}

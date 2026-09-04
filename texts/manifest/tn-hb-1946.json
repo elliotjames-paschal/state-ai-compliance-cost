@@ -1,0 +1,15 @@
+{
+ "id": "TN HB 1946",
+ "slug": "tn-hb-1946",
+ "state": "TN",
+ "sourcePage": "https://wapp.capitol.tn.gov/apps/Billinfo/Default?BillNumber=HB1946&ga=114",
+ "docUrl": "https://publications.tnsosfiles.com/acts/114/pub/pc1082.pdf",
+ "docFormat": "pdf",
+ "version": "Chaptered",
+ "rawFile": "texts/raw/tn-hb-1946.pdf",
+ "txtFile": "texts/tn-hb-1946.txt",
+ "chars": 2526,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3441844 (Chaptered 2026-05-26)"
+}

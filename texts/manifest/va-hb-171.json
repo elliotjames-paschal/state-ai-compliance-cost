@@ -1,0 +1,15 @@
+{
+ "id": "VA HB 171",
+ "slug": "va-hb-171",
+ "state": "VA",
+ "sourcePage": "https://lis.virginia.gov/bill-details/20261/HB171",
+ "docUrl": "https://lis.virginia.gov/bill-details/20261/HB171/text/CHAP0048",
+ "docFormat": "html",
+ "version": "Chaptered",
+ "rawFile": "texts/raw/va-hb-171.html",
+ "txtFile": "texts/va-hb-171.txt",
+ "chars": 3003,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3411352 (Chaptered 2026-04-02)"
+}

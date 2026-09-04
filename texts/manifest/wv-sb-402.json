@@ -1,0 +1,15 @@
+{
+ "id": "WV SB 402",
+ "slug": "wv-sb-402",
+ "state": "WV",
+ "sourcePage": "http://www.wvlegislature.gov/Bill_Status/Bills_history.cfm?input=402&year=2026&sessiontype=RS&btype=bill",
+ "docUrl": "http://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=sb402%20sub2%20enr.htm&yr=2026&sesstype=RS&i=402",
+ "docFormat": "html",
+ "version": "Enrolled",
+ "rawFile": "texts/raw/wv-sb-402.html",
+ "txtFile": "texts/wv-sb-402.txt",
+ "chars": 7776,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3397045 (Enrolled 0000-00-00)"
+}

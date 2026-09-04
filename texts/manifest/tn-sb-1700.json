@@ -1,0 +1,15 @@
+{
+ "id": "TN SB 1700",
+ "slug": "tn-sb-1700",
+ "state": "TN",
+ "sourcePage": "https://wapp.capitol.tn.gov/apps/Billinfo/Default?BillNumber=SB1700&ga=114",
+ "docUrl": "https://publications.tnsosfiles.com/acts/114/pub/pc1082.pdf",
+ "docFormat": "pdf",
+ "version": "Chaptered",
+ "rawFile": "texts/raw/tn-sb-1700.pdf",
+ "txtFile": "texts/tn-sb-1700.txt",
+ "chars": 2526,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3441843 (Chaptered 2026-05-26)"
+}

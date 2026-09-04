@@ -1,0 +1,346 @@
+HB329 ENROLLED
+Page 0
+HB329
+PSL2XGG-3
+By Representatives Faulkner, Collins, Baker, Hulsey, Colvin
+RFD: Education Policy
+First Read: 22-Jan-26
+1
+2
+3
+4
+5
+HB329 Enrolled
+Page 1
+First Read: 22-Jan-26
+Enrolled,  An Act,
+Relating to public K-12 schools; to amend Sections
+16-46B-1, 16-46B-2, and 16-46B-7, Code of Alabama 1975, to
+expand the definition of computer science; to require all
+Alabama public school students to complete an approved
+computer science course as a requirement for graduation; and
+to provide standards for approved computer science courses.
+BE IT ENACTED BY THE LEGISLATURE OF ALABAMA:
+Section 1.  Sections 16-46B-1, 16-46B-2, and 16-46B-7,
+Code of Alabama 1975, are amended to read as follows:
+"§16-46B-1
+For the purposes of this chapter, the following terms
+shall  have the following meanings:
+(1) BOARD. The State Board of Education.
+(2) COMPUTER SCIENCE. The study of computers and
+algorithmic processes, including their principles, their
+hardware and software designs, their implementation,  and  their
+impact on society , and their emerging technologies, including,
+but not limited to, artificial intelligence . Content should
+focus on teaching students how to create new technologies, not
+simply how to use technology.
+(3) COMPUTER SCIENCE COURSES AND CONTENT. Courses that
+teach computer science either as a standalone course
+implementation  implemented  in middle and high schools, or, for
+elementary school, integrated into other content areas.
+(4) DEPARTMENT. The State Department of Education.
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+HB329 Enrolled
+Page 2
+(4) DEPARTMENT. The State Department of Education.
+(5) ELEMENTARY SCHOOL. Includes grades kindergarten to
+six, inclusive.
+(6) HIGH QUALITY PROFESSIONAL LEARNING. Professional
+development activities that satisfy all of the following:
+a. Clarify the conceptual foundations of computer
+science.
+b. Teach research-based practices, including hands-on
+and inquiry-based learning.
+c. Are intended for existing teachers, with or without
+previous exposure to computer science.
+(7) HIGH QUALITY PROFESSIONAL LEARNING PROVIDERS.
+Institutions of higher education, nonprofits, or private
+entities that have successfully designed, implemented, and
+scaled high quality, evidence-based computer science
+professional learning for teachers and recommended by the
+superintendent and approved by the board.
+(8) HIGH SCHOOL. Includes grades nine to 12, inclusive.
+(9) MIDDLE SCHOOL. Includes grades seven and eight.
+(10) PUBLIC SCHOOL. Includes public K-12 elementary
+schools, middle schools, and high schools.
+(11) SUPERINTENDENT. The State Superintendent of
+Education."
+"§16-46B-2
+(a)(1) Beginning in the 2020-2021 school year, each
+public high school shall offer at least one authentic computer
+science course from a department-approved list.
+(2) Beginning in the 2021-2022 school year, each public
+middle school shall offer instruction in middle school
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+HB329 Enrolled
+Page 3
+middle school shall offer instruction in middle school
+computer science courses approved by the department.
+(3) Beginning in the 2022-2023 school year, each public
+elementary school shall offer instruction on the basics of
+computer science and computational thinking.
+(b) A computer science course or instruction in
+computer science offered by a public school shall satisfy all
+of the following:
+(1) Be of high quality, as defined by the department.
+(2) Meet or exceed the standards and curriculum
+requirements, as they relate to authentic computer science,
+established by the board in the state course of study for
+digital literacy and computer science pursuant to Section
+16-35-4 and be on the approved list of computer science
+courses.
+(c) A computer science course offered by a public high
+school should be offered through an in-person setting and
+shall be offered as a virtual or distance learning course
+option only when an in-person classroom setting is not
+practicable. A rationale for using the virtual or distance
+learning option shall be included in the annual report.
+(d) Beginning with public school students who will
+graduate during the 2031-2032 school year, the department
+shall ensure that all approved computer science courses and
+content that meet graduation requirements pursuant to Section
+16-46B-7, shall include, but not be limited to, instruction in
+the concepts of computer science as defined in Section
+16-46B-1.
+(e) The enforcement of this section shall comply with
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+HB329 Enrolled
+Page 4
+(e) The enforcement of this section shall comply with
+Section 16-1-11.1."
+"§16-46B-7
+(a) Before June 30, 2020, and in accordance with
+Section 16-35-4, the department shall identify approved
+computer science courses that may fulfill one unit of academic
+credit for any mathematics or science course for high school
+graduation.
+(b) Beginning with the graduating class of 2021, for
+the purposes of high school graduation requirements and
+satisfying mathematics or science freshman admission
+requirements for a public institution of higher education
+physically located in this state, as determined by the
+institution of higher education, a computer science course
+successfully completed under subsection (a) shall be
+equivalent to either of the following:
+(1) One mathematics course credit.
+(2) One science course credit.
+(c)(1) Beginning with the graduating class of 2032, all
+public school students shall demonstrate digital literacy by
+earning at least one credit in a department-approved, high
+school or college-level computer science course, or by
+completing a department-approved course with embedded computer
+science skills and experiences. The department shall develop
+and publish a set of minimum standards that must be taught in
+every course with embedded computer science skills and
+experiences. The department shall publish a list of high
+school or college-level computer science courses and courses
+with embedded computer science skills and experiences that
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+HB329 Enrolled
+Page 5
+with embedded computer science skills and experiences that
+have been approved and meet the minimum standards required.
+This requirement shall not result in an increase in the number
+of credits required for graduation.
+(2) Each computer science credit earned may fulfill any
+one of the following, as determined by the local
+superintendent of education:
+a. One mathematics course credit.
+b. One science course credit.
+c. One career and technical education course credit.
+d. One elective credit.
+(3) Mathematics course credits and science course
+credits may only be replaced by department-approved computer
+science courses if the public school student is earning a
+general education diploma, which requires the completion of
+both four mathematics course credits and four science course
+credits.
+(4) Beginning with the 2026-2027 school year,
+completion of a computer science course shall not count as a
+college and career readiness indicator unless the course
+satisfies the requirements of another college and career
+readiness indicator, such as attaining career and technical
+education completer status or earning a qualifying score on an
+Advanced Placement exam. "
+Section 2.  This act shall become effective on October
+1, 2026.
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+HB329 Enrolled
+Page 6
+1, 2026.
+________________________________________________
+Speaker of the House of Representatives
+________________________________________________
+President and Presiding Officer of the Senate
+House of Representatives
+I hereby certify that the within Act originated in and
+was passed by the House 12-Feb-26, as amended.
+John Treadwell
+Clerk
+Senate            07-Apr-26           Passed
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171

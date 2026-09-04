@@ -1,0 +1,15 @@
+{
+ "id": "TN HB 545",
+ "slug": "tn-hb-545",
+ "state": "TN",
+ "sourcePage": "https://wapp.capitol.tn.gov/apps/Billinfo/Default?BillNumber=HB0545&ga=114",
+ "docUrl": "https://publications.tnsosfiles.com/acts/114/pub/pc1056.pdf",
+ "docFormat": "pdf",
+ "version": "Chaptered",
+ "rawFile": "texts/raw/tn-hb-545.pdf",
+ "txtFile": "texts/tn-hb-545.txt",
+ "chars": 1953,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3441737 (Chaptered 2026-05-26)"
+}

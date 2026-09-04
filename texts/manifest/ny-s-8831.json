@@ -1,0 +1,15 @@
+{
+ "id": "NY S 8831",
+ "slug": "ny-s-8831",
+ "state": "NY",
+ "sourcePage": "https://www.nysenate.gov/legislation/bills/2025/S8831",
+ "docUrl": "https://assembly.state.ny.us/leg/?default_fld=&bn=S08831&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#S08831",
+ "docFormat": "html",
+ "version": "Introduced",
+ "rawFile": "texts/raw/ny-s-8831.html",
+ "txtFile": "texts/ny-s-8831.txt",
+ "chars": 24964,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3303229 (Introduced 2026-01-08)"
+}

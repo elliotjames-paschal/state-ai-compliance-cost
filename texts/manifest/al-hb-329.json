@@ -1,0 +1,15 @@
+{
+ "id": "AL HB 329",
+ "slug": "al-hb-329",
+ "state": "AL",
+ "sourcePage": "https://alison.legislature.state.al.us/bill-search",
+ "docUrl": "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/HB329-enr.pdf",
+ "docFormat": "pdf",
+ "version": "Enrolled",
+ "rawFile": "texts/raw/al-hb-329.pdf",
+ "txtFile": "texts/al-hb-329.txt",
+ "chars": 8118,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3412913 (Enrolled 2026-04-07)"
+}

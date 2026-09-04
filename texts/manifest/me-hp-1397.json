@@ -1,0 +1,15 @@
+{
+ "id": "ME HP 1397",
+ "slug": "me-hp-1397",
+ "state": "ME",
+ "sourcePage": "https://legislature.maine.gov/legis/bills/display_ps.asp?LD=2082&snum=132",
+ "docUrl": "https://legislature.maine.gov/legis/bills/getPDF.asp?paper=HP1397&item=3&snum=132",
+ "docFormat": "pdf",
+ "version": "Chaptered",
+ "rawFile": "texts/raw/me-hp-1397.pdf",
+ "txtFile": "texts/me-hp-1397.txt",
+ "chars": 59564,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3417906 (Chaptered 0000-00-00)"
+}

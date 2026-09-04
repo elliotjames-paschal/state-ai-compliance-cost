@@ -1,0 +1,15 @@
+{
+ "id": "NJ A 3497",
+ "slug": "nj-a-3497",
+ "state": "NJ",
+ "sourcePage": "https://www.njleg.state.nj.us/bill-search/2026/A3497",
+ "docUrl": "https://pub.njleg.gov/Bills/2026/A3500/3497_R1.HTM",
+ "docFormat": "html",
+ "version": "Amended",
+ "rawFile": "texts/raw/nj-a-3497.html",
+ "txtFile": "texts/nj-a-3497.txt",
+ "chars": 10006,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3390099 (Amended 2026-03-10) | fell back past: Amended 2026-06-24: 0 chars; Comm Sub 2026-06-09: 0 chars"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "MA H 5576",
+ "slug": "ma-h-5576",
+ "state": "MA",
+ "sourcePage": "https://malegislature.gov/Bills/194/H5576",
+ "docUrl": "https://malegislature.gov/Bills/194/H5576.pdf",
+ "docFormat": "pdf",
+ "version": "Introduced",
+ "rawFile": "texts/raw/ma-h-5576.pdf",
+ "txtFile": "texts/ma-h-5576.txt",
+ "chars": 442822,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3453050 (Introduced 2026-07-08)"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "IL SB 2909",
+ "slug": "il-sb-2909",
+ "state": "IL",
+ "sourcePage": "https://www.ilga.gov/Legislation/BillStatus?DocNum=2909&GAID=18&DocTypeID=SB&LegId=165259&SessionID=114",
+ "docUrl": "https://www.ilga.gov/Legislation/BillStatus/FullText?LegDocId=206606&DocName=10400SB2909enr&DocNum=2909&DocTypeID=SB&LegID=165259&GAID=18&SessionID=114&SpecSess=&Session=",
+ "docFormat": "html",
+ "version": "Enrolled",
+ "rawFile": "texts/raw/il-sb-2909.html",
+ "txtFile": "texts/il-sb-2909.txt",
+ "chars": 14337,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3441732 (Enrolled 2026-05-27)"
+}

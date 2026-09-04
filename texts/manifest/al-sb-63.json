@@ -1,0 +1,15 @@
+{
+ "id": "AL SB 63",
+ "slug": "al-sb-63",
+ "state": "AL",
+ "sourcePage": "https://alison.legislature.state.al.us/bill-search",
+ "docUrl": "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/SB63-enr.pdf",
+ "docFormat": "pdf",
+ "version": "Enrolled",
+ "rawFile": "texts/raw/al-sb-63.pdf",
+ "txtFile": "texts/al-sb-63.txt",
+ "chars": 10684,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3414082 (Enrolled 0000-00-00)"
+}

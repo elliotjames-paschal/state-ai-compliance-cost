@@ -1,0 +1,15 @@
+{
+ "id": "RI SB 2197",
+ "slug": "ri-sb-2197",
+ "state": "RI",
+ "sourcePage": "https://status.rilegislature.gov/",
+ "docUrl": "https://webserver.rilegislature.gov/BillText26/SenateText26/S2197Aaa.pdf",
+ "docFormat": "pdf",
+ "version": "Amended",
+ "rawFile": "texts/raw/ri-sb-2197.pdf",
+ "txtFile": "texts/ri-sb-2197.txt",
+ "chars": 10854,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3440297 (Amended 2026-05-21)"
+}

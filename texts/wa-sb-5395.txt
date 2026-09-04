@@ -1,0 +1,1218 @@
+CERTIFICATION OF ENROLLMENT
+ENGROSSED SECOND SUBSTITUTE SENATE BILL 5395
+Chapter 157, Laws of 2026
+69th Legislature
+2026 Regular Session
+HEALTH CARRIERS —PRIOR AUTHORIZATION DETERMINATIONS
+EFFECTIVE DATE: June 11, 2026 —Except for sections 3 and 7, which 
+take effect January 1, 2027.
+Passed by the Senate March 9, 2026
+  Yeas 49  Nays 0
+DENNY HECK
+President of the Senate
+Passed by the House March 4, 2026
+  Yeas 94  Nays 0
+LAURIE JINKINS
+Speaker of the House of 
+Representatives
+CERTIFICATE
+I, Sarah Bannister, Secretary of 
+the Senate of the State of 
+Washington, do hereby certify that 
+the attached is ENGROSSED SECOND 
+SUBSTITUTE SENATE BILL 5395  as 
+passed by the Senate and the House 
+of Representatives on the dates 
+hereon set forth.
+SARAH BANNISTER
+Secretary
+Approved March 23, 2026 3:32 PM FILED
+March 24, 2026
+BOB FERGUSON
+Governor of the State of Washington
+Secretary of State
+ State of Washington
+AN ACT Relating to making improvements to transparency and 1
+accountability in the prior authorization determination process; 2
+amending RCW 48.43.830, 41.05.845, 48.43.525, 48.43.535, 48.43.535, 3
+and 48.43.0161; reenacting and amending RCW 48.43.830; creating a new 4
+section; providing an effective date; and providing an expiration 5
+date. 6
+BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF WASHINGTON:7
+NEW SECTION.   Sec. 1.  (1) The legislature finds that health 8
+carriers are the decision makers for the type and level of care 9
+covered for an enrollee's health care benefits and are not 10
+responsible for determining or altering an enrollee's diagnosis or 11
+treatment plan. It is not always transparent who the decision maker 12
+is or how decisions are made in determining enrollee coverage for 13
+treatment, prescription drugs, or services. Artificial intelligence 14
+is being increasingly utilized by health carriers to make or aid in 15
+decisions about medical necessity and coverage of provider-16
+recommended treatment.17
+(2) It is the intent of the legislature to increase transparency 18
+in the prior authorization process for health care coverage decisions 19
+and to ensure licensed physicians and licensed health professionals 20
+remain responsible for making determinations regarding treatments, 21
+ENGROSSED SECOND SUBSTITUTE SENATE BILL 5395
+AS AMENDED BY THE HOUSE
+Passed Legislature - 2026 Regular Session
+State of Washington 69th Legislature 2026 Regular Session
+By Senate Ways & Means (originally sponsored by Senators Orwall, 
+Muzzall, Hasegawa, Lovelett, Nobles, and Slatter)
+READ FIRST TIME 01/29/26.
+p. 1 E2SSB 5395.SL
+prescription drugs, and other health care services. If artificial 1
+intelligence is used to aid in the decision-making process, standards 2
+must be put in place to ensure artificial intelligence is not used to 3
+make inappropriate determinations that could impact the health of an 4
+enrollee. 5
+(3) It is the intent of the legislature to update the protections 6
+of this act for enrollees to include managed care organizations as 7
+soon as feasible, recognizing that low-income, publicly insured 8
+Washingtonians deserve the same patient protections as higher-income, 9
+commercially insured Washingtonians. 10
+Sec. 2.  RCW 48.43.830  and 2025 c 25 s 1 are each amended to read 11
+as follows: 12
+(1) Each carrier offering a health plan issued or renewed on or 13
+after January 1, 2024, shall comply with the following standards 14
+related to prior authorization for health care services and 15
+prescription drugs: 16
+(a) The carrier shall meet the following time frames for prior 17
+authorization determinations and notifications to a participating 18
+provider or facility that submits the prior authorization request 19
+through an electronic prior authorization process, as designated by 20
+each carrier: 21
+(i) For electronic standard prior authorization requests, the 22
+carrier shall make a decision and notify the provider or facility of 23
+the results of the decision within three calendar days, excluding 24
+holidays, of submission of an electronic prior authorization request 25
+by the provider or facility that contains the necessary information 26
+to make a determination. If insufficient information has been 27
+provided to the carrier to make a decision, the carrier shall request 28
+any additional information from the provider or facility within one 29
+calendar day of submission of the electronic prior authorization 30
+request. 31
+(ii) For electronic expedited prior authorization requests, the 32
+carrier shall make a decision and notify the provider or facility of 33
+the results of the decision within one calendar day of submission of 34
+an electronic prior authorization request by the provider or facility 35
+that contains the necessary information to make a determination. If 36
+insufficient information has been provided to the carrier to make a 37
+decision, the carrier shall request any additional information from 38
+p. 2 E2SSB 5395.SL
+the provider or facility within one calendar day of submission of the 1
+electronic prior authorization request. 2
+(b) The carrier shall meet the following time frames for prior 3
+authorization determinations and notifications to a participating 4
+provider or facility that submits the prior authorization request 5
+through a process other than an electronic prior authorization 6
+process: 7
+(i) For nonelectronic standard prior authorization requests, the 8
+carrier shall make a decision and notify the provider or facility of 9
+the results of the decision within five calendar days of submission 10
+of a nonelectronic prior authorization request by the provider or 11
+facility that contains the necessary information to make a 12
+determination. If insufficient information has been provided to the 13
+carrier to make a decision, the carrier shall request any additional 14
+information from the provider or facility within five calendar days 15
+of submission of the nonelectronic prior authorization request.16
+(ii) For nonelectronic expedited prior authorization requests, 17
+the carrier shall make a decision and notify the provider or facility 18
+of the results of the decision within two calendar days of submission 19
+of a nonelectronic prior authorization request by the provider or 20
+facility that contains the necessary information to make a 21
+determination. If insufficient information has been provided to the 22
+carrier to make a decision, the carrier shall request any additional 23
+information from the provider or facility within one calendar day of 24
+submission of the nonelectronic prior authorization request.25
+(c) In any instance in which a carrier has determined that a 26
+provider or facility has not provided sufficient information for 27
+making a determination under (a) and (b) of this subsection, a 28
+carrier may establish a specific reasonable time frame for submission 29
+of the additional information. This time frame must be communicated 30
+to the provider and enrollee with a carrier's request for additional 31
+information. 32
+(d) The carrier's prior authorization requirements must be 33
+described in detail and written in easily understandable language. 34
+The carrier shall make its most current prior authorization 35
+requirements and restrictions, including the written clinical review 36
+criteria, available to providers and facilities in an electronic 37
+format upon request. The prior authorization requirements must be 38
+based on peer-reviewed clinical review criteria. The clinical review 39
+criteria must be evidence-based criteria and must accommodate new and 40
+p. 3 E2SSB 5395.SL
+emerging information related to the appropriateness of clinical 1
+criteria with respect to black and indigenous people, other people of 2
+color, gender, and underserved populations. The clinical review 3
+criteria must be evaluated and updated, if necessary, at least 4
+annually. 5
+(((2))) (e) When denying a prior authorization determination, the 6
+carrier shall include the credentials, board certifications, and 7
+areas of specialty of the provider who had clinical oversight over 8
+the determination in any notification sent to the health plan 9
+enrollee and provider requesting or referring the service.10
+(2) Carriers must post any adjustments to policies and procedures 11
+that impact the applicability of their prior authorization 12
+requirements for health care services or prescription drugs, 13
+including new applications of prior authorization, in a single 14
+location on the carrier's website. After December 30, 2030, any new 15
+application of prior authorization for health care services must be 16
+available to providers on the electronic prior authorization system 17
+or application programming interface system referenced in subsection 18
+(4) of this section.19
+(3)(a) Only a licensed physician or a licensed health 20
+professional working within their scope of practice may deny a prior 21
+authorization request based on medical necessity. The licensed 22
+physician or licensed health professional shall evaluate the specific 23
+clinical issues involved in the health care services requested by the 24
+requesting provider by reviewing and considering the requesting 25
+provider's recommendation, the enrollee's medical or other clinical 26
+history, as applicable, and individual clinical circumstances. 27
+Artificial intelligence shall not be the sole means used to deny, 28
+delay, or modify health care services. Algorithms may be used to 29
+process and approve prior authorization requests, but may not be used 30
+without human review to deny care based on a determination of medical 31
+necessity.32
+(b) A carrier that uses artificial intelligence for the purpose 33
+of prior authorization or prior authorization functions, based in 34
+whole or in part on medical necessity, or that contracts with or 35
+otherwise works through an entity that uses artificial intelligence 36
+for the purpose of prior authorization or prior authorization 37
+functions, based in whole or in part on medical necessity, shall 38
+ensure all of the following:39
+p. 4 E2SSB 5395.SL
+(i) The artificial intelligence bases its determination on the 1
+following information, as applicable:2
+(A) An enrollee's medical or other clinical history, including 3
+demographic data; and4
+(B) Individual clinical circumstances as presented by the 5
+requesting provider;6
+(ii) The artificial intelligence does not base its determination 7
+solely on a group data set;8
+(iii) The artificial intelligence's criteria and guidelines 9
+comply with this chapter and applicable state and federal law;10
+(iv) The use of the artificial intelligence does not 11
+discriminate, directly or indirectly, against an enrollee in 12
+violation of state or federal law;13
+(v) The artificial intelligence is fairly and equitably applied, 14
+including in accordance with any applicable regulations and guidance 15
+issued by the federal department of health and human services;16
+(vi) The policies and procedures for using artificial 17
+intelligence are open to audit by the office of the insurance 18
+commissioner under chapter 48.37 RCW;19
+(vii) The artificial intelligence's performance, use, and 20
+outcomes are periodically reviewed by the carrier to maximize 21
+accuracy and reliability; and22
+(viii) Patient data is not used beyond its intended and stated 23
+purpose, consistent with chapter 70.02 RCW and the federal health 24
+insurance portability and accountability act of 1996, 42 U.S.C. Sec. 25
+1320d et al., as applicable.26
+(4)(a) Each carrier shall establish and maintain a prior 27
+authorization application programming interface that is consistent 28
+with final rules issued by the federal centers for medicare and 29
+medicaid services and published in the federal register, and that 30
+indicates that a prior authorization denial or authorization of a 31
+service less intensive than that included in the original request is 32
+an adverse benefit determination and is subject to the carrier's 33
+grievance and appeal process under RCW 48.43.535. 34
+(b) Each carrier shall establish and maintain an interoperable 35
+electronic process or application programming interface that 36
+automates the process for in-network providers to determine whether a 37
+prior authorization is required for a covered prescription drug. The 38
+interoperable electronic process or application programming interface 39
+must support the exchange of prior authorization requests and 40
+p. 5 E2SSB 5395.SL
+determinations for prescription drugs, including information on 1
+covered alternative prescription drugs, beginning January 1, 2027, 2
+and must: 3
+(i) Allow providers to identify prior authorization information 4
+and documentation requirements; 5
+(ii) Facilitate the exchange of prior authorization requests and 6
+determinations from its electronic health records or practice 7
+management system; and 8
+(iii) Indicate that a prior authorization denial or authorization 9
+of a drug other than the one included in the original prior 10
+authorization request is an adverse benefit determination and is 11
+subject to the carrier's grievance and appeal process under RCW 12
+48.43.535. 13
+(c) Regardless of whether federal rules related to standards for 14
+using an application programming interface to communicate prior 15
+authorization status to providers are revoked, delayed, suspended, or 16
+not finalized by the federal centers for medicare and medicaid 17
+services after February 8, 2024, the requirements of (a) of this 18
+subsection shall be enforced beginning January 1, 2027.19
+(d) By September 13, 2023, and at least every six months 20
+thereafter until September 13, 2026, the commissioner shall provide 21
+an update to the health care policy committees of the legislature on 22
+the development of rules and implementation guidance from the federal 23
+centers for medicare and medicaid services regarding the standards 24
+for development of application programming interfaces and 25
+interoperable electronic processes related to prior authorization 26
+functions. The updates should include recommendations, as 27
+appropriate, on whether the status of the federal rule development 28
+aligns with the provisions of chapter 382, Laws of 2023. The 29
+commissioner also shall report on any actions by the federal centers 30
+for medicare and medicaid services to exercise enforcement discretion 31
+related to the implementation and maintenance of an application 32
+programming interface for prior authorization functions. The 33
+commissioner shall consult with the health care authority, carriers, 34
+providers, and consumers on the development of these updates and any 35
+recommendations. 36
+(((3))) (5) Nothing in this section applies to prior 37
+authorization determinations made pursuant to RCW 48.43.761.38
+p. 6 E2SSB 5395.SL
+(((4))) (6) This section applies to prior authorization functions 1
+carried out by health care benefit managers, as defined in RCW 2
+48.200.020, under direct or indirect contract with a carrier.3
+(7) The commissioner may adopt any rules necessary to implement 4
+this section.5
+(8) For the purposes of this section: 6
+(a) "Artificial intelligence" means the use of machine learning 7
+and related technologies that use data to train statistical models 8
+for the purpose of enabling computer systems to perform tasks 9
+normally associated with human intelligence or perception, such as 10
+computer vision, speech or natural language processing, and content 11
+generation. "Artificial intelligence" includes generative artificial 12
+intelligence.13
+(b) "Expedited prior authorization request" means a request by a 14
+provider or facility for approval of a health care service or 15
+prescription drug where: 16
+(i) The passage of time: 17
+(A) Could seriously jeopardize the life or health of the 18
+enrollee; 19
+(B) Could seriously jeopardize the enrollee's ability to regain 20
+maximum function; or 21
+(C) In the opinion of a provider or facility with knowledge of 22
+the enrollee's medical condition, would subject the enrollee to 23
+severe pain that cannot be adequately managed without the health care 24
+service or prescription drug that is the subject of the request; or25
+(ii) The enrollee is undergoing a current course of treatment 26
+using a nonformulary drug. 27
+(((b))) (c) "Generative artificial intelligence" means an 28
+artificial intelligence system that generates novel data or content 29
+based on a foundation model.30
+(d) "Machine learning" means the process by which artificial 31
+intelligence is developed using data and algorithms to draw 32
+inferences therefrom to automatically adapt or improve its accuracy 33
+without explicit programming.34
+(e) "Standard prior authorization request" means a request by a 35
+provider or facility for approval of a health care service or 36
+prescription drug where the request is made in advance of the 37
+enrollee obtaining a health care service or prescription drug that is 38
+not required to be expedited. 39
+p. 7 E2SSB 5395.SL
+Sec. 3.  RCW 48.43.830  and 2025 c 227 s 8 and 2025 c 25 s 1 are 1
+each reenacted and amended to read as follows: 2
+(1) Each carrier offering a health plan issued or renewed on or 3
+after January 1, 2024, shall comply with the following standards 4
+related to prior authorization for health care services and 5
+prescription drugs: 6
+(a) The carrier shall meet the following time frames for prior 7
+authorization determinations and notifications to a participating 8
+provider or facility that submits the prior authorization request 9
+through an electronic prior authorization process, as designated by 10
+each carrier: 11
+(i) For electronic standard prior authorization requests, the 12
+carrier shall make a decision and notify the provider or facility of 13
+the results of the decision within three calendar days, excluding 14
+holidays, of submission of an electronic prior authorization request 15
+by the provider or facility that contains the necessary information 16
+to make a determination. If insufficient information has been 17
+provided to the carrier to make a decision, the carrier shall request 18
+any additional information from the provider or facility within one 19
+calendar day of submission of the electronic prior authorization 20
+request. 21
+(ii) For electronic expedited prior authorization requests, the 22
+carrier shall make a decision and notify the provider or facility of 23
+the results of the decision within one calendar day of submission of 24
+an electronic prior authorization request by the provider or facility 25
+that contains the necessary information to make a determination. If 26
+insufficient information has been provided to the carrier to make a 27
+decision, the carrier shall request any additional information from 28
+the provider or facility within one calendar day of submission of the 29
+electronic prior authorization request. 30
+(b) The carrier shall meet the following time frames for prior 31
+authorization determinations and notifications to a participating 32
+provider or facility that submits the prior authorization request 33
+through a process other than an electronic prior authorization 34
+process: 35
+(i) For nonelectronic standard prior authorization requests, the 36
+carrier shall make a decision and notify the provider or facility of 37
+the results of the decision within five calendar days of submission 38
+of a nonelectronic prior authorization request by the provider or 39
+facility that contains the necessary information to make a 40
+p. 8 E2SSB 5395.SL
+determination. If insufficient information has been provided to the 1
+carrier to make a decision, the carrier shall request any additional 2
+information from the provider or facility within five calendar days 3
+of submission of the nonelectronic prior authorization request.4
+(ii) For nonelectronic expedited prior authorization requests, 5
+the carrier shall make a decision and notify the provider or facility 6
+of the results of the decision within two calendar days of submission 7
+of a nonelectronic prior authorization request by the provider or 8
+facility that contains the necessary information to make a 9
+determination. If insufficient information has been provided to the 10
+carrier to make a decision, the carrier shall request any additional 11
+information from the provider or facility within one calendar day of 12
+submission of the nonelectronic prior authorization request.13
+(c) In any instance in which a carrier has determined that a 14
+provider or facility has not provided sufficient information for 15
+making a determination under (a) and (b) of this subsection, a 16
+carrier may establish a specific reasonable time frame for submission 17
+of the additional information. This time frame must be communicated 18
+to the provider and enrollee with a carrier's request for additional 19
+information. 20
+(d) The carrier's prior authorization requirements must be 21
+described in detail and written in easily understandable language. 22
+The carrier shall make its most current prior authorization 23
+requirements and restrictions, including the written clinical review 24
+criteria, available to providers and facilities in an electronic 25
+format upon request. The prior authorization requirements must be 26
+based on peer-reviewed clinical review criteria. The clinical review 27
+criteria must be evidence-based criteria and must accommodate new and 28
+emerging information related to the appropriateness of clinical 29
+criteria with respect to black and indigenous people, other people of 30
+color, gender, and underserved populations. The clinical review 31
+criteria must be evaluated and updated, if necessary, at least 32
+annually. Clinical review criteria used for purposes of reviewing and 33
+decided upon prior authorization requests related to mental health 34
+and substance use disorder services, as defined in RCW 48.43.766, 35
+must meet the requirements of RCW 48.43.766. 36
+(((2))) (e) When denying a prior authorization determination, the 37
+carrier shall include the credentials, board certifications, and 38
+areas of specialty of the provider who had clinical oversight over 39
+p. 9 E2SSB 5395.SL
+the determination in any notification sent to the health plan 1
+enrollee and provider requesting or referring the service.2
+(2) Carriers must post any adjustments to policies and procedures 3
+that impact the applicability of their prior authorization 4
+requirements for health care services or prescription drugs, 5
+including new applications of prior authorization, in a single 6
+location on the carrier's website. After December 30, 2030, any new 7
+application of prior authorization for health care services must be 8
+available to providers on the electronic prior authorization system 9
+or application programming interface system.10
+(3)(a) Only a licensed physician or a licensed health 11
+professional working within their scope of practice may deny a prior 12
+authorization request based on medical necessity. The licensed 13
+physician or licensed health professional shall evaluate the specific 14
+clinical issues involved in the health care services requested by the 15
+requesting provider by reviewing and considering the requesting 16
+provider's recommendation, the enrollee's medical or other clinical 17
+history, as applicable, and individual clinical circumstances. 18
+Artificial intelligence shall not be the sole means used to deny, 19
+delay, or modify health care services. Algorithms may be used to 20
+process and approve prior authorization requests, but may not be used 21
+without human review to deny care based on a determination of medical 22
+necessity.23
+(b) A carrier that uses artificial intelligence for the purpose 24
+of prior authorization or prior authorization functions, based in 25
+whole or in part on medical necessity, or that contracts with or 26
+otherwise works through an entity that uses artificial intelligence 27
+for the purpose of prior authorization or prior authorization 28
+functions, based in whole or in part on medical necessity, shall 29
+ensure all of the following:30
+(i) The artificial intelligence bases its determination on the 31
+following information, as applicable:32
+(A) An enrollee's medical or other clinical history, including 33
+demographic data; and34
+(B) Individual clinical circumstances as presented by the 35
+requesting provider;36
+(ii) The artificial intelligence does not base its determination 37
+solely on a group data set;38
+(iii) The artificial intelligence's criteria and guidelines 39
+comply with this chapter and applicable state and federal law;40
+p. 10 E2SSB 5395.SL
+(iv) The use of the artificial intelligence does not 1
+discriminate, directly or indirectly, against an enrollee in 2
+violation of state or federal law;3
+(v) The artificial intelligence is fairly and equitably applied, 4
+including in accordance with any applicable regulations and guidance 5
+issued by the federal department of health and human services;6
+(vi) The policies and procedures for using artificial 7
+intelligence are open to audit by the office of the insurance 8
+commissioner under chapter 48.37 RCW;9
+(vii) The artificial intelligence's performance, use, and 10
+outcomes are periodically reviewed by the carrier to maximize 11
+accuracy and reliability; and12
+(viii) Patient data is not used beyond its intended and stated 13
+purpose, consistent with chapter 70.02 RCW and the federal health 14
+insurance portability and accountability act of 1996, 42 U.S.C. Sec. 15
+1320d et al., as applicable.16
+(4)(a) Each carrier shall establish and maintain a prior 17
+authorization application programming interface that is consistent 18
+with final rules issued by the federal centers for medicare and 19
+medicaid services and published in the federal register, and that 20
+indicates that a prior authorization denial or authorization of a 21
+service less intensive than that included in the original request is 22
+an adverse benefit determination and is subject to the carrier's 23
+grievance and appeal process under RCW 48.43.535. 24
+(b) Each carrier shall establish and maintain an interoperable 25
+electronic process or application programming interface that 26
+automates the process for in-network providers to determine whether a 27
+prior authorization is required for a covered prescription drug. The 28
+interoperable electronic process or application programming interface 29
+must support the exchange of prior authorization requests and 30
+determinations for prescription drugs, including information on 31
+covered alternative prescription drugs, beginning January 1, 2027, 32
+and must: 33
+(i) Allow providers to identify prior authorization information 34
+and documentation requirements; 35
+(ii) Facilitate the exchange of prior authorization requests and 36
+determinations from its electronic health records or practice 37
+management system; and 38
+(iii) Indicate that a prior authorization denial or authorization 39
+of a drug other than the one included in the original prior 40
+p. 11 E2SSB 5395.SL
+authorization request is an adverse benefit determination and is 1
+subject to the carrier's grievance and appeal process under RCW 2
+48.43.535. 3
+(c) Regardless of whether federal rules related to standards for 4
+using an application programming interface to communicate prior 5
+authorization status to providers are revoked, delayed, suspended, or 6
+not finalized by the federal centers for medicare and medicaid 7
+services after February 8, 2024, the requirements of (a) of this 8
+subsection shall be enforced beginning January 1, 2027.9
+(d) By September 13, 2023, and at least every six months 10
+thereafter until September 13, 2026, the commissioner shall provide 11
+an update to the health care policy committees of the legislature on 12
+the development of rules and implementation guidance from the federal 13
+centers for medicare and medicaid services regarding the standards 14
+for development of application programming interfaces and 15
+interoperable electronic processes related to prior authorization 16
+functions. The updates should include recommendations, as 17
+appropriate, on whether the status of the federal rule development 18
+aligns with the provisions of chapter 382, Laws of 2023. The 19
+commissioner also shall report on any actions by the federal centers 20
+for medicare and medicaid services to exercise enforcement discretion 21
+related to the implementation and maintenance of an application 22
+programming interface for prior authorization functions. The 23
+commissioner shall consult with the health care authority, carriers, 24
+providers, and consumers on the development of these updates and any 25
+recommendations. 26
+(((3))) (5) Nothing in this section applies to prior 27
+authorization determinations made pursuant to RCW 48.43.761.28
+(((4))) (6) This section applies to prior authorization functions 29
+carried out by health care benefit managers, as defined in RCW 30
+48.200.020, under direct or indirect contract with a carrier.31
+(7) The commissioner may adopt any rules necessary to implement 32
+this section.33
+(8) For the purposes of this section: 34
+(a) "Artificial intelligence" means the use of machine learning 35
+and related technologies that use data to train statistical models 36
+for the purpose of enabling computer systems to perform tasks 37
+normally associated with human intelligence or perception, such as 38
+computer vision, speech or natural language processing, and content 39
+p. 12 E2SSB 5395.SL
+generation. "Artificial intelligence" includes generative artificial 1
+intelligence. 2
+(b) "Expedited prior authorization request" means a request by a 3
+provider or facility for approval of a health care service or 4
+prescription drug where: 5
+(i) The passage of time: 6
+(A) Could seriously jeopardize the life or health of the 7
+enrollee; 8
+(B) Could seriously jeopardize the enrollee's ability to regain 9
+maximum function; or 10
+(C) In the opinion of a provider or facility with knowledge of 11
+the enrollee's medical condition, would subject the enrollee to 12
+severe pain that cannot be adequately managed without the health care 13
+service or prescription drug that is the subject of the request; or14
+(ii) The enrollee is undergoing a current course of treatment 15
+using a nonformulary drug. 16
+(((b))) (c) "Generative artificial intelligence" means an 17
+artificial intelligence system that generates novel data or content 18
+based on a foundation model.19
+(d) "Machine learning" means the process by which artificial 20
+intelligence is developed using data and algorithms to draw 21
+inferences therefrom to automatically adapt or improve its accuracy 22
+without explicit programming.23
+(e) "Standard prior authorization request" means a request by a 24
+provider or facility for approval of a health care service or 25
+prescription drug where the request is made in advance of the 26
+enrollee obtaining a health care service or prescription drug that is 27
+not required to be expedited. 28
+Sec. 4.  RCW 41.05.845  and 2025 c 25 s 2 are each amended to read 29
+as follows: 30
+(1) A health plan offered to public employees, retirees, and 31
+their covered dependents under this chapter issued or renewed on or 32
+after January 1, 2024, shall comply with the following standards 33
+related to prior authorization for health care services and 34
+prescription drugs: 35
+(a) The health plan shall meet the following time frames for 36
+prior authorization determinations and notifications to a 37
+participating provider or facility that submits the prior 38
+p. 13 E2SSB 5395.SL
+authorization request through an electronic prior authorization 1
+process: 2
+(i) For electronic standard prior authorization requests, the 3
+health plan shall make a decision and notify the provider or facility 4
+of the results of the decision within three calendar days, excluding 5
+holidays, of submission of an electronic prior authorization request 6
+by the provider or facility that contains the necessary information 7
+to make a determination. If insufficient information has been 8
+provided to the health plan to make a decision, the health plan shall 9
+request any additional information from the provider or facility 10
+within one calendar day of submission of the electronic prior 11
+authorization request. 12
+(ii) For electronic expedited prior authorization requests, the 13
+health plan shall make a decision and notify the provider or facility 14
+of the results of the decision within one calendar day of submission 15
+of an electronic prior authorization request by the provider or 16
+facility that contains the necessary information to make a 17
+determination. If insufficient information has been provided to the 18
+health plan to make a decision, the health plan shall request any 19
+additional information from the provider or facility within one 20
+calendar day of submission of the electronic prior authorization 21
+request. 22
+(b) The health plan shall meet the following time frames for 23
+prior authorization determinations and notifications to a 24
+participating provider or facility that submits the prior 25
+authorization request through a process other than an electronic 26
+prior authorization process described in subsection (2) of this 27
+section: 28
+(i) For nonelectronic standard prior authorization requests, the 29
+health plan shall make a decision and notify the provider or facility 30
+of the results of the decision within five calendar days of 31
+submission of a nonelectronic prior authorization request by the 32
+provider or facility that contains the necessary information to make 33
+a determination. If insufficient information has been provided to the 34
+health plan to make a decision, the health plan shall request any 35
+additional information from the provider or facility within five 36
+calendar days of submission of the nonelectronic prior authorization 37
+request. 38
+(ii) For nonelectronic expedited prior authorization requests, 39
+the health plan shall make a decision and notify the provider or 40
+p. 14 E2SSB 5395.SL
+facility of the results of the decision within two calendar days of 1
+submission of a nonelectronic prior authorization request by the 2
+provider or facility that contains the necessary information to make 3
+a determination. If insufficient information has been provided to the 4
+health plan to make a decision, the health plan shall request any 5
+additional information from the provider or facility within one 6
+calendar day of submission of the nonelectronic prior authorization 7
+request. 8
+(c) In any instance in which the health plan has determined that 9
+a provider or facility has not provided sufficient information for 10
+making a determination under (a) and (b) of this subsection, the 11
+health plan may establish a specific reasonable time frame for 12
+submission of the additional information. This time frame must be 13
+communicated to the provider and enrollee with the health plan's 14
+request for additional information. 15
+(d) The prior authorization requirements of the health plan must 16
+be described in detail and written in easily understandable language. 17
+The health plan shall make its most current prior authorization 18
+requirements and restrictions, including the written clinical review 19
+criteria, available to providers and facilities in an electronic 20
+format upon request. The prior authorization requirements must be 21
+based on peer-reviewed clinical review criteria. The clinical review 22
+criteria must be evidence-based criteria and must accommodate new and 23
+emerging information related to the appropriateness of clinical 24
+criteria with respect to black and indigenous people, other people of 25
+color, gender, and underserved populations. The clinical review 26
+criteria must be evaluated and updated, if necessary, at least 27
+annually. 28
+(((2))) (e) When denying a prior authorization determination, the 29
+health plan shall include the credentials, board certifications, and 30
+areas of specialty of the provider who had clinical oversight over 31
+the determination in any notification sent to the health plan 32
+enrollee and provider requesting or referring the service.33
+(2) Health plans must post, and maintain the ability to make 34
+adjustments to policies and procedures that impact the applicability 35
+of their prior authorization requirements for health care services or 36
+prescription drugs, including new applications of prior 37
+authorization, in a single location on the health plan's website. 38
+After December 30, 2030, any new application of prior authorization 39
+for health care services must be available to providers on the 40
+p. 15 E2SSB 5395.SL
+electronic prior authorization system or application programming 1
+interface system. 2
+(3)(a) Only a licensed physician or a licensed health 3
+professional working within their scope of practice may deny a prior 4
+authorization request based on medical necessity. The licensed 5
+physician or licensed health professional shall evaluate the specific 6
+clinical issues involved in the health care services requested by the 7
+requesting provider by reviewing and considering the requesting 8
+provider's recommendation, the enrollee's medical or other clinical 9
+history, as applicable, and individual clinical circumstances. 10
+Artificial intelligence shall not be the sole means used to deny, 11
+delay, or modify health care services. Algorithms may be used to 12
+process and approve prior authorization requests, but may not be used 13
+without human review to deny care based on a determination of medical 14
+necessity.15
+(b) A health plan that uses artificial intelligence for the 16
+purpose of prior authorization or prior authorization functions, 17
+based in whole or in part on medical necessity, or that contracts 18
+with or otherwise works through an entity that uses artificial 19
+intelligence for the purpose of prior authorization or prior 20
+authorization functions, based in whole or in part on medical 21
+necessity, shall ensure all of the following:22
+(i) The artificial intelligence bases its determination on the 23
+following information, as applicable:24
+(A) An enrollee's medical or other clinical history, including 25
+demographic data; and26
+(B) Individual clinical circumstances as presented by the 27
+requesting provider;28
+(ii) The artificial intelligence does not base its determination 29
+solely on a group data set;30
+(iii) The artificial intelligence's criteria and guidelines 31
+comply with this chapter and applicable state and federal law;32
+(iv) The use of the artificial intelligence does not 33
+discriminate, directly or indirectly, against an enrollee in 34
+violation of state or federal law;35
+(v) The artificial intelligence is fairly and equitably applied, 36
+including in accordance with any applicable regulations and guidance 37
+issued by the federal department of health and human services;38
+p. 16 E2SSB 5395.SL
+(vi) The policies and procedures for using the artificial 1
+intelligence is open to audit by the office of the insurance 2
+commissioner;3
+(vii) The artificial intelligence's performance, use, and 4
+outcomes are periodically reviewed by the health plan to maximize 5
+accuracy and reliability; and6
+(viii) Patient data is not used beyond its intended and stated 7
+purpose, consistent with chapter 70.02 RCW and the federal health 8
+insurance portability and accountability act of 1996, U.S.C. Sec. 9
+1320d et al., as applicable.10
+(4)(a) Each health plan offered to public employees, retirees, 11
+and their covered dependents under this chapter shall establish and 12
+maintain a prior authorization application programming interface that 13
+is consistent with final rules issued by the federal centers for 14
+medicare and medicaid services and published in the federal register, 15
+and that indicates that a prior authorization denial or authorization 16
+of a service less intensive than that included in the original 17
+request is an adverse benefit determination and is subject to the 18
+health plan's grievance and appeal process under RCW 48.43.535.19
+(b) Each health plan offered to public employees, retirees, and 20
+their covered dependents under this chapter shall establish and 21
+maintain an interoperable electronic process or application 22
+programming interface that automates the process for in-network 23
+providers to determine whether a prior authorization is required for 24
+a covered prescription drug. The interoperable electronic process or 25
+application programming interface must support the exchange of prior 26
+authorization requests and determinations for prescription drugs, 27
+including information on covered alternative prescription drugs, 28
+beginning January 1, 2027, and must: 29
+(i) Allow providers to identify prior authorization information 30
+and documentation requirements; 31
+(ii) Facilitate the exchange of prior authorization requests and 32
+determinations from its electronic health records or practice 33
+management system; and 34
+(iii) Indicate that a prior authorization denial or authorization 35
+of a drug other than the one included in the original prior 36
+authorization request is an adverse benefit determination and is 37
+subject to the health plan's grievance and appeal process under RCW 38
+48.43.535. 39
+p. 17 E2SSB 5395.SL
+(c) Regardless of whether federal rules related to standards for 1
+using an application programming interface to communicate prior 2
+authorization status to providers are revoked, delayed, suspended, or 3
+not finalized by the federal centers for medicare and medicaid 4
+services after February 8, 2024, the requirements of (a) of this 5
+subsection shall be enforced beginning January 1, 2027.6
+(((3))) (5) Nothing in this section applies to prior 7
+authorization determinations made pursuant to RCW 41.05.526.8
+(((4))) (6) This section applies to prior authorization functions 9
+carried out by health care benefit managers, as defined in RCW 10
+48.200.020, under direct or indirect contract with a carrier.11
+(7) The authority may adopt any rules necessary to implement this 12
+section.13
+(8) For the purposes of this section: 14
+(a) "Artificial intelligence" means the use of machine learning 15
+and related technologies that use data to train statistical models 16
+for the purpose of enabling computer systems to perform tasks 17
+normally associated with human intelligence or perception, such as 18
+computer vision, speech or natural language processing, and content 19
+generation. "Artificial intelligence" includes generative artificial 20
+intelligence.21
+(b) "Expedited prior authorization request" means a request by a 22
+provider or facility for approval of a health care service or 23
+prescription drug where: 24
+(i) The passage of time: 25
+(A) Could seriously jeopardize the life or health of the 26
+enrollee; 27
+(B) Could seriously jeopardize the enrollee's ability to regain 28
+maximum function; or 29
+(C) In the opinion of a provider or facility with knowledge of 30
+the enrollee's medical condition, would subject the enrollee to 31
+severe pain that cannot be adequately managed without the health care 32
+service or prescription drug that is the subject of the request; or33
+(ii) The enrollee is undergoing a current course of treatment 34
+using a nonformulary drug. 35
+(((b))) (c) "Generative artificial intelligence" means an 36
+artificial intelligence system that generates novel data or content 37
+based on a foundation model.38
+(d) "Machine learning" means the process by which artificial 39
+intelligence is developed using data and algorithms to draw 40
+p. 18 E2SSB 5395.SL
+inferences therefrom to automatically adapt or improve its accuracy 1
+without explicit programming. 2
+(e) "Standard prior authorization request" means a request by a 3
+provider or facility for approval of a health care service or 4
+prescription drug where the request is made in advance of the 5
+enrollee obtaining a health care service that is not required to be 6
+expedited. 7
+(((5))) (9) This section shall not apply to coverage provided 8
+under the medicare part C or part D programs set forth in Title XVIII 9
+of the social security act of 1965, as amended. 10
+Sec. 5.  RCW 48.43.525  and 2000 c 5 s 9 are each amended to read 11
+as follows: 12
+(1) A health carrier that offers a health plan shall not 13
+retrospectively deny coverage or retrospectively modify to a service 14
+less intensive than that included in an approved request  for 15
+emergency and nonemergency care that had prior authorization , 16
+including for medical necessity,  under the plan's written policies at 17
+the time the care was rendered , unless:18
+(a) The approved prior authorization was based upon a material 19
+misrepresentation by the provider, facility, or covered person; or20
+(b) The underlying health plan coverage is lawfully rescinded, 21
+canceled, or terminated retrospectively through the date of service .22
+(2) Retrospective denials of services with an approved prior 23
+authorization or retrospective modification of an approved prior 24
+authorization to less intensive services due to a change in the 25
+carrier's determination of medical necessity are prohibited, shall 26
+not be considered adverse benefit determinations, and will not be 27
+required to follow the standard appeals processes in RCW 48.43.530 or 28
+any carrier policies related to their own grievance and appeals 29
+process. If an enrollee, or the provider requesting the authorization 30
+demonstrates the authorization was valid per the plan's written 31
+policies, then the carrier will deem the authorization approved and 32
+payable. Interest will be assessed on the associated claim submitted 33
+by the provider at the rate of one percent per month, retroactive to 34
+the date of submission. An enrollee, or provider on behalf of the 35
+enrollee, may seek review by an independent review organization under 36
+RCW 48.43.535 without the need to engage in, exhaust, or wait for any 37
+timelines related to the carrier's grievance process.38
+p. 19 E2SSB 5395.SL
+(3) This section does not prevent carriers from reimbursing only 1
+for services billed and rendered.2
+(4) The commissioner shall adopt, in rule, standards for this 3
+section after considering relevant standards adopted by national 4
+managed care accreditation organizations and state agencies that 5
+purchase managed health care services. 6
+Sec. 6.  RCW 48.43.535  and 2022 c 263 s 4 are each amended to 7
+read as follows: 8
+(1) There is a need for a process for the fair consideration of 9
+disputes relating to decisions by carriers that offer a health plan 10
+to deny, modify, reduce, or terminate coverage of or payment for 11
+health care services for an enrollee. For purposes of this section, 12
+"carrier" also applies to a health plan if the health plan 13
+administers the appeal process directly or through a third party.14
+(2) An enrollee may seek review by a certified independent review 15
+organization of a carrier's decision to deny, modify, reduce, or 16
+terminate coverage of or payment for a health care service or of any 17
+adverse determination made by a carrier under RCW 48.49.020, 18
+48.49.030, or sections 2799A-1 or 2799A-2 of the public health 19
+service act (42 U.S.C. Secs. 300gg-111 or 300gg-112) and implementing 20
+federal regulations in effect as of March 31, 2022, after exhausting 21
+the carrier's grievance process and receiving a decision that is 22
+unfavorable to the enrollee, or after the carrier has exceeded the 23
+timelines for grievances provided in RCW 48.43.530, without good 24
+cause and without reaching a decision. Any requirements that the 25
+enrollee must first engage in, exhaust, or wait for any timelines 26
+related to the carrier's grievance process do not apply to review 27
+sought pursuant to RCW 48.43.525.28
+(3) The commissioner must establish and use a rotational registry 29
+system for the assignment of a certified independent review 30
+organization to each dispute. The system should be flexible enough to 31
+ensure that an independent review organization has the expertise 32
+necessary to review the particular medical condition or service at 33
+issue in the dispute, and that any approved independent review 34
+organization does not have a conflict of interest that will influence 35
+its independence. 36
+(4) Carriers must provide to the appropriate certified 37
+independent review organization, not later than the third business 38
+p. 20 E2SSB 5395.SL
+day after the date the carrier receives a request for review, a copy 1
+of: 2
+(a) Any medical records of the enrollee that are relevant to the 3
+review; 4
+(b) Any documents used by the carrier in making the determination 5
+to be reviewed by the certified independent review organization;6
+(c) Any documentation and written information submitted to the 7
+carrier in support of the appeal; and 8
+(d) A list of each physician or health care provider who has 9
+provided care to the enrollee and who may have medical records 10
+relevant to the appeal. Health information or other confidential or 11
+proprietary information in the custody of a carrier may be provided 12
+to an independent review organization, subject to rules adopted by 13
+the commissioner. 14
+(5) Enrollees must be provided with at least five business days 15
+to submit to the independent review organization in writing 16
+additional information that the independent review organization must 17
+consider when conducting the external review. The independent review 18
+organization must forward any additional information submitted by an 19
+enrollee to the plan or carrier within one business day of receipt by 20
+the independent review organization. 21
+(6) The medical reviewers from a certified independent review 22
+organization will make determinations regarding the medical necessity 23
+or appropriateness of, and the application of health plan coverage 24
+provisions to, health care services for an enrollee. The medical 25
+reviewers' determinations must be based upon their expert medical 26
+judgment, after consideration of relevant medical, scientific, and 27
+cost-effectiveness evidence, and medical standards of practice in the 28
+state of Washington. Except as provided in this subsection, the 29
+certified independent review organization must ensure that 30
+determinations are consistent with the scope of covered benefits as 31
+outlined in the medical coverage agreement. Medical reviewers may 32
+override the health plan's medical necessity or appropriateness 33
+standards if the standards are determined upon review to be 34
+unreasonable or inconsistent with sound, evidence-based medical 35
+practice. 36
+(7) Once a request for an independent review determination has 37
+been made, the independent review organization must proceed to a 38
+final determination, unless requested otherwise by both the carrier 39
+and the enrollee or the enrollee's representative.40
+p. 21 E2SSB 5395.SL
+(a) An enrollee or carrier may request an expedited external 1
+review if the adverse benefit determination or internal adverse 2
+benefit determination concerns an admission, availability of care, 3
+continued stay, or health care service for which the claimant 4
+received emergency services but has not been discharged from a 5
+facility; or involves a medical condition for which the standard 6
+external review time frame would seriously jeopardize the life or 7
+health of the enrollee or jeopardize the enrollee's ability to regain 8
+maximum function. The independent review organization must make its 9
+decision to uphold or reverse the adverse benefit determination or 10
+final internal adverse benefit determination and notify the enrollee 11
+and the carrier or health plan of the determination as expeditiously 12
+as possible but within not more than seventy-two hours after the 13
+receipt of the request for expedited external review. If the notice 14
+is not in writing, the independent review organization must provide 15
+written confirmation of the decision within forty-eight hours after 16
+the date of the notice of the decision. 17
+(b) For claims involving experimental or investigational 18
+treatments, the independent review organization must ensure that 19
+adequate clinical and scientific experience and protocols are taken 20
+into account as part of the external review process.21
+(8) Carriers must timely implement the certified independent 22
+review organization's determination, and must pay the certified 23
+independent review organization's charges. 24
+(9) When an enrollee requests independent review of a dispute 25
+under this section, and the dispute involves a carrier's decision to 26
+modify, reduce, or terminate an otherwise covered health service that 27
+an enrollee is receiving at the time the request for review is 28
+submitted and the carrier's decision is based upon a finding that the 29
+health service, or level of health service, is no longer medically 30
+necessary or appropriate, the carrier must continue to provide the 31
+health service if requested by the enrollee until a determination is 32
+made under this section. If the determination affirms the carrier's 33
+decision, the enrollee may be responsible for the cost of the 34
+continued health service. 35
+(10) Each certified independent review organization must maintain 36
+written records and make them available upon request to the 37
+commissioner. 38
+(11) A certified independent review organization may notify the 39
+office of the insurance commissioner if, based upon its review of 40
+p. 22 E2SSB 5395.SL
+disputes under this section, it finds a pattern of substandard or 1
+egregious conduct by a carrier. 2
+(12)(a) The commissioner shall adopt rules to implement this 3
+section after considering relevant standards adopted by national 4
+managed care accreditation organizations and the national association 5
+of insurance commissioners. 6
+(b) This section is not intended to supplant any existing 7
+authority of the office of the insurance commissioner under this 8
+title to oversee and enforce carrier compliance with applicable 9
+statutes and rules. 10
+Sec. 7.  RCW 48.43.535  and 2025 c 227 s 6 are each amended to 11
+read as follows: 12
+(1) There is a need for a process for the fair consideration of 13
+disputes relating to decisions by carriers that offer a health plan 14
+to deny, modify, reduce, or terminate coverage of or payment for 15
+health care services for an enrollee. For purposes of this section, 16
+"carrier" also applies to a health plan if the health plan 17
+administers the appeal process directly or through a third party.18
+(2) An enrollee may seek review by a certified independent review 19
+organization of a carrier's decision to deny, modify, reduce, or 20
+terminate coverage of or payment for a health care service or of any 21
+adverse determination made by a carrier under RCW 48.49.020, 22
+48.49.030, or sections 2799A-1 or 2799A-2 of the public health 23
+service act (42 U.S.C. Secs. 300gg-111 or 300gg-112) and implementing 24
+federal regulations in effect as of March 31, 2022, after exhausting 25
+the carrier's grievance process and receiving a decision that is 26
+unfavorable to the enrollee, or after the carrier has exceeded the 27
+timelines for grievances provided in RCW 48.43.530, without good 28
+cause and without reaching a decision. Any requirements that the 29
+enrollee must first engage in, exhaust, or wait for any timelines 30
+related to the carrier's grievance process do not apply to review 31
+sought pursuant to RCW 48.43.525.32
+(3) The commissioner must establish and use a rotational registry 33
+system for the assignment of a certified independent review 34
+organization to each dispute. The system should be flexible enough to 35
+ensure that an independent review organization has the expertise 36
+necessary to review the particular medical condition or service at 37
+issue in the dispute, and that any approved independent review 38
+p. 23 E2SSB 5395.SL
+organization does not have a conflict of interest that will influence 1
+its independence. 2
+(4) Carriers must provide to the appropriate certified 3
+independent review organization, not later than the third business 4
+day after the date the carrier receives a request for review, a copy 5
+of: 6
+(a) Any medical records of the enrollee that are relevant to the 7
+review; 8
+(b) Any documents used by the carrier in making the determination 9
+to be reviewed by the certified independent review organization;10
+(c) Any documentation and written information submitted to the 11
+carrier in support of the appeal; and 12
+(d) A list of each physician or health care provider who has 13
+provided care to the enrollee and who may have medical records 14
+relevant to the appeal. Health information or other confidential or 15
+proprietary information in the custody of a carrier may be provided 16
+to an independent review organization, subject to rules adopted by 17
+the commissioner. 18
+(5) Enrollees must be provided with at least five business days 19
+to submit to the independent review organization in writing 20
+additional information that the independent review organization must 21
+consider when conducting the external review. The independent review 22
+organization must forward any additional information submitted by an 23
+enrollee to the plan or carrier within one business day of receipt by 24
+the independent review organization. 25
+(6) The medical reviewers from a certified independent review 26
+organization will make determinations regarding the medical necessity 27
+or appropriateness of, and the application of health plan coverage 28
+provisions to, health care services for an enrollee. The medical 29
+reviewers' determinations must be based upon their expert medical 30
+judgment, after consideration of relevant medical, scientific, and 31
+cost-effectiveness evidence, and medical standards of practice in the 32
+state of Washington. Except as provided in this subsection, the 33
+certified independent review organization must ensure that 34
+determinations are consistent with the scope of covered benefits as 35
+outlined in the medical coverage agreement. Medical reviewers may 36
+override the health plan's medical necessity or appropriateness 37
+standards if the standards are determined upon review to be 38
+unreasonable or inconsistent with sound, evidence-based medical 39
+practice. For reviews of mental health and substance use disorder 40
+p. 24 E2SSB 5395.SL
+services, as defined in RCW 48.43.766, the medical reviewers must 1
+conduct reviews and make determinations in a manner consistent with 2
+the requirements of RCW 48.43.766. 3
+(7) Once a request for an independent review determination has 4
+been made, the independent review organization must proceed to a 5
+final determination, unless requested otherwise by both the carrier 6
+and the enrollee or the enrollee's representative. 7
+(a) An enrollee or carrier may request an expedited external 8
+review if the adverse benefit determination or internal adverse 9
+benefit determination concerns an admission, availability of care, 10
+continued stay, or health care service for which the claimant 11
+received emergency services but has not been discharged from a 12
+facility; or involves a medical condition for which the standard 13
+external review time frame would seriously jeopardize the life or 14
+health of the enrollee or jeopardize the enrollee's ability to regain 15
+maximum function. The independent review organization must make its 16
+decision to uphold or reverse the adverse benefit determination or 17
+final internal adverse benefit determination and notify the enrollee 18
+and the carrier or health plan of the determination as expeditiously 19
+as possible but within not more than seventy-two hours after the 20
+receipt of the request for expedited external review. If the notice 21
+is not in writing, the independent review organization must provide 22
+written confirmation of the decision within forty-eight hours after 23
+the date of the notice of the decision. 24
+(b) For claims involving experimental or investigational 25
+treatments, the independent review organization must ensure that 26
+adequate clinical and scientific experience and protocols are taken 27
+into account as part of the external review process.28
+(8) Carriers must timely implement the certified independent 29
+review organization's determination, and must pay the certified 30
+independent review organization's charges. 31
+(9) When an enrollee requests independent review of a dispute 32
+under this section, and the dispute involves a carrier's decision to 33
+modify, reduce, or terminate an otherwise covered health service that 34
+an enrollee is receiving at the time the request for review is 35
+submitted and the carrier's decision is based upon a finding that the 36
+health service, or level of health service, is no longer medically 37
+necessary or appropriate, the carrier must continue to provide the 38
+health service if requested by the enrollee until a determination is 39
+made under this section. If the determination affirms the carrier's 40
+p. 25 E2SSB 5395.SL
+decision, the enrollee may be responsible for the cost of the 1
+continued health service. 2
+(10) Each certified independent review organization must maintain 3
+written records and make them available upon request to the 4
+commissioner. 5
+(11) A certified independent review organization may notify the 6
+office of the insurance commissioner if, based upon its review of 7
+disputes under this section, it finds a pattern of substandard or 8
+egregious conduct by a carrier. 9
+(12)(a) The commissioner shall adopt rules to implement this 10
+section after considering relevant standards adopted by national 11
+managed care accreditation organizations and the national association 12
+of insurance commissioners. 13
+(b) This section is not intended to supplant any existing 14
+authority of the office of the insurance commissioner under this 15
+title to oversee and enforce carrier compliance with applicable 16
+statutes and rules. 17
+Sec. 8.  RCW 48.43.0161  and 2023 c 382 s 4 are each amended to 18
+read as follows: 19
+(1) By October 1, ((2020)) 2026, and annually thereafter, for 20
+individual and group health plans issued by a carrier that has 21
+written at least one percent of the total accident and health 22
+insurance premiums written by all companies authorized to offer 23
+accident and health insurance in Washington in the most recently 24
+available year, the carrier shall report to the commissioner the 25
+following aggregated and deidentified data related to the carrier's 26
+prior authorization practices and experience for the prior plan year:27
+(a) The total number of prior authorization requests, approvals, 28
+and denials. The carrier must report these totals separately for 29
+approvals or denials made by the carrier directly and for approvals 30
+or denials made by a health care benefit manager as defined in RCW 31
+48.200.020 that is delegated to make prior authorization 32
+determinations either directly or indirectly on behalf of the 33
+carrier. In the report, carriers must also indicate:34
+(i) The percentage of total denials that were aided by artificial 35
+intelligence;36
+(ii) The percent of prior authorization determinations made after 37
+the standard and expedited authorization request turnaround times 38
+stated in RCW 48.43.830; and39
+p. 26 E2SSB 5395.SL
+(iii) The total number of nonelectronic standard and 1
+nonelectronic expedited prior authorization requests;2
+(b) Lists of the 10 inpatient medical or surgical codes:3
+(i) With the highest total number of prior authorization requests 4
+during the previous plan year, including the total number of prior 5
+authorization requests for each code and the percent of approved 6
+requests for each code; 7
+(ii) With the highest percentage of approved prior authorization 8
+requests during the previous plan year, including the total number of 9
+prior authorization requests for each code and the percent of 10
+approved requests for each code; and 11
+(iii) With the highest percentage of prior authorization requests 12
+that were initially denied and then subsequently approved on appeal, 13
+including the total number of prior authorization requests for each 14
+code and the percent of requests that were initially denied and then 15
+subsequently approved for each code; 16
+(((b))) (c) Lists of the 10 outpatient medical or surgical codes:17
+(i) With the highest total number of prior authorization requests 18
+during the previous plan year, including the total number of prior 19
+authorization requests for each code and the percent of approved 20
+requests for each code; 21
+(ii) With the highest percentage of approved prior authorization 22
+requests during the previous plan year, including the total number of 23
+prior authorization requests for each code and the percent of 24
+approved requests for each code; and 25
+(iii) With the highest percentage of prior authorization requests 26
+that were initially denied and then subsequently approved on appeal, 27
+including the total number of prior authorization requests for each 28
+code and the percent of requests that were initially denied and then 29
+subsequently approved for each code; 30
+(((c))) (d) Lists of the 10 inpatient mental health and substance 31
+use disorder service codes: 32
+(i) With the highest total number of prior authorization requests 33
+during the previous plan year, including the total number of prior 34
+authorization requests for each code and the percent of approved 35
+requests for each code; 36
+(ii) With the highest percentage of approved prior authorization 37
+requests during the previous plan year, including the total number of 38
+prior authorization requests for each code and the percent of 39
+approved requests for each code; and 40
+p. 27 E2SSB 5395.SL
+(iii) With the highest percentage of prior authorization requests 1
+that were initially denied and then subsequently approved on appeal, 2
+including the total number of prior authorization requests for each 3
+code and the percent of requests that were initially denied and then 4
+subsequently approved for each code; 5
+(((d))) (e) Lists of the 10 outpatient mental health and 6
+substance use disorder service codes: 7
+(i) With the highest total number of prior authorization requests 8
+during the previous plan year, including the total number of prior 9
+authorization requests for each code and the percent of approved 10
+requests for each code; 11
+(ii) With the highest percentage of approved prior authorization 12
+requests during the previous plan year, including the total number of 13
+prior authorization requests for each code and the percent of 14
+approved requests for each code; and 15
+(iii) With the highest percentage of prior authorization requests 16
+that were initially denied and then subsequently approved on appeal, 17
+including the total number of prior authorization requests for each 18
+code and the percent of requests that were initially denied and then 19
+subsequently approved; 20
+(((e))) (f) Lists of the 10 durable medical equipment codes:21
+(i) With the highest total number of prior authorization requests 22
+during the previous plan year, including the total number of prior 23
+authorization requests for each code and the percent of approved 24
+requests for each code; 25
+(ii) With the highest percentage of approved prior authorization 26
+requests during the previous plan year, including the total number of 27
+prior authorization requests for each code and the percent of 28
+approved requests for each code; and 29
+(iii) With the highest percentage of prior authorization requests 30
+that were initially denied and then subsequently approved on appeal, 31
+including the total number of prior authorization requests for each 32
+code and the percent of requests that were initially denied and then 33
+subsequently approved for each code; 34
+(((f))) (g) Lists of the 10 diabetes supplies and equipment 35
+codes: 36
+(i) With the highest total number of prior authorization requests 37
+during the previous plan year, including the total number of prior 38
+authorization requests for each code and the percent of approved 39
+requests for each code; 40
+p. 28 E2SSB 5395.SL
+(ii) With the highest percentage of approved prior authorization 1
+requests during the previous plan year, including the total number of 2
+prior authorization requests for each code and the percent of 3
+approved requests for each code; and 4
+(iii) With the highest percentage of prior authorization requests 5
+that were initially denied and then subsequently approved on appeal, 6
+including the total number of prior authorization requests for each 7
+code and the percent of requests that were initially denied and then 8
+subsequently approved for each code; 9
+(((g))) (h) Lists of the 10 prescription drugs:10
+(i) With the highest total number of prior authorization requests 11
+during the previous plan year, including the total number of prior 12
+authorization requests for each prescription drug and the percent of 13
+approved requests for each prescription drug; 14
+(ii) With the highest percentage of approved prior authorization 15
+requests during the previous plan year, including the total number of 16
+prior authorization requests for each prescription drug and the 17
+percent of approved requests for each prescription drug; and18
+(iii) With the highest percentage of prior authorization requests 19
+that were initially denied and then subsequently approved on appeal, 20
+including the total number of prior authorization requests for each 21
+prescription drug and the percent of requests that were initially 22
+denied and then subsequently approved for each prescription drug; and23
+(((h))) (i) The average determination response time in hours for 24
+prior authorization requests to the carrier in total reported under 25
+(a) of this subsection and  with respect to each code reported under 26
+(((a))) (b) through (((f))) (h) of this subsection for each of the 27
+following categories of prior authorization: 28
+(i) Expedited decisions; 29
+(ii) Standard decisions; and 30
+(iii) Extenuating circumstances decisions. 31
+(2)(a) By January 1, 2021, and annually thereafter, the 32
+commissioner shall aggregate and deidentify the data collected under 33
+subsection (1)(b) through (h) of this section into a standard report 34
+and may not identify the name of the carrier that submitted the data. 35
+The commissioner must make the report available to interested 36
+parties. 37
+(b) The report must contain trend data for total authorization 38
+requests, approvals, and denials submitted under subsection (1)(a) of 39
+this section separately for each carrier directly and for each health 40
+p. 29 E2SSB 5395.SL
+care benefit manager, as defined in RCW 48.200.020, that is delegated 1
+to make prior authorization determinations either directly or 2
+indirectly on behalf of the carrier. 3
+(3) The commissioner may request additional information from 4
+carriers reporting data under this section. 5
+(4) The commissioner may adopt rules to implement this section. 6
+In adopting rules, the commissioner must consult stakeholders 7
+including carriers, health care practitioners, health care 8
+facilities, and patients. 9
+(5) For the purpose of this section, "prior authorization" means 10
+a mandatory process that a carrier or its designated or contracted 11
+representative requires a provider or facility to follow before a 12
+service is delivered, to determine if a service is a benefit and 13
+meets the requirements for medical necessity, clinical 14
+appropriateness, level of care, or effectiveness in relation to the 15
+applicable plan, including any term used by a carrier or its 16
+designated or contracted representative to describe this process.17
+NEW SECTION.   Sec. 9.  Sections 2 and 6 of this act expire 18
+January 1, 2027.19
+NEW SECTION.   Sec. 10.  Sections 3 and 7 of this act take effect 20
+January 1, 2027.21
+Passed by the Senate March 9, 2026.
+Passed by the House March 4, 2026.
+Approved by the Governor March 23, 2026.
+Filed in Office of Secretary of State March 24, 2026.
+--- END ---
+p. 30 E2SSB 5395.SL

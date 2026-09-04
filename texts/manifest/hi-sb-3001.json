@@ -1,0 +1,15 @@
+{
+ "id": "HI SB 3001",
+ "slug": "hi-sb-3001",
+ "state": "HI",
+ "sourcePage": "https://www.capitol.hawaii.gov/sessions/session2026/bills/SB3001_CD1_.HTM",
+ "docUrl": "https://www.capitol.hawaii.gov/sessions/session2026/bills/SB3001_CD1_.HTM",
+ "docFormat": "html",
+ "version": "CD1 (final)",
+ "rawFile": "texts/raw/hi-sb-3001.html",
+ "txtFile": "texts/hi-sb-3001.txt",
+ "chars": 11128,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "LegiScan copies are summary stubs; original recovered via Wayback Machine snapshot 2026-07-22"
+}

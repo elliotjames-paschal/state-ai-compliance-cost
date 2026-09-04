@@ -1,0 +1,15 @@
+{
+ "id": "MS HB 1723",
+ "slug": "ms-hb-1723",
+ "state": "MS",
+ "sourcePage": "https://billstatus.ls.state.ms.us/2026/pdf/history/HB/HB1723.xml",
+ "docUrl": "https://billstatus.ls.state.ms.us/documents/2026/html/HB/1700-1799/HB1723SG.htm",
+ "docFormat": "html",
+ "version": "Enrolled",
+ "rawFile": "texts/raw/ms-hb-1723.html",
+ "txtFile": "texts/ms-hb-1723.txt",
+ "chars": 964,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3380940 (Enrolled 2026-03-02) | text too short (964 chars) | short-text flag manually verified: definition-only act (single AI definition), genuinely ~970 chars"
+}

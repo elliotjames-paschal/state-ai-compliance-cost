@@ -1,0 +1,449 @@
+GENERAL ASSEMBLY OF NORTH CAROLINA 
+SESSION 2025 
+H 6 
+HOUSE BILL 301 
+Committee Substitute Favorable 4/1/25 
+Committee Substitute #2 Favorable 4/15/25 
+Senate Education/Higher Education Committee Substitute Adopted 4/29/26 
+Senate Judiciary Committee Substitute Adopted 6/3/26 
+Sixth Edition Engrossed 6/10/26 
+ 
+Short Title: Social Media & AI Safety. (Public) 
+Sponsors:  
+Referred to:  
+March 6, 2025 
+*H301-v-6* 
+A BILL TO BE ENTITLED 1 
+AN ACT TO PROVIDE SO CIAL MEDIA PROTECTIO NS FOR CHILDREN UNDE R 2 
+SIXTEEN YEARS OF AGE , TO REQUIRE THE STA TE BOARD OF EDUCATION TO 3 
+UPDATE COMPUTER SCIE NCE STANDARDS TO INC LUDE INSTRUCTION ON 4 
+ARTIFICIAL INTELLIGE NCE (AI), TO REQUIRE  THE DEPARTMENT OF PUBLIC  5 
+INSTRUCTION TO ADOPT  A MODEL AI POLICY, TO REQUIRE GOVERNING  6 
+BODIES OF PUBLIC SCH OOL UNITS TO ADOPT P OLICIES ON AI USE, T O 7 
+REQUIRE THE DEPARTME NT OF PUBLIC INSTRUC TION TO ESTABLISH A 8 
+FRAMEWORK FOR EVALUA TING GENERATIVE AI -POWERED EDUCA TIONAL 9 
+TOOLS USED IN PUBLIC  SCHOOLS, AND TO REQ UIRE THE DEPARTMENT OF 10 
+PUBLIC INSTRUCTION T O PARTNER WITH THE F RIDAY INSTITUTE TO 11 
+DEVELOP EDUCATOR AND ADMINISTRATOR TRAINING ON THE USE OF AI. 12 
+The General Assembly of North Carolina enacts: 13 
+ 14 
+PART I. SOCIAL MEDIA PROTECTIONS FOR CHILDREN 15 
+SECTION 1.(a)  The General Statutes are amended by adding a new Chapter to read: 16 
+"Chapter 114B. 17 
+"Social Media Protections for Children. 18 
+"§ 114B-1.  Title; definitions. 19 
+(a) Title. – This Chapter shall be known and may be cited as the "Social Media Protection 20 
+for Children Act." 21 
+(b) Definitions. – The following definitions apply in this Chapter: 22 
+(1) Account holder. – A person who opens an account or creates a profile or is 23 
+identified by the addictive social media platform by a unique identifier while 24 
+using or accessing an addictive platform when the addictive platform knows 25 
+or has reason to believe the person is a resident of this State. 26 
+(2) Addictive social media platform  or addictive platform. – An online forum, 27 
+website, or application that satisfies all of the following criteria: 28 
+a. Has as its primary purpose or function to provide a forum for users to 29 
+upload content or view uploaded content of other users. 30 
+b. Had t en percent (10%) or more of its daily active users who are 31 
+younger than 16 years of age spend on average at least two hours per 32 
+General Assembly Of North Carolina Session 2025 
+Page 2  House Bill 301-Sixth Edition 
+day on the online forum, website, or application on the days when 1 
+using the online forum, website, or application during the previous 12 2 
+months or, if the online forum, website, or application did not exist 3 
+during the previous 12 months, during the previous month. 4 
+c. Employs algorithms that analyze user data or information on users to 5 
+select content for users. 6 
+d. Has any of the following addictive features: 7 
+1. Infinite scrolling, which means either (i) continuously loading 8 
+content or content that loads as the user scrolls down the page 9 
+without the need to open a separate page or ( ii) seamless 10 
+content or the use of pages with no visible or apparent end or 11 
+page breaks. 12 
+2. Push notifications or alerts sent by the online forum, website, 13 
+or application to inform a user about specific activities or 14 
+events related to the user's account that cannot be disabled. 15 
+3. Displays personal interactive metrics that indicate the number 16 
+of times other users have clicked a button to indicate their 17 
+reaction to content or have shared or reposted the content. 18 
+4. Auto-play video or video that begins to play without the user 19 
+first clicking on the video or on a play button for that video. 20 
+5. Live-streaming or a function that allows a user or advertiser to 21 
+broadcast live video content in real time. 22 
+e. Is not an online service, website, or application where the exclusive 23 
+function is email , audio communication,  or direct messaging 24 
+consisting of text, photographs, pictures, images, audio, or videos 25 
+shared only between the sender and the recipients, without displaying 26 
+or posting publicly or to other users not specif ically identified as the 27 
+recipients by the sender. 28 
+(3) Anonymous age verification. – A commercially reasonable method used by a 29 
+government agency or a business for the purpose of age verification that meets 30 
+all of the following: 31 
+a. Is conducted by a nongovernmental, independent third party organized 32 
+under the laws of a state of the United States that meets all of the 33 
+following criteria: 34 
+1. Has its principal place of business in a state of the United 35 
+States. 36 
+2. Is not owned or controlled by an entity formed in a foreign 37 
+country or by a government of a foreign country, unless the 38 
+entity meets at least one of the following criteria: 39 
+I. The entity has received a determination from the 40 
+Committee of Foreign Investment in the United S tates 41 
+(CFIUS) that there are no unresolved national security 42 
+concerns with respect to the entity in connection to a 43 
+matter submitted to CFIUS and which CFIUS 44 
+concluded all action pursuant to Section 721 of the 45 
+Defense Production Act of 1950, as amended. 46 
+II. The entity has a national security agreement with 47 
+CFIUS and maintains the validity of the national 48 
+security agreement. 49 
+General Assembly Of North Carolina Session 2025 
+House Bill 301-Sixth Edition  Page 3 
+III. The entity is a United States domiciled subsidiary of an 1 
+entity that meets the criteria of sub-sub-subdivisions I. 2 
+or II. of this sub-sub-subdivision. 3 
+b. Does not do any of the following: 4 
+1. Retain personal identifying information used to verify age once 5 
+the age of an account holder or a person seeking an account has 6 
+been verified. 7 
+2. Use personal identifying information used to verify age for any 8 
+other purpose. 9 
+c. Does all of the following: 10 
+1. Keep anonymous any personal identifying information used to 11 
+verify age. The information may not be shared or otherwise 12 
+communicated to any person. 13 
+2. Protect personal identifying information used to verify age 14 
+from unauthorized or illegal access, destruction, use, 15 
+modification, or disclosure through reasonable security 16 
+procedures and practices appropriate to the nature of the 17 
+personal information. 18 
+(4) Child. – A person who is under 16 years of age. 19 
+(5) Daily active users. – The number of unique users in the United States who 20 
+used the online forum, website, or application at least eighty percent (80%) of 21 
+the days during the previous 12 months or , if the online forum, website, or 22 
+application did not exist during the previous 12 months, the number of unique 23 
+users in the United States who used the online forum, website, or application 24 
+at least eighty percent (80%) of the days during the previous month. 25 
+(6) Resident. – A person who lives in this State for more than six months of the 26 
+year. 27 
+(7) Standard age verification. – Any commercially reasonable method of age 28 
+verification approved by the addictive social media platform. 29 
+(8) User data. – Any data collected by an addictive social media platform about 30 
+an account holder. 31 
+"§ 114B-2.  Social media protections for children. 32 
+(a) Addictive Social Media Platform Contract. – For the purposes of this section, i f an 33 
+addictive social media platform allows an account holder to use the addictive platform, the parties 34 
+have entered into a contract. 35 
+(b) Children Under 14 Years of Age. – An addictive social media platform shall prohibit 36 
+a child who is younger than 14 years of age from entering into a contract with the addictive 37 
+platform to become an account holder and shall do all of the following: 38 
+(1) Terminate an account held by a child under 14 years of age after providing the 39 
+account holder 30 days to dispute the termination. 40 
+(2) Permanently delete all personal information held by the addictive platform 41 
+relating to the terminated account, unless there are legal requirements to 42 
+maintain the information. 43 
+(c) Children 14 or 15 Years of Age. – An addictive social media platform shall prohibit 44 
+a child who is 14 or 15 years of age from entering into a contract with the addictive platform to 45 
+become an account holder unless the child's parent or guardian provides consent for the child to 46 
+become an account holder and shall do all of the following: 47 
+(1) Terminate an account held by an account holder who is 14 or 15 years of age 48 
+and who does not have a parent or guardian 's consent after providing the 49 
+account holder 30 days to dispute the termination. 50 
+General Assembly Of North Carolina Session 2025 
+Page 4  House Bill 301-Sixth Edition 
+(2) Allow the parent or guardian of an account holder who is 14 or 15 years of 1 
+age to request that the child's account be terminated. Termination must be 2 
+effective within 10 business days after the request. 3 
+(3) Permanently delete all personal information held by the addictive platform 4 
+relating to the terminated account unless there are legal requirements to 5 
+maintain the information. 6 
+(d) Unfair and Deceptive Trade Practice. – A violation of this  section is an unfair and 7 
+deceptive trade practice under G.S. 75-1.1 and is enforceable under Chapter 75 of the General 8 
+Statutes, subject to all of the following: 9 
+(1) The action may solely be brought by the Attorney General against an addictive 10 
+social media platform. 11 
+(2) In addition to the civil penalty under G.S. 75-15.2, the Attorney General may 12 
+collect a civil penalty of up to fifty thousand dollars ( $50,000) per violation 13 
+and reasonable attorneys' fees and court costs. 14 
+(3) If an addictive social media platform's failure to comply with this section is a 15 
+consistent pattern of knowing or reckless conduct, the court may assess 16 
+punitive damages against the addictive platform. 17 
+(e) Private Right of Action. – An addictive social media platform that  knowingly or 18 
+recklessly violates this section is liable to the  child account holder, including court costs and 19 
+reasonable attorneys' fees. Claimants may be awarded up to ten thousand dollars ( $10,000) in 20 
+damages. Any action brought under this subsection may only be brought on behalf of a child 21 
+account holder. A civil action for a claim under this subsection must be brought within one year 22 
+from the date the complainant knew, or reasonably should have known, of the alleged violation. 23 
+(f) Civil Penalties. – The clear proceeds of civil penalties provided for in this section 24 
+shall be remitted to the Civil Penalty and Forfeiture Fund in accordance with G.S. 115C-457.2. 25 
+(g) Jurisdiction. – For purposes of bringing an action under this section, an addictive 26 
+social media platform that allows a child to create an account on the addictive platform is 27 
+considered to be both engaged in substantial and not isolated activities within this State and 28 
+operating, conducting, engaging in, or carrying on a bus iness and doing business in this State, 29 
+and is therefore subject to the jurisdiction of the courts of this State. 30 
+(h) Nonexclusive Remedies. – This section does not preclude any other available remedy 31 
+at law or in equity. 32 
+"§ 114B-3.  Age verification for addictive social media platforms. 33 
+(a) Age Verification Requirement. – An addictive social media platform shall use either 34 
+anonymous age verification or standard age verification to verify that an account holder is 16 35 
+years of age or older and , except as provided in G.S. 114B-2(c), prevent creation of an account 36 
+by a person younger than 1 6 years of age. The addictive platform shall offer anonymous age 37 
+verification and standard age verification, and a person attempting to create an account may select 38 
+which method will be used to verify the person's age. 39 
+(b) Unfair and Deceptive Trade Practice. – Any violation of subsection (a) of this section 40 
+is an unfair and deceptive trade practice under G.S. 75-1.1 and is enforceable under Chapter 75 41 
+of the General Statutes, subject to all of the following: 42 
+(1) The action may solely be brought by the Attorney General  on behalf of a 43 
+resident child against an addictive social media platform. 44 
+(2) In addition to the civil penalty under G.S. 75-15.2, the Attorney General may 45 
+collect a civil penalty of up to fifty thousand dollars ( $50,000) per violation 46 
+and reasonable attorneys' fees and court costs. 47 
+(3) If an addictive social media platform's failure to comply with this section is a 48 
+consistent pattern of knowing or reckless conduct, the court may assess 49 
+punitive damages against the addictive platform. 50 
+General Assembly Of North Carolina Session 2025 
+House Bill 301-Sixth Edition  Page 5 
+(c) Civil Penalties. – The clear proceeds of civil penalties provided for in this section 1 
+shall be remitted to the Civil Penalty and Forfeiture Fund in accordance with G.S. 115C-457.2. 2 
+(d) Jurisdiction. – For purposes of bringing an action under this section, a n addictive 3 
+social media platform that allows a child to create an account on the addictive platform is 4 
+considered to be both engaged in substantial and not isolated activities within this State and 5 
+operating, conducting, engaging in, or carrying on a business and doing business in this State, 6 
+and is therefore subject to the jurisdiction of the courts of this State. 7 
+(e) Nonexclusive Remedies. – This section does not preclude any other available remedy 8 
+at law or in equity. 9 
+"§ 114B-3.5.  Prohibit use or sale of user data. 10 
+(a) Prohibited Uses of a Child 's User Data. – An addictive social media platform shall 11 
+not do any of the following with a child's user data: 12 
+(1) Use the user data to inform content recommendations to the child. This 13 
+requirement is not intended to prevent content recommendations from being 14 
+shown as a direct result of explicit actions, such as showing posts fro m 15 
+accounts a child follows in a chronological feed, but it is intended to prevent 16 
+any data, including follows, from being used in an algorithm to generate 17 
+algorithmic recommendations. 18 
+(2) Use the user data to inform what commercial advertisements or promot ions 19 
+are shown to the child. This requirement is not intended to prevent the 20 
+showing of advertisements or promotions that are shown to the child based 21 
+upon explicit actions, such as being based on the results of a search initiated 22 
+by the user on the platform. 23 
+(3) Sell the child's user data to a third party. 24 
+(b) Exceptions. – This section does not apply to any of the following: 25 
+(1) An addictive social media platform engaging in any actions identified in 26 
+subsection (a) of this section in reliance on the user's age verification pursuant 27 
+to G.S. 114B-3. 28 
+(2) An addictive social media platform's use of a child's user data to block access 29 
+to inappropriate or harmful content to the child. 30 
+(c) Unfair and Deceptive Trade Practice. – Any violation of subsection (a) of this section 31 
+is an unfair and deceptive trade practice under G.S. 75-1.1 and is enforceable under Chapter 75 32 
+of the General Statutes, subject to all of the following: 33 
+(1) The action may solely be brought by the Attorney General on behalf of a 34 
+resident child against an addictive social media platform. 35 
+(2) In addition to the civil penalty under G.S. 75-15.2, the Attorney General may 36 
+collect a civil penalty of up to fifty thousand dollar s ($50,000) per violation 37 
+and reasonable attorneys' fees and court costs. 38 
+(3) If an addictive social media platform's failure to comply with this section is a 39 
+consistent pattern of knowing or reckless conduct, the court may assess 40 
+punitive damages against the addictive platform. 41 
+(d) Civil Penalties. – The clear proceeds of civil penalties provided for in this section 42 
+shall be remitted to the Civil Penalty and Forfeiture Fund in accordance with G.S. 115C-457.2. 43 
+(e) Jurisdiction. – For purposes of bringing an  action under this section, an addictive 44 
+social media platform that allows a child to create an account on the addictive platform is 45 
+considered to be both engaged in substantial and not isolated activities within this State and 46 
+operating, conducting, engaging in, or carrying on a business and doing business in this State, 47 
+and is therefore subject to the jurisdiction of the courts of this State. 48 
+(f) Nonexclusive Remedies. – This section does not preclude any other available remedy 49 
+at law or in equity. 50 
+"§ 114B-4.  Rules; construction; severability. 51 
+General Assembly Of North Carolina Session 2025 
+Page 6  House Bill 301-Sixth Edition 
+(a) The Attorney General may adopt rules to implement this Chapter. 1 
+(b) It is the intent of the General Assembly that this Chapter be liberally construed for the 2 
+protection of children. 3 
+(c) An internet service provider or its affiliates or subsidiaries, a search engine, a cloud 4 
+service provider, a connected-device manufacturer or seller, or an operating-system developer or 5 
+provider, does not violate this Chapter solely for manufacturing, selling, configuring, preloading, 6 
+updating, securing, or providing access or connection to or from a n addictive social media 7 
+platform not under the provider 's control, including transmission, downloading, intermediate 8 
+storage, or access software, to the extent the provider is not otherwise an addictive social media 9 
+platform. 10 
+(d) If any provision of this Chapter or its application to any person or circumstances is 11 
+held invalid, the invalidity does not affect other provisions or applications of this Chapter which 12 
+can be given effect without the invalid provision or application and, to this end, the provisions of 13 
+this Chapter are severable." 14 
+SECTION 1.(b)   This section becomes effective January 1, 2027, and applies to 15 
+causes of action arising on or after that date. 16 
+ 17 
+PART II. MODIFY COMPUTER SCIENCE STANDARDS 18 
+SECTION 2.(a)  G.S. 115C-81.90 is amended by adding a new subsection to read: 19 
+"(a1) Instruction on Artificial Intelligence Literacy. – The State Board shall adopt 20 
+age-appropriate standards for instruction on artificial intelligence (AI) literacy for grades 21 
+kindergarten through 12. All courses offered pursuant to this section shall include instruction on 22 
+AI literacy aligned with the standards adopted by the State Board. Notwithstanding the regular 23 
+review of content standards required by G.S. 115C-12(9c), the State Board shall review and 24 
+update these standards every two years to keep up with advancements in AI. The standards shall 25 
+include at least the following: 26 
+(1) Responsible and ethical use of AI. 27 
+(2) Limitations of AI tools. 28 
+(3) Evaluation and verification of outputs provided by AI tools. 29 
+(4) Data and privacy concerns related to AI tools. 30 
+(5) Best practices and safety when interacting with AI or AI chatbots." 31 
+SECTION 2.(b)  Notwithstanding the regular review of content standards pursuant 32 
+to G.S. 115C-12(9c), the State Board of Education shall revise the standard course of study for 33 
+computer science for grades kindergarten through 12 to include artificial intelligence l iteracy in 34 
+accordance with G.S. 115C-81.90(a1), as enacted by this section. The State Board shall adopt the 35 
+revised standards for implementation beginning with the 2028-2029 school year. 36 
+SECTION 2.(c)  The State Board of Education, in consultation with the Department 37 
+of Public Instruction, shall update the lists of approved courses required by G.S.  115C-81.90(b) 38 
+and (c) to reflect course alignment with the revised computer science standards adopted pursuant 39 
+to subsection (b) of this section. The State Board shall update the lists for use beginning with the 40 
+2028-2029 school year. 41 
+SECTION 2.(d)   The Department of Public Instruction shall report to the Joint 42 
+Legislative Education Oversight Committee by December 15, 2028, on the following related to 43 
+the adoption of revised computer science standards in accordance with subsection (b) of this 44 
+section: 45 
+(1) Adoption and implementation of the revised standards. 46 
+(2) Alignment of courses on the approved courses lists as updated pursuant to 47 
+subsection (c) of this section. 48 
+(3) Any difficulties with the implementation of the revised standards. 49 
+ 50 
+PART III. PUBLIC SCHOOL UNIT AI POLICIES 51 
+General Assembly Of North Carolina Session 2025 
+House Bill 301-Sixth Edition  Page 7 
+SECTION 3.(a)  Part 3A of Article 8 of Chapter 115C of the General Statutes is 1 
+amended by adding a new section to read: 2 
+"§ 115C-102.13.  Artificial intelligence policies. 3 
+The Department of Public Instruction shall develop a model artificial intelligence (AI) policy 4 
+to serve as guidance to public school units when developing their AI policies. At a minimum, the 5 
+model policy shall include the following: 6 
+(1) A definition of AI, generative AI, and AI tools. 7 
+(2) Guidance on how to develop the AI literacy of students and school staff. AI 8 
+literacy shall include education about nonconsensual intimate imagery. 9 
+(3) Data privacy and security measures to protect students and staff, including 10 
+protecting personally identifiable information, when using AI. 11 
+(4) Standards of ethical and acceptable use of AI and AI chatbots in an 12 
+educational setting, including standards of academic integrity when using AI." 13 
+SECTION 3.(b)  G.S. 115C-47 is amended by adding a new subdivision to read: 14 
+"(73) To adopt an AI use policy. – Local boards of education shall adopt a policy 15 
+on the use of artificial intelligence by students and staff for educational 16 
+purposes after review of the model policy developed by the Department of 17 
+Public Instruction pursuant to G.S. 115C-102.13." 18 
+SECTION 3.(c)  G.S. 115C-150.12C is amended by adding a new subdivision to 19 
+read: 20 
+"(39) To adopt an AI use policy. – The board of trustees shall adopt a policy on the 21 
+use of artificial intelligence by students and staff for educational purposes 22 
+after review of the model policy developed by the Department of Public 23 
+Instruction pursuant to G.S. 115C-102.13." 24 
+SECTION 3.(d)  G.S. 115C-218.33 is amended by adding a new subsection to read: 25 
+"(c) A charter school shall adopt a policy on the use of artificial intelligence by students 26 
+and staff for educational purposes after review of the model policy developed by the Department 27 
+of Public Instruction pursuant to G.S. 115C-102.13." 28 
+SECTION 3.(e)  G.S. 115C-238.66 is amended by adding a new subdivision to read: 29 
+"(18c) To adopt an AI use policy. – The board of directors shall adopt a policy on the 30 
+use of artificial intelligence by students and staff for educational purposes 31 
+after review of the model policy developed by the Department of Public 32 
+Instruction pursuant to G.S. 115C-102.13." 33 
+SECTION 3.(f)  G.S. 116-239.8 is amended by adding a new subdivision to read: 34 
+"(21c) To adopt an AI use policy. – The chancellor shall adopt a policy regarding the 35 
+use of artificial intelligence by students and staff for educational purpos es 36 
+after review of the model policy developed by the Department of Public 37 
+Instruction pursuant to G.S. 115C-102.13." 38 
+SECTION 3.(g)  This section is effective when it becomes law. The Department of 39 
+Public Instruction shall develop the model policy required by G.S. 115C-102.13, as enacted by 40 
+this section, no later than December 31, 2026. The Superintendent shall ensure that all public 41 
+school units have access to the model policy developed by the Department by no later than 42 
+January 15, 2027. Governing bodies o f public school units shall adopt the policies required by 43 
+subsections (b) through (f) of this section by no later than June 30, 2027. 44 
+ 45 
+PART IV. AI TOOL EVALUATION FRAMEWORK 46 
+SECTION 4.(a)  Part 3A of Article 8 of Chapter 115C of the General Statutes is 47 
+amended by adding a new section to read: 48 
+"§ 115C-102.14.  Department responsibilities regarding artificial intelligence tools. 49 
+(a) The Department of Public Instruction shall establish and maintain an evaluation 50 
+framework that provides criteria and guiding considerations for evaluating generative artificial 51 
+General Assembly Of North Carolina Session 2025 
+Page 8  House Bill 301-Sixth Edition 
+intelligence-powered educational tools (AI tools). The Department shall review and update the 1 
+framework at least every two years and update the criteria to reflect changes in technology, 2 
+evidence, or educational practice. The framework shall address at least the following: 3 
+(1) Student data privacy, security, and transparency. 4 
+(2) Alignment with the standard course of study. 5 
+(3) Accessibility for all students. 6 
+(b) The Department shall maintain a publicly available list of AI tools that have been 7 
+reviewed under the framework established in accordance with subsection (a) of this section. 8 
+(c) The Departme nt shall establish procurement guidance, qualified vendor lists, and 9 
+other mechanisms to support and incentivize the adoption of AI tools that have been reviewed 10 
+under the framework established in accordance with subsection (a) of this section. 11 
+(d) The Department shall maintain a publicly available list of all AI tools being used in 12 
+public school units." 13 
+SECTION 4.(b)  This section is effective when it becomes law. 14 
+ 15 
+PART V. EDUCATOR AND ADMINISTRATOR TRAINING ON THE USE OF AI 16 
+SECTION 5.(a)  The Department of Public Instruction shall partner with the Friday 17 
+Institute for Educational Innovation at North Carolina State University (Friday Institute) to 18 
+design, produce, and support implementation of a suite of tool-agnostic online training modules 19 
+and related training resources. Modules and resources shall address at least the following: 20 
+(1) AI fundamentals for educators, including the following: 21 
+a. What AI is and is not. 22 
+b. The basics of generative AI. 23 
+c. Strengths and limitations of AI as a learning tool. 24 
+d. AI "hallucinations," or when AI tools reference information that is 25 
+inaccurate or nonexistent. 26 
+(2) Responsible instructional use of AI, such as the following: 27 
+a. Lesson planning. 28 
+b. Differentiated instruction. 29 
+c. Student feedback. 30 
+d. Productivity workflows and how AI can improve productivity. 31 
+e. Appropriate boundaries for AI usage. 32 
+(3) Verification and quality control, including the following: 33 
+a. Fact-checking information provided by an AI program. 34 
+b. Evaluation of sources provided by an AI program. 35 
+c. Documenting prompts and outputs from an AI program. 36 
+d. Educator accountability for decisions based on input from an AI 37 
+program. 38 
+(4) Academic integrity and assessment redesign to account for greater student 39 
+access to AI tools. 40 
+(5) Data privacy and security regarding AI tools. 41 
+(6) Bias in AI systems, including the following: 42 
+a. How bias enters into AI systems. 43 
+b. The effect of those biases on disparately impacted communities. 44 
+c. How to mitigate the effects of bias when using AI tools. 45 
+d. Inclusive classroom use. 46 
+(7) Accessible usage with special populations, including supports and 47 
+differentiation for the following populations: 48 
+a. Students with disabilities. 49 
+b. Limited English proficient students. 50 
+General Assembly Of North Carolina Session 2025 
+House Bill 301-Sixth Edition  Page 9 
+(8) Ethical use and professional responsibility for educators, including the 1 
+following: 2 
+a. Transparency with students and families about the use of AI tools. 3 
+b. Appropriate decision making in the classroom regarding the use of AI 4 
+tools. 5 
+c. Avoiding overreliance on AI tools. 6 
+SECTION 5.(b)  The Friday Institute shall produce at least the following: 7 
+(1) A suite of self-paced modules that require a minimum of 10 hours of seat time 8 
+to complete. 9 
+(2) A facilitator guide to be provided to administrators in each public school unit 10 
+to help facilitate the professional learning developed pursuant to subsection 11 
+(a) of this section. 12 
+(3) Model classroom resources to be provided to teachers. 13 
+(4) A package to be provided to public school unit professional learning staff to 14 
+develop a "train-the-trainer" model within public school units. 15 
+SECTION 5.(c)  All resources developed pursuant to subsection (b) of this section 16 
+shall be made available to public school units by June 30, 2027, using professional development 17 
+platforms and structures currently in use by the Department of Public Instruction. 18 
+SECTION 5.(d)  All teachers employed by local school administrative units, charter 19 
+schools, or laboratory schools shall complete the professional development provided pursuant to 20 
+this section by June 30, 2028. 21 
+SECTION 5.(e)   The Department of Public Instruction shall report to the Joint 22 
+Legislative Education Oversight Committee by December 15, 2028, on the following: 23 
+(1) The number of modules delivered by the Friday Institute and implemented in 24 
+public school units. 25 
+(2) Educator p articipation in modules, based on metrics available to the 26 
+Department. 27 
+(3) Any recommended updates to the professional learning provided pursuant to 28 
+this section. 29 
+(4) Any additional supports needed for continuing implementation. 30 
+ 31 
+PART VI. EFFECTIVE DATE 32 
+SECTION 6.  Except as otherwise provided, this act is effective when it becomes 33 
+law. 34 

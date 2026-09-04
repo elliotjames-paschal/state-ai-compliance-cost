@@ -1,0 +1,477 @@
+Enrolled Copy H.B. 273
+1 Classroom Technology Amendments
+2026 GENERAL SESSION
+STATE OF UTAH
+Chief Sponsor: Ariel Defay
+Senate Sponsor: Chris H. Wilson 
+Cosponsor: Katy Hall Hoang Nguyen 
+Cheryl K. Acton Jon Hawkins Clinton D. Okerlund 
+Carl R. Albrecht Sahara Hayes Doug Owens 
+Jefferson S. Burton Jill Koford Angela Romero 
+Tyler Clancy Jason B. Kyle David Shallenberger 
+Paul A. Cutler Trevor Lee Andrew Stoddard 
+Rosalba Dominguez Ashlee Matthews R. Neil Walter 
+Joseph Elison Grant Amjad Miller Raymond P. Ward 
+Jake Fitisemanu Logan J. Monson Christine F. Watkins 
+Matthew H. Gwynn Carol S. Moss
+2  
+3 LONG TITLE
+4 General Description:
+5 This bill requires the State Board of Education to create model policies on the use of
+6 technology and artificial intelligence in a public school classroom.
+7 Highlighted Provisions:
+8 This bill:
+9 ▸ defines terms;
+10 ▸ requires the State Board of Education (state board) to include certain technology
+11  standards in core education standards;
+12 ▸ creates certain requirements for a local education agency (LEA) related to the use of
+13  technology in the classroom;
+14 ▸ requires the state board to create a model policy on:
+H.B. 273 Enrolled Copy
+15  ● the balanced use of technology in the classroom; and
+16  ● the use of artificial intelligence in the classroom;
+17 ▸ creates certain requirements for specific grade levels when using technology in the
+18  classroom;
+19 ▸ exempts certain groups from the grade level requirements when using technology in the
+20  classroom;
+21 ▸ creates a reporting requirement;
+22 ▸ gives authority to the state board to create rules;
+23 ▸ requires LEAs to provide additional resources to certain students; and
+24 ▸ allows public high schools to create and offer a sandbox artificial intelligence course.
+25 Money Appropriated in this Bill:
+26 None
+27 Other Special Clauses:
+28 This bill provides a special effective date.
+29 Utah Code Sections Affected:
+30 AMENDS:
+31 53E-4-202 (Effective  07/01/26) (Partially Repealed  01/01/28), as last amended by Laws
+32 of Utah 2024, Third Special Session, Chapter 5
+33 ENACTS:
+34 53G-7-228 (Effective  07/01/26), Utah Code Annotated 1953
+35 53G-7-229 (Effective  07/01/26), Utah Code Annotated 1953
+36 53G-7-1401 (Effective  07/01/26), Utah Code Annotated 1953
+37 53G-7-1402 (Effective  07/01/26), Utah Code Annotated 1953
+38 53G-7-1403 (Effective  07/01/26), Utah Code Annotated 1953
+39  
+40 Be it enacted by the Legislature of the state of Utah:
+41 Section 1.  Section 53E-4-202 is amended to read:
+42 53E-4-202  (Effective  07/01/26) (Partially Repealed  01/01/28). Core standards for
+43  Utah public schools -- Notice and hearing requirements.
+44 (1)(a)  In establishing minimum standards related to curriculum and instruction
+45 requirements under Section 53E-3-501, the state board shall, in consultation with
+46 local school boards, school superintendents, teachers, employers, and parents
+47 implement core standards for Utah public schools that will enable students to, among
+48 other objectives:
+- 2 -
+Enrolled Copy H.B. 273
+49 (i)  communicate effectively, both verbally and through written communication;
+50 (ii)  apply mathematics; and
+51 (iii)  access, analyze, and apply information.
+52 (b)  Except as provided in this public education code, the state board may recommend
+53 but may not require a local school board or charter school governing board to use:
+54 (i)  a particular curriculum or instructional material; or
+55 (ii)  a model curriculum or instructional material.
+56 (2)  The state board shall, in establishing the core standards for Utah public schools:
+57 (a)  identify the basic knowledge, skills, and competencies each student is expected to
+58 acquire or master as the student advances through the public education system;
+59 (b)  include artificial intelligence standards in core computer science standards that
+60 educate a student on:
+61 (i)   artificial intelligence generally; and
+62 (ii)  the appropriate use of artificial intelligence as a tool;
+63 (c)  adopt computer science standards and objectives that address:
+64 (i)  digital skills concepts;
+65 (ii)  age-appropriate social media literacy and healthy usage strategies, including
+66 recognition of social media's impact on mental health and civic discourse;
+67 (iii)  artificial intelligence awareness and ethical interaction, including understanding
+68 artificial intelligence's role in information filtering and decision-making;
+69 (iv)  screen-time management and mental health considerations in digital
+70 environments;
+71 (v)  technology that relates to digital responsibility, privacy, and security; and
+72 (vi)  critical evaluation of digital information sources and media literacy skills
+73 necessary for informed digital responsibility; and
+74 [(b)] (d)  align with each other the core standards for Utah public schools and the
+75 assessments described in Section 53E-4-303.
+76 (3)  The basic knowledge, skills, and competencies identified [pursuant to] in accordance
+77 with Subsection (2)(a) shall increase in depth and complexity from year to year and
+78 focus on consistent and continual progress within and between grade levels and courses
+79 in the basic academic areas of:
+80 (a)  English, including explicit phonics, spelling, grammar, reading, writing, vocabulary,
+81 speech, and listening; and
+82 (b)  mathematics, including basic computational skills.
+- 3 -
+H.B. 273 Enrolled Copy
+83 (4)  Before adopting core standards for Utah public schools, the state board shall:
+84 (a)  publicize draft core standards for Utah public schools for the state, as a class A
+85 notice under Section 63G-30-102, for at least 90 days;
+86 (b)  invite public comment on the draft core standards for Utah public schools for a
+87 period of not less than 90 days; and
+88 (c)  conduct three public hearings that are held in different regions of the state on the
+89 draft core standards for Utah public schools.
+90 (5)  LEA governing boards shall design their school programs, that are supported by
+91 generally accepted scientific standards of evidence, to focus on the core standards for
+92 Utah public schools with the expectation that each program will enhance or help achieve
+93 mastery of the core standards for Utah public schools.
+94 (6)  Except as provided in Sections 53G-10-103 and 53G-10-402, each school may select
+95 instructional materials and methods of teaching, that are supported by generally accepted
+96 scientific standards of evidence, that the school considers most appropriate to meet the
+97 core standards for Utah public schools.
+98 (7)  The state may exit any agreement, contract, memorandum of understanding, or
+99 consortium that cedes control of the core standards for Utah public schools to any other
+100 entity, including a federal agency or consortium, for any reason, including:
+101 (a)  the cost of developing or implementing the core standards for Utah public schools;
+102 (b)  the proposed core standards for Utah public schools are inconsistent with community
+103 values; or
+104 (c)  the agreement, contract, memorandum of understanding, or consortium:
+105 (i)  was entered into in violation of Chapter 3, Part 8, Implementing Federal or
+106 National Education Programs, or Title 63J, Chapter 5, Federal Funds Procedures
+107 Act;
+108 (ii)  conflicts with Utah law;
+109 (iii)  requires Utah student data to be included in a national or multi-state database;
+110 (iv)  requires records of teacher performance to be included in a national or multi-state
+111 database; or
+112 (v)  imposes curriculum, assessment, or data tracking requirements on home school or
+113 private school students.
+114 (8)  The state board shall:
+115 (a)  submit a report in accordance with Section 53E-1-203 on the development and
+116 implementation of the core standards for Utah public schools, including the time line
+- 4 -
+Enrolled Copy H.B. 273
+117 established for the review of the core standards for Utah public schools; and
+118 (b)  ensure that the report described in Subsection (8)(a) includes the time line
+119 established for the review of the core standards for Utah public schools by a
+120 standards review committee and the recommendations of a standards review
+121 committee established under Section 53E-4-203.
+122 Section 2.  Section 53G-7-228 is enacted to read:
+123 53G-7-228  (Effective  07/01/26). Classroom technology requirements -- Model
+124  policy on balanced technology.
+125 (1)  As used in this section:
+126 (a)  "Instructional technology" means technology an LEA issues to a student in
+127 connection with the student's public education, including:
+128 (i)  an electronic device;
+129 (ii)  a digital tool; or
+130 (iii)  a digital application.
+131 (b)  "Public school" means a school under the control of:
+132 (i)  a school district;
+133 (ii)  a charter school; or
+134 (iii)  the Utah Schools for the Deaf and the Blind.
+135 (c)(i)  "Screen-time" means the time a student spends using an electronic device with
+136 a screen in a classroom setting when the use of the electronic device does not
+137 involve instruction, guidance, or interaction with:
+138 (A)  a teacher;
+139 (B)  an instructor; or
+140 (C)  other designated educational personnel.
+141 (ii)  "Screen-time" does not include school work or instruction for an online student as
+142 that term is defined in Section 53G-6-705.
+143 (2)(a)  Before an LEA allows a public school to use an instructional technology in the
+144 classroom, the LEA shall ensure that instructional technology is:
+145 (i)  demonstrated to have significant educational value;
+146 (ii)  absent of design features that:
+147 (A)  interfere with learning;
+148 (B)  distract from instruction; or
+149 (C)  reduce academic focus;
+150 (iii)  supported by evidence, data, or demonstrated educational value appropriate to
+- 5 -
+H.B. 273 Enrolled Copy
+151 the grade level;
+152 (iv)  safe for a student's physical, cognitive, and emotional development;
+153 (v)  effective in supporting student learning outcomes;
+154 (vi)  not used as a substitute for instruction;
+155 (vii)  intentionally integrated into instruction to enhance student learning outcomes;
+156 and
+157 (viii)  compliant with state standards and law, including:
+158 (A)  Section 53G-10-103, Sensitive instructional materials; and
+159 (B)  Title 53E, Chapter 9, Student Privacy and Data Protection.
+160 (b)  An LEA shall select, deploy, and monitor instructional technology in accordance
+161 with the requirements of Subsection (2)(a).
+162 (3)  An LEA shall:
+163 (a)  minimize non-essential screen-time;
+164 (b)  prioritize purposeful engagement with instructional technology that directly supports
+165 instructional goals;
+166 (c)  adopt internal monitoring and accountability policies to ensure compliance with the
+167 requirements of this section;
+168 (d)  provide training to faculty and staff on the requirements of this section;
+169 (e)  before July 1, 2027:
+170 (i)  adopt the model policy described in Subsection (5)(a); or
+171 (ii)  adopt an amended version of the model policy described in Subsection (5)(a), that
+172 includes:
+173 (A)  a balanced instructional technology use policy that is safe, lawful, effective,
+174 intentional, and compliant with Title 53E, Chapter 9, Student Privacy and Data
+175 Protection, and Section 53G-10-103;
+176 (B)  a resource plan for students who demonstrate a pattern of difficulty learning
+177 through technology-based instruction, in accordance with Section 53G-7-229;
+178 (C)  a requirement of transparency with parents regarding instructional technology
+179 use;
+180 (D)  an artificial intelligence use policy with a structure similar to the structure of
+181 the model artificial intelligence use policy described in Section 53G-7-1402;
+182 and
+183 (E)  a grade-level framework with a structure similar to the grade-level framework
+184 described in Subsection (5)(d);
+- 6 -
+Enrolled Copy H.B. 273
+185 (f)  for the policy the LEA adopts in accordance with Subsection (3)(e), submit to the
+186 state board:
+187 (i)  the finalized policy; and
+188 (ii)  a statement confirming the LEA held a public meeting in accordance with
+189 Subsection (4).
+190 (4)  Before an LEA adopts a policy in accordance with Subsection (3)(e), an LEA governing
+191 board shall hold a public meeting to discuss the proposed policy that:
+192 (a)  allows for public comment; and
+193 (b)  complies with the requirements of Title 52, Chapter 4, Open and Public Meetings
+194 Act.
+195 (5)  The state board shall:
+196 (a)  create a model policy on balanced technology use in the classroom that:
+197 (i)  prioritizes developmental appropriateness and age-based limits on screen exposure;
+198 (ii)  requires transparency with parents regarding instructional technology use;
+199 (iii)  prohibits instructional technology practices that undermine student safety,
+200 privacy, or wellbeing;
+201 (iv)  requires regular review of instructional technology to ensure compliance with the
+202 requirements listed in Subsection (2)(a);
+203 (v)  promotes educator modeling of appropriate and responsible technology use; and
+204 (vi)  emphasizes the use of adaptive technologies to support competency-based
+205 instruction;
+206 (b)  include, as part of the model policy described in Subsection (5)(a), the model
+207 artificial intelligence use policy described in Section 53G-7-1402;
+208 (c)  post the model policy described in Subsection (5)(a) on the state board's website
+209 before December 1, 2026;
+210 (d)  include in the model policy described in Subsection (5)(a) the following grade-level
+211 frameworks:
+212 (i)  for grades kindergarten through 3:
+213 (A)  prohibiting a student from taking home school-owned instructional
+214 technology;
+215 (B)  prohibiting a required ratio of one electronic device to one student;
+216 (C)  prohibiting all screen-time in the classroom except for introduction of state
+217 kindergarten through grade 5 computer science standards and preparation for,
+218 and administration of, a standards assessment;
+- 7 -
+H.B. 273 Enrolled Copy
+219 (D)  emphasizing hands-on, print-based, and developmentally appropriate learning
+220 exercises; and
+221 (E)  prohibiting homework that requires access to the internet or instructional
+222 technology;
+223 (ii)  for grades 4 through 6 in an elementary school:
+224 (A)  prohibiting a student from taking home school-owned instructional
+225 technology;
+226 (B)  prohibiting a required ratio of one electronic device to one student;
+227 (C)  balancing the use of an instructional technology with instruction through
+228 teacher-led, print-based, and analog methods;
+229 (D)  limiting the use of instructional technology to only instances with direct
+230 teacher supervision for a defined academic purpose;
+231 (E)  prohibiting a public school from sending instructional technology home with a
+232 student;
+233 (F)  prohibiting homework requiring access to the internet or instructional
+234 technology; and
+235 (G)  limiting access to the internet through filters consistent with age-appropriate
+236 standards;
+237 (iii)  for middle or junior high school:
+238 (A)  allowing a student to take home a school issued device for school work or an
+239 academic program that the LEA approves, only when a parent opts-in through
+240 written consent;
+241 (B)  balancing the use of an instructional technology with instruction through
+242 teacher-led, print-based, and analog methods; and
+243 (C)  limiting access to the internet through filters consistent with age-appropriate
+244 standards; and
+245 (iv)  for high school:
+246 (A)  allowing a student to take an instructional technology home, provided a parent
+247 does not choose to opt the parent's student out;
+248 (B)  balancing the use of an instructional technology with instruction through
+249 teacher-led, print-based, and analog methods; and
+250 (C)  limiting access to the internet through filters consistent with age-appropriate
+251 standards;
+252 (e)  for an LEA that fails to adopt or create a policy in accordance with Subsection (3)(e),
+- 8 -
+Enrolled Copy H.B. 273
+253 declare the model policy described in Subsection (5)(a) as the default policy for that
+254 LEA; and
+255 (f)  adopt a method for evaluating and measuring the effectiveness of the requirements
+256 listed in Subsection (2)(a).
+257 (6)  The frameworks described in Subsection (5)(d) do not apply to:
+258 (a)  a course where instructional technology is integral to the subject matter of the course
+259 or specialty class;
+260 (b)  instruction or equipment related to:
+261 (i)  online district and charter schools; and
+262 (ii)  the Statewide Online Education Program created in Section 53F-4-502;
+263 (c)  a course or instruction designed to meet core technology standards the state board
+264 creates under Section 53E-4-202;
+265 (d)  an AI sandbox course as that term is defined in Section 53G-7-1401;
+266 (e)  a public school located within the boundaries of a tribal nation where the LEA is the
+267 internet service provider; or
+268 (f)  instructional technology use consistent with a student's IEP or 504 plan.
+269 (7)(a)  Upon the adoption of the policy required under Subsection (3)(e)(i) or (3)(e)(ii),
+270 an LEA shall submit a report to the state board detailing the specifics of the policy
+271 the LEA adopts.
+272 (b)  An LEA that changes the policy after submitting the report described in Subsection
+273 (7)(a) shall submit the updated policy to the state board.
+274 (8)(a)  As a condition of receiving state funds allocated for digital literacy, computer
+275 science, or educational technology programs described in Section 53F-2-510, an LEA
+276 shall certify to the state board that the LEA has adopted and is implementing:
+277 (i)  a policy on balanced technology use in the classroom in accordance with this
+278 section;
+279 (ii)  a resource program for students demonstrating a pattern of difficulty with
+280 technology-related learning in accordance with Section 53G-7-229; and
+281 (iii)  an artificial intelligence use policy consistent with the model artificial
+282 intelligence use policy described in Section 53G-7-1402.
+283 (b)  The state board may withhold or delay the distribution of funds described in
+284 Subsection (8)(a) to an LEA that fails to meet the requirements of this section until
+285 the LEA demonstrates compliance.
+286 (9)  In accordance with Title 63G, Chapter 3, Utah Administrative Rulemaking Act, the
+- 9 -
+H.B. 273 Enrolled Copy
+287 state board shall make rules to implement the provisions of this section.
+288 Section 3.  Section 53G-7-229 is enacted to read:
+289 53G-7-229  (Effective  07/01/26). Resources for a student with a
+290  technology-related learning difficulty.
+291 (1)  As used in this section:
+292 (a)  "Instructional technology" means the same as that term is defined in Section
+293 53G-7-228.
+294 (b)(i)   "Technology-related learning difficulty" means a condition where a student
+295 experiences a pattern of difficulty learning through the use of instructional
+296 technology.
+297 (ii)  "Technology-related learning difficulty" does not include a temporary or
+298 situational difficulty with technology use that is unrelated to a learning need that
+299 is:
+300 (A)  diagnosed; or
+301 (B)  identifiable.
+302 (2)  An LEA shall create a resource plan on how to accommodate a student that
+303 demonstrates a technology-related learning difficulty.
+304 (3)  An LEA may:
+305 (a)  provide additional resources and accommodations to a student that demonstrates a
+306 technology-related learning difficulty, including:
+307 (i)  access to printed materials;
+308 (ii)  alternative assignment formats;
+309 (iii)  access to a technology resource center;
+310 (iv)  access to an educational professional with expertise in technology and
+311 technology-related learning difficulties; and
+312 (v)  extra time for technology-based tasks; and
+313 (b)  provide a student with a technology-related learning difficulty access to alternative
+314 learning pathways, including:
+315 (i)  hands-on, project-based learning;
+316 (ii)  book-based curriculum; and
+317 (iii)  verbal instruction.
+318 Section 4.  Section 53G-7-1401 is enacted to read:
+319 
+ 
+Part 14. Artificial Intelligence
+320 53G-7-1401  (Effective  07/01/26). General provisions -- Definitions.
+- 10 -
+Enrolled Copy H.B. 273
+321       As used in this part:
+322 (1)  "Artificial intelligence" means the same as that term is defined in Section 13-72-101.
+323 (2)  "Artificial intelligence sandbox course" or "AI sandbox course" means a high school
+324 course offered to a student enrolled in an LEA focused on artificial intelligence
+325 technologies that:
+326 (a)  operates within a secure and controlled digital environment; and
+327 (b)  provides a student with supervised opportunities to apply artificial intelligence
+328 technologies through hands-on:
+329 (i)  learning;
+330 (ii)  experimentation; and
+331 (iii)  application of the instructional material.
+332 (3)  "Artificial intelligence tool" or "AI tool" means software or a system that generates
+333 outputs, predictions, or recommendations through:
+334 (a)  machine learning;
+335 (b)  natural language processing; or
+336 (c)  other artificial intelligence techniques.
+337 (4)  "Generative artificial intelligence" means the same as that term is defined in Section
+338 13-77-101.
+339 Section 5.  Section 53G-7-1402 is enacted to read:
+340 53G-7-1402  (Effective  07/01/26). Model artificial intelligence use policy.
+341 (1)  As used in this section "high-stakes determination" means a decision regarding a
+342 student's:
+343 (a)  placement;
+344 (b)  discipline;
+345 (c)  academic progression; or
+346 (d)  eligibility for a program or service.
+347 (2)  The state board shall publish and maintain a model artificial intelligence use policy that:
+348 (a)  encourages and supports educator instruction through the use of AI tools;
+349 (b)  complies with the requirements of the model policy on balanced technology use in
+350 the classroom described in Section 53G-7-228;
+351 (c)  encourages a reduction in student and educator workload through the use of AI tools;
+352 (d)  requires educators to only use student facing AI tools an LEA approves;
+353 (e)  requires educators to retain professional judgment and instructional responsibility
+354 when using AI tools in the educator's classroom;
+- 11 -
+H.B. 273 Enrolled Copy
+355 (f)  prohibits educators from using generative artificial intelligence to independently
+356 grade student work or issue high-stakes determinations;
+357 (g)  requires a student to produce work that reflects the student's:
+358 (i)  knowledge;
+359 (ii)  skill; and
+360 (iii)  understanding;
+361 (h)  prohibits a student from using generative artificial intelligence to complete academic
+362 work unless an educator authorizes the use for a specific instructional purpose;
+363 (i)  ensures that all AI tools available to a student meet developmental expectations and
+364 align with digital literacy standards for each grade level;
+365 (j)  when the school or an educator uses generative artificial intelligence for instruction,
+366 assessment, or activities in the classroom, requires the school or educator to:
+367 (i)  notify the student's parent in writing; and
+368 (ii)  in the notification described in Subsection (2)(j)(i), provide a link to the LEA's
+369 metadata dictionary as described in Section 53E-9-303;
+370 (k)  identifies the purpose of each approved AI tool and describes to a student how to use
+371 the AI tool;
+372 (l)  ensures that AI tools do not expose a student to content that is:
+373 (i)  harmful;
+374 (ii)  manipulative; or
+375 (iii)  inappropriate;
+376 (m)  prohibits the use of AI tools for any practice that threatens student safety or
+377 wellbeing, including:
+378 (i)  biometric surveillance; or
+379 (ii)  psychological profiling;
+380 (n)  provides a student's parent with clear expectations regarding allowed and prohibited
+381 uses of AI tools in the classroom; and
+382 (o)  requires educators to communicate assignment-specific guidance on the expectations
+383 regarding the use of AI tools.
+384 (3)(a)  An LEA shall produce and adopt an artificial intelligence use policy based on the
+385 model policy described in Subsection (2).
+386 (b)  After adopting the policy described in Subsection (3)(a), an LEA shall:
+387 (i)  submit the adopted policy to the state board;
+388 (ii)  provide training to educators and staff on the policy;
+- 12 -
+Enrolled Copy H.B. 273
+389 (iii)  ensure compliance to the policy at each school within the LEA;
+390 (iv)  review the policy at least once every two years; and
+391 (v)  update the policy as needed.
+392 (c)  To inform the policy an LEA adopts under Subsection (3)(a), an LEA may create and
+393 distribute the following artificial intelligence resources:
+394 (i)  a vision or guidance document;
+395 (ii)  an artificial intelligence framework; or
+396 (iii)  artificial intelligence best practices.
+397 (4)  The state board shall:
+398 (a)  declare the model policy described in Subsection (2) as the default policy for an LEA
+399 that fails to adopt a policy in accordance with Subsection (3)(a); and
+400 (b)  make rules in accordance with Title 63G, Chapter 3, Utah Administrative
+401 Rulemaking Act, to establish:
+402 (i)  standards for LEA compliance under this section;
+403 (ii)  timelines and procedures for LEA policy submission; and
+404 (iii)  guidance for LEA implementation and educator training.
+405 Section 6.  Section 53G-7-1403 is enacted to read:
+406 53G-7-1403  (Effective  07/01/26). Artificial intelligence -- Sandbox course.
+407 (1)  An LEA may offer an AI sandbox course to a student in grades 9 through 12 to provide
+408 instructional opportunities aligned with workforce development needs in emerging
+409 fields, including:
+410 (a)  artificial intelligence;
+411 (b)  data science;
+412 (c)  digital design; and
+413 (d)  other related disciplines.
+414 (2)  An LEA shall:
+415 (a)  limit the delivery of an AI sandbox course to career and technical education courses
+416 or focused campuses;
+417 (b)  ensure that all activities related to the teaching of an AI sandbox course incorporate
+418 safeguards to protect students, including:
+419 (i)  compliance with federal data privacy laws;
+420 (ii)  compliance with Title 53E, Chapter 9, Student Privacy and Data Protection;
+421 (iii)  compliance with Section 53G-10-103; and
+422 (iv)  ethical use guidelines the state board establishes;
+- 13 -
+H.B. 273 Enrolled Copy
+423 (c)  notify the parent of a student enrolled in an AI sandbox course of the nature of the AI
+424 sandbox course; and
+425 (d)  obtain written consent from a student's parent before allowing a student to participate
+426 in an AI sandbox course.
+427 (3)  An LEA may not require a student to participate in an AI sandbox course.
+428 (4)  In accordance with Subsection (2)(b)(iv), the state board shall establish ethical use
+429 guidelines for an LEA to use during the AI sandbox course's:
+430 (a)  creation;
+431 (b)  implementation; and
+432 (c)  delivery.
+433 Section 7.  Effective Date.
+434 This bill takes effect on July 1, 2026.
+- 14 -

@@ -1,0 +1,15 @@
+{
+ "id": "LA HB 475",
+ "slug": "la-hb-475",
+ "state": "LA",
+ "sourcePage": "https://www.legis.la.gov/legis/BillInfo.aspx?s=26rs&b=HB475&sbi=y",
+ "docUrl": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1480567",
+ "docFormat": "pdf",
+ "version": "Chaptered",
+ "rawFile": "texts/raw/la-hb-475.pdf",
+ "txtFile": "texts/la-hb-475.txt",
+ "chars": 1228,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3447228 (Chaptered 0000-00-00)"
+}

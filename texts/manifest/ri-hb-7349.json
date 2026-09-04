@@ -1,0 +1,15 @@
+{
+ "id": "RI HB 7349",
+ "slug": "ri-hb-7349",
+ "state": "RI",
+ "sourcePage": "https://status.rilegislature.gov/",
+ "docUrl": "https://webserver.rilegislature.gov/BillText26/HouseText26/H7349A.pdf",
+ "docFormat": "pdf",
+ "version": "Comm Sub",
+ "rawFile": "texts/raw/ri-hb-7349.pdf",
+ "txtFile": "texts/ri-hb-7349.txt",
+ "chars": 10883,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3445977 (Comm Sub 2026-06-04)"
+}

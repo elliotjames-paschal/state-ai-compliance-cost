@@ -1,0 +1,15 @@
+{
+ "id": "RI SB 2570",
+ "slug": "ri-sb-2570",
+ "state": "RI",
+ "sourcePage": "https://status.rilegislature.gov/",
+ "docUrl": "https://webserver.rilegislature.gov/BillText26/SenateText26/S2570A.pdf",
+ "docFormat": "pdf",
+ "version": "Comm Sub",
+ "rawFile": "texts/raw/ri-sb-2570.pdf",
+ "txtFile": "texts/ri-sb-2570.txt",
+ "chars": 2741,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3444766 (Comm Sub 2026-06-02)"
+}

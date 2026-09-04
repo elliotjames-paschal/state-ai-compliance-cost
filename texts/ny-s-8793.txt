@@ -1,0 +1,442 @@
+                STATE OF NEW YORK
+
+        ________________________________________________________________________
+
+                                          8793
+
+                    IN SENATE
+
+                                     January 8, 2026
+                                       ___________
+
+        Introduced  by  Sen.  COONEY -- read twice and ordered printed, and when
+          printed to be committed to the Committee on Rules
+
+        AN ACT to amend the state finance law and the general municipal law,  in
+          relation  to  prohibiting procurement of certain technology that poses
+          security threats; and to amend a chapter of the laws of 2025  amending
+          the  state  finance  law  and  the  general  municipal law relating to
+          prohibiting procurement of  certain  technology  that  poses  security
+          threats, as proposed in legislative bills numbers S. 3259 and A. 2237,
+          in  relation  to the authority of the office of information technology
+          services to issue certain guidance relating thereto
+
+          
+The People of the State of New York, represented in Senate and  Assem-
+bly, do enact as follows:
+
+     1    Section 1. Section 163-e of the state finance law, as added by a chap-
+     2  ter  of  the laws of 2025 amending the state finance law and the general
+     3  municipal law relating to prohibiting procurement of certain  technology
+     4  that poses security threats, as proposed in legislative bills numbers S.
+     5  3259 and A. 2237, is amended to read as follows:
+     6    §  163-e.  Restriction  on purchasing certain technology which poses a
+     7  security threat. 1. (a) Notwithstanding any  inconsistent  provision  of
+     8  law, the state and any department, bureau, board, commission, authority,
+     9  and  any  other  agency  or instrumentality of the state shall not enter
+    10  into or renew any contract or  agreement  to  procure  [
+information  and
+
+    11  
+communications
+]  technology, including hardware, systems, devices, soft-
+    12  ware, or services that include embedded or incidental information  tech-
+    13  nology,  which  are  prohibited  from  federal  procurement  pursuant to
+    14  section 889 of Public Law 115-232 of 2018.
+    15    (b) The term [
+"information and communications technology" means:
+
+    16    
+(i) information technology, as defined in section 11101 of title 40;
+
+    17    
+(ii) information systems, as defined in 44 U.S.C. 3502; and
+
+    18    
+(iii) telecommunications equipment and telecommunications services, as
+
+    19  
+those terms are defined in section 3 of the Communications Act  of  1934
+
+    20  
+(47 U.S.C. 153).
+
+    21    
+(c)  The  term  "information  and communications technology" shall not
+
+    22  
+include automated-decision making systems
+] 
+"technology" shall  have  the
+
+         EXPLANATION--Matter in 
+italics
+ (underscored) is new; matter in brackets
+                              [
+] is old law to be omitted.
+                                                                   LBD01015-02-6
+
+        S. 8793                             2
+
+     1  
+same  meaning  as such term is defined in subdivision ten of section one
+
+     2  
+hundred sixty of this article
+.
+     3    2.  The  [
+chief  information officer
+] 
+office of information technology
+
+     4  
+services
+ shall, in consultation with the division of  homeland  security
+     5  and emergency services and the office of general services, establish and
+     6  update  regularly  a list of restricted [
+information and communications
+]
+     7  technology. Technology on this list shall not be procured by  any  state
+     8  agency,  state  or  local  authority,  or political subdivision unless a
+     9  waiver is issued pursuant to subdivision three of this  section  or  the
+    10  [
+chief  information  officer
+]  
+office of information technology services
+
+    11  determines that the technology  shall  only  be  restricted  in  limited
+    12  circumstances.
+    13    The list shall:
+    14    (a)  contain [
+information and communications
+] technologies that pose a
+    15  security risk to the state of New York or its political subdivisions. In
+    16  determining whether [
+information and  communications
+]  technology  poses
+    17  such a risk, the [
+chief information officer
+] 
+office of information tech-
+
+    18  
+nology  services
+  shall  consult relevant federal sources, including the
+    19  department of defense  inspector general report no.  DODIG-2019-106,  as
+    20  well as any other source that shall be determined to be relevant; 
+and
+
+    21    (b)  [
+describe  the  scope  of each restriction, such as whether it is
+
+    22  
+generally prohibited or prohibited  in  certain  circumstances  or  from
+
+    23  
+certain entities;
+
+    24    
+(c)  include an explanation as to why items were included on the list;
+
+    25  
+and
+
+    26    
+(d)
+] be published online and communicated to all relevant  procurement
+    27  officers  in all state agencies, state authorities, and political subdi-
+    28  visions.
+    29    3. The [
+commissioner
+] 
+office of information  technology  services,  in
+
+    30  
+collaboration  with  the  division
+  of  homeland  security and emergency
+    31  services, the [
+commissioner of the
+]  office  of  general  services,  the
+    32  [
+adjutant  general,  the chief information officer
+] 
+division of military
+
+    33  
+and naval affairs
+, 
+and
+ the chief cyber officer,  [
+the  chief  technology
+
+    34  
+officer  of the city of New York and any federal agency authorized under
+
+    35  
+section 889 of Public Law 115-232 of 2018,
+] may provide  a  waiver  from
+    36  this section if:
+    37    (a)  any  such entity determines the waiver is in the interests of the
+    38  state or political subdivision;
+    39    (b) no compliant product or service is available to  be  procured  as,
+    40  and  when,  needed at United States market prices or a price that is not
+    41  considered prohibitively expensive; and
+    42    (c) such waiver could not reasonably be  expected  to  compromise  the
+    43  security or integrity of a computer network operated by an instrumental-
+    44  ity of the state.
+    45    
+(d)  Any state agency, state or local authority, or political subdivi-
+
+    46  
+sion seeking a waiver from any federal agency authorized  under  section
+
+    47  
+889 of Public Law 115-232 of 2018 must provide notice of any such waiver
+
+    48  
+granted  to  the office of information technology services within thirty
+
+    49  
+days of waiver approval.
+
+    50    4. 
+An unmanned aerial vehicle or other equipment or  service  relating
+
+    51  
+to the operation of an unmanned aerial vehicle from a business or entity
+
+    52  
+that  would otherwise be subject to restriction under subdivision one or
+
+    53  
+two of this section must be exempt from such restriction if:
+
+    54    
+(a) any photograph, image, recording or other information collected by
+
+    55  
+the state agency, state or local  authority,  or  political  subdivision
+
+        S. 8793                             3
+
+     1  
+from  the operation of the unmanned aerial vehicle or other equipment or
+
+     2  
+service relating to the operation of the unmanned aerial vehicle:
+
+     3    
+(i) is stored and maintained exclusively within the United States; and
+
+     4    
+(ii)  is not accessible to the business or entity that would otherwise
+
+     5  
+be subject to restriction; or
+
+     6    
+(iii) is operated using  software  developed  and  maintained  in  the
+
+     7  
+United States.
+
+     8    
+(b)  the  provisions  of  this  subdivision  shall not be construed to
+
+     9  
+discourage the purchase or acquisition of any unmanned aerial vehicle or
+
+    10  
+other equipment or service relating to  the  operation  of  an  unmanned
+
+    11  
+aerial vehicle that is manufactured in the United States.
+
+    12    
+5.
+ Nothing in this section shall be construed:
+    13    (a)  to  require any [
+information and communications
+] technology resi-
+    14  dent in equipment, systems, or services as of the day before the  effec-
+    15  tive date of this section to be removed or replaced;
+    16    (b)  to  prohibit  or  limit  the utilization of such [
+information and
+
+    17  
+communications
+] technology throughout the  lifecycle  of  such  existing
+    18  equipment; or
+    19    (c) to require the recipient of a state contract, grant, loan, or loan
+    20  guarantee  to  replace [
+information and communications
+] technology resi-
+    21  dent in equipment, systems, or services before  the  effective  date  of
+    22  this section.
+    23    § 2. Section 103-h of the general municipal law, as added by a chapter
+    24  of  the  laws  of  2025  amending  the state finance law and the general
+    25  municipal law relating to prohibiting procurement of certain  technology
+    26  that poses security threats, as proposed in legislative bills numbers S.
+    27  3259 and A.  2237, is amended to read as follows:
+    28    §  103-h.  Restriction  on purchasing certain technology which poses a
+    29  security threat. 1. (a) Notwithstanding any  inconsistent  provision  of
+    30  law  a  political subdivision shall not enter into or renew any contract
+    31  or agreement to procure  [
+information  and  communications
+]  technology,
+    32  including hardware, systems, devices, software, or services that include
+    33  embedded or incidental information technology, which are prohibited from
+    34  federal  procurement  pursuant  to  section 889 of Public Law 115-232 of
+    35  2018, or which are included on the list created pursuant to  subdivision
+    36  two of section one hundred sixty-three-e of the state finance law.
+    37    (b) The term [
+"information and communications technology" means:
+
+    38    
+(i) information technology, as defined in 40 U.S.C. 11101;
+
+    39    
+(ii) information systems, as defined in 44 U.S.C. 3502; and
+
+    40    
+(iii) telecommunications equipment and telecommunications services, as
+
+    41  
+those  terms  are defined in section 3 of the Communications Act of 1934
+
+    42  
+(47 U.S.C. 153)
+] 
+"technology" shall have the same meaning as  such  term
+
+    43  
+is  defined in subdivision ten of section one hundred sixty of the state
+
+    44  
+finance law
+.
+    45    2. The [
+commissioner
+] 
+office of information  technology  services,  in
+
+    46  
+collaboration  with  the  division
+  of  homeland  security and emergency
+    47  services, the [
+commissioner of the
+]  office  of  general  services,  the
+    48  [
+adjutant  general,  the chief information officer
+] 
+division of military
+
+    49  
+and naval affairs
+, 
+and
+ the chief cyber officer,  [
+the  chief  technology
+
+    50  
+officer  of the city of New York and any federal agency authorized under
+
+    51  
+section 889 of Public Law 115-232 of 2018,
+] may provide  a  waiver  from
+    52  this section if:
+    53    (a)  any  such  entity determines the waiver is in the interest of the
+    54  political subdivision;
+
+        S. 8793                             4
+
+     1    (b) no compliant product or service is available to  be  procured  as,
+     2  and  when,  needed at United States market prices or a price that is not
+     3  considered prohibitively expensive; and
+     4    (c)  such  waiver  could  not reasonably be expected to compromise the
+     5  security or integrity of a computer network operated by an instrumental-
+     6  ity of the state.
+     7    [
+4.
+] 
+(d) Any political subdivision seeking a waiver from  any  federal
+
+     8  
+agency  authorized  under section 889 of Public Law 115-232 of 2018 must
+
+     9  
+provide notice of any such waiver granted to the office  of  information
+
+    10  
+technology services within thirty days of waiver approval.
+
+    11    
+3.
+ Nothing in this section shall be construed:
+    12    (a)  to  require any [
+information and communications
+] technology resi-
+    13  dent in equipment, systems, or services as of the day before the  effec-
+    14  tive date of this section to be removed or replaced;
+    15    (b)  to  prohibit  or  limit  the utilization of such [
+information and
+
+    16  
+communications
+] technology throughout the  lifecycle  of  such  existing
+    17  equipment; or
+    18    (c) to require the recipient of a state contract, grant, loan, or loan
+    19  guarantee  to  replace [
+information and communications
+] technology resi-
+    20  dent in equipment, systems, or services before  the  effective  date  of
+    21  this section.
+    22    §  3.  Section  3  of a chapter of the laws of 2025 amending the state
+    23  finance law and  the  general  municipal  law  relating  to  prohibiting
+    24  procurement  of  certain  technology  that  poses  security  threats, as
+    25  proposed in legislative bills numbers S. 3259 and A. 2237, is amended to
+    26  read as follows:
+    27    § 3. No later than the effective date  of  this  act,  the  office  of
+    28  [
+general  services
+]  
+information  technology  services
+ shall [
+promulgate
+
+    29  
+rules and regulations and
+] issue guidance  to  all  state  agencies  and
+    30  local  procurement  authorities  necessary, including providing  updates
+    31  on prohibited    or  excluded  entities  for  procurement  contracts  in
+    32  conformity  with federal law, rules and regulations, no later than sixty
+    33  days after any entity is prohibited or excluded.
+    34    § 4. Section 4 of a chapter of the laws of  2025  amending  the  state
+    35  finance  law  and  the  general  municipal  law  relating to prohibiting
+    36  procurement of  certain  technology  that  poses  security  threats,  as
+    37  proposed in legislative bills numbers S. 3259 and A. 2237, is amended to
+    38  read as follows:
+    39    § 4. This act shall take effect two years after it shall have become a
+    40  law. Effective immediately, the office of [
+general services
+] 
+information
+
+    41  
+technology  services
+  is authorized to [
+promulgate rules and regulations
+
+    42  
+and
+] issue guidance to all state agencies and local procurement authori-
+    43  ties necessary for the implementation of this act on its effective date,
+    44  including providing updates  on  prohibited  or  excluded  entities  for
+    45  procurement  contracts  in  conformity with federal law, rules and regu-
+    46  lations.
+    47    § 5. This act shall take effect immediately; provided,  however,  that
+    48  sections  one,  two  and three of this act shall take effect on the same
+    49  date and in the same manner as a chapter of the laws  of  2025  amending
+    50  the  state finance law and the general municipal law relating to prohib-
+    51  iting procurement of certain technology that poses security threats,  as
+    52  proposed in legislative bills numbers S. 3259 and A. 2237, takes effect.

@@ -1,0 +1,226 @@
+ENROLLED
+ACT No. 7822026 Regular Session
+HOUSE BILL NO. 119
+BY REPRESENTATIVES FONTENOT AND KNOX
+1 AN ACT
+2 To amend and reenact R.S. 14:73.13(A) and (C)(introductory paragraph), (3), and (4),
+3 73.14(C)(introductory paragraph), (3), and (4) and (D), and 81.1.1(D)(1) and to enact
+4 R.S. 14:73.13(C)(5) and (6), 73.14(C)(5) and (6), 73.14.1, and 81.1.1(A)(3) and R.S.
+5 17:416.20.1 and 3996(B)(92), relative to computer-related crime; to provide relative
+6 to the crime of unlawful deepfakes; to provide relative to the crime of unlawful
+7 dissemination or sale of images of another created by artificial intelligence; to
+8 provide for definitions; to provide for penalties; to create the crime of unlawful
+9 possession of images of another created by artificial intelligence and provide for
+10 elements, definitions, penalties, and exceptions; to provide relative to the crime of
+11 sexting; to provide for conduct that constitutes the crime of sexting; to provide for
+12 penalties; to require school dissemination of certain information; and to provide for
+13 related matters.
+14 Be it enacted by the Legislature of Louisiana:
+15 Section 1.  R.S. 14:73.13(A) and (C)(introductory paragraph), (3), and (4),
+16 73.14(C)(introductory paragraph), (3), and (4) and (D), and 81.1.1(D)(1) are hereby amended
+17 and reenacted and R.S. 14:73.13(C)(5) and (6), 73.14(C)(5) and (6), 73.14.1, and
+18 81.1.1(A)(3) are hereby enacted to read as follows:
+19 §73.13. Unlawful deepfakes
+20 A.(1)  Any person who, with knowledge that the material is a deepfake
+21 depicting a minor, knowingly creates or possesses material that depicts a minor
+22 engaging in sexual conduct shall be punished by imprisonment at hard labor for not
+23 less than five nor more than twenty years, or a fine of not more than ten thousand
+24 dollars, or both. At least five years of the sentence of imprisonment imposed shall
+25 be served without benefit of parole, probation, or suspension of sentence.
+Page 1 of 7
+CODING:  Words in struck through type are deletions from existing law; words underscored
+are additions.
+HB NO. 119 ENROLLED
+1 (2)  If the offender is an educator and the victim is a student, the offender
+2 may be imprisoned for an additional two years with or without hard labor, to be
+3 served consecutively to the sentence imposed under this Section.
+4 *          *          *
+5 C.  For the purposes of this Section, the following terms have the following
+6 meanings:
+7 *          *          *
+8 (3)  "Educator" means any administrator, coach, instructor, paraprofessional,
+9 student aide, teacher, or teacher aide at any public or nonpublic elementary school,
+10 secondary school, or high school in this state who is assigned, employed, or working
+11 at the school or school system where the victim is enrolled as a student on a
+12 full-time, part-time, or temporary basis.
+13 (3) (4)  "Minor" means a person under the age of eighteen years.
+14 (4) (5)  "Sexual conduct" means any of the following, whether actual or
+15 simulated: sexual intercourse, oral copulation, anal intercourse, anal oral copulation,
+16 masturbation, bestiality, sexual sadism, sexual masochism, penetration of the vagina
+17 or rectum by any object in a lewd or lascivious manner, exhibition of the genitals or
+18 pubic or rectal area for the purpose of sexual stimulation of the viewer, or excretory
+19 functions performed in a lewd or lascivious manner, whether or not any of the
+20 conduct is performed alone or between members of the same or opposite sex or
+21 between humans and animals. An act is simulated when it gives the appearance of
+22 being actual sexual conduct.
+23 (6)  "Student" means any person who is under the age of seventeen years and
+24 is enrolled at any public or nonpublic elementary school, secondary school, or high
+25 school in this state.
+26 §73.14.  Unlawful dissemination or sale of images of another created by artificial
+27 intelligence
+28 *          *          *
+Page 2 of 7
+CODING:  Words in struck through type are deletions from existing law; words underscored
+are additions.
+HB NO. 119 ENROLLED
+1 C.  For purposes of this Section, the following terms have the following
+2 meanings:
+3 *          *          *
+4 (3)  "Educator" means any administrator, coach, instructor, paraprofessional,
+5 student aide, teacher, or teacher aide at any public or nonpublic elementary school,
+6 secondary school, or high school in this state who is assigned, employed, or working
+7 at the school or school system where the victim is enrolled as a student on a
+8 full-time, part-time, or temporary basis.
+9 (3) (4)  "Electronic mail service provider" means any person or entity,
+10 including an internet service provider, that is an intermediary in sending or receiving
+11 electronic mail or that provides to end users of the electronic mail service the ability
+12 to send or receive electronic mail.
+13 (4) (5)  "Interactive computer service" means any information service,
+14 system, or access software provider that provides or enables computer access by
+15 multiple users to a computer server, including specifically a service or system that
+16 provides access to the internet and such systems operated or services offered by
+17 libraries or educational institutions.
+18 (6)  "Student" means any person who is under the age of seventeen years and
+19 is enrolled at any public or nonpublic elementary school, secondary school, or high
+20 school in this state.
+21 D.(1)  Whoever Except as provided in Paragraphs (2) and (3) of this
+22 Subsection, whoever violates the provisions of this Section shall be imprisoned with
+23 or without hard labor for not more than six months one year, fined not more than
+24 seven hundred fifty one thousand dollars, or both.
+25 (2)  Whoever violates the provisions of this Section when the depicted person
+26 is under the age of seventeen years shall be imprisoned with or without hard labor
+27 for not more than five years.  At least one year of the sentence of imprisonment shall
+28 be imposed without benefit of parole, probation, or suspension of sentence.
+Page 3 of 7
+CODING:  Words in struck through type are deletions from existing law; words underscored
+are additions.
+HB NO. 119 ENROLLED
+1 (3)  If the offender is an educator and the victim is a student, the offender
+2 may be imprisoned for an additional two years with or without hard labor, to be
+3 served consecutively to the sentence imposed under this Section.
+4 (4)  If the offender is under the age of fourteen years, the disposition shall be
+5 governed exclusively by the provisions of Title VII of the Louisiana Children's Code.
+6 *          *          *
+7 §73.14.1.  Unlawful possession of images of another created by artificial intelligence
+8 A.  It is unlawful for any person to possess any video or still image created
+9 by artificial intelligence that depicts another person who is under the age of
+10 seventeen years and is totally nude or in a state of undress so as to expose the
+11 genitals, pubic area, buttocks, or female breasts, when the person possessing the
+12 video or still image knows or has reason to know that the person is not licensed or
+13 authorized to possess such video or still image.
+14 B.  For purposes of this Section, the following terms have the following
+15 meanings:
+16 (1)  "Another person" includes a person whose image was used in creating,
+17 adapting, or modifying a video or still image with the intent to depict an actual
+18 person and who is recognizable as an actual person by the person's face, likeness, or
+19 other distinguishing characteristic.
+20 (2)  "Artificial intelligence" means an artificial system developed in computer
+21 software, physical hardware, or other context that solves tasks requiring human-like
+22 perception, cognition, planning, learning, communication, or physical action.
+23 (3)  "Educator" means any administrator, coach, instructor, paraprofessional,
+24 student aide, teacher, or teacher aide at any public or nonpublic elementary school,
+25 secondary school, or high school in this state who is assigned, employed, or working
+26 at the school or school system where the victim is enrolled as a student on a
+27 full-time, part-time, or temporary basis.
+28 (4)  "Electronic mail service provider" means any person or entity, including
+29 an internet service provider, that is an intermediary in sending or receiving electronic
+Page 4 of 7
+CODING:  Words in struck through type are deletions from existing law; words underscored
+are additions.
+HB NO. 119 ENROLLED
+1 mail or that provides to end users of the electronic mail service the ability to send or
+2 receive electronic mail.
+3 (5)  "Interactive computer service" means any information service, system,
+4 or access software provider that provides or enables computer access by multiple
+5 users to a computer server, including specifically a service or system that provides
+6 access to the internet and such systems operated or services offered by libraries or
+7 educational institutions.
+8 (6)  "Student" means any person who is under the age of seventeen years and
+9 is enrolled at any public or nonpublic elementary school, secondary school, or high
+10 school in this state.
+11 C.(1)  Except as provided in Paragraphs (2) and (3) of this Subsection,
+12 whoever violates the provisions of this Section shall be imprisoned with or without
+13 hard labor for not more than five years.  At least one year of the sentence of
+14 imprisonment shall be imposed without benefit of parole, probation, or suspension
+15 of sentence.
+16 (2)  If the offender is an educator and the victim is a student, the offender
+17 may be imprisoned for an additional two years with or without hard labor, to be
+18 served consecutively to the sentence imposed under this Section.
+19 (3)  If the offender is under the age of fourteen years, the disposition shall be
+20 governed exclusively by the provisions of Title VII of the Louisiana Children's Code.
+21 D.  This Section does not apply to an interactive computer service, electronic
+22 mail service provider, or a provider of a telecommunications service or any
+23 information service as defined in 47 U.S.C. 153, or a system or access software
+24 provider that provides or enables computer access by multiple users to a computer
+25 server that was used by a person to violate this Section.
+26 E.  This Section does not apply to a person who did not have the specific
+27 intent to receive any video or still image created by artificial intelligence and who
+28 has not consented to receipt of such video or still image.
+29 *          *          *
+Page 5 of 7
+CODING:  Words in struck through type are deletions from existing law; words underscored
+are additions.
+HB NO. 119 ENROLLED
+1 §81.1.1.  "Sexting"; prohibited acts; penalties
+2 A.(1)
+3 *          *          *
+4 (3)  No person under the age of seventeen years shall knowingly possess, sell,
+5 or maliciously disseminate any video or still image created by artificial intelligence
+6 that depicts another person who is totally nude or in a state of undress so as to expose
+7 the genitals, pubic area, buttocks, or female breasts with the intent to coerce, harass,
+8 or intimidate another person when the person disseminating, possessing, or selling
+9 the video or still image knows or has reason to know that the person is not licensed
+10 or authorized to disseminate, possess, or sell such video or still image.
+11 *          *          *
+12 D.(1)  For a violation of the provisions of Paragraph (A)(1) or (3) of this
+13 Section, the offender's disposition shall be governed exclusively by the provisions
+14 of Title VII of the Louisiana Children's Code.
+15 *          *          *
+16 Section 2.  R.S. 17:416.20.1 and 3996(B)(92) are hereby enacted to read as follows:
+17 §416.20.1.  Information; dissemination, sale, or possession of images of another
+18 created by artificial intelligence; Louisiana Department of Education; public
+19 school distribution
+20 A.  The principal of each public school shall disseminate information during
+21 the first five days of each school year to each student grades six and above regarding
+22 the crime and consequences of unlawful dissemination or sale of images of another
+23 created by artificial intelligence as provided in R.S. 14:73.14 and unlawful
+24 possession of images of another created by artificial intelligence as provided in R.S.
+25 14:73.14.1.  This information may be incorporated into an existing orientation
+26 program.  In addition to each student, the information shall be provided to each
+27 student's parent or legal guardian on a written form containing a signature line for
+28 each student's parent or legal guardian to sign to acknowledge receipt and
+29 understanding of the information, which the parent or legal guardian shall return to
+30 the school.  The information required by this Section shall be age and grade
+Page 6 of 7
+CODING:  Words in struck through type are deletions from existing law; words underscored
+are additions.
+HB NO. 119 ENROLLED
+1 appropriate and shall give full consideration as to whether the student is in a regular
+2 or special program of education.
+3 B.  The Louisiana Department of Education shall develop the information
+4 prescribed by this Section and provide it to each public school governing authority,
+5 which shall disseminate it to each principal for this purpose.
+6 *          *          *
+7 §3996.  Charter schools; exemptions; requirements
+8 *          *          *
+9 B.  Notwithstanding any state law, rule, or regulation to the contrary and
+10 except as may be otherwise specifically provided for in an approved charter, a
+11 charter school established and operated in accordance with the provisions of this
+12 Chapter and its approved charter and the school's officers and employees shall be
+13 exempt from all statutory mandates or other statutory requirements that are
+14 applicable to public schools and to public school officers and employees except for
+15 the following laws otherwise applicable to public schools with the same grades:
+16 *          *          *
+17 (92)  Information relative to unlawful dissemination or sale of images of
+18 another created by artificial intelligence as provided in R.S. 14:73.14 and unlawful
+19 possession of images of another created by artificial intelligence as provided in R.S.
+20 14:73.14.1.
+21 *          *          *
+22 Section 3.  This Act shall be cited and referred to as "The Ivy Daniels Act".
+SPEAKER OF THE HOUSE OF REPRESENTATIVES
+PRESIDENT OF THE SENATE
+GOVERNOR OF THE STATE OF LOUISIANA
+APPROVED:  
+Page 7 of 7
+CODING:  Words in struck through type are deletions from existing law; words underscored
+are additions.

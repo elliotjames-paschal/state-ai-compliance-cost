@@ -41,14 +41,24 @@ data/bills-2026.js   passed 2026 state AI bills (as of 7/31/2026) — drives the
 data/bills.js        placeholder coded subset — drives the cost model until statute coding completes
 data/us-map.js       US state shapes (pre-projected Albers, decoded from us-atlas / Census Bureau)
 data/source/         the source spreadsheet the explorer dataset was converted from
+pipeline/            bill-text fetchers: legiscan.py (LegiScan API, primary) + fetch.py (direct URL fallback)
+texts/               the statute text corpus: <slug>.txt per bill, originals in raw/, provenance in manifest/
+CLAUDE.md            operating runbook — how to add a bill, fetch its text, and triage failures
 ```
 
 ## Status
 
-The statute coding pass is in progress. Duty hours, reuse values, and bill selection in
+**The text corpus is complete: all 89 bills fetched and verified** (~3.9M characters), primarily
+via the LegiScan API with per-bill provenance manifests in `texts/manifest/`. 67 bills carry
+enacted text (Chaptered/Enrolled/final); 10 have only Introduced versions pending later
+legislative action.
+
+The statute coding pass is next. Duty hours, reuse values, and bill selection in
 `data/bills.js` are illustrative placeholders. The final version will ship the coded dataset with
 every extracted parameter anchored to the quoted statutory provision, double-coded, and
 hand-validated on a sample.
+
+Bill text data via [LegiScan](https://legiscan.com) (CC BY 4.0).
 
 Feedback: open an issue, or comment on anything that looks wrong — framing, layout, scoping
 choices, or the model structure itself.

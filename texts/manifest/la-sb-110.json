@@ -1,0 +1,15 @@
+{
+ "id": "LA SB 110",
+ "slug": "la-sb-110",
+ "state": "LA",
+ "sourcePage": "https://www.legis.la.gov/legis/BillInfo.aspx?s=26rs&b=SB110&sbi=y",
+ "docUrl": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1475166",
+ "docFormat": "pdf",
+ "version": "Chaptered",
+ "rawFile": "texts/raw/la-sb-110.pdf",
+ "txtFile": "texts/la-sb-110.txt",
+ "chars": 3309,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3439505 (Chaptered 0000-00-00)"
+}

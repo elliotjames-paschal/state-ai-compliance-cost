@@ -1,0 +1,15 @@
+{
+ "id": "OK SB 1627",
+ "slug": "ok-sb-1627",
+ "state": "OK",
+ "sourcePage": "https://www.oklegislature.gov/BillInfo.aspx?Bill=sb1627&Session=2600",
+ "docUrl": "https://www.oklegislature.gov/cf_pdf/2025-26%20ENR/SB/SB1627%20ENR.PDF",
+ "docFormat": "pdf",
+ "version": "Enrolled",
+ "rawFile": "texts/raw/ok-sb-1627.pdf",
+ "txtFile": "texts/ok-sb-1627.txt",
+ "chars": 164373,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3414165 (Enrolled 2026-04-08)"
+}

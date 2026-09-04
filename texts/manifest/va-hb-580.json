@@ -1,0 +1,15 @@
+{
+ "id": "VA HB 580",
+ "slug": "va-hb-580",
+ "state": "VA",
+ "sourcePage": "https://lis.virginia.gov/bill-details/20261/HB580",
+ "docUrl": "https://lis.virginia.gov/bill-details/20261/HB580/text/CHAP0178",
+ "docFormat": "html",
+ "version": "Chaptered",
+ "rawFile": "texts/raw/va-hb-580.html",
+ "txtFile": "texts/va-hb-580.txt",
+ "chars": 4932,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3415269 (Chaptered 2026-04-06)"
+}

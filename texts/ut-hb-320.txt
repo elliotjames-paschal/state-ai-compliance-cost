@@ -1,0 +1,271 @@
+Enrolled Copy H.B. 320
+1 Office of Artificial Intelligence Policy Amendments
+2026 GENERAL SESSION
+STATE OF UTAH
+Chief Sponsor: Paul A. Cutler
+Senate Sponsor: Kirk A. Cullimore
+2  
+3 LONG TITLE
+4 General Description:
+5 This bill modifies provisions related to the Office of Artificial Intelligence Policy and the
+6 Artificial Intelligence Learning Laboratory Program.
+7 Highlighted Provisions:
+8 This bill:
+9 ▸ defines terms;
+10 ▸ modifies duties of the Office of Artificial Intelligence Policy;
+11 ▸ modifies the Artificial Intelligence Learning Laboratory Program;
+12 ▸ modifies provisions related to regulatory agreements; and
+13 ▸ makes technical and conforming changes.
+14 Money Appropriated in this Bill:
+15 None
+16 Other Special Clauses:
+17 None
+18 Utah Code Sections Affected:
+19 AMENDS:
+20 13-72-101, as enacted by Laws of Utah 2024, Chapter 186
+21 13-72-201, as enacted by Laws of Utah 2024, Chapter 186
+22 13-72-301, as enacted by Laws of Utah 2024, Chapter 186
+23 RENUMBERS AND AMENDS:
+24 13-72-401,  (Renumbered from 13-72-302, as enacted by Laws of Utah 2024, Chapter
+25 186)
+26 13-72-402,  (Renumbered from 13-72-303, as enacted by Laws of Utah 2024, Chapter
+27 186)
+H.B. 320 Enrolled Copy
+28 13-72-403,  (Renumbered from 13-72-305, as enacted by Laws of Utah 2024, Chapter
+29 186)
+30 REPEALS:
+31 13-72-304, as enacted by Laws of Utah 2024, Chapter 186
+32  
+33 Be it enacted by the Legislature of the state of Utah:
+34 Section 1.  Section 13-72-101 is amended to read:
+35 13-72-101 . Definitions.
+36       As used in this chapter:
+37 [(1)  "Applicant" means a person that applies for participation in the regulatory learning
+38 laboratory.]
+39 [(2)] (1)  "Agency" means the same as that term is defined in Section 63G-4-103.
+40 (2)  "Agency head" means the same as that term is defined in Section 63G-4-103.
+41 (3)  "Artificial intelligence" means a machine-based system that makes predictions,
+42 recommendations, or decisions influencing real or virtual environments.
+43 [(3)] (4)  "Artificial intelligence technology" means a computer system, application, or other
+44 product that uses or incorporates one or more forms of artificial intelligence.
+45 (5)  "Audit" means the same as that term is defined in Section 63G-2-103.
+46 (6)  "Demonstration period" means the period during which:
+47 (a)  regulatory mitigation is in effect in accordance with the terms of a regulatory
+48 mitigation agreement; or
+49 (b)  joint interpretation is in effect in accordance with the terms of a joint interpretation
+50 agreement.
+51 [(4)] (7)  "Department" means the Department of Commerce.
+52 [(5)] (8)  "Director" means the director of the office.
+53 [(6)] (9)  "Executive director" means the executive director of the Department of Commerce.
+54 (10)  "Governmental entity" means:
+55 (a)  the judiciary;
+56 (b)  a state-funded institution of higher education or public education; or
+57 (c)  a political subdivision of the state.
+58 (11)  "Governmental entity head" means the individual or body with ultimate executive or
+59 administrative authority over a governmental entity.
+60 (12)  "Joint interpretation agreement" means an agreement between a participant, the office,
+61 and a relevant agency or governmental entity that clarifies the application of a provision
+- 2 -
+Enrolled Copy H.B. 320
+62 of state law or rule to artificial intelligence technology.
+63 [(7)] (13)  "Learning agenda" means the areas of artificial intelligence applications, risks,
+64 and policy considerations selected by the office for focus by the learning laboratory.
+65 [(8)] (14)  "Learning laboratory" means the artificial intelligence analysis and research
+66 program created in Section 13-72-301.
+67 [(9)] (15)  "Office" means the Office of Artificial Intelligence Policy created in Section [
+68 13-74-201] 13-72-201.
+69 (16)  "Participant" means a person seeking or holding a regulatory mitigation agreement or a
+70 joint interpretation agreement with the office.
+71 (17)  "Political subdivision" means the same as that term is defined in Section 63G-7-102.
+72 (18)  "Regulatory mitigation agreement" means an agreement between a participant, the
+73 office, and a relevant agency or a governmental entity described in Section 13-72-401
+74 that:
+75 (a)  permits a participant to use or deploy artificial intelligence technology despite a law
+76 or rule that might impede or interfere with that use or deployment; and
+77 (b)(i)  sets terms and conditions related to any cure period or similar remedies before
+78 penalties may be assessed;
+79 (ii)  provides for reduced civil fines during the demonstration period; or
+80 (iii)  sets other terms and conditions tailored to identified issues of the artificial
+81 intelligence technology, including reporting requirements and safeguards
+82 necessary for safe and successful use or deployment.
+83 [(10)  "Participant" means a person that is accepted to participate in the learning laboratory.]
+84 [(11)  "Regulatory mitigation agreement" means an agreement between a participant, the
+85 office, and relevant state agencies described in Section 13-72-302.]
+86 [(12)  "Regulatory mitigation" means:]
+87 [(a)  when restitution to users may be required;]
+88 [(b)  terms and conditions related to any cure period before penalties may be assessed;]
+89 [(c)  any reduced civil fines during the participation term; and]
+90 [(d)  other terms tailored to identified issues of the artificial intelligence technology.]
+91 Section 2.  Section 13-72-201 is amended to read:
+92 13-72-201 . Creation of Office of Artificial Intelligence Policy -- Director
+93  appointed -- Duties and authority.
+94 (1)  There is created in the department the Office of Artificial Intelligence Policy.
+95 (2)  The executive director of the department shall appoint a director to oversee the
+- 3 -
+H.B. 320 Enrolled Copy
+96 management and operations of the office.
+97 (3)  The office shall:
+98 (a)  create and administer an artificial intelligence learning laboratory program;
+99 (b)  consult with businesses and other stakeholders in the state about potential regulatory
+100 proposals;
+101 (c)  make rules in accordance with Title 63G, Chapter 3, Utah Administrative
+102 Rulemaking Act, establishing:
+103 [(i)  procedures, requirements, and fees to apply to participate in the learning
+104 laboratory program;]
+105 [(ii)  criteria for invitation, acceptance, denial, or removal of participants;]
+106 [(iii)  data usage limitations and cybersecurity criteria for participants;]
+107 [(iv)] (i)  required participant disclosures to consumers;
+108 [(v)] (ii)  reporting requirements for participants to the office;
+109 [(vi)] (iii)  criteria for limited extension of the participation period; and
+110 [(vii)] (iv)  other requirements necessary to administer the learning laboratory; and
+111 (d)  report annually, before November 30, to the Business and Labor Interim Committee
+112 regarding:
+113 (i)  the proposed learning agenda for the learning laboratory;
+114 (ii)  the findings, participation, and outcomes of the learning laboratory; [and]
+115 (iii)  any regulatory mitigation or joint interpretation agreements executed by the
+116 office; and
+117 [(iii)] (iv)  recommended legislation from findings from the learning laboratory.
+118 (4)  The office may develop and publish guidance and other resources, including best
+119 practices, to inform and educate Utah consumers about artificial intelligence technology.
+120 Section 3.  Section 13-72-301 is amended to read:
+121 13-72-301 .  Artificial Intelligence Learning Laboratory Program.
+122 (1)  There is established the Artificial Intelligence Learning Laboratory Program, to be
+123 administered by the office.
+124 (2)  The purpose of the learning laboratory is to:
+125 (a)  analyze and research the risks, benefits, impacts, and policy implications of artificial
+126 intelligence technologies to inform the state regulatory framework;
+127 (b)  encourage [development] responsible deployment of artificial intelligence
+128 technologies in the state;
+129 (c)  evaluate the effectiveness and viability of current, potential, or proposed regulation
+- 4 -
+Enrolled Copy H.B. 320
+130 on artificial intelligence technologies with artificial intelligence companies; and
+131 (d)  produce findings and recommendations for legislation and regulation of artificial
+132 intelligence.
+133 (3)(a)  The office shall periodically set a learning agenda for the learning laboratory that
+134 establishes the specific areas of artificial intelligence policy the office intends to
+135 study.
+136 (b)  In establishing the learning agenda, the office may consult with individuals from:
+137 (i)  relevant agencies;
+138 (ii)  governmental entities;
+139 [(ii)] (iii)  [industry leaders] relevant industries;
+140 [(iii)] (iv)  academic institutions in the state; and
+141 [(iv)] (v)  [key stakeholders ] other public or private entities with relevant knowledge,
+142 experience, or expertise in the area.
+143 (c)  In selecting individuals to consult with under Subsection (3)(b), the office shall
+144 consider:
+145 (i)  the individual's knowledge of artificial intelligence technology and applications;
+146 (ii)  the individual's expertise in artificial intelligence policy; and
+147 (iii)  the individual's relevant experience.
+148 [(4)  The office may invite and receive an application from a person to participate in the
+149 learning laboratory.]
+150 [(5)  The office shall establish the procedures and requirements for sending an invitation and
+151 receiving requests to participate in the learning laboratory in accordance with the
+152 purposes of the learning laboratory.]
+153 [(6)  In selecting participants for the learning laboratory, the office shall consider:]
+154 [(a)  the relevance and utility of an invitee or applicant's artificial intelligence technology
+155 to the learning agenda;]
+156 [(b)  the invitee or applicant's expertise and knowledge specific to the learning agenda;
+157 and]
+158 [(c)  other factors identified by the office as relevant to participation in the learning
+159 laboratory.]
+160 [(7)  The office shall work with participants to establish benchmarks and assess outcomes of
+161 participation in the learning laboratory.]
+162 Section 4.  Section 13-72-401, which is renumbered from Section 13-72-302 is renumbered
+163  and amended to read:
+- 5 -
+H.B. 320 Enrolled Copy
+164 
+ 
+Part 4. Regulatory Mitigation and Joint Interpretation Agreements
+165 [13-72-302] 13-72-401 . Regulatory mitigation agreements and joint
+166  interpretation agreements.
+167 (1)  A participant who uses or wants to utilize an artificial intelligence technology in the
+168 state may apply for a regulatory mitigation agreement or a joint interpretation agreement
+169 according to criteria and procedures outlined by the office by rule made under Section
+170 13-72-201.
+171 (2)  The office may grant, on a temporary basis, regulatory mitigation to a participant by
+172 entering into a regulatory mitigation agreement or a joint interpretation agreement with
+173 the office and [relevant agencies] relevant agency heads or governmental entity heads.
+174 (3)  To receive a regulatory mitigation agreement or a joint interpretation agreement, a
+175 participant must demonstrate that the [applicant] participant meets eligibility criteria
+176 established in Section [13-72-303] 13-72-402.
+177 (4)  A regulatory mitigation agreement or a joint interpretation agreement between a
+178 participant and the office and relevant agencies or governmental entities shall specify:
+179 (a)  limitations on scope of the use of the participant's artificial intelligence technology, [
+180 including] which may include:
+181 (i)  the number and types of users;
+182 (ii)  geographic limitations; and
+183 (iii)  other limitations to implementation;
+184 (b)  safeguards to be implemented; [and]
+185 (c)  any regulatory mitigation granted to the applicant[.] ;
+186 (d)  any required disclosures to consumers; and
+187 (e)  reporting requirements to comply with audits from the office.
+188 (5)  The office shall consult with relevant agencies and governmental entities regarding
+189 appropriate terms in a regulatory mitigation agreement or a joint interpretation agreement.
+190 (6)  The office shall perform regular audits of a participant's application of artificial
+191 intelligence technology while a regulatory mitigation agreement or a joint interpretation
+192 agreement remains in effect.
+193 (7)  A participant remains subject to all legal and regulatory requirements not expressly
+194 waived or modified by the terms of the regulatory mitigation agreement or clarified in a
+195 joint interpretation agreement.
+196 [(7)] (8)(a)  The office may [remove a participant] terminate a regulatory mitigation
+197 agreement or a joint interpretation agreement at any time and for any reason, and the
+- 6 -
+Enrolled Copy H.B. 320
+198 participant does not have an expectation of a property right or license to participate in
+199 the learning laboratory.
+200 (b)  A participant [demonstrating] using or deploying an artificial intelligence technology
+201 that violates legal or regulatory requirements or the terms of [the participation
+202 agreement ] a regulatory mitigation agreement or a joint interpretation agreement may
+203 be immediately removed from further participation and subject to all applicable civil
+204 and criminal penalties.
+205 [(8)] (9)  Participation in the learning laboratory, including signing a regulatory mitigation
+206 agreement or joint interpretation agreement, does not constitute an endorsement or
+207 approval from the state.
+208 [(9)] (10)  The state shall not be responsible for any claims, liabilities, damages, losses, or
+209 expenses arising out of a participant's:
+210 (a)  involvement in the learning laboratory[.] ; or
+211 (b)  actions taken in accordance with a regulatory mitigation agreement or joint
+212 interpretation agreement.
+213 Section 5.  Section 13-72-402, which is renumbered from Section 13-72-303 is renumbered
+214  and amended to read:
+215 [13-72-303] 13-72-402 . Regulatory mitigation and joint interpretation agreement
+216  eligibility requirements -- Application evaluation and admission.
+217 (1)  To be eligible for a regulatory mitigation agreement or a joint interpretation agreement,
+218 a participant shall demonstrate to the office that:
+219 (a)  the participant has the technical expertise and capability to responsibly develop[ and
+220 test ] , implement, and use or supervise the use of the proposed artificial intelligence
+221 technology;
+222 (b)  the participant has sufficient financial resources to meet obligations during testing;
+223 (c)  the artificial intelligence technology provides potential substantial consumer benefits
+224 that may outweigh identified risks from mitigated enforcement of regulations;
+225 (d)  the participant has an effective plan to monitor and minimize identified risks from
+226 testing; and
+227 (e)  the scale, scope, and duration of proposed testing is appropriately limited based on
+228 risk assessments.
+229 (2)  To evaluate whether [an applicant] a participant meets eligibility criteria to [receive] 
+230 obtain a regulatory mitigation agreement or a joint interpretation agreement, the office
+231 may consult with relevant agencies, governmental entities, and outside experts regarding
+- 7 -
+H.B. 320 Enrolled Copy
+232 the application.
+233 Section 6.  Section 13-72-403, which is renumbered from Section 13-72-305 is renumbered
+234  and amended to read:
+235 [13-72-305] 13-72-403 . Agreement extension.
+236 (1)  [An] The demonstration period for an initial regulatory mitigation agreement [shall be in
+237 force for no longer than] or a joint interpretation agreement may not exceed 12 months.
+238 (2)  A participant may request a [single ]12-month [extension for participation in the
+239 learning laboratory period] extension of the demonstration period for any regulatory
+240 mitigation agreement or joint interpretation agreement no later than 30 days before the
+241 end of the [initial 12-month] ongoing demonstration period.
+242 (3)  The office shall grant or deny an extension request before expiration of [the initial] an
+243 ongoing demonstration period.
+244 (4)  The office may grant up to two extensions for any regulatory mitigation or joint
+245 interpretation agreement.
+246 Section 7.  Repealer.
+247 This bill repeals:
+248 Section 13-72-304, Participation in Artificial Intelligence Learning Laboratory.
+249 Section 8.  Effective Date.
+250 This bill takes effect on May 6, 2026.
+- 8 -

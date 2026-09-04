@@ -1,0 +1,15 @@
+{
+ "id": "MD SB 597",
+ "slug": "md-sb-597",
+ "state": "MD",
+ "sourcePage": "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/SB0597?ys=2026RS",
+ "docUrl": "https://mgaleg.maryland.gov/2026RS/Chapters_noln/CH_633_sb0597e.pdf",
+ "docFormat": "pdf",
+ "version": "Chaptered",
+ "rawFile": "texts/raw/md-sb-597.pdf",
+ "txtFile": "texts/md-sb-597.txt",
+ "chars": 18646,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3445361 (Chaptered 2026-06-03)"
+}

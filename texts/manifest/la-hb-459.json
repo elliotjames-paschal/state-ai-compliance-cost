@@ -1,0 +1,15 @@
+{
+ "id": "LA HB 459",
+ "slug": "la-hb-459",
+ "state": "LA",
+ "sourcePage": "https://www.legis.la.gov/legis/BillInfo.aspx?s=26rs&b=HB459&sbi=y",
+ "docUrl": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1481244",
+ "docFormat": "pdf",
+ "version": "Chaptered",
+ "rawFile": "texts/raw/la-hb-459.pdf",
+ "txtFile": "texts/la-hb-459.txt",
+ "chars": 13628,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3448560 (Chaptered 0000-00-00)"
+}

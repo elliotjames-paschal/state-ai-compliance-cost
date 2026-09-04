@@ -1,0 +1,3683 @@
+ 
+ 
+ 
+An Act 
+ENROLLED SENATE 
+BILL NO. 1627 By: Paxton of the Senate 
+ 
+   and 
+ 
+  Hilbert of the House 
+ 
+ 
+ 
+An Act relating to multiple versions of statutes; 
+amending, merging, consolidating, and repealing 
+multiple versions of statutes; amending 10A O.S. 
+2021, Section 1-2-101, as amended by Section 1, 
+Chapter 26, O.S.L. 2025 (10A O.S. Supp. 2025, Section 
+1-2-101); repealing 10A O.S. 2021, Section 1-2-101, 
+as amended by Section 1, Chapter 260, O.S.L. 2025 
+(10A O.S. Supp. 2025, Section 1-2-101); repealing 10A 
+O.S. 2021, Section 1-2-101, as amended by Section 
+344, Chapter 486, O.S.L. 2025 (10A O.S. Supp. 2025, 
+Section 1-2-101); amending 21 O.S. 2021, Section 
+13.1, as last amended by Section 1, Chapter 162, 
+O.S.L. 2025 (21 O.S. Supp. 2025, Section 13.1); 
+repealing 21 O.S. 2021, Section 13.1, as amended by 
+Section 5, Chapter 59, O.S.L. 2024 (21 O.S. Supp. 
+2025, Section 13.1); repealing 21 O.S. 2021, Section 
+13.1, as last amended by Section 2, Chapter 18, 
+O.S.L. 2025 (21 O.S. Supp. 2025, Section 13.1); 
+repealing 21 O.S. 2021, Section 13.1, as last amended 
+by Section 1, Chapter 352, O.S.L. 2025 (21 O.S. Supp. 
+2025, Section 13.1); amending 21 O.S. 2021, Section 
+425, as amended by Section 370, Chapter 486, O.S.L. 
+2025 (21 O.S. Supp. 2025, Section 425); repealing 21 
+O.S. 2021, Section 425, as amended by Section 2, 
+Chapter 329, O.S.L. 2025 (21 O.S. Supp. 2025, Section 
+425); amending 21 O.S. 2021, Section 540A, as amended 
+by Section 192, Chapter 486, O.S.L. 2025 (21 O.S. 
+Supp. 2025, Section 540A); repealing 21 O.S. 2021, 
+Section 540A, as amended by Section 1, Chapter 224, 
+O.S.L. 2025 (21 O.S. Supp. 2025, Section 540A); 
+amending 21 O.S. 2021, Section 644, as last amended 
+by Section 3, Chapter 486, O.S.L. 2025 (21 O.S. Supp. 
+2025, Section 644); repealing 21 O.S. 2021, Section 
+ 
+ 
+ENR. S. B. NO. 1627 Page 2 
+644, as last amended by Section 1, Chapter 147, 
+O.S.L. 2025 (21 O.S. Supp. 2025, Section 644); 
+repealing 21 O.S. 2021, Section 644, as last amended 
+by Section 1, Chapter 322, O.S.L. 2025 (21 O.S. Supp. 
+2025, Section 644); repealing 21 O.S. 2021, Section 
+644, as last amended by Section 2, Chapter 162, 
+O.S.L. 2025 (21 O.S. Supp. 2025, Section 644); 
+amending 21 O.S. 2021, Section 650, as amended by 
+Section 16, Chapter 486, O.S.L. 2025 (21 O.S. Supp. 
+2025, Section 650); repealing 21 O.S. 2021, Section 
+650, as amended by Section 1, Chapter 32, O.S.L. 2025 
+(21 O.S. Supp. 2025, Section 650); amending 21 O.S. 
+2021, Section 748, as last amended by Section 20, 
+Chapter 486, O.S.L. 2025 (21 O.S. Supp. 2025, Section 
+748); repealing 21 O.S. 2021, Section 748, as last 
+amended by Section 2, Chapter 291, O.S.L. 2025 (21 
+O.S. Supp. 2025, Section 748); amending 21 O.S. 2021, 
+Section 843.5, as last amended by Section 8, Chapter 
+486, O.S.L. 2025 (21 O.S. Supp. 2025, Section 843.5); 
+repealing 21 O.S. 2021, Section 843.5, as amended by 
+Section 6, Chapter 59, O.S.L. 2024 (21 O.S. Supp. 
+2025, Section 843.5); repealing 21 O.S. 2021, Section 
+843.5, as last amended by Section 1, Chapter 281, 
+O.S.L. 2025 (21 O.S. Supp. 2025, Section 843.5); 
+amending 21 O.S. 2021, Section 852.1, as amended by 
+Section 187, Chapter 486, O.S.L. 2025 (21 O.S. Supp. 
+2025, Section 852.1); repealing 21 O.S. 2021, Section 
+852.1, as amended by Section 1, Chapter 113, O.S.L. 
+2025 (21 O.S. Supp. 2025, Section 852.1); amending 21 
+O.S. 2021, Section 856.3, as amended by Section 159, 
+Chapter 486, O.S.L. 2025 (21 O.S. Supp. 2025, Section 
+856.3); repealing 21 O.S. 2021, Section 856.3, as 
+amended by Section 1, Chapter 108, O.S.L. 2025 (21 
+O.S. Supp. 2025, Section 856.3); repealing 21 O.S. 
+2021, Section 888, as amended by Section 4, Chapter 
+455, O.S.L. 2002; amending 21 O.S. 2021, Section 
+1021.2, as last amended by Section 49, Chapter 486, 
+O.S.L. 2025 (21 O.S. Supp. 2025, Section 1021.2); 
+repealing 21 O.S. 2021, Section 1021.2, as amended by 
+Section 9, Chapter 59, O.S.L. 2024 (21 O.S. Supp. 
+2025, Section 1021.2); amending 21 O.S. 2021, Section 
+1024.1, as last amended by Section 4, Chapter 29, 
+ 
+ 
+ENR. S. B. NO. 1627 Page 3 
+O.S.L. 2025 (21 O.S. Supp. 2025, Section 1024.1); 
+repealing 21 O.S. 2021, Section 1024.1, as amended by 
+Section 14, Chapter 59, O.S.L. 2024 (21 O.S. Supp. 
+2025, Section 1024.1); amending 21 O.S. 2021, Section 
+1031, as last amended by Section 397, Chapter 486, 
+O.S.L. 2025 (21 O.S. Supp. 2025, Section 1031); 
+repealing 21 O.S. 2021, Section 1031, as last amended 
+by Section 5, Chapter 151, O.S.L. 2024 (21 O.S. Supp. 
+2025, Section 1031); amending 21 O.S. 2021, Section 
+1040.12a, as last amended by Section 26, Chapter 486, 
+O.S.L. 2025 (21 O.S. Supp. 2025, Section 1040.12a); 
+repealing 21 O.S. 2021, Section 1040.12a, as amended 
+by Section 20, Chapter 59, O.S.L. 2024 (21 O.S. Supp. 
+2025, Section 1040.12a); repealing 21 O.S. 2021, 
+Section 1040.12a, as last amended by Section 3, 
+Chapter 29, O.S.L. 2025 (21 O.S. Supp. 2025, Section 
+1040.12a); amending 21 O.S. 2021, Section 1040.13b, 
+as last amended by Section 1, Chapter 23, O.S.L. 2025 
+(21 O.S. Supp. 2025, Section 1040.13b); repealing 21 
+O.S. 2021, Section 1040.13b, as last amended by 
+Section 399, Chapter 486, O.S.L. 2025 (21 O.S. Supp. 
+2025, Section 1040.13b); amending 21 O.S. 2021, 
+Section 1111, as last amended by Section 1, Chapter 
+60, O.S.L. 2025 (21 O.S. Supp. 2025, Section 1111); 
+repealing 21 O.S. 2021, Section 1111, as last amended 
+by Section 1, Chapter 103, O.S.L. 2025 (21 O.S. Supp. 
+2025, Section 1111); repealing 21 O.S. 2021, Section 
+1111, as last amended by Section 1, Chapter 365, 
+O.S.L. 2025 (21 O.S. Supp. 2025, Section 1111); 
+repealing 21 O.S. 2021, Section 1115, as amended by 
+Section 5, Chapter 455, O.S.L. 2002; amending 21 O.S. 
+2021, Section 1123, as last amended by Section 2, 
+Chapter 281, O.S.L. 2025 (21 O.S. Supp. 2025, Section 
+1123); repealing 21 O.S. 2021, Section 1123, as last 
+amended by Section 2, Chapter 60, O.S.L. 2025 (21 
+O.S. Supp. 2025, Section 1123); repealing 21 O.S. 
+2021, Section 1123, as last amended by Section 38, 
+Chapter 486, O.S.L. 2025 (21 O.S. Supp. 2025, Section 
+1123); amending 21 O.S. 2021, Section 1173, as last 
+amended by Section 1, Chapter 145, O.S.L. 2025 (21 
+O.S. Supp. 2025, Section 1173); repealing 21 O.S. 
+2021, Section 1173, as last amended by Section 118, 
+ 
+ 
+ENR. S. B. NO. 1627 Page 4 
+Chapter 486, O.S.L. 2025 (21 O.S. Supp. 2025, Section 
+1173); amending 21 O.S. 2021, Section 1277, as 
+amended by Section 2, Chapter 251, O.S.L. 2025 (21 
+O.S. Supp. 2025, Section 1277); repealing 21 O.S. 
+2021, Section 1277, as amended by Section 1, Chapter 
+70, O.S.L. 2025 (21 O.S. Supp. 2025, Section 1277); 
+amending 21 O.S. 2021, Section 1289.16, as amended by 
+Section 3, Chapter 261, O.S.L. 2025 (21 O.S. Supp. 
+2025, Section 1289.16); repealing 21 O.S. 2021, 
+Section 1289.16, as amended by Section 131, Chapter 
+486, O.S.L. 2025 (21 O.S. Supp. 2025, Section 
+1289.16); repealing 21 O.S. 2021, Section 1290.5, as 
+amended by Section 5, Chapter 146, O.S.L. 2021; 
+repealing 21 O.S. 2021, Section 1451, as amended by 
+Section 1, Chapter 221, O.S.L. 2016; repealing 21 
+O.S. 2021, Section 1521, as amended by Section 2, 
+Chapter 221, O.S.L. 2016; repealing 21 O.S. 2021, 
+Section 1541.2, as amended by Section 5, Chapter 221, 
+O.S.L. 2016; repealing 21 O.S. 2021, Section 1541.3, 
+as amended by Section 6, Chapter 221, O.S.L. 2016; 
+repealing 21 O.S. 2021, Section 1577, as amended by 
+Section 11, Chapter 221, O.S.L. 2016; repealing 21 
+O.S. 2021, Section 1578, as amended by Section 12, 
+Chapter 221, O.S.L. 2016; repealing 21 O.S. 2021, 
+Section 1579, as amended by Section 13, Chapter 221, 
+O.S.L. 2016; repealing 21 O.S. 2021, Section 1621, as 
+amended by Section 15, Chapter 221, O.S.L. 2016; 
+repealing 21 O.S. 2021, Section 1704, as amended by 
+Section 16, Chapter 221, O.S.L. 2016; repealing 21 
+O.S. 2021, Section 1705, as amended by Section 17, 
+Chapter 221, O.S.L. 2016; repealing 21 O.S. 2021, 
+Section 1713, as amended by Section 18, Chapter 221, 
+O.S.L. 2016; repealing 21 O.S. 2021, Section 1731, as 
+amended by Section 19, Chapter 221, O.S.L. 2016; 
+amending 21 O.S. 2021, Section 1903, as amended by 
+Section 2, Chapter 405, O.S.L. 2025 (21 O.S. Supp. 
+2025, Section 1903); repealing 21 O.S. 2021, Section 
+1903, as amended by Section 62, Chapter 486, O.S.L. 
+2025 (21 O.S. Supp. 2025, Section 1903); amending 47 
+O.S. 2021, Section 11-902, as amended by Section 1, 
+Chapter 347, O.S.L. 2025 (47 O.S. Supp. 2025, Section 
+11-902); repealing 47 O.S. 2021, Section 11-902, as 
+ 
+ 
+ENR. S. B. NO. 1627 Page 5 
+amended by Section 3, Chapter 172, O.S.L. 2025 (47 
+O.S. Supp. 2025, Section 11-902); repealing 47 O.S. 
+2021, Section 11-902, as amended by Section 6, 
+Chapter 305, O.S.L. 2025 (47 O.S. Supp. 2025, Section 
+11-902); repealing 47 O.S. 2021, Section 11-902, as 
+amended by Section 33, Chapter 486, O.S.L. 2025 (47 
+O.S. Supp. 2025, Section 11-902); and declaring an 
+emergency. 
+ 
+ 
+ 
+SUBJECT:  Criminal statutes duplicate sections 
+ 
+BE IT ENACTED BY THE PEOPLE OF THE STATE OF OKLAHOMA: 
+ 
+SECTION 1.     AMENDATORY     10A O.S. 2021, Section 1-2-101, as 
+amended by Section 1, Chapter 26, O.S.L. 2025 (10A O.S. Supp. 2025, 
+Section 1-2-101), is amended to read as follows: 
+ 
+Section 1-2-101.  A.  1.  The Department of Human Services shall 
+establish a statewide centralized hotline for the reporting of child 
+abuse or neglect to the Department. 
+ 
+2.  The Department shall provide hotline-specific training 
+including, but not limited to, interviewing skills, customer service 
+skills, narrative writing, necessary computer systems, making case 
+determinations, and identifying priority situations. 
+ 
+3.  The Department is authorized to contract with third parties 
+in order to train hotline workers. 
+ 
+4.  The Department shall develop a system to track the number of 
+calls received, and of that number: 
+ 
+a. the number of calls screened out, 
+ 
+b. the number of referrals assigned, 
+ 
+c. the number of calls received by persons unwilling to 
+disclose basic personal information including, but not 
+limited to, first and last name, and 
+ 
+ 
+ 
+ENR. S. B. NO. 1627 Page 6 
+d. the number of calls in which the allegations were 
+later found to be unsubstantiated or ruled out. 
+ 
+5.  The Department shall electronically record each referral 
+received by the hotline and establish a secure means of retaining 
+the recordings for twelve (12) months.  The recordings shall be 
+confidential and subject to disclosure only if a court orders the 
+disclosure of the referral.  The Department shall redact any 
+information identifying the reporting party unless otherwise ordered 
+by the court. 
+ 
+6.  Each referral received by the hotline alleging abuse or 
+neglect wherein the alleged perpetrator is someone other than a 
+person responsible for the child’s health, safety, or welfare shall 
+be immediately reported to the appropriate local law enforcement 
+agency, in writing, for the purpose of conducting a possible 
+criminal investigation.  The hotline supervisor shall ensure that a 
+report has been made upon receipt of a referral prior to the 
+referral being screened out.  The Department shall maintain a record 
+of its transmission of each report to law enforcement. 
+ 
+B.  1.  Every person having reason to believe that a child under 
+the age of eighteen (18) years is a victim of abuse or neglect shall 
+report the matter immediately to the Department of Human Services.  
+Reports shall be made to the hotline provided for in subsection A of 
+this section.  Any allegation of abuse or neglect reported in any 
+manner to a county office shall immediately be referred to the 
+hotline by the Department.  Provided, however, that in actions for 
+custody by abandonment, provided for in Section 2-117 of Title 30 of 
+the Oklahoma Statutes, there shall be no reporting requirement. 
+ 
+2. a. Every school employee having reason to believe that a 
+student under the age of eighteen (18) years is a 
+victim of abuse or neglect shall report the matter 
+immediately to the Department of Human Services and 
+local law enforcement.  Reports to the Department 
+shall be made to the hotline provided for in 
+subsection A of this section.  Any allegation of abuse 
+or neglect reported in any manner to a county office 
+shall immediately be referred to the hotline by the 
+Department.  Provided, however, that in actions for 
+custody by abandonment, provided for in Section 2-117 
+ 
+ 
+ENR. S. B. NO. 1627 Page 7 
+of Title 30 of the Oklahoma Statutes, there shall be 
+no reporting requirement. 
+ 
+b. Every school employee having reason to believe that a 
+student age eighteen (18) years or older is a victim 
+of abuse or neglect shall report the matter 
+immediately to local law enforcement. 
+ 
+c. In reports required by subparagraph a or b of this 
+paragraph, local law enforcement shall keep 
+confidential and redact any information identifying 
+the reporting school employee unless otherwise ordered 
+by the court.  A school employee with knowledge of a 
+report required by subparagraph a or b of this 
+paragraph shall not disclose information identifying 
+the reporting school employee unless otherwise ordered 
+by the court or as part of an investigation by local 
+law enforcement or the Department. 
+ 
+3.  Every physician, surgeon, or other health care professional 
+including doctors of medicine, licensed osteopathic physicians, 
+residents and interns, or any other health care professional or 
+midwife involved in the prenatal care of expectant mothers or the 
+delivery or care of infants shall promptly report to the Department 
+instances in which an infant tests positive for alcohol or a 
+controlled dangerous substance.  This shall include infants who are 
+diagnosed with Neonatal Abstinence Syndrome or Fetal Alcohol 
+Spectrum Disorder. 
+ 
+4.  No privilege or contract shall relieve any person from the 
+requirement of reporting pursuant to this section. 
+ 
+5.  The reporting obligations under this section are individual, 
+and no employer, supervisor, administrator, governing body or entity 
+shall interfere with the reporting obligations of any employee or 
+other person or in any manner discriminate or retaliate against the 
+employee or other person who in good faith reports suspected child 
+abuse or neglect, or who provides testimony in any proceeding 
+involving child abuse or neglect.  Any employer, supervisor, 
+administrator, governing body or entity who discharges, 
+discriminates or retaliates against the employee or other person 
+shall be liable for damages, costs and attorney fees.  If a child 
+ 
+ 
+ENR. S. B. NO. 1627 Page 8 
+who is the subject of the report or other child is harmed by the 
+discharge, discrimination or retaliation described in this 
+paragraph, the party harmed may file an action to recover damages, 
+costs and attorney fees. 
+ 
+6.  Every physician, surgeon, other health care professional or 
+midwife making a report of abuse or neglect as required by this 
+subsection or examining a child to determine the likelihood of abuse 
+or neglect and every hospital or related institution in which the 
+child was examined or treated shall provide, upon request, copies of 
+the results of the examination or copies of the examination on which 
+the report was based and any other clinical notes, X-rays, 
+photographs, and other previous or current records relevant to the 
+case to law enforcement officers conducting a criminal investigation 
+into the case and to employees of the Department of Human Services 
+conducting an investigation of alleged abuse or neglect in the case. 
+ 
+C.  Any Except as provided in Section 593 of Title 21 of the 
+Oklahoma Statutes, any person who knowingly and willfully fails to 
+promptly report suspected child abuse or neglect or who interferes 
+with the prompt reporting of suspected child abuse or neglect may be 
+reported to local law enforcement for criminal investigation and, 
+upon conviction thereof, shall be guilty of a misdemeanor.  Any 
+Except as provided in Section 593 of Title 21 of the Oklahoma 
+Statutes, any person with prolonged knowledge of ongoing child abuse 
+or neglect who knowingly and willfully fails to promptly report such 
+knowledge may be reported to local law enforcement for criminal 
+investigation and, upon conviction thereof, shall be guilty of a 
+Class D1 felony offense and shall be punished by imprisonment as 
+provided for in subsections B through F of Section 20N of Title 21 
+of the Oklahoma Statutes.  For the purposes of this paragraph, 
+“prolonged knowledge” shall mean knowledge of at least six (6) 
+months of child abuse or neglect. 
+ 
+D.  1.  Any person who knowingly and willfully makes a false 
+report pursuant to the provisions of this section or a report that 
+the person knows lacks factual foundation may be reported to local 
+law enforcement for criminal investigation and, upon conviction 
+thereof, shall be guilty of a misdemeanor. 
+ 
+2.  If a court determines that an accusation of child abuse or 
+neglect made during a child custody proceeding is false and the 
+ 
+ 
+ENR. S. B. NO. 1627 Page 9 
+person making the accusation knew it to be false at the time the 
+accusation was made, the court may impose a fine, not to exceed Five 
+Thousand Dollars ($5,000.00) and reasonable attorney fees incurred 
+in recovering the sanctions, against the person making the 
+accusation.  The remedy provided by this paragraph is in addition to 
+paragraph 1 of this subsection or to any other remedy provided by 
+law. 
+ 
+E.  Nothing contained in this section shall be construed to 
+exempt or prohibit any person from reporting any suspected child 
+abuse or neglect pursuant to subsection B of this section. 
+ 
+SECTION 2.     REPEALER     10A O.S. 2021, Section 1-2-101, as 
+amended by Section 1, Chapter 260, O.S.L. 2025 (10A O.S. Supp. 2025, 
+Section 1-2-101), is hereby repealed. 
+ 
+SECTION 3.     REPEALER     10A O.S. 2021, Section 1-2-101, as 
+amended by Section 344, Chapter 486, O.S.L. 2025 (10A O.S. Supp. 
+2025, Section 1-2-101), is hereby repealed. 
+ 
+SECTION 4.     AMENDATORY     21 O.S. 2021, Section 13.1, as 
+last amended by Section 1, Chapter 162, O.S.L. 2025 (21 O.S. Supp. 
+2025, Section 13.1), is amended to read as follows: 
+ 
+Section 13.1.  Persons convicted of: 
+ 
+1.  First degree murder as provided for in Section 701.7 of this 
+title; 
+ 
+2.  Second degree murder as provided for in Section 701.8 of 
+this title; 
+ 
+3.  Manslaughter in the first degree as provided for in Section 
+711 of this title; 
+ 
+4.  Poisoning with intent to kill as provided for in Section 651 
+of this title; 
+ 
+5.  Shooting with intent to kill, use of a vehicle to facilitate 
+use of a firearm, crossbow or other weapon, assault, battery, or 
+assault and battery with a deadly weapon or by other means likely to 
+ 
+ 
+ENR. S. B. NO. 1627 Page 10 
+produce death or great bodily harm, as provided for in Sections 644 
+and 652 of this title; 
+ 
+6.  Assault with intent to kill as provided for in Section 653 
+of this title; 
+ 
+7.  Conjoint robbery as provided for in Section 800 of this 
+title; 
+ 
+8.  Robbery with a dangerous weapon as provided for in Section 
+801 of this title; 
+ 
+9.  First degree robbery as provided for in Section 797 of this 
+title; 
+ 
+10.  First degree rape as provided for in Section 1111 or 1114 
+of this title; 
+ 
+11.  First degree arson as provided for in Section 1401 of this 
+title; 
+ 
+12.  First degree burglary as provided for in Section 1431 of 
+this title; 
+ 
+13.  Bombing as provided for in Section 1767.1 of this title; 
+ 
+14.  Any crime against a child as provided for in Section 843.5 
+of this title; 
+ 
+15.  Forcible sodomy as provided for in Section 888 of this 
+title; 
+ 
+16.  Child sexual abuse material or aggravated child sexual 
+abuse material as provided for in Section 1021.2, 1021.3, 1024.1, 
+1024.2, or 1040.12a of this title; 
+ 
+17.  Child sex trafficking as defined in Section 1030 of this 
+title; 
+ 
+18.  Lewd molestation of a child as provided for in Section 1123 
+of this title; 
+ 
+ 
+ 
+ENR. S. B. NO. 1627 Page 11 
+19.  Abuse of a vulnerable adult as defined in Section 10-103 of 
+Title 43A of the Oklahoma Statutes; 
+ 
+20.  Aggravated trafficking as provided for in subsection C of 
+Section 2-415 of Title 63 of the Oklahoma Statutes; 
+ 
+21.  Aggravated assault and battery as provided for in Section 
+646 of this title upon any person defending another person from 
+assault and battery; or 
+ 
+22.  Human trafficking as defined in Section 748 of this title; 
+ 
+23.  Accessory to murder in the first degree or accessory to 
+murder in the second degree as provided for in Section 175 of this 
+title; or 
+ 
+24.  Discharging a firearm at or into a dwelling or building 
+used for public or business purposes, as provided for in Section 
+1289.17A of this title, 
+ 
+or any attempt, conspiracy, or solicitation thereof, shall be 
+required to serve not less than eighty-five percent (85%) of any 
+sentence of imprisonment imposed by the judicial system prior to 
+becoming eligible for consideration for parole.  Persons convicted 
+of these offenses shall not be eligible for earned credits or any 
+other type of credits which have the effect of reducing the length 
+of the sentence to less than eighty-five percent (85%) of the 
+sentence imposed. 
+ 
+SECTION 5.     REPEALER     21 O.S. 2021, Section 13.1, as 
+amended by Section 5, Chapter 59, O.S.L. 2024 (21 O.S. Supp. 2025, 
+Section 13.1), is hereby repealed. 
+ 
+SECTION 6.     REPEALER     21 O.S. 2021, Section 13.1, as last 
+amended by Section 2, Chapter 18, O.S.L. 2025 (21 O.S. Supp. 2025, 
+Section 13.1), is hereby repealed. 
+ 
+SECTION 7.     REPEALER     21 O.S. 2021, Section 13.1, as last 
+amended by Section 1, Chapter 352, O.S.L. 2025 (21 O.S. Supp. 2025, 
+Section 13.1), is hereby repealed. 
+ 
+ 
+ 
+ENR. S. B. NO. 1627 Page 12 
+SECTION 8.     AMENDATORY     21 O.S. 2021, Section 425, as 
+amended by Section 370, Chapter 486, O.S.L. 2025 (21 O.S. Supp. 
+2025, Section 425), is amended to read as follows: 
+ 
+Section 425.  A.  Any person who engages in a pattern of 
+criminal offenses in two or more counties or municipalities in this 
+state or who attempts or conspires with others to engage in a 
+pattern of criminal offenses shall, upon conviction, be guilty of a 
+Class D1 felony offense punishable by imprisonment as provided for 
+in subsections B through F of Section 20N of this title, or by a 
+fine in an amount not more than Twenty-five Thousand Dollars 
+($25,000.00), or by both such fine and imprisonment.  Such 
+punishment shall be in addition to any penalty imposed for any 
+offense involved in the pattern of criminal offenses.  Double 
+jeopardy shall attach upon conviction. 
+ 
+B.  For purposes of this act this section and Section 125.1 of 
+Title 22 of the Oklahoma Statutes, “pattern of criminal offenses” 
+means: 
+ 
+1.  Two or more criminal offenses are committed that are part of 
+the same plan, scheme, or adventure; or 
+ 
+2.  A sequence of two or more of the same criminal offenses are 
+committed and are not separated by an interval of more than thirty 
+(30) days between the first and second offense, the second and 
+third, and so on; or 
+ 
+3.  Two or more criminal offenses are committed, each proceeding 
+from or having as an antecedent element a single prior incident or 
+pattern of fraud, robbery, burglary, theft, identity theft, receipt 
+of stolen property, false personation, false pretenses, obtaining 
+property by trick or deception, taking a credit or debit card 
+without consent, or the making, transferring, or receiving of a 
+false or fraudulent identification card. 
+ 
+C.  Jurisdiction and venue for a pattern of criminal offenses 
+occurring in multiple counties in this state shall be determined as 
+provided in Section 1 125 of this act Title 22 of the Oklahoma 
+Statutes. 
+ 
+ 
+ 
+ENR. S. B. NO. 1627 Page 13 
+SECTION 9.     REPEALER     21 O.S. 2021, Section 425, as 
+amended by Section 2, Chapter 329, O.S.L. 2025 (21 O.S. Supp. 2025, 
+Section 425), is hereby repealed. 
+ 
+SECTION 10.     AMENDATORY     21 O.S. 2021, Section 540A, as 
+amended by Section 192, Chapter 486, O.S.L. 2025 (21 O.S. Supp. 
+2025, Section 540A), is amended to read as follows: 
+ 
+Section 540A.  A.  Any operator of a motor vehicle who has 
+received a visual and audible signal, a flashing red light, flashing 
+red and blue lights, flashing blue and white lights, or any other 
+combination of flashing red, blue, and white lights, and a siren 
+from a peace officer driving a motor vehicle showing the same to be 
+an official police, sheriff, highway patrol or state game ranger 
+vehicle directing the operator to bring the vehicle to a stop and 
+who willfully increases the speed or extinguishes the lights of the 
+vehicle in an attempt to elude such peace officer, or willfully 
+attempts in any other manner to elude the peace officer, or who does 
+elude such peace officer, is guilty of a misdemeanor.  The peace 
+officer, while attempting to stop a violator of this section, may 
+communicate a request for the assistance of other peace officers 
+from any office, department or agency.  Any peace officer within 
+this state having knowledge of such request is authorized to render 
+such assistance in stopping the violator and may effect an arrest 
+under this section upon probable cause.  Violation of this 
+subsection shall constitute a misdemeanor and shall be punishable by 
+not more than one (1) year imprisonment in the county jail or by a 
+fine of not less than One Hundred Dollars ($100.00) nor more than 
+Two Thousand Dollars ($2,000.00) or by both such fine and 
+imprisonment.  A second or subsequent violation of this subsection 
+shall be punishable by not more than one (1) year in the county 
+jail, or by a fine of not less than Five Hundred Dollars ($500.00) 
+nor more than Five Thousand Dollars ($5,000.00) or both such fine 
+and imprisonment. 
+ 
+B.  Any person who violates the provisions of subsection A of 
+this section in such manner as to endanger any other person shall be 
+deemed guilty of a Class C1 felony offense punishable by 
+imprisonment as provided for in subsections B through E of Section 
+20L of this title, or by a fine of not less than One Thousand 
+Dollars ($1,000.00) nor more than Five Thousand Dollars ($5,000.00), 
+or by both such fine and imprisonment. 
+ 
+ 
+ENR. S. B. NO. 1627 Page 14 
+ 
+C.  1.  Any person who causes an accident, while eluding or 
+attempting to elude an officer, resulting in great bodily injury to 
+any other person while driving or operating a motor vehicle within 
+this state and who is in violation of the provisions of subsection A 
+of this section may be charged with a violation of the provisions of 
+this subsection.  Any person who is convicted of a violation of the 
+provisions of this subsection shall be deemed guilty of a Class C1 
+felony offense punishable by imprisonment as provided for in 
+subsections B through E of Section 20L of this title, and a fine of 
+not more than Five Thousand Dollars ($5,000.00). 
+ 
+2.  As used in this subsection, “great bodily injury” means 
+bodily injury which creates a substantial risk of death or which 
+causes serious, permanent disfigurement or protracted loss or 
+impairment of the function of any bodily member or organ. 
+ 
+SECTION 11.     REPEALER     21 O.S. 2021, Section 540A, as 
+amended by Section 1, Chapter 224, O.S.L. 2025 (21 O.S. Supp. 2025, 
+Section 540A), is hereby repealed. 
+ 
+SECTION 12.     AMENDATORY     21 O.S. 2021, Section 644, as 
+last amended by Section 3, Chapter 486, O.S.L. 2025 (21 O.S. Supp. 
+2025, Section 644), is amended to read as follows: 
+ 
+Section 644.  A.  Assault shall be punishable by imprisonment in 
+a county jail not exceeding ninety (90) days, or by a fine not more 
+than Five Hundred Dollars ($500.00), or by both such fine and 
+imprisonment. 
+ 
+B.  Assault and battery shall be punishable by imprisonment in a 
+county jail not exceeding six (6) months, or by a fine not more than 
+One Thousand Dollars ($1,000.00), or by both such fine and 
+imprisonment. 
+ 
+C.  Any person who commits any assault and battery against a 
+current or former intimate partner or a family or household member 
+as defined by Section 60.1 of Title 22 of the Oklahoma Statutes 
+shall be guilty of domestic abuse.  Upon conviction, the defendant 
+shall be punished by imprisonment in the county jail for not more 
+than one (1) year, or by a fine not exceeding Five Thousand Dollars 
+($5,000.00), or by both such fine and imprisonment.  Upon conviction 
+ 
+ 
+ENR. S. B. NO. 1627 Page 15 
+for a second or subsequent offense, the person shall be guilty of a 
+Class B5 felony offense and shall be punished by imprisonment in the 
+custody of the Department of Corrections for not more than four (4) 
+years, or by a fine not exceeding Five Thousand Dollars ($5,000.00), 
+or by both such fine and imprisonment.  The provisions of Section 
+51.1 of this title shall apply to any second or subsequent offense. 
+ 
+D.  1.  Any person who, with intent to do bodily harm and 
+without justifiable or excusable cause, commits any assault, 
+battery, or assault and battery upon an intimate partner or a family 
+or household member as defined by Section 60.1 of Title 22 of the 
+Oklahoma Statutes with any sharp or dangerous weapon, upon 
+conviction, is guilty of domestic assault or domestic assault and 
+battery with a dangerous weapon which shall be a Class B3 felony 
+offense punishable by imprisonment in the custody of the Department 
+of Corrections not exceeding ten (10) years, or by imprisonment in a 
+county jail not exceeding one (1) year.  The provisions of Section 
+51.1 of this title shall apply to any second or subsequent 
+conviction for a violation of this paragraph. 
+ 
+2.  Any person who, with intent to do bodily harm and without 
+such justifiable or excusable cause, shoots commits any assault and 
+battery upon an intimate partner or a family or household member as 
+defined by Section 60.1 of Title 22 of the Oklahoma Statutes by 
+means of any deadly weapon or by such other means or force that is 
+likely to produce death shall, upon conviction, be guilty of 
+domestic assault and battery with a deadly weapon which shall be a 
+Class A3 felony offense punishable by imprisonment in the custody of 
+the Department of Corrections not exceeding life.  The provisions of 
+Section 51.1 of this title shall apply to any second or subsequent 
+conviction for a violation of this paragraph subsection. 
+ 
+E.  1.  Any person convicted of domestic abuse committed against 
+a pregnant woman with knowledge of the pregnancy shall be guilty of 
+a Class B5 felony offense punishable by imprisonment in the custody 
+of the Department of Corrections for not more than five (5) years. 
+ 
+2.  Any person convicted of a second or subsequent offense of 
+domestic abuse against a pregnant woman with knowledge of the 
+pregnancy shall be guilty of a Class A3 felony offense punishable by 
+imprisonment in the custody of the Department of Corrections for not 
+less than ten (10) years. 
+ 
+ 
+ENR. S. B. NO. 1627 Page 16 
+ 
+3.  Any person convicted of domestic abuse committed against a 
+pregnant woman with knowledge of the pregnancy and a miscarriage 
+occurs or injury to the unborn child occurs shall be guilty of a 
+Class A1 felony offense punishable by imprisonment in the custody of 
+the Department of Corrections for not less than twenty (20) years. 
+ 
+F.  Any person convicted of domestic abuse as defined in 
+subsection C of this section that results in great bodily injury to 
+the victim shall be guilty of a Class B3 felony offense and punished 
+by imprisonment in the custody of the Department of Corrections for 
+not more than ten (10) years, or by imprisonment in the county jail 
+for not more than one (1) year.  The provisions of Section 51.1 of 
+this title shall apply to any second or subsequent conviction of a 
+violation of this subsection. 
+ 
+G.  Any person convicted of domestic abuse as defined in 
+subsection C of this section that was committed in the presence of a 
+child shall be punished by imprisonment in the county jail for not 
+less than six (6) months nor more than one (1) year, or by a fine 
+not exceeding Five Thousand Dollars ($5,000.00), or by both such 
+fine and imprisonment.  Any person convicted of a second or 
+subsequent domestic abuse as defined in subsection C of this section 
+that was committed in the presence of a child shall be guilty of a 
+Class B5 felony offense and shall be punished by imprisonment in the 
+custody of the Department of Corrections for not less than one (1) 
+year nor more than five (5) years, or by a fine not exceeding Seven 
+Thousand Dollars ($7,000.00), or by both such fine and imprisonment.  
+The provisions of Section 51.1 of this title shall apply to any 
+second or subsequent offense.  For every conviction of a domestic 
+abuse crime in violation of any provision of this section committed 
+against an intimate partner or a family or household member as 
+defined by Section 60.1 of Title 22 of the Oklahoma Statutes, the 
+court shall: 
+ 
+1.  Specifically order as a condition of a suspended or deferred 
+sentence that a defendant participate in counseling or undergo 
+treatment to bring about the cessation of domestic abuse as 
+specified in paragraph 2 of this subsection; 
+ 
+2. a. The court shall require the defendant to complete an 
+assessment and follow the recommendations of a 
+ 
+ 
+ENR. S. B. NO. 1627 Page 17 
+batterers’ intervention program to attend a fifty-two- 
+week batterers’ intervention program or a pilot 
+batterers’ intervention program, if available, 
+certified by the Attorney General. 
+ 
+b. If the defendant is ordered to participate 
+participates in a batterers’ intervention program, the 
+order program shall require the defendant to attend 
+the program for a minimum of fifty-two (52) weeks, 
+complete the program, and be evaluated before and 
+after attendance of the program by program staff.  
+Three unexcused absences in succession or seven 
+unexcused absences in a period of fifty-two (52) weeks 
+from any court-ordered batterers’ intervention program 
+shall be prima facie evidence of the violation of the 
+conditions of probation for the district attorney to 
+seek acceleration or revocation of any probation 
+entered by the court. 
+ 
+c. To investigate the effectiveness of additional 
+batterers’ intervention models, the Attorney General, 
+beginning February 1, 2026, may certify two pilot 
+batterers’ intervention programs for a period of 
+thirty-six (36) months located in Oklahoma and Tulsa 
+Counties.  Proposals for certification as a pilot 
+batterers’ intervention program may be approved only 
+if made by an organization that was dually certified 
+as a batterers’ intervention program and a domestic 
+violence and sexual assault program on or before 
+January 1, 2025, or by an organization certified as a 
+batterers’ intervention program on or before January 
+1, 2025, pursuant to a written agreement with an 
+organization certified as a domestic violence and 
+sexual assault program on or before January 1, 2025.  
+Treatment provided through a pilot batterers’ 
+intervention program shall be evidence-based and shall 
+be a minimum of twenty-six (26) weeks’ duration.  
+Participation in a pilot batterers’ intervention 
+program shall be limited to fifty participants at any 
+given time.  Pilot batterers’ intervention programs 
+shall be self-funded, including any fees which may be 
+charged to the participants; provided, however, state 
+ 
+ 
+ENR. S. B. NO. 1627 Page 18 
+or federal funding may continue for domestic violence 
+and sexual abuse programs. 
+ 
+d. The Office of the Attorney General shall promulgate 
+rules for pilot batterers’ intervention programs in 
+consultation with domestic violence and batterers’ 
+intervention programs or advocacy organizations. 
+ 
+The Attorney General shall establish within his or her 
+administrative rules a screening and referral process 
+to review referrals to the pilot batterers’ 
+intervention programs; provided, however, individuals 
+convicted of domestic abuse with a dangerous weapon or 
+domestic abuse by strangulation shall not be eligible 
+to participate in the pilot program.  The Attorney 
+General shall require reporting of data necessary for 
+evaluation of the pilot programs.  The pilot programs 
+shall provide the Attorney General with annual updates 
+and at the end of a pilot program term, a formal 
+evaluation shall be done by a third party agreed upon 
+by the Attorney General and the pilot program 
+operator. 
+ 
+e. All participants in the pilot program shall be subject 
+to a validated risk assessment conducted by a 
+qualified professional.  The results of the assessment 
+shall be used to determine program placement based on 
+the level of risk and individual circumstances.  
+Participation in any shared or joint setting by both 
+the survivor and the individual who has caused harm 
+shall be prohibited under a pilot program.  The 
+Attorney General shall adopt rules to implement this 
+subparagraph, including standards for risk assessment 
+tools and differentiated response models. 
+ 
+f. The Attorney General may provide by rule for extension 
+of no more than twenty-four (24) months beyond thirty-
+six (36) months of a pilot batterers’ intervention 
+program if recommended by the third-party evaluator. 
+ 
+g. Pilot batterers’ intervention programs shall: 
+ 
+ 
+ 
+ENR. S. B. NO. 1627 Page 19 
+(1) prioritize survivors’ well-being in every part of 
+the pilot program including screening, 
+participation, reporting, and evaluation, 
+ 
+(2) ensure that batterers’ intervention programs use 
+appropriate intervention strategies to assist the 
+batterer in fostering the appropriate skills to: 
+ 
+(a) stop the violence committed by the batterer, 
+ 
+(b) accept personal accountability for battering 
+and personal responsibility for the decision 
+to stop or not to stop battering, and 
+ 
+(c) change the existing attitudes and beliefs of 
+the batterer that support the coercive 
+behavior of the batterer, 
+ 
+(3) address all forms of battering, 
+ 
+(4) be culturally informed and provide culturally 
+appropriate services to all participants, 
+ 
+(5) provide services that are affordable and 
+accessible for participants, including 
+participants with disabilities and limited 
+English proficiency, 
+ 
+(6) provide a uniform standard for evaluating the 
+performance of a batterers’ intervention program, 
+ 
+(7) be informed by evidence-based practice, research, 
+and proven field experience, including risk 
+assessment, that enhances victim safety, 
+ 
+(8) foster local and statewide communication and 
+interaction between and among batterers’ 
+intervention programs and victim advocacy 
+programs, and 
+ 
+ 
+ 
+ENR. S. B. NO. 1627 Page 20 
+(9) ensure that batterers’ intervention programs 
+operate as an integrated part of the wider 
+community response to battering. 
+ 
+b. h. A program for anger management, couples counseling, 
+or family and marital counseling shall not solely 
+qualify for the counseling or treatment requirement 
+for domestic abuse pursuant to this subsection.  The 
+counseling may be ordered in addition to counseling 
+specifically for the treatment of domestic abuse or 
+per evaluation as set forth below.  If, after 
+sufficient evaluation and attendance at required 
+counseling treatment sessions, the domestic violence 
+treatment program or licensed professional determines 
+that the defendant does not evaluate as a perpetrator 
+of domestic violence or does evaluate as a perpetrator 
+of domestic violence and should complete other 
+programs of treatment simultaneously or prior to or 
+subsequent to domestic violence treatment, including 
+but not limited to programs related to the mental 
+health, apparent substance or alcohol abuse or 
+inability or refusal to manage anger, the defendant 
+shall be ordered to complete the counseling as per the 
+recommendations of the domestic violence treatment 
+program or licensed professional; 
+ 
+3. a. The court shall set a review hearing no more than one 
+hundred twenty (120) days after the defendant is 
+ordered to participate in a domestic abuse counseling 
+program or undergo treatment for domestic abuse to 
+assure the attendance and compliance of the defendant 
+with the provisions of this subsection and the 
+domestic abuse counseling or treatment requirements.  
+The court may suspend delay sentencing of the 
+defendant until the defendant has presented proof to 
+the court of enrollment in a program of treatment for 
+domestic abuse by an individual licensed practitioner 
+or a domestic abuse treatment program certified by the 
+Attorney General and attendance at weekly sessions of 
+such program.  Such proof shall be presented to the 
+court by the defendant no later than one hundred 
+twenty (120) days after the defendant is ordered to 
+ 
+ 
+ENR. S. B. NO. 1627 Page 21 
+such counseling or treatment.  At such time, the court 
+may complete sentencing, beginning the period of the 
+sentence from the date that proof of enrollment is 
+presented to the court, and schedule reviews as 
+required by subparagraphs a and b of this paragraph 
+and paragraphs 4 and 5 of this subsection.  Three 
+unexcused absences in succession or seven unexcused 
+absences in a period of fifty-two (52) weeks from any 
+court-ordered domestic abuse counseling or treatment 
+program shall be prima facie evidence of the violation 
+of the conditions of probation for the district 
+attorney to seek acceleration or revocation of any 
+probation entered by the court. 
+ 
+b. The court shall set a second review hearing after the 
+completion of the counseling or treatment to assure 
+the attendance and compliance of the defendant with 
+the provisions of this subsection and the domestic 
+abuse counseling or treatment requirements.  The court 
+shall retain continuing jurisdiction over the 
+defendant during the course of ordered counseling 
+through the final review hearing; 
+ 
+4.  The court may set subsequent or other review hearings as the 
+court determines necessary to assure the defendant attends and fully 
+complies with the provisions of this subsection and the domestic 
+abuse counseling or treatment requirements; 
+ 
+5.  At any review hearing, if the defendant is not 
+satisfactorily attending individual counseling or a domestic abuse 
+counseling or treatment program or is not in compliance with any 
+domestic abuse counseling or treatment requirements, the court may 
+order the defendant to further or continue counseling, treatment, or 
+other necessary services.  The court may revoke all or any part of a 
+suspended sentence, deferred sentence, or probation pursuant to 
+Section 991b of Title 22 of the Oklahoma Statutes and subject the 
+defendant to any or all remaining portions of the original sentence; 
+ 
+6.  At the first review hearing, the court shall require the 
+defendant to appear in court.  Thereafter, for any subsequent review 
+hearings, the court may accept a report on the progress of the 
+defendant from individual counseling, domestic abuse counseling, or 
+ 
+ 
+ENR. S. B. NO. 1627 Page 22 
+the treatment program.  There shall be no requirement for the victim 
+to attend review hearings; and 
+ 
+7.  If funding is available, a referee may be appointed and 
+assigned by the presiding judge of the district court to hear 
+designated cases set for review under this subsection.  Reasonable 
+compensation for the referees shall be fixed by the presiding judge.  
+The referee shall meet the requirements and perform all duties in 
+the same manner and procedure as set forth in Sections 1-8-103 and 
+2-2-702 of Title 10A of the Oklahoma Statutes pertaining to referees 
+appointed in juvenile proceedings. 
+ 
+The defendant may be required to pay all or part of the cost of 
+the counseling or treatment, in the discretion of the court. 
+ 
+H.  As used in subsection G of this section, “in the presence of 
+a child” means in the physical presence of a child; or having 
+knowledge that a child is present and may see or hear an act of 
+domestic violence.  For the purposes of subsections C and G of this 
+section, “child” may be any child whether or not related to the 
+victim or the defendant. 
+ 
+I.  For the purposes of subsections C and G of this section, any 
+conviction for assault and battery against an intimate partner or a 
+family or household member as defined by Section 60.1 of Title 22 of 
+the Oklahoma Statutes shall constitute a sufficient basis for a 
+felony charge: 
+ 
+1.  If that conviction is rendered in any state, county or 
+parish court of record of this or any other state; or 
+ 
+2.  If that conviction is rendered in any municipal court of 
+record of this or any other state for which any jail time was 
+served; provided, no conviction in a municipal court of record 
+entered prior to November 1, 1997, shall constitute a prior 
+conviction for purposes of a felony charge. 
+ 
+J.  Any person who commits any assault and battery by 
+strangulation or attempted strangulation against an intimate partner 
+or a family or household member as defined by Section 60.1 of Title 
+22 of the Oklahoma Statutes shall, upon conviction, be guilty of a 
+Class B5 felony offense of domestic abuse by strangulation and shall 
+ 
+ 
+ENR. S. B. NO. 1627 Page 23 
+be punished by imprisonment in the custody of the Department of 
+Corrections for a period not less than one (1) year nor more than 
+ten (10) years, or by a fine not more than Twenty Thousand Dollars 
+($20,000.00), or by both such fine and imprisonment.  The provisions 
+of Section 51.1 of this title shall apply to any second or 
+subsequent conviction of a violation of this subsection.  As used in 
+this subsection, “strangulation” means any form of asphyxia; 
+including, but not limited to, asphyxia characterized by closure of 
+the blood vessels or air passages of the neck as a result of 
+external pressure on the neck or the closure of the nostrils or 
+mouth as a result of external pressure on the head. 
+ 
+K.  Any district court of this state and any judge thereof shall 
+be immune from any liability or prosecution for issuing an order 
+that requires a defendant to: 
+ 
+1.  Attend a treatment program for domestic abusers certified by 
+the Attorney General; 
+ 
+2.  Attend counseling or treatment services ordered as part of 
+any suspended or deferred sentence or probation; and 
+ 
+3.  Attend, complete, and be evaluated before and after 
+attendance by a treatment program for domestic abusers, certified by 
+the Attorney General. 
+ 
+L.  There shall be no charge of fees or costs to any victim of 
+domestic violence, stalking, or sexual assault in connection with 
+the prosecution of a domestic violence, stalking, or sexual assault 
+offense in this state. 
+ 
+M.  In the course of prosecuting any charge of domestic abuse, 
+stalking, harassment, rape, or violation of a protective order, the 
+prosecutor shall provide the court, prior to sentencing or any plea 
+agreement, a local history and any other available history of past 
+convictions of the defendant within the last ten (10) years relating 
+to domestic abuse, stalking, harassment, rape, violation of a 
+protective order, or any other violent misdemeanor or felony 
+convictions. 
+ 
+N.  Any plea of guilty or finding of guilt for a violation of 
+subsection C, F, G, I or J of this section shall constitute a 
+ 
+ 
+ENR. S. B. NO. 1627 Page 24 
+conviction of the offense for the purpose of this act or any other 
+criminal statute under which the existence of a prior conviction is 
+relevant for a period of ten (10) years following the completion of 
+any court imposed probationary term; provided, the person has not, 
+in the meantime, been convicted of a misdemeanor involving moral 
+turpitude or a felony. 
+ 
+O.  For purposes of subsection F of this section, “great bodily 
+injury” means bone fracture, protracted and obvious disfigurement, 
+protracted loss or impairment of the function of a body part, organ 
+or mental faculty, or substantial risk of death. 
+ 
+P.  Any pleas of guilty or nolo contendere or finding of guilt 
+to a violation of any provision of this section shall constitute a 
+conviction of the offense for the purpose of any subsection of this 
+section under which the existence of a prior conviction is relevant 
+for a period of ten (10) years following the completion of any 
+sentence or court imposed probationary term. 
+ 
+SECTION 13.     REPEALER     21 O.S. 2021, Section 644, as last 
+amended by Section 1, Chapter 147, O.S.L. 2025 (21 O.S. Supp. 2025, 
+Section 644), is hereby repealed. 
+ 
+SECTION 14.     REPEALER     21 O.S. 2021, Section 644, as last 
+amended by Section 1, Chapter 322, O.S.L. 2025 (21 O.S. Supp. 2025, 
+Section 644), is hereby repealed. 
+ 
+SECTION 15.     REPEALER     21 O.S. 2021, Section 644, as last 
+amended by Section 2, Chapter 162, O.S.L. 2025 (21 O.S. Supp. 2025, 
+Section 644), is hereby repealed. 
+ 
+SECTION 16.     AMENDATORY     21 O.S. 2021, Section 650, as 
+amended by Section 16, Chapter 486, O.S.L. 2025 (21 O.S. Supp. 2025, 
+Section 650), is amended to read as follows: 
+ 
+Section 650.  A.  Every person who, without justifiable or 
+excusable cause, knowingly commits any aggravated assault and 
+battery upon the person of a police officer, sheriff, deputy sheriff 
+or highway patrolman, corrections personnel as defined in Section 
+649 of this title, or any state peace officer employed by any state 
+or federal governmental agency to enforce state laws, while the 
+officer is in the performance of his or her duties shall, upon 
+ 
+ 
+ENR. S. B. NO. 1627 Page 25 
+conviction thereof, be guilty of a Class A3 felony offense, which 
+shall be punishable by imprisonment in the custody of the Department 
+of Corrections for not more than life or by, a fine not exceeding 
+One Thousand Dollars ($1,000.00), or by both such fine and 
+imprisonment. 
+ 
+B.  Every person who, without justifiable or excusable cause, 
+commits any aggravated assault and battery upon a person that the 
+violator knows or should reasonably know is a police officer, 
+sheriff, deputy sheriff or, highway patrolman, corrections personnel 
+as defined in Section 649 of this title, or any state peace officer 
+employed by any state or federal governmental agency to enforce 
+state laws, that results in maiming as defined in Section 751 of 
+this title, while the officer is in the performance of his or her 
+duties shall, upon conviction, be guilty of a Class A2 felony 
+offense punishable by imprisonment in the custody of the Department 
+of Corrections of for not less than five (5) years nor more than 
+life, or by a fine not exceeding Five Thousand Dollars ($5,000.00), 
+or by both such fine and imprisonment. 
+ 
+C.  For purposes of this section, aggravated assault and battery 
+upon law officers includes the: 
+ 
+1.  The physical contact with and in an attempt to gain control 
+of the firearm; or 
+ 
+2.  The strangulation, 
+ 
+of any police officer, sheriff, deputy sheriff, highway patrolman, 
+corrections personnel as defined in Section 649 of this title, or 
+any peace officer employed by any state or federal governmental 
+agency to enforce state laws.  As used in this subsection, 
+“strangulation” shall have the same meaning as provided in 
+subsection J of Section 644 of this title. 
+ 
+D.  This section shall not supersede any other act or acts, but 
+shall be cumulative thereto. 
+ 
+SECTION 17.     REPEALER     21 O.S. 2021, Section 650, as 
+amended by Section 1, Chapter 32, O.S.L. 2025 (21 O.S. Supp. 2025, 
+Section 650), is hereby repealed. 
+ 
+ 
+ 
+ENR. S. B. NO. 1627 Page 26 
+SECTION 18.     AMENDATORY     21 O.S. 2021, Section 748, as 
+last amended by Section 20, Chapter 486, O.S.L. 2025 (21 O.S. Supp. 
+2025, Section 748), is amended to read as follows: 
+ 
+Section 748.  A.  As used in Sections 748 and 748.2 of this 
+title: 
+ 
+1.  “Coercion” means compelling, forcing or intimidating a 
+person to act by: 
+ 
+a. threats of harm or physical restraint against any 
+person, 
+ 
+b. any act, scheme, plan, or pattern intended to cause a 
+person to believe that performing, or failing to 
+perform, an act would result in serious physical, 
+financial, or emotional harm or distress to or 
+physical restraint against any person, 
+ 
+c. the abuse or threatened abuse of the law or legal 
+process, 
+ 
+d. knowingly destroying, concealing, removing, 
+confiscating or possessing any actual or purported 
+passport, labor or immigration document, or other 
+government identification document, including but not 
+limited to a driver license or birth certificate, of 
+another person, 
+ 
+e. facilitating or controlling a person’s access to any 
+addictive or controlled substance other than for legal 
+medical purposes, 
+ 
+f. blackmail, 
+ 
+g. demanding or claiming money, goods, or any other thing 
+of value from or on behalf of a prostituted person 
+where such demand or claim arises from or is directly 
+related to the act of prostitution, 
+ 
+ 
+ 
+ENR. S. B. NO. 1627 Page 27 
+h. determining, dictating or setting the times at which 
+another person will be available to engage in an act 
+of prostitution with a third party, 
+ 
+i. determining, dictating or setting the places at which 
+another person will be available for solicitation of, 
+or to engage in, an act of prostitution with a third 
+party, or 
+ 
+j. determining, dictating or setting the places at which 
+another person will reside for purposes of making such 
+person available to engage in an act of prostitution 
+with a third party; 
+ 
+2.  “Commercial sex” means any form of commercial sexual 
+activity such as sexually explicit performances, prostitution, 
+participation in the production of pornography, performance in a 
+strip club, or exotic dancing or display; 
+ 
+3.  “Debt bondage” means the status or condition of a debtor 
+arising from a pledge by the debtor of his or her personal services 
+or of those of a person under his or her control as a security for 
+debt if the value of those services as reasonably assessed is not 
+applied toward the liquidation of the debt or the length and nature 
+of those services are not respectively limited and defined; 
+ 
+4.  “Human trafficking” means modern-day slavery that includes, 
+but is not limited to, extreme exploitation and the denial of 
+freedom or liberty of an individual for purposes of deriving benefit 
+from that individual’s commercial sex act or labor; 
+ 
+5.  “Human trafficking for labor” means: 
+ 
+a. recruiting, enticing, harboring, maintaining, 
+transporting, providing or obtaining, by any means, 
+another person through deception, force, fraud, threat 
+or coercion or for purposes of engaging the person in 
+labor, or 
+ 
+b. benefiting, financially or by receiving anything of 
+value, from participation in a venture that has 
+engaged in an act of trafficking for labor; 
+ 
+ 
+ENR. S. B. NO. 1627 Page 28 
+ 
+6.  “Human trafficking for commercial sex” means: 
+ 
+a. recruiting, enticing, harboring, maintaining, 
+transporting, providing or obtaining, by any means, 
+another person through deception, force, fraud, threat 
+or coercion for purposes of engaging the person in a 
+commercial sex act, 
+ 
+b. recruiting, enticing, harboring, maintaining, 
+transporting, providing, purchasing or obtaining, by 
+any means, a minor for purposes of engaging the minor 
+in a commercial sex act, or 
+ 
+c. benefiting, financially or by receiving anything of 
+value, from participating in a venture that has 
+engaged in an act of trafficking for commercial sex; 
+ 
+7.  “Legal process” means the criminal law, the civil law, or 
+the regulatory system of the federal government, any state, 
+territory, district, commonwealth, or trust territory therein, and 
+any foreign government or subdivision thereof and includes legal 
+civil actions, criminal actions, and regulatory petitions or 
+applications; 
+ 
+8.  “Minor” means an individual under eighteen (18) years of 
+age; and 
+ 
+9.  “Victim” means a person against whom a violation of any 
+provision of this section has been committed. 
+ 
+B.  It shall be unlawful to knowingly engage in human 
+trafficking. 
+ 
+C.  1.  Any person violating the provisions of this section 
+shall, upon conviction, be guilty of a Class A2 felony offense 
+punishable by imprisonment in the custody of the Department of 
+Corrections for a term of not less than five (5) years or for life, 
+or by a fine of not more than One Hundred Thousand Dollars 
+($100,000.00), or by both such fine and imprisonment. 
+ 
+ 
+ 
+ENR. S. B. NO. 1627 Page 29 
+2.  Any person violating the provisions of this section where 
+the victim of the offense is under eighteen (18) years of age at the 
+time of the offense shall, upon conviction, be guilty of a Class A2 
+felony offense punishable by imprisonment in the custody of the 
+Department of Corrections for a term of not less than fifteen (15) 
+ten (10) years or, for life, or for life without parole, or by a 
+fine of not more than Two Hundred Fifty Thousand Dollars 
+($250,000.00), or by both such fine and imprisonment. 
+ 
+3.  The court shall also order the defendant to pay restitution 
+to the victim as provided in Section 991f of Title 22 of the 
+Oklahoma Statutes.  In addition, the court shall require the 
+defendant to pay for a psychological evaluation to determine the 
+extent of counseling necessary for the human trafficking victim and 
+any necessary psychological counseling deemed necessary to 
+rehabilitate the victim.  Such evaluations and counseling may be 
+performed by psychiatrists, psychologists, licensed professional 
+counselors, or social workers. 
+ 
+4.  If the person is convicted of human trafficking, the person 
+shall serve eighty-five percent (85%) of the sentence before being 
+eligible for parole consideration or any earned credits.  The terms 
+of imprisonment specified in this subsection shall not be subject to 
+statutory provisions for suspension, deferral or probation, or state 
+correctional institution earned credits accruing from and after 
+November 1, 1989, except for the achievement earned credits 
+authorized by subsection H of Section 138 of Title 57 of the 
+Oklahoma Statutes.  To qualify for such achievement earned credits, 
+such inmates must also be in compliance with the standards for Class 
+level 2 behavior, as defined in subsection D of Section 138 of Title 
+57 of the Oklahoma Statutes. 
+ 
+D.  It is an affirmative defense to prosecution for a criminal, 
+youthful offender, or delinquent offense that, during the time of 
+the alleged commission of the offense, the defendant or alleged 
+youthful offender or delinquent was a victim of human trafficking. 
+ 
+E.  The consent of a victim to the activity prohibited by this 
+section shall not constitute a defense. 
+ 
+ 
+ 
+ENR. S. B. NO. 1627 Page 30 
+F.  Lack of knowledge of the age of the victim shall not 
+constitute a defense to the activity prohibited by this section with 
+respect to human trafficking of a minor. 
+ 
+SECTION 19.     REPEALER     21 O.S. 2021, Section 748, as last 
+amended by Section 2, Chapter 291, O.S.L. 2025 (21 O.S. Supp. 2025, 
+Section 748), is hereby repealed. 
+ 
+SECTION 20.     AMENDATORY     21 O.S. 2021, Section 843.5, as 
+last amended by Section 8, Chapter 486, O.S.L. 2025 (21 O.S. Supp. 
+2025, Section 843.5), is amended to read as follows: 
+ 
+Section 843.5.  A.  Any person who shall willfully or 
+maliciously engage in child abuse, as defined in this section, 
+shall, upon conviction, be guilty of a Class A3 felony offense 
+punishable by imprisonment in the custody of the Department of 
+Corrections not exceeding life imprisonment, or by imprisonment in a 
+county jail not exceeding one (1) year, or by a fine of not less 
+than Five Hundred Dollars ($500.00) nor more than Five Thousand 
+Dollars ($5,000.00), or both such fine and imprisonment. 
+ 
+B.  Any person responsible for the health, safety or welfare of 
+a child who shall willfully or maliciously engage in enabling child 
+abuse, as defined in this section, shall, upon conviction, be guilty 
+of a Class A3 felony offense and shall be punished by imprisonment 
+in the custody of the Department of Corrections not exceeding life 
+imprisonment, or by imprisonment in a county jail not exceeding one 
+(1) year, or by a fine of not less than Five Hundred Dollars 
+($500.00) nor more than Five Thousand Dollars ($5,000.00), or both 
+such fine and imprisonment. 
+ 
+C.  Any person responsible for the health, safety or welfare of 
+a child who shall willfully or maliciously engage in child neglect, 
+as defined in this section, shall, upon conviction, be guilty of a 
+Class B1 felony offense and shall be punished by imprisonment in the 
+custody of the Department of Corrections not exceeding life 
+imprisonment, or by imprisonment in a county jail not exceeding one 
+(1) year, or by a fine of not less than Five Hundred Dollars 
+($500.00) nor more than Five Thousand Dollars ($5,000.00), or both 
+such fine and imprisonment. 
+ 
+ 
+ 
+ENR. S. B. NO. 1627 Page 31 
+D.  Any parent or other person who shall willfully or 
+maliciously engage in enabling child neglect shall, upon conviction, 
+be guilty of a Class B1 felony offense and shall be punished by 
+imprisonment in the custody of the Department of Corrections not 
+exceeding life imprisonment, or by imprisonment in a county jail not 
+exceeding one (1) year, or by a fine of not less than Five Hundred 
+Dollars ($500.00) nor more than Five Thousand Dollars ($5,000.00), 
+or both such fine and imprisonment. 
+ 
+E.  Any person responsible for the health, safety or welfare of 
+a child who shall willfully or maliciously engage in child sexual 
+abuse, as defined in this section, shall, upon conviction, be guilty 
+of a Class A3 felony offense and shall be punished by imprisonment 
+in the custody of the Department of Corrections not exceeding life 
+imprisonment, or by imprisonment in a county jail not exceeding one 
+(1) year, or by a fine of not less than Five Hundred Dollars 
+($500.00) nor more than Five Thousand Dollars ($5,000.00), or both 
+such fine and imprisonment, except as provided in Section 51.1a of 
+this title or as otherwise provided in subsection F of this section 
+for a child victim under twelve (12) years of age.  Except for 
+persons sentenced to life or life without parole, any person 
+sentenced to imprisonment for two (2) years or more for a violation 
+of this subsection shall be required to serve a term of post-
+imprisonment supervision pursuant to subparagraph f of paragraph 1 
+of subsection A of Section 991a of Title 22 of the Oklahoma Statutes 
+under conditions determined by the Department of Corrections.  The 
+jury shall be advised that the mandatory post-imprisonment 
+supervision shall be in addition to the actual imprisonment. 
+ 
+F.  Any person responsible for the health, safety or welfare of 
+a child who shall willfully or maliciously engage in child sexual 
+abuse, as defined in this section, to a child under twelve (12) 
+years of age shall, upon conviction, be guilty of a Class A1 felony 
+offense and shall be punished by imprisonment in the custody of the 
+Department of Corrections for not less than twenty-five (25) years 
+nor more than life imprisonment, and by a fine of not less than Five 
+Hundred Dollars ($500.00) nor more than Five Thousand Dollars 
+($5,000.00). 
+ 
+G.  Any parent or other person who shall willfully or 
+maliciously engage in enabling child sexual abuse shall, upon 
+conviction, be guilty of a Class A3 felony offense and shall be 
+ 
+ 
+ENR. S. B. NO. 1627 Page 32 
+punished by imprisonment in the custody of the Department of 
+Corrections not exceeding life imprisonment, or by imprisonment in a 
+county jail not exceeding one (1) year, or by a fine of not less 
+than Five Hundred Dollars ($500.00) nor more than Five Thousand 
+Dollars ($5,000.00), or both such fine and imprisonment. 
+ 
+H.  Any person who shall willfully or maliciously engage in 
+child sexual exploitation, as defined in this section, shall, upon 
+conviction, be guilty of a Class A3 felony offense and shall be 
+punished by imprisonment in the custody of the Department of 
+Corrections not exceeding life imprisonment, or by imprisonment in a 
+county jail not exceeding one (1) year, or by a fine of not less 
+than Five Hundred Dollars ($500.00) nor more than Five Thousand 
+Dollars ($5,000.00), or both such fine and imprisonment, except as 
+provided in subsection I of this section for a child victim under 
+twelve (12) years of age.  Except for persons sentenced to life or 
+life without parole, any person sentenced to imprisonment for two 
+(2) years or more for a violation of this subsection shall be 
+required to serve a term of post-imprisonment supervision pursuant 
+to subparagraph f of paragraph 1 of subsection A of Section 991a of 
+Title 22 of the Oklahoma Statutes under conditions determined by the 
+Department of Corrections.  The jury shall be advised that the 
+mandatory post-imprisonment supervision shall be in addition to the 
+actual imprisonment. 
+ 
+I.  Any person who shall willfully or maliciously engage in 
+child sexual exploitation, as defined in this section, of a child 
+under twelve (12) years of age shall, upon conviction, be guilty of 
+a Class A1 felony offense and shall be punished by imprisonment in 
+the custody of the Department of Corrections for not less than 
+twenty-five (25) years nor more than life imprisonment, and by a 
+fine of not less than Five Hundred Dollars ($500.00) nor more than 
+Five Thousand Dollars ($5,000.00). 
+ 
+J.  Any person responsible for the health, safety or welfare of 
+a child who shall willfully or maliciously engage in enabling child 
+sexual exploitation, as defined in this section, shall, upon 
+conviction, be guilty of a Class A3 felony offense and shall be 
+punished by imprisonment in the custody of the Department of 
+Corrections not exceeding life imprisonment, or by imprisonment in a 
+county jail not exceeding one (1) year, or by a fine of not less 
+ 
+ 
+ENR. S. B. NO. 1627 Page 33 
+than Five Hundred Dollars ($500.00) nor more than Five Thousand 
+Dollars ($5,000.00), or both such fine and imprisonment. 
+ 
+K.  Notwithstanding In addition to any other provision of 
+punishment prescribed by law, any person convicted of forcible anal 
+or oral sodomy, rape, or rape by instrumentation, or lewd 
+molestation of a child under fourteen (14) years of age subsequent 
+to a previous conviction for any offense of forcible anal or oral 
+sodomy, rape, rape by instrumentation, or lewd molestation of a 
+child under fourteen (14) years of age shall be guilty of a Class A1 
+felony offense and shall be punished eligible for punishment by 
+death or by imprisonment for life without parole. 
+ 
+L.  Provided, however, that nothing contained in this section 
+shall prohibit any parent or guardian from using reasonable and 
+ordinary force pursuant to Section 844 of this title. 
+ 
+M.  Consent shall not be a defense for any violation provided 
+for in this section. 
+ 
+N.  Notwithstanding the age requirements of other statutes 
+referenced within this section, this section shall apply to any 
+child under eighteen (18) years of age. 
+ 
+O.  As used in this section: 
+ 
+1.  “Child abuse” means: 
+ 
+a. the willful or malicious harm or threatened harm or 
+failure to protect from harm or threatened harm to the 
+health, safety or welfare of a child under eighteen 
+(18) years of age by a person responsible for a 
+child’s health, safety or welfare, or 
+ 
+b. the act of willfully or maliciously injuring, 
+torturing or maiming a child under eighteen (18) years 
+of age by any person; 
+ 
+2.  “Child neglect” means the willful or malicious neglect, as 
+defined by Section 1-1-105 of Title 10A of the Oklahoma Statutes, of 
+a child under eighteen (18) years of age by a person responsible for 
+a child’s health, safety or welfare; 
+ 
+ 
+ENR. S. B. NO. 1627 Page 34 
+ 
+3.  “Child sexual abuse” means the willful or malicious sexual 
+abuse of a child under eighteen (18) years of age by a person 
+responsible for a child’s health, safety or welfare and includes, 
+but is not limited to: 
+ 
+a. sexual intercourse, 
+ 
+b. penetration of the vagina or anus, however slight, by 
+an inanimate object or any part of the human body not 
+amounting to sexual intercourse, 
+ 
+c. sodomy, 
+ 
+d. incest, or 
+ 
+e. a lewd act or proposal, as defined in this section; 
+ 
+4.  “Child sexual exploitation” means the willful or malicious 
+sexual exploitation of a child under eighteen (18) years of age by 
+another and includes, but is not limited to: 
+ 
+a. human trafficking, as provided for in Section 748 of 
+this title, if the offense involved child trafficking 
+for commercial sex, 
+ 
+b. trafficking in children, as provided for in Section 
+866 of this title, if the offense was committed for 
+the sexual gratification of any person, 
+ 
+c. procuring or causing the participation of a minor in 
+child pornography sexual abuse material, as provided 
+for in Section 1021.2 of this title, 
+ 
+d. purchase, procurement or possession of child 
+pornography sexual abuse material, as provided for in 
+Section 1024.2 of this title, 
+ 
+e. engaging in or soliciting prostitution, as provided 
+for in Section 1029 of this title, if the offense 
+involved child sex trafficking, 
+ 
+ 
+ 
+ENR. S. B. NO. 1627 Page 35 
+f. publication, distribution or participation in the 
+preparation of obscene material, as provided for in 
+Section 1040.8 of this title, if the offense involved 
+child pornography sexual abuse material, 
+ 
+g. aggravated possession of child pornography sexual 
+abuse material, as provided for in Section 1040.12a of 
+this title, 
+ 
+h. sale or distribution of obscene material, as provided 
+for in Section 1040.13 of this title, 
+ 
+i. soliciting sexual conduct or communication with a 
+minor by use of technology, as provided for in Section 
+1040.13a of this title, 
+ 
+j. offering or transporting a child for purposes of child 
+sex trafficking, as provided for in Section 1087 of 
+this title, and 
+ 
+k. child sex trafficking, as provided for in Section 1088 
+of this title; 
+ 
+5.  “Enabling child abuse” means the causing, procuring or 
+permitting of child abuse by a person responsible for a child’s 
+health, safety or welfare; 
+ 
+6.  “Enabling child neglect” means the causing, procuring or 
+permitting of child neglect by a person responsible for a child’s 
+health, safety or welfare; 
+ 
+7.  “Enabling child sexual abuse” means the causing, procuring 
+or permitting of child sexual abuse by a person responsible for a 
+child’s health, safety or welfare; 
+ 
+8.  “Enabling child sexual exploitation” means the causing, 
+procuring or permitting of child sexual exploitation by a person 
+responsible for a child’s health, safety or welfare; 
+ 
+9.  “Incest” means marrying, committing adultery or fornicating 
+with a child by a person responsible for the health, safety or 
+welfare of a child; 
+ 
+ 
+ENR. S. B. NO. 1627 Page 36 
+ 
+10.  “Lewd act or proposal” means: 
+ 
+a. making any oral, written or electronic or computer-
+generated lewd or indecent proposal to a child for the 
+child to have unlawful sexual relations or sexual 
+intercourse with any person, 
+ 
+b. looking upon, touching, mauling or feeling the body or 
+private parts of a child in a lewd or lascivious 
+manner or for the purpose of sexual gratification, 
+ 
+c. asking, inviting, enticing or persuading any child to 
+go alone with any person to a secluded, remote or 
+secret place for a lewd or lascivious purpose, 
+ 
+d. urinating or defecating upon a child or causing, 
+forcing or requiring a child to defecate or urinate 
+upon the body or private parts of another person for 
+the purpose of sexual gratification, 
+ 
+e. ejaculating upon or in the presence of a child, 
+ 
+f. causing, exposing, forcing or requiring a child to 
+look upon the body or private parts of another person 
+for the purpose of sexual gratification, 
+ 
+g. causing, forcing or requiring any child to view any 
+obscene materials, child pornography sexual abuse 
+material or materials deemed harmful to minors as such 
+terms are defined in Sections 1024.1 and 1040.75 of 
+this title, 
+ 
+h. causing, exposing, forcing or requiring a child to 
+look upon sexual acts performed in the presence of the 
+child for the purpose of sexual gratification, or 
+ 
+i. causing, forcing or requiring a child to touch or feel 
+the body or private parts of the child or another 
+person for the purpose of sexual gratification; 
+ 
+ 
+ 
+ENR. S. B. NO. 1627 Page 37 
+11.  “Permit” means to authorize or allow for the care of a 
+child by an individual when the person authorizing or allowing such 
+care knows or reasonably should know that the child will be placed 
+at risk of the conduct or harm proscribed by this section; 
+ 
+12.  “Person responsible for a child’s health, safety or 
+welfare” for purposes of this section shall include, but not be 
+limited to: 
+ 
+a. the parent of the child, 
+ 
+b. the legal guardian of the child, 
+ 
+c. the custodian of the child, 
+ 
+d. the foster parent of the child, 
+ 
+e. a person eighteen (18) years of age or older with whom 
+the parent of the child cohabitates, who is at least 
+three (3) years older than the child, 
+ 
+f. any other person eighteen (18) years of age or older 
+residing in the home of the child, who is at least 
+three (3) years older than the child, 
+ 
+g. an owner, operator, agent, employee or volunteer of a 
+public or private residential home, institution, 
+facility or day treatment program, as defined in 
+Section 175.20 of Title 10 of the Oklahoma Statutes, 
+that the child attended, 
+ 
+h. an owner, operator, agent, employee or volunteer of a 
+child care facility, as defined in Section 402 of 
+Title 10 of the Oklahoma Statutes, that the child 
+attended, 
+ 
+i. an intimate partner of the parent of the child, as 
+defined in Section 60.1 of Title 22 of the Oklahoma 
+Statutes, or 
+ 
+j. a person who has voluntarily accepted responsibility 
+for the care or supervision of a child; 
+ 
+ 
+ENR. S. B. NO. 1627 Page 38 
+ 
+13.  “Sexual intercourse” means the actual penetration, however 
+slight, of the vagina or anus by the penis; and 
+ 
+14.  “Sodomy” means: 
+ 
+a. penetration, however slight, of the mouth of the child 
+by a penis, 
+ 
+b. penetration, however slight, of the vagina of a person 
+responsible for a child’s health, safety or welfare, 
+by the mouth of a child, 
+ 
+c. penetration, however slight, of the mouth of the 
+person responsible for a child’s health, safety or 
+welfare by the penis of the child, or 
+ 
+d. penetration, however slight, of the vagina of the 
+child by the mouth of the person responsible for a 
+child’s health, safety or welfare. 
+ 
+SECTION 21.     REPEALER     21 O.S. 2021, Section 843.5, as 
+amended by Section 6, Chapter 59, O.S.L. 2024 (21 O.S. Supp. 2025, 
+Section 843.5), is hereby repealed. 
+ 
+SECTION 22.     REPEALER     21 O.S. 2021, Section 843.5, as 
+last amended by Section 1, Chapter 281, O.S.L. 2025 (21 O.S. Supp. 
+2025, Section 843.5), is hereby repealed. 
+ 
+SECTION 23.     AMENDATORY     21 O.S. 2021, Section 852.1, as 
+amended by Section 187, Chapter 486, O.S.L. 2025 (21 O.S. Supp. 
+2025, Section 852.1), is amended to read as follows: 
+ 
+Section 852.1.  A.  A person who is the parent, guardian, or 
+person having custody or control over a child as defined in Section 
+1-1-105 of Title 10A of the Oklahoma Statutes, commits child 
+endangerment when the person: 
+ 
+1.  Knowingly permits physical or sexual abuse of a child; 
+ 
+2.  Knowingly permits a child to be present at a location where 
+a controlled dangerous substance is being manufactured or attempted 
+ 
+ 
+ENR. S. B. NO. 1627 Page 39 
+to be manufactured as defined in Section 2-101 of Title 63 of the 
+Oklahoma Statutes; 
+ 
+3.  Knowingly permits a child to be present in a vehicle when 
+the person knows or should have known that the operator of the 
+vehicle is impaired by or is under the influence of alcohol or 
+another intoxicating substance; or 
+ 
+4.  Is the driver, operator, or person in physical control of a 
+vehicle in violation of Section 11-902 of Title 47 of the Oklahoma 
+Statutes or impaired while transporting or having in the vehicle 
+such child or children. 
+ 
+However, it is an affirmative defense to this paragraph if the 
+person had a reasonable apprehension that any action to stop the 
+physical or sexual abuse or deny permission for the child to be in 
+the vehicle with an intoxicated person would result in substantial 
+bodily harm to the person or the child. 
+ 
+Nothing in this subsection shall prohibit the prosecution of a 
+person pursuant to the provisions of Section 11-902 or 11-904 of 
+Title 47 of the Oklahoma Statutes. 
+ 
+B.  The provisions of this section shall not apply to any 
+parent, guardian or other person having custody or control of a 
+child for the sole reason that the parent, guardian or other person 
+in good faith selects and depends upon spiritual means or prayer for 
+the treatment or cure of disease or remedial care for such child.  
+This subsection shall in no way limit or modify the protections 
+afforded said child in Section 852 of this title or Section 1-4-904 
+of Title 10A of the Oklahoma Statutes. 
+ 
+C.  Any person convicted of violating any provision of this 
+section shall be guilty of a Class B6 felony offense punishable by 
+imprisonment in the custody of the Department of Corrections for a 
+term of not more than four (4) years, or by a fine not exceeding 
+Five Thousand Dollars ($5,000.00), or by both such fine and 
+imprisonment. 
+ 
+SECTION 24.     REPEALER     21 O.S. 2021, Section 852.1, as 
+amended by Section 1, Chapter 113, O.S.L. 2025 (21 O.S. Supp. 2025, 
+Section 852.1), is hereby repealed. 
+ 
+ 
+ENR. S. B. NO. 1627 Page 40 
+ 
+SECTION 25.     AMENDATORY     21 O.S. 2021, Section 856.3, as 
+amended by Section 159, Chapter 486, O.S.L. 2025 (21 O.S. Supp. 
+2025, Section 856.3), is amended to read as follows: 
+ 
+Section 856.3.  Any person who attempts or commits a gang-
+related offense as a condition of membership in a criminal street 
+gang or while in association with any criminal street gang or gang 
+member shall be guilty of a Class B5 felony offense.  Upon 
+punishable upon conviction, the violator shall be punished by 
+incarceration imprisonment in the custody of the Department of 
+Corrections for a term of five (5) years, which shall be in addition 
+to any other penalty imposed.  For purposes of this section, 
+“criminal street gang” is defined by subsection F of Section 856 of 
+Title 21 of the Oklahoma Statutes this title and “gang-related 
+offense” means those offenses enumerated in paragraphs 1 through 16 
+of subsection F of Section 856 of Title 21 of the Oklahoma Statutes 
+this title. 
+ 
+SECTION 26.     REPEALER     21 O.S. 2021, Section 856.3, as 
+amended by Section 1, Chapter 108, O.S.L. 2025 (21 O.S. Supp. 2025, 
+Section 856.3), is hereby repealed. 
+ 
+SECTION 27.     REPEALER     21 O.S. 2021, Section 888, as 
+amended by Section 4, Chapter 455, O.S.L. 2002, is hereby repealed. 
+ 
+SECTION 28.     AMENDATORY     21 O.S. 2021, Section 1021.2, as 
+last amended by Section 49, Chapter 486, O.S.L. 2025 (21 O.S. Supp. 
+2025, Section 1021.2), is amended to read as follows: 
+ 
+Section 1021.2.  A.  Any person who shall procure or cause the 
+participation of any minor under the age of eighteen (18) years in 
+any child pornography sexual abuse material or obscene material or 
+who knowingly possesses, views, accesses, shares, streams, 
+downloads, procures, sells, distributes, or manufactures, or causes 
+to be possessed, viewed, accessed, shared, streamed, downloaded, 
+procured, sold, distributed, or manufactured any child pornography 
+sexual abuse material shall, upon conviction, be guilty of a Class 
+B1 felony offense and shall be punished by imprisonment in the 
+custody of the Department of Corrections for not more than twenty 
+(20) years and by the imposition of a fine of not more than Twenty-
+five Thousand Dollars ($25,000.00).  Persons convicted under this 
+ 
+ 
+ENR. S. B. NO. 1627 Page 41 
+section shall not be eligible for a deferred sentence.  Except for 
+persons sentenced to life or life without parole, any person 
+sentenced to imprisonment for two (2) years or more for a violation 
+of this subsection shall be required to serve a term of post-
+imprisonment supervision pursuant to subparagraph f of paragraph 1 
+of subsection A of Section 991a of Title 22 of the Oklahoma Statutes 
+under conditions determined by the Department of Corrections.  The 
+jury shall be advised that the mandatory post-imprisonment 
+supervision shall be in addition to the actual imprisonment. 
+ 
+B.  The consent of the minor, or of the mother, father, legal 
+guardian, or custodian of the minor to the activity prohibited by 
+this section shall not constitute a defense. 
+ 
+SECTION 29.     REPEALER     21 O.S. 2021, Section 1021.2, as 
+amended by Section 9, Chapter 59, O.S.L. 2024 (21 O.S. Supp. 2025, 
+Section 1021.2), is hereby repealed. 
+ 
+SECTION 30.     AMENDATORY     21 O.S. 2021, Section 1024.1, as 
+last amended by Section 4, Chapter 29, O.S.L. 2025 (21 O.S. Supp. 
+2025, Section 1024.1), is amended to read as follows: 
+ 
+Section 1024.1.  A.  As used in Sections 1021, 1021.1 through 
+1021.4, Sections 1022, 1023, and Sections 1040.8 through 1040.24 of 
+this title, “child sexual abuse material” means: 
+ 
+1.  Any visual depiction of a child engaged in any act of 
+sexually explicit conduct; 
+ 
+2.  Any visual depiction of a child that has been adapted, 
+altered, or modified so that the child depicted appears to be 
+engaged in any act of sexually explicit conduct; or 
+ 
+3.  Any visual depiction that appears to be a child, regardless 
+of whether the image is a depiction of an actual child, a computer-
+generated image, or an image altered to appear to be a child, 
+engaged in any act of sexually explicit conduct, and such visual 
+depiction is obscene. 
+ 
+B.  Each visual depiction or individual image of child 
+pornography sexual abuse material shall constitute a separate item 
+and act. 
+ 
+ 
+ENR. S. B. NO. 1627 Page 42 
+ 
+C.  As used in Sections 1021 through 1024.4 and Sections 1040.8 
+through 1040.24 of this title: 
+ 
+1.  “Child” means a person under eighteen (18) years of age; 
+ 
+2.  “Obscene” means any performance or depiction, in any form or 
+on any medium, if the material when taken as a whole: 
+ 
+a. appeals to the prurient interest in sex as determined 
+by the average person applying the contemporary 
+standards of their community, 
+ 
+b. depicts, represents, or displays sexually explicit 
+conduct in a patently offensive way, and 
+ 
+c. a reasonable person would find the material or 
+performance lacks serious literary, artistic, 
+educational, political, or scientific value; 
+ 
+3.  “Performance” means any display, live, recorded, or 
+transmitted, in any form or medium; 
+ 
+4.  “Sexually explicit conduct” means any of the following 
+whether actual or simulated: 
+ 
+a. acts of sexual intercourse, 
+ 
+b. acts of oral and anal sodomy, 
+ 
+c. acts of masturbation, 
+ 
+d. acts of sexual activity with an animal, 
+ 
+e. acts of sadomasochism including: 
+ 
+(1) flagellation or torture by or upon any person who 
+is nude or clad in undergarments or in a costume 
+which is of a revealing nature, or 
+ 
+ 
+ 
+ENR. S. B. NO. 1627 Page 43 
+(2) the condition of being fettered, bound, or 
+otherwise physically restrained on the part of 
+one who is nude or so clothed, 
+ 
+f. acts of excretion in a sexual context, or 
+ 
+g. exhibiting genitalia, breast, or pubic area for the 
+purpose of the sexual stimulation of the viewer; 
+ 
+5.  “Explicit child sexual abuse material” means material which 
+a law enforcement officer can immediately identify as child sexual 
+abuse material; and 
+ 
+6.  “Visual depiction” means any depiction, picture, movie, 
+performance, or image displayed, stored, shared, or transmitted in 
+any format and on any medium including data that is capable of being 
+converted into a depiction, picture, movie, performance, or image. 
+ 
+SECTION 31.     REPEALER     21 O.S. 2021, Section 1024.1, as 
+amended by Section 14, Chapter 59, O.S.L. 2024 (21 O.S. Supp. 2025, 
+Section 1024.1), is hereby repealed. 
+ 
+SECTION 32.     AMENDATORY     21 O.S. 2021, Section 1031, as 
+last amended by Section 397, Chapter 486, O.S.L. 2025 (21 O.S. Supp. 
+2025, Section 1031), is amended to read as follows: 
+ 
+Section 1031.  A.  Except as provided in subsection B, C, D, or 
+E of this section, any person violating any of the provisions of 
+paragraph 1, 2, 3, or 5 of subsection A of Section 1029 or Section 
+1030 of this title shall, upon conviction, be guilty of a 
+misdemeanor and shall be punished by imprisonment in the county jail 
+for not less than thirty (30) days nor more than one (1) year or by 
+fines as follows:  a fine not more than Two Thousand Five Hundred 
+Dollars ($2,500.00) upon the first conviction for violation of any 
+of such provisions, a fine not more than Five Thousand Dollars 
+($5,000.00) upon the second conviction for violation of any of such 
+provisions, and a fine not more than Seven Thousand Five Hundred 
+Dollars ($7,500.00) upon the third or subsequent convictions for 
+violation of any of such provisions, or by both such imprisonment 
+and fine.  In addition, the court may require a term of community 
+service not less than forty (40) nor more than eighty (80) hours.  
+ 
+ 
+ENR. S. B. NO. 1627 Page 44 
+The court in which any such conviction is had shall notify the 
+county superintendent of public health of such conviction. 
+ 
+B.  Any person who engages in an act of prostitution with 
+knowledge that he or she is infected with the human immunodeficiency 
+virus shall, upon conviction, be guilty of a Class D1 felony offense 
+punishable by imprisonment as provided for in subsections B through 
+F of Section 20N of this title. 
+ 
+C.  Any person who engages in an act of child prostitution sex 
+trafficking as defined in Section 1030 of this title shall, upon 
+conviction, be guilty of a Class B1 felony offense punishable by 
+imprisonment in the custody of the Department of Corrections for not 
+more than ten (10) years and by fines as follows:  a fine not more 
+than Five Thousand Dollars ($5,000.00) upon the first conviction, a 
+fine not more than Ten Thousand Dollars ($10,000.00) upon the second 
+conviction, and a fine not more than Fifteen Thousand Dollars 
+($15,000.00) upon the third or subsequent convictions. 
+ 
+D.  Any person violating any of the provisions of Section 1029 
+or 1030 of this title within one thousand (1,000) feet of a school 
+or church shall, upon conviction, be guilty of a Class D1 felony 
+offense and shall be punished by imprisonment as provided for in 
+subsections B through F of Section 20N of this title, or by fines as 
+follows:  a fine not more than Two Thousand Five Hundred Dollars 
+($2,500.00) upon the first conviction for violation of any of such 
+provisions, a fine not more than Five Thousand Dollars ($5,000.00) 
+upon the second conviction for violation of any of such provisions, 
+and a fine not more than Seven Thousand Five Hundred Dollars 
+($7,500.00) upon the third or subsequent convictions for violation 
+of any of such provisions, or by both such imprisonment and fine.  
+In addition, the court may require a term of community service not 
+less than forty (40) nor more than eighty (80) hours.  The court in 
+which any such conviction is had shall notify the county 
+superintendent of public health of such conviction. 
+ 
+E.  Any person violating paragraph 4 of subsection A of Section 
+1029 of this title shall, upon conviction, be guilty of a Class B4 
+felony offense and shall be punished in accordance with the 
+provisions of subsection B of Section 1040.57 of this title. 
+ 
+ 
+ 
+ENR. S. B. NO. 1627 Page 45 
+SECTION 33.     REPEALER     21 O.S. 2021, Section 1031, as last 
+amended by Section 5, Chapter 151, O.S.L. 2024 (21 O.S. Supp. 2025, 
+Section 1031), is hereby repealed. 
+ 
+SECTION 34.     AMENDATORY     21 O.S. 2021, Section 1040.12a, 
+as last amended by Section 26, Chapter 486, O.S.L. 2025 (21 O.S. 
+Supp. 2025, Section 1040.12a), is amended to read as follows: 
+ 
+Section 1040.12a.  A.  Any person who, with knowledge of its 
+contents, possesses one hundred (100) or more separate visual 
+depictions of child pornography sexual abuse material shall, upon 
+conviction, be guilty of aggravated possession of child pornography 
+sexual abuse material, a Class A2 felony offense.  The violator 
+shall be punished by imprisonment in the custody of the Department 
+of Corrections for a term not exceeding life imprisonment and by a 
+fine in an amount of not more than Ten Thousand Dollars 
+($10,000.00).  The violator, upon conviction, shall be required to 
+register as a sex offender under the Sex Offenders Registration Act. 
+ 
+B.  For purposes of this section: 
+ 
+1.  Multiple copies of the same identical material shall each be 
+counted as a separate item; and 
+ 
+2.  The terms “child pornography” sexual abuse material” and 
+“visual depictions” mean the same definitions provided by Section 
+1024.1 of this title. 
+ 
+SECTION 35.     REPEALER     21 O.S. 2021, Section 1040.12a, as 
+amended by Section 20, Chapter 59, O.S.L. 2024 (21 O.S. Supp. 2025, 
+Section 1040.12a), is hereby repealed. 
+ 
+SECTION 36.     REPEALER     21 O.S. 2021, Section 1040.12a, as 
+last amended by Section 3, Chapter 29, O.S.L. 2025 (21 O.S. Supp. 
+2025, Section 1040.12a), is hereby repealed. 
+ 
+SECTION 37.     AMENDATORY     21 O.S. 2021, Section 1040.13b, 
+as last amended by Section 1, Chapter 23, O.S.L. 2025 (21 O.S. Supp. 
+2025, Section 1040.13b), is amended to read as follows: 
+ 
+Section 1040.13b.  A.  As used in this section: 
+ 
+ 
+ 
+ENR. S. B. NO. 1627 Page 46 
+1.  “Artificial intelligence” means a machine-based system that 
+can, for a given set of human-defined objectives, make predictions, 
+recommendations, or decisions influencing real or virtual 
+environments, including the ability to: 
+ 
+a. perceive real and virtual environments, 
+ 
+b. abstract perceptions made under this paragraph into 
+models through analysis in an automated manner, and 
+ 
+c. use model inference to formulate options for 
+information or action based on outcomes under 
+subparagraphs a and b of this paragraph. 
+ 
+The term includes generative artificial intelligence; 
+ 
+2.  “Artificially generated sexual depiction” means a visual 
+depiction: 
+ 
+a. that appears to authentically depict an individual in 
+a state of nudity or engaged in sexual conduct that 
+did not occur in reality, and 
+ 
+b. the production of which was substantially dependent 
+upon technical means, including artificial 
+intelligence or photo editing software, rather than 
+the ability of another person to physically 
+impersonate the other person; 
+ 
+3.  “Generative artificial intelligence” means the class of 
+models that emulate the structure and characteristics of input data 
+in order to generate derived synthetic content, including 
+information such as images, videos, audio clips, or text, that has 
+been significantly modified or generated by algorithms, including by 
+artificial intelligence; 
+ 
+4.  “Image” includes a photograph, film, videotape, digital 
+recording or other depiction or portrayal of an object, including a 
+human body; 
+ 
+ 
+ 
+ENR. S. B. NO. 1627 Page 47 
+5.  “Intimate parts” means the fully unclothed, partially 
+unclothed or transparently clothed genitals, pubic area or female 
+adult nipple; 
+ 
+6.  “Sexual act” means sexual intercourse including genital, 
+anal or oral sex; and 
+ 
+7.  “Visual depiction” means any depiction, photograph, film, 
+performance, or image displayed, stored, shared, or transmitted in 
+any format and on any medium including data that is capable of being 
+converted into a depiction, picture, movie, performance, or image. 
+ 
+B.  1.  A person commits nonconsensual dissemination of private 
+sexual images when he or she: 
+ 
+a. intentionally disseminates an image of another person 
+who is engaged in a sexual act or whose intimate parts 
+are exposed, in whole or in part, 
+ 
+b. obtains the image under circumstances in which a 
+reasonable person would know or understand that the 
+image was to remain private, and 
+ 
+c. disseminates the image without the effective consent 
+of the depicted person. 
+ 
+2.  A person commits nonconsensual dissemination of private 
+sexual images when he or she: 
+ 
+a. disseminates an artificially generated sexual 
+depiction of another person with the intent or with 
+reckless disregard to harass, annoy, threaten, alarm, 
+or cause physical, emotional, reputational, or 
+economic harm to the depicted person, and 
+ 
+b. disseminates the artificially generated sexual 
+depiction without the effective consent of the 
+depicted person. 
+ 
+C.  The provisions of this section shall not apply to the 
+intentional dissemination of an image or artificially generated 
+ 
+ 
+ENR. S. B. NO. 1627 Page 48 
+sexual depiction of another identifiable person who is engaged in a 
+sexual act or whose intimate parts are exposed when: 
+ 
+1.  The dissemination is made for the purpose of a criminal 
+investigation that is otherwise lawful; 
+ 
+2.  The dissemination is for the purpose of, or in connection 
+with, the reporting of unlawful conduct; 
+ 
+3.  The images or artificially generated sexual depictions 
+involve voluntary exposure in public or commercial settings; or 
+ 
+4.  The dissemination serves a lawful purpose. 
+ 
+D.  Nothing in this section shall be construed to impose 
+liability upon the following entities solely as a result of content 
+or information provided by another person: 
+ 
+1.  An interactive computer service, as defined in 47 U.S.C., 
+Section 230(f)(2); 
+ 
+2.  A wireless service provider, as defined in Section 332(d) of 
+the Telecommunications Act of 1996, 47 U.S.C., Section 151 et seq., 
+Federal Communications Commission rules, and the Omnibus Budget 
+Reconciliation Act of 1993, Pub. L. No. 103-66; or 
+ 
+3.  A telecommunications network or broadband provider. 
+ 
+E.  A person convicted under this section is subject to the 
+forfeiture provisions in Section 1040.54 of this title. 
+ 
+F.  Any person who violates the provisions of subsection B of 
+this section shall, upon conviction, be guilty of a misdemeanor 
+punishable by imprisonment in a county jail for not more than one 
+(1) year or by a fine of not more than One Thousand Dollars 
+($1,000.00), or both such fine and imprisonment. 
+ 
+G.  Any person who violates or attempts to violate the 
+provisions of subsection B of this section and who gains or attempts 
+to gain any property or who gains or attempts to gain anything of 
+value as a result of the nonconsensual dissemination or threatened 
+dissemination of private sexual images or artificially generated 
+ 
+ 
+ENR. S. B. NO. 1627 Page 49 
+sexual depictions shall, upon conviction, be guilty of a Class D1 
+felony offense punishable by imprisonment in the custody of the 
+Department of Corrections for not more than five (5) years as 
+provided for in subsections B through F of Section 20N of this 
+title.  A second or subsequent violation of this subsection shall be 
+a Class D1 felony offense punishable by imprisonment in the custody 
+of the Department of Corrections for not more than ten (10) years as 
+provided for in subsections B through F of Section 20N of this title 
+and the offender shall be required to register as a sex offender 
+under the Sex Offenders Registration Act. 
+ 
+H.  The state shall not have the discretion to file a 
+misdemeanor charge, pursuant to Section 234 of Title 22 of the 
+Oklahoma Statutes, for a violation pursuant to subsection G of this 
+section. 
+ 
+I.  The court shall have the authority to order the defendant to 
+remove the disseminated image or artificially generated sexual 
+depictions should the court find it is in the power of the defendant 
+to do so. 
+ 
+J.  Nothing in this section shall prohibit the prosecution of a 
+person pursuant to the provisions of Section 1021.2, 1021.3, 1024.1, 
+1024.2, or 1040.12a of this title or any other applicable statute. 
+ 
+K.  Any person who violates the provisions of subsection B of 
+this section by disseminating three or more images or artificially 
+generated sexual depictions within a six-month period shall, upon 
+conviction, be guilty of a Class D1 felony offense punishable by 
+imprisonment in the custody of the Department of Corrections for not 
+more than ten (10) years as provided for in subsections B through F 
+of Section 20N of this title. 
+ 
+SECTION 38.     REPEALER     21 O.S. 2021, Section 1040.13b, as 
+last amended by Section 399, Chapter 486, O.S.L. 2025 (21 O.S. Supp. 
+2025, Section 1040.13b), is hereby repealed. 
+ 
+SECTION 39.     AMENDATORY     21 O.S. 2021, Section 1111, as 
+last amended by Section 1, Chapter 60, O.S.L. 2025 (21 O.S. Supp. 
+2025, Section 1111), is amended to read as follows: 
+ 
+ 
+ 
+ENR. S. B. NO. 1627 Page 50 
+Section 1111.  A.  Rape is an act of sexual intercourse 
+involving vaginal or anal penetration accomplished with a male or 
+female within or without the bonds of matrimony who may be of the 
+same or the opposite sex as the perpetrator under any of the 
+following circumstances: 
+ 
+1.  Where the victim is under sixteen (16) eighteen (18) years 
+of age; 
+ 
+2.  Where the victim is incapable through mental illness or any 
+other unsoundness of mind, whether temporary or permanent, of giving 
+legal consent; 
+ 
+3.  Where force or violence is used or threatened, accompanied 
+by apparent power of execution to the victim or to another person; 
+ 
+4.  Where the victim is intoxicated by a narcotic or anesthetic 
+agent, administered by or with the privity of the accused as a means 
+of forcing the victim to submit; 
+ 
+5.  Where the victim is at the time unconscious of the nature of 
+the act and this fact is known to the accused; 
+ 
+6.  Where the victim submits to sexual intercourse under the 
+belief that the person committing the act is a spouse, and this 
+belief is induced by artifice, pretense, or concealment practiced by 
+the accused or by the accused in collusion with the spouse with 
+intent to induce that belief.  In all cases of collusion between the 
+accused and the spouse to accomplish such act, both the spouse and 
+the accused, upon conviction, shall be deemed guilty of rape; 
+ 
+7.  Where the victim is under the legal custody or supervision 
+of a state agency, a federal agency, a county, a municipality, or a 
+political subdivision and engages in sexual intercourse with a 
+state, federal, county, municipal, or political subdivision employee 
+or an employee of a contractor of the state, the federal government, 
+a county, a municipality, or a political subdivision that exercises 
+authority over the victim, or the subcontractor or employee of a 
+subcontractor of the contractor of the state or federal government, 
+a county, a municipality, or a political subdivision that exercises 
+authority over the victim; 
+ 
+ 
+ 
+ENR. S. B. NO. 1627 Page 51 
+8.  Where the victim is at least sixteen (16) years of age and 
+is less than twenty (20) years of age and is a student, or under the 
+legal custody or supervision of any public or private elementary or 
+secondary school, junior high or high school, or public vocational 
+school, and engages in sexual intercourse with a person who is 
+eighteen (18) years of age or older and is an employee, contractor, 
+or subcontractor of a school system.  For purposes of this section, 
+“employee of a school system” shall include employed and contracted 
+school resource officers and security guards; 
+ 
+9.  Where the victim is nineteen (19) years of age or younger 
+and is in the legal custody of a state agency, federal agency or 
+tribal court and engages in sexual intercourse with a foster parent 
+or foster parent applicant; or 
+ 
+10.  Where the victim is a student at a secondary school, is 
+concurrently enrolled at an institution of higher education, and 
+engages in acts pursuant to this subsection with a perpetrator who 
+is an employee of the institution of higher education of at which 
+the victim is enrolled. 
+ 
+B.  “Employee of an institution of higher education”, for 
+purposes of this section, means faculty, adjunct faculty, 
+instructors, volunteers, or an employee of a business contracting 
+with an institution of higher education who may exercise, at any 
+time, institutional authority over the victim.  Employee of an 
+institution of higher education shall not include an enrolled 
+student who is not more than three (3) years of age or older than 
+the concurrently enrolled student and who is employed or 
+volunteering, in any capacity, for the institution of higher 
+education. 
+ 
+SECTION 40.     REPEALER     21 O.S. 2021, Section 1111, as last 
+amended by Section 1, Chapter 103, O.S.L. 2025 (21 O.S. Supp. 2025, 
+Section 1111), is hereby repealed. 
+ 
+SECTION 41.     REPEALER     21 O.S. 2021, Section 1111, as last 
+amended by Section 1, Chapter 365, O.S.L. 2025 (21 O.S. Supp. 2025, 
+Section 1111), is hereby repealed. 
+ 
+SECTION 42.     REPEALER     21 O.S. 2021, Section 1115, as 
+amended by Section 5, Chapter 455, O.S.L. 2002, is hereby repealed. 
+ 
+ 
+ENR. S. B. NO. 1627 Page 52 
+ 
+SECTION 43.     AMENDATORY     21 O.S. 2021, Section 1123, as 
+last amended by Section 2, Chapter 281, O.S.L. 2025 (21 O.S. Supp. 
+2025, Section 1123), is amended to read as follows: 
+ 
+Section 1123.  A.  It is a Class A3 felony offense for any 
+person to knowingly and intentionally: 
+ 
+1.  Make any oral, written or electronically or computer-
+generated lewd or indecent proposal to any child under sixteen (16) 
+years of age, or other individual the person believes to be a child 
+under sixteen (16) years of age, for the child to have unlawful 
+sexual relations or sexual intercourse with any person; 
+ 
+2.  Look upon, touch, maul, or feel the body or private parts of 
+any child under sixteen (16) years of age in any lewd or lascivious 
+manner by any acts against public decency and morality, as defined 
+by law; 
+ 
+3.  Ask, invite, entice, or persuade any child under sixteen 
+(16) years of age, or other individual the person believes to be a 
+child under sixteen (16) years of age, to go alone with any person 
+to a secluded, remote, or secret place, with the unlawful and 
+willful intent and purpose then and there to commit any crime 
+against public decency and morality, as defined by law, with the 
+child; 
+ 
+4.  In any manner lewdly or lasciviously look upon, touch, maul, 
+or feel the body or private parts of any child under sixteen (16) 
+years of age in any indecent manner or in any manner relating to 
+sexual matters or sexual interest; or 
+ 
+5.  In a lewd and lascivious manner and for the purpose of 
+sexual gratification: 
+ 
+a. urinate or defecate upon a child under sixteen (16) 
+years of age, or force or require a child to defecate 
+or urinate upon the body or private parts of another, 
+or for the purpose of sexual gratification, 
+ 
+b. ejaculate upon or in the presence of a child, 
+ 
+ 
+ 
+ENR. S. B. NO. 1627 Page 53 
+c. cause, expose, force or require a child to look upon 
+the body or private parts of another person, 
+ 
+d. force or require any child under sixteen (16) years of 
+age or other individual the person believes to be a 
+child under sixteen (16) years of age, to view any 
+obscene materials, child sexual abuse material or 
+materials deemed harmful to minors as such terms are 
+defined by Sections 1024.1 and 1040.75 of this title, 
+ 
+e. cause, expose, force or require a child to look upon 
+sexual acts performed in the presence of the child, or 
+ 
+f. force or require a child to touch or feel the body or 
+private parts of the child or another person. 
+ 
+Any person convicted of any violation of this subsection shall 
+be punished by imprisonment in the custody of the Department of 
+Corrections for not less than three (3) years nor more than twenty 
+(20) years, except when the child is under twelve (12) years of age 
+at the time the offense is committed, and in such case the person 
+shall, upon conviction, be punished by death or by imprisonment in 
+the custody of the Department of Corrections for a term of not less 
+than ten (10) years, life, or life without parole.  The provisions 
+of this subsection shall not apply unless the accused is at least 
+three (3) years older than the victim, except when accomplished by 
+the use of force or fear.  Except as provided in Section 51.1a of 
+this title, any person convicted of a second or subsequent violation 
+of this subsection shall be guilty of a felony punishable as 
+provided in this subsection and shall not be eligible for probation, 
+suspended or deferred sentence.  Except as provided in Section 51.1a 
+of this title, any person convicted of a third or subsequent 
+violation of this subsection shall be guilty of a felony punishable 
+by imprisonment in the custody of the Department of Corrections for 
+a term of life or life without parole, in the discretion of the 
+jury, or in case the jury fails or refuses to fix punishment then 
+the same shall be pronounced by the court.  Any person convicted of 
+a violation of this subsection after having been twice convicted of 
+a violation of subsection A of Section 1114 of this title, Section 
+888 of this title, sexual abuse of a child pursuant to Section 843.5 
+of this title, or of any attempt to commit any of these offenses or 
+any combination of convictions pursuant to these sections shall be 
+ 
+ 
+ENR. S. B. NO. 1627 Page 54 
+punished by imprisonment in the custody of the Department of 
+Corrections for a term of life or life without parole. 
+ 
+B.  No person shall commit sexual battery on any other person.  
+“Sexual battery” shall mean the intentional touching, mauling or 
+feeling of the body or private parts of any person sixteen (16) 
+years of age or older, in a lewd and lascivious manner: 
+ 
+1.  Without the consent of that person; 
+ 
+2.  When committed by a state, county, municipal or political 
+subdivision employee or a contractor or an employee of a contractor 
+of the state, a county, a municipality or political subdivision of 
+this state upon a person who is under the legal custody, supervision 
+or authority of a state agency, a county, a municipality or a 
+political subdivision of this state, or the subcontractor or 
+employee of a subcontractor of the contractor of the state or 
+federal government, a county, a municipality or a political 
+subdivision of this state; 
+ 
+3.  When committed upon a person who is at least sixteen (16) 
+years of age and is less than twenty (20) years of age and is a 
+student, or in the legal custody or supervision of any public or 
+private elementary or secondary school, or technology center school, 
+by a person who is eighteen (18) years of age or older and is an 
+employee of a school system; 
+ 
+4.  When committed upon a person who is nineteen (19) years of 
+age or younger and is in the legal custody of a state agency, 
+federal agency or a tribal court, by a foster parent or foster 
+parent applicant; or 
+ 
+5.  When the victim is a student at a secondary school, is 
+concurrently enrolled at an institution of higher education, and 
+engages in acts pursuant to this subsection with a perpetrator who 
+is an employee of the institution of higher education of which the 
+student is enrolled. 
+ 
+As used in this subsection, “employee of an institution of 
+higher education” means faculty, adjunct faculty, instructors, 
+volunteers, or an employee of a business contracting with an 
+institution of higher education who may exercise, at any time, 
+ 
+ 
+ENR. S. B. NO. 1627 Page 55 
+institutional authority over the victim.  Employee of an institution 
+of higher education shall not include an enrolled student who is not 
+more than three (3) years of age or older than the concurrently 
+enrolled student and who is employed or volunteering, in any 
+capacity, for the institution of higher education. 
+ 
+As used in this subsection, “employee of a school system” means 
+a teacher, principal or other duly appointed person employed by a 
+school system or an employee of a firm contracting with a school 
+system, including a school resource officer and security guard. 
+ 
+C.  No person shall in any manner lewdly or lasciviously: 
+ 
+1.  Look upon, touch, maul, or feel the body or private parts of 
+any human corpse in any indecent manner relating to sexual matters 
+or sexual interest; or 
+ 
+2.  Urinate, defecate or ejaculate upon any human corpse. 
+ 
+D.  Any person convicted of a violation of subsection B or C of 
+this section shall be deemed guilty of a Class B4 felony offense and 
+shall be punished by imprisonment in the custody of the Department 
+of Corrections for not more than ten (10) years. 
+ 
+E.  The fact that an undercover operative or law enforcement 
+officer was involved in the detection and investigation of an 
+offense pursuant to this section shall not constitute a defense to a 
+prosecution under this section. 
+ 
+F.  Except for persons sentenced to life or life without parole, 
+any person sentenced to imprisonment for two (2) years or more for a 
+violation of this section shall be required to serve a term of post-
+imprisonment supervision pursuant to subparagraph f of paragraph 1 
+of subsection A of Section 991a of Title 22 of the Oklahoma Statutes 
+under conditions determined by the Department of Corrections.  The 
+jury shall be advised that the mandatory post-imprisonment 
+supervision shall be in addition to the actual imprisonment. 
+ 
+SECTION 44.     REPEALER     21 O.S. 2021, Section 1123, as last 
+amended by Section 2, Chapter 60, O.S.L. 2025 (21 O.S. Supp. 2025, 
+Section 1123), is hereby repealed. 
+ 
+ 
+ 
+ENR. S. B. NO. 1627 Page 56 
+SECTION 45.     REPEALER     21 O.S. 2021, Section 1123, as last 
+amended by Section 38, Chapter 486, O.S.L. 2025 (21 O.S. Supp. 2025, 
+Section 1123), is hereby repealed. 
+ 
+SECTION 46.     AMENDATORY     21 O.S. 2021, Section 1173, as 
+last amended by Section 1, Chapter 145, O.S.L. 2025 (21 O.S. Supp. 
+2025, Section 1173), is amended to read as follows: 
+ 
+Section 1173.  A.  Any person who willfully, maliciously, and 
+repeatedly follows or harasses another person in a manner that: 
+ 
+1.  Would cause a reasonable person or a member of the immediate 
+family of that person as defined in subsection F of this section to 
+feel frightened, intimidated, threatened, harassed, or molested; and 
+ 
+2.  Actually causes the person being followed or harassed to 
+feel terrorized, frightened, intimidated, threatened, harassed, or 
+molested, 
+ 
+shall, upon conviction, be guilty of the crime of stalking, which is 
+a felony punishable by imprisonment in the custody of the Department 
+of Corrections for a term not to exceed three (3) years, or by a 
+fine not to exceed Five Thousand Dollars ($5,000.00), or by both 
+such fine and imprisonment.  Any person convicted of a second 
+violation of the provisions of this subsection shall be punished by 
+imprisonment in the custody of the Department of Corrections for a 
+term not to exceed six (6) years, or by a fine not to exceed Ten 
+Thousand Dollars ($10,000.00), or by both such fine and 
+imprisonment.  Any person convicted of a third or subsequent 
+violation of the provisions of this subsection shall be punished by 
+imprisonment in the custody of the Department of Corrections for a 
+term not to exceed twelve (12) years, or by a fine not to exceed 
+Fifteen Thousand Dollars ($15,000.00), or by both such fine and 
+imprisonment. 
+ 
+B.  Any person who violates the provisions of subsection A of 
+this section when: 
+ 
+1.  There is a permanent or temporary restraining order, a 
+protective order, an emergency ex parte protective order, or an 
+injunction in effect prohibiting the behavior described in 
+subsection A of this section against the same party, when the person 
+ 
+ 
+ENR. S. B. NO. 1627 Page 57 
+violating the provisions of subsection A of this section has actual 
+notice of the issuance of such order or injunction; 
+ 
+2.  Said person is on probation or parole, a condition of which 
+prohibits the behavior described in subsection A of this section 
+against the same party or under the conditions of a community or 
+alternative punishment; or 
+ 
+3.  Said person, within ten (10) years preceding the violation 
+of subsection A of this section, completed the execution of sentence 
+for a conviction of a crime involving the use or threat of violence 
+against the same party, or against any member of the immediate 
+family of such party, 
+ 
+shall, upon conviction, be guilty of a Class B5 felony offense 
+punishable by imprisonment in the custody of the Department of 
+Corrections for a term not to exceed fifteen (15) years, or by a 
+fine not to exceed Twenty Thousand Dollars ($20,000.00), or by both 
+such fine and imprisonment. 
+ 
+C.  Any person who: 
+ 
+1.  Commits a second act of stalking within ten (10) years of 
+the completion of sentence for a prior conviction of stalking; or 
+ 
+2.  Has a prior conviction of stalking and, after being served 
+with a protective order that prohibits contact with an individual, 
+knowingly makes unconsented contact with the same individual, 
+ 
+shall, upon conviction, be guilty of a felony punishable by 
+imprisonment in the custody of the Department of Corrections for a 
+term not to exceed twenty (20) years, or by a fine not to exceed 
+Twenty-five Thousand Dollars ($25,000.00), or by both such fine and 
+imprisonment. 
+ 
+D.  Any person who commits an act of stalking within ten (10) 
+years of the completion of execution of sentence for a prior 
+conviction under subsection B or C of this section shall, upon 
+conviction, be guilty of a Class B4 felony offense punishable by 
+imprisonment in the custody of the Department of Corrections for a 
+term not to exceed twenty-five (25) years, or by a fine not to 
+ 
+ 
+ENR. S. B. NO. 1627 Page 58 
+exceed Thirty Thousand Dollars ($30,000.00), or by both such fine 
+and imprisonment. 
+ 
+E.  Evidence that the defendant continued to engage in a course 
+of conduct involving repeated unconsented contact, as defined in 
+subsection F of this section, with the victim after having been 
+requested by the victim to discontinue the same or any other form of 
+unconsented contact, and to refrain from any further unconsented 
+contact with the victim, shall give rise to a rebuttable presumption 
+that the continuation of the course of conduct caused the victim to 
+feel terrorized, frightened, intimidated, threatened, harassed, or 
+molested. 
+ 
+F.  For purposes of determining the crime of stalking, the 
+following definitions shall apply: 
+ 
+1.  “Harasses” means a pattern or course of conduct directed 
+toward another individual that includes, but is not limited to, 
+repeated or continuing unconsented contact, that would cause a 
+reasonable person to suffer emotional distress, and that actually 
+causes emotional distress to the victim.  Harassment shall include 
+harassing or obscene phone calls as prohibited by Section 1172 of 
+this title and conduct prohibited by Section 850 of this title.  
+Harassment does not include constitutionally protected activity or 
+conduct that serves a legitimate purpose; 
+ 
+2.  “Course of conduct” means a series of two or more separate 
+acts over a period of time, however short or long, evidencing a 
+continuity of purpose, including any of the following: 
+ 
+a. maintaining a visual or physical proximity to the 
+victim, 
+ 
+b. approaching or confronting the victim in a public 
+place or on private property, 
+ 
+c. appearing at the workplace of the victim or contacting 
+the employer or coworkers of the victim, 
+ 
+d. appearing at the home of the victim or contacting the 
+neighbors of the victim, 
+ 
+ 
+ 
+ENR. S. B. NO. 1627 Page 59 
+e. entering onto or remaining on property owned, leased, 
+or occupied by the victim, 
+ 
+f. contacting the victim by telephone, text message, 
+electronic message, electronic mail, or other means of 
+electronic communication or causing the telephone or 
+electronic device of the victim or the telephone or 
+electronic device of any other person to ring or 
+generate notifications repeatedly or continuously, 
+regardless of whether a conversation ensues, 
+ 
+g. photographing, videotaping, audiotaping, or, through 
+any other electronic means, monitoring or recording 
+the activities of the victim.  This subparagraph 
+applies regardless of where the act occurs, 
+ 
+h. sending to the victim any physical or electronic 
+material or contacting the victim by any means, 
+including any message, comment, or other content 
+posted on any Internet site or web application, 
+ 
+i. sending to a family member or member of the household 
+of the victim, or any current or former employer of 
+the victim, or any current or former coworker of the 
+victim, or any friend of the victim, any physical or 
+electronic material or contacting such person by any 
+means, including any message, comment, or other 
+content posted on any Internet site or web 
+application, for the purpose of obtaining information 
+about, disseminating information about, or 
+communicating with the victim, 
+ 
+j. placing an object on or delivering an object to 
+property owned, leased, or occupied by the victim, 
+ 
+k. delivering an object to a family member or member of 
+the household of the victim, or an employer, coworker, 
+or friend of the victim, or placing an object on, or 
+delivering an object to, property owned, leased, or 
+occupied by such a person with the intent that the 
+object be delivered to the victim, or 
+ 
+ 
+ 
+ENR. S. B. NO. 1627 Page 60 
+l. causing a person to engage in any of the acts 
+described in subparagraphs a through k of this 
+paragraph. 
+ 
+Constitutionally protected activity is not included within the 
+meaning of “course of conduct”; 
+ 
+3.  “Emotional distress” means significant mental suffering or 
+distress that may, but does not necessarily require, medical or 
+other professional treatment or counseling; 
+ 
+4.  “Unconsented contact” means any contact with another 
+individual that is initiated or continued without the consent of the 
+individual, or in disregard of that individual’s expressed desire 
+that the contact be avoided or discontinued.  Constitutionally 
+protected activity is not included within the meaning of unconsented 
+contact.  Unconsented contact includes but is not limited to any of 
+the following: 
+ 
+a. following or appearing within the sight of that 
+individual, 
+ 
+b. approaching or confronting that individual in a public 
+place or on private property, 
+ 
+c. appearing at the workplace or residence of that 
+individual, 
+ 
+d. entering onto or remaining on property owned, leased, 
+or occupied by that individual, 
+ 
+e. contacting that individual by telephone, 
+ 
+f. sending mail or electronic communications to that 
+individual, and 
+ 
+g. placing an object on, or delivering an object to, 
+property owned, leased, or occupied by that 
+individual; 
+ 
+5.  “Member of the immediate family”, for the purposes of this 
+section, means any spouse, parent, child, person related within the 
+ 
+ 
+ENR. S. B. NO. 1627 Page 61 
+third degree of consanguinity or affinity or any other person who 
+regularly resides in the household or who regularly resided in the 
+household within the prior six (6) months; and 
+ 
+6.  “Following” shall include the tracking of the movement or 
+location of an individual through the use of a Global Positioning 
+System (GPS) device or other monitoring device by a person, or 
+person who acts on behalf of another, without the consent of the 
+individual whose movement or location is being tracked; provided, 
+this shall not apply to the lawful use of a GPS device or other 
+monitoring device or to the use by a new or used motor vehicle 
+dealer or other motor vehicle creditor of a GPS device or other 
+monitoring device, including a device containing technology used to 
+remotely disable the ignition of a motor vehicle, in connection with 
+lawful action after default of the terms of a motor vehicle credit 
+sale, loan or lease, and with the express written consent of the 
+owner or lessee of the motor vehicle. 
+ 
+G.  Any pleas of guilty or nolo contendere or finding of guilt 
+to a violation of any provision of this section shall constitute a 
+conviction of the offense for the purpose of any subsection of this 
+section under which the existence of a prior conviction is relevant 
+for a period of ten (10) years following the completion of any 
+sentence or court imposed probationary term. 
+ 
+SECTION 47.     REPEALER     21 O.S. 2021, Section 1173, as last 
+amended by Section 118, Chapter 486, O.S.L. 2025 (21 O.S. Supp. 
+2025, Section 1173), is hereby repealed. 
+ 
+SECTION 48.     AMENDATORY     21 O.S. 2021, Section 1277, as 
+amended by Section 2, Chapter 251, O.S.L. 2025 (21 O.S. Supp. 2025, 
+Section 1277), is amended to read as follows: 
+ 
+Section 1277. 
+ 
+UNLAWFUL CARRY IN CERTAIN PLACES 
+ 
+A.  It shall be unlawful for any person, including a person in 
+possession of a valid handgun license issued pursuant to the 
+provisions of the Oklahoma Self-Defense Act, to carry any concealed 
+or unconcealed firearm into any of the following places: 
+ 
+ 
+ 
+ENR. S. B. NO. 1627 Page 62 
+1.  Any building or office space which is owned or leased by a 
+city, town, county, or state governmental authority for the purpose 
+of conducting business with the public.  However, the governing body 
+of a city or town may authorize the concealed carry of handguns into 
+any building or office space that is owned or leased by a city or 
+town, except those places listed in paragraph 2 of this subsection; 
+ 
+2.  Any courthouse, courtroom, prison, jail, detention facility, 
+or any facility used to process, hold, or house arrested persons, 
+prisoners, or persons alleged delinquent or adjudicated delinquent, 
+except as provided in Section 21 of Title 57 of the Oklahoma 
+Statutes; 
+ 
+3.  Any public or private elementary or public or private 
+secondary school, except as provided in subsections C and D of this 
+section; 
+ 
+4.  Any publicly owned or operated sports arena or venue during 
+a professional sporting event, unless allowed by the event holder; 
+ 
+5.  Any place where gambling is authorized by law, unless 
+allowed by the property owner; 
+ 
+6.  Any other place specifically prohibited by law; and 
+ 
+7.  Any property set aside by a county, city, town, public trust 
+with a county, city, or town as a beneficiary, or state governmental 
+authority for an event that is secured with minimum security 
+provisions.  For purposes of this paragraph, a minimum security 
+provision consists of a location that is secured utilizing the 
+following: 
+ 
+a. a metallic-style security fence that is at least eight 
+(8) feet in height that encompasses the property and 
+is secured in such a way as to deter unauthorized 
+entry, 
+ 
+b. controlled access points staffed by a uniformed, 
+commissioned peace officer, and 
+ 
+ 
+ 
+ENR. S. B. NO. 1627 Page 63 
+c. a metal detector whereby persons walk or otherwise 
+travel with their property through or by the metal 
+detector. 
+ 
+B.  It shall be lawful for a person to carry a concealed or 
+unconcealed firearm on the following properties: 
+ 
+1.  Any property set aside for the use or parking of any 
+vehicle, whether attended or unattended, by a city, town, county, or 
+state governmental authority; 
+ 
+2.  Any property set aside for the use or parking of any 
+vehicle, whether attended or unattended, which is open to the 
+public, or by any entity engaged in gambling authorized by law; 
+ 
+3.  Any property adjacent to a building or office space in which 
+concealed or unconcealed weapons are prohibited by the provisions of 
+this section; 
+ 
+4.  Any property designated by a city, town, county, or state 
+governmental authority as a park, recreational area, wildlife 
+refuge, wildlife management area, or fairgrounds; provided, nothing 
+in this paragraph shall be construed to authorize any entry by a 
+person in possession of a concealed or unconcealed firearm into any 
+building, office space, or event which is specifically prohibited by 
+the provisions of subsection A of this section; 
+ 
+5.  Any property set aside by a public or private elementary or 
+secondary school for the use or parking of any vehicle, whether 
+attended or unattended; provided, however, the firearm shall be 
+stored and hidden from view in a locked motor vehicle when the motor 
+vehicle is left unattended on school property; and 
+ 
+6.  Any public property set aside temporarily by a county, city, 
+town, public trust with a county, city, or town as a beneficiary, or 
+state governmental authority for the holder of an event permit that 
+is without minimum security provisions, as such term is defined in 
+paragraph 7 of subsection A of this section; provided, the carry of 
+firearms within the permitted event area shall be limited to 
+concealed carry of a handgun unless otherwise authorized by the 
+holder of the event permit. 
+ 
+ 
+ 
+ENR. S. B. NO. 1627 Page 64 
+Nothing contained in any provision of this subsection or 
+subsection C of this section shall be construed to authorize or 
+allow any person in control of any place described in subsection A 
+of this section to establish any policy or rule that has the effect 
+of prohibiting any person in lawful possession of a handgun license 
+or otherwise in lawful possession of a firearm from carrying or 
+possessing the firearm on the property described in this subsection. 
+ 
+C.  A concealed or unconcealed weapon may be carried onto 
+private school property or in any school bus or vehicle used by any 
+private school for transportation of students or teachers by a 
+person who is licensed pursuant to the Oklahoma Self-Defense Act, 
+provided a policy has been adopted by the governing entity of the 
+private school that authorizes the carrying and possession of a 
+weapon on private school property or in any school bus or vehicle 
+used by a private school.  Except for acts of gross negligence or 
+willful or wanton misconduct, a governing entity of a private school 
+that adopts a policy which authorizes the possession of a weapon on 
+private school property, a school bus, or a vehicle used by the 
+private school shall not be subject to liability for any injuries 
+arising from the adoption of the policy.  The provisions of this 
+subsection shall not apply to claims pursuant to the Administrative 
+Workers’ Compensation Act. 
+ 
+D.  Notwithstanding paragraph 3 of subsection A of this section, 
+a A board of education of a school district may adopt a policy 
+pursuant to Section 5-149.2 of Title 70 of the Oklahoma Statutes to 
+authorize the carrying of a handgun onto school property by school 
+personnel specifically designated by the board of education, 
+provided such personnel either: 
+ 
+1.  Possess a valid armed security guard license as provided for 
+in the Oklahoma Security Guard and Private Investigator Act; or 
+ 
+2.  Hold a valid reserve peace officer certification as provided 
+for in Section 3311 of Title 70 of the Oklahoma Statutes. 
+ 
+Nothing in this subsection shall be construed to restrict 
+authority granted elsewhere in law to carry firearms. 
+ 
+ 
+ 
+ENR. S. B. NO. 1627 Page 65 
+E.  Notwithstanding the provisions of subsection A of this 
+section, on any property designated as a municipal zoo or park of 
+any size that is owned, leased, operated, or managed by: 
+ 
+1.  A public trust created pursuant to the provisions of Section 
+176 of Title 60 of the Oklahoma Statutes; or 
+ 
+2.  A nonprofit entity, 
+ 
+an individual shall be allowed to carry a concealed handgun but not 
+openly carry a handgun on the property. 
+ 
+F.  Any person violating the provisions of paragraph 2 or 3 of 
+subsection A of this section shall, upon conviction, be guilty of a 
+misdemeanor punishable by a fine not to exceed Two Hundred Fifty 
+Dollars ($250.00).  A person violating any other provision of 
+subsection A of this section may be denied entrance onto the 
+property or removed from the property.  If the person refuses to 
+leave the property and a peace officer is summoned, the person may 
+be issued a citation for an amount not to exceed Two Hundred Fifty 
+Dollars ($250.00). 
+ 
+G.  No person in possession of a valid handgun license issued 
+pursuant to the provisions of the Oklahoma Self-Defense Act or who 
+is carrying or in possession of a firearm as otherwise permitted by 
+law or who is carrying or in possession of a machete, blackjack, 
+loaded cane, hand chain, or metal knuckles shall be authorized to 
+carry the firearm, machete, blackjack, loaded cane, hand chain, or 
+metal knuckles into or upon any college, university, or technology 
+center school property, except as provided in this subsection.  For 
+purposes of this subsection, the following property shall not be 
+construed to be college, university, or technology center school 
+property: 
+ 
+1.  Any property set aside for the use or parking of any motor 
+vehicle, whether attended or unattended, provided the firearm, 
+machete, blackjack, loaded cane, hand chain, or metal knuckles are 
+carried or stored as required by law and the firearm, machete, 
+blackjack, loaded cane, hand chain, or metal knuckles are not 
+removed from the motor vehicle without the prior consent of the 
+college or university president or technology center school 
+ 
+ 
+ENR. S. B. NO. 1627 Page 66 
+administrator while the vehicle is on any college, university, or 
+technology center school property; 
+ 
+2.  Any property authorized for possession or use of firearms, 
+machetes, blackjacks, loaded canes, hand chains, or metal knuckles 
+by college, university, or technology center school policy; and 
+ 
+3.  Any property authorized by the written consent of the 
+college or university president or technology center school 
+administrator, provided the written consent is carried with the 
+firearm, machete, blackjack, loaded cane, hand chain, or metal 
+knuckles and the valid handgun license while on college, university, 
+or technology center school property. 
+ 
+The college, university, or technology center school may notify 
+the Oklahoma State Bureau of Investigation within ten (10) days of a 
+violation of any provision of this subsection by a licensee.  Upon 
+receipt of a written notification of violation, the Bureau shall 
+give a reasonable notice to the licensee and hold a hearing.  At the 
+hearing, upon a determination that the licensee has violated any 
+provision of this subsection, the licensee may be subject to an 
+administrative fine of Two Hundred Fifty Dollars ($250.00) and may 
+have the handgun license suspended for three (3) months. 
+ 
+Nothing contained in any provision of this subsection shall be 
+construed to authorize or allow any college, university, or 
+technology center school to establish any policy or rule that has 
+the effect of prohibiting any person in lawful possession of a 
+handgun license or any person in lawful possession of a firearm, 
+machete, blackjack, loaded cane, hand chain, or metal knuckles from 
+possession of a firearm, machete, blackjack, loaded cane, hand 
+chain, or metal knuckles in places described in paragraphs 1, 2, and 
+3 of this subsection.  Nothing contained in any provision of this 
+subsection shall be construed to limit the authority of any college, 
+university, or technology center school in this state from taking 
+administrative action against any student for any violation of any 
+provision of this subsection. 
+ 
+H.  The provisions of this section shall not apply to the 
+following: 
+ 
+ 
+ 
+ENR. S. B. NO. 1627 Page 67 
+1.  Any peace officer or any person authorized by law to carry a 
+firearm in the course of employment; 
+ 
+2.  Any district judge, associate district judge, or special 
+district judge, Judge of the Court of Civil Appeals, Judge of the 
+Court of Criminal Appeals, or Justice of the Supreme Court who is in 
+possession of a valid handgun license issued pursuant to the 
+provisions of the Oklahoma Self-Defense Act and whose name appears 
+on a list maintained by the Administrative Director of the Courts, 
+when acting in the course and scope of employment within the 
+courthouses of the county that falls within the jurisdiction of the 
+district judge, associate district judge, or special district judge; 
+ 
+3.  Any private investigator with a firearms authorization when 
+acting in the course and scope of employment; 
+ 
+4.  Any An elected official of a county, who is in possession of 
+a valid handgun license issued pursuant to the provisions of the 
+Oklahoma Self-Defense Act, may carry a concealed handgun when acting 
+in the performance of his or her duties within the courthouses of 
+the county in which he or she was elected.  The provisions of this 
+paragraph shall not allow the elected county official to carry the 
+handgun into a courtroom; 
+ 
+5.  The sheriff of any county may authorize certain employees of 
+the county, who possess a valid handgun license issued pursuant to 
+the provisions of the Oklahoma Self-Defense Act, to carry a 
+concealed handgun when acting in the course and scope of employment 
+within the courthouse in the county in which the person is employed.  
+Nothing in the Oklahoma Self-Defense Act shall prohibit the sheriff 
+from requiring additional instruction or training before granting 
+authorization to carry a concealed handgun within the courthouse.  
+The provisions of this paragraph and of paragraph 6 of this 
+subsection shall not allow the county employee to carry the handgun 
+into a courtroom, sheriff’s office, adult or juvenile jail, or any 
+other prisoner detention area; 
+ 
+6.  The board of county commissioners of any county may 
+authorize certain employees of the county, who possess a valid 
+handgun license issued pursuant to the provisions of the Oklahoma 
+Self-Defense Act, to carry a concealed handgun when acting in the 
+course and scope of employment on county annex facilities or grounds 
+ 
+ 
+ENR. S. B. NO. 1627 Page 68 
+surrounding the county courthouse that fall within the jurisdiction 
+of the county employees; and 
+ 
+7.  Any municipal judge, who is in possession of a valid handgun 
+license issued pursuant to the provisions of the Oklahoma Self-
+Defense Act, when acting in the course and scope of employment 
+within the courthouses of the municipality that are within the 
+jurisdiction of the municipal judge. 
+ 
+I.  1.  Any elected official of a municipality or any municipal 
+employee approved by the governing body of a municipality, who 
+possesses a valid handgun license issued pursuant to the provisions 
+of the Oklahoma Self-Defense Act, may carry a concealed handgun when 
+acting in the performance of his or her official duties within 
+municipal buildings that are within the jurisdiction of the elected 
+official or municipal employee. 
+ 
+2.  For purposes of this subsection, a firearm may not be 
+present inside a firearm-prohibited location, which shall include: 
+ 
+a. any building or office space on municipally owned or 
+leased property designated as a firearm-prohibited 
+location by the municipality, municipal trust, or 
+municipal authority, and 
+ 
+b. any police department, courthouse, courtroom, prison, 
+jail, detention facility, or any facility used to 
+process, hold, or house arrested persons, prisoners, 
+or persons alleged delinquent or adjudicated 
+delinquent. 
+ 
+3.  Nothing in this subsection shall be construed to require an 
+elected official or designated employee of the municipality to carry 
+a firearm as a condition of employment or service with the 
+municipality. 
+ 
+J.  For the purposes of this section, “motor vehicle” means any 
+automobile, truck, minivan, sport utility vehicle, or motorcycle, as 
+defined in Section 1-135 of Title 47 of the Oklahoma Statutes, 
+equipped with a locked accessory container within or affixed to the 
+motorcycle. 
+ 
+ 
+ 
+ENR. S. B. NO. 1627 Page 69 
+SECTION 49.     REPEALER     21 O.S. 2021, Section 1277, as 
+amended by Section 1, Chapter 70, O.S.L. 2025 (21 O.S. Supp. 2025, 
+Section 1277), is hereby repealed. 
+ 
+SECTION 50.     AMENDATORY     21 O.S. 2021, Section 1289.16, as 
+amended by Section 3, Chapter 261, O.S.L. 2025 (21 O.S. Supp. 2025, 
+Section 1289.16), is amended to read as follows: 
+ 
+Section 1289.16. 
+ 
+FELONY POINTING FIREARMS 
+ 
+A.  It shall be lawful to point a firearm, knife, or any other 
+deadly weapon at another person or persons by: 
+ 
+1.  A person who can legally own or possess a weapon pursuant to 
+the provisions of Section 1272 of this title: 
+ 
+a. during an act of self-defense, or 
+ 
+b. in defense of real or private property, whether owned, 
+leased, or occupied by permission of the property 
+owner and whether or not the person possesses a valid 
+handgun license issued pursuant to the Oklahoma Self-
+Defense Act; 
+ 
+2.  A person in the defensive display of a firearm or other 
+deadly weapon, as provided for in Section 1289.25 of this title; 
+ 
+3.  Law enforcement authorities in the performance of their 
+duties; 
+ 
+4.  Armed security guards licensed by the Council on Law 
+Enforcement Education and Training pursuant to the Oklahoma Security 
+Guard and Private Investigator Act in the performance of their 
+duties; 
+ 
+5.  Members of the state military forces in the performance of 
+their duties; 
+ 
+6.  Members of the federal military reserve and active military 
+components in the performance of their duties; 
+ 
+ 
+ENR. S. B. NO. 1627 Page 70 
+ 
+7.  Any federal government law enforcement officer in the 
+performance of any duty; or 
+ 
+8.  Any person during the performance of a play on stage, while 
+participating in a rodeo, or when participating in a television 
+program or film project. 
+ 
+B.  It shall be unlawful for any person to willfully and without 
+lawful cause point a firearm, knife, or any other deadly weapon, 
+whether loaded or not, at any person or persons for the purpose of 
+threatening or with the intention of discharging the firearm or with 
+any malice or for any purpose of injuring, either through physical 
+injury or mental or emotional intimidation, or for purposes of 
+whimsy, humor, or prank, or in anger or otherwise. 
+ 
+C.  Any person convicted of a violation of the provisions of 
+this section shall be guilty of a Class B4 felony offense and shall 
+be punished as provided in Section 1289.17 of this title. 
+ 
+SECTION 51.     REPEALER     21 O.S. 2021, Section 1289.16, as 
+amended by Section 131, Chapter 486, O.S.L. 2025 (21 O.S. Supp. 
+2025, Section 1289.16), is hereby repealed. 
+ 
+SECTION 52.     REPEALER     21 O.S. 2021, Section 1290.5, as 
+amended by Section 5, Chapter 146, O.S.L. 2021, is hereby repealed. 
+ 
+SECTION 53.     REPEALER     21 O.S. 2021, Section 1451, as 
+amended by Section 1, Chapter 221, O.S.L. 2016, is hereby repealed. 
+ 
+SECTION 54.     REPEALER     21 O.S. 2021, Section 1521, as 
+amended by Section 2, Chapter 221, O.S.L. 2016, is hereby repealed. 
+ 
+SECTION 55.     REPEALER     21 O.S. 2021, Section 1541.2, as 
+amended by Section 5, Chapter 221, O.S.L. 2016, is hereby repealed. 
+ 
+SECTION 56.     REPEALER     21 O.S. 2021, Section 1541.3, as 
+amended by Section 6, Chapter 221, O.S.L. 2016, is hereby repealed. 
+ 
+SECTION 57.     REPEALER     21 O.S. 2021, Section 1577, as 
+amended by Section 11, Chapter 221, O.S.L. 2016, is hereby repealed. 
+ 
+ 
+ 
+ENR. S. B. NO. 1627 Page 71 
+SECTION 58.     REPEALER     21 O.S. 2021, Section 1578, as 
+amended by Section 12, Chapter 221, O.S.L. 2016, is hereby repealed. 
+ 
+SECTION 59.     REPEALER     21 O.S. 2021, Section 1579, as 
+amended by Section 13, Chapter 221, O.S.L. 2016, is hereby repealed. 
+ 
+SECTION 60.     REPEALER     21 O.S. 2021, Section 1621, as 
+amended by Section 15, Chapter 221, O.S.L. 2016, is hereby repealed. 
+ 
+SECTION 61.     REPEALER     21 O.S. 2021, Section 1704, as 
+amended by Section 16, Chapter 221, O.S.L. 2016, is hereby repealed. 
+ 
+SECTION 62.     REPEALER     21 O.S. 2021, Section 1705, as 
+amended by Section 17, Chapter 221, O.S.L. 2016, is hereby repealed. 
+ 
+SECTION 63.     REPEALER     21 O.S. 2021, Section 1713, as 
+amended by Section 18, Chapter 221, O.S.L. 2016, is hereby repealed. 
+ 
+SECTION 64.     REPEALER     21 O.S. 2021, Section 1731, as 
+amended by Section 19, Chapter 221, O.S.L. 2016, is hereby repealed. 
+ 
+SECTION 65.     AMENDATORY     21 O.S. 2021, Section 1903, as 
+amended by Section 2, Chapter 405, O.S.L. 2025 (21 O.S. Supp. 2025, 
+Section 1903), is amended to read as follows: 
+ 
+Section 1903.  A.  No person shall by force or violence, or 
+threat of force or violence, seize or exercise control of any 
+rolling stock transit vehicle.  Any person violating this subsection 
+shall be guilty of a Class B1 felony offense and shall, upon 
+conviction, be punished by imprisonment in the custody of the 
+Department of Corrections for not more than twenty (20) years, or by 
+a fine not more than Twenty Thousand Dollars ($20,000.00), or by 
+both such fine and imprisonment. 
+ 
+B.  No person shall intimidate, threaten, assault, or batter any 
+driver, attendant, guard, or passenger of any rolling stock transit 
+vehicle or cause disruption to the provided service or cause harm to 
+any person.  Any person violating this subsection shall be guilty of 
+a Class B4 felony offense and shall, upon conviction, be punished by 
+imprisonment in the custody of the Department of Corrections for not 
+more than ten (10) years, by a fine not more than Five Thousand 
+Dollars ($5,000.00), or by both such fine and imprisonment. 
+ 
+ 
+ENR. S. B. NO. 1627 Page 72 
+ 
+C.  Any person violating subsection A or B of this section using 
+a dangerous or deadly weapon shall be guilty of a Class B1 felony 
+offense, and shall, upon conviction, be punished by imprisonment in 
+the custody of the Department of Corrections for not more than 
+twenty (20) years, by a fine not more than Twenty Thousand Dollars 
+($20,000.00), or by both such fine and imprisonment. 
+ 
+D.  It shall be unlawful for any person to discharge any firearm 
+into or within any rolling stock transit vehicle, terminal, or other 
+transportation facility, unless such action is determined to have 
+been in defensive force resulting from reasonable fear of imminent 
+peril of death or great bodily harm to himself or herself or 
+another.  Such person shall, upon conviction, be guilty of a Class 
+B4 felony offense punishable by a fine not more than Five Thousand 
+Dollars ($5,000.00), by imprisonment in the custody of the 
+Department of Corrections for not more than five (5) years, or by 
+both such fine and imprisonment. 
+ 
+SECTION 66.     REPEALER     21 O.S. 2021, Section 1903, as 
+amended by Section 62, Chapter 486, O.S.L. 2025 (21 O.S. Supp. 2025, 
+Section 1903), is hereby repealed. 
+ 
+SECTION 67.     AMENDATORY     47 O.S. 2021, Section 11-902, as 
+amended by Section 1, Chapter 347, O.S.L. 2025 (47 O.S. Supp. 2025, 
+Section 11-902), is amended to read as follows: 
+ 
+Section 11-902.  A.  It is unlawful and punishable as provided 
+for in this section for any person to drive, operate, or be in 
+actual physical control of a motor vehicle within this state, 
+whether upon public roads, highways, streets, turnpikes, other 
+public places or upon any private road, street, alley, or lane which 
+provides access to one or more single or multi-family dwellings, 
+who: 
+ 
+1.  Has a blood or breath alcohol concentration, as defined in 
+Section 756 of this title, of eight-hundredths (0.08) or more at the 
+time of a test of such person’s blood or breath; 
+ 
+2.  Is under the influence of alcohol; 
+ 
+ 
+ 
+ENR. S. B. NO. 1627 Page 73 
+3.  Has any amount of a Schedule I chemical or controlled 
+substance, as defined in Section 2-204 of Title 63 of the Oklahoma 
+Statutes, or one of its metabolites or analogs in the person’s 
+blood, saliva, urine, or any other bodily fluid at the time of a 
+test of such person’s blood, saliva, urine, or any other bodily 
+fluid; 
+ 
+4.  Is under the influence of any intoxicating substance other 
+than alcohol which may render such person incapable of safely 
+driving or operating a motor vehicle.  The timing requirement for 
+the administration of tests pursuant to Section 756 of this title 
+shall not apply to this paragraph; or 
+ 
+5.  Is under the combined influence of alcohol and any other 
+intoxicating substance which may render such person incapable of 
+safely driving or operating a motor vehicle.  The timing requirement 
+for the administration of tests pursuant to Section 756 of this 
+title shall not apply to this paragraph. 
+ 
+B.  The fact that any person charged with a violation of this 
+section is or has been lawfully entitled to use alcohol or a 
+controlled dangerous substance or any other intoxicating substance 
+shall not constitute a defense against any charge of violating this 
+section. 
+ 
+C.  1.  Any person who is convicted of a violation of the 
+provisions of this section shall be guilty of a misdemeanor for the 
+first offense and shall: 
+ 
+a. participate in an assessment and evaluation pursuant 
+to subsection H of this section and shall follow all 
+recommendations made in the assessment and evaluation, 
+ 
+b. be punished by imprisonment in jail for not less than 
+ten (10) days nor more than one (1) year, and 
+ 
+c. be fined not more than One Thousand Dollars 
+($1,000.00). 
+ 
+2.  Any person who, having been convicted of or having received 
+deferred judgment for a violation of this section or a violation 
+pursuant to the provisions of any law of this state or another state 
+ 
+ 
+ENR. S. B. NO. 1627 Page 74 
+prohibiting the offenses provided in this section, Section 11-904 of 
+this title, or paragraph 4 of subsection A of Section 852.1 of Title 
+21 of the Oklahoma Statutes, or having a prior conviction in a 
+municipal criminal court of record for the violation of a municipal 
+ordinance prohibiting the offense provided for in this section, 
+commits a subsequent violation of this section within ten (10) years 
+of the date following the completion of the execution of such 
+sentence or deferred judgment shall, upon conviction, be guilty of a 
+Class C2 felony offense and shall participate in an assessment and 
+evaluation pursuant to subsection H of this section and shall be 
+sentenced to: 
+ 
+a. follow all recommendations made in the assessment and 
+evaluation for treatment at the defendant’s expense, 
+ 
+b. use of an ignition interlock device, as provided by 
+subparagraph n of paragraph 1 of subsection A of 
+Section 991a of Title 22 of the Oklahoma Statutes, 
+ 
+c. imprisonment in the custody of the Department of 
+Corrections for not less than one (1) year and not 
+more than five (5) years as provided for in 
+subsections B through F of Section 20M of Title 21 of 
+the Oklahoma Statutes, and 
+ 
+d. a fine not more than Two Thousand Five Hundred Dollars 
+($2,500.00). 
+ 
+However, if the treatment in subsection H of this section does 
+not include residential or inpatient treatment for a period of not 
+less than five (5) days, the person shall serve a term of 
+imprisonment of at least five (5) days. 
+ 
+3.  Any person who commits a violation of this section after 
+having been convicted of a felony offense pursuant to the provisions 
+of this section or a violation pursuant to the provisions of any law 
+of this state or another state prohibiting the offenses provided for 
+in this section, Section 11-904 of this title, or paragraph 4 of 
+subsection A of Section 852.1 of Title 21 of the Oklahoma Statutes 
+shall be guilty of a Class B4 felony offense and participate in an 
+assessment and evaluation pursuant to subsection H of this section 
+and shall be sentenced to: 
+ 
+ 
+ENR. S. B. NO. 1627 Page 75 
+ 
+a. follow all recommendations made in the assessment and 
+evaluation for treatment at the defendant’s expense, 
+ 
+b. two hundred forty (240) hours of community service, 
+ 
+c. use of an ignition interlock device, as provided by 
+subparagraph n of paragraph 1 of subsection A of 
+Section 991a of Title 22 of the Oklahoma Statutes, 
+ 
+d. imprisonment in the custody of the Department of 
+Corrections for not less than one (1) year and not 
+more than ten (10) years, and 
+ 
+e. a fine not more than Five Thousand Dollars 
+($5,000.00). 
+ 
+However, if the treatment in subsection H of this section does 
+not include residential or inpatient treatment for a period of not 
+less than ten (10) days, the person shall serve a term of 
+imprisonment of at least ten (10) days. 
+ 
+4.  Any person who commits a violation of this section after 
+having been twice convicted of a felony offense pursuant to the 
+provisions of this section or a violation pursuant to the provisions 
+of any law of this state or another state prohibiting the offenses 
+provided for in this section, Section 11-904 of this title, or 
+paragraph 4 of subsection A of Section 852.1 of Title 21 of the 
+Oklahoma Statutes shall be guilty of a Class B3 felony offense and 
+participate in an assessment and evaluation pursuant to subsection H 
+of this section and shall be sentenced to: 
+ 
+a. follow all recommendations made in the assessment and 
+evaluation for treatment at the defendant’s expense, 
+followed by not less than one (1) year of supervision 
+and periodic testing, as provided in subparagraph q of 
+paragraph 1 of subsection A of Section 991a of Title 
+22 of the Oklahoma Statutes, at the defendant’s 
+expense, 
+ 
+b. four hundred eighty (480) hours of community service, 
+ 
+ 
+ 
+ENR. S. B. NO. 1627 Page 76 
+c. use of an ignition interlock device, as provided by 
+subparagraph n of paragraph 1 of subsection A of 
+Section 991a of Title 22 of the Oklahoma Statutes, for 
+a minimum of ninety (90) days, 
+ 
+d. imprisonment in the custody of the Department of 
+Corrections for not less than one (1) year and not 
+more than twenty (20) years, and 
+ 
+e. a fine not more than Five Thousand Dollars 
+($5,000.00). 
+ 
+However, if the person does not undergo residential or inpatient 
+treatment pursuant to subsection H of this section, the person shall 
+serve a term of imprisonment of at least ten (10) days. 
+ 
+5.  Any person who, after a previous conviction of a violation 
+of murder in the second degree or manslaughter in the first degree 
+in which the death was caused as a result of driving under the 
+influence of alcohol or other intoxicating substance, is convicted 
+of a violation of this section shall be guilty of a Class A2 felony 
+offense and shall be punished by imprisonment in the custody of the 
+Department of Corrections for not less than five (5) years and not 
+to exceed twenty (20) years, and a fine not more than Ten Thousand 
+Dollars ($10,000.00). 
+ 
+6.  Provided, however, a conviction from another state shall not 
+be used to enhance punishment pursuant to the provisions of this 
+subsection if that conviction is based on a blood or breath alcohol 
+concentration of less than eight-hundredths (0.08). 
+ 
+7.  In any case in which a defendant is charged with driving 
+under the influence of alcohol or other intoxicating substance 
+offense within any municipality with a municipal court other than a 
+court of record, the charge shall be presented to the county’s 
+district attorney and filed with the district court of the county 
+within which the municipality is located. 
+ 
+D.  Any person who is convicted of a violation of driving under 
+the influence while also committing one of more of the following 
+acts: 
+ 
+ 
+ 
+ENR. S. B. NO. 1627 Page 77 
+1.  Driving, operating, or being in actual physical control of a 
+motor vehicle while having a blood or breath alcohol concentration 
+of fifteen-hundredths (0.15) or more at the time of a test of such 
+person’s blood or breath; 
+ 
+2.  Causing a motor vehicle incident involving one or more 
+vehicles that results in a report pursuant to Section 40-102 of this 
+title; 
+ 
+3.  Driving in a manner that violates the provisions of Section 
+11-301, 11-302, 11-306, 11-309, or 11-311 of this title; 
+ 
+4.  Driving while eluding peace officers pursuant to Section 
+540a of Title 21 of the Oklahoma Statutes; 
+ 
+5.  Driving with a speed in excess of twenty (20) miles per hour 
+over the speed limit or ten (10) miles per hour over the speed limit 
+within an active school zone; 
+ 
+6.  Operating a motor vehicle with a passenger younger than 
+eighteen (18) years of age; or 
+ 
+7.  Reckless driving as defined in Section 11-901 of this title, 
+ 
+shall, upon conviction, be guilty of aggravated driving under the 
+influence, which shall be a Class B3 felony offense. 
+ 
+E.  A person convicted of aggravated driving under the influence 
+shall participate in an assessment and evaluation pursuant to 
+subsection H of this section and shall comply with all 
+recommendations for treatment.  Such person shall be sentenced as 
+provided in paragraph 1, 2, 3, 4, or 5 of subsection C of this 
+section and to: 
+ 
+1.  Imprisonment as provided in paragraph 1, 2, 3, 4, or 5 of 
+subsection C of this section, provided that: 
+ 
+a. for a first offense of a violation pursuant to this 
+section, the first ten (10) days of the sentence shall 
+not be subject to probation, suspension, or deferral 
+and may be served by night or weekend incarceration 
+ 
+ 
+ENR. S. B. NO. 1627 Page 78 
+pursuant to Section 991a of Title 22 of the Oklahoma 
+Statutes, 
+ 
+b. for a second offense of a violation pursuant to this 
+section, the first thirty (30) days of the sentence 
+shall not be subject to probation, suspension, or 
+deferral; provided further, this mandatory minimum 
+period of confinement shall be served in the county 
+jail as a condition of a suspended or deferred 
+sentence, pursuant to Section 991a of Title 22 of the 
+Oklahoma Statutes, and 
+ 
+c. the portion of the sentence not subject to probation, 
+suspension, or deferral shall increase by thirty (30) 
+days for each subsequent conviction after the second 
+offense; 
+ 
+2.  A fine pursuant to paragraph 1, 2, 3, 4, or 5 of subsection 
+C of this section; 
+ 
+3.  Not less than one (1) year of supervision and periodic 
+testing, as provided in subparagraph q of paragraph 1 of subsection 
+A of Section 991a of Title 22 of the Oklahoma Statutes, at the 
+defendant’s expense; and 
+ 
+4.  An ignition interlock device or devices, as provided by 
+subparagraph n of paragraph 1 of subsection A of Section 991a of 
+Title 22 of the Oklahoma Statutes, for a minimum of one hundred 
+eighty (180) days. 
+ 
+F.  When a person is sentenced to imprisonment in the custody of 
+the Department of Corrections, the person shall be processed through 
+the Lexington Assessment and Reception Center or at a place 
+determined by the Director of the Department of Corrections.  The 
+Department of Corrections shall classify and assign the person to 
+one or more of the following: 
+ 
+1.  The Department of Mental Health and Substance Abuse Services 
+pursuant to paragraph 1 of subsection A of Section 612 of Title 57 
+of the Oklahoma Statutes; or 
+ 
+ 
+ 
+ENR. S. B. NO. 1627 Page 79 
+2.  A correctional facility operated by the Department of 
+Corrections with assignment to substance abuse treatment.  
+Successful completion of a Department-of-Corrections-approved 
+substance abuse treatment program shall satisfy the recommendation 
+for a ten-hour or twenty-four-hour alcohol and drug substance abuse 
+course or treatment program or both.  Successful completion of an 
+approved Department of Corrections substance abuse treatment program 
+may precede or follow the required assessment. 
+ 
+G.  Service Oklahoma is hereby authorized to reinstate any 
+suspended or revoked driving privilege when the person meets the 
+statutory requirements which affect the existing driving privilege. 
+ 
+H.  Any person who is found guilty of a violation of the 
+provisions of this section shall be ordered to participate in an 
+alcohol and drug substance abuse evaluation and assessment program 
+offered by a certified assessment agency or certified assessor for 
+the purpose of evaluating and assessing the receptivity to treatment 
+and prognosis of the person and shall follow all recommendations 
+made in the assessment and evaluation for treatment.  The court 
+shall order the person to reimburse the agency or assessor for the 
+evaluation and assessment.  Payment shall be remitted by the 
+defendant or on behalf of the defendant by any third party, provided 
+no state-appropriated funds are utilized.  The fee for an evaluation 
+and assessment shall be the amount provided in subsection C of 
+Section 3-460 of Title 43A of the Oklahoma Statutes.  The evaluation 
+and assessment shall be conducted at a certified assessment agency, 
+the office of a certified assessor, or at another location as 
+ordered by the court.  The agency or assessor shall, within seventy-
+two (72) hours from the time the person is evaluated and assessed, 
+submit a written report to the court for the purpose of assisting 
+the court in its sentencing determination.  The court shall, as a 
+condition of any sentence imposed, including deferred and suspended 
+sentences, require the person to participate in and successfully 
+complete all recommendations from the evaluation, such as an alcohol 
+and substance abuse treatment program pursuant to Section 3-452 of 
+Title 43A of the Oklahoma Statutes.  If such report indicates that 
+the evaluation and assessment shows that the defendant would benefit 
+from a ten-hour or twenty-four-hour alcohol and drug substance abuse 
+course or a treatment program or both, the court shall, as a 
+condition of any sentence imposed, including deferred and suspended 
+sentences, require the person to follow all recommendations 
+ 
+ 
+ENR. S. B. NO. 1627 Page 80 
+identified by the evaluation and assessment and ordered by the 
+court.  No person, agency, or facility operating an evaluation and 
+assessment program certified by the Department of Mental Health and 
+Substance Abuse Services shall solicit or refer any person evaluated 
+and assessed pursuant to this section for any treatment program or 
+substance abuse service in which such person, agency, or facility 
+has a vested interest; however, this provision shall not be 
+construed to prohibit the court from ordering participation in or 
+any person from voluntarily utilizing a treatment program or 
+substance abuse service offered by such person, agency, or facility.  
+If a person is sentenced to imprisonment in the custody of the 
+Department of Corrections and the court has received a written 
+evaluation report pursuant to the provisions of this subsection, the 
+report shall be furnished to the Department of Corrections with the 
+judgment and sentence.  Any evaluation and assessment report 
+submitted to the court pursuant to the provisions of this subsection 
+shall be handled in a manner which will keep such report 
+confidential from the general public’s review.  Nothing contained in 
+this subsection shall be construed to prohibit the court from 
+ordering judgment and sentence in the event the defendant fails or 
+refuses to comply with an order of the court to obtain the 
+evaluation and assessment required by this subsection.  If the 
+defendant fails or refuses to comply with an order of the court to 
+obtain the evaluation and assessment, Service Oklahoma shall not 
+reinstate driving privileges until the defendant has complied in 
+full with such order.  Nothing contained in this subsection shall be 
+construed to prohibit the court from ordering judgment and sentence 
+and any other sanction authorized by law for failure or refusal to 
+comply with an order of the court. 
+ 
+I.  Any person who is found guilty of a violation of the 
+provisions of this section shall be required by the court to attend 
+a victims impact panel program, as defined in subsection H of 
+Section 991a of Title 22 of the Oklahoma Statutes, if such a program 
+is offered in the county where the judgment is rendered, and to pay 
+a fee of Seventy-five Dollars ($75.00), as set by the governing 
+authority of the program and approved by the court, to the program 
+to offset the cost of participation by the defendant, if in the 
+opinion of the court the defendant has the ability to pay such fee. 
+ 
+J.  Any person who is found guilty of a felony violation of the 
+provisions of this section shall be required to submit to electronic 
+ 
+ 
+ENR. S. B. NO. 1627 Page 81 
+monitoring as authorized and defined by Section 991a of Title 22 of 
+the Oklahoma Statutes. 
+ 
+K.  Any person who is found guilty of a violation of the 
+provisions of this section who has been sentenced by the court to 
+perform any type of community service shall not be permitted to pay 
+a fine in lieu of performing the community service. 
+ 
+L.  When a person is found guilty of a violation of the 
+provisions of this section, the court shall order, in addition to 
+any other penalty, the defendant to pay an assessment of One Hundred 
+Dollars ($100.00) to be deposited in the Drug Abuse Education and 
+Treatment Revolving Fund created in Section 2-503.2 of Title 63 of 
+the Oklahoma Statutes, upon collection. 
+ 
+M.  1.  When a person is eighteen (18) years of age or older, 
+and is the driver, operator, or person in physical control of a 
+vehicle, and is convicted of violating any provision of this section 
+while transporting or having in the motor vehicle any child less 
+than eighteen (18) years of age, the fine shall be enhanced to 
+double the amount of the fine imposed for the underlying driving 
+under the influence (DUI) violation which shall be in addition to 
+any other penalties allowed by this section. 
+ 
+2.  Nothing in this subsection shall prohibit the prosecution of 
+a person pursuant to Section 852.1 of Title 21 of the Oklahoma 
+Statutes who is in violation of any provision of this section or 
+Section 11-904 of this title. 
+ 
+N. M.  Any plea of guilty, nolo contendere, or finding of guilt 
+for a violation of this section or a violation pursuant to the 
+provisions of any law of this state or another state prohibiting the 
+offenses provided for in this section, Section 11-904 of this title, 
+or paragraph 4 of subsection A of Section 852.1 of Title 21 of the 
+Oklahoma Statutes shall constitute a conviction of the offense for 
+the purpose of this section; provided, any deferred judgment shall 
+only be considered to constitute a conviction for a period of ten 
+(10) years following the completion of any court-imposed 
+probationary term. 
+ 
+O. N.  If qualified by knowledge, skill, experience, training, 
+or education, a witness shall be allowed to testify in the form of 
+ 
+ 
+ENR. S. B. NO. 1627 Page 82 
+an opinion or otherwise solely on the issue of impairment, but not 
+on the issue of specific alcohol concentration level, relating to 
+the following: 
+ 
+1.  The results of any standardized field sobriety test 
+including, but not limited to, the horizontal gaze nystagmus (HGN) 
+test administered by a person who has completed training in 
+standardized field sobriety testing; or 
+ 
+2.  Whether a person was under the influence of one or more 
+impairing substances and the category of such impairing substance or 
+substances.  A witness who has received training and holds a current 
+certification as a drug recognition expert shall be qualified to 
+give the testimony in any case in which such testimony may be 
+relevant. 
+ 
+SECTION 68.     REPEALER     47 O.S. 2021, Section 11-902, as 
+amended by Section 3, Chapter 172, O.S.L. 2025 (47 O.S. Supp. 2025, 
+Section 11-902), is hereby repealed. 
+ 
+SECTION 69.     REPEALER     47 O.S. 2021, Section 11-902, as 
+amended by Section 6, Chapter 305, O.S.L. 2025 (47 O.S. Supp. 2025, 
+Section 11-902), is hereby repealed. 
+ 
+SECTION 70.     REPEALER     47 O.S. 2021, Section 11-902, as 
+amended by Section 33, Chapter 486, O.S.L. 2025 (47 O.S. Supp. 2025, 
+Section 11-902), is hereby repealed. 
+ 
+SECTION 71.  It being immediately necessary for the preservation 
+of the public peace, health or safety, an emergency is hereby 
+declared to exist, by reason whereof this act shall take effect and 
+be in full force from and after its passage and approval. 
+ 
+ 
+ 
+ENR. S. B. NO. 1627 Page 83 
+Passed the Senate the 17th day of March, 2026. 
+ 
+ 
+  
+ Presiding Officer of the Senate 
+ 
+ 
+Passed the House of Representatives the 8th day of April, 2026. 
+ 
+ 
+  
+ Presiding Officer of the House 
+ of Representatives 
+ 
+OFFICE OF THE GOVERNOR 
+Received by the Office of the Governor this ____________________ 
+day of ___________________, 20_______, at _______ o'clock _______ M. 
+By: _________________________________ 
+Approved by the Governor of the State of Oklahoma this _________ 
+day of ___________________, 20_______, at _______ o'clock _______ M. 
+ 
+ _________________________________ 
+ Governor of the State of Oklahoma 
+ 
+ 
+OFFICE OF THE SECRETARY OF STATE 
+Received by the Office of the Secretary of State this __________ 
+day of __________________, 20 _______, at _______ o'clock _______ M. 
+By: _________________________________ 

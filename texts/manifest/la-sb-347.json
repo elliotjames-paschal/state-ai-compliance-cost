@@ -1,0 +1,15 @@
+{
+ "id": "LA SB 347",
+ "slug": "la-sb-347",
+ "state": "LA",
+ "sourcePage": "https://www.legis.la.gov/legis/BillInfo.aspx?s=26rs&b=SB347&sbi=y",
+ "docUrl": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1480197",
+ "docFormat": "pdf",
+ "version": "Chaptered",
+ "rawFile": "texts/raw/la-sb-347.pdf",
+ "txtFile": "texts/la-sb-347.txt",
+ "chars": 5819,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3445905 (Chaptered 0000-00-00)"
+}

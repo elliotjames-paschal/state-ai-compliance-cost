@@ -1,0 +1,15 @@
+{
+ "id": "CO HB 26-1139",
+ "slug": "co-hb-26-1139",
+ "state": "CO",
+ "sourcePage": "https://leg.colorado.gov/bills/HB26-1139",
+ "docUrl": "https://leg.colorado.gov/bill_files/116723/download",
+ "docFormat": "pdf",
+ "version": "Enrolled",
+ "rawFile": "texts/raw/co-hb-26-1139.pdf",
+ "txtFile": "texts/co-hb-26-1139.txt",
+ "chars": 11166,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3441850 (Enrolled 1969-12-31) | fell back past: Chaptered 1969-12-31: 6 chars"
+}

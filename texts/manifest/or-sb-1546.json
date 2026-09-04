@@ -1,0 +1,15 @@
+{
+ "id": "OR SB 1546",
+ "slug": "or-sb-1546",
+ "state": "OR",
+ "sourcePage": "https://olis.oregonlegislature.gov/liz/2026R1/Measures/Overview/SB1546",
+ "docUrl": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/SB1546/Enrolled",
+ "docFormat": "pdf",
+ "version": "Enrolled",
+ "rawFile": "texts/raw/or-sb-1546.pdf",
+ "txtFile": "texts/or-sb-1546.txt",
+ "chars": 10073,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3386668 (Enrolled 0000-00-00)"
+}

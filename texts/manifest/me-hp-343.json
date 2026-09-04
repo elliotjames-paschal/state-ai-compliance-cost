@@ -1,0 +1,15 @@
+{
+ "id": "ME HP 343",
+ "slug": "me-hp-343",
+ "state": "ME",
+ "sourcePage": "https://legislature.maine.gov/legis/bills/display_ps.asp?LD=524&snum=132",
+ "docUrl": "https://legislature.maine.gov/legis/bills/getPDF.asp?paper=HP0343&item=3&snum=132",
+ "docFormat": "pdf",
+ "version": "Chaptered",
+ "rawFile": "texts/raw/me-hp-343.pdf",
+ "txtFile": "texts/me-hp-343.txt",
+ "chars": 20554,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3420433 (Chaptered 0000-00-00)"
+}

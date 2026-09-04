@@ -1,0 +1,158 @@
+CERTIFICATION OF ENROLLMENT
+ENGROSSED SECOND SUBSTITUTE HOUSE BILL 1170
+Chapter 167, Laws of 2026
+69th Legislature
+2026 Regular Session
+ARTIFICIAL INTELLIGENCE —DISCLOSURES—CONTENT PROVENANCE
+EFFECTIVE DATE: February 1, 2027
+Passed by the House March 11, 2026
+  Yeas 55  Nays 38
+LAURIE JINKINS
+Speaker of the House of 
+Representatives
+Passed by the Senate March 4, 2026
+  Yeas 46  Nays 3
+DENNY HECK
+President of the Senate
+CERTIFICATE
+I, Bernard Dean, Chief Clerk of the 
+House of Representatives of the 
+State of Washington, do hereby 
+certify that the attached is 
+ENGROSSED SECOND SUBSTITUTE HOUSE 
+BILL 1170  as passed by the House of 
+Representatives and the Senate on 
+the dates hereon set forth.
+BERNARD DEAN
+Chief Clerk
+Approved March 24, 2026 10:04 AM FILED
+March 25, 2026
+BOB FERGUSON
+Governor of the State of Washington
+Secretary of State
+ State of Washington
+AN ACT Relating to informing users when content is developed or 1
+modified by artificial intelligence; adding a new chapter to Title 19 2
+RCW; adding a new chapter to Title 42 RCW; prescribing penalties; and 3
+providing an effective date. 4
+BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF WASHINGTON:5
+NEW SECTION.   Sec. 1.  The definitions in this section apply 6
+throughout this chapter unless the context clearly requires 7
+otherwise.8
+(1) "Artificial intelligence" means the use of machine learning 9
+and related technologies that use data to train statistical models 10
+for the purpose of enabling computer systems to perform tasks 11
+normally associated with human intelligence or perception, such as 12
+computer vision, speech or natural language processing, and content 13
+generation. 14
+(2) "Covered provider" means a person or entity that creates, 15
+codes, or otherwise produces a generative artificial intelligence 16
+system that has over 1,000,000 monthly users and is publicly 17
+accessible within the geographic boundaries of the state to consumers 18
+for personal use. "Covered provider" does not include state, local, 19
+and tribal governments. 20
+ENGROSSED SECOND SUBSTITUTE HOUSE BILL 1170
+AS AMENDED BY THE SENATE
+Passed Legislature - 2026 Regular Session
+State of Washington 69th Legislature 2026 Regular Session
+By House Technology, Economic Development, & Veterans (originally 
+sponsored by Representatives Shavers, Taylor, Ryu, Ramel, Fosse, 
+Wylie, Pollet, Ormsby, and Hill)
+READ FIRST TIME 01/20/26.
+p. 1 E2SHB 1170.SL
+(3) "Generative artificial intelligence" means technology that 1
+uses machine learning, including deep learning models, natural 2
+language processing, or other computational processing techniques of 3
+similar or greater complexity, to generate images, audio, or video.4
+(4) "Provenance data" means data that is embedded into digital 5
+content or that is included in the digital content's metadata for the 6
+purpose of verifying the digital content's authenticity, origin, or 7
+history of modification. 8
+NEW SECTION.   Sec. 2.  (1) To the extent commercially and 9
+technically reasonable, a covered provider shall include provenance 10
+data in any video, image, or audio content, or content that is any 11
+combination thereof, created or materially altered by the covered 12
+provider's generative artificial intelligence system and that is 13
+subject to the terms of this chapter. The provenance data must allow 14
+a user to assess whether image, video, or audio content, or content 15
+that is any combination thereof, was created or materially altered by 16
+the covered provider's generative artificial intelligence system.17
+(2) A covered provider must use commercially and technically 18
+reasonable methods to make the provenance data difficult to remove or 19
+tamper with. The use of a commonly supported technical standard for 20
+watermarking or metadata, such as the coalition for content 21
+provenance and authenticity specification, for provenance data is 22
+considered compliant with this subsection. 23
+(3) A covered provider may not be required under this section to 24
+include any information relating to an identified or reasonably 25
+identifiable individual in provenance data included in content 26
+created or content materially altered by the covered provider's 27
+generative artificial intelligence system. 28
+(4) For the purposes of this section, "materially altered" means 29
+a significant change that substantially alters the data in content. 30
+"Materially altered" does not include minor modifications that do not 31
+lead to significant changes to the perceived content or meaning of 32
+the content. Minor modifications include: Changes to brightness, 33
+contrast, or color; sharpening; saturating; applying filters; 34
+resizing; scaling; cropping; format conversions; resampling; 35
+denoising; and removal of background noise in audio.36
+NEW SECTION.   Sec. 3.  (1) Nothing in this chapter may be 37
+construed to require the disclosure of a trade secret or confidential 38
+p. 2 E2SHB 1170.SL
+or proprietary information about the design or use of an artificial 1
+intelligence system. 2
+(2) Nothing in this chapter may be construed to apply to any 3
+business-to-business uses, sales, licensing, or distribution of 4
+generative artificial intelligence systems. 5
+NEW SECTION.   Sec. 4.  (1) Any waiver of the provisions of this 6
+chapter is contrary to public policy and is void and unenforceable.7
+(2) The attorney general may bring an action in the name of the 8
+state, or as parens patriae on behalf of persons residing in the 9
+state, to enforce this chapter. For actions brought by the attorney 10
+general to enforce this chapter, the legislature finds that the 11
+practices covered by this chapter are matters vitally affecting the 12
+public interest for the purpose of applying the consumer protection 13
+act, chapter 19.86 RCW. For actions brought by the attorney general 14
+to enforce this chapter, a violation of this chapter is not 15
+reasonable in relation to the development and preservation of 16
+business and is an unfair or deceptive act in trade or commerce and 17
+an unfair method of competition for purposes of applying the consumer 18
+protection act, chapter 19.86 RCW . 19
+(3) Only the attorney general can bring an action under the 20
+consumer protection act, chapter 19.86 RCW , pursuant to this section.21
+NEW SECTION.   Sec. 5.  (1) This chapter does not apply to any 22
+product, service, internet website, or application that provides 23
+exclusively video game or interactive experiences including, but not 24
+limited to, the sale of goods or services directly to consumers 25
+through the internet, allowing customers to browse, select, and 26
+purchase items virtually.27
+(2) This chapter does not apply to systems used solely for 28
+upscaling, noise reduction, or compression. 29
+NEW SECTION.   Sec. 6.  (1) A government agency that makes 30
+available an artificial intelligence system intended to interact with 31
+consumers must disclose to each consumer, before or at the time of 32
+interaction, that the consumer is interacting with an artificial 33
+intelligence system. The disclosure must be:34
+(a) Clear and conspicuously posted; 35
+(b) Written in plain language; and 36
+(c) May not use a dark pattern. 37
+p. 3 E2SHB 1170.SL
+(2) The disclosure may be provided by using a hyperlink to direct 1
+a consumer to a separate web page. 2
+(3) An agency is required to make the disclosure under subsection 3
+(1) of this section regardless of whether it would be obvious to a 4
+reasonable consumer that the consumer is interacting with an 5
+artificial intelligence system. 6
+(4) For the purposes of this section, "artificial intelligence 7
+system" has the same meaning as in section 1 of this act.8
+NEW SECTION.   Sec. 7.  Sections 1 through 5 and 9 of this act 9
+constitute a new chapter in Title 19 RCW.10
+NEW SECTION.   Sec. 8.  Section 6 of this act constitutes a new 11
+chapter in Title 42 RCW.12
+NEW SECTION.   Sec. 9.  This act takes effect February 1, 2027.13
+Passed by the House March 11, 2026.
+Passed by the Senate March 4, 2026.
+Approved by the Governor March 24, 2026.
+Filed in Office of Secretary of State March 25, 2026.
+--- END ---
+p. 4 E2SHB 1170.SL

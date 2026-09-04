@@ -1,0 +1,15 @@
+{
+ "id": "SC H 3431",
+ "slug": "sc-h-3431",
+ "state": "SC",
+ "sourcePage": "https://www.scstatehouse.gov/billsearch.php?billnumbers=3431&session=126&summary=B",
+ "docUrl": "https://www.scstatehouse.gov/sess126_2025-2026/prever/3431_20260114.htm",
+ "docFormat": "html",
+ "version": "Amended",
+ "rawFile": "texts/raw/sc-h-3431.html",
+ "txtFile": "texts/sc-h-3431.txt",
+ "chars": 25896,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3316633 (Amended 2026-01-14)"
+}

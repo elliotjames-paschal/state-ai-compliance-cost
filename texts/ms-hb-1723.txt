@@ -1,0 +1,25 @@
+MISSISSIPPI LEGISLATURE
+2026 Regular Session
+To: Technology
+By: Representatives Ford (73rd), Scott
+House Bill 1723
+(As Sent to Governor)
+AN ACT TO DEFINE THE TERM "ARTIFICIAL
+INTELLIGENCE"; AND FOR RELATED PURPOSES.
+     BE IT ENACTED BY THE
+LEGISLATURE OF THE STATE OF MISSISSIPPI:
+SECTION 1.
+ 
+The term "artificial intelligence" means a machine-based system that
+can, for a given set of human-defined objectives, make predictions,
+recommendations or decisions influencing real or virtual environments. 
+Artificial intelligence systems use machine- and human-based inputs to perceive
+real and virtual environments; abstract such perceptions into models through
+analysis in an automated manner; and use model inference to formulate options
+for information or action.
+SECTION 2.
+  Section 1
+of this act shall be codified in Chapter 3, Title 1, Mississippi Code of 1972.
+SECTION 3. 
+ This act
+shall take effect and be in force from and after July 1, 2026.

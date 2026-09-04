@@ -1,0 +1,15 @@
+{
+ "id": "MD SB 8",
+ "slug": "md-sb-8",
+ "state": "MD",
+ "sourcePage": "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/SB0008?ys=2026RS",
+ "docUrl": "https://mgaleg.maryland.gov/2026RS/Chapters_noln/CH_445_sb0008t.pdf",
+ "docFormat": "pdf",
+ "version": "Chaptered",
+ "rawFile": "texts/raw/md-sb-8.pdf",
+ "txtFile": "texts/md-sb-8.txt",
+ "chars": 18450,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3438435 (Chaptered 2026-05-18)"
+}

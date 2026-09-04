@@ -1,0 +1,15 @@
+{
+ "id": "TN HB 1951",
+ "slug": "tn-hb-1951",
+ "state": "TN",
+ "sourcePage": "https://wapp.capitol.tn.gov/apps/Billinfo/Default?BillNumber=HB1951&ga=114",
+ "docUrl": "https://publications.tnsosfiles.com/acts/114/pub/pc1098.pdf",
+ "docFormat": "pdf",
+ "version": "Chaptered",
+ "rawFile": "texts/raw/tn-hb-1951.pdf",
+ "txtFile": "texts/tn-hb-1951.txt",
+ "chars": 1664,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3441625 (Chaptered 2026-05-26)"
+}

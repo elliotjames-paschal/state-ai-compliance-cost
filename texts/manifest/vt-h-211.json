@@ -1,0 +1,15 @@
+{
+ "id": "VT H 211",
+ "slug": "vt-h-211",
+ "state": "VT",
+ "sourcePage": "https://legislature.vermont.gov/bill/status/2026/H.211",
+ "docUrl": "https://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT138/ACT138%20As%20Enacted.pdf",
+ "docFormat": "pdf",
+ "version": "Chaptered",
+ "rawFile": "texts/raw/vt-h-211.pdf",
+ "txtFile": "texts/vt-h-211.txt",
+ "chars": 54390,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3449209 (Chaptered 2026-06-18)"
+}

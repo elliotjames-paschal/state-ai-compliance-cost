@@ -1,0 +1,15 @@
+{
+ "id": "TN SB 1580",
+ "slug": "tn-sb-1580",
+ "state": "TN",
+ "sourcePage": "https://wapp.capitol.tn.gov/apps/Billinfo/Default?BillNumber=SB1580&ga=114",
+ "docUrl": "https://publications.tnsosfiles.com/acts/114/pub/pc0647.pdf",
+ "docFormat": "pdf",
+ "version": "Chaptered",
+ "rawFile": "texts/raw/tn-sb-1580.pdf",
+ "txtFile": "texts/tn-sb-1580.txt",
+ "chars": 1960,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3411949 (Chaptered 2026-04-06)"
+}

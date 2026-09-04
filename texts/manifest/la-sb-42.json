@@ -1,0 +1,15 @@
+{
+ "id": "LA SB 42",
+ "slug": "la-sb-42",
+ "state": "LA",
+ "sourcePage": "https://www.legis.la.gov/legis/BillInfo.aspx?s=26rs&b=SB42&sbi=y",
+ "docUrl": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1481251",
+ "docFormat": "pdf",
+ "version": "Chaptered",
+ "rawFile": "texts/raw/la-sb-42.pdf",
+ "txtFile": "texts/la-sb-42.txt",
+ "chars": 2841,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3448572 (Chaptered 0000-00-00)"
+}

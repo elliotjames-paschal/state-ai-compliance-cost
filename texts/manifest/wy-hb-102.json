@@ -1,0 +1,15 @@
+{
+ "id": "WY HB 102",
+ "slug": "wy-hb-102",
+ "state": "WY",
+ "sourcePage": "https://www.wyoleg.gov/Legislation/2026/HB0102",
+ "docUrl": "https://www.wyoleg.gov/2026/Enroll/HB0102.pdf",
+ "docFormat": "pdf",
+ "version": "Enrolled",
+ "rawFile": "texts/raw/wy-hb-102.pdf",
+ "txtFile": "texts/wy-hb-102.txt",
+ "chars": 13353,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3387460 (Enrolled 2026-03-06)"
+}

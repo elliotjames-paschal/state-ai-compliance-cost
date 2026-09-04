@@ -1,0 +1,257 @@
+Enrolled Copy S.B. 256
+1 Identity Protection Modifications
+2026 GENERAL SESSION
+STATE OF UTAH
+Chief Sponsor: Kirk A. Cullimore
+House Sponsor: Jordan D. Teuscher
+2  
+3 LONG TITLE
+4 General Description:
+5 This bill amends provisions related to libel and slander to address artificial intelligence and
+6 digitally manipulated content.
+7 Highlighted Provisions:
+8 This bill:
+9 ▸ defines terms;
+10 ▸ clarifies that defamation law applies to content created through artificial intelligence or
+11  other technological means;
+12 ▸ requires notice to a publisher before filing a defamation action based on digitally created
+13  content;
+14 ▸ limits recovery to actual damages if the publisher removes the content within 10 days
+15  after receiving notice;
+16 ▸ establishes an exclusive right to consent to the use of an individual's personal identity;
+17 ▸ expands the definition of abuse of personal identity to include unauthorized distribution
+18  and trafficking in identity-replication tools;
+19 ▸ provides exemptions for certain uses of personal identity; and
+20 ▸ makes technical and conforming changes.
+21 Money Appropriated in this Bill:
+22 None
+23 Other Special Clauses:
+24 None
+25 Utah Code Sections Affected:
+26 AMENDS:
+27 45-3-2, as last amended by Laws of Utah 2025, Chapter 472
+S.B. 256 Enrolled Copy
+28 45-3-3, as last amended by Laws of Utah 2025, Chapter 472
+29 45-3-4, as last amended by Laws of Utah 2025, Chapter 472
+30 45-3-5, as last amended by Laws of Utah 2025, Chapter 472
+31 45-3-6, as enacted by Laws of Utah 1981, Chapter 95
+32 45-3-7, as enacted by Laws of Utah 2025, Chapter 472
+33 ENACTS:
+34 45-2-3.5, Utah Code Annotated 1953
+35 45-2-14, Utah Code Annotated 1953
+36  
+37 Be it enacted by the Legislature of the state of Utah:
+38 Section 1.  Section 45-2-3.5 is enacted to read:
+39 45-2-3.5 . Artificially generated content.
+40 (1)  As used in this section, "generative artificial intelligence" means the same as that term is
+41 defined in Section 45-3-2.
+42 (2)  It is not a defense to a claim of libel or slander that the communication:
+43 (a)  was created through generative artificial intelligence, computer animation, digital
+44 manipulation, or any other technological means; or
+45 (b)  uses simulated or recreated content rather than actual recordings or images of an
+46 individual.
+47 Section 2.  Section 45-2-14 is enacted to read:
+48 45-2-14 . Notice before filing action -- Effect of removal.
+49 (1)  As used in this section:
+50 (a)  "Digitally created content" means content created through generative artificial
+51 intelligence, computer animation, digital manipulation, or other technological means.
+52 (b)  "Generative artificial intelligence" means the same as that term is defined in Section
+53 45-3-2.
+54 (2)  Before filing an action under this chapter for libel or slander based on digitally created
+55 content, an individual shall provide written notice to the person who published or caused
+56 the publication of the allegedly defamatory content.
+57 (3)  The individual shall ensure the notice described in Subsection (2):
+58 (a)  specifies the content claimed to be defamatory and the location where the content
+59 appears;
+60 (b)  explains why the content is false and defamatory; and
+61 (c)  is delivered by certified mail or by electronic means that provide proof of receipt.
+- 2 -
+Enrolled Copy S.B. 256
+62 (4)  In an action brought under this chapter, an individual may recover only actual damages
+63 if the person who published or caused the publication of the digitally created content
+64 removes the content within 10 days after the day on which the person receives notice
+65 under Subsection (2).
+66 (5)  This section may not be construed to impose liability on an interactive computer service
+67 as defined in 47 U.S.C. Sec. 230.
+68 Section 3.  Section 45-3-2 is amended to read:
+69 45-3-2 . Definitions.
+70       As used in this [act] chapter:
+71 (1)  "Advertisement" means a notice designed to attract public attention or patronage and
+72 includes a list of supporters for a particular cause.
+73 (2)  "Cause the publication" means:
+74 (a)  that a person:
+75 (i)  prepares or requests another to prepare:
+76 (A)  an advertisement of the type described in Subsection [45-3-3(1)] 45-3-3(2)(a);
+77 or
+78 (B)  content that uses, simulates, or recreates an individual's personal identity; and
+79 (ii)  submits or requests another to submit the advertisement or content for
+80 publication; and
+81 (b)  the advertisement or content has been published.
+82 (3)(a)  "Consent" means an individual's voluntary agreement to the use of that
+83 individual's personal identity.
+84 (b)  "Consent" may not be inferred by the failure of the individual to request that the
+85 individual's personal identity not be used or that the individual's name be removed
+86 from a mailing or supporter list.
+87 (4)  "Content" means audio, video, image, text, or other media, regardless of format.
+88 (5)  "Generative artificial intelligence" means an artificial intelligence technology system
+89 that:
+90 (a)  is trained on data;
+91 (b)  responds to human input; and
+92 (c)  is capable of generating content similar to content created by a human, with limited
+93 or no human involvement in the generation.
+94 [(b)  is designed to simulate human conversation with a consumer through one or more of
+95 the following:]
+- 3 -
+S.B. 256 Enrolled Copy
+96 [(i)  text;]
+97 [(ii)  audio; or]
+98 [(iii)  visual communication; and]
+99 [(c)  generates non-scripted outputs similar to outputs created by a human, with limited
+100 or no human oversight.]
+101 (6)  "Individual" means a natural person, living or dead.
+102 (7)  "Person" means any natural person, firm, partnership, association, corporation, joint
+103 venture, or any other form of business organization or arrangement, and the agents or
+104 representatives of such persons.
+105 (8)(a)  "Personal identity" means an individual's:
+106 [(i)  name; ]
+107 [(ii)  title; ]
+108 [(iii)] (i)  picture;
+109 [(iv)] (ii)  portrait;
+110 [(v)] (iii)  visual or video likeness;
+111 [(vi)] (iv)  voice; or
+112 [(vii)] (v)  audiovisual appearance.
+113 (b)  "Personal identity" includes any simulation, reproduction, or artificial recreation of
+114 the content described in Subsection (8)(a), whether created through:
+115 (i)  generative artificial intelligence;
+116 (ii)  computer animation;
+117 (iii)  digital manipulation; or
+118 (iv)  any other technological means.
+119 (9)  "Publish" means that a person provides the instrumentality through which an
+120 advertisement or content is communicated to [the public at large or to a significant
+121 portion thereof] another person.
+122 (10)  "Right holder" means the individual or a person to whom the individual's right in the
+123 individual's personal identity has descended or been transferred, including an executor,
+124 successor, heir, assignee, licensee, or devisee of the individual.
+125 [(10)] (11)  "Voice" means a computer-generated sound in a medium that is readily
+126 identifiable and attributable to a particular individual, regardless of whether the sound
+127 contains the actual voice of the individual.
+128 Section 4.  Section 45-3-3 is amended to read:
+129 45-3-3 . Acts constituting abuse -- Permitting prosecution.
+- 4 -
+Enrolled Copy S.B. 256
+130 (1)(a)  Subject to other provisions of this chapter, each individual has the exclusive right
+131 to consent to the use of the individual's personal identity.
+132 (b)  The right described in Subsection (1)(a):
+133 (i)  includes a replication right, in which only the individual or right holder may
+134 consent to the use of the individual's personal identity in a simulation,
+135 reproduction, or artificial recreation of the individual's personal identity;
+136 (ii)  is licensable but not assignable during the life of the individual;
+137 (iii)  does not expire until 70 years after the death of the individual;
+138 (iv)  upon the death of the individual:
+139 (A)  is descendible to the individual's executors, successors, heirs, assignees,
+140 licensees, or devisees; and
+141 (B)  is transferable to a right holder by any means of conveyance or operation of
+142 law for up to 70 years after the death of the individual; and
+143 (v)  in the case of an individual who died before May 6, 2026, applies retroactively for
+144 up to 70 years before May 6, 2026, and vests in the executors, successors, heirs,
+145 assignees, or devisees of the individual.
+146 (2)  Except for purposes of the criminal penalty in Section 76-12-304, the personal identity
+147 of an individual is abused if:
+148 (a)(i)  content containing the personal identity of an individual is used for purposes of:
+149 (A)  advertising products, merchandise, goods, or services;
+150 (B)  fundraising;
+151 (C)  solicitation of donations; or
+152 (D)  purchases of products, merchandise, goods, or services;
+153 [(ii)  the use:]
+154 [(A)  expresses or implies that the individual approves, endorses, has endorsed, or
+155 will endorse the specific subject matter;]
+156 [(B)  creates a likelihood of confusion as to the participation, association, or
+157 connection of the individual; or]
+158 [(C)  creates a false impression that the individual participated in or approved the
+159 use; and]
+160 [(iii)] (ii)  consent has not been obtained from the individual[.] ;
+161 (b)  a person publishes, performs, distributes, transmits, or otherwise makes available to
+162 another person an individual's personal identity with actual knowledge that the use
+163 was not authorized:
+- 5 -
+S.B. 256 Enrolled Copy
+164 (i)  by the individual, if the individual is living;
+165 (ii)  by the individual's legal guardian, if the individual is a minor; or
+166 (iii)  by the individual's executors, successors, heirs, assignees, licensees, or devisees,
+167 if the individual has been deceased for up to 70 years; or
+168 [(b)] (c)  the person knowingly distributes, sells, or licenses any technology, software, or
+169 tool whose intended primary purpose is the unauthorized creation or modification of
+170 content that includes an individual's personal identity[ for commercial purposes].
+171 [(2)] (3)  Nothing in this [part] chapter prohibits prosecution of abuse of personal identity
+172 under Section 76-12-304.
+173 [(3)] (4)  The personal identity of an individual is not abused if the individual's personal data
+174 or publicly available information:
+175 (a)  was lawfully obtained;
+176 (b)  is used to preview, advertise, or promote the sale of a product, service, or
+177 subscription, including the sale of a product, service, or subscription of which the
+178 individual's personal data or publicly available information is or may be a part; and
+179 (c)  is not used in a way that expresses or implies that the individual approves, endorses,
+180 has endorsed, or will endorse the product, service, or subscription being previewed,
+181 advertised, or promoted.
+182 (5)  The personal identity of an individual is not abused under Subsection (2)(b) if the
+183 publication, performance, distribution, transmission, or other disclosure of the personal
+184 identity is accompanied by a clear and conspicuous disclosure that the content is a
+185 simulation or artificial recreation of the individual.
+186 Section 5.  Section 45-3-4 is amended to read:
+187 45-3-4 . Cause of action for abuse -- Remedies.
+188 (1)  An individual whose personal identity has been abused under Section 45-3-3 of this [act] 
+189 chapter, or a right holder of that individual, may bring an action against a person who
+190 caused the publication of the advertisement or content[,] .
+191 (2)  [ and is entitled to] Upon prevailing in an action under this section, the court may award
+192 to the plaintiff injunctive relief, damages alleged and proved, exemplary damages, and
+193 reasonable [attorney's] attorney fees and costs.
+194 Section 6.  Section 45-3-5 is amended to read:
+195 45-3-5 . Action against publisher -- Grounds -- Remedies.
+196 (1)  An individual whose personal identity has been abused under Section 45-3-3 of this [act] 
+197 chapter, or a right holder of that individual, may bring an action against a person who
+- 6 -
+Enrolled Copy S.B. 256
+198 published the advertisement or content:
+199 (a)  if the advertisement or content, on its face is such that a reasonable person would
+200 conclude that it is unlikely that an individual would consent to such use; and
+201 (b)  if the publisher did not take reasonable steps to [assure] ensure that consent was
+202 obtained.
+203 (2)  [In] Upon prevailing in an action under this section, [the plaintiff shall be entitled to] the
+204 court may award to the plaintiff injunctive relief, damages alleged and proved,
+205 exemplary damages, and reasonable [attorney's] attorney fees and costs.
+206 Section 7.  Section 45-3-6 is amended to read:
+207 45-3-6 . Other remedies unaffected.
+208       This [act] chapter does not limit or supersede any causes of action otherwise available to
+209 the parties.
+210 Section 8.  Section 45-3-7 is amended to read:
+211 45-3-7 . Exemptions.
+212 (1)  A person does not violate Section 45-3-3 or Section 45-3-4 if the person uses an
+213 individual's personal identity in:
+214 (a)  connection with a news, public affairs, or sports broadcast, including the promotion
+215 of and advertising for a sports broadcast[,]  or an account of public interest[, or a
+216 political campaign];
+217 (b)  a representation of the individual as the individual in a documentary or in a historical
+218 or biographical work, unless the representation creates the false impression that the
+219 representation is or comprises the authentic participation of the individual;
+220 [(b)  a play, book, magazine, newspaper, musical composition, visual work, work of art,
+221 audiovisual work, radio or television program if it is fictional or nonfictional
+222 entertainment, or a dramatic, literary, or musical work;]
+223 (c)  a work of political, public interest, or newsworthy value, including a comment,
+224 criticism, parody, satire, scholarship, or a transformative creation of a work of
+225 authorship;
+226 (d)  fleeting or incidental uses; or
+227 [(d)] (e)  an advertisement or commercial announcement for a work described in this
+228 Subsection (1).
+229 (2)  The use of personal identity in a commercial medium does not constitute a use for
+230 purposes of advertising or solicitation solely because the material containing such use is
+231 commercially sponsored or contains paid advertising.
+- 7 -
+S.B. 256 Enrolled Copy
+232 (3)  This [part] chapter may not apply to, and nothing in this [part] chapter may be construed
+233 to impose liability or culpability on, an interactive computer service, as defined in 47
+234 U.S.C. 230(f)(2), for content provided by another person.
+235 (4)  Nothing in this chapter is intended to abrogate or narrow any claim or defense available
+236 under any other statute or under the common law.
+237 Section 9.  Effective Date.
+238 This bill takes effect on May 6, 2026.
+- 8 -

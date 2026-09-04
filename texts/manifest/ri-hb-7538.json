@@ -1,0 +1,15 @@
+{
+ "id": "RI HB 7538",
+ "slug": "ri-hb-7538",
+ "state": "RI",
+ "sourcePage": "https://status.rilegislature.gov/",
+ "docUrl": "https://webserver.rilegislature.gov/BillText26/HouseText26/H7538A.pdf",
+ "docFormat": "pdf",
+ "version": "Comm Sub",
+ "rawFile": "texts/raw/ri-hb-7538.pdf",
+ "txtFile": "texts/ri-hb-7538.txt",
+ "chars": 2751,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3447227 (Comm Sub 2026-06-09)"
+}

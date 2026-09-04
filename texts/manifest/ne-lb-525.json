@@ -1,0 +1,15 @@
+{
+ "id": "NE LB 525",
+ "slug": "ne-lb-525",
+ "state": "NE",
+ "sourcePage": "https://nebraskalegislature.gov/bills/view_bill.php?DocumentID=59601",
+ "docUrl": "https://nebraskalegislature.gov/FloorDocs/109/PDF/Slip/LB525.pdf",
+ "docFormat": "pdf",
+ "version": "Chaptered",
+ "rawFile": "texts/raw/ne-lb-525.pdf",
+ "txtFile": "texts/ne-lb-525.txt",
+ "chars": 33014,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3421062 (Chaptered 2026-04-17)"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "UT SB 319",
+ "slug": "ut-sb-319",
+ "state": "UT",
+ "sourcePage": "https://le.utah.gov/~2026/bills/static/SB0319.html",
+ "docUrl": "https://le.utah.gov/Session/2026/bills/enrolled/SB0319.pdf",
+ "docFormat": "pdf",
+ "version": "Enrolled",
+ "rawFile": "texts/raw/ut-sb-319.pdf",
+ "txtFile": "texts/ut-sb-319.txt",
+ "chars": 18739,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3391434 (Enrolled 2026-03-11)"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "OR HB 4018",
+ "slug": "or-hb-4018",
+ "state": "OR",
+ "sourcePage": "https://olis.oregonlegislature.gov/liz/2026R1/Measures/Overview/HB4018",
+ "docUrl": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4018/Enrolled",
+ "docFormat": "pdf",
+ "version": "Enrolled",
+ "rawFile": "texts/raw/or-hb-4018.pdf",
+ "txtFile": "texts/or-hb-4018.txt",
+ "chars": 175717,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3386675 (Enrolled 0000-00-00)"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "GA SB 540",
+ "slug": "ga-sb-540",
+ "state": "GA",
+ "sourcePage": "https://www.legis.ga.gov/legislation/73452",
+ "docUrl": "https://www.legis.ga.gov/api/legislation/document/20252026/248169",
+ "docFormat": "pdf",
+ "version": "Enrolled",
+ "rawFile": "texts/raw/ga-sb-540.pdf",
+ "txtFile": "texts/ga-sb-540.txt",
+ "chars": 13275,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3408227 (Enrolled 2026-03-31)"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "CA AB 2148",
+ "slug": "ca-ab-2148",
+ "state": "CA",
+ "sourcePage": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB2148",
+ "docUrl": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2148#95CHP",
+ "docFormat": "html",
+ "version": "Chaptered",
+ "rawFile": "texts/raw/ca-ab-2148.html",
+ "txtFile": "texts/ca-ab-2148.txt",
+ "chars": 1872,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3451707 (Chaptered 2026-06-30)"
+}

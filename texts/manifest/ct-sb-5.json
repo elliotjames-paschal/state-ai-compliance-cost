@@ -1,0 +1,15 @@
+{
+ "id": "CT SB 5",
+ "slug": "ct-sb-5",
+ "state": "CT",
+ "sourcePage": "https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=SB00005&which_year=2026",
+ "docUrl": "https://www.cga.ct.gov/2026/ACT/PA/PDF/2026PA-00015-R00SB-00005-PA.PDF",
+ "docFormat": "pdf",
+ "version": "Chaptered",
+ "rawFile": "texts/raw/ct-sb-5.pdf",
+ "txtFile": "texts/ct-sb-5.txt",
+ "chars": 143976,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3434382 (Chaptered 2026-05-11)"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "MA H 5555",
+ "slug": "ma-h-5555",
+ "state": "MA",
+ "sourcePage": "https://malegislature.gov/Bills/194/H5555",
+ "docUrl": "https://malegislature.gov/Bills/194/H5555.pdf",
+ "docFormat": "pdf",
+ "version": "Introduced",
+ "rawFile": "texts/raw/ma-h-5555.pdf",
+ "txtFile": "texts/ma-h-5555.txt",
+ "chars": 1427445,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3451620 (Introduced 2026-07-01)"
+}

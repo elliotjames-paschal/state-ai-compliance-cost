@@ -1,0 +1,211 @@
+ENROLLED
+ACT No. 8062026 Regular Session
+HOUSE BILL NO. 459
+BY REPRESENTATIVES MANDIE LANDRY AND DOMANGUE
+1 AN ACT
+2 To amend and reenact R.S. 18:1463(A), (F), and (G), 1483(7)(a)(iii), (b)(ii), and (c)(ii), (8),
+3 (11)(a) and (d)(ii), and 1501.1(A)(1), to enact R.S. 18:1463(H) and (I) and 1483(33),
+4 and to repeal R.S. 18:1463(C)(5), 1491.7(B)(22), and 1495.5(B)(21), relative to
+5 political campaigns; to provide for required disclosures in political materials and
+6 communications; to provide for disclosures related to the use of artificial intelligence
+7 to create the image or likeness of a candidate; to provide for criminal penalties; to
+8 provide for campaign finance reporting requirements of persons other than
+9 candidates and committees; to provide relative to contributions and expenditures
+10 related to electioneering communications; to provide relative to coordinated
+11 expenditures; to provide for definitions; to provide for effectiveness; and to provide
+12 for related matters.
+13 Be it enacted by the Legislature of Louisiana:
+14 Section 1. R.S. 18:1463(A), (F), and (G), 1483(7)(a)(iii), (b)(ii), and (c)(ii), (8),
+15 (11)(a) and (d)(ii), and 1501.1(A)(1) are hereby amended and reenacted and R.S. 18:1463(H)
+16 and (I) and 1483(33) are hereby enacted to read as follows:
+17 §1463.  Political material; ethics; prohibitions
+18 A.  The Legislature of Louisiana finds that the state has a compelling interest
+19 in taking every necessary step to assure that all elections are held in a fair and ethical
+20 manner and finds that an election cannot be held in a fair and ethical manner when
+21 any candidate or other person is allowed to print or distribute any material which
+22 falsely alleges that a candidate is supported by or affiliated with another candidate,
+23 group of candidates, or other person, or a political faction, or to publish statements
+Page 1 of 7
+CODING:  Words in struck through type are deletions from existing law; words underscored
+are additions.
+HB NO. 459 ENROLLED
+1 that make scurrilous, false, or irresponsible adverse comments about a candidate or
+2 a proposition.  The legislature further finds that the state has a compelling interest
+3 to protect the electoral process and that the people have an interest in knowing the
+4 identity of each candidate whose number appears on a sample ballot in order to be
+5 fully informed and to exercise their right to vote for a candidate of their choice.  The
+6 legislature further finds that it is essential to the protection of the electoral process
+7 that the people be able to know who is responsible for publications in order to more
+8 properly evaluate the statements contained in them and to informatively exercise
+9 their right to vote.  The legislature further finds that it is essential to the protection
+10 of the electoral process to prohibit misrepresentation that a person, committee, or
+11 organization speaks, writes, or acts on behalf of a candidate, political committee, or
+12 political party, or an agent or employee thereof.  The legislature further finds that it
+13 is essential to the protection of the electoral process that the public not be deceived
+14 or misled by an image, likeness, or voice of a candidate or elected official subject to
+15 recall that is created using artificial intelligence.
+16 *          *          *
+17 F.(1)  No person shall make or cause to be made any electioneering
+18 communication that portrays a candidate or an elected official subject to recall and
+19 that is, through the use of artificial intelligence, created, altered, or digitally
+20 manipulated in a manner that would falsely appear to a reasonable observer to be an
+21 authentic record of the actual speech or conduct of a candidate or an elected official
+22 subject to recall and that would falsely appear to replace an individual's likeness with
+23 the likeness of a candidate or an elected official subject to recall without providing
+24 a clear and understandable disclosure on the electioneering communication that it
+25 was created using artificial intelligence. The form of the disclosure shall be
+26 consistent with the disclosure requirements of Subsection (E) of this Section.
+27 (2)  For purposes of this Subsection, the following terms have the following
+28 meanings:
+29 (a)  "Artificial intelligence" shall have the same meaning as provided in R.S.
+30 14:73.14.
+Page 2 of 7
+CODING:  Words in struck through type are deletions from existing law; words underscored
+are additions.
+HB NO. 459 ENROLLED
+1 (b)  "Candidate" shall have the same meaning as provided in R.S. 18:1483.
+2 G.F.  For the purposes of this Section, the following terms have the following
+3 meanings: term "digital 
+4 (1)  "Digital material" means any material or communication that, for a fee
+5 or other payment, is placed or promoted on a public facing website, web application,
+6 or digital application, including a social network, advertising network, or search
+7 engine.
+8 (2)  "Electioneering communication" shall have the same meaning as
+9 provided in R.S. 18:1483."
+10 H. G.  Whoever violates any provision of this Section with the intent to injure
+11 the reputation of a candidate or elected official subject to recall or to otherwise
+12 deceive a voter shall be fined not more than two thousand dollars or be imprisoned,
+13 with or without hard labor, for not more than two years, or both.
+14 I.  The provisions of this Section shall not apply to a media entity that
+15 broadcasts a paid political announcement, advertisement, or electioneering 
+16 communication in which the broadcaster has had no input in or control over the 
+17 announcement, advertisement, or electioneering communication. As used in this 
+18 Subsection, the term "media entity" includes the same entities as provided in 
+19 R.S.18:1483(33).
+20 *          *          *
+21 §1483. Definitions
+22 As used in this Chapter, the following terms shall have the meanings given
+23 to each in this Section unless the context clearly indicates otherwise:
+24 *          *          *
+25 (7)(a) "Contribution", except as otherwise provided in this Chapter, means
+26 a gift, conveyance, payment, or deposit of money or anything of value, or the
+27 forgiveness of a loan or of a debt made to any of the following:
+28 *          *          *
+Page 3 of 7
+CODING:  Words in struck through type are deletions from existing law; words underscored
+are additions.
+HB NO. 459 ENROLLED
+1 (iii) Any person for the purpose of funding an expenditure to influence the
+2 nomination or election of a person to public office, whether made before or after the
+3 an election.
+4 *          *          *
+5 (b) "Contribution" shall also include, without limitation:
+6 *          *          *
+7 (ii) Coordinated expenditures, which made for the purpose of supporting,
+8 opposing, or otherwise influencing the nomination or election of the candidate and
+9 shall be considered to be a contribution to such the candidate, the principal campaign
+10 committee, or the subsidiary committee thereof that, directly or through an agent,
+11 cooperated with, consulted with, or acted in concert with the creator or disseminator
+12 of or requested or suggested the creation or dissemination of the electioneering
+13 communication.
+14 *          *          *
+15 (c) "Contribution" shall not include:
+16 *          *          *
+17 (ii) Any dues or membership fees of any membership organization or
+18 corporation made by its members or stockholders, if such membership organization
+19 or corporation is not organized primarily for the purpose of supporting, opposing or
+20 otherwise influencing the nomination for election, or election, of any person to
+21 public office making expenditures for electioneering communications. However, any
+22 funds of such an organization or corporation used for the purpose of contributions
+23 to candidates or committees or to publicly advocate support or defeat of a candidate
+24 or for expenditures as defined in this Chapter expenditures for electioneering
+25 communications shall be reportable and all contributions made by such membership
+26 organization or corporation which are otherwise reportable under the provisions of
+27 this Chapter shall be reported.
+28 *          *          *
+29 (8) "Coordinated expenditure" means an expenditure made by any person in
+30 cooperation, consultation, or concert with, or at the request or suggestion of, a
+Page 4 of 7
+CODING:  Words in struck through type are deletions from existing law; words underscored
+are additions.
+HB NO. 459 ENROLLED
+1 candidate, his principal campaign committee or a subsidiary committee thereof, or
+2 their agents for the purpose of supporting, opposing, or otherwise influencing the
+3 nomination or election of the candidate of expenditures for electioneering
+4 communications.
+5 *          *          *
+6 (11)(a) "Expenditure" means a purchase, payment, advance, deposit, or gift,
+7 of money or anything of value made for a purpose provided for in R.S. 18:1501.1(A)
+8 or 1505.2(I) by a candidate or committee. For a person other than a candidate or
+9 committee, "expenditure" means a purchase, payment, advance, deposit, or gift, of
+10 money or anything of value made for an electioneering communication.
+11 *          *          *
+12 (d) "Expenditure" shall not include:
+13 *          *          *
+14 (ii) Any communication, including an electioneering communication, by any
+15 membership organization or business entity to its employees, members, directors, or
+16 stockholders, or their family members, if such membership organization or business
+17 entity is not organized primarily for the purpose of supporting, opposing, or
+18 otherwise influencing the nomination for election, or election, of any person to
+19 public office or for the purpose of supporting or opposing a proposition or question
+20 to be submitted to the voters making electioneering communications. All other
+21 expenditures made by such membership organization or business entity which are
+22 otherwise reportable under the provisions of this Chapter shall be reported. For
+23 purposes of this definition, business entity means any proprietorship, partnership,
+24 corporation, or other legal entity, including their subsidiaries.
+25 *          *          *
+26 (33)(a)  "Electioneering communication" means any communication, whether
+27 printed, digital, or broadcast by a media entity, that meets either of the following:
+28 (i) Contains express advocacy supporting or opposing the nomination or
+29 election of a person to public office, the recall of a public official, or a proposition
+30 or question submitted to the voters.
+Page 5 of 7
+CODING:  Words in struck through type are deletions from existing law; words underscored
+are additions.
+HB NO. 459 ENROLLED
+1 (ii) The only reasonable conclusion to be drawn from the presentation,
+2 content, and context of the communication is that it is intended to appeal for a vote
+3 in a specific election for or against a specific candidate or for or against the recall of
+4 a specific elected official or a proposition or for or against a question submitted to
+5 the voters. Consideration of the context of a communication shall include the
+6 temporal proximity to the specific election, whether the communication is primarily
+7 directed to voters in the specific election, and whether the communication is part of
+8 a larger campaign of communication regarding an issue other than the specific
+9 election.
+10 (b)  For purposes of this Paragraph, "media entity" includes a radio broadcast
+11 station, television broadcast station, cable or satellite television company, or other
+12 video service provider, streaming video provider, newspaper company, periodical
+13 company, billboard company, advertisement agency, or media platform responsible
+14 for the production or publication of any advertisement, voice, data, or other
+15 communications, information services, or internet access provider, or bona fide news
+16 or public interest website operator.
+17 *          *          *
+18 §1501.1. Reports by persons not candidates or committees
+19 A.(1) Any person, other than a candidate or a committee, who makes any
+20 expenditure for express advocacy supporting or opposing the nomination or election
+21 of a person to public office, the recall of a public official, or a proposition or
+22 question submitted to the voters, or for a communication for which the only
+23 reasonable conclusion to be drawn from the presentation and content is that it is
+24 intended to appeal to vote for or against a specific candidate or for or against the
+25 recall of a specific elected official or a proposition or question submitted to the
+26 voters an electioneering communication shall file reports if such expenditures exceed
+27 one thousand dollars in the aggregate during the aggregating period as defined for
+28 committees.
+29 *          *          *
+Page 6 of 7
+CODING:  Words in struck through type are deletions from existing law; words underscored
+are additions.
+HB NO. 459 ENROLLED
+1 Section 2. R.S. 18:1463(C)(5), 1491.7(B)(22), and 1495.5(B)(21) are hereby
+2 repealed.
+3 Section 3. The Louisiana State Law Institute is authorized and directed to
+4 arrange in alphabetical order and renumber definitions contained in R.S. 18:1483 and
+5 to correct any cross-references to the renumbered paragraphs if necessary, consistent
+6 with the provisions of this Act.
+SPEAKER OF THE HOUSE OF REPRESENTATIVES
+PRESIDENT OF THE SENATE
+GOVERNOR OF THE STATE OF LOUISIANA
+APPROVED:  
+Page 7 of 7
+CODING:  Words in struck through type are deletions from existing law; words underscored
+are additions.

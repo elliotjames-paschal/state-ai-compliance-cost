@@ -1,0 +1,213 @@
+HOUSE OF REPRESENTATIVES
+H.B. NO.
+2137
+THIRTY-THIRD LEGISLATURE, 2026
+H.D. 3
+STATE OF HAWAII
+S.D. 2
+C.D. 1
+A BILL FOR AN ACT
+RELATING TO ARTIFICIAL INTELLIGENCE
+.
+BE IT
+ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII:
+SECTION
+1.
+The legislature finds that deepfake
+technology enables the realistic digital imitation of an individual's voice,
+face, likeness, and performance.
+The
+legislature further finds that malicious uses of deepfake technology have been
+documented in identity theft, fraud, election interference, cyberbullying, and
+non-consensual pornography.
+Victims
+often face reputational, financial, and emotional harm, with detection rates
+for the use of deepfake imitations as low as sixty-two per cent even among experts.
+The
+legislature additionally finds that federal law addresses limited scenarios of
+the malicious use of deepfake technology, including explicit content targeting
+minors, but leaves broad gaps in consumer and reputational protection.
+Furthermore, the legislature finds that the
+State has a compelling interest in preventing fraud, identity theft,
+defamation, and emotional distress while also protecting lawful speech.
+Moreover, the legislature finds that it is
+important to protect Hawaii residents from identity-based harm caused by the
+malicious use of artificial intelligence (AI) while safeguarding constitutional
+rights to free expression, parody, satire, and journalism.
+Therefore,
+the purpose of this Act is to:
+(1)
+Prohibit certain harmful uses of AI-generated personal
+likenesses; and
+(2)
+Provide civil remedies for individuals injured
+by unauthorized AI-generated realistic digital imitations.
+SECTION
+2.
+The Hawaii Revised Statutes is
+amended by adding a new chapter to be appropriately designated and to read as
+follows:
+"
+Chapter
+ARTIFICIAL
+INTELLIGENCE; DIGITAL IMITATION; PERSONAL LIKENESS; PROTECTIONS
+   -1
+Definitions.
+As used in this chapt
+er:
+"Advertisement"
+means a message published in any medium with the primary purpose of promoting,
+directly or indirectly, a product, service, or commercial transaction.
+"Artificial
+intelligence" or "AI" means a machine-based system that can, for
+a given set of human-defined objectives, make predictions, recommendations, or
+decisions influencing real or virtual environments, and that uses machine and human-based
+inputs to:
+(1)
+Perceive real and virtual environments;
+(2)
+Abstract perceptions of real and virtual
+environments into models through analysis in an automated manner; and
+(3)
+Use model inference to formulate opinions for
+information or action.
+"Consent"
+means express, written permission from a depicted individual or the depicted
+individual's authorized representative.
+"Digital
+imitation" means any highly realistic AI-generated depiction, audio, or
+video that is derived from or based upon identifying characteristics of an
+actual, particular individual and portrays that individual's voice, face, or
+likeness in a sound recording or audiovisual work in which the individual did
+not actually perform or appear.
+"Harm"
+includes reputational injury, financial loss, emotional distress, or the
+misappropriation of identity for commercial gain.
+"Publish"
+means to display, present, or release to the public, or cause to be displayed,
+presented, or released to the public.
+"Realistic"
+means so lifelike that a reasonable person would believe that the depiction,
+audio, or video portraying an actual, particular individual's voice, face, or
+likeness is authentic.
+   -2
+Prohibited acts.
+It shall be unlawful for any person to
+knowingly publish a realistic digital imitation of an identifiable individual
+without that individual's consent if the imitation:
+(1)
+Is used in connection with an advertisement;
+(2)
+Causes harm; or
+(3)
+Is used to commit fraud, defamation,
+harassment, or other criminal acts.
+   -3
+Exemptions.
+This chapter shall not apply to content
+generated or altered by artificial intelligence that is:
+(1)
+A form of parody, satire, commentary,
+criticism, scholarship, or political or educational expression;
+(2)
+News reporting, where the content generated or
+altered by artificial intelligence is used to illustrate a story;
+(3)
+A representation of the applicable individual
+as the individual in a documentary or in a historical or biographical manner,
+including some degree of fictionalization; and
+(4)
+An advertisement or commercial announcement
+for content described in paragraphs (1) through (3); provided that the
+applicable digital imitation is relevant to the subject of the work so
+advertised or announced.
+   -4
+Civil actions; civil remedies.
+(a)
+If:
+(1)
+A realistic digital imitation of an individual
+is published in violation of section    -2 without the
+individual's consent; and
+(2)
+The realistic digital imitation is not
+exempted under section    -3,
+the individual or the individual's estate, for up to
+ten years after the death of the individual, may bring an action for civil
+remedies pursuant to subsection (b); provided that nothing in this section
+shall be construed to extend the period of limitation under chapter 657
+applicable to the action in this subsection.
+(b)
+In accordance with subsection (a), an
+individual or an individual's estate may bring a civil action for:
+(1)
+Injunctive relief, including an order to
+remove or cease distribution of the realistic digital imitation;
+(2)
+Monetary damages of up to $25,000 per
+advertisement or recovery of actual damages, including for reputational injury
+and emotional distress;
+(3)
+Punitive damages, where malice is proven; and
+(4)
+Reasonable attorneys' fees and court costs.
+(c)
+A cause of action for injunctive or other
+equitable relief may be brought by the attorney general in instances in which
+the distribution of realistic digital imitations involves broad public interest
+or widespread harm.
+This subsection
+shall not be construed to limit the right of an individual or individual's
+estate, if applicable, to bring a civil action pursuant to subsection (b).
+(d)
+This section shall not limit or preclude the 
+individual or individual's estate, if applicable, 
+from
+pursuing any other available remedy.
+   -5
+Application.
+(a)
+Except as provided in subsection (b), this chapter shall apply to the
+fullest extent permitted by federal law.
+(b)
+This chapter shall not apply to any medium
+used for the publication or dissemination of third-party content, including but
+not limited to newspapers, magazines, television networks and stations,
+streaming services, cable television systems, and transit advertisements, by
+whom any content in violation of this chapter is disseminated; provided that
+this exemption shall apply only to the medium's role in publishing or
+disseminating the third-party content and shall not be construed to exempt the
+underlying conduct regulated by this chapter.
+(c)
+Nothing in this chapter shall be construed to
+limit or expand the protections conferred by title 47 United States Code
+section 230 on an interactive computer service for content provided by another
+information content provider."
+SECTION 3.
+If any provision of this Act, or the
+application thereof to any person or circumstance, is held invalid, the
+invalidity does not affect other provisions or applications of the Act that can
+be given effect without the invalid provision or application, and to this end
+the provisions of this Act are severable.
+SECTION 4.
+This Act does not affect rights and duties
+that matured, penalties that were incurred, and proceedings that were begun
+before its effective date.
+SECTION 5.
+This Act shall take effect upon its approval.
+Report Title:
+Artificial
+Intelligence; Realistic Digital Imitations; Protections for Individuals
+Description:
+Prohibits
+certain harmful uses of realistic digital imitations generated by artificial
+intelligence (AI).
+Establishes certain
+exemptions.
+Provides for civil actions
+and civil remedies for individuals injured by unauthorized AI-generated
+realistic digital imitations.
+(CD1)
+The summary description
+of legislation appearing on this page is for informational purposes only and is
+not legislation or evidence of legislative intent.

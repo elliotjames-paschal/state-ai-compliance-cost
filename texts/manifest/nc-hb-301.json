@@ -1,0 +1,15 @@
+{
+ "id": "NC HB 301",
+ "slug": "nc-hb-301",
+ "state": "NC",
+ "sourcePage": "https://www.ncleg.gov/BillLookUp/2025/H301",
+ "docUrl": "https://www.ncleg.gov/Sessions/2025/Bills/House/PDF/H301v6.pdf",
+ "docFormat": "pdf",
+ "version": "Amended",
+ "rawFile": "texts/raw/nc-hb-301.pdf",
+ "txtFile": "texts/nc-hb-301.txt",
+ "chars": 29857,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3447596 (Amended 2026-06-10)"
+}

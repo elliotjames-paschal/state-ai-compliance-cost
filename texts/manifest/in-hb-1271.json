@@ -1,0 +1,15 @@
+{
+ "id": "IN HB 1271",
+ "slug": "in-hb-1271",
+ "state": "IN",
+ "sourcePage": "https://iga.in.gov/legislative/2026/bills/house/1271/details",
+ "docUrl": "https://iga.in.gov/pdf-documents/124/2026/house/bills/HB1271/HB1271.07.ENRS.pdf",
+ "docFormat": "pdf",
+ "version": "Enrolled",
+ "rawFile": "texts/raw/in-hb-1271.pdf",
+ "txtFile": "texts/in-hb-1271.txt",
+ "chars": 19789,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3377348 (Enrolled 2026-02-26)"
+}

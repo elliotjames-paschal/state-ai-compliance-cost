@@ -1,0 +1,15 @@
+{
+ "id": "LA SB 386",
+ "slug": "la-sb-386",
+ "state": "LA",
+ "sourcePage": "https://www.legis.la.gov/legis/BillInfo.aspx?s=26rs&b=SB386&sbi=y",
+ "docUrl": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1480202",
+ "docFormat": "pdf",
+ "version": "Chaptered",
+ "rawFile": "texts/raw/la-sb-386.pdf",
+ "txtFile": "texts/la-sb-386.txt",
+ "chars": 54186,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3445728 (Chaptered 0000-00-00)"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "WA HB 2225",
+ "slug": "wa-hb-2225",
+ "state": "WA",
+ "sourcePage": "https://app.leg.wa.gov/billsummary?BillNumber=2225&Year=2025&Initiative=false",
+ "docUrl": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/Session%20Laws/House/2225-S.SL.pdf",
+ "docFormat": "pdf",
+ "version": "Chaptered",
+ "rawFile": "texts/raw/wa-hb-2225.pdf",
+ "txtFile": "texts/wa-hb-2225.txt",
+ "chars": 11798,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3409264 (Chaptered 0000-00-00)"
+}

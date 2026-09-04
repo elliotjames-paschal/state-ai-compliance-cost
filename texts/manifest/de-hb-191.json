@@ -1,0 +1,15 @@
+{
+ "id": "DE HB 191",
+ "slug": "de-hb-191",
+ "state": "DE",
+ "sourcePage": "https://legis.delaware.gov/BillDetail?LegislationId=142752",
+ "docUrl": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=142752&legislationTypeId=1&docTypeId=2&legislationName=HB191",
+ "docFormat": "html",
+ "version": "Draft",
+ "rawFile": "texts/raw/de-hb-191.html",
+ "txtFile": "texts/de-hb-191.txt",
+ "chars": 2830,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3401401 (Draft 0000-00-00)"
+}

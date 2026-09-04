@@ -1,0 +1,15 @@
+{
+ "id": "MD HB 895",
+ "slug": "md-hb-895",
+ "state": "MD",
+ "sourcePage": "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/HB0895?ys=2026RS",
+ "docUrl": "https://mgaleg.maryland.gov/2026RS/Chapters_noln/CH_154_hb0895e.pdf",
+ "docFormat": "pdf",
+ "version": "Chaptered",
+ "rawFile": "texts/raw/md-hb-895.pdf",
+ "txtFile": "texts/md-hb-895.txt",
+ "chars": 16899,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3431464 (Chaptered 2026-05-05)"
+}

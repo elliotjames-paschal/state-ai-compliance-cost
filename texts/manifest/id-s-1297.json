@@ -1,0 +1,15 @@
+{
+ "id": "ID S 1297",
+ "slug": "id-s-1297",
+ "state": "ID",
+ "sourcePage": "https://legislature.idaho.gov/sessioninfo/2026/legislation/S1297/",
+ "docUrl": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/S1297.pdf",
+ "docFormat": "pdf",
+ "version": "Introduced",
+ "rawFile": "texts/raw/id-s-1297.pdf",
+ "txtFile": "texts/id-s-1297.txt",
+ "chars": 7137,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3362293 (Introduced 0000-00-00)"
+}

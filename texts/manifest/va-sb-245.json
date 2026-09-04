@@ -1,0 +1,15 @@
+{
+ "id": "VA SB 245",
+ "slug": "va-sb-245",
+ "state": "VA",
+ "sourcePage": "https://lis.virginia.gov/bill-details/20261/SB245",
+ "docUrl": "https://lis.virginia.gov/bill-details/20261/SB245/text/CHAP0338",
+ "docFormat": "html",
+ "version": "Chaptered",
+ "rawFile": "texts/raw/va-sb-245.html",
+ "txtFile": "texts/va-sb-245.txt",
+ "chars": 1626,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3416204 (Chaptered 2026-04-06)"
+}

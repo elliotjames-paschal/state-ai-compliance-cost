@@ -1,0 +1,25 @@
+ENROLLED
+ACT No. 6492026 Regular Session
+HOUSE BILL NO. 475
+BY REPRESENTATIVE BERAULT
+1 AN ACT
+2 To enact R.S. 37:22.1, relative to artificial intelligence; to require a healthcare professional
+3 to disclose to a patient the use of certain software; to provide for violations; and to
+4 provide for related matters.
+5 Be it enacted by the Legislature of Louisiana:
+6 Section 1. R.S. 37:22.1 is hereby enacted to read as follows: 
+7 §22.1.  Recordings; artificial intelligence; disclosure
+8 A.  A healthcare professional licensed by this Title shall verbally disclose the
+9 use of any recording device, software, or service to a patient before recording any
+10 part of an appointment or treatment to be transcribed by artificial intelligence.
+11 B.  Any healthcare professional who violates the provisions of this Section
+12 may be subject to disciplinary action by his professional licensing board and shall
+13 be immune from civil liability in the absence of gross negligence or willful
+14 misconduct.
+SPEAKER OF THE HOUSE OF REPRESENTATIVES
+PRESIDENT OF THE SENATE
+GOVERNOR OF THE STATE OF LOUISIANA
+APPROVED:  
+Page 1 of 1
+CODING:  Words in struck through type are deletions from existing law; words underscored
+are additions.

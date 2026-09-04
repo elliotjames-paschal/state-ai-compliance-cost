@@ -1,0 +1,15 @@
+{
+ "id": "WA HB 1170",
+ "slug": "wa-hb-1170",
+ "state": "WA",
+ "sourcePage": "https://app.leg.wa.gov/billsummary?BillNumber=1170&Year=2025&Initiative=false",
+ "docUrl": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/Session%20Laws/House/1170-S2.SL.pdf",
+ "docFormat": "pdf",
+ "version": "Chaptered",
+ "rawFile": "texts/raw/wa-hb-1170.pdf",
+ "txtFile": "texts/wa-hb-1170.txt",
+ "chars": 8125,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3408794 (Chaptered 0000-00-00)"
+}

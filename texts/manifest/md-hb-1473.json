@@ -1,0 +1,15 @@
+{
+ "id": "MD HB 1473",
+ "slug": "md-hb-1473",
+ "state": "MD",
+ "sourcePage": "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/HB1473?ys=2026RS",
+ "docUrl": "https://mgaleg.maryland.gov/2026RS/Chapters_noln/CH_378_hb1473e.pdf",
+ "docFormat": "pdf",
+ "version": "Chaptered",
+ "rawFile": "texts/raw/md-hb-1473.pdf",
+ "txtFile": "texts/md-hb-1473.txt",
+ "chars": 12822,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3438295 (Chaptered 2026-05-18)"
+}

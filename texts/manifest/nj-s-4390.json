@@ -1,0 +1,15 @@
+{
+ "id": "NJ S 4390",
+ "slug": "nj-s-4390",
+ "state": "NJ",
+ "sourcePage": "https://www.njleg.state.nj.us/bill-search/2026/S4390",
+ "docUrl": "https://pub.njleg.gov/Bills/2026/S4500/4390_R1.HTM",
+ "docFormat": "html",
+ "version": "Amended",
+ "rawFile": "texts/raw/nj-s-4390.html",
+ "txtFile": "texts/nj-s-4390.txt",
+ "chars": 49259,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3450606 (Amended 2026-06-25)"
+}

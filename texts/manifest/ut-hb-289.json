@@ -1,0 +1,15 @@
+{
+ "id": "UT HB 289",
+ "slug": "ut-hb-289",
+ "state": "UT",
+ "sourcePage": "https://le.utah.gov/~2026/bills/static/HB0289.html",
+ "docUrl": "https://le.utah.gov/Session/2026/bills/enrolled/HB0289.pdf",
+ "docFormat": "pdf",
+ "version": "Enrolled",
+ "rawFile": "texts/raw/ut-hb-289.pdf",
+ "txtFile": "texts/ut-hb-289.txt",
+ "chars": 216283,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3392683 (Enrolled 2026-03-12)"
+}

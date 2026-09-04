@@ -1,0 +1,15 @@
+{
+ "id": "MD SB 720",
+ "slug": "md-sb-720",
+ "state": "MD",
+ "sourcePage": "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/SB0720?ys=2026RS",
+ "docUrl": "https://mgaleg.maryland.gov/2026RS/Chapters_noln/CH_634_sb0720e.pdf",
+ "docFormat": "pdf",
+ "version": "Chaptered",
+ "rawFile": "texts/raw/md-sb-720.pdf",
+ "txtFile": "texts/md-sb-720.txt",
+ "chars": 14224,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3445132 (Chaptered 2026-06-03)"
+}

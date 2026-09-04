@@ -1,0 +1,15 @@
+{
+ "id": "CO HB 26-1195",
+ "slug": "co-hb-26-1195",
+ "state": "CO",
+ "sourcePage": "https://leg.colorado.gov/bills/HB26-1195",
+ "docUrl": "https://leg.colorado.gov/bill_files/116915/download",
+ "docFormat": "pdf",
+ "version": "Enrolled",
+ "rawFile": "texts/raw/co-hb-26-1195.pdf",
+ "txtFile": "texts/co-hb-26-1195.txt",
+ "chars": 18969,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3444533 (Enrolled 1969-12-31) | fell back past: Chaptered 1969-12-31: 11 chars"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "IA SF 2417",
+ "slug": "ia-sf-2417",
+ "state": "IA",
+ "sourcePage": "https://www.legis.iowa.gov/legislation/BillBook?ga=91&ba=SF2417",
+ "docUrl": "https://www.legis.iowa.gov/docs/publications/LGE/91/attachments/SF2417.html",
+ "docFormat": "html",
+ "version": "Enrolled",
+ "rawFile": "texts/raw/ia-sf-2417.html",
+ "txtFile": "texts/ia-sf-2417.txt",
+ "chars": 7263,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3422686 (Enrolled 2026-04-21)"
+}

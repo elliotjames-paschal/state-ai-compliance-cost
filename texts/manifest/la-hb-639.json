@@ -1,0 +1,15 @@
+{
+ "id": "LA HB 639",
+ "slug": "la-hb-639",
+ "state": "LA",
+ "sourcePage": "https://www.legis.la.gov/legis/BillInfo.aspx?s=26rs&b=HB639&sbi=y",
+ "docUrl": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1480334",
+ "docFormat": "pdf",
+ "version": "Chaptered",
+ "rawFile": "texts/raw/la-hb-639.pdf",
+ "txtFile": "texts/la-hb-639.txt",
+ "chars": 4655,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3446341 (Chaptered 0000-00-00)"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "NY A 9487",
+ "slug": "ny-a-9487",
+ "state": "NY",
+ "sourcePage": "https://www.nysenate.gov/legislation/bills/2025/A9487",
+ "docUrl": "https://assembly.state.ny.us/leg/?default_fld=&bn=A09487&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A09487",
+ "docFormat": "html",
+ "version": "Introduced",
+ "rawFile": "texts/raw/ny-a-9487.html",
+ "txtFile": "texts/ny-a-9487.txt",
+ "chars": 24941,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3302062 (Introduced 2026-01-07)"
+}

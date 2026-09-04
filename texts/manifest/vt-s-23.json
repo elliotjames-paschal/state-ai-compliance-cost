@@ -1,0 +1,15 @@
+{
+ "id": "VT S 23",
+ "slug": "vt-s-23",
+ "state": "VT",
+ "sourcePage": "https://legislature.vermont.gov/bill/status/2026/S.23",
+ "docUrl": "https://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT075/ACT075%20As%20Enacted.pdf",
+ "docFormat": "pdf",
+ "version": "Chaptered",
+ "rawFile": "texts/raw/vt-s-23.pdf",
+ "txtFile": "texts/vt-s-23.txt",
+ "chars": 10829,
+ "fetchedAt": "2026-09-03",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3388839 (Chaptered 2026-03-09)"
+}
