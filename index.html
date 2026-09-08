@@ -144,11 +144,13 @@
           <label for="ops-share">Ops carryover <output id="ops-share-out">50%</output></label>
           <input type="range" id="ops-share" min="0" max="100" step="5" value="50">
         </div>
-        <p class="note">How much of the work for one state carries to the next. Derived from the coded
-        statute parameters: within each family, the share of parameters (age thresholds, notice timing,
-        audit frequency) two states set to the same value, averaged across state pairs. Ops carryover
-        sets how much of that reuse applies to recurring work &mdash; filings and audits repeat per
-        state. Think it's wrong? Override with your own.</p>
+        <p class="note"><strong>By default the model uses each family's own statute-derived reuse</strong>
+        (shown next to each family in the cost chart); the global slider applies only when you
+        override. Reuse = how much of the work for one state carries to the next, computed from the
+        coded statute parameters: the share of parameters (age thresholds, notice timing, audit
+        frequency) two states set to the same value, averaged across state pairs. Ops carryover sets
+        how much of that reuse applies to recurring work &mdash; filings and audits repeat per state.
+        Think it's wrong? Override with your own.</p>
       </section>
 
       <section>
