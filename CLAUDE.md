@@ -69,12 +69,23 @@ python3 pipeline/fetch.py <slug> <url> --id "HI HB 2137" --state HI --version "C
    cache. LegiScan's numeric `status` (4 = Passed) is the source of truth for enactment, and its
    `sasts` field catches NY-style companion substitutions — a bill "replaced by" another is the
    same law under a different number; never count both in the cost model.
-4. **Triage** anything that isn't `OK` using the failure playbook below.
-5. **Code the statute** into `data/bills.js`: who it binds (`category`), which requirement family,
+4. **Refresh the existing bills too.** The dataset and texts go stale between updates (bills get
+   enacted after the spreadsheet snapshot, introduced texts get superseded by enrolled ones). While
+   you're in here:
+   - Clear the bill cache so LegiScan answers fresh: `rm texts/tmp/legiscan/bill-*.json`, then
+     `python3 pipeline/legiscan.py --list <bill>` per bill (or loop all) to repull records —
+     ~90 getBill calls, trivial against the 30k/month quota.
+   - Compare each bill's LegiScan `status` (4 = Passed) against the dataset's `enacted` flag and
+     the stored text version. For any bill that advanced, or whose record now lists a text
+     version newer than the `doc_id` in its manifest notes, refetch with `--force`.
+   - Check `sasts` on anything new — a "replaced by" relation means the law lives under a
+     different bill number (fetch that vehicle, and never count both in the cost model).
+5. **Triage** anything that isn't `OK` using the failure playbook below.
+6. **Code the statute** into `data/bills.js`: who it binds (`category`), which requirement family,
    duty-hour estimates, and the statutory parameters that drive reuse. Anchor every extracted
    parameter to the quoted provision (see `params.source` in the schema). Until the coding
    methodology is finalized, mirror how existing entries are structured.
-6. Commit. GitHub Pages redeploys `main` automatically.
+7. Commit. GitHub Pages redeploys `main` automatically.
 
 ## Failure playbook (all of these have happened)
 
