@@ -82,9 +82,14 @@ python3 pipeline/fetch.py <slug> <url> --id "HI HB 2137" --state HI --version "C
      different bill number (fetch that vehicle, and never count both in the cost model).
 5. **Triage** anything that isn't `OK` using the failure playbook below.
 6. **Code the statute** into `data/bills.js`: who it binds (`category`), which requirement family,
-   duty-hour estimates, and the statutory parameters that drive reuse. Anchor every extracted
-   parameter to the quoted provision (see `params.source` in the schema). Until the coding
-   methodology is finalized, mirror how existing entries are structured.
+   duty-hour estimates, the statutory parameters that drive reuse, and the statutory `exposure`
+   (penaltyMax / penaltyUnit / enforcer / cureDays). Anchor every extracted value — params and
+   exposure alike — to the quoted provision in `sources`. Exposure rules, in order of
+   defensibility: code only what this bill's text states; if it cross-references another act for
+   enforcement, code `enforcer` with that quote and no penaltyMax; if it's silent, omit the block
+   (silence is silence, not zero). Exposure is reported as fact and never enters the cost
+   estimate or the reuse/baseline derivation. Until the coding methodology is finalized, mirror
+   how existing entries are structured.
 7. Commit. GitHub Pages redeploys `main` automatically.
 
 ## Failure playbook (all of these have happened)

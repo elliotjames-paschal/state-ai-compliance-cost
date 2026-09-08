@@ -38,6 +38,11 @@ Every assumption — rates, roles, horizon, scope, baseline, reuse, ops carryove
 is exposed as a dashboard control so a skeptic can substitute their own and see what it produces.
 (To remove a role entirely, set its rate to zero.)
 
+Statutory exposure — the penalty a bill itself states for non-compliance (amount, unit, enforcer,
+cure period) — is coded and displayed as fact alongside each bill, but never folded into the cost
+estimate: turning exposure into an expected cost would require enforcement-probability assumptions
+of exactly the kind this model exists to avoid. Bills silent on penalties are coded as silent.
+
 ## Repository layout
 
 ```

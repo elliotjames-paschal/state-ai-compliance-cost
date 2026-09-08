@@ -543,12 +543,19 @@
       var params = [b.appliesTo].concat(Object.keys(b.params).map(function (k) {
         return k + ": " + b.params[k];
       })).join(" · ");
+      var exp = b.exposure
+        ? Object.keys(b.exposure).map(function (k) {
+            var v = b.exposure[k];
+            return k + ": " + (k === "penaltyMax" ? money(v) : v);
+          }).join(" · ")
+        : "<span class='hint'>none stated</span>";
       tr.innerHTML =
         "<td><span class='bill-id'>" + b.id + "</span><br><span class='bill-name'>" + b.name + "</span></td>" +
         "<td>" + b.state + "</td>" +
         "<td>" + DATA.families[b.family].label + "</td>" +
         "<td><span class='badge " + b.category + "'>" + CATEGORY_LABELS[b.category] + "</span></td>" +
         "<td class='params'>" + params + "</td>" +
+        "<td class='params'>" + exp + "</td>" +
         "<td>" + b.status + "</td>";
       tbody.appendChild(tr);
     });

@@ -23,8 +23,23 @@
 //   bills[].params       — coded statutory parameters, comparable across states:
 //                          numbers and short enums only. These drive reuse.
 //                          Omit a parameter the statute doesn't set.
-//   bills[].sources      — same keys as params; the quoted provision each value
-//                          came from.
+//   bills[].sources      — same keys as params (and exposure); the quoted
+//                          provision each value came from.
+//   bills[].exposure     — statutory exposure for non-compliance, reported as
+//                          facts and NEVER folded into the cost estimate or the
+//                          reuse/baseline derivation. Fields, each optional:
+//                            penaltyMax  — max civil penalty stated, dollars
+//                            penaltyUnit — the statute's unit ("per violation",
+//                                          "per consumer", "per day", ...)
+//                            enforcer    — "attorney-general" | "private-right"
+//                                          | "attorney-general + private-right"
+//                            cureDays    — days to cure before enforcement
+//                          Code only what THIS bill's text states. If the bill
+//                          just cross-references another act (e.g. "enforceable
+//                          under the Consumer Protection Act"), code `enforcer`
+//                          with that quote and leave penaltyMax out. If the bill
+//                          is silent, omit the block entirely — silence is coded
+//                          as silence, not zero.
 
 window.MODEL_DATA = {
 
@@ -66,10 +81,15 @@ window.MODEL_DATA = {
       appliesTo: "developers & deployers of high-risk AI",
       duties: { legal: { low: 60, mode: 120, high: 240 }, eng: { low: 200, mode: 450, high: 900 }, ops: { low: 100, mode: 200, high: 400 } },
       params: { covers: "developers-deployers", assessment: "annual-impact-assessment", noticeDays: 90 },
+      // cross-reference example: the bill routes enforcement through the state
+      // UDAP act without stating an amount, so no penaltyMax is coded
+      exposure: { enforcer: "attorney-general", cureDays: 60 },
       sources: {
         covers: "§ 6-1-1702 — 'a developer of a high-risk artificial intelligence system…' [placeholder quote]",
         assessment: "§ 6-1-1703(3) — 'an impact assessment… at least annually' [placeholder quote]",
-        noticeDays: "§ 6-1-1704 — 'no later than ninety days…' [placeholder quote]"
+        noticeDays: "§ 6-1-1704 — 'no later than ninety days…' [placeholder quote]",
+        enforcer: "§ 6-1-1706 — 'a violation… constitutes an unfair trade practice' (enforced under the CCPA) [placeholder quote]",
+        cureDays: "[placeholder quote]"
       }
     },
     {
@@ -111,8 +131,11 @@ window.MODEL_DATA = {
       appliesTo: "covered GenAI providers >1M monthly users",
       duties: { legal: { low: 20, mode: 45, high: 90 }, eng: { low: 100, mode: 250, high: 550 }, ops: { low: 20, mode: 50, high: 110 } },
       params: { aiDisclosure: "required", detectionTool: "required", userThreshold: 1000000 },
+      // direct-penalty example: amount and unit stated in the bill itself
+      exposure: { penaltyMax: 5000, penaltyUnit: "per violation per day", enforcer: "attorney-general" },
       sources: {
-        aiDisclosure: "[placeholder quote]", detectionTool: "[placeholder quote]", userThreshold: "[placeholder quote]"
+        aiDisclosure: "[placeholder quote]", detectionTool: "[placeholder quote]", userThreshold: "[placeholder quote]",
+        penaltyMax: "[placeholder quote]", penaltyUnit: "[placeholder quote]", enforcer: "[placeholder quote]"
       }
     },
     {
