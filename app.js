@@ -173,18 +173,34 @@
   }
 
   function billCard(b) {
+    var lg = (window.LEGISCAN || {})[b.id] || {};
     var meta = [];
     if (b.sponsor) meta.push(esc(b.sponsor));
     if (b.enacted && b.effectiveDate) meta.push("effective " + b.effectiveDate);
     if (!b.enacted && b.lastActionDate) meta.push("last action " + b.lastActionDate);
+    (lg.relations || []).forEach(function (r) {
+      meta.push(esc(r.type + " " + r.bill));
+    });
+    var floor = (lg.votes || []).filter(function (v) { return v.passed; });
+    if (floor.length) {
+      var fv = floor[floor.length - 1];
+      meta.push("final floor vote " + fv.yea + "–" + fv.nay);
+    }
+    if (lg.ourText) meta.push("text: " + esc(lg.ourText.version));
+    var links = [];
+    if (lg.stateLink) links.push("<a href='" + esc(lg.stateLink) + "' target='_blank' rel='noopener'>official bill page</a>");
+    if (lg.legiscanUrl) links.push("<a href='" + esc(lg.legiscanUrl) + "' target='_blank' rel='noopener'>LegiScan</a>");
     return "<div class='bill-card'>" +
       "<span class='bill-id'>" + esc(b.id) + "</span>" +
       "<div class='bill-title'>" + esc(b.description) + "</div>" +
       "<div class='bill-meta'>" +
         "<span class='badge company'>" + esc(b.category) + "</span>" +
         "<span class='badge" + (b.enacted ? "" : " pending") + "'>" + esc(b.status) + "</span>" +
+        (lg.status ? "<span class='badge'>" + esc("LegiScan: " + lg.status +
+          (lg.statusDate ? " " + lg.statusDate : "")) + "</span>" : "") +
       "</div>" +
       (meta.length ? "<div class='bill-params'>" + meta.join(" · ") + "</div>" : "") +
+      (links.length ? "<div class='bill-links'>" + links.join(" · ") + "</div>" : "") +
       "</div>";
   }
 
@@ -256,8 +272,60 @@
 
   var DEFAULTS = {
     "rate-legal": "350", "rate-eng": "150", "rate-ops": "85",
-    "firm-scale": "1", "horizon": "5", "reuse": "55", "n-firms": "1000"
+    "firm-scale": "1", "horizon": "5", "reuse": "55", "n-firms": "1000",
+    "ops-share": "50", "err-spread": "50"
   };
+
+  // Both drivers are derived from the coded statute parameters, not assigned,
+  // and recompute automatically when bills are added to the dataset:
+  //   reuse  — for each pair of bills in a family, the share of parameters
+  //            (across both bills' combined set) coded to the same value; the
+  //            family's reuse is the mean over its pairs. A parameter only one
+  //            state sets counts as a mismatch.
+  //   common — the federal least-common-denominator: the share of the family's
+  //            parameters that EVERY state sets to the same value. With the
+  //            baseline toggle on, that shared core of each build is not
+  //            claimed — a federal standard covering what all states agree on
+  //            would have required it anyway.
+  // Single-bill families: reuse is null (nothing to carry over) and common is 1
+  // (one state's law IS the common denominator, so the baseline covers it).
+  function deriveFamilyStats() {
+    var byFam = {};
+    DATA.bills.forEach(function (b) {
+      (byFam[b.family] = byFam[b.family] || []).push(b);
+    });
+    var out = {};
+    Object.keys(DATA.families).forEach(function (f) {
+      var bills = byFam[f] || [], sum = 0, pairs = 0;
+      var union = {};
+      bills.forEach(function (b) {
+        Object.keys(b.params).forEach(function (k) { union[k] = 1; });
+      });
+      for (var i = 0; i < bills.length; i++) {
+        for (var j = i + 1; j < bills.length; j++) {
+          var a = bills[i].params, b = bills[j].params, keys = {};
+          Object.keys(a).concat(Object.keys(b)).forEach(function (k) { keys[k] = 1; });
+          var ks = Object.keys(keys);
+          if (!ks.length) continue;
+          var match = 0;
+          ks.forEach(function (k) { if (a[k] !== undefined && a[k] === b[k]) match++; });
+          sum += match / ks.length;
+          pairs++;
+        }
+      }
+      var unionKeys = Object.keys(union);
+      var commonCount = unionKeys.filter(function (k) {
+        var v = bills[0] && bills[0].params[k];
+        return v !== undefined && bills.every(function (b) { return b.params[k] === v; });
+      }).length;
+      out[f] = {
+        reuse: pairs ? sum / pairs : null,
+        common: bills.length ? (unionKeys.length ? commonCount / unionKeys.length : 1) : 0
+      };
+    });
+    return out;
+  }
+  var FAMILY_STATS = deriveFamilyStats();
 
   function mulberry32(seed) {
     return function () {
@@ -275,20 +343,26 @@
   }
 
   function readSettings() {
-    var cats = {};
+    var cats = {}, costs = {};
     document.querySelectorAll("input[data-cat]").forEach(function (elm) {
       cats[elm.dataset.cat] = elm.checked;
     });
+    document.querySelectorAll("input[data-cost]").forEach(function (elm) {
+      costs[elm.dataset.cost] = elm.checked;
+    });
     return {
-      rateLegal: +$("rate-legal").value || 0,
-      rateEng: +$("rate-eng").value || 0,
-      rateOps: +$("rate-ops").value || 0,
+      // unticking a cost type zeroes its rate — isolates e.g. pure build cost
+      rateLegal: costs.legal === false ? 0 : +$("rate-legal").value || 0,
+      rateEng: costs.eng === false ? 0 : +$("rate-eng").value || 0,
+      rateOps: costs.ops === false ? 0 : +$("rate-ops").value || 0,
       firmScale: +$("firm-scale").value,
       horizon: +$("horizon").value,
       categories: cats,
       baseline: $("baseline").checked,
       reuseOverride: $("reuse-override").checked,
       reuse: +$("reuse").value / 100,
+      opsShare: +$("ops-share").value / 100,
+      errSpread: +$("err-spread").value / 100,
       nFirms: +$("n-firms").value || 0
     };
   }
@@ -316,14 +390,16 @@
     // Hour estimates are correlated across bills — if one duty is underestimated,
     // the rest likely are too. A shared per-draw error factor keeps that
     // correlation so uncertainty doesn't wash out when summing many bills.
-    var SHARED_ERROR = { low: 0.6, mode: 1.0, high: 1.6 };
+    // The spread is the "Hour-estimate error" dashboard control.
+    var SHARED_ERROR = { low: 1 - s.errSpread, mode: 1.0, high: 1 + s.errSpread };
 
     for (var i = 0; i < ITERATIONS; i++) {
       var shared = triangular(rng, SHARED_ERROR);
       var total = 0;
       for (var f in familyBills) {
         var bills = familyBills[f];
-        var reuse = s.reuseOverride ? s.reuse : DATA.families[f].reuse;
+        var reuse = s.reuseOverride ? s.reuse : (FAMILY_STATS[f].reuse || 0);
+        var common = FAMILY_STATS[f].common;
         var famTotal = 0;
         for (var j = 0; j < bills.length; j++) {
           var d = bills[j].duties;
@@ -332,9 +408,15 @@
           var opsAnnual = triangular(rng, d.ops) * s.rateOps * s.firmScale * shared;
           var claimed;
           if (j === 0) {
-            claimed = s.baseline ? 0 : build + opsAnnual * s.horizon;
+            // baseline on: the federal LCD covers the family's common core, so
+            // the first state claims only its divergence from that core
+            claimed = s.baseline
+              ? (1 - common) * build + (1 - common * s.opsShare) * opsAnnual * s.horizon
+              : build + opsAnnual * s.horizon;
           } else {
-            var opsReuse = reuse * 0.5;
+            // ops carries over more weakly than the build (filings and audits
+            // repeat per state) — the ratio is the "Ops carryover" control
+            var opsReuse = reuse * s.opsShare;
             claimed = (1 - reuse) * build + (1 - opsReuse) * opsAnnual * s.horizon;
           }
           famTotal += claimed;
@@ -421,7 +503,11 @@
     var host = $("families");
     host.innerHTML = "";
     var entries = Object.keys(result.familyMedians).map(function (f) {
-      return { key: f, label: DATA.families[f].label, value: result.familyMedians[f] };
+      var st = FAMILY_STATS[f];
+      var label = DATA.families[f].label +
+        (st.reuse === null ? "" : " · reuse " + Math.round(st.reuse * 100) + "%") +
+        " · federal " + Math.round(st.common * 100) + "%";
+      return { key: f, label: label, value: result.familyMedians[f] };
     }).filter(function (e) { return e.value > 0; })
       .sort(function (a, b) { return b.value - a.value; });
 
@@ -454,9 +540,9 @@
       if (inScope) included++;
       var tr = document.createElement("tr");
       if (!inScope) tr.className = "excluded";
-      var params = Object.keys(b.params).map(function (k) {
-        return b.params[k] === null ? null : k + ": " + b.params[k];
-      }).filter(Boolean).join(" · ");
+      var params = [b.appliesTo].concat(Object.keys(b.params).map(function (k) {
+        return k + ": " + b.params[k];
+      })).join(" · ");
       tr.innerHTML =
         "<td><span class='bill-id'>" + b.id + "</span><br><span class='bill-name'>" + b.name + "</span></td>" +
         "<td>" + b.state + "</td>" +
@@ -477,6 +563,8 @@
     $("headline-horizon").textContent = s.horizon + "-year";
     $("reuse-out").textContent = Math.round(s.reuse * 100) + "%";
     $("reuse").disabled = !s.reuseOverride;
+    $("ops-share-out").textContent = Math.round(s.opsShare * 100) + "%";
+    $("err-spread-out").textContent = "±" + Math.round(s.errSpread * 100) + "%";
 
     $("p10").textContent = money(r.p10);
     $("p50").textContent = money(r.p50);
@@ -502,6 +590,9 @@
     for (var id in DEFAULTS) $(id).value = DEFAULTS[id];
     document.querySelectorAll("input[data-cat]").forEach(function (elm) {
       elm.checked = elm.dataset.cat === "company";
+    });
+    document.querySelectorAll("input[data-cost]").forEach(function (elm) {
+      elm.checked = true;
     });
     $("baseline").checked = true;
     $("reuse-override").checked = false;

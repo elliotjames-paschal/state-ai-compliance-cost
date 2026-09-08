@@ -104,9 +104,11 @@ def find_bill_id(state, number):
 
 
 def rank_texts(texts):
+    # doc_id, not date, breaks ties within a rank: LegiScan doc_ids increase
+    # chronologically and are always present, while dates are often 0000-00-00
     def rank(t):
         vr = VERSION_RANK.index(t["type"]) if t["type"] in VERSION_RANK else len(VERSION_RANK)
-        return (vr, -int(re.sub(r"\D", "", t.get("date") or "") or 0))
+        return (vr, -t["doc_id"])
     return sorted(texts, key=rank)
 
 

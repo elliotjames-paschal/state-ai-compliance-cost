@@ -16,9 +16,15 @@ No build step, no dependencies beyond Python 3 stdlib + `pypdf`. The dashboard i
 2. `texts/` — the fetched statute text corpus. One `<slug>.txt` per bill (plain text), the
    original document in `texts/raw/`, and a provenance manifest in `texts/manifest/<slug>.json`.
    Slug rule: lowercase, hyphens at letter/digit boundaries (`CO HB26-1139` → `co-hb-26-1139`).
-3. `data/bills.js` — the coded cost-model dataset (duty hours, requirement families, reuse
-   parameters). **Still placeholder values.** The statute-coding pass reads texts from layer 2
-   and produces this. Schema is documented in the file header.
+3. `data/bills.js` — the coded cost-model dataset. **Still placeholder values.** The
+   statute-coding pass reads texts from layer 2 and produces, per bill: `category` (who it
+   binds), `family`, `appliesTo` (display), `duties` (triangular hours for legal/eng/ops),
+   `params` (coded comparable values — numbers and short enums only), and `sources` (the quoted
+   provision behind each param, same keys). Family `reuse` and the federal baseline are NOT
+   coded — app.js derives both from the params (reuse = mean pairwise param agreement; federal
+   LCD = share of params every state in the family sets identically), so param vocabulary
+   consistency within a family is what makes the derivation meaningful. Full schema in the file
+   header.
 
 The manifest is the source of truth for text provenance. Statuses: `ok` (verified), `needs-review`
 (fetched but failed a check — read the `notes`), `missing` (couldn't fetch). Every bill used in
@@ -55,14 +61,20 @@ python3 pipeline/fetch.py <slug> <url> --id "HI HB 2137" --state HI --version "C
    `Passed Senate` → `Enacted`). Copy an existing record; fields are self-explanatory. Bump the
    `asOf` date.
 2. **Fetch the text**: `python3 pipeline/legiscan.py "XX HB 123"`. If the bill was fetched earlier
-   at the Introduced stage and has since been enacted, add `--force` to upgrade to the
-   Chaptered/Enrolled text.
-3. **Triage** anything that isn't `OK` using the failure playbook below.
-4. **Code the statute** into `data/bills.js`: who it binds (`category`), which requirement family,
+   at the Introduced stage and has since been enacted, delete its cached
+   `texts/tmp/legiscan/bill-*.json` first (the cache never expires) and add `--force` to upgrade
+   to the Chaptered/Enrolled text.
+3. **Regenerate the explorer overlay**: `python3 pipeline/enrich.py` rebuilds `data/legiscan.js`
+   (live status, floor votes, sponsors, official links, substitution relations) from the getBill
+   cache. LegiScan's numeric `status` (4 = Passed) is the source of truth for enactment, and its
+   `sasts` field catches NY-style companion substitutions — a bill "replaced by" another is the
+   same law under a different number; never count both in the cost model.
+4. **Triage** anything that isn't `OK` using the failure playbook below.
+5. **Code the statute** into `data/bills.js`: who it binds (`category`), which requirement family,
    duty-hour estimates, and the statutory parameters that drive reuse. Anchor every extracted
    parameter to the quoted provision (see `params.source` in the schema). Until the coding
    methodology is finalized, mirror how existing entries are structured.
-5. Commit. GitHub Pages redeploys `main` automatically.
+6. Commit. GitHub Pages redeploys `main` automatically.
 
 ## Failure playbook (all of these have happened)
 
@@ -88,9 +100,12 @@ python3 pipeline/fetch.py <slug> <url> --id "HI HB 2137" --state HI --version "C
 
 ## Known caveats in the current corpus
 
-- 10 bills have only Introduced-version text (the three unenacted NY bills — expected — plus a
-  few like ID H 727 where LegiScan had nothing later). When a session advances, rerun those with
-  `--force` and check `--list` for newer versions.
+- A handful of bills have only Introduced-version text (DE HB 191, MA ×2, NY ×3). ID H 727 was
+  verified passed-as-introduced (no amendments exist). The NY situation is substitutions, not
+  missing text: A 9487 was replaced by S 8831 (both in the dataset — same law, count once) and
+  S 8793 was replaced by A 9456 (fetched as `ny-a-9456`, not in the dataset). CA AB 1651 and
+  NJ S 4390 were enacted after the spreadsheet's 7/31 cutoff — LegiScan status is current, the
+  dataset's `enacted` flags are not.
 - The source spreadsheet is hand-curated: bill numbers and statuses can carry human error. The
   pipeline's verify step (bill number must appear in the fetched text) is the guard — don't
   weaken it.

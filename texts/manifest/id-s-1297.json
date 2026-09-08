@@ -3,13 +3,13 @@
  "slug": "id-s-1297",
  "state": "ID",
  "sourcePage": "https://legislature.idaho.gov/sessioninfo/2026/legislation/S1297/",
- "docUrl": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/S1297.pdf",
+ "docUrl": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/S1297E1.pdf",
  "docFormat": "pdf",
- "version": "Introduced",
+ "version": "Engrossed",
  "rawFile": "texts/raw/id-s-1297.pdf",
  "txtFile": "texts/id-s-1297.txt",
- "chars": 7137,
- "fetchedAt": "2026-09-03",
+ "chars": 7630,
+ "fetchedAt": "2026-09-08",
  "status": "ok",
- "notes": "via LegiScan API | doc_id 3362293 (Introduced 0000-00-00)"
+ "notes": "via LegiScan API | doc_id 3397500 (Engrossed 0000-00-00)"
 }

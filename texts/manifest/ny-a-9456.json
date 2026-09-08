@@ -1,0 +1,15 @@
+{
+ "id": "NY A 9456",
+ "slug": "ny-a-9456",
+ "state": "NY",
+ "sourcePage": "https://www.nysenate.gov/legislation/bills/2025/A9456",
+ "docUrl": "https://assembly.state.ny.us/leg/?default_fld=&bn=A09456&term=2025&Summary=Y&Actions=Y&Text=Y&Committee%26nbspVotes=Y&Floor%26nbspVotes=Y#A09456",
+ "docFormat": "html",
+ "version": "Introduced",
+ "rawFile": "texts/raw/ny-a-9456.html",
+ "txtFile": "texts/ny-a-9456.txt",
+ "chars": 14879,
+ "fetchedAt": "2026-09-08",
+ "status": "ok",
+ "notes": "via LegiScan API | doc_id 3300657 (Introduced 2026-01-06)"
+}

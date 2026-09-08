@@ -46,7 +46,8 @@
       <div id="usmap"></div>
       <div class="legend" id="legend"></div>
       <p class="map-note">Dataset: passed AI legislation, 2026 session (as of 7/31/2026). A few bills
-      have passed one chamber but are not yet enacted &mdash; the toggle filters them out.</p>
+      have passed one chamber but are not yet enacted &mdash; the toggle filters them out.
+      Live status, votes, and links via <a href="https://legiscan.com" target="_blank" rel="noopener">LegiScan</a> (CC BY 4.0).</p>
     </div>
 
     <aside class="state-panel" id="state-panel"></aside>
@@ -68,19 +69,21 @@
 
     <aside class="controls">
       <section>
-        <h2>Hourly rates</h2>
+        <h2>Cost types &amp; rates</h2>
         <div class="control">
-          <label for="rate-legal">Outside / in-house counsel</label>
+          <label><input type="checkbox" data-cost="legal" checked> Legal review <span class="hint">one-time</span></label>
           <div class="rate-row"><span>$</span><input type="number" id="rate-legal" min="0" step="10" value="350"><span>/hr</span></div>
         </div>
         <div class="control">
-          <label for="rate-eng">Software engineer</label>
+          <label><input type="checkbox" data-cost="eng" checked> Engineering build <span class="hint">one-time</span></label>
           <div class="rate-row"><span>$</span><input type="number" id="rate-eng" min="0" step="10" value="150"><span>/hr</span></div>
         </div>
         <div class="control">
-          <label for="rate-ops">Compliance operations</label>
+          <label><input type="checkbox" data-cost="ops" checked> Compliance operations <span class="hint">per year</span></label>
           <div class="rate-row"><span>$</span><input type="number" id="rate-ops" min="0" step="5" value="85"><span>/hr</span></div>
         </div>
+        <p class="note">Each law's cost is counted in three parts. Untick to isolate one &mdash;
+        e.g. engineering only for the pure build cost.</p>
       </section>
 
       <section>
@@ -97,16 +100,23 @@
           <label for="horizon">Time horizon <output id="horizon-out">5 yr</output></label>
           <input type="range" id="horizon" min="1" max="10" step="1" value="5">
         </div>
+        <div class="control">
+          <label for="err-spread">Hour-estimate error <output id="err-spread-out">&plusmn;50%</output></label>
+          <input type="range" id="err-spread" min="0" max="90" step="5" value="50">
+        </div>
+        <p class="note">All duty-hour draws share a per-simulation error factor within this band &mdash;
+        if one estimate is off, the rest likely are too.</p>
       </section>
 
       <section>
-        <h2>Scope <span class="hint">who the bill binds</span></h2>
-        <div class="control check"><label><input type="checkbox" data-cat="company" checked> Companies <span class="hint">carries into estimate</span></label></div>
-        <div class="control check"><label><input type="checkbox" data-cat="criminal"> Criminal prohibitions</label></div>
-        <div class="control check"><label><input type="checkbox" data-cat="public-sector"> State agencies</label></div>
-        <div class="control check"><label><input type="checkbox" data-cat="education"> Schools</label></div>
-        <p class="note">Only bills that create compliance obligations on companies are counted by
-        default. Toggling the others shows what indiscriminate counting adds.</p>
+        <h2>Scope <span class="hint">cost to AI companies</span></h2>
+        <div class="control check"><label><input type="checkbox" data-cat="company" checked> Laws binding companies <span class="hint">the estimate</span></label></div>
+        <div class="control check"><label><input type="checkbox" data-cat="criminal"> Criminal bans <span class="hint">bind individuals</span></label></div>
+        <div class="control check"><label><input type="checkbox" data-cat="public-sector"> Agency rules <span class="hint">bind the state</span></label></div>
+        <div class="control check"><label><input type="checkbox" data-cat="education"> School rules <span class="hint">bind schools</span></label></div>
+        <p class="note">The estimate is what compliance costs a company building or deploying AI.
+        Laws that bind schools, state agencies, or individuals are not company costs &mdash; toggle
+        them on only to see what indiscriminate counting would add.</p>
       </section>
 
       <section>
@@ -114,8 +124,11 @@
         <div class="control check">
           <label><input type="checkbox" id="baseline" checked> Count only the increment above a federal standard</label>
         </div>
-        <p class="note">When on, the first build in each requirement family is not claimed &mdash; a firm
-        would do that work under a single federal rule anyway. Only per-state divergence costs count.</p>
+        <p class="note">The federal standard is taken as the least common denominator of each
+        requirement family &mdash; the parameters every state sets identically. That shared core is
+        not claimed: a single federal rule covering it would have required the work anyway. Only
+        divergence beyond it counts, and the denominator recomputes automatically as bills are
+        added to the dataset.</p>
       </section>
 
       <section>
@@ -127,9 +140,15 @@
           <label for="reuse">Global reuse <output id="reuse-out">55%</output></label>
           <input type="range" id="reuse" min="0" max="95" step="5" value="55" disabled>
         </div>
-        <p class="note">How much of the work for one state carries to the next. Defaults are per-family
-        values that will come from coded statute parameters (age thresholds, notice timing, audit
-        frequency). Think they're wrong? Override with your own.</p>
+        <div class="control">
+          <label for="ops-share">Ops carryover <output id="ops-share-out">50%</output></label>
+          <input type="range" id="ops-share" min="0" max="100" step="5" value="50">
+        </div>
+        <p class="note">How much of the work for one state carries to the next. Derived from the coded
+        statute parameters: within each family, the share of parameters (age thresholds, notice timing,
+        audit frequency) two states set to the same value, averaged across state pairs. Ops carryover
+        sets how much of that reuse applies to recurring work &mdash; filings and audits repeat per
+        state. Think it's wrong? Override with your own.</p>
       </section>
 
       <section>
@@ -206,6 +225,7 @@
 
 <script src="data/us-map.js"></script>
 <script src="data/bills-2026.js"></script>
+<script src="data/legiscan.js"></script>
 <script src="data/bills.js"></script>
 <script src="app.js"></script>
 </body>

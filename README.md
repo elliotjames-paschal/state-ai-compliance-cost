@@ -17,19 +17,26 @@ Two views:
 - **Bottom-up.** Each bill is decomposed into duties — legal review, engineering build, ongoing
   operations — with triangular hour estimates. Cost is hours × rates, the same approach federal
   agencies use for regulatory burden estimates.
-- **Increment, not total.** The first build in each requirement family stands in for what a single
-  federal standard would require; only per-state divergence beyond it is claimed.
+- **Increment, not total.** The hypothetical federal standard is each requirement family's least
+  common denominator — the parameters every state sets identically, derived from the coded bills
+  and recomputed automatically as bills are added. That shared core is never claimed; only
+  divergence beyond it is.
 - **Scope carefully.** Bills are sorted by who they bind. Criminal prohibitions and bills binding
   state agencies or schools are excluded from the estimate by default (toggles show what
   indiscriminate counting adds).
 - **Reuse from statutes.** Within a family, each additional state costs (1 − reuse) of a fresh
-  build. Reuse will be derived by comparing coded statutory parameters across states (age
-  thresholds, notice timing, appeal deadlines, audit frequency) — not assigned.
+  build. Reuse is derived, not assigned: for each pair of bills in a family, the share of coded
+  statutory parameters (age thresholds, notice timing, audit frequency) set to the same value;
+  family reuse is the mean over its pairs. A parameter only one state sets counts as divergence.
+  Recurring work reuses more weakly — the ops-carryover control (default 50%) sets how much of
+  the build reuse applies to it, since filings and audits repeat per state.
 - **Range, not point.** 4,000 seeded Monte Carlo draws over duty hours; the conservative end (p10)
-  leads.
+  leads. Draws share a per-simulation error factor (default ±50%, adjustable) so estimation error
+  stays correlated across bills instead of washing out in the sum.
 
-Every assumption — rates, roles, horizon, scope, baseline, reuse — is exposed as a dashboard
-control so a skeptic can substitute their own and see what it produces.
+Every assumption — rates, roles, horizon, scope, baseline, reuse, ops carryover, estimate error —
+is exposed as a dashboard control so a skeptic can substitute their own and see what it produces.
+(To remove a role entirely, set its rate to zero.)
 
 ## Repository layout
 
@@ -38,6 +45,7 @@ index.html           markup for both tabs
 styles.css           styling
 app.js               explorer (map) + model (Monte Carlo, reuse logic) + rendering — no dependencies, no build step
 data/bills-2026.js   passed 2026 state AI bills (as of 7/31/2026) — drives the explorer; no coding yet
+data/legiscan.js     generated LegiScan overlay: live status, votes, sponsors, links, substitutions
 data/bills.js        placeholder coded subset — drives the cost model until statute coding completes
 data/us-map.js       US state shapes (pre-projected Albers, decoded from us-atlas / Census Bureau)
 data/source/         the source spreadsheet the explorer dataset was converted from

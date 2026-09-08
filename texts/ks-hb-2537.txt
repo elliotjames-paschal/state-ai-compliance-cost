@@ -1,3 +1,5 @@
+{As Amended by House Committee of the Whole}
+As Amended by House Committee
 Session of 2026
 HOUSE BILL No. 2537
 By Committee on Judiciary
@@ -11,6 +13,10 @@ age or older and the victim is less than 18 years of age or a dependent
 adult; creating the crimes of aggravated sexual extortion causing great  
 bodily harm and aggravated sexual extortion causing death; amending  
 K.S.A. 21-5515 and repealing the existing section.
+{WHEREAS,  Section  1  and  the  amendments  made  to  the  
+provisions of K.S.A. 21-5515 by this act shall be known as Caleb's  
+Law.}
+{Now, therefore:}
 Be it enacted by the Legislature of the State of Kansas:
 New  Section  1. The  attorney  general  shall  prepare  and  provide  
 educational  materials  and  information  concerning  sexual  extortion  as  
@@ -31,12 +37,6 @@ a threat to injure the property or reputation of a person, commit violence
 against a person , or distribute an image, video or other recording of a  
 person that is of a sexual nature or depicts  such  a  person in a state of  
 nudity:
-(1)(A) With the intent to coerce such a person to:
- (A)(i) Engage in sexual contact, sexual intercourse or conduct that is  
-of a sexual nature; or
- (B) (ii) produce,  provide  or  distribute  an  image,  video  or  other  
-recording of a person in a state of nudity or engaging in conduct that is of  
-a sexual nature; or
 1
 2
 3
@@ -70,9 +70,13 @@ a sexual nature; or
 31
 32
 33
-34
-35
-HB 2537 2
+HB 2537—Am. by HCW 2
+(1)(A) With the intent to coerce such a person to:
+ (A)(i) Engage in sexual contact, sexual intercourse or conduct that is  
+of a sexual nature; or
+ (B) (ii) produce,  provide  or  distribute  an  image,  video  or  other  
+recording of a person in a state of nudity or engaging in conduct that is of  
+a sexual nature; or
 (2)(B) that causes such a person to:
  (A)(i) Engage in sexual contact, sexual intercourse or conduct that is  
 of a sexual nature; or
@@ -88,14 +92,14 @@ a sexual nature;
 (ii) produce, provide or distribute an image, video or other recording  
 of a person in a state of nudity or engaging in conduct that is of a sexual  
 nature; or
-(iii) produce or provide anything of value; or
+(iii)  produce or provide anything of value; or
 (B) that causes such person to:
 (i) Engage in sexual contact, sexual intercourse or conduct that is of  
 a sexual nature;
 (ii) produce, provide or distribute an image, video or other recording  
 of a person in a state of nudity or engaging in conduct that is of a sexual  
 nature; or
-(iii) produce or provide anything of value.
+(iii)  produce or provide anything of value.
 (b) Aggravated sexual extortion causing great bodily harm is sexual  
 extortion as defined in subsection (a) resulting in great bodily harm to the  
 victim and the trier of fact finds that the sexual extortion of the victim was  
@@ -110,12 +114,6 @@ of the death.
 (d)(1)(B); and
 (B) severity level 6, person felony when the offender is 18 years of  
 age or older and the victim is:
-(i) Less than 18 years of age; or
-(ii) a dependent adult; and
-(2) subsection (a)(2) (a)(1)(B) or (a)(2)(B) is a: 
-(A) Severity level 4, person felony , except as provided in subsection  
-(d)(2)(B); and
-(B) a severity level 3, person felony when the offender is 18 years of  
 1
 2
 3
@@ -159,7 +157,13 @@ age or older and the victim is:
 41
 42
 43
-HB 2537 3
+HB 2537—Am. by HCW 3
+(i) Less than 18 years of age; or
+(ii) a dependent adult; and
+(2) subsection (a)(2) (a)(1)(B) or (a)(2)(B) is a: 
+(A) Severity level 4, person felony , except as provided in subsection  
+(d)(2)(B); and
+(B) a severity level 3, person felony when the offender is 18 years of  
 age or older and the victim is:
 (i) Less than 18 years of age; or
 (ii) a dependent adult.
@@ -172,8 +176,11 @@ own great bodily harm or death.
 (h) As used in this section:
 (1) "Dependent adult" means the same as defined in K.S.A. 21-5417,  
 and amendments thereto; and
-(2) "image, video or other recording" includes any image, video or  
-other recording that has been created, in whole or in part, altered or  
+(2) "image, video or other recording"  includes any image, video or  
+other recording means any photograph, film, video picture, digital or  
+computer-generated image or picture, whether made or produced by  
+electronic, mechanical or other means, including, but not limited to,  
+any such item  that has been created, in whole or in part, altered  or  
 modified by artificial intelligence or any digital means to appear to depict  
 or purport to depict a person, regardless of whether such person was  
 involved in the creation of the original image, video or other recording.
@@ -204,3 +211,12 @@ publication in the statute book.
 20
 21
 22
+23
+24
+25
+26
+27
+28
+29
+30
+31
