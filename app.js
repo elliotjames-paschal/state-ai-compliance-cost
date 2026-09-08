@@ -395,6 +395,18 @@
 
     for (var i = 0; i < ITERATIONS; i++) {
       var shared = triangular(rng, SHARED_ERROR);
+      // one draw per duty block per iteration: the same duty costs the same
+      // hours everywhere it appears in this draw — hours are a property of the
+      // duty (for the average model), not of the bill
+      var drawn = {};
+      for (var dk in DATA.duties) {
+        var db = DATA.duties[dk];
+        drawn[dk] = {
+          legal: triangular(rng, db.legal),
+          eng: triangular(rng, db.eng),
+          ops: triangular(rng, db.ops)
+        };
+      }
       var total = 0;
       for (var f in familyBills) {
         var bills = familyBills[f];
@@ -402,10 +414,13 @@
         var common = FAMILY_STATS[f].common;
         var famTotal = 0;
         for (var j = 0; j < bills.length; j++) {
-          var d = bills[j].duties;
-          var build = (triangular(rng, d.legal) * s.rateLegal +
-                       triangular(rng, d.eng) * s.rateEng) * s.firmScale * shared;
-          var opsAnnual = triangular(rng, d.ops) * s.rateOps * s.firmScale * shared;
+          var hL = 0, hE = 0, hO = 0;
+          for (var q = 0; q < bills[j].duties.length; q++) {
+            var dd = drawn[bills[j].duties[q]];
+            hL += dd.legal; hE += dd.eng; hO += dd.ops;
+          }
+          var build = (hL * s.rateLegal + hE * s.rateEng) * s.firmScale * shared;
+          var opsAnnual = hO * s.rateOps * s.firmScale * shared;
           var claimed;
           if (j === 0) {
             // baseline on: the federal LCD covers the family's common core, so
