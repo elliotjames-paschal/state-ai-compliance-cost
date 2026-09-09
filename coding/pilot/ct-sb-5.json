@@ -1,0 +1,57 @@
+{
+ "id": "CT SB 5",
+ "category": "company",
+ "family": "adm-governance",
+ "appliesTo": "developers and deployers of automated employment-related decision technology; AI-companion operators; frontier developers; generative-AI providers; social-media platform operators",
+ "duties": [
+  "statutory-review",
+  "disclosure-ui",
+  "crisis-protocol",
+  "age-assurance",
+  "consent-workflow",
+  "watermarking",
+  "takedown-process",
+  "registration-filing"
+ ],
+ "dutySources": {
+  "disclosure-ui": "\u00a7 9(a) \u2014 'shall ensure that it is disclosed to each such employee or applicant who interacts with such technology'; see also \u00a7 5(b) \u2014 'provide a clear and conspicuous notice to a user disclosing that the user is communicating with an artificial intelligence companion'",
+  "crisis-protocol": "\u00a7 5(a)(1)(A)(i) \u2014 'Uses evidence-based methods to (I) detect any user expression to the artificial intelligence companion clearly indicating a risk of suicide, self-harm or imminent physical violence'",
+  "age-assurance": "\u00a7 39(b)(1)(A)(i) \u2014 'The covered operator has used commercially reasonable and technically feasible methods to determine that the covered user is not a covered minor'",
+  "consent-workflow": "\u00a7 39(b)(1)(A)(ii) \u2014 'the covered operator has obtained verifiable consent from the covered minor's parent or legal guardian to recommend, select or prioritize media items'",
+  "watermarking": "\u00a7 15(b)(1)(A) \u2014 'include provenance data in any audio, image or video content'",
+  "takedown-process": "\u00a7 2(c)(1) \u2014 'establish and maintain a reasonable internal process through which (A) a covered employee of such large frontier developer may anonymously submit a report'",
+  "registration-filing": "\u00a7 26 \u2014 'shall disclose to the department, in a form and manner prescribed by the Labor Commissioner, whether the layoffs'"
+ },
+ "params": {
+  "covers": "both",
+  "trigger": "consequential-decisions",
+  "consumerNotice": "required"
+ },
+ "exposure": {
+  "penaltyMax": 1000,
+  "penaltyUnit": "per violation",
+  "enforcer": "attorney-general",
+  "cureDays": 60
+ },
+ "sources": {
+  "covers": "\u00a7\u00a7 8(a), 10 \u2014 'shall provide to the deployer of such automated employment-related decision technology all information' (developer duty); 'a written notice disclosing: (1) That the deployer has deployed an automated employment' (deployer duty)",
+  "trigger": "\u00a7 7(5) \u2014 ''Employment-related decision' (A) means any decision, made based on any individual's personal data, to hire, promote, discipline or discharge such individual'",
+  "consumerNotice": "\u00a7 10 \u2014 'shall, before such employment-related decision is made, provide to such employee or applicant a written notice'",
+  "penaltyMax": "\u00a7 2(e) \u2014 'civil penalty in an amount that does not exceed one thousand dollars per violation'",
+  "enforcer": "\u00a7 12 \u2014 'shall constitute an unfair or deceptive trade practice for the purposes of subsection (a) of section 42-110b of the general statutes and shall be enforced solely by the Attorney General' (same formula in \u00a7\u00a7 1(c), 5(c), 6(c), 15(c))",
+  "cureDays": "\u00a7 12 \u2014 'If such person fails to cure such violation within sixty days of receipt of such notice of violation, the Attorney General may bring an action'"
+ },
+ "duplicateOf": null,
+ "flags": [
+  "Omnibus act spanning multiple families; adm-governance coded from the employment-ADM core (\u00a7\u00a7 7\u201314) \u2014 also contains frontier-safety provisions (\u00a7 2: whistleblower protections, anonymous internal reporting, $1,000/violation penalty), chatbot-safeguards provisions (\u00a7\u00a7 4\u20136: crisisProtocol required, aiDisclosure at first interaction per 24-hour period then hourly for minors/every 3 hours for adults, parentalTools 'tools to manage minor users' screen time and account settings', ageThreshold 18 'younger than eighteen years of age'), and provenance-transparency provisions (\u00a7 15: watermark required for generative-AI systems with 'more than one million users per month')",
+  "trigger coded consequential-decisions is lossy: the ADM regime covers only employment-related decisions (hire, promote, discipline, discharge, renewal, training selection, terms of employment), not all consequential decisions",
+  "\u00a7 1 imposes subscription key-terms disclosure on subscription-based AI providers \u2014 fits no listed duty",
+  "\u00a7\u00a7 13\u201314 make ADM use a non-defense in employment-discrimination cases and let tribunals consider 'evidence of anti-bias testing or similar proactive efforts' \u2014 anti-bias testing is permissive evidence, not a required bias-audit",
+  "\u00a7 39 regulates social-media covered platforms' algorithmic feeds for minors (age determination, parental consent, default one-hour limit, Surgeon General warning, annual public disclosure) \u2014 feed rules are not AI-specific; annual public disclosure (\u00a7 39(e)) fits no listed duty",
+  "penaltyMax $1,000/violation applies only to \u00a7 2 (frontier-developer whistleblower) violations; all other regimes are CUTPA unfair trade practices enforced solely by the Attorney General with no penalty amount stated in this text and no private right of action",
+  "cureDays 60 is discretionary ('may... issue a notice of violation') and applies only to \u00a7\u00a7 8\u201311 violations occurring on or before December 31, 2027",
+  "Bill also contains substantial non-company provisions coded here per the mixed-bill rule: public-sector duties (\u00a7\u00a7 36\u201338: state-agency AI inventory, impact assessments, use/procurement restrictions), a regulatory-sandbox plan (\u00a7 3), an independent-verification pilot program (\u00a7 33), and workforce-development/education programs (Connecticut AI Academy \u00a7\u00a7 17, 19\u201322, 30; education \u00a7\u00a7 23, 27, 34; studies and working groups \u00a7\u00a7 16, 18, 29, 31\u201332, 35)",
+  "No 'replaced by' relation for CT SB 5 in data/legiscan.js"
+ ],
+ "confidence": "medium"
+}

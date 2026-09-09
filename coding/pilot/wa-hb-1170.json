@@ -1,0 +1,35 @@
+{
+ "id": "WA HB 1170",
+ "category": "company",
+ "family": "provenance-transparency",
+ "appliesTo": "covered providers of publicly accessible generative AI systems with over 1,000,000 monthly users",
+ "duties": [
+  "statutory-review",
+  "watermarking"
+ ],
+ "dutySources": {
+  "watermarking": "\u00a7 2(1)\u2013(2) \u2014 'a covered provider shall include provenance data in any video, image, or audio content' \u2026 'must use commercially and technically reasonable methods to make the provenance data difficult to remove or tamper with'"
+ },
+ "params": {
+  "watermark": "required",
+  "disclosureTrigger": "all-genai"
+ },
+ "exposure": {
+  "enforcer": "attorney-general"
+ },
+ "sources": {
+  "watermark": "\u00a7 2(1) \u2014 'a covered provider shall include provenance data in any video, image, or audio content, or content that is any combination thereof, created or materially altered by the covered provider's generative artificial intelligence system'",
+  "disclosureTrigger": "\u00a7 2(1) \u2014 'in any video, image, or audio content, or content that is any combination thereof, created or materially altered by the covered provider's generative artificial intelligence system'",
+  "enforcer": "\u00a7 4(2)\u2013(3) \u2014 'The attorney general may bring an action in the name of the state' \u2026 'Only the attorney general can bring an action under the consumer protection act, chapter 19.86 RCW'"
+ },
+ "duplicateOf": null,
+ "flags": [
+  "\u00a7 6 imposes a separate AI-interaction disclosure duty on government agencies (codified as a new chapter in Title 42 RCW) \u2014 public-sector provision inside a company bill, not coded as a company duty",
+  "covered-provider threshold: applies only to systems with 'over 1,000,000 monthly users' (\u00a7 1(2)) \u2014 no param key exists for a user-count threshold; propose userThreshold number",
+  "disclosureTrigger 'all-genai' is lossy: duty covers only image, video, and audio content \u2014 'generative artificial intelligence' is defined to 'generate images, audio, or video' (\u00a7 1(3)), so text output is excluded",
+  "watermarking duty is qualified: 'To the extent commercially and technically reasonable' (\u00a7 2(1)); safe harbor for 'a commonly supported technical standard for watermarking or metadata, such as the coalition for content provenance and authenticity specification' (\u00a7 2(2))",
+  "exemptions: business-to-business uses (\u00a7 3(2)); exclusively video game/interactive experiences (\u00a7 5(1)); systems used solely for upscaling, noise reduction, or compression (\u00a7 5(2))",
+  "enforcement routed through consumer protection act ch. 19.86 RCW \u2014 'a violation of this chapter is \u2026 an unfair or deceptive act in trade or commerce' (\u00a7 4(2)); no penalty amount stated in this text"
+ ],
+ "confidence": "high"
+}

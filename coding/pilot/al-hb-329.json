@@ -1,0 +1,28 @@
+{
+ "id": "AL HB 329",
+ "category": "education",
+ "family": "education-k12",
+ "appliesTo": "Alabama public K-12 schools and the State Department of Education",
+ "duties": [
+  "statutory-review"
+ ],
+ "dutySources": {},
+ "params": {
+  "curriculum": "required",
+  "graduationReq": "yes"
+ },
+ "sources": {
+  "curriculum": "\u00a7 16-46B-2(a)(1) \u2014 'each public high school shall offer at least one authentic computer science course from a department-approved list'",
+  "graduationReq": "\u00a7 16-46B-7(c)(1) \u2014 'Beginning with the graduating class of 2032, all public school students shall demonstrate digital literacy by earning at least one credit in a department-approved, high school or college-level computer science course'"
+ },
+ "exposure": {
+  "enforcer": "\u00a7 16-46B-2(e) \u2014 'The enforcement of this section shall comply with Section 16-1-11.1.'"
+ },
+ "duplicateOf": null,
+ "flags": [
+  "AI content is definitional only: \u00a7 16-46B-1(2) expands 'computer science' to include 'their emerging technologies, including, but not limited to, artificial intelligence' \u2014 no AI-specific duties are imposed",
+  "Graduation requirement phases in with the class of 2032 (\u00a7 16-46B-7(c)(1)); course-content mandate begins with students graduating in the 2031-2032 school year (\u00a7 16-46B-2(d))",
+  "Enforcement routed by cross-reference to Section 16-1-11.1; no penalty stated in this text"
+ ],
+ "confidence": "high"
+}

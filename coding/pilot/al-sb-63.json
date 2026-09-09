@@ -1,0 +1,47 @@
+{
+ "id": "AL SB 63",
+ "category": "company",
+ "family": "insurance-adm",
+ "appliesTo": "health benefit plan providers (insurers, HMOs, and utilization-review contractors) using AI in prior-authorization determinations",
+ "duties": [
+  "statutory-review",
+  "human-review",
+  "disclosure-ui",
+  "impact-assessment",
+  "registration-filing"
+ ],
+ "dutySources": {
+  "human-review": "\u00a7 1(b)(3) \u2014 'a determination to deny, delay, or modify a request for prior authorization based on medical necessity shall always be made by a licensed physician or other health care professional who is competent to evaluate any recommendation or conclusion of artificial intelligence'",
+  "disclosure-ui": "\u00a7 1(c)(1) \u2014 'Make prominent written disclosure regarding its use of artificial intelligence in utilization review in its policies and procedures.'",
+  "impact-assessment": "\u00a7 1(c)(2) \u2014 'Ensure that its use of artificial intelligence and the outcomes that it generates are reviewed on a periodic basis to maximize accuracy and reliability'",
+  "registration-filing": "\u00a7 1(b)(2) \u2014 'A health benefit plan provider shall certify annually to the department that the artificial intelligence used to make determinations of medical necessity on requests for prior authorization complies'"
+ },
+ "params": {
+  "humanReview": "required-final",
+  "decisionsCovered": "prior-auth",
+  "disclosure": "required"
+ },
+ "exposure": {
+  "penaltyMax": 5000,
+  "penaltyUnit": "per violation",
+  "enforcer": "state-insurance-department"
+ },
+ "sources": {
+  "humanReview": "\u00a7 1(b)(3) \u2014 'shall always be made by a licensed physician or other health care professional'",
+  "decisionsCovered": "\u00a7 1(b)(1) \u2014 'uses artificial intelligence to make determinations of medical necessity on requests for prior authorization under health benefit plans'",
+  "disclosure": "\u00a7 1(c)(1) \u2014 'Make prominent written disclosure regarding its use of artificial intelligence in utilization review'",
+  "penaltyMax": "\u00a7 1(d)(3)b.1 \u2014 'Impose an administrative fine of not more than five thousand dollars ($5,000)'",
+  "penaltyUnit": "\u00a7 1(d)(3)b.1 \u2014 'for a violation that occurred with such frequency as to indicate a general business pattern or practice'",
+  "enforcer": "\u00a7 1(d)(3)b \u2014 'the department may also exercise either or both of the following disciplinary powers' (DEPARTMENT defined at \u00a7 1(a)(2) as 'The Department of Insurance of the State of Alabama')"
+ },
+ "duplicateOf": null,
+ "flags": [
+  "disclosure-ui is lossy here: the required disclosure is in the provider's written policies and procedures (\u00a7 1(c)(1)), not an interactive user-facing label",
+  "\u00a7 1(b)(1) sets a substantive decision standard (determinations must be based on the enrollee's medical history, unique clinical circumstances, and medical record) that fits no listed duty key",
+  "\u00a7 1(b)(2)a\u2013c certification content (no group-dataset reliance, fair/equitable application, no discrimination) fits no listed duty beyond registration-filing; it is an attestation, not a bias-audit",
+  "\u00a7 1(c)(3) imposes a HIPAA-consistent data-use limitation ('patient data used in utilization review functions by artificial intelligence is not used beyond its intended and stated purpose') that fits no listed duty key",
+  "\u00a7 1(c)(4) allows all (b)/(c) requirements to be 'satisfied by an attestation by an authorized representative... based on reasonable reliance upon internal policies, procedures, and third-party vendors'",
+  "penalty applies only to 'repeat violations' indicating 'a general business pattern or practice'; first finding yields a corrective plan (\u00a7 1(d)(3)a), and the department may also suspend or revoke the certificate of authority (\u00a7 1(d)(3)b.2) and require reimbursement of investigation expenses (\u00a7 1(d)(4))"
+ ],
+ "confidence": "high"
+}

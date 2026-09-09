@@ -1,0 +1,50 @@
+{
+ "id": "CO HB 26-1263",
+ "category": "company",
+ "family": "chatbot-safeguards",
+ "appliesTo": "operators that develop, make publicly available, or offer conversational AI services to consumers",
+ "duties": [
+  "statutory-review",
+  "disclosure-ui",
+  "age-assurance",
+  "crisis-protocol",
+  "incident-reporting"
+ ],
+ "dutySources": {
+  "disclosure-ui": "\u00a7 2, 6-1-1708(3) \u2014 'AN OPERATOR SHALL CLEARLY AND CONSPICUOUSLY DISCLOSE TO A USER THAT A CONVERSATIONAL ARTIFICIAL INTELLIGENCE SERVICE IS ARTIFICIAL INTELLIGENCE'",
+  "age-assurance": "\u00a7 2, 6-1-1708(2) \u2014 'AN OPERATOR SHALL USE COMMERCIALLY REASONABLE METHODS OR GENERALLY ACCEPTED METHODS TO ESTIMATE THE AGE OF ACCOUNT HOLDERS OR USERS'",
+  "crisis-protocol": "\u00a7 2, 6-1-1708(4) \u2014 'AN OPERATOR SHALL IMPLEMENT A PROTOCOL FOR A CONVERSATIONAL ARTIFICIAL INTELLIGENCE SERVICE TO RESPOND TO A USER PROMPT REGARDING SUICIDAL IDEATION OR SELF-HARM'",
+  "incident-reporting": "\u00a7 2, 6-1-1708(6)(a) \u2014 'AN OPERATOR SHALL ANNUALLY REPORT TO THE ATTORNEY GENERAL'S OFFICE: (I) THE NUMBER OF TIMES THE OPERATOR HAS ISSUED A CRISIS SERVICE PROVIDER REFERRAL NOTIFICATION'"
+ },
+ "params": {
+  "scope": "all-chatbots",
+  "ageFocus": "all-users",
+  "aiDisclosure": "session-start",
+  "crisisProtocol": "required",
+  "parentalTools": "required",
+  "engagementLimits": "required",
+  "ageThreshold": 18
+ },
+ "sources": {
+  "scope": "\u00a7 1, 6-1-1701(3.5)(a) \u2014 'AN ARTIFICIAL INTELLIGENCE SYSTEM THAT IS ACCESSIBLE TO THE GENERAL PUBLIC AND THAT PRIMARILY SIMULATES HUMAN CONVERSATION'",
+  "ageFocus": "\u00a7 2, 6-1-1708(3) \u2014 'DISCLOSE TO A USER THAT A CONVERSATIONAL ARTIFICIAL INTELLIGENCE SERVICE IS ARTIFICIAL INTELLIGENCE'; \u00a7 2, 6-1-1708(4) crisis protocol also applies to 'A USER PROMPT'",
+  "aiDisclosure": "\u00a7 2, 6-1-1708(3)(a) \u2014 'BE PROVIDED AT THE BEGINNING OF A USER'S FIRST INTERACTION WITH A CONVERSATIONAL ARTIFICIAL INTELLIGENCE SERVICE FOR EACH DAY OF INTERACTION'",
+  "crisisProtocol": "\u00a7 2, 6-1-1708(4) \u2014 'PROTOCOL MUST INCLUDE USER REFERRAL TO A CRISIS SERVICE PROVIDER SUCH AS A SUICIDE HOTLINE, A CRISIS TEXT LINE, OR ANOTHER APPROPRIATE CRISIS SERVICE'",
+  "parentalTools": "\u00a7 2, 6-1-1708(2)(h)(II) \u2014 'OFFER TOOLS FOR A PARENT OR GUARDIAN OF THE MINOR ACCOUNT HOLDER OR MINOR USER TO MANAGE THE MINOR ACCOUNT HOLDER'S OR MINOR USER'S PRIVACY AND ACCOUNT SETTINGS'",
+  "engagementLimits": "\u00a7 2, 6-1-1708(2)(b) \u2014 'NOT PROVIDE THE MINOR ACCOUNT HOLDER OR MINOR USER WITH POINTS OR SIMILAR REWARDS AT UNPREDICTABLE INTERVALS WITH THE INTENT TO ENCOURAGE INCREASED ENGAGEMENT'",
+  "ageThreshold": "\u00a7 1, 6-1-1701(15.3) \u2014 ''MINOR' MEANS A CONSUMER UNDER EIGHTEEN YEARS OLD'"
+ },
+ "duplicateOf": null,
+ "flags": [
+  "scope lossy: definition covers any public-facing service that 'primarily simulates human conversation' but 6-1-1701(3.5)(b)(I)-(XII) carves out twelve categories (developer tools, commerce/customer service, narrow-topic, enterprise, device assistants, video games, theme parks, HIPAA entities, health-care providers, educational tools, embedded features not 'designed to simulate emotional companionship')",
+  "ageFocus lossy: \u00a7\u00a7 3-6 duties (disclosure, crisis protocol, false-representation ban, reporting) bind for all users, while 6-1-1708(2)(a)-(h) adds a heavier minor-specific duty set; coded all-users",
+  "aiDisclosure lossy: besides session-start, disclosure must recur 'AT LEAST ONCE EVERY THREE HOURS IN A CONTINUOUS ... INTERACTION OR APPEAR AS A PERSISTENT DISCLOSURE' (6-1-1708(3)(b)) and be given on user prompt (3)(c); for known minors it must be a persistent visible or intermittent audio disclaimer (6-1-1708(2)(a))",
+  "content-safeguard duties fit no listed duty key: measures preventing explicit sexual conduct depictions, intimate digital depictions, and erotic interactions with minors (6-1-1708(2)(c),(e),(f)) and measures preventing simulated emotional dependence, claims of humanity/sentience, romantic companionship, and adult-minor romantic role-play (6-1-1708(2)(d))",
+  "false-representation ban fits no listed duty key: operator may not state outputs are 'PROVIDED BY, ENDORSED BY, OR EQUIVALENT TO SERVICES PROVIDED BY' a licensed health-care, legal, mental health professional, or qualified dietitian (6-1-1708(5))",
+  "minor privacy tools fit no listed duty key: minors must get tools to control memory/personalization retention and training use of personal data (6-1-1708(2)(h)(I)), and operators must 'COMPLY WITH PART 13 OF THIS ARTICLE 1' on minor privacy (6-1-1708(2)(g))",
+  "incident-reporting is annual aggregate reporting of crisis-referral counts and protocols to the attorney general, not per-incident reporting; AG posts the data publicly (6-1-1708(6)(c))",
+  "no penalty or enforcement provision in this text; sections are added to title 6, article 1 (consumer protection article) but the enacted text states no enforcement mechanism \u2014 exposure omitted",
+  "phase-in: minor duties, disclosures, crisis protocol, and false-representation ban apply 'ON AND AFTER JANUARY 1, 2027'; annual reporting 'ON AND AFTER JULY 1, 2027'"
+ ],
+ "confidence": "high"
+}

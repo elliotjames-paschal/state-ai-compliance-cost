@@ -1,0 +1,39 @@
+{
+ "id": "CO HB 26-1195",
+ "category": "company",
+ "family": "mental-health-practice",
+ "appliesTo": "licensees, registrants, certificate holders, and other individuals lawfully permitted to provide psychotherapy services in Colorado; \u00a7 3 also binds any person marketing or operating an AI system with respect to psychotherapy misrepresentation",
+ "duties": [
+  "statutory-review",
+  "disclosure-ui",
+  "consent-workflow",
+  "human-review"
+ ],
+ "dutySources": {
+  "disclosure-ui": "\u00a7 2, 12-245-224.5(4)(a)(I)(A) & (6)(b) \u2014 'THAT AN ARTIFICIAL INTELLIGENCE SYSTEM WILL BE USED'; 'SHALL PROVIDE TO THE CLIENT DURING THE INITIAL CLIENT CONTACT WRITTEN INFORMATION CONCERNING PROHIBITIONS'",
+  "consent-workflow": "\u00a7 2, 12-245-224.5(4)(a)(II) \u2014 'CONSENTS IN WRITING TO THE USE OF THE ARTIFICIAL INTELLIGENCE SYSTEM'",
+  "human-review": "\u00a7 2, 12-245-224.5(2) & (5)(b) \u2014 'MAINTAINS RESPONSIBILITY FOR REVIEWING ANY OUTPUTS OF THE ARTIFICIAL INTELLIGENCE SYSTEM'; shall not allow AI to 'GENERATE THERAPEUTIC RECOMMENDATIONS OR TREATMENT PLANS WITHOUT REVIEW AND APPROVAL BY THE LICENSEE'"
+ },
+ "params": {
+  "aiTherapyRule": "supervised",
+  "consentRequired": "yes",
+  "scope": "psychotherapy"
+ },
+ "exposure": {
+  "enforcer": "mental-health licensing discipline under article 245, title 12"
+ },
+ "sources": {
+  "aiTherapyRule": "\u00a7 2, 12-245-224.5(5)(a)\u2013(b) & (6)(a) \u2014 'SHALL NOT ALLOW AN ARTIFICIAL INTELLIGENCE SYSTEM TO' interact 'WITH CLIENTS IN ANY FORM OF THERAPEUTIC COMMUNICATION WITHOUT SYNCHRONOUS' real-time interaction; 'SHALL NOT USE AN ARTIFICIAL INTELLIGENCE SYSTEM TO' provide psychotherapy 'UNLESS THE USE COMPLIES WITH SUBSECTION (5) OF THIS SECTION'",
+  "consentRequired": "\u00a7 2, 12-245-224.5(4)(a)(II) \u2014 'CONSENTS IN WRITING TO THE USE OF THE ARTIFICIAL INTELLIGENCE SYSTEM'",
+  "scope": "\u00a7 2 heading, 12-245-224.5 \u2014 'Use of artificial intelligence systems for psychotherapy services'",
+  "enforcer": "\u00a7 1, 12-245-224(1)(y) \u2014 a licensee 'violates this article 245 if the person' 'FAILS TO COMPLY WITH SECTION 12-245-224.5 CONCERNING THE USE OF ARTIFICIAL INTELLIGENCE SYSTEMS'"
+ },
+ "duplicateOf": null,
+ "flags": [
+  "aiTherapyRule 'supervised' is lossy: AI therapeutic communication is prohibited unless there is synchronous real-time participation among provider, AI system, and client (12-245-224.5(5)(a)); AI-generated recommendations/treatment plans require provider review and approval (5)(b); consent applies specifically to AI recording/transcription of sessions (4)(a)",
+  "\u00a7 3 (new C.R.S. 6-1-1705.2, in the consumer protection title) prohibits any person from using terms in an AI system's advertising, interface, or outputs implying it provides, is endorsed by, or is equivalent to licensed psychotherapy services, or implying therapist-client-grade confidentiality \u2014 a prohibition on non-provider actors that fits no listed duty key",
+  "no penalty amount stated anywhere; \u00a7 1 routes provider enforcement through article 245 licensing violations; \u00a7 3(2) states developer/deployer liability 'IS GOVERNED BY APPLICABLE CONSUMER PROTECTION LAW' but this text sets no penalty or enforcer for \u00a7 3",
+  "exemptions: educational/training use (12-245-224.5(7)), IRB-overseen research (8), wellness tools that do not diagnose or treat and disclose they are not a substitute for clinical care (9)(a), and FDA-authorized behavioral health tools (9)(b)"
+ ],
+ "confidence": "high"
+}

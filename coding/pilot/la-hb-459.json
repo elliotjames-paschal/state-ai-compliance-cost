@@ -1,0 +1,36 @@
+{
+ "id": "LA HB 459",
+ "category": "criminal",
+ "family": "ai-crimes",
+ "appliesTo": "any person making electioneering communications that portray a candidate or elected official subject to recall via AI-created, altered, or digitally manipulated content",
+ "duties": [
+  "statutory-review",
+  "disclosure-ui"
+ ],
+ "dutySources": {
+  "disclosure-ui": "\u00a7 1463(F)(1) \u2014 'without providing a clear and understandable disclosure on the electioneering communication that it was created using artificial intelligence'"
+ },
+ "params": {
+  "prohibition": "election-deepfakes"
+ },
+ "exposure": {
+  "penaltyMax": 2000,
+  "penaltyUnit": "per violation"
+ },
+ "sources": {
+  "prohibition": "\u00a7 1463(F)(1) \u2014 'No person shall make or cause to be made any electioneering communication that portrays a candidate or an elected official subject to recall and that is, through the use of artificial intelligence, created, altered, or digitally manipulated'",
+  "penaltyMax": "\u00a7 1463(G) \u2014 'shall be fined not more than two thousand dollars or be imprisoned, with or without hard labor, for not more than two years, or both'",
+  "penaltyUnit": "\u00a7 1463(G) \u2014 'Whoever violates any provision of this Section'"
+ },
+ "duplicateOf": null,
+ "flags": [
+  "criminal penalty includes imprisonment 'with or without hard labor, for not more than two years' \u2014 exposure vocabulary has no imprisonment field",
+  "penalty attaches only to violations 'with the intent to injure the reputation of a candidate or elected official subject to recall or to otherwise deceive a voter'; the underlying prohibition in (F)(1) states no intent element",
+  "functions as a disclosure regime (AI depiction permitted with disclosure) and dataset files it under Elections, but election-disclosure family is designated civil; coded ai-crimes because the only enforcement stated is criminal",
+  "depicted subjects are candidates and elected officials subject to recall \u2014 ai-crimes coveredSubjects enum (minors|all-persons) does not fit, so param omitted",
+  "\u00a7 1463(I) exempts a 'media entity' broadcasting a paid communication in which 'the broadcaster has had no input in or control over' the content",
+  "required disclosure form cross-references 'the disclosure requirements of Subsection (E) of this Section' \u2014 not coded per no-imports rule",
+  "bill also amends non-AI campaign-finance provisions: definitions of contribution/coordinated expenditure/electioneering communication (\u00a7 1483) and reporting by persons other than candidates or committees for expenditures exceeding 'one thousand dollars in the aggregate' (\u00a7 1501.1(A)(1))"
+ ],
+ "confidence": "medium"
+}

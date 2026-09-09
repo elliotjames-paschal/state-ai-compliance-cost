@@ -1,0 +1,39 @@
+{
+ "id": "HI HB 2137",
+ "category": "company",
+ "family": "likeness-rights",
+ "appliesTo": "any person publishing realistic AI-generated digital imitations of identifiable individuals",
+ "duties": [
+  "statutory-review",
+  "consent-workflow"
+ ],
+ "dutySources": {
+  "consent-workflow": "\u00a7 -2 \u2014 'It shall be unlawful for any person to knowingly publish a realistic digital imitation of an identifiable individual without that individual's consent'"
+ },
+ "params": {
+  "consentRequired": "yes",
+  "coveredSubjects": "all-persons",
+  "postmortemYears": 10
+ },
+ "exposure": {
+  "penaltyMax": 25000,
+  "penaltyUnit": "per advertisement",
+  "enforcer": "private right of action; attorney-general (equitable relief only)"
+ },
+ "sources": {
+  "consentRequired": "\u00a7 -1 \u2014 '\"Consent\" means express, written permission from a depicted individual or the depicted individual's authorized representative.'",
+  "coveredSubjects": "\u00a7 -2 \u2014 'a realistic digital imitation of an identifiable individual'",
+  "postmortemYears": "\u00a7 -4(a) \u2014 'the individual or the individual's estate, for up to ten years after the death of the individual, may bring an action'",
+  "penaltyMax": "\u00a7 -4(b)(2) \u2014 'Monetary damages of up to $25,000 per advertisement or recovery of actual damages'",
+  "enforcer": "\u00a7 -4(c) \u2014 'A cause of action for injunctive or other equitable relief may be brought by the attorney general in instances in which the distribution of realistic digital imitations involves broad public interest or widespread harm.'"
+ },
+ "duplicateOf": null,
+ "flags": [
+  "Binds 'any person' via a civil prohibition with a private right of action, not an ongoing business compliance program; 'company' is the closest category fit.",
+  "Penalty exposure is statutory damages in private suits ($25,000 per advertisement, plus actual and punitive damages and attorneys' fees); the attorney general may seek only injunctive/equitable relief, no civil penalty.",
+  "\u00a7 -3 exempts parody, satire, commentary, criticism, scholarship, political/educational expression, news reporting, documentary/historical/biographical works, and ads for such content; \u00a7 -5(b) exempts third-party content media (newspapers, networks, streaming services, etc.) in their distribution role; \u00a7 -5(c) preserves 47 U.S.C. \u00a7 230.",
+  "Prohibition triggers only when the unconsented imitation is used in an advertisement, causes harm, or is used for fraud/defamation/harassment/other criminal acts (\u00a7 -2(1)-(3)).",
+  "No 'replaced by' (sasts) relation in data/legiscan.js; LegiScan status Passed 2026-07-14."
+ ],
+ "confidence": "high"
+}

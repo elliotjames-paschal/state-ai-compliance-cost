@@ -1,0 +1,32 @@
+{
+ "id": "ID H 727",
+ "category": "criminal",
+ "family": "ai-crimes",
+ "appliesTo": "any person who discloses, or threatens to disclose, explicit synthetic media of an identifiable person",
+ "duties": [
+  "statutory-review"
+ ],
+ "dutySources": {},
+ "params": {
+  "prohibition": "ncii",
+  "coveredSubjects": "all-persons"
+ },
+ "exposure": {
+  "penaltyMax": 25000,
+  "penaltyUnit": "per felony offense (fine; plus up to 10 years imprisonment)"
+ },
+ "sources": {
+  "prohibition": "\u00a7 2, 18-6606(1)(a) \u2014 'Discloses explicit synthetic media and knows or reasonably should know that: (i) An identifiable person portrayed in whole or in part in the explicit synthetic media did not consent to such disclosure'",
+  "coveredSubjects": "\u00a7 2, 18-6606(4)(c) \u2014 '\"Identifiable individual\" means a person who is portrayed in whole or in part in synthetic media and who is recognizable by the person's face, likeness, or other distinguishing characteristic'",
+  "penaltyMax": "\u00a7 2, 18-6606(3) \u2014 'a felony punishable by imprisonment for a period no more than ten (10) years, or by a fine of no more than twenty-five thousand dollars ($25,000), or by both such fine and imprisonment'",
+  "penaltyUnit": "\u00a7 2, 18-6606(2)\u2013(3) \u2014 'A person who violates subsection (1) of this section is guilty of a misdemeanor unless such person is guilty of a felony as provided in subsection (3)'"
+ },
+ "duplicateOf": null,
+ "flags": [
+  "Base offense is a misdemeanor with no fine amount stated (18-6606(2)); coded penaltyMax is the felony tier, which applies only when the identifiable person is under 18 or the offender has a prior violation within 5 years (18-6606(3))",
+  "Section 1 also amends the separate video voyeurism offense (18-6605, real-imagery NCII), extending it to threats or conspiracy to disseminate, publish or sell \u2014 outside the ai-crimes param vocabulary",
+  "Safe harbor for interactive computer services, information services, and telecommunication services for content provided by another person unless the provider intentionally aids or abets (18-6606(6)); no company compliance duty imposed",
+  "Extortion variant included: possessing and threatening to disclose with intent to obtain money or other valuable consideration (18-6606(1)(c))"
+ ],
+ "confidence": "high"
+}

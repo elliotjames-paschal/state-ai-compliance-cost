@@ -82,7 +82,9 @@ window.MODEL_DATA = {
     "incident-reporting": { label: "Safety incident reporting",
       legal: { low: 10, mode: 25, high: 50 },   eng: { low: 20, mode: 60, high: 130 },   ops: { low: 10, mode: 30, high: 70 } },
     "registration-filing": { label: "Register / file with agency",
-      legal: { low: 5, mode: 15, high: 30 },    eng: { low: 10, mode: 25, high: 60 },    ops: { low: 10, mode: 25, high: 60 } }
+      legal: { low: 5, mode: 15, high: 30 },    eng: { low: 10, mode: 25, high: 60 },    ops: { low: 10, mode: 25, high: 60 } },
+    "content-safeguards": { label: "Prohibited-content safeguards",
+      legal: { low: 10, mode: 25, high: 50 },   eng: { low: 100, mode: 250, high: 550 }, ops: { low: 40, mode: 90, high: 180 } }
   },
 
   families: {

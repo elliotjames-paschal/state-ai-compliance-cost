@@ -1,0 +1,54 @@
+{
+ "id": "IL SB 315",
+ "category": "company",
+ "family": "frontier-safety",
+ "appliesTo": "frontier developers (foundation models trained with >10^26 operations); heightened duties on large frontier developers (>$500,000,000 annual gross revenues)",
+ "duties": [
+  "statutory-review",
+  "risk-program",
+  "documentation",
+  "impact-assessment",
+  "incident-reporting",
+  "registration-filing"
+ ],
+ "dutySources": {
+  "risk-program": "\u00a7 10(a) \u2014 'shall write, implement, comply with, and clearly and conspicuously publish on its website a frontier AI framework'",
+  "documentation": "\u00a7 10(c)(1) \u2014 'a frontier developer shall clearly and conspicuously publish on its website a transparency report'",
+  "impact-assessment": "\u00a7 10(e) \u2014 'A large frontier developer shall transmit to the Agency a summary of any assessment of catastrophic risk resulting from internal use of its frontier models every 3 months'",
+  "incident-reporting": "\u00a7 15(c) \u2014 'A frontier developer shall report any critical safety incident pertaining to one or more of its frontier models to the Agency and the Attorney General within 72 hours'",
+  "registration-filing": "\u00a7 18(a) \u2014 'no large frontier developer may develop, deploy, or operate a frontier model, in whole or in part in this State, without having a current disclosure statement filed with the Agency and paying the required fee'"
+ },
+ "params": {
+  "threshold": "compute",
+  "safetyFramework": "required",
+  "incidentReporting": "required",
+  "thirdPartyAudit": "required",
+  "whistleblower": "protected"
+ },
+ "exposure": {
+  "penaltyMax": 3000000,
+  "penaltyUnit": "per violation",
+  "enforcer": "attorney-general"
+ },
+ "sources": {
+  "threshold": "\u00a7 5 \u2014 '\"Frontier model\" means a foundation model that was trained using a quantity of computing power greater than 10^26 integer or floating-point operations'",
+  "safetyFramework": "\u00a7 10(a) \u2014 'shall write, implement, comply with, and clearly and conspicuously publish on its website a frontier AI framework'",
+  "incidentReporting": "\u00a7 15(c) \u2014 'shall report any critical safety incident pertaining to one or more of its frontier models to the Agency and the Attorney General within 72 hours'",
+  "thirdPartyAudit": "\u00a7 10(d) \u2014 'shall annually retain a third party to perform an independent audit of compliance with the requirements of this Section'",
+  "whistleblower": "\u00a7 20(a) \u2014 'A frontier developer shall not make, adopt, enforce, or enter into a rule, regulation, policy, or contract that prevents a covered employee from disclosing, or retaliates against a covered employee for disclosing'",
+  "penaltyMax": "\u00a7 25(a) \u2014 'For a subsequent violation, the civil penalty may not exceed $3,000,000 per violation.'",
+  "penaltyUnit": "\u00a7 25(a) \u2014 'may not exceed $3,000,000 per violation'",
+  "enforcer": "\u00a7 25(b) \u2014 'recovered in a civil action brought exclusively by the Attorney General'"
+ },
+ "duplicateOf": null,
+ "flags": [
+  "Two-tier scope: framework, third-party audit, quarterly internal-use risk summaries, and registration bind only 'large frontier developers' (>$500,000,000 revenue, \u00a7 5); transparency reports (\u00a7 10(c)(1)), 72-hour incident reporting (\u00a7 15(c)), and whistleblower non-retaliation (\u00a7 20(a)) bind all frontier developers.",
+  "threshold=compute is lossy: the large-frontier-developer tier adds a revenue test (\u00a7 5 \u2014 'annual gross revenues in excess of $500,000,000 in the preceding calendar year').",
+  "\u00a7 10(d) annual third-party audit is a compliance audit and fits no listed duty key (bias-audit is discrimination-specific); captured only via the thirdPartyAudit param.",
+  "penaltyMax codes the subsequent-violation cap; \u00a7 25(a) caps the first violation at $1,000,000, and \u00a7 18(e)(1) adds a separate 'civil penalty of $1,000 for each day' for registration/disclosure failures levied by the Agency.",
+  "\u00a7 17 interoperability safe harbor: a developer declaring compliance with an Agency-designated substantially equivalent federal law/regulation/guidance 'shall be deemed in compliance with this Act'.",
+  "\u00a7 25(d): no private right of action.",
+  "Sections 80 and 90 amend the Freedom of Information Act and the Whistleblower Act (non-company-duty provisions); \u00a7 18 duties begin January 1, 2027, \u00a7 10(a)/(d) duties begin January 1, 2028."
+ ],
+ "confidence": "high"
+}
