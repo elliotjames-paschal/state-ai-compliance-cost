@@ -268,10 +268,17 @@ a { color: var(--accent-dark); }
 .controls details.advanced[open] > summary { border-color: var(--accent); color: var(--accent-dark); }
 .controls details.advanced[open] > summary::after { content: " \25B4"; }
 .controls details.advanced > summary:hover { border-color: var(--ink); color: var(--ink); }
-.duty-row { display: grid; grid-template-columns: 1fr 52px 52px 52px; gap: 4px; align-items: center; margin-bottom: 3px; }
-.duty-row.duty-head span { font-size: 11px; color: var(--muted); text-align: center; }
-.duty-row .duty-label { font-size: 12px; }
-.duty-row input { width: 100%; font-size: 12px; padding: 2px 4px; }
+.duty-item { padding: 8px 0; border-bottom: 1px solid var(--line); }
+.duty-item:last-child { border-bottom: none; }
+.duty-item .duty-label { font-size: 12.5px; font-weight: 600; margin-bottom: 5px; }
+.duty-inputs { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; }
+.duty-cell { display: flex; flex-direction: column; }
+.duty-cell input {
+  width: 100%; box-sizing: border-box; font: inherit; font-size: 13px;
+  padding: 4px 6px; border: 1px solid var(--line); border-radius: 3px; text-align: center;
+}
+.duty-cell input:focus { border-color: var(--accent); outline: none; }
+.duty-cap { font-size: 10.5px; color: var(--muted); text-align: center; margin-top: 2px; }
 
 .bill-card .bill-params { font-size: 12px; color: var(--muted); }
 .bill-card .bill-links { font-size: 12px; margin-top: 3px; }

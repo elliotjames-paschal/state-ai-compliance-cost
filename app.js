@@ -346,14 +346,17 @@
   // (mode) hours per role; the triangular low/high scale with the edit.
   function buildDutyControls() {
     var host = $("duty-table");
-    var html = "<div class='duty-row duty-head'><span></span><span>legal</span><span>eng</span><span>ops</span></div>";
+    var CAPTIONS = { legal: "legal, once", eng: "eng, once", ops: "ops, per yr" };
+    var html = "";
     Object.keys(DATA.duties).forEach(function (k) {
       var d = DATA.duties[k];
-      html += "<div class='duty-row'><span class='duty-label' title='" + k + "'>" + d.label + "</span>" +
+      html += "<div class='duty-item'><div class='duty-label' title='" + k + "'>" + d.label + "</div>" +
+        "<div class='duty-inputs'>" +
         ["legal", "eng", "ops"].map(function (r) {
-          return "<input type='number' min='0' step='5' data-duty='" + k + "' data-role='" + r +
-            "' value='" + d[r].mode + "'>";
-        }).join("") + "</div>";
+          return "<div class='duty-cell'><input type='number' min='0' step='5' data-duty='" + k +
+            "' data-role='" + r + "' value='" + d[r].mode + "'>" +
+            "<span class='duty-cap'>" + CAPTIONS[r] + "</span></div>";
+        }).join("") + "</div></div>";
     });
     host.innerHTML = html;
   }
