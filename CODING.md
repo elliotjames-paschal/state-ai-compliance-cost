@@ -145,7 +145,30 @@ lossy. (v0.1 — the pilot exists to stress-test these lists; propose additions 
 
 ## Process
 
-Pilot: 10 bills spanning the families, single-coded, human-reviewed → vocabulary frozen as v1.0.
-Full run: every bill coded twice independently; a comparison script diffs the two passes;
-disagreements adjudicated by a third read. Coded entries replace the placeholders in
-`data/bills.js` wholesale; reuse and the federal baseline recompute automatically.
+Every bill is coded twice independently; `pipeline/diff_passes.py` compares the passes on the
+material fields; disagreements are adjudicated by a third read of the text. The promoted entry
+lands in `coding/coded/`, and `pipeline/compile.py` regenerates `data/bills.js` — reuse and the
+federal baseline recompute automatically.
+
+## Appendix — the exact prompts (use verbatim, only substituting BILL_ID / SLUG / PASS)
+
+**Coder** (run twice, as pass 1 and pass 2, in separate agents/sessions with no shared context):
+
+> You are statute coder pass PASS for bill "BILL_ID".
+> 1. Read CODING.md fully and follow v1.0 exactly (omnibus segmentation rule 9, election-family
+>    rule 10, criminal-fine convention rule 11, fixed vocabularies).
+> 2. Read the COMPLETE bill text at texts/SLUG.txt.
+> 3. Check data/legiscan.js for a "replaced by" relation on "BILL_ID" (rule 7).
+> 4. Produce {"entries": [...]} per CODING.md output format — one entry normally, one per
+>    family-coherent segment for omnibus bills.
+> 5. Write that exact JSON object to coding/passes/SLUG.passPASS.json.
+> Facts from the enacted text only; verbatim quotes in sources/dutySources; silence stays
+> silent; flag what does not fit rather than improvising.
+
+**Adjudicator** (only when `diff_passes.py` reports material disagreement; paste its output):
+
+> Two independent coders disagreed on bill "BILL_ID". Material differences:
+> [diff_passes.py output]
+> Read CODING.md and the FULL bill text at texts/SLUG.txt yourself. Resolve EVERY difference
+> from the statutory text — pick what the text supports with a verbatim quote, never split the
+> difference. Write the final {"entries": [...]} to coding/passes/SLUG.final.json.

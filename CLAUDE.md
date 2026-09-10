@@ -81,10 +81,13 @@ python3 pipeline/fetch.py <slug> <url> --id "HI HB 2137" --state HI --version "C
    - Check `sasts` on anything new — a "replaced by" relation means the law lives under a
      different bill number (fetch that vehicle, and never count both in the cost model).
 5. **Triage** anything that isn't `OK` using the failure playbook below.
-6. **Code the statute** per `CODING.md` (the frozen v1.0 protocol: fixed families, duty triggers,
-   param vocabularies, quote-anchoring, exposure rules). Best practice mirrors the original sweep:
-   two independent coding passes, diff the material fields, adjudicate disagreements from the
-   text. Save the final entry as `coding/coded/<slug>.json` (same format as the existing 89).
+6. **Code the statute** — the exact sequence (prompts verbatim in CODING.md's appendix):
+   a. Spawn two independent subagents with the coder prompt (pass 1 and pass 2) — they write
+      `coding/passes/<slug>.pass1.json` and `.pass2.json`.
+   b. `python3 pipeline/diff_passes.py <slug>` — exits clean if the passes materially agree.
+   c. If it reports disagreements, spawn one adjudicator subagent with the adjudicator prompt
+      plus the diff output — it writes `coding/passes/<slug>.final.json`.
+   d. `python3 pipeline/diff_passes.py <slug> --promote` — writes `coding/coded/<slug>.json`.
 7. **Recompile the dataset**: `python3 pipeline/compile.py` regenerates `data/bills.js` from
    `coding/coded/` — it dedupes companion vehicles, drops unenacted bills, validates every duty
    key/family/source, and preserves the duty-hour table. Never edit `data/bills.js` by hand.
