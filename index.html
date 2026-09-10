@@ -16,6 +16,7 @@
   <div class="tabs" role="tablist">
     <button class="tab-btn" data-tab="explorer" role="tab">State Law Explorer</button>
     <button class="tab-btn" data-tab="model" role="tab">Cost Model</button>
+    <button class="tab-btn" data-tab="glossary" role="tab">Glossary</button>
   </div>
 </nav>
 
@@ -232,6 +233,28 @@
         open an issue on anything that looks wrong.</p>
       </section>
 
+    </main>
+
+  </div>
+</div>
+
+<div id="tooltip" class="tooltip hidden"></div>
+
+<footer>
+  <p>Elliot Paschal &middot; August 2026 &middot; draft for feedback &middot; placeholder inputs pending statute coding &middot;
+  <a href="https://github.com/elliotjames-paschal/state-ai-compliance-cost">source &amp; issues</a></p>
+</footer>
+
+
+<!-- ================= TAB 3 · GLOSSARY ================= -->
+<div id="tab-glossary" class="tab-panel hidden">
+
+  <header class="page-head">
+    <h1>How to read this model</h1>
+    <p>What the terms mean and how the pieces fit together &mdash; duties, parameters, reuse,
+    and the federal baseline. Every value described here is auditable in the repo.</p>
+  </header>
+
       <section class="card" id="glossary">
         <h2>Glossary <span class="hint">duties, parameters, and how they fit together</span></h2>
 
@@ -287,17 +310,8 @@
         <p class="note">Full coding rules &mdash; fixed vocabularies, quote-anchoring, double-coding &mdash;
         are in <code>CODING.md</code> in the repo.</p>
       </section>
-    </main>
 
-  </div>
 </div>
-
-<div id="tooltip" class="tooltip hidden"></div>
-
-<footer>
-  <p>Elliot Paschal &middot; August 2026 &middot; draft for feedback &middot; placeholder inputs pending statute coding &middot;
-  <a href="https://github.com/elliotjames-paschal/state-ai-compliance-cost">source &amp; issues</a></p>
-</footer>
 
 <script src="data/us-map.js"></script>
 <script src="data/bills-2026.js"></script>

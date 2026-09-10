@@ -28,7 +28,7 @@
   // ========================================================================
 
   function showTab(name) {
-    ["explorer", "model"].forEach(function (t) {
+    ["explorer", "model", "glossary"].forEach(function (t) {
       $("tab-" + t).classList.toggle("hidden", t !== name);
     });
     document.querySelectorAll(".tab-btn").forEach(function (b) {
@@ -42,7 +42,7 @@
   });
   window.addEventListener("hashchange", function () {
     var t = location.hash.replace("#", "");
-    if (t === "model" || t === "explorer") showTab(t);
+    if (t === "model" || t === "explorer" || t === "glossary") showTab(t);
   });
 
   // ========================================================================
@@ -713,5 +713,5 @@
   populateCategoryFilter();
   refreshExplorer();
   recompute();
-  showTab(location.hash === "#model" ? "model" : "explorer");
+  showTab(location.hash === "#model" ? "model" : location.hash === "#glossary" ? "glossary" : "explorer");
 })();
