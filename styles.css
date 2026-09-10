@@ -248,11 +248,26 @@ a { color: var(--accent-dark); }
 .bill-card .bill-id { font-family: var(--mono); font-size: 12px; font-weight: 600; }
 .bill-card .bill-title { font-size: 13.5px; font-weight: 600; margin: 1px 0 4px; }
 .bill-card .bill-meta { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 6px; }
-.controls details.advanced { border-top: 1px solid var(--line, #e2e2e2); padding-top: 10px; }
+.controls details.advanced { margin-bottom: 14px; }
 .controls details.advanced > summary {
-  cursor: pointer; font-weight: 700; font-size: 13px; text-transform: uppercase;
-  letter-spacing: 0.04em; color: var(--muted); margin-bottom: 10px;
+  list-style: none;
+  width: 100%;
+  padding: 7px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  color: var(--muted);
+  cursor: pointer;
+  margin-bottom: 14px;
 }
+.controls details.advanced > summary::-webkit-details-marker { display: none; }
+.controls details.advanced > summary::after { content: " \25BE"; font-size: 11px; }
+.controls details.advanced[open] > summary { border-color: var(--accent); color: var(--accent-dark); }
+.controls details.advanced[open] > summary::after { content: " \25B4"; }
+.controls details.advanced > summary:hover { border-color: var(--ink); color: var(--ink); }
 .duty-row { display: grid; grid-template-columns: 1fr 52px 52px 52px; gap: 4px; align-items: center; margin-bottom: 3px; }
 .duty-row.duty-head span { font-size: 11px; color: var(--muted); text-align: center; }
 .duty-row .duty-label { font-size: 12px; }
