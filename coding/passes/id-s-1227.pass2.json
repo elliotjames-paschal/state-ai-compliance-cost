@@ -1,0 +1,31 @@
+{
+  "entries": [
+    {
+      "id": "ID S 1227",
+      "category": "education",
+      "family": "education-k12",
+      "appliesTo": "Idaho local school districts and public charter schools (plus duties on the state department of education and state board of education)",
+      "duties": ["statutory-review", "risk-program"],
+      "dutySources": {
+        "risk-program": "§ 33-7004 — 'Each local school district and public charter school shall adopt a policy governing the use of generative artificial intelligence by students and employees in school buildings, on school grounds, during school activities, and on school-issued devices.'"
+      },
+      "params": {
+        "policyRequired": "yes"
+      },
+      "sources": {
+        "policyRequired": "§ 33-7004 — 'Each local school district and public charter school shall adopt a policy governing the use of generative artificial intelligence by students and employees'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "CODING.md rule 6's example asserts ID S 1227 'is a chatbot-safeguards bill', but the fetched engrossed text is a Generative AI in Education act (new Chapter 70, Title 33) with no chatbot/companion-AI provisions; coded from the text per rule 1. The example likely confused this bill with ID S 1297 ('Conversational AI Safety Act').",
+        "Substantial duties bind the state department of education / state board rather than schools: § 33-7003 ('The state department of education shall develop a statewide generative artificial intelligence in education framework, subject to state board of education approval'), § 33-7005 (develop and recommend literacy standards, assessment guidelines, and a professional development plan), § 33-7006 ('shall develop for parents and legal guardians a generative AI guidance document'), § 33-7008 (permissive rulemaking) — public-sector-adjacent provisions inside an education bill.",
+        "§ 33-7005 duties are develop-and-recommend obligations on the department ('shall develop and recommend to the state board of education'), not direct mandates that schools teach standards or deliver training; therefore curriculum and trainingRequired params were not coded.",
+        "§ 33-7007(1) imposes a disclosure duty directly on private vendors: 'Vendors shall disclose whether products utilize machine learning, predictive analytics, or generative AI and shall provide assurances regarding data protection, algorithmic transparency, and responsible use.' This is procurement-conditioned (applies to tools 'procured by local school districts and public charter schools'), so category was kept as education rather than company; flagged because the category rule says mixed company duties normally push to company.",
+        "§ 33-7007(1) procurement requirement ('All generative AI-related software, applications, and tools procured by local school districts and public charter schools shall comply with state and federal data privacy laws') fits no education-k12 param; the compliance content is cross-referenced law (FERPA, CIPA, COPPA), not coded per the no-imports rule.",
+        "§ 33-7004(4) policy-content requirement cross-references other statutes ('Comply with all applicable state and federal laws, including Idaho student data privacy requirements, the Idaho parental rights act...') — not coded per the no-imports rule.",
+        "No penalty or enforcement provision anywhere in the chapter; exposure omitted (silence is silence)."
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "entries": [
+    {
+      "id": "VA HB 1186",
+      "category": "education",
+      "family": "education-k12",
+      "segment": null,
+      "appliesTo": "local school boards and the Virginia Department of Education (public elementary and secondary schools)",
+      "duties": ["statutory-review", "risk-program"],
+      "dutySources": {
+        "risk-program": "§ 22.1-20.2:1(C) — 'Each school board shall establish, implement, and enforce policies consistent with the guidance developed by the Department pursuant to subsection B.'"
+      },
+      "params": {
+        "policyRequired": "yes"
+      },
+      "sources": {
+        "policyRequired": "§ 22.1-20.2:1(C) — 'Each school board shall establish, implement, and enforce policies consistent with the guidance developed by the Department pursuant to subsection B.'"
+      },
+      "exposure": null,
+      "duplicateOf": null,
+      "flags": [
+        "Adjudicated: trainingRequired NOT coded — professional development binds only 'each school division selected for participation in the Pilot Program' (§ D(3)), the Pilot Program is funding-contingent ('With such funds as are appropriated for such purpose', subsec. D), and subsection D 'shall expire on July 1, 2030' (enactment clause 2); a conditional, selection-dependent, expiring duty is not a statute-wide training requirement",
+        "Mixed bound parties: the operative field-level duty binds school boards (subsec. C), but subsecs. B and D bind the Department of Education (a state agency) — 'The Department... shall (i) compile information on current uses of artificial intelligence systems for student instruction... and (ii) establish and post in a publicly accessible location on its website guidance for the safe, ethical, and equitable use of an AIS in instructional settings'; these public-sector duties do not fit the education-k12 param vocabulary and are noted here rather than coded",
+        "School-board policy content is set indirectly: boards must follow Department guidance covering student data privacy (FERPA/COPPA), teacher training resources, transparency, data privacy agreements 'that prohibits the use of any division-level or student data for training or improving any external AIS models', bias best practices, and teacher access to 'transcripts of student interactions with an AIS' with monitoring 'through dashboards, automated alerts, and audit logs' (subsec. B(1)-(3)) — obligations flow through guidance, not directly from statute",
+        "Pilot Program participants must '(i) include professional development for educators on AIS literacy and responsible use and (ii) develop and submit evaluation plans' (§ D(3)) — conditional on selection",
+        "Department must report annually to legislative committees: subsec. D(4) — 'Submit to the Chairs of the House Committee on Education and the Senate Committee on Education and Health by December 1 of each year a report on the Pilot Program' (agency duty, no matching duty key for the bound schools)",
+        "No penalty or enforcement provision anywhere in the text — exposure omitted (silence is silence)"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

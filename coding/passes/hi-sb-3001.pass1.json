@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "id": "HI SB 3001",
+      "category": "company",
+      "family": "chatbot-safeguards",
+      "segment": null,
+      "appliesTo": "operators who develop and make available AI companions to the public",
+      "duties": [
+        "statutory-review",
+        "disclosure-ui",
+        "crisis-protocol",
+        "content-safeguards",
+        "incident-reporting"
+      ],
+      "dutySources": {
+        "disclosure-ui": "§ 481B- (a) — 'an operator shall issue a clear and conspicuous notification indicating that the AI companion is artificial intelligence and not human'",
+        "crisis-protocol": "§ 481B- (c)(1) — 'Adopt a protocol for the AI companion to respond to user prompts regarding suicidal ideation or self-harm that includes but is not limited to making reasonable efforts to provide a response that refers the user to crisis intervention service providers'",
+        "content-safeguards": "§ 481B- (d)(3) — 'Institute reasonable measures to prevent the AI companion from: (A) Producing visual material of sexually explicit conduct'",
+        "incident-reporting": "§ 481B- (e) — 'an operator shall submit to the behavioral health administration of the department of health an annual report'"
+      },
+      "params": {
+        "scope": "companion",
+        "ageFocus": "all-users",
+        "aiDisclosure": "session-start",
+        "crisisProtocol": "required",
+        "breakReminders": "required",
+        "parentalTools": "required",
+        "engagementLimits": "required",
+        "contentSafeguards": "required",
+        "ageThreshold": 18
+      },
+      "exposure": {
+        "enforcer": "udap cross-reference (§ 480-2); no private right of action"
+      },
+      "sources": {
+        "scope": "§ 481B- (i) — '\"AI companion\" means a system using artificial intelligence, generative artificial intelligence, or emotional recognition algorithms designed to simulate a sustained human or human-like relationship with a user'",
+        "ageFocus": "§ 481B- (a) — 'If a reasonable person interacting with an AI companion would be led to believe that the person is interacting with a human, an operator shall issue a clear and conspicuous notification'",
+        "aiDisclosure": "§ 481B- (b)(2)(A) — 'At the beginning of each session'",
+        "crisisProtocol": "§ 481B- (c)(1) — 'Adopt a protocol for the AI companion to respond to user prompts regarding suicidal ideation or self-harm'",
+        "breakReminders": "§ 481B- (b)(2)(B) — 'Appearing at least once per hour in a continuous AI companion interaction that reminds the user to take a break from the chat'",
+        "parentalTools": "§ 481B- (d)(4) — 'Make tools available for users and their parents and guardians to manage the user's screen time and account settings'",
+        "engagementLimits": "§ 481B- (d)(1) — 'Not provide the user with points or similar rewards at unpredictable intervals with the intent to encourage increased engagement with the AI companion'",
+        "contentSafeguards": "§ 481B- (d)(3)(A) — 'Producing visual material of sexually explicit conduct'",
+        "ageThreshold": "§ 481B- (i) — '\"Minor\" means any person under eighteen years of age'",
+        "enforcer": "§ 481B- (f) — 'Any violation of this section shall constitute an unfair or deceptive act or practice in the conduct of trade or commerce within the meaning of section 480-2; provided that nothing in this section shall be interpreted as creating a private right of action'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "ageFocus lossy: (a) and (c) bind operators as to all users, while (b) and (d) apply only where the operator knows or has reasonable certainty the user is a minor; coded all-users",
+        "aiDisclosure lossy: (b) lets the operator choose either '[a]s a persistent visible disclaimer' or session-start plus at-least-hourly reminders; coded session-start",
+        "breakReminders conditional: hourly break reminders are required only under the (b)(2) alternative compliance path for known minors, not if the operator uses the (b)(1) persistent disclaimer",
+        "incident-reporting is an annual aggregate report (crisis-referral counts and protocols) to the behavioral health administration beginning January 1, 2028, not per-incident reporting",
+        "(c)(3)-(5) impose additional content safeguards for all users: no representations of professional mental or behavioral health care, no appearing human to users seeking crisis intervention, and preventing outputs that 'encourage the user to cause serious bodily injury to another person'",
+        "(g) developer safe harbor: 'This section shall not create liability for the developer of an artificial intelligence model for any violation of this section by an artificial intelligence system developed by a third party to provide an AI companion'",
+        "legiscan relation is 'same as HB 2502' (companion), not a replaced-by substitution; SB 3001 is the passed vehicle"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "entries": [
+    {
+      "id": "CO HB 26-1195",
+      "category": "company",
+      "family": "mental-health-practice",
+      "appliesTo": "licensees, registrants, certificate holders, and other individuals lawfully permitted to provide psychotherapy services in Colorado; § 6-1-1705.2 also binds any person marketing an AI system as psychotherapy",
+      "duties": ["statutory-review", "disclosure-ui", "consent-workflow", "human-review"],
+      "dutySources": {
+        "disclosure-ui": "§ 12-245-224.5(6)(b) — 'SHALL PROVIDE TO THE CLIENT DURING THE INITIAL CLIENT CONTACT WRITTEN INFORMATION CONCERNING PROHIBITIONS SPECIFIED IN SUBSECTION (6)(a) OF THIS SECTION ON THE USE OF ARTIFICIAL INTELLIGENCE SYSTEMS'",
+        "consent-workflow": "§ 12-245-224.5(4)(a)(II) — 'THE CLIENT OR THE CLIENT'S LEGALLY AUTHORIZED REPRESENTATIVE CONSENTS IN WRITING TO THE USE OF THE ARTIFICIAL INTELLIGENCE SYSTEM'",
+        "human-review": "§ 12-245-224.5(5)(b) — 'GENERATE THERAPEUTIC RECOMMENDATIONS OR TREATMENT PLANS WITHOUT REVIEW AND APPROVAL BY THE LICENSEE, REGISTRANT, CERTIFICATE HOLDER, OR OTHER INDIVIDUAL LAWFULLY PERMITTED TO PROVIDE PSYCHOTHERAPY SERVICES IN THE STATE'"
+      },
+      "params": {
+        "aiTherapyRule": "supervised",
+        "consentRequired": "yes",
+        "scope": "psychotherapy"
+      },
+      "exposure": {
+        "enforcer": "mental-health licensing boards — article 245 professional discipline",
+        "enforcerSource": "§ 12-245-224(1)(y) — 'A person licensed, registered, or certified under this article 245 violates this article 245 if the person... FAILS TO COMPLY WITH SECTION 12-245-224.5 CONCERNING THE USE OF ARTIFICIAL INTELLIGENCE SYSTEMS'"
+      },
+      "sources": {
+        "aiTherapyRule": "§ 12-245-224.5(6)(a) — 'SHALL NOT USE AN ARTIFICIAL INTELLIGENCE SYSTEM TO PROVIDE, DIRECT, GUIDE, OR ATTEMPT TO PROVIDE, DIRECT, OR GUIDE PSYCHOTHERAPY, CLINICAL INTERVENTION, COUNSELING, DIAGNOSIS, TREATMENT PLANNING, OR ANY OTHER ACTIVITY THAT CONSTITUTES THE PRACTICE OF PSYCHOTHERAPY WITH AN INDIVIDUAL OR A GROUP UNLESS THE USE COMPLIES WITH SUBSECTION (5) OF THIS SECTION' (subsection (5)(a) requires 'SYNCHRONOUS, REAL-TIME INTERACTION BETWEEN THE LICENSEE... THE ARTIFICIAL INTELLIGENCE SYSTEM, AND THE CLIENT')",
+        "consentRequired": "§ 12-245-224.5(4)(a)(II) — 'THE CLIENT OR THE CLIENT'S LEGALLY AUTHORIZED REPRESENTATIVE CONSENTS IN WRITING TO THE USE OF THE ARTIFICIAL INTELLIGENCE SYSTEM'",
+        "scope": "§ 12-245-224.5 — 'Use of artificial intelligence systems for psychotherapy services - permitted use by regulated individuals - consent - use in educational and training settings and research - prohibited use - definitions'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "Section 3 adds C.R.S. 6-1-1705.2 binding any person: prohibits terms in 'THE ADVERTISING, INTERFACE, OR OUTPUTS OF AN ARTIFICIAL INTELLIGENCE SYSTEM' that imply the output 'IS BEING PROVIDED BY, IS ENDORSED BY, OR IS EQUIVALENT TO SERVICES PROVIDED BY' a licensed provider, that represent 'THAT THE ARTIFICIAL INTELLIGENCE SYSTEM PROVIDES PSYCHOTHERAPY SERVICES', or that imply therapist-client-level data confidentiality; the section states developer/deployer liability 'IS GOVERNED BY APPLICABLE CONSUMER PROTECTION LAW' but sets no penalty in this text (rule 4: no imports)",
+        "AI recording/transcription of sessions is separately conditioned (§ 12-245-224.5(4)): advance written notice of use and purpose, written consent required only for initial use 'UNLESS THE PURPOSE OR MANNER OF USE MATERIALLY CHANGES', and refusal or revocation of consent 'SHALL NOT BE USED AS A BASIS TO DENY PSYCHOTHERAPY SERVICES'",
+        "Administrative and supplementary support uses are permitted if the provider 'MAINTAINS RESPONSIBILITY FOR REVIEWING ANY OUTPUTS' (§ 12-245-224.5(2))",
+        "Exemptions: accredited educational/training programs (§ (7)), IRB-overseen research (§ (8)), wellness tools that 'DO NOT DIAGNOSE OR TREAT MENTAL HEALTH DISORDERS' and 'CLEARLY AND CONSPICUOUSLY DISCLOSE THAT THE TECHNOLOGY OR SERVICE IS NOT A SUBSTITUTE FOR CLINICAL CARE', and FDA-authorized behavioral health tools (§ (9)); parallel exemptions in 6-1-1705.2(3)-(5)",
+        "aiTherapyRule coded 'supervised' because autonomous AI therapeutic communication is barred but permitted with synchronous real-time provider participation (§ (5)(a)) and provider review/approval of recommendations (§ (5)(b)) — not an outright ban"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

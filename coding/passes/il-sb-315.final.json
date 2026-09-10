@@ -1,0 +1,65 @@
+{
+  "entries": [
+    {
+      "id": "IL SB 315",
+      "category": "company",
+      "family": "frontier-safety",
+      "segment": null,
+      "appliesTo": "frontier developers of frontier models (foundation models trained with >10^26 operations); heightened duties on large frontier developers (annual gross revenues over $500,000,000)",
+      "duties": [
+        "statutory-review",
+        "risk-program",
+        "documentation",
+        "impact-assessment",
+        "incident-reporting",
+        "registration-filing"
+      ],
+      "dutySources": {
+        "risk-program": "§ 10(a) — 'a large frontier developer shall write, implement, comply with, and clearly and conspicuously publish on its website a frontier AI framework'",
+        "documentation": "§ 10(c)(1) — 'Before, or concurrently with, deploying a new frontier model or a substantially modified version of an existing frontier model, a frontier developer shall clearly and conspicuously publish on its website a transparency report'",
+        "impact-assessment": "§ 10(e) — 'A large frontier developer shall transmit to the Agency a summary of any assessment of catastrophic risk resulting from internal use of its frontier models every 3 months'",
+        "incident-reporting": "§ 15(c) — 'A frontier developer shall report any critical safety incident pertaining to one or more of its frontier models to the Agency and the Attorney General within 72 hours'",
+        "registration-filing": "§ 18(a) — 'no large frontier developer may develop, deploy, or operate a frontier model, in whole or in part in this State, without having a current disclosure statement filed with the Agency and paying the required fee'"
+      },
+      "params": {
+        "threshold": "compute",
+        "safetyFramework": "required",
+        "incidentReporting": "required",
+        "thirdPartyAudit": "required",
+        "whistleblower": "protected"
+      },
+      "exposure": {
+        "penaltyMax": 3000000,
+        "penaltyUnit": "per violation",
+        "enforcer": "attorney-general (exclusive civil action); Agency (IEMA) levies registration/disclosure penalties after notice and hearing"
+      },
+      "sources": {
+        "threshold": "§ 5 — '\"Frontier model\" means a foundation model that was trained using a quantity of computing power greater than 10 26 integer or floating-point operations' (10^26; superscript split in extracted text)",
+        "safetyFramework": "§ 10(a) — 'shall write, implement, comply with, and clearly and conspicuously publish on its website a frontier AI framework'",
+        "incidentReporting": "§ 15(c) — 'shall report any critical safety incident pertaining to one or more of its frontier models to the Agency and the Attorney General within 72 hours'",
+        "thirdPartyAudit": "§ 10(d) — 'a large frontier developer shall annually retain a third party to perform an independent audit of compliance with the requirements of this Section'",
+        "whistleblower": "§ 20(a) — 'A frontier developer shall not make, adopt, enforce, or enter into a rule, regulation, policy, or contract that prevents a covered employee from disclosing, or retaliates against a covered employee for disclosing, information'",
+        "penaltyMax": "§ 25(a) — 'For a subsequent violation, the civil penalty may not exceed $3,000,000 per violation.'",
+        "penaltyUnit": "§ 25(a) — 'a civil penalty in an amount dependent upon the severity of the violation that does not exceed $1,000,000 for the first violation. For a subsequent violation, the civil penalty may not exceed $3,000,000 per violation.'",
+        "enforcer": "§ 25(b) — 'recovered in a civil action brought exclusively by the Attorney General'; § 18(e) — 'the Agency may, after notice and hearing, levy civil penalties, fees, and costs'; § 5 — '\"Agency\" means the Illinois Emergency Management Agency and Office of Homeland Security'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "Penalty tiers: first violation capped at $1,000,000, subsequent violations at $3,000,000 per violation (§ 25(a)); penaltyMax codes the highest stated cap.",
+        "Separate registration/disclosure penalty: § 18(e)(1) — 'a civil penalty of $1,000 for each day the person fails to file a disclosure as required by this Section or fails to correct false information', plus § 18(e)(2) 'an amount equal to the assessments owed'.",
+        "Dual applicability threshold: compute (>10^26 operations defines 'frontier developer'/'frontier model') plus revenue tier — § 5: 'Large frontier developer' means one with 'annual gross revenues in excess of $500,000,000 in the preceding calendar year'; threshold param coded as compute, revenue tier is lossy.",
+        "Most duties bind only large frontier developers; the § 10(c)(1) transparency report, § 15(c) incident reporting, § 10(f) no-false-statements rule, and § 20 whistleblower protections bind all frontier developers.",
+        "Annual third-party compliance audit (§ 10(d)) is a compliance audit, not a discrimination audit — captured via the thirdPartyAudit param only; no duty key fits (bias-audit not assigned).",
+        "§ 20(e)(1) internal anonymous disclosure process ('shall provide a reasonable internal process through which a covered employee may anonymously disclose information') and § 20(d) whistleblower notice-posting are employee-facing whistleblower mechanisms, not a user-facing reporting/removal/complaint channel — takedown-process NOT assigned; captured by the whistleblower param and this flag. The public incident-reporting mechanism in § 15(a) is established by the Agency, not the developer.",
+        "§ 10(f) prohibits materially false or misleading statements about catastrophic risk or framework compliance; conduct prohibition with no matching duty key, reached through § 25(a) exposure.",
+        "Staggered effective dates: Act effective January 1, 2027 (§ 99); frontier AI framework and annual audit duties begin January 1, 2028 (§§ 10(a), 10(d)); registration begins January 1, 2027 (§ 18(a)).",
+        "§ 17 interoperability safe harbor: after declaring intent to the Agency, a frontier developer complying with a designated substantially-equivalent federal law, regulation, or guidance 'shall be deemed in compliance with this Act' to that extent (§ 17(b)(2)(A)).",
+        "§ 18(d) requires each large frontier developer to pay 'its pro rata share of the cost of administration of this Act' as an annual fee — no fixed fee amount stated.",
+        "No private right of action: § 25(d) — 'Nothing in this Act shall be construed to establish a private right of action'.",
+        "§ 35 home rule preemption: regulation of frontier models is 'an exclusive power and function of the State'.",
+        "§§ 80 and 90 make conforming amendments to the Freedom of Information Act (exemption for incident reports and audit materials, mirrored in § 15(f)) and the Whistleblower Act (retaliation for disclosing violations of this Act) — supporting provisions, not separate segments."
+      ],
+      "confidence": "high"
+    }
+  ]
+}

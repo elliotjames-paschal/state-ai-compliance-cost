@@ -1,0 +1,34 @@
+{
+  "entries": [
+    {
+      "id": "NY S 8831",
+      "category": "public-sector",
+      "family": "public-sector",
+      "segment": null,
+      "appliesTo": "covered entities: counties, cities, towns, villages, school districts, BOCES, county vocational education and extension boards, district corporations, SUNY, CUNY, and community colleges",
+      "duties": ["statutory-review", "documentation"],
+      "dutySources": {
+        "documentation": "§ 6 (adding State Tech. Law § 402-a) — 'shall publish a list of such automated employment decision-making tools on such covered entity's website'"
+      },
+      "params": {
+        "inventory": "annual"
+      },
+      "exposure": null,
+      "sources": {
+        "appliesTo": "§ 4 (State Tech. Law § 401(3)) — '\"Covered entity\" shall mean any county, city, town, village, school district, board of cooperative educational services, county vocational education and extension board, district corporation, the state university of New York, the city university of New York, or community college.'",
+        "inventory": "§ 6 (adding State Tech. Law § 402-a) — 'shall publish a list of such automated employment decision-making tools on such covered entity's website no later than the thirtieth of December next succeeding the date on which this section shall have become a law, and annually thereafter'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "Surviving vehicle: legiscan.js shows S 8831 'replaces' companion A 9487 — code this bill, not A 9487.",
+        "Worker-protection prohibitions fit no listed duty: AI use 'shall not result in the: (i) discharge, displacement or loss of position, including partial displacement such as a reduction in the hours of non-overtime work, wages, or employment benefits, or result in the impairment of existing collective bargaining agreements; or (ii) transfer of existing duties and functions currently performed by employees' of the covered entities to an AI system, and 'shall not alter the rights or benefits, and privileges, including but not limited to terms and conditions of employment and civil service status' (Ed. Law §§ 1950(20), 2510(4), 2585(5), 2588(9), 3013(4), 355-a(14), 6206(24), 6306(12); Civ. Serv. Law § 80(10)). These bind public employers only; the workforce family params (retaliationProtection, noticeRequired) are not set by this text, so no workforce segment was carved out.",
+        "The § 402-a publication duty is twice qualified by 'To the extent feasible'.",
+        "Repealer provisions: §§ 1-3 and 16 REPEAL Article 5 and § 103-f of the state technology law, Ed. Law § 115, and § 3 of the 2025 chapter (S. 7599-C / A. 8295-D).",
+        "§ 17 sunsets the underlying 2025 chapter: 'shall expire and be deemed repealed July 1, 2028'.",
+        "No penalty or enforcement provision anywhere in the text — exposure omitted (silence is silence).",
+        "Text on file is the Introduced version (per legiscan.js ourText); bill status is Passed 2026-02-13."
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

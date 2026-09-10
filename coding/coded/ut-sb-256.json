@@ -1,0 +1,44 @@
+{
+ "entries": [
+  {
+   "id": "UT SB 256",
+   "category": "company",
+   "family": "likeness-rights",
+   "segment": null,
+   "appliesTo": "persons who use, publish, distribute, or cause the publication of content containing an individual's personal identity",
+   "duties": [
+    "statutory-review",
+    "consent-workflow"
+   ],
+   "dutySources": {
+    "consent-workflow": "\u00a7 45-3-3(1)(a) \u2014 'each individual has the exclusive right to consent to the use of the individual's personal identity'; \u00a7 45-3-3(2)(a)(ii) \u2014 'consent has not been obtained from the individual'"
+   },
+   "params": {
+    "consentRequired": "yes",
+    "coveredSubjects": "all-persons",
+    "postmortemYears": 70
+   },
+   "exposure": {
+    "enforcer": "private-right (individual or right holder)"
+   },
+   "sources": {
+    "consentRequired": "\u00a7 45-3-3(1)(a) \u2014 'each individual has the exclusive right to consent to the use of the individual's personal identity'",
+    "coveredSubjects": "\u00a7 45-3-2(6) \u2014 '\"Individual\" means a natural person, living or dead.'",
+    "postmortemYears": "\u00a7 45-3-3(1)(b)(iii) \u2014 'does not expire until 70 years after the death of the individual'",
+    "enforcer": "\u00a7 45-3-4(1) \u2014 'may bring an action against a person who caused the publication of the advertisement or content'; \u00a7 45-3-5(1) \u2014 'may bring an action against a person who published the advertisement or content'"
+   },
+   "duplicateOf": null,
+   "flags": [
+    "Defamation provisions fit no family: \u00a7 45-2-3.5 makes AI/digital creation no defense to libel or slander ('It is not a defense to a claim of libel or slander that the communication was created through generative artificial intelligence'); \u00a7 45-2-14 requires pre-suit written notice for actions based on digitally created content and limits recovery to actual damages 'if the person who published or caused the publication of the digitally created content removes the content within 10 days' after notice",
+    "Tool-trafficking prohibition fits no duty key: \u00a7 45-3-3(2)(c) \u2014 abuse includes when a person 'knowingly distributes, sells, or licenses any technology, software, or tool whose intended primary purpose is the unauthorized creation or modification of content that includes an individual's personal identity'",
+    "Safe-harbor disclosure not coded as disclosure-ui because it is an optional defense, not a mandate: \u00a7 45-3-3(5) \u2014 no abuse under (2)(b) if distribution 'is accompanied by a clear and conspicuous disclosure that the content is a simulation or artificial recreation of the individual'",
+    "Retroactive postmortem right: \u00a7 45-3-3(1)(b)(v) \u2014 for an individual who died before May 6, 2026, the right 'applies retroactively for up to 70 years before May 6, 2026'",
+    "No penaltyMax: remedies are uncapped civil relief \u2014 \u00a7 45-3-4(2) 'injunctive relief, damages alleged and proved, exemplary damages, and reasonable attorney fees and costs'",
+    "Interactive computer services exempt under both chapters: \u00a7 45-2-14(5) and \u00a7 45-3-7(3) (47 U.S.C. 230)",
+    "Criminal enforcement only by cross-reference, not coded: \u00a7 45-3-3(3) \u2014 'Nothing in this chapter prohibits prosecution of abuse of personal identity under Section 76-12-304'"
+   ],
+   "confidence": "high"
+  }
+ ],
+ "resolution": "pass1"
+}

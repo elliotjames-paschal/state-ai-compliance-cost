@@ -1,0 +1,63 @@
+{
+  "entries": [
+    {
+      "id": "IA SF 2417",
+      "category": "company",
+      "family": "chatbot-safeguards",
+      "segment": null,
+      "appliesTo": "operators who develop and make a conversational AI service available to the public",
+      "duties": [
+        "statutory-review",
+        "disclosure-ui",
+        "content-safeguards",
+        "crisis-protocol"
+      ],
+      "dutySources": {
+        "disclosure-ui": "§ 554J.2(1) — 'An operator shall clearly and conspicuously disclose to a minor account holder that the minor account holder is interacting with artificial intelligence'; § 554J.3 — 'An operator shall clearly and conspicuously disclose using a persistent visible disclaimer … that the operator’s conversational AI service is artificial intelligence if a reasonable individual interacting with the conversational AI service would believe that the individual is interacting with a human'",
+        "content-safeguards": "§ 554J.2(3) — 'An operator shall institute reasonable measures to prevent the operator’s conversational AI service from doing any of the following for minor account holders: a. Producing visual depictions of sexually explicit material'; § 554J.2(4) — 'institute reasonable measures to prevent the operator’s conversational AI service from generating statements that would lead a reasonable individual to believe that the individual is interacting with a human, including … Explicit claims that the conversational AI service is sentient or human … Role-playing an adult-minor romantic relationship'",
+        "crisis-protocol": "§ 554J.4 — 'An operator shall adopt protocols for the operator’s conversational AI service for responding to user prompts regarding suicidal ideation or self-harm that includes but is not limited to making reasonable efforts to refer the user to crisis service providers'"
+      },
+      "params": {
+        "scope": "all-chatbots",
+        "ageFocus": "all-users",
+        "aiDisclosure": "periodic",
+        "crisisProtocol": "required",
+        "parentalTools": "required",
+        "engagementLimits": "required",
+        "contentSafeguards": "required",
+        "ageThreshold": 18
+      },
+      "sources": {
+        "scope": "§ 554J.1(2)(a) — 'an artificial intelligence … accessible to the general public and that has the primary purpose of simulating human conversation and interaction through text, audio communication, or visual communication'",
+        "ageFocus": "§§ 554J.3–554J.5 bind operators as to any user (§ 554J.4 — 'responding to user prompts regarding suicidal ideation or self-harm'); § 554J.2 adds minor-specific requirements ('Conversational AI services —— minors —— requirements')",
+        "aiDisclosure": "§ 554J.2(1)(a)–(b) — 'A persistent visible disclaimer' or a disclaimer 'at the beginning of each interaction' plus 'at least once every three hours of continuous interaction'; § 554J.3 — 'a persistent visible disclaimer, or a disclaimer that appears after every three hours of continuous interaction'",
+        "crisisProtocol": "§ 554J.4 — 'An operator shall adopt protocols … for responding to user prompts regarding suicidal ideation or self-harm'",
+        "parentalTools": "§ 554J.2(5)(b) — 'An operator shall offer tools for the parent or guardian of a minor account holder to manage the minor account holder’s privacy and account settings if the minor is under thirteen years of age'",
+        "engagementLimits": "§ 554J.2(2) — 'An operator shall not provide a minor user with points or similar rewards at unpredictable intervals with the intent to encourage increased engagement with the operator’s conversational AI service'",
+        "contentSafeguards": "§ 554J.2(3)–(4) — 'An operator shall institute reasonable measures to prevent the operator’s conversational AI service from' producing sexual content for minors and 'generating statements that would lead a reasonable individual to believe that the individual is interacting with a human'",
+        "ageThreshold": "§ 554J.1(3) — '“Minor” means an individual an operator knows is, or is reasonably certain is, under eighteen years of age'"
+      },
+      "exposure": {
+        "penaltyMax": 1000,
+        "penaltyUnit": "per violation",
+        "enforcer": "attorney-general"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "exposure: violations carry 'an injunction' and liability for the greater of 'Actual damages' or the civil penalty; civil penalty is 'one thousand dollars per violation, up to a maximum of five hundred thousand dollars per operator' (§ 554J.6(1)) — $500,000 aggregate cap per operator not representable in penaltyMax/penaltyUnit",
+        "no private right of action: 'This chapter shall not be construed to create a private right of action under this chapter or any other law' (§ 554J.6(4))",
+        "developer safe harbor: a developer is not liable 'solely because a third party used the developer’s artificial intelligence model to create or train a conversational AI service' (§ 554J.6(5))",
+        "§ 554J.5 prohibits knowingly programming the service to make representations that it 'is designed to provide professional psychology or behavioral health services that an individual would require licensure under chapter 154B or 154D to provide' — no matching duty key in the fixed vocabulary; borders mental-health-practice family but is a single prohibition within the same operator-facing chapter, not segmented",
+        "scope enum lossy: 'conversational AI service' is broader than companion apps but § 554J.1(2)(b) excludes R&D tools, embedded features, narrow-topic bots, business customer-service bots, voice assistants, and internal business tools — 'all-chatbots' chosen as closest",
+        "ageFocus enum lossy: § 554J.2 duties (rewards ban, minor content safeguards, parental tools) apply to minors only while §§ 554J.3–.5 apply to all users — 'all-users' chosen as closest",
+        "aiDisclosure enum lossy: statute allows a persistent visible disclaimer OR session-start-plus-every-three-hours (minors, § 554J.2(1)) / every-three-hours (all users, § 554J.3) — 'periodic' chosen as closest",
+        "parental tools tiering: mandatory parent/guardian tools 'if the minor is under thirteen years of age' (§ 554J.2(5)(b)); for other minors only 'as appropriate based on relevant risks' (§ 554J.2(5)(c)); minors themselves must get privacy/account tools (§ 554J.2(5)(a))",
+        "consumer disclosure (§ 554J.3) is conditional — required only 'if a reasonable individual interacting with the conversational AI service would believe that the individual is interacting with a human'",
+        "no age-assurance duty: 'Minor' turns on what the operator 'knows is, or is reasonably certain is' — no verification requirement stated",
+        "rulemaking: attorney general 'shall adopt rules pursuant to chapter 17A to administer this chapter' (§ 554J.6(2))",
+        "applicability: 'This Act applies July 1, 2027' (Sec. 7)"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

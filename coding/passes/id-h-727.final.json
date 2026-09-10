@@ -1,0 +1,39 @@
+{
+  "entries": [
+    {
+      "id": "ID H 727",
+      "category": "criminal",
+      "family": "ai-crimes",
+      "appliesTo": "any person who discloses, threatens to disclose, or uses for extortion explicit synthetic media of an identifiable individual",
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": {
+        "prohibition": "ncii",
+        "coveredSubjects": "all-persons"
+      },
+      "exposure": {
+        "penaltyMax": 25000,
+        "penaltyUnit": "per violation",
+        "enforcer": "criminal-prosecution"
+      },
+      "sources": {
+        "prohibition": "§ 2 (18-6606(1)(a)) — 'Discloses explicit synthetic media and knows or reasonably should know that: (i) An identifiable person portrayed in whole or in part in the explicit synthetic media did not consent to such disclosure'",
+        "coveredSubjects": "§ 2 (18-6606(4)(c)) — '\"Identifiable individual\" means a person who is portrayed in whole or in part in synthetic media and who is recognizable by the person's face, likeness, or other distinguishing characteristic'",
+        "penaltyMax": "§ 2 (18-6606(3)) — 'a fine of no more than twenty-five thousand dollars ($25,000)'",
+        "penaltyUnit": "§ 2 (18-6606(3)) — 'A person who violates subsection (1) of this section when the identifiable person is under eighteen (18) years of age or when the person was previously found guilty of a violation of this section'",
+        "enforcer": "§ 2 (18-6606(2)) — 'A person who violates subsection (1) of this section is guilty of a misdemeanor unless such person is guilty of a felony as provided in subsection (3) of this section.'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "Tiered criminal penalty: baseline misdemeanor (18-6606(2), no fine amount stated); felony 'punishable by imprisonment for a period no more than ten (10) years' and/or the $25,000 fine when the identifiable person is under 18 or the offender was found guilty of a prior violation within the past 5 years (18-6606(3)) — penaltyMax reflects the highest stated fine per rule 11",
+        "Section 1 amends the video voyeurism offense (18-6605) to add 'or threatens or conspires to disseminate, publish or sell' — a non-AI criminal provision riding in the same act; no separate AI duties or params arise from it",
+        "18-6606(1)(c) also criminalizes sextortion — possessing and threatening to disclose explicit synthetic media 'with the intent to obtain money or other valuable consideration' — closest single prohibition enum is ncii (lossy)",
+        "Platform safe harbor: section does not apply to an interactive computer service (47 U.S.C. 230(f)(2)), information service, or telecommunication service for content provided by another person 'unless the provider intentionally aids or abets disclosing explicit synthetic media' (18-6606(6))",
+        "Definition of 'synthetic media' (18-6606(4)(g)) covers any image or video 'created or altered using technical means, such as artificial intelligence' — reaches non-AI technical alteration too",
+        "Enforcer is not expressly named; coded as criminal-prosecution because the provisions define misdemeanor/felony offenses",
+        "Emergency clause: effective July 1, 2026 (Section 3)"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

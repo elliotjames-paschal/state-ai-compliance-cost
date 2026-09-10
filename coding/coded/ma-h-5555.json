@@ -1,0 +1,32 @@
+{
+ "entries": [
+  {
+   "id": "MA H 5555",
+   "category": "public-sector",
+   "family": "public-sector",
+   "segment": null,
+   "appliesTo": "executive office of technology services and security (FY2027 appropriations earmark)",
+   "duties": [
+    "statutory-review"
+   ],
+   "dutySources": {},
+   "params": {
+    "program": "AI For Impact"
+   },
+   "sources": {
+    "program": "item 1790-0100 \u2014 'that not less than $250,000 shall be expended to expand the AI For Impact program to design, test and de ploy artificial intelligence solutions that improve delivery of state services and build an AI -ready state workforce'"
+   },
+   "exposure": null,
+   "duplicateOf": null,
+   "flags": [
+    "general appropriations act (FY2027 budget, ~$63.4B total); the sole AI provision is a $250,000 funding earmark in line item 1790-0100 \u2014 no compliance duties, prohibitions, or regulatory regime anywhere in the text",
+    "legiscan relation: H 5555 'replaces' H 5501 (conference report is the surviving vehicle); no 'replaced by' relation, so not a duplicate",
+    "public-sector family params inventory/procurementRules/assessment are all silent; only the free-text 'program' param applies",
+    "the reporting requirement in item 1790-0100 (due 2027-02-17) covers IT consolidation/cybersecurity generally, not AI \u2014 not coded as a duty",
+    "quoted source retains PDF-extraction spacing artifacts ('de ploy', 'AI -ready') to stay verbatim to texts/ma-h-5555.txt"
+   ],
+   "confidence": "high"
+  }
+ ],
+ "resolution": "pass1"
+}

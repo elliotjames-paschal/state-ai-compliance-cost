@@ -1,0 +1,23 @@
+{
+  "entries": [
+    {
+      "id": "NY A 9487",
+      "category": "public-sector",
+      "family": "public-sector",
+      "appliesTo": "covered public entities (counties, cities, towns, villages, school districts, BOCES, SUNY, CUNY, community colleges)",
+      "duties": [],
+      "dutySources": {},
+      "params": {},
+      "exposure": null,
+      "sources": {
+        "duplicateOf": "data/legiscan.js — NY A 9487 relations: '\"type\": \"replaced by\", \"bill\": \"S 8831\"'"
+      },
+      "duplicateOf": "NY S 8831",
+      "segment": null,
+      "flags": [
+        "Substituted by companion NY S 8831 (LegiScan 'replaced by' relation); same law under a different number — coded only on the surviving bill per rule 7."
+      ],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "entries": [
+    {
+      "id": "RI HB 7349",
+      "category": "company",
+      "family": "mental-health-practice",
+      "appliesTo": "licensed mental-health professionals/providers, and any individual, corporation, or entity offering therapy or psychotherapy services to the public in Rhode Island",
+      "duties": ["statutory-review", "disclosure-ui", "consent-workflow", "human-review"],
+      "dutySources": {
+        "disclosure-ui": "§ 40.1-5.5-3(a)(1)-(2) — 'is informed in writing of the following … (1) That artificial intelligence will be used; (2) The specific purpose of the artificial intelligence tool or system that will be used'",
+        "consent-workflow": "§ 40.1-5.5-3(a) — 'unless the patient or the patient's parent, guardian or other legally authorized representative is informed in writing of the following and provides consent as defined in § 40.1-5.5-2'",
+        "human-review": "§ 40.1-5.5-3(c) — 'A licensed professional or provider may not allow or otherwise use artificial intelligence to do any of the following: (1) Make independent therapeutic decisions; … (3) Determine therapeutic recommendations or treatment plans'"
+      },
+      "params": {
+        "aiTherapyRule": "supervised",
+        "consentRequired": "yes",
+        "scope": "psychotherapy"
+      },
+      "exposure": {
+        "enforcer": "executive-office-of-health-and-human-services (investigation); confidentiality violations penalized via cross-referenced § 5-37.3-9"
+      },
+      "sources": {
+        "aiTherapyRule": "§ 40.1-5.5-3(b) — 'An individual, corporation, or entity may not provide, advertise, or otherwise offer therapy or psychotherapy services, including through the use of Internet-based artificial intelligence, to the public in this state unless the therapy or psychotherapy services are conducted by an individual who is a licensed professional or provider' + § 40.1-5.5-2(6) — 'the licensed professional or provider maintains responsibility for clinical judgement and reasonable therapeutic oversight'",
+        "consentRequired": "§ 40.1-5.5-3(a) — 'is informed in writing of the following and provides consent as defined in § 40.1-5.5-2'",
+        "scope": "§ 40.1-5.5-2(10) — '\"Therapy or psychotherapy services\" means services provided to diagnose or treat an individual's mental health or behavioral health'",
+        "enforcer": "§ 40.1-5.5-5(b) — 'The executive office of health and human services shall have authority to investigate any actual, alleged, or suspected violation of this chapter'; § 40.1-5.5-5(a) — 'The penalties pursuant to § 5-37.3-9 shall apply to any violation of the confidentiality provisions of this chapter'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "confidentiality duty with no vocabulary fit: § 40.1-5.5-4 makes all provider records and patient communications 'confidential and shall not be disclosed except as provided pursuant to the provisions of § 40.1-5-26'",
+        "penalty cross-reference (§ 5-37.3-9) applies only to 'the confidentiality provisions of this chapter'; the chapter states no penalty for violations of the use-restriction provisions (§ 40.1-5.5-3) — per rule 4 no penaltyMax coded",
+        "§ 40.1-5.5-3(a) drafting is convoluted: it conditions use of AI 'designed to simulate emotional attachment, bonding, or dependency or artificial intelligence companions' in supplementary support or therapeutic communication (where sessions are recorded/transcribed) on written notice plus consent; coded params (supervised + consent) hold on either reading",
+        "exemptions in § 40.1-5.5-5(c): religious counseling; peer support; public self-help/educational materials; FDA-reviewed-and-cleared AI tools; IRB-approved research under 21 C.F.R. Pt. 50 / 45 C.F.R. Pt. 46",
+        "EOHHS 'authorized to promulgate rules and regulations to carry out the intent of this chapter' (§ 40.1-5.5-6)"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "entries": [
+    {
+      "id": "GA SB 540",
+      "category": "company",
+      "family": "chatbot-safeguards",
+      "segment": null,
+      "appliesTo": "operators that own, control, or develop and make available an AI companion chatbot to users in Georgia",
+      "duties": [
+        "statutory-review",
+        "disclosure-ui",
+        "content-safeguards",
+        "crisis-protocol",
+        "age-assurance"
+      ],
+      "dutySources": {
+        "disclosure-ui": "§ 39-5-6(b)(1) — 'An operator shall clearly and conspicuously disclose to a user that he or she is interacting with an AI companion chatbot as opposed to a natural person'",
+        "content-safeguards": "§ 39-5-6(d) — 'the operator shall institute reasonable measures to prevent the AI companion chatbot from: (1) Producing visual material of sexually explicit conduct'",
+        "crisis-protocol": "§ 39-5-6(f) — 'An operator shall not make available an AI companion chatbot unless the operator implements and maintains a protocol for detecting and addressing severe harm or related emotional crises.'",
+        "age-assurance": "§ 39-5-6(j) — 'Before allowing access to a feature or mode that may generate synthetic content containing sexually explicit conduct, an operator shall use a commercially reasonable age assurance method proportionate to the risk of the feature.'"
+      },
+      "params": {
+        "scope": "companion",
+        "ageFocus": "all-users",
+        "aiDisclosure": "session-start",
+        "crisisProtocol": "required",
+        "parentalTools": "required",
+        "engagementLimits": "required",
+        "contentSafeguards": "required",
+        "ageThreshold": 18
+      },
+      "exposure": {
+        "penaltyMax": 10000,
+        "penaltyUnit": "per knowing violation (each day, per user affected, is a separate violation)",
+        "enforcer": "attorney-general",
+        "cureDays": 30
+      },
+      "sources": {
+        "appliesTo": "§ 39-5-6(a)(5) — ''Operator' means a person that owns, controls, or develops and makes available an AI companion chatbot to users in this state.'",
+        "scope": "§ 39-5-6(a)(1)(A) — ''AI companion chatbot' means a system using artificial intelligence, generative artificial intelligence, or emotional recognition algorithms designed to simulate a sustained human or human-like relationship with a user'",
+        "ageFocus": "§ 39-5-6(b)(1) — 'An operator shall clearly and conspicuously disclose to a user' (disclosure, crisis protocol, and age assurance run to all users; §§ (c)-(e), (i) attach only to known minors or minor-directed chatbots)",
+        "aiDisclosure": "§ 39-5-6(b)(1)(A) — 'At the beginning of each interaction or session'",
+        "crisisProtocol": "§ 39-5-6(f) — 'implements and maintains a protocol for detecting and addressing severe harm or related emotional crises'",
+        "parentalTools": "§ 39-5-6(i) — 'an operator shall offer reasonable tools to a minor or parent to manage the minor's screen time and account settings'",
+        "engagementLimits": "§ 39-5-6(e) — 'An operator shall adopt reasonable measures to prevent an AI companion chatbot to use the following techniques directed to a minor'",
+        "contentSafeguards": "§ 39-5-6(d) — 'the operator shall institute reasonable measures to prevent the AI companion chatbot from'",
+        "ageThreshold": "§ 39-5-6(a)(4) — ''Minor' means an individual who is less than 18 years of age.'",
+        "penaltyMax": "§ 39-5-6(k)(1)(A) — 'A civil penalty of up to $10,000.00 per knowing violation of this Code section'",
+        "penaltyUnit": "§ 39-5-6(k)(2) — 'each day in violation of this Code section shall be considered a separate violation for each user affected'",
+        "enforcer": "§ 39-5-6(k)(1) — 'The Attorney General may bring a civil action against any operator violating this Code section'",
+        "cureDays": "§ 39-5-6(k)(3) — 'may, in the Attorney General's discretion, provide written notice and an opportunity to cure within 30 days for a first-time violation that does not involve knowing misconduct, sexual exploitation of a minor, or self-harm related misconduct'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "aiDisclosure lossy: text requires disclosure both 'At the beginning of each interaction or session' AND 'At least every three hours during continued interaction' (every hour when the user is a known minor or the chatbot is directed/marketed to minors, § (b)(2)) — coded session-start as the closest single enum",
+        "ageFocus lossy: §§ (b)(1), (f), (g), (j) apply to all users, but §§ (c), (d), (e), (i) and hourly disclosure attach only to known-minor users or minor-directed chatbots — coded all-users",
+        "§ (g) requires public disclosure (website and in-app) of a plain-language summary of the crisis protocol and an annual aggregate count of crisis referral notifications — no listed duty covers public transparency reporting (not directed to an authority, not model/training-data documentation)",
+        "§ (h) prohibits knowingly programming the chatbot to represent that it is 'licensed, certified, or otherwise authorized to provide professional mental health, behavioral health, medical, or counseling services, unless the operator is lawfully authorized to provide such services' — no listed duty/param fits this professional-representation ban",
+        "§ (j) age-assurance data limits: operator 'shall not sell any data collected for age assurance purposes' and such data shall not 'be retained longer than 24 hours or another specified time if permitted by law, whichever is longer'",
+        "cureDays is discretionary, not an entitlement: cure is offered only 'in the Attorney General's discretion' and only for first-time violations not involving knowing misconduct, sexual exploitation of a minor, or self-harm related misconduct (§ (k)(3)); AG may also recover compensatory damages, costs/attorney's fees, and injunctive relief (§ (k)(1)(B)-(D))",
+        "§ (m)(5) carve-out: no liability 'for the developer of a conversational AI service which is made available to the public by a separate operator'; § (m)(2) shields hosting providers, app stores, and search engines absent direct operation or control",
+        "Effective July 1, 2027 (Section 2)"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

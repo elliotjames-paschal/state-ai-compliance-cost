@@ -1,0 +1,34 @@
+{
+ "entries": [
+  {
+   "id": "MD HB 1473",
+   "category": "public-sector",
+   "family": "public-sector",
+   "segment": null,
+   "appliesTo": "Maryland's Future Board (Department of Commerce), the State Treasurer/Comptroller (Fund), and the Comptroller (study) \u2014 state government only",
+   "duties": [
+    "statutory-review"
+   ],
+   "dutySources": {},
+   "params": {
+    "program": "Maryland's Future Board visionary-planning + Future Fund"
+   },
+   "exposure": null,
+   "sources": {
+    "program": "\u00a7 2.5\u2013302(A), (F)(1) & \u00a7 2.5\u2013304(A) \u2014 'THERE IS A MARYLAND\u2019S FUTURE BOARD IN THE DEPARTMENT' \u2026 'DEVELOPING AND REVISING A VISIONARY PLAN' \u2026 'THERE IS A MARYLAND\u2019S FUTURE FUND'"
+   },
+   "duplicateOf": null,
+   "flags": [
+    "AI is tangential: this is an economic-development planning act; artificial intelligence appears only as one of five required future-trend areas of the visionary plan (\u00a7 2.5\u2013301(E)(4)(II) \u2014 'ARTIFICIAL INTELLIGENCE') and as an optional Comptroller study factor (Section 2(a)(3)(ii) \u2014 'job replacement due to the rise in artificial intelligence')",
+    "no compliance duties on private parties; Board must develop a visionary plan on or before January 1, 2027 (\u00a7 2.5\u2013303(A)), evaluate/revise it at least annually (\u00a7 2.5\u2013303(B)), and submit project recommendations each August 1 beginning 2027 (\u00a7 2.5\u2013303(D)) \u2014 internal-government planning/reporting duties with no matching duty key",
+    "Comptroller must report study results to the General Assembly on or before December 1, 2026 (Section 2(b))",
+    "establishes the Maryland's Future Fund, a 'SPECIAL, NONLAPSING FUND' administered by the Department (\u00a7 2.5\u2013304(C)\u2013(D)); State Treasurer holds and invests it, Comptroller accounts for it \u2014 no fund-related param exists in the public-sector vocabulary",
+    "no penalty or enforcement provision anywhere in the Act \u2014 exposure omitted",
+    "sunset: Section 3 \u2014 Act 'shall remain effective for a period of 5 years' and is abrogated at the end of June 30, 2031",
+    "crossfiled companion MD SB 770 per legiscan relations ('type': 'crossfiled'); no 'replaced by' relation \u2014 HB 1473 is the enacted chapter (Ch. 378), not coded as duplicate"
+   ],
+   "confidence": "high"
+  }
+ ],
+ "resolution": "final"
+}

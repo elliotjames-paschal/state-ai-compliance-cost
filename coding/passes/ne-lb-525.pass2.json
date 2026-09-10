@@ -1,0 +1,94 @@
+{
+  "entries": [
+    {
+      "id": "NE LB 525",
+      "segment": "agricultural-data-privacy",
+      "category": "company",
+      "family": "privacy-data",
+      "appliesTo": "controllers and processors of agricultural data collected, produced, or generated in Nebraska",
+      "duties": ["statutory-review", "consent-workflow", "risk-program"],
+      "dutySources": {
+        "consent-workflow": "Sec. 5(1) — 'A controller or processor shall not engage in the sale of agricultural data without the express written consent of the agricultural producer.'",
+        "risk-program": "Sec. 7(1) — 'Any controller or processor in custody or possession of agricultural data shall establish, implement, and maintain reasonable administrative, technical, and physical data security practices to protect the confidentiality, integrity, and accessibility of such agricultural data.'"
+      },
+      "params": {},
+      "exposure": {
+        "penaltyMax": 1000,
+        "penaltyUnit": "per violation",
+        "enforcer": "attorney-general",
+        "cureDays": 45
+      },
+      "sources": {
+        "penaltyMax": "Sec. 8(1)(b) — 'Recover a civil penalty in the amount of one thousand dollars for each separate violation.'",
+        "penaltyUnit": "Sec. 8(1)(b) — 'one thousand dollars for each separate violation'",
+        "enforcer": "Sec. 8(1) — 'The Attorney General may bring an action in the district court of Lancaster County against any controller or processor that violates the Agricultural Data Privacy Act'",
+        "cureDays": "Sec. 9(2) — 'No such action for a civil penalty shall be initiated if, within forty-five days after receiving the written notice, the controller or processor: (a) Cures each such alleged violation'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "segment contains no AI-specific provisions — it is an agricultural data privacy regime; privacy-data is the closest family but none of its fixed params (admOptOut, profilingAssessment, minorsFocus, registration) are set by the text",
+        "consent-workflow coded for data-sale consent: Sec. 5(2) requires consent 'through a clear and conspicuous disclosure that is separate from the primary terms of service or data use agreement'",
+        "risk-program coded for Sec. 7 data-security practices, not an AI governance program",
+        "Sec. 6(1): 'Beginning on January 1, 2027, every new contract or agreement involving the collection or processing of agricultural data in this state shall contain a specific provision' prohibiting sale without consent — mandatory contract clause fits no listed duty key",
+        "45-day cure right applies only to violations of secs. 6 and 7; Sec. 9(3): 'This section shall not apply to any violation of section 5 of this act'",
+        "Sec. 8(2): 'shall not be construed to create any new private cause of action' — AG enforcement is 'the exclusive remedy'",
+        "Sec. 11 amends the public-records statute: agricultural data may be withheld 'unless prior written consent has been obtained from the owner of such agricultural data' (84-712.05(30))"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "NE LB 525",
+      "segment": "conversational-ai-safety",
+      "category": "company",
+      "family": "chatbot-safeguards",
+      "appliesTo": "operators of conversational artificial intelligence services accessible to the general public",
+      "duties": ["disclosure-ui", "content-safeguards", "crisis-protocol"],
+      "dutySources": {
+        "disclosure-ui": "Sec. 14(1) — 'An operator shall clearly and conspicuously disclose to each minor account holder that such minor account holder is interacting with artificial intelligence'; Sec. 15 — 'If a reasonable person interacting with a conversational artificial intelligence service would be misled to believe that the person is interacting with a human, an operator shall clearly and conspicuously disclose that the conversational artificial intelligence service is artificial intelligence.'",
+        "content-safeguards": "Sec. 14(3) — 'An operator shall, for minor account holders, institute reasonable measures to prevent the conversational artificial intelligence service from: (a) Producing visual depictions of sexually explicit conduct'; Sec. 14(4)(a) — 'Explicit claims that the conversational artificial intelligence service is sentient or human'",
+        "crisis-protocol": "Sec. 16 — 'An operator shall adopt a protocol for the conversational artificial intelligence service to respond to user prompts regarding suicidal ideation or self-harm that includes, but is not limited to, making reasonable efforts to provide a response to the user that refers them to crisis service providers such as a suicide hotline, crisis text line, or other appropriate crisis services.'"
+      },
+      "params": {
+        "scope": "all-chatbots",
+        "ageFocus": "minors",
+        "aiDisclosure": "session-start",
+        "crisisProtocol": "required",
+        "parentalTools": "required",
+        "engagementLimits": "required",
+        "contentSafeguards": "required",
+        "ageThreshold": 18
+      },
+      "exposure": {
+        "penaltyMax": 500000,
+        "penaltyUnit": "per operator",
+        "enforcer": "attorney-general"
+      },
+      "sources": {
+        "scope": "Sec. 13(2)(a) — 'an artificial intelligence software application, web interface, or computer program that is accessible to the general public and that primarily simulates human conversation and interaction through textual, visual, or aural communications'",
+        "ageFocus": "Sec. 14(1) — 'shall clearly and conspicuously disclose to each minor account holder'",
+        "aiDisclosure": "Sec. 14(1)(b)(i) — 'At the beginning of each session'",
+        "crisisProtocol": "Sec. 16 — 'shall adopt a protocol for the conversational artificial intelligence service to respond to user prompts regarding suicidal ideation or self-harm'",
+        "parentalTools": "Sec. 14(5) — 'An operator shall offer tools for minor account holders, and, when such account holders are younger than thirteen years of age, their parents or guardians, to manage the account holders' privacy and account settings.'",
+        "engagementLimits": "Sec. 14(2) — 'An operator shall not provide a minor account holder with points or similar rewards at unpredictable intervals with the intent to encourage increased engagement with the conversational artificial intelligence service.'",
+        "contentSafeguards": "Sec. 14(3) — 'institute reasonable measures to prevent the conversational artificial intelligence service from: (a) Producing visual depictions of sexually explicit conduct'",
+        "ageThreshold": "Sec. 13(4) — 'Minor means an individual that, based upon the circumstance, the operator has actual knowledge or reasonable certainty is younger than eighteen years of age'",
+        "penaltyMax": "Sec. 18(2)(b)(iii) — 'Civil penalties of at least one thousand dollars per violation, but in no event more than five hundred thousand dollars per operator.'",
+        "penaltyUnit": "Sec. 18(2)(b)(iii) — 'in no event more than five hundred thousand dollars per operator'",
+        "enforcer": "Sec. 18(1) — 'The Attorney General may enforce the Conversational Artificial Intelligence Safety Act.'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "scope lossy: Sec. 13(2)(b) excludes developer/researcher tools, embedded features, narrow-and-discrete-topic outputs, services 'primarily designed and marketed for commercial use by business entities', voice-command assistants, internal business use, and customer-service-only chatbots",
+        "ageFocus lossy: Sec. 14 duties bind only as to minor account holders, but Sec. 15 misled-reasonable-person disclosure and Sec. 16 crisis protocol apply to all users",
+        "aiDisclosure lossy: Sec. 14(1) permits either '(a) As a persistent visible disclaimer; or (b) Both: (i) At the beginning of each session; and (ii) Appearing at least every three hours in a continuous conversational artificial intelligence service interaction'",
+        "secondary age threshold: parental/guardian tools mandatory when account holders are 'younger than thirteen years of age'; for 13 and older, tools offered 'as appropriate based on relevant risks' (Sec. 14(5))",
+        "Sec. 17 prohibits statements that the service 'is designed to provide professional mental or behavioral health care' — fits no listed duty key",
+        "penalty structure: floor of 'at least one thousand dollars per violation' with a $500,000 aggregate cap per operator; AG may also recover actual damages and 'reasonable expenses…including court costs, reasonable attorney's fees' (Sec. 18(2)(b))",
+        "AG may sue 'on behalf of the State of Nebraska or on behalf of any person aggrieved' (Sec. 18(2)(a)); no private right of action (Sec. 18(3))",
+        "developer safe harbor: no 'liability for the developer of an artificial intelligence model' for violations by a third-party operator's system (Sec. 18(4))",
+        "operative date July 1, 2027 for sections 12-18 (Sec. 19)"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

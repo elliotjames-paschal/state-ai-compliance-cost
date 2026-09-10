@@ -1,0 +1,51 @@
+{
+  "entries": [
+    {
+      "id": "IL SB 3114",
+      "category": "company",
+      "family": "insurance-adm",
+      "segment": null,
+      "appliesTo": "health care payors (group health plan sponsors, health insurance issuers, Medicaid managed care organizations)",
+      "duties": ["statutory-review", "human-review", "risk-program", "takedown-process"],
+      "dutySources": {
+        "human-review": "§ 15(b) — 'All downcoding determinations must be made or reviewed by a natural person following American Medical Association Current Procedural Terminology (CPT) coding guidelines in effect at the time'",
+        "risk-program": "§ 15(b) — 'the health care payor must maintain and implement policies and procedures requiring a natural person to consider information included by the billing health care professional on the claim submission'",
+        "takedown-process": "§ 30(a) — 'A health care payor shall provide health care professionals with a clear and accessible process for disputing downcoded claims'"
+      },
+      "params": {
+        "humanReview": "required-final",
+        "aiSoleBasis": "prohibited",
+        "disclosure": "required",
+        "appealDays": 90
+      },
+      "exposure": {
+        "enforcer": "state-insurance-department + dept-of-healthcare-and-family-services (Medicaid MCOs)"
+      },
+      "sources": {
+        "humanReview": "§ 15(b) — 'All downcoding determinations must be made or reviewed by a natural person'",
+        "aiSoleBasis": "§ 15(a) — 'A health care payor shall not implement any policy or use any algorithm or other automated process, system, or tool that bypasses the evaluation of information included by the billing health care professional to downcode a claim.'",
+        "disclosure": "§ 25 — 'the health care payor shall notify the billing health care professional using the appropriate CARCs and RARCs to clearly indicate that the claim has been downcoded'",
+        "appealDays": "§ 30(a) — 'reasonable timelines for submission by the billing health care professional of a dispute that are no less than 90 days'",
+        "enforcer": "§ 40(a) — 'The Department of Insurance shall enforce the provisions of this Act pursuant to the enforcement powers granted to it by law' ; § 40(c) — 'The Department of Healthcare and Family Services shall enforce the provisions of this Act... as it applies to all Medicaid managed care organizations'",
+        "appliesTo": "§ 5 — '\"Health care payor\" means a group health plan sponsor, health insurance issuer, or Medicaid managed care organization.'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "AI is incidental: the Act regulates downcoding of medical claims generally; the algorithm/automated-process provisions are confined to §§ 15(a)-(b)",
+        "humanReview lossy: natural-person review required both at the determination (§ 15(b)) and at dispute review (§ 30(b) — 'must ensure that all downcoding disputes are reviewed by a natural person'); coded required-final as the closest single enum",
+        "decisionsCovered enum (denials|prior-auth|all) does not fit — the Act covers only downcoding ('unilateral alteration by a health care payor of the level of evaluation and management service code or other service code submitted on a claim, resulting in a lower payment', § 5); param omitted rather than forced",
+        "appealDays 90 is the minimum window for the professional to SUBMIT a dispute (§ 30(a)); adjudication timelines are cross-referenced to 'applicable State law or regulations governing utilization review', not set here",
+        "disclosure runs to the billing health care professional (CARCs/RARCs, specific reason, original and revised codes/payments, dispute process — § 25), not to consumers, and is about the downcoding decision rather than AI use",
+        "§ 20 prohibition with no matching param: 'A health care payor shall not downcode a claim based solely on the reported diagnosis codes.'",
+        "§ 35 prohibition with no matching duty/param: payor 'shall not use downcoding practices in a targeted or discriminatory manner against health care professionals who routinely treat patients with complex or chronic conditions'",
+        "risk-program is narrow: § 15(b) requires only policies and procedures for natural-person claim review, not a general governance program",
+        "§ 40(b): payor 'shall be responsible for the compliance with this Act by any third party to whom the health care payor delegates any functions related to downcoding'",
+        "§ 30(b) prescribes reviewer qualifications (experience in the disputed service, not involved in original decision, document review, CPT guidelines)",
+        "no penalty amount stated; enforcement routed through existing Department of Insurance powers 'including, but not limited to, any powers granted to enforce the Illinois Insurance Code' (no import per rule 4)",
+        "scope includes State/county/municipal/school-district group health plans (§ 10(a)(2)) but the bound parties are payors, so category stays company; ERISA self-insured plans, workers' comp, and excepted benefits are exempt (§ 10(a))",
+        "effective January 1, 2028 (§ 999)"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

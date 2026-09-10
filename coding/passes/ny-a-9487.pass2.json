@@ -1,0 +1,21 @@
+{
+  "entries": [
+    {
+      "id": "NY A 9487",
+      "category": "public-sector",
+      "family": "public-sector",
+      "appliesTo": "covered entities (counties, cities, towns, villages, school districts, BOCES, SUNY, CUNY, community colleges) using automated employment decision-making tools and AI systems",
+      "duties": [],
+      "dutySources": {},
+      "params": {},
+      "sources": {
+        "duplicateOf": "data/legiscan.js relations for NY A 9487 — '\"type\": \"replaced by\", \"bill\": \"S 8831\"'"
+      },
+      "duplicateOf": "NY S 8831",
+      "flags": [
+        "Substituted by companion NY S 8831 per LegiScan sasts relation; same law coded under the surviving bill id — coded nothing else per rule 7."
+      ],
+      "confidence": "high"
+    }
+  ]
+}

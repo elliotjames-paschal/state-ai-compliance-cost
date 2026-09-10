@@ -1,0 +1,38 @@
+{
+  "entries": [
+    {
+      "id": "OK SB 1627",
+      "category": "criminal",
+      "family": "ai-crimes",
+      "segment": null,
+      "appliesTo": "persons who disseminate private sexual images or artificially generated sexual depictions without consent",
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": {
+        "prohibition": "ncii",
+        "coveredSubjects": "all-persons"
+      },
+      "exposure": {
+        "penaltyMax": 1000,
+        "penaltyUnit": "per conviction",
+        "enforcer": "criminal-prosecution"
+      },
+      "sources": {
+        "prohibition": "SECTION 37 (21 O.S. § 1040.13b(B)(2)) — 'disseminates an artificially generated sexual depiction of another person with the intent or with reckless disregard to harass, annoy, threaten, alarm, or cause physical, emotional, reputational, or economic harm to the depicted person'",
+        "coveredSubjects": "SECTION 37 (21 O.S. § 1040.13b(B)(2)) — 'an artificially generated sexual depiction of another person'; § 1040.13b(A)(2) — 'appears to authentically depict an individual in a state of nudity or engaged in sexual conduct that did not occur in reality'",
+        "penaltyMax": "SECTION 37 (21 O.S. § 1040.13b(F)) — 'guilty of a misdemeanor punishable by imprisonment in a county jail for not more than one (1) year or by a fine of not more than One Thousand Dollars ($1,000.00), or both such fine and imprisonment'",
+        "enforcer": "SECTION 37 (21 O.S. § 1040.13b(F)) — 'shall, upon conviction, be guilty of a misdemeanor'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "consolidation bill, not a new AI regime: 'An Act relating to multiple versions of statutes; amending, merging, consolidating, and repealing multiple versions of statutes' — the AI provisions re-enact 21 O.S. § 1040.13b 'as last amended by Section 1, Chapter 23, O.S.L. 2025' while repealing a conflicting Chapter 486 version; risk of double-counting against the underlying 2025 Oklahoma act that originally created the artificially-generated-depiction offense",
+        "criminal fine tiers beyond coded penaltyMax: monetized violations are 'a Class D1 felony offense punishable by imprisonment...for not more than five (5) years' (§ 1040.13b(G), ten years and sex-offender registration on second offense, no fine stated); disseminating 'three or more images or artificially generated sexual depictions within a six-month period' is a Class D1 felony up to ten years (§ 1040.13b(K), no fine stated)",
+        "AI-generated CSAM also re-enacted but not separately coded (lossy single-enum prohibition): § 1024.1(A)(3) defines child sexual abuse material to include 'Any visual depiction that appears to be a child, regardless of whether the image is a depiction of an actual child, a computer-generated image, or an image altered to appear to be a child'; associated offenses carry fines up to $25,000 (§ 1021.2) and $10,000 (§ 1040.12a)",
+        "platform safe harbor: no liability for 'An interactive computer service, as defined in 47 U.S.C., Section 230(f)(2)', wireless providers, or 'A telecommunications network or broadband provider' 'solely as a result of content or information provided by another person' (§ 1040.13b(D))",
+        "court removal power not coded as takedown-process: 'The court shall have the authority to order the defendant to remove the disseminated image or artificially generated sexual depictions' (§ 1040.13b(I)) — binds a convicted defendant, not an operator",
+        "bulk of the bill is non-AI criminal-code cleanup (child abuse reporting, assault, human trafficking, prostitution, rape, stalking, firearms, transit crimes, DUI) with no AI content outside SECTION 30 (§ 1024.1) and SECTION 37 (§ 1040.13b)"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

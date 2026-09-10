@@ -1,0 +1,56 @@
+{
+  "entries": [
+    {
+      "id": "ID S 1297",
+      "category": "company",
+      "family": "chatbot-safeguards",
+      "appliesTo": "operators of public-facing conversational AI services",
+      "duties": ["statutory-review", "disclosure-ui", "crisis-protocol", "content-safeguards"],
+      "dutySources": {
+        "disclosure-ui": "§ 48-2103(1) — 'an operator shall clearly and conspicuously disclose that the conversational AI service is artificial intelligence'",
+        "crisis-protocol": "§ 48-2103(2) — 'An operator shall adopt a protocol for the conversational AI service to respond to user prompts regarding suicidal ideation that includes but is not limited to making reasonable efforts to provide a response to users that refers them to crisis service providers'",
+        "content-safeguards": "§ 48-2104(3) — 'an operator shall institute reasonable measures to prevent the conversational AI service from: (a) Producing visual material of sexually explicit conduct'"
+      },
+      "params": {
+        "scope": "all-chatbots",
+        "ageFocus": "all-users",
+        "aiDisclosure": "session-start",
+        "crisisProtocol": "required",
+        "parentalTools": "required",
+        "engagementLimits": "required",
+        "contentSafeguards": "required",
+        "ageThreshold": 18
+      },
+      "exposure": {
+        "penaltyMax": 1000,
+        "penaltyUnit": "per violation",
+        "enforcer": "attorney-general"
+      },
+      "sources": {
+        "scope": "§ 48-2102(2)(a) — 'accessible to the general public and that primarily simulates human conversation and interaction through textual, visual, or aural communications'",
+        "ageFocus": "§ 48-2103(2) — 'making reasonable efforts to provide a response to users that refers them to crisis service providers' (§ 48-2103 duties bind for all users; § 48-2104 adds minor-specific duties)",
+        "aiDisclosure": "§ 48-2104(1)(b)(i) — 'At the beginning of each session'",
+        "crisisProtocol": "§ 48-2103(2) — 'shall adopt a protocol for the conversational AI service to respond to user prompts regarding suicidal ideation'",
+        "parentalTools": "§ 48-2104(5) — 'An operator shall also offer related tools to the parents or guardians of minor account holders thirteen (13) years of age and older, as appropriate based on relevant risks.'",
+        "engagementLimits": "§ 48-2104(2) — 'the operator shall not provide the user with points or similar rewards at unpredictable intervals with the intent to encourage increased engagement with the conversational AI service'",
+        "contentSafeguards": "§ 48-2104(4) — 'shall institute reasonable measures to prevent a conversational AI service from generating statements that would lead reasonable persons to believe that they are interacting with a human'",
+        "ageThreshold": "§ 48-2102(4) — 'actual knowledge or reasonable certainty that the individual is under eighteen (18) years of age'",
+        "penaltyMax": "§ 48-2105(1) — 'liable for civil penalties of one thousand dollars ($1,000) per violation'",
+        "enforcer": "§ 48-2105(2) — 'Civil penalties for violations of the provisions of this chapter are to be sought by the attorney general.'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "aiDisclosure lossy: minor-account-holder disclosure may be either 'a persistent visible disclaimer' OR both session-start and 'at least every three (3) hours in a continuous conversational AI service interaction' (§ 48-2104(1)); coded session-start as the closest single enum",
+        "general-user disclosure (§ 48-2103(1)) is conditional: required only 'if reasonable persons would be misled to believe that they are interacting with a human' — no listed enum for a confusion-triggered disclosure",
+        "penalty aggregate cap: 'not to exceed five hundred thousand dollars ($500,000) per operator, or actual damages, whichever is greater' (§ 48-2105(1)); injunction also available",
+        "no private right of action: 'Nothing in this chapter shall be construed as creating a private right of action' (§ 48-2105(2))",
+        "developer safe harbor: 'This chapter shall not create liability for the developer of an AI model for any violation of this chapter by a conversational AI system that is made available to the public by a third-party operator' (§ 48-2105(3))",
+        "§ 48-2103(3) prohibits knowingly programming the service to state it 'is designed to provide professional mental or behavioral health care' — a conduct prohibition fitting no listed duty key",
+        "parental-tools age tiers: under-13 account holders' parents get privacy/settings tools; parents of minors 13+ get tools 'as appropriate based on relevant risks' (§ 48-2104(5))",
+        "broad exclusions from 'conversational AI service': developer/researcher tools, embedded features, game-limited chatbots, narrow-topic bots, business/enterprise deployments, voice assistants, internal-use and customer-service bots (§ 48-2102(2)(b))",
+        "effective date July 1, 2027 (Section 2)"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

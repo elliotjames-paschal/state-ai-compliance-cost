@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "id": "MD SB 141",
+      "segment": "election-misinformation-response",
+      "category": "public-sector",
+      "family": "public-sector",
+      "appliesTo": "State Board of Elections and State Administrator of Elections",
+      "duties": ["statutory-review", "takedown-process"],
+      "dutySources": {
+        "takedown-process": "§ 2-110(b)(1) — 'The State Board shall maintain a portal on the State Board's website that the public may use to report election misinformation and election disinformation.'"
+      },
+      "params": { "program": "election-misinformation correction" },
+      "exposure": {
+        "enforcer": "state-board-of-elections (civil action for damages, court costs, attorney's fees)"
+      },
+      "sources": {
+        "program": "§ 2-110(c)(1)(i)1 — 'SHALL COMMUNICATE, DISSEMINATE, OR DISTRIBUTE TO THE PUBLIC ACCURATE INFORMATION TO CORRECT THE ELECTION MISINFORMATION OR ELECTION DISINFORMATION'",
+        "enforcer": "§ 2-110(c)(3)(i) — 'THE STATE BOARD MAY SEEK DAMAGES, COURT COSTS, AND ATTORNEY'S FEES IN A CIVIL ACTION FILED UNDER PARAGRAPH (2)(II) OF THIS SUBSECTION'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "Mandatory corrective-information duty on the State Administrator fits no listed public-sector duty key; coded only as the free-text `program` param (§ 2-110(c)(1)(i)1). The `program` value covers correction only — the civil action is a discretionary power ('MAY FILE'), coded in exposure, not part of the mandated program.",
+        "§ 2-110(b) portal and periodic-review duties are preexisting law reenacted without amendment (lowercase text); the new matter in this Act is subsection (c) (uppercase) and § 16-905.",
+        "State Administrator 'MAY SEEK AN INJUNCTION IN ACCORDANCE WITH THE MARYLAND RULES FOR THE REMOVAL OF THE ELECTION MISINFORMATION OR ELECTION DISINFORMATION FROM ANY ONLINE PLATFORM' and may issue subpoenas under the federal Stored Communications Act (§ 2-110(c)(1)(i)2-3) — discretionary powers, no matching duty/param key.",
+        "Injunctions barred against an 'INTERACTIVE COMPUTER SERVICE, AS DEFINED IN 47 U.S.C. § 230, FOR CONTENT DISSEMINATED BY ANOTHER PERSON' (§ 2-110(c)(1)(ii)).",
+        "Civil-action exposure runs against private persons, campaigns, political action committees, or other legal entities — not the bound agency; damages are uncapped (no penaltyMax stated) and require that the Board 'INCURS COSTS TO COMMUNICATE, DISSEMINATE, OR DISTRIBUTE TO THE PUBLIC ACCURATE INFORMATION' (§ 2-110(c)(2)(ii)2). This creates liability on private actors without imposing an ongoing compliance duty on them.",
+        "A court may award damages, court costs, or attorney's fees 'ONLY BASED ON A SHOWING BY CLEAR AND CONVINCING EVIDENCE' (§ 2-110(c)(4)); liability standard is fault-tiered: election disinformation, or 'WITH RECKLESS DISREGARD, ELECTION MISINFORMATION' (§ 2-110(c)(2)(ii)1, (c)(4)).",
+        "Civil action barred against persons exempt from § 16-905 and against a person 'WHO SEEKS TO DETECT, REPORT, PREVENT, INVESTIGATE, RESPOND TO, OR PROSECUTE PERSONS RESPONSIBLE FOR SECURITY BREACHES, IDENTITY THEFT, FRAUD, HARASSMENT, OR OTHER MALICIOUS OR ILLEGAL ACTIVITY' (§ 2-110(c)(2)(i))."
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "MD SB 141",
+      "segment": "election-deepfakes",
+      "category": "criminal",
+      "family": "ai-crimes",
+      "appliesTo": "any person who knowingly or with reckless disregard creates, uses, or disseminates an election deepfake",
+      "duties": [],
+      "dutySources": {},
+      "params": { "prohibition": "election-deepfakes", "coveredSubjects": "all-persons" },
+      "exposure": { "penaltyMax": 5000, "penaltyUnit": "per conviction" },
+      "sources": {
+        "prohibition": "§ 16-905(c) — 'A PERSON MAY NOT KNOWINGLY OR WITH RECKLESS DISREGARD CREATE, USE, OR DISSEMINATE A DEEPFAKE TO PRODUCE MATERIALLY FALSE INFORMATION'",
+        "coveredSubjects": "§ 16-905(a)(2) — 'A REALISTIC BUT FALSE DEPICTION OF A PERSON THAT AN ORDINARY PERSON WOULD CONCLUDE IS AN ACTUAL VISUAL OR AUDIO REPRESENTATION OF THE PERSON DEPICTED'",
+        "penaltyMax": "§ 16-905(d) — 'IS GUILTY OF A MISDEMEANOR AND ON CONVICTION IS SUBJECT TO A FINE OF NOT MORE THAN $5,000'",
+        "penaltyUnit": "§ 16-905(d) — 'ON CONVICTION IS SUBJECT TO A FINE OF NOT MORE THAN $5,000 OR IMPRISONMENT FOR NOT MORE THAN 5 YEARS OR BOTH'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "Misdemeanor; imprisonment for not more than 5 years, or both fine and imprisonment (§ 16-905(d)) — per rule 11 only the fine is coded as penaltyMax.",
+        "No enforcer is named in § 16-905 for the criminal offense; `enforcer` omitted per the silence-is-silence rule. (The State Prosecutor referral in § 2-110(b)(2) concerns portal submissions, not this offense.)",
+        "Two-part scienter: requires intent to impede/influence voting, misrepresent election facts, induce petition signing, or influence a vote for/against a candidate or ballot issue (§ 16-905(c)(1)), AND that the deepfake 'RESULTS, OR HAS THE INTENT TO RESULT, IN HARM TO A VOTER, POTENTIAL VOTER, OR PETITION' (§ 16-905(c)(2)).",
+        "Exemptions (§ 16-905(b)): satire or parody; broadcasters airing federally required candidate ads, bona fide news with an audible/readable deceptive-media disclosure, or paid broadcasts after a good-faith vetting effort; news websites/periodicals that clearly state the media 'DOES NOT ACCURATELY REPRESENT THE SPEECH OR CONDUCT OF THE CANDIDATE'; and 'ANY ONLINE PUBLISHER OR SERVICE PROVIDER FOR ACTS THAT WOULD BE SUBJECT TO IMMUNITY UNDER 47 U.S.C. § 230'.",
+        "'Deepfake' definition covers media created 'WITH THE USE OF GENERATIVE ARTIFICIAL INTELLIGENCE OR OTHER DIGITAL TECHNOLOGY' (§ 16-905(a)(2)) — broader than AI-only.",
+        "No election time window on the prohibition — electionWindowDays omitted.",
+        "Coded ai-crimes per rule 10: conduct prohibition on deceptive deepfakes, not a disclosure regime; no disclosure duty is imposed on any party."
+      ],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "entries": [
+    {
+      "id": "NJ A 3497",
+      "category": "company",
+      "family": "pricing-competition",
+      "appliesTo": "residential rental property owners (and their agents/subcontractors) and coordinators — software, data analytics services, or entities recommending rental prices from nonpublic information",
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": { "prohibition": "price-coordination" },
+      "exposure": {
+        "enforcer": "New Jersey Antitrust Act enforcement (cross-referenced; includes civil actions per § 5)"
+      },
+      "sources": {
+        "prohibition": "§ 3 — 'It shall be unlawful and a violation of the \"New Jersey Antitrust Act,\" P.L.1970, c.73 (C.56:9-1 et seq.) for: a. a rental property owner, or any agent, representative, or subcontractor thereof, … to subscribe to, contract with, or otherwise exchange any form of consideration in return for the use of services of a coordinator; b. the owner of a coordinator to facilitate an agreement among rental property owners that restricts competition with respect to residential dwelling units, including by performing a coordinating function; … c. two or more rental property owners to engage in consciously parallel pricing coordination'",
+        "enforcer": "§ 4 — 'Sections 7 through 17 of the \"New Jersey Antitrust Act,\" P.L.1970, c.73 (C.56:9-7 through 56:9-17) shall apply for a violation pursuant to section 3 of this act.'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "Not AI-specific: 'coordinating function' covers analysis 'through use of a system, software, algorithm, or other automated process' (§ 2) — algorithmic and non-algorithmic coordination alike",
+        "Enforcement is a pure cross-reference to NJ Antitrust Act §§ 7-17 (§ 4); no penalty amounts stated in this text",
+        "§ 5 sets a relaxed pleading standard for civil actions under this act: a complaint 'need not allege facts tending to exclude the possibility of independent action'",
+        "Carve-outs: aggregated-data reports, research/testing/training uses, government rental price restriction programs, licensed real estate brokers (§ 2, § 3.a), multiple listing services and their members (§ 7), third-party property managers acting under a rental contract (§ 8)",
+        "Mixed public-sector provisions noted per category rule: § 9 public education program by Dept. of Law and Public Safety / Dept. of Community Affairs; § 10 AG + Commissioner rulemaking",
+        "§ 6.b preempts municipal ordinances that supersede the act",
+        "Effective 'on the first day of the fourth month next following the date of enactment' (§ 11)"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

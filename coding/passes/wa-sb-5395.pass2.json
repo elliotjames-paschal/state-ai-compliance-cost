@@ -1,0 +1,51 @@
+{
+  "entries": [
+    {
+      "id": "WA SB 5395",
+      "category": "company",
+      "family": "insurance-adm",
+      "segment": null,
+      "appliesTo": "health carriers offering health plans (and public-employee health plans under ch. 41.05 RCW) that use prior authorization, including AI used by the carrier or a contracted entity and prior authorization functions carried out by health care benefit managers",
+      "duties": [
+        "statutory-review",
+        "human-review",
+        "risk-program",
+        "impact-assessment",
+        "registration-filing"
+      ],
+      "dutySources": {
+        "human-review": "Sec. 2, RCW 48.43.830(3)(a) — 'Algorithms may be used to process and approve prior authorization requests, but may not be used without human review to deny care based on a determination of medical necessity.'",
+        "risk-program": "Sec. 2, RCW 48.43.830(3)(b) — 'A carrier that uses artificial intelligence for the purpose of prior authorization or prior authorization functions … shall ensure all of the following' (incl. (vi) 'The policies and procedures for using artificial intelligence are open to audit by the office of the insurance commissioner under chapter 48.37 RCW')",
+        "impact-assessment": "Sec. 2, RCW 48.43.830(3)(b)(vii) — 'The artificial intelligence's performance, use, and outcomes are periodically reviewed by the carrier to maximize accuracy and reliability'",
+        "registration-filing": "Sec. 8, RCW 48.43.0161(1) — 'the carrier shall report to the commissioner the following aggregated and deidentified data related to the carrier's prior authorization practices', incl. (1)(a)(i) 'The percentage of total denials that were aided by artificial intelligence'"
+      },
+      "params": {
+        "humanReview": "required-final",
+        "decisionsCovered": "prior-auth",
+        "aiSoleBasis": "prohibited"
+      },
+      "sources": {
+        "humanReview": "Sec. 2, RCW 48.43.830(3)(a) — 'Only a licensed physician or a licensed health professional working within their scope of practice may deny a prior authorization request based on medical necessity.'",
+        "decisionsCovered": "Sec. 2, RCW 48.43.830(3)(b) — 'uses artificial intelligence for the purpose of prior authorization or prior authorization functions, based in whole or in part on medical necessity'",
+        "aiSoleBasis": "Sec. 2, RCW 48.43.830(3)(a) — 'Artificial intelligence shall not be the sole means used to deny, delay, or modify health care services.'",
+        "enforcer": "Sec. 6, RCW 48.43.535(12)(b) — 'This section is not intended to supplant any existing authority of the office of the insurance commissioner under this title to oversee and enforce carrier compliance with applicable statutes and rules.'; Sec. 2, RCW 48.43.830(3)(b)(vi) — 'open to audit by the office of the insurance commissioner under chapter 48.37 RCW'"
+      },
+      "exposure": {
+        "enforcer": "insurance-commissioner (audit under ch. 48.37 RCW; existing oversight authority)"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "No penalty amount stated anywhere in the act; enforcement routes through the insurance commissioner's existing audit/oversight authority (ch. 48.37 RCW), so exposure carries an enforcer only per rule 4.",
+        "Much of the amended text restates pre-existing prior-authorization law (turnaround timeframes, APIs, external review); the AI-specific additions are RCW 48.43.830(3), the parallel RCW 41.05.845(3), the AI definitions in each section's subsection (8), and the AI-denials reporting item in RCW 48.43.0161(1)(a)(i).",
+        "Dual codification: Secs. 2 and 6 expire January 1, 2027 (Sec. 9) and are replaced by the substantively parallel reenactments in Secs. 3 and 7, which take effect January 1, 2027 (Sec. 10); the AI provisions are identical across the pairs.",
+        "Sec. 4 (RCW 41.05.845) imposes the same AI standards on health plans offered to public employees and retirees; coded company because the operative duties fall on carriers/health plans, with the public-employee-plan coverage noted here.",
+        "Applies to prior authorization functions carried out by health care benefit managers 'under direct or indirect contract with a carrier' (RCW 48.43.830(6)), and to AI used via a contracted entity ((3)(b)).",
+        "Annual reporting duty (Sec. 8) applies only to carriers that 'has written at least one percent of the total accident and health insurance premiums written by all companies authorized to offer accident and health insurance in Washington'; the reporting regime predates this act — the AI-specific addition is the percentage-of-denials-aided-by-AI item.",
+        "Sec. 5 (RCW 48.43.525) prohibits retrospective denial or modification of care that had prior authorization and assesses 'Interest … on the associated claim submitted by the provider at the rate of one percent per month, retroactive to the date of submission' — a provider-remedy interest rate with no fixed-vocabulary param; not a penaltyMax.",
+        "(3)(b) also mandates AI non-discrimination, individualized (not solely group-data-set) determinations, and patient-data use limits consistent with ch. 70.02 RCW and HIPAA — no fixed-vocabulary duty/param keys for these conditions.",
+        "Denial notices must include 'the credentials, board certifications, and areas of specialty of the provider who had clinical oversight over the determination' (RCW 48.43.830(1)(e)) — a notice duty about the human reviewer, not an AI disclosure, so disclosure-ui/disclosure not assigned."
+      ],
+      "confidence": "high"
+    }
+  ]
+}

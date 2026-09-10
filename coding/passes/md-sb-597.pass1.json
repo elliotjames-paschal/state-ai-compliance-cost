@@ -1,0 +1,31 @@
+{
+  "entries": [
+    {
+      "id": "MD SB 597",
+      "category": "public-sector",
+      "family": "public-sector",
+      "segment": null,
+      "appliesTo": "University System of Maryland (AI Partnership, Fellowship, Incubation Lab), Morgan State University's Center for Equitable AI, and the Department of Information Technology",
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": {
+        "program": "AI Partnership + hubs + fellowship + incubation lab + scholarship expansion"
+      },
+      "exposure": null,
+      "sources": {
+        "program": "§ 12-124(B)(1) — 'THERE IS A MARYLAND ARTIFICIAL INTELLIGENCE PARTNERSHIP IN THE UNIVERSITY SYSTEM OF MARYLAND'; § 12-125(B) — 'THERE IS AN ARTIFICIAL INTELLIGENCE PUBLIC SERVICE FELLOWSHIP IN THE UNIVERSITY SYSTEM OF MARYLAND'; § 12-126(B)(1) — 'SUBJECT TO A MEMORAND UM OF UNDERSTANDING BETWEEN THE UNIVERSITY SYSTEM OF MARYLAND AND THE DEPARTMENT OF BUDGET AND MANAGEMENT, THERE IS AN ARTIFICIAL INTELLIGENCE INCUBATION LAB'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "No company compliance duties, no penalty or enforcement provisions — programs-only act binding state universities and agencies (exposure omitted; silence is silence).",
+        "Strategic plan mandate: § 12-124(C)(1)(I) — 'ON OR BEFORE DECEMBER 1, 2026, THE PARTNERSHIP SHALL DEVELOP A STRATEGIC PLAN', with annual progress reports per § 12-124(C)(2) — 'ON OR BEFORE DECEMBER 1, 2027, AND EACH DECEMBER 1 THEREAFTER, THE PARTNERSHIP SHALL SUBMIT A PROGRESS REPORT'; no fixed-vocabulary duty/param fits a strategic-plan obligation on a state partnership.",
+        "Maryland Technology Extension Hubs pilot: § 12-124(D)(2) — 'ON OR BEFORE DECEMBER 15, 2026 2027, THERE SHALL BE ONE HUB IN EACH OF THREE REGIONS OF THE STATE ESTABLISHED ON A PILOT BASIS'; hubs must 'PROVIDE ARTIFICIAL IN TELLIGENCE SKILLS TR AINING TO INDIVIDUALS AT NO CH ARGE'.",
+        "Morgan State research role: § 14-111(B)(3) requires the Center for Equitable AI and Machine Learning Systems to submit research reports to the Governor's AI Subcabinet and the Joint Committee on Cybersecurity, Information Technology, and Biotechnology.",
+        "Scholarship provisions (§§ 18-3501 to 18-3504) rename the Cybersecurity Public Service Scholarship Program to the 'EMERGING TECHNOLOGY Public Service Scholarship Program' and extend eligibility to 'cybersecurity OR ARTIFICIAL INTELLIGENCE' — student-facing higher-ed funding, not a school-district mandate, so kept in this public-sector entry rather than education-k12.",
+        "Category judgment: bill is housed in higher education but binds the University System, DoIT, and state agencies rather than K-12 schools/districts/curricula, so 'public-sector' over 'education'.",
+        "Chaptered text shows strike/insert artifacts (e.g. 'DECEMBER 15, 2026 2027' and renumbered clauses '(IV) (III)'); quotes preserve the printed enrolled text including OCR spacing."
+      ],
+      "confidence": "high"
+    }
+  ]
+}

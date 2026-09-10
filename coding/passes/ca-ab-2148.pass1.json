@@ -1,0 +1,24 @@
+{
+  "entries": [
+    {
+      "id": "CA AB 2148",
+      "category": "education",
+      "family": "definitions-only",
+      "appliesTo": "public schools (Education Code definitions of employees and contractors)",
+      "duties": ["statutory-review"],
+      "dutySources": {
+        "statutory-review": "SECTION 1, § 98 — 'Both of the following mean a natural person'"
+      },
+      "params": {},
+      "sources": {
+        "family": "§ 98 — 'Both of the following mean a natural person: (a) A public school employee… (b) A contractor performing services in a public school.'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "Text never mentions AI: it defines 'public school employee' and 'a contractor performing services in a public school' to mean 'a natural person' (§ 98) — an implicit bar on non-human (e.g., AI) staffing, but the enacted text imposes no affirmative duty, prohibition clause, or penalty.",
+        "No enforcement or penalty provision anywhere in the text; exposure omitted (silence is silence)."
+      ],
+      "confidence": "high"
+    }
+  ]
+}

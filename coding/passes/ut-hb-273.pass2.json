@@ -1,0 +1,51 @@
+{
+  "entries": [
+    {
+      "id": "UT HB 273",
+      "category": "education",
+      "family": "education-k12",
+      "appliesTo": "local education agencies (LEAs) and the State Board of Education, for public school classrooms",
+      "duties": [
+        "statutory-review",
+        "risk-program",
+        "disclosure-ui",
+        "human-review",
+        "content-safeguards",
+        "registration-filing"
+      ],
+      "dutySources": {
+        "risk-program": "53G-7-1402(3)(a) — 'An LEA shall produce and adopt an artificial intelligence use policy based on the model policy described in Subsection (2).'",
+        "disclosure-ui": "53G-7-1402(2)(j) — 'when the school or an educator uses generative artificial intelligence for instruction, assessment, or activities in the classroom, requires the school or educator to: (i) notify the student's parent in writing'",
+        "human-review": "53G-7-1402(2)(f) — 'prohibits educators from using generative artificial intelligence to independently grade student work or issue high-stakes determinations'",
+        "content-safeguards": "53G-7-1402(2)(l) — 'ensures that AI tools do not expose a student to content that is: (i) harmful; (ii) manipulative; or (iii) inappropriate'",
+        "registration-filing": "53G-7-1402(3)(b) — 'After adopting the policy described in Subsection (3)(a), an LEA shall: (i) submit the adopted policy to the state board'"
+      },
+      "params": {
+        "curriculum": "required",
+        "policyRequired": "yes",
+        "trainingRequired": "yes"
+      },
+      "exposure": {
+        "enforcer": "state-board-of-education (withholding of state funds)"
+      },
+      "sources": {
+        "curriculum": "53E-4-202(2)(b) — 'include artificial intelligence standards in core computer science standards that educate a student on: (i) artificial intelligence generally; and (ii) the appropriate use of artificial intelligence as a tool'",
+        "policyRequired": "53G-7-1402(3)(a) — 'An LEA shall produce and adopt an artificial intelligence use policy based on the model policy described in Subsection (2).'",
+        "trainingRequired": "53G-7-1402(3)(b)(ii) — 'provide training to educators and staff on the policy'",
+        "enforcer": "53G-7-228(8)(b) — 'The state board may withhold or delay the distribution of funds described in Subsection (8)(a) to an LEA that fails to meet the requirements of this section until the LEA demonstrates compliance.'"
+      },
+      "duplicateOf": null,
+      "segment": null,
+      "flags": [
+        "no monetary penalty; sole enforcement mechanism is state-board withholding/delay of digital-literacy/computer-science/ed-tech funds (53G-7-228(8)) plus default imposition of the model policy on non-adopting LEAs (53G-7-228(5)(e), 53G-7-1402(4)(a))",
+        "parental written consent required for AI sandbox course participation (53G-7-1403(2)(d)) and parent opt-in for middle-school take-home devices (53G-7-228(5)(d)(iii)(A)) — does not fit consent-workflow, which is limited to likeness/replica/data use",
+        "detailed grade-level screen-time frameworks and take-home device restrictions (53G-7-228(5)(d)) exceed the education-k12 param vocabulary",
+        "AI-tool prohibition on biometric surveillance and psychological profiling (53G-7-1402(2)(m)) has no matching param",
+        "LEA must review its AI use policy at least once every two years (53G-7-1402(3)(b)(iv)); no matching param",
+        "student use of generative AI for academic work is prohibited unless an educator authorizes it for a specific instructional purpose (53G-7-1402(2)(h)); binds students, not a company duty",
+        "bill also directs the state board to create/post model policies, make rules, and establish ethical-use guidelines (53G-7-228(5), (9); 53G-7-1402(4); 53G-7-1403(4)) — state-agency mandates noted here rather than coded as public-sector since the operative duties bind LEAs/schools"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

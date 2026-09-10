@@ -1,0 +1,40 @@
+{
+  "entries": [
+    {
+      "id": "LA HB 459",
+      "category": "company",
+      "family": "election-disclosure",
+      "segment": null,
+      "appliesTo": "any person making an electioneering communication that uses AI to falsely portray a candidate or elected official subject to recall",
+      "duties": ["statutory-review", "disclosure-ui"],
+      "dutySources": {
+        "disclosure-ui": "§ 1463(F)(1) — 'without providing a clear and understandable disclosure on the electioneering communication that it was created using artificial intelligence'"
+      },
+      "params": {
+        "disclosure": "required",
+        "scope": "all-communications"
+      },
+      "exposure": {
+        "penaltyMax": 2000,
+        "enforcer": "criminal-prosecution"
+      },
+      "sources": {
+        "disclosure": "§ 1463(F)(1) — 'No person shall make or cause to be made any electioneering communication that portrays a candidate or an elected official subject to recall and that is, through the use of artificial intelligence, created, altered, or digitally manipulated in a manner that would falsely appear to a reasonable observer to be an authentic record of the actual speech or conduct of a candidate or an elected official subject to recall and that would falsely appear to replace an individual's likeness with the likeness of a candidate or an elected official subject to recall without providing a clear and understandable disclosure'",
+        "scope": "§ 1483(33)(a) — '\"Electioneering communication\" means any communication, whether printed, digital, or broadcast by a media entity'",
+        "penaltyMax": "§ 1463(H) — 'shall be fined not more than two thousand dollars'",
+        "enforcer": "§ 1463(H) — 'or be imprisoned, with or without hard labor, for not more than two years, or both'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "criminal tier: imprisonment 'with or without hard labor, for not more than two years, or both' (§ 1463(H))",
+        "scienter requirement: penalty applies to whoever violates 'with the intent to injure the reputation of a candidate or elected official subject to recall or to otherwise deceive a voter' (§ 1463(H))",
+        "media-entity exemption: § 1463(I) — section does not apply to a media entity broadcasting a paid communication 'in which the broadcaster has had no input in or control over the announcement, advertisement, or electioneering communication'",
+        "disclosure form incorporated by reference: 'The form of the disclosure shall be consistent with the disclosure requirements of Subsection (E) of this Section' — Subsection (E) is not reproduced in this act",
+        "'Artificial intelligence' defined by cross-reference: 'shall have the same meaning as provided in R.S. 14:73.14' (§ 1463(F)(2)(a)) — definition not in this text",
+        "non-AI remainder: bulk of act amends campaign-finance definitions (contribution, coordinated expenditure, expenditure, electioneering communication, § 1483) and requires reports by persons other than candidates or committees whose electioneering-communication expenditures 'exceed one thousand dollars in the aggregate' (§ 1501.1(A)(1)); fits no listed family, not coded",
+        "scope enum lossy: electioneering communications cover printed, digital, and broadcast express-advocacy/vote-appeal communications, not only ads — coded 'all-communications' as closest enum"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

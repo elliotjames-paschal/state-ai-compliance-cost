@@ -1,0 +1,33 @@
+{
+  "entries": [
+    {
+      "id": "TN SB 1580",
+      "category": "company",
+      "family": "mental-health-practice",
+      "segment": null,
+      "appliesTo": "persons who develop or deploy artificial intelligence systems",
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": {},
+      "exposure": {
+        "penaltyMax": 5000,
+        "penaltyUnit": "per violation",
+        "enforcer": "Tennessee Consumer Protection Act (unfair or deceptive act or practice)"
+      },
+      "sources": {
+        "appliesTo": "§ 1 (33-1-205(a)) — 'A person who develops or deploys an artificial intelligence system shall not advertise or represent to the public that such system is or is able to act as a qualified mental health professional.'",
+        "penaltyMax": "§ 1 (33-1-205(b)) — 'Notwithstanding the civil penalty limits provided by the Tennessee Consumer Protection Act of 1977, a violation of subsection (a) is subject to a civil penalty of five thousand dollars ($5,000) per violation.'",
+        "penaltyUnit": "§ 1 (33-1-205(b)) — 'a civil penalty of five thousand dollars ($5,000) per violation'",
+        "enforcer": "§ 1 (33-1-205(b)) — 'A violation of subsection (a) constitutes an unfair or deceptive act or practice affecting trade or commerce and is subject to the penalties and remedies provided in the Tennessee Consumer Protection Act of 1977.'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "Prohibition-only bill: bans advertising/representing an AI system as a qualified mental health professional; imposes no affirmative compliance duty beyond avoiding the prohibited representation",
+        "mental-health-practice param vocabulary does not fit: aiTherapyRule (ban|supervised|disclosure-only) addresses AI therapy practice, but this bill regulates only public representation/advertising — no params coded",
+        "Section 2 adds violation of 33-1-205 to the TCPA violations list at 47-18-104(b)",
+        "Caption cites Title 63 but no section of the act amends Title 63"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

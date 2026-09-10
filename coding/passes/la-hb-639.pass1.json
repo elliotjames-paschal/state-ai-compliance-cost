@@ -1,0 +1,40 @@
+{
+  "entries": [
+    {
+      "id": "LA HB 639",
+      "category": "company",
+      "family": "election-disclosure",
+      "appliesTo": "persons making telephone campaign communications created using AI with the voice of a public figure",
+      "duties": ["statutory-review", "disclosure-ui"],
+      "dutySources": {
+        "disclosure-ui": "R.S. 18:1463.1(D) — 'without providing a clear and understandable disclosure at the beginning of the call that it was created using artificial intelligence'"
+      },
+      "params": {
+        "disclosure": "required",
+        "scope": "robocalls"
+      },
+      "exposure": {
+        "penaltyMax": 5000,
+        "penaltyUnit": "per violation (second or subsequent)",
+        "enforcer": "board-of-ethics"
+      },
+      "sources": {
+        "disclosure": "R.S. 18:1463.1(D) — 'No person shall make or cause to be made any telephone call or automated call provided for in this Section which is created using artificial intelligence, using the voice of a public figure, including an elected official or limited public figure, without providing a clear and understandable disclosure at the beginning of the call'",
+        "scope": "R.S. 18:1463.1(D) — 'any telephone call or automated call provided for in this Section'; (E)(2) — '\"Automated call\" includes any call using a prerecorded or artificial voice as part of a calling campaign to deliver information.'",
+        "penaltyMax": "R.S. 18:1463.1(G) — 'Upon a second or subsequent violation, the penalty shall be a civil fine not to exceed five thousand dollars.'",
+        "penaltyUnit": "R.S. 18:1463.1(G) — 'Whoever violates any provision of this Section may be punished by a civil fine'",
+        "enforcer": "R.S. 18:1463.1(H) — 'The Board of Ethics shall administer and enforce the provisions of this Section.'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "Penalty is tiered: first violation civil fine max $2,500 (R.S. 18:1463.1(G) — 'a civil fine not to exceed two thousand five hundred dollars'); penaltyMax codes the higher second/subsequent-violation tier of $5,000",
+        "Duty is narrower than all AI calls: triggers only when the call is 'created using artificial intelligence, using the voice of a public figure, including an elected official or limited public figure' (§ D)",
+        "scope=robocalls is slightly lossy: § D covers 'any telephone call or automated call provided for in this Section', i.e. live telephone campaign calls as well as automated calls",
+        "Safe harbor: § F exempts from liability for content provided by another person interactive computer services (47 U.S.C. 230), ISPs/cloud/cybersecurity/information-service/telecommunications-service providers, and radio/TV broadcasters including cable/satellite operators, programmers, or producers",
+        "Section 2 amends R.S. 42:1132(D) to add R.S. 18:1463.1 to the Board of Ethics' jurisdiction — administrative conforming change, no additional company duty",
+        "'Artificial intelligence' is defined by cross-reference to R.S. 14:73.14 (§ E(1)); definition not restated in this text"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

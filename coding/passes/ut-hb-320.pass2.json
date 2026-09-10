@@ -1,0 +1,29 @@
+{
+  "entries": [
+    {
+      "id": "UT HB 320",
+      "category": "public-sector",
+      "family": "public-sector",
+      "segment": null,
+      "appliesTo": "Utah Office of Artificial Intelligence Policy (Department of Commerce); private parties only as voluntary participants in regulatory mitigation / joint interpretation agreements",
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": {
+        "program": "AI learning laboratory + regulatory mitigation and joint interpretation agreements"
+      },
+      "exposure": null,
+      "sources": {
+        "program": "§ 13-72-301(1) — 'There is established the Artificial Intelligence Learning Laboratory Program, to be administered by the office.'; § 13-72-401(2) — 'The office may grant, on a temporary basis, regulatory mitigation to a participant by entering into a regulatory mitigation agreement or a joint interpretation agreement'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "All binding duties fall on the state office (administer program, rulemaking, annual report to Business and Labor Interim Committee before November 30 per § 13-72-201(3)(d), regular audits of participants per § 13-72-401(6)); no mandatory company compliance duty is created",
+        "Participant obligations (consumer disclosures, reporting, safeguards) arise only through voluntarily executed agreements and office rules (§ 13-72-201(3)(c), § 13-72-401(4)), not directly from the statute",
+        "No penalty created; § 13-72-401(8)(b) preserves 'all applicable civil and criminal penalties' under existing law for violating participants — no exposure coded",
+        "Demonstration period capped at 12 months (§ 13-72-403(1)) with up to two 12-month extensions (§ 13-72-403(4)) — no matching param in the public-sector vocabulary",
+        "Repeals former § 13-72-304 (learning laboratory participation) and removes the application-based participation scheme"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "entries": [
+    {
+      "id": "MA H 5576",
+      "duplicateOf": "MA S 3228",
+      "flags": [
+        "data/legiscan.js relations for MA H 5576 list {\"type\": \"replaced by\", \"bill\": \"S 3228\"} — per rule 7, the law survives as MA S 3228 and this entry codes nothing else.",
+        "The surviving vehicle MA S 3228 is not in the dataset and has no text in texts/ — it should be fetched and coded so the law is counted exactly once.",
+        "legiscan.js also lists {\"type\": \"replaces\", \"bill\": \"H 5562\"}; the text itself confirms the chain: 'House bill No. 5562, amended and passed to be engrossed by the House. July 8, 2026.' LegiScan status for H 5576 is 'Engrossed', not Passed.",
+        "For the coder of the surviving vehicle: in this 225-page economic-development omnibus text, every AI mention is an appropriation/grant line item (e.g. item 7002-8080, 'grants to support the development and application of artificial intelligence technologies in strategically important sectors'; item 7002-8082 defense-sector investments 'such as artificial intelligence, cybersecurity, robotics and autonomous systems'; a $250,000 'artificial intelligence workforce navigator' earmark; an 'artificial intelligence innovation center' earmark) — no AI compliance duty on any private party appears in this version."
+      ],
+      "confidence": "high"
+    }
+  ]
+}

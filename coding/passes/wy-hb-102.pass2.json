@@ -1,0 +1,39 @@
+{
+  "entries": [
+    {
+      "id": "WY HB 102",
+      "category": "criminal",
+      "family": "ai-crimes",
+      "appliesTo": "persons who distribute nonconsensual synthetic sexual material, develop/distribute AI systems designed for child pornography or to promote self-harm, or use AI to generate or possess AI-generated child pornography",
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": {
+        "prohibition": "csam",
+        "coveredSubjects": "all-persons"
+      },
+      "exposure": {
+        "penaltyMax": 10000,
+        "penaltyUnit": "per offense (criminal fine)",
+        "enforcer": "criminal-prosecution"
+      },
+      "sources": {
+        "prohibition": "§ 6-4-308(b)(i) — 'Knowingly develops or distributes an artificial intelligence system specifically designed to create, distribute or promote child pornography or to create, distribute or promote synthetic sexual material'",
+        "coveredSubjects": "§ 6-4-307(a)(i)(A) — 'Knowingly, distributes, transmits or otherwise makes available synthetic sexual material that realistically depicts another identifiable person without that person's knowledge or consent'",
+        "penaltyMax": "§ 6-4-307(c)(i) — 'a felony punishable by imprisonment for not more than ten (10) years, a fine of not more than ten thousand dollars ($10,000.00), or both'",
+        "enforcer": "§ 6-4-307(c)(i) — 'a felony punishable by imprisonment' (criminal offense; no civil enforcer named)"
+      },
+      "duplicateOf": null,
+      "segment": null,
+      "flags": [
+        "multi-prohibition bill within ai-crimes: csam (§§ 6-4-303(b)(v)-(vi), 6-4-308), ncii (§ 6-4-307 synthetic sexual material incl. sextortion threats), suicide-encouragement (§ 6-4-701 self-harm promotion); prohibition coded 'csam' as the closest single enum — lossy",
+        "coveredSubjects lossy: NCII offense (§ 6-4-307) reaches 'another identifiable person' (all persons); the CSAM offenses (§§ 6-4-303, 6-4-308) concern minors — coded 'all-persons'",
+        "imprisonment tiers (fines capped at $10,000 throughout): § 6-4-307(c)(i) felony up to 10 years, (c)(ii) up to 12 years second/subsequent; § 6-4-308(d) felony up to 10 years; § 6-4-701(d) felony up to 10 years; § 6-4-303(c) felony 5-12 years, (d) up to 10 years, (e) 7-12 years second/subsequent",
+        "§ 1-1-143 grants AI developers civil immunity for third-party misuse ('shall not be liable for damages arising from the use of an artificial intelligence system when another person used the system with the intent to commit or engage in illegal or illicit activities'), lost if the system 'was developed with the knowledge or intent that the primary purpose of the system would be for illegal or illicit activities' — an immunity, not a compliance duty",
+        "§ 6-1-206(b): 'The use of an artificial intelligence system by a person to commit a criminal offense shall not be a defense to a criminal charge'",
+        "title recites an offense for using AI 'to censor political speech' but no such offense appears in the enacted sections",
+        "carve-outs: 47 U.S.C. 230(f)(2) interactive computer services and 47 U.S.C. 153 information/telecommunications services excluded (§§ 6-4-307(d), 6-4-308(c)(iv), 6-4-701(c)(v)); developer-intent safe harbors for content produced 'solely as a result of user prompts or inputs' (§§ 6-4-308(c)(i), 6-4-701(c)(i))"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

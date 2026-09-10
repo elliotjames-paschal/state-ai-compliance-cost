@@ -1,0 +1,34 @@
+{
+  "entries": [
+    {
+      "id": "MD SB 720",
+      "category": "education",
+      "family": "education-k12",
+      "appliesTo": "State Department of Education, local school systems, and the Maryland AI Education Collaborative",
+      "duties": ["statutory-review", "risk-program"],
+      "dutySources": {
+        "risk-program": "§ 7-2202(C) — 'EACH LOCAL SCHOOL SYSTEM SHALL HAVE AN ARTIFICIAL INTELLIGENCE POLICY ALIGNED WITH THE GUIDANCE'"
+      },
+      "params": {
+        "curriculum": "required",
+        "policyRequired": "yes",
+        "trainingRequired": "yes"
+      },
+      "sources": {
+        "curriculum": "§ 7-2203(A) — 'SHALL ENSURE THAT ARTIFICIAL INTELLIGENCE LITERACY IS A COMPONENT OF WORKFORCE PREPARATION STANDARDS AND COMPUTER SCIENCE STANDARDS FOR KINDERGARTEN THROUGH GRADE 12'",
+        "policyRequired": "§ 7-2202(C) — 'ON OR BEFORE 120 DAYS FROM THE DATE THAT THE DEPARTMENT RELEASES THE GUIDANCE REQUIRED UNDER SUBSECTION (A)(1) OF THIS SECTION, EACH LOCAL SCHOOL SYSTEM SHALL HAVE AN ARTIFICIAL INTELLIGENCE POLICY ALIGNED WITH THE GUIDANCE'",
+        "trainingRequired": "§ 7-2203(B) — 'THE DEPARTMENT SHALL PROVIDE PROFESSIONAL DEVELOPMENT IN ARTIFICIAL INTELLIGENCE TO EDUCATORS AND SCHOOL LEADERS'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "Coordinator-designation requirement fits no listed duty: § 7-2202(D)(1) — 'EACH LOCAL SCHOOL SYSTEM SHALL DESIGNATE A COORDINATOR BETWEEN THE LOCAL SCHOOL SYSTEM AND THE STATE ON THE PRODUCTIVE AND ETHICAL USE OF SYSTEMS OF ARTIFICIAL INTELLIGENCE'",
+        "Procurement/rubric requirements fit no listed duty: § 7-2202(E)(3) — 'EACH LOCAL SCHOOL SYSTEM SHALL USE THE RUBRIC AND OTHER EVALUATIVE TOOLS DEVELOPED BY THE DEPARTMENT IN THE REVIEW AND SELECTION OF ARTIFICIAL INTELLIGENCE TOOLS'; § 7-2202(F) — 'LOCAL SCHOOL SYSTEMS SHALL PROCURE ARTIFICIAL INTELLIGENCE TOOLS CONSISTENT WITH THE PROVISIONS OF TITLE 3.5, SUBTITLE 8 OF THE STATE FINANCE AND PROCUREMENT ARTICLE' (cross-reference — not coded per rule 4)",
+        "Most obligations fall on the State Department of Education (online-platform guidance, annual guidance review, implementation strategies, rubric development, standards, professional development) rather than on local school systems",
+        "Section 2 establishes the Maryland AI Education Collaborative (§ 7-2204) — advisory study/report body with annual December 1 reporting; it sunsets: 'Section 2 of this Act shall remain effective for a period of 2 years and, at the end of May 31, 2028 ... shall be abrogated'",
+        "curriculum coded 'required' from a standards mandate (AI literacy as a component of workforce preparation and computer science standards), not a standalone AI course; the graduation-course language was struck in favor of a recommendation process",
+        "No penalty or enforcement provision anywhere in the text — exposure omitted"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

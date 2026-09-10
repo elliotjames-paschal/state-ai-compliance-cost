@@ -1,0 +1,34 @@
+{
+  "entries": [
+    {
+      "id": "NY S 8793",
+      "category": "public-sector",
+      "family": "public-sector",
+      "appliesTo": "New York state agencies, state and local authorities, and political subdivisions (technology procurement)",
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": {
+        "procurementRules": "required",
+        "program": "restricted-technology procurement ban (PL 115-232 § 889 list)"
+      },
+      "exposure": null,
+      "sources": {
+        "procurementRules": "SFL § 163-e(1)(a) — 'the state and any department, bureau, board, commission, authority, and any other agency or instrumentality of the state shall not enter into or renew any contract or agreement to procure technology, including hardware, systems, devices, software, or services that include embedded or incidental information technology, which are prohibited from federal procurement pursuant to section 889 of Public Law 115-232 of 2018'; GML § 103-h(1)(a) — 'a political subdivision shall not enter into or renew any contract or agreement to procure technology'",
+        "program": "SFL § 163-e(2) — 'The office of information technology services shall, in consultation with the division of homeland security and emergency services and the office of general services, establish and update regularly a list of restricted technology. Technology on this list shall not be procured by any state agency, state or local authority, or political subdivision'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "substitution: data/legiscan.js lists NY S 8793 as 'replaced by' A 9456 (not separately in dataset); per instruction, coded under this id from the surviving text (texts/ny-a-9456.txt) and not marked duplicate — the S 8793 and A 9456 texts are substantively identical",
+        "AI relevance is indirect: the amendment strikes the old-law carve-out '(c) The term \"information and communications technology\" shall not include automated-decision making systems' and substitutes 'technology' as 'defined in subdivision ten of section one hundred sixty of this article' (SFL § 160(10), not restated in this text), so ADM systems become subject to the procurement restriction; the bill is otherwise a procurement-security measure, not an AI-specific regime",
+        "administrative duties on the office of information technology services fit no listed duty key: it shall 'establish and update regularly a list of restricted technology' (SFL § 163-e(2)) and shall 'issue guidance to all state agencies and local procurement authorities necessary, including providing updates on prohibited or excluded entities for procurement contracts in conformity with federal law, rules and regulations, no later than sixty days after any entity is prohibited or excluded' (§ 3 of the amended 2025 chapter)",
+        "waiver-notice requirement fits no listed duty key: any agency or political subdivision obtaining a federal § 889 waiver 'must provide notice of any such waiver granted to the office of information technology services within thirty days of waiver approval' (SFL § 163-e(3)(d); GML § 103-h(2)(d))",
+        "waiver pathway: OITS with named state offices 'may provide a waiver from this section' on findings of state/subdivision interest, no compliant product 'at United States market prices or a price that is not considered prohibitively expensive', and no compromise of 'the security or integrity of a computer network operated by an instrumentality of the state' (SFL § 163-e(3); GML § 103-h(2))",
+        "UAV exemption: unmanned aerial vehicles are exempt if collected data 'is stored and maintained exclusively within the United States' and 'is not accessible to the business or entity that would otherwise be subject to restriction' or the UAV 'is operated using software developed and maintained in the United States' (SFL § 163-e(4))",
+        "grandfathering: nothing requires pre-effective-date resident technology 'to be removed or replaced' (SFL § 163-e(5); GML § 103-h(3))",
+        "GML § 103-h also bars political subdivisions from procuring technology 'included on the list created pursuant to subdivision two of section one hundred sixty-three-e of the state finance law'",
+        "no penalty or enforcement provision in the text — exposure omitted (silence is silence)"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

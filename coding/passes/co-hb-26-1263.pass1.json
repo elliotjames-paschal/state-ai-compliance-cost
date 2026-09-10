@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "id": "CO HB 26-1263",
+      "category": "company",
+      "family": "chatbot-safeguards",
+      "segment": null,
+      "appliesTo": "operators that develop and make publicly available, or offer to a consumer, a conversational artificial intelligence service",
+      "duties": [
+        "statutory-review",
+        "age-assurance",
+        "disclosure-ui",
+        "content-safeguards",
+        "crisis-protocol",
+        "incident-reporting"
+      ],
+      "dutySources": {
+        "age-assurance": "§ 6-1-1708(2) — 'AN OPERATOR SHALL USE COMMERCIALLY REASONABLE METHODS OR GENERALLY ACCEPTED METHODS TO ESTIMATE THE AGE OF ACCOUNT HOLDERS OR USERS. AN OPERATOR SHALL NOT WILLFULLY DISREGARD CLEAR AND CONVINCING INFORMATION THAT AN ACCOUNT HOLDER OR USER IS A MINOR'",
+        "disclosure-ui": "§ 6-1-1708(3) — 'AN OPERATOR SHALL CLEARLY AND CONSPICUOUSLY DISCLOSE TO A USER THAT A CONVERSATIONAL ARTIFICIAL INTELLIGENCE SERVICE IS ARTIFICIAL INTELLIGENCE'",
+        "content-safeguards": "§ 6-1-1708(2)(c) — 'INSTITUTE TECHNICALLY FEASIBLE MEASURES TO PREVENT A CONVERSATIONAL ARTIFICIAL INTELLIGENCE SERVICE FROM: (I) PRODUCING TEXTUAL, VISUAL, OR AURAL DEPICTIONS OF EXPLICIT SEXUAL CONDUCT'",
+        "crisis-protocol": "§ 6-1-1708(4) — 'AN OPERATOR SHALL IMPLEMENT A PROTOCOL FOR A CONVERSATIONAL ARTIFICIAL INTELLIGENCE SERVICE TO RESPOND TO A USER PROMPT REGARDING SUICIDAL IDEATION OR SELF-HARM, WHICH PROTOCOL MUST INCLUDE USER REFERRAL TO A CRISIS SERVICE PROVIDER'",
+        "incident-reporting": "§ 6-1-1708(6)(a) — 'AN OPERATOR SHALL ANNUALLY REPORT TO THE ATTORNEY GENERAL'S OFFICE: (I) THE NUMBER OF TIMES THE OPERATOR HAS ISSUED A CRISIS SERVICE PROVIDER REFERRAL NOTIFICATION IN THE PRECEDING CALENDAR YEAR'"
+      },
+      "params": {
+        "scope": "all-chatbots",
+        "ageFocus": "all-users",
+        "aiDisclosure": "session-start",
+        "crisisProtocol": "required",
+        "parentalTools": "required",
+        "engagementLimits": "required",
+        "contentSafeguards": "required",
+        "ageThreshold": 18
+      },
+      "exposure": null,
+      "sources": {
+        "scope": "§ 6-1-1701(3.5)(a) — ''CONVERSATIONAL ARTIFICIAL INTELLIGENCE SERVICE' MEANS AN ARTIFICIAL INTELLIGENCE SYSTEM THAT IS ACCESSIBLE TO THE GENERAL PUBLIC AND THAT PRIMARILY SIMULATES HUMAN CONVERSATION AND INTERACTION THROUGH ADAPTIVE TEXTUAL, VISUAL, OR AURAL COMMUNICATIONS'",
+        "ageFocus": "§ 6-1-1708(3) — 'AN OPERATOR SHALL CLEARLY AND CONSPICUOUSLY DISCLOSE TO A USER' (§§ (3)-(6) bind as to all users; § (2) duties attach only when the operator knows a user is a minor)",
+        "aiDisclosure": "§ 6-1-1708(3)(a) — 'BE PROVIDED AT THE BEGINNING OF A USER'S FIRST INTERACTION WITH A CONVERSATIONAL ARTIFICIAL INTELLIGENCE SERVICE FOR EACH DAY OF INTERACTION'",
+        "crisisProtocol": "§ 6-1-1708(4) — 'IMPLEMENT A PROTOCOL FOR A CONVERSATIONAL ARTIFICIAL INTELLIGENCE SERVICE TO RESPOND TO A USER PROMPT REGARDING SUICIDAL IDEATION OR SELF-HARM'",
+        "parentalTools": "§ 6-1-1708(2)(h)(II) — 'OFFER TOOLS FOR A PARENT OR GUARDIAN OF THE MINOR ACCOUNT HOLDER OR MINOR USER TO MANAGE THE MINOR ACCOUNT HOLDER'S OR MINOR USER'S PRIVACY AND ACCOUNT SETTINGS'",
+        "engagementLimits": "§ 6-1-1708(2)(b) — 'NOT PROVIDE THE MINOR ACCOUNT HOLDER OR MINOR USER WITH POINTS OR SIMILAR REWARDS AT UNPREDICTABLE INTERVALS WITH THE INTENT TO ENCOURAGE INCREASED ENGAGEMENT WITH A CONVERSATIONAL ARTIFICIAL INTELLIGENCE SERVICE'",
+        "contentSafeguards": "§ 6-1-1708(2)(c)-(f) — 'INSTITUTE TECHNICALLY FEASIBLE MEASURES TO PREVENT A CONVERSATIONAL ARTIFICIAL INTELLIGENCE SERVICE FROM: (I) PRODUCING TEXTUAL, VISUAL, OR AURAL DEPICTIONS OF EXPLICIT SEXUAL CONDUCT'",
+        "appliesTo": "§ 6-1-1701(15.5)(a) — ''OPERATOR' MEANS A PERSON, PARTNERSHIP, CORPORATION, OR ENTITY THAT: (I) DEVELOPS AND MAKES PUBLICLY AVAILABLE A CONVERSATIONAL ARTIFICIAL INTELLIGENCE SERVICE; OR (II) OFFERS A CONVERSATIONAL ARTIFICIAL INTELLIGENCE SERVICE TO A CONSUMER'",
+        "ageThreshold": "§ 6-1-1701(15.3) — ''MINOR' MEANS A CONSUMER UNDER EIGHTEEN YEARS OLD.'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "ageFocus lossy: § (2) duty package (rewards ban, minor content safeguards, sexual-conduct protocols, privacy/parental tools) applies only to known minor account holders/users; §§ (3)-(6) (consumer disclosure, crisis protocol, false-representation ban, annual reporting) apply to all users — coded all-users",
+        "aiDisclosure lossy: disclosure must also 'APPEAR AT LEAST ONCE EVERY THREE HOURS IN A CONTINUOUS CONVERSATIONAL ARTIFICIAL INTELLIGENCE SERVICE INTERACTION OR APPEAR AS A PERSISTENT DISCLOSURE' (§ (3)(b)) and 'BE PROVIDED IN RESPONSE TO USER PROMPTS' (§ (3)(c)); minor-specific disclosure formats in § (2)(a)(I)-(III) — coded session-start",
+        "scope: definition covers any public conversational AI system but carries twelve carve-outs (§ 6-1-1701(3.5)(b)(I)-(XII), e.g. developer tools, commerce assistants, narrow-topic bots, device voice assistants, video-game/theme-park features, HIPAA entities, non-companionship education tools) — coded all-chatbots",
+        "§ 6-1-1708(5) prohibits any term stating outputs are 'PROVIDED BY, ENDORSED BY, OR EQUIVALENT TO SERVICES PROVIDED BY' a licensed health-care, legal, or mental-health professional or qualified dietitian — no matching duty key in the fixed vocabulary",
+        "§ 6-1-1708(2)(g) requires the operator to 'COMPLY WITH PART 13 OF THIS ARTICLE 1 REGARDING PROTECTING THE PRIVACY AND DATA OF A MINOR' — cross-referenced statute, not coded (rule 4)",
+        "§ 6-1-1708(2)(h)(I) requires minor-facing tools to control interaction-memory retention and use of personal data for model training — no matching duty key beyond the parentalTools param",
+        "annual attorney-general reporting (§ (6)(a)) is aggregate metrics (crisis-referral counts, protocols, AG-determined metrics), not per-incident reporting — coded incident-reporting as closest duty",
+        "no penalty or enforcement provision in this text; the act is codified into title 6, article 1 (consumer protection) but states no enforcement mechanism itself — exposure omitted (silence is silence)",
+        "effective dates: operator duties apply on and after January 1, 2027; annual reporting on and after July 1, 2027; act effective August 12, 2026 subject to referendum petition (SECTION 3)",
+        "source text contains PDF-extraction spacing artifacts (mid-word spaces, line-wrap breaks); quotes normalized to standard spacing"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

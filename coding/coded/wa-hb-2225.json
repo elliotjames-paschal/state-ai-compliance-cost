@@ -1,0 +1,54 @@
+{
+ "entries": [
+  {
+   "id": "WA HB 2225",
+   "category": "company",
+   "family": "chatbot-safeguards",
+   "segment": null,
+   "appliesTo": "operators that make available or control access to an AI companion chatbot for users in Washington",
+   "duties": [
+    "statutory-review",
+    "disclosure-ui",
+    "content-safeguards",
+    "crisis-protocol"
+   ],
+   "dutySources": {
+    "disclosure-ui": "Sec. 3(1) \u2014 'An operator must provide a clear and conspicuous disclosure that an AI companion chatbot is artificially generated and not human.'",
+    "content-safeguards": "Sec. 4(1)(b) \u2014 'Implement reasonable measures to prevent its AI companion chatbot from generating or producing sexually explicit content or suggestive dialogue with minors'; Sec. 3(3) \u2014 'implement reasonable measures to prohibit and prevent AI companion chatbots from claiming to be human'",
+    "crisis-protocol": "Sec. 5(1) \u2014 'An operator may not make available or deploy an AI companion chatbot unless it maintains and implements a protocol for detecting and addressing suicidal ideation or expressions of self-harm by users.'"
+   },
+   "params": {
+    "scope": "companion",
+    "ageFocus": "all-users",
+    "aiDisclosure": "periodic",
+    "crisisProtocol": "required",
+    "engagementLimits": "required",
+    "contentSafeguards": "required",
+    "ageThreshold": 18
+   },
+   "exposure": {
+    "enforcer": "consumer-protection-act (chapter 19.86 RCW)"
+   },
+   "sources": {
+    "scope": "Sec. 2(1)(a) \u2014 '\"AI companion chatbot\" or \"AI companion\" means an artificial intelligence system with a natural language interface that provides adaptive, human-like responses to user inputs, including by exhibiting anthropomorphic features, and is able to sustain a relationship across multiple interactions.'",
+    "ageFocus": "Sec. 5(1) \u2014 'a protocol for detecting and addressing suicidal ideation or expressions of self-harm by users' (base duties in Secs. 3 and 5 run to all users; Sec. 4 adds minor-specific duties)",
+    "aiDisclosure": "Sec. 3(2) \u2014 'must be provided: (a) At the beginning of the interaction; and (b) At least every three hours during continued interaction.'",
+    "crisisProtocol": "Sec. 5(1) \u2014 'maintains and implements a protocol for detecting and addressing suicidal ideation or expressions of self-harm by users'",
+    "engagementLimits": "Sec. 4(1)(c) \u2014 'Implement reasonable measures to prohibit the use of manipulative engagement techniques, which cause the AI companion chatbot to engage in or prolong an emotional relationship with the user'",
+    "contentSafeguards": "Sec. 4(1)(b) \u2014 'prevent its AI companion chatbot from generating or producing sexually explicit content or suggestive dialogue with minors'",
+    "ageThreshold": "Sec. 2(3) \u2014 '\"Minor\" means any person under 18 years of age.'",
+    "enforcer": "Sec. 6 \u2014 'A violation of this chapter is not reasonable in relation to the development and preservation of business and is an unfair or deceptive act in trade or commerce and an unfair method of competition for the purpose of applying the consumer protection act, chapter 19.86 RCW'"
+   },
+   "duplicateOf": null,
+   "flags": [
+    "aiDisclosure 'periodic' is lossy: Sec. 3(2) requires disclosure both at the beginning of the interaction and at least every three hours; Sec. 4(2) tightens the interval to 'at least every hour during continuous interaction' when the user is known to be a minor or the chatbot is directed to minors",
+    "ageFocus 'all-users' is lossy: disclosure (Sec. 3) and crisis-protocol (Sec. 5) duties bind for all users, while Sec. 4 layers minor-specific duties (sexually-explicit-content prevention, hourly reminders, manipulative-engagement prohibitions) on top",
+    "Sec. 5(3) requires public disclosure, on the operator's website and in-app, of crisis-protocol details and 'the number of crisis referral notifications issued to users in the preceding calendar year' \u2014 a transparency-reporting requirement that fits no listed duty key (documentation is defined as model/training-data docs)",
+    "engagementLimits derives from Sec. 4(1)(c) and applies only to minors, not all users; the prohibited techniques include return prompts, excessive praise, romantic-bond mimicry, simulated distress at leaving, isolation-promoting outputs, encouraging secrecy from parents, discouraging breaks, and soliciting purchases framed as necessary to the relationship",
+    "enforcement is routed to the Washington consumer protection act (ch. 19.86 RCW); per the no-imports rule no penaltyMax is coded"
+   ],
+   "confidence": "high"
+  }
+ ],
+ "resolution": "pass1"
+}

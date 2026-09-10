@@ -1,0 +1,28 @@
+{
+  "entries": [
+    {
+      "id": "NY S 8793",
+      "category": "public-sector",
+      "family": "public-sector",
+      "appliesTo": "state agencies, state and local authorities, and political subdivisions procuring restricted technology",
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": { "procurementRules": "required" },
+      "exposure": null,
+      "sources": {
+        "procurementRules": "§ 1 (State Finance Law § 163-e(1)(a)) — 'the state and any department, bureau, board, commission, authority, and any other agency or instrumentality of the state shall not enter into or renew any contract or agreement to procure [information and communications] technology, including hardware, systems, devices, software, or services that include embedded or incidental information technology, which are prohibited from federal procurement pursuant to section 889 of Public Law 115-232 of 2018'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "substitution: data/legiscan.js lists NY S 8793 as 'replaced by' A 9456 (not in dataset); per instruction, coded from the enacted A 9456 text (texts/ny-a-9456.txt) under this id and not marked duplicate — S 8793 and A 9456 texts are substantively identical",
+        "AI relevance is indirect: the amendment deletes the old-law carve-out '(c) The term \"information and communications technology\" shall not include automated-decision making systems', so ADM systems become subject to the procurement restriction; the bill is otherwise a procurement-security measure, not an AI-specific regime",
+        "administrative duties on the office of information technology services fit no duty key: it 'shall, in consultation with the division of homeland security and emergency services and the office of general services, establish and update regularly a list of restricted [information and communications] technology' (§ 163-e(2)) and shall 'issue guidance to all state agencies and local procurement authorities' (§ 3)",
+        "waiver-notice duty fits no duty key: any agency or political subdivision seeking a federal § 889 waiver 'must provide notice of any such waiver granted to the office of information technology services within thirty days of waiver approval' (§ 163-e(3)(d); GML § 103-h(2)(d))",
+        "waiver mechanism: named state offices 'may provide a waiver from this section' on stated conditions (§ 163-e(3)); unmanned aerial vehicles exempt under stated data-localization/access/software conditions (§ 163-e(4))",
+        "no penalty provision — exposure omitted (silence is silence)",
+        "GML § 103-h also restricts political subdivisions from procuring technology 'included on the list created pursuant to subdivision two of section one hundred sixty-three-e of the state finance law'"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

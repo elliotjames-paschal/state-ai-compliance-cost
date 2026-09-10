@@ -1,0 +1,108 @@
+{
+  "entries": [
+    {
+      "id": "UT HB 276",
+      "segment": "ncii-consent",
+      "category": "company",
+      "family": "likeness-rights",
+      "appliesTo": "generation services and covered platforms that distribute counterfeit intimate images",
+      "duties": ["statutory-review", "consent-workflow", "takedown-process", "risk-program"],
+      "dutySources": {
+        "consent-workflow": "13-72b-201(3) — 'a generation service shall implement and maintain a consent system'",
+        "takedown-process": "13-72b-302(1) — 'A covered platform shall establish and implement notice and removal procedures'; 13-72b-205(2) — 'A generation service shall clearly and conspicuously provide to users procedures for reporting violations'",
+        "risk-program": "13-72b-205(3) — 'A generation service shall publish in a clear and conspicuous location … the written policy required by Subsection 13-72b-203(1)(b)'"
+      },
+      "params": {
+        "consentRequired": "yes",
+        "coveredSubjects": "all-persons"
+      },
+      "exposure": {
+        "enforcer": "private-right (actual + punitive damages, attorney fees, injunctive relief)"
+      },
+      "sources": {
+        "consentRequired": "13-72b-201(2) — 'A generation service may not distribute a counterfeit intimate image without first obtaining consent from the identifiable individual depicted'",
+        "coveredSubjects": "13-72b-101(8) — 'an individual who is recognizable as an actual human individual'",
+        "enforcer": "13-72b-202(1) — 'A person, or the heirs of a deceased person, who has been injured by a violation recognized in Section 13-72b-201 may bring a civil action'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "no exact family fit: civil NCII consent/takedown regime; likeness-rights coded as the closest civil consent family — ai-crimes excluded because enforcement is civil with ongoing company compliance duties",
+        "content safeguards and the written policy are framed as safe-harbor conditions (13-72b-203), but 13-72b-205(3) independently mandates publishing 'the written policy required by Subsection 13-72b-203(1)(b)' — risk-program coded on that basis",
+        "consent records: 'maintains a record of the consent for a period of not less than seven years' (13-72b-201(3)(c))",
+        "48-hour platform takedown: 'removing the reported counterfeit intimate image within 48 hours after receiving the notice' (13-72b-302(2)(c))",
+        "safe harbors and heightened pleading standards (13-72b-203, -204, -304, -305) limit liability; fee-shifting against plaintiffs on repeat deficient pleadings",
+        "heirs of a deceased person may sue (13-72b-202(1)); coveredSubjects coded all-persons",
+        "no statutory dollar penalty — damages are actual/punitive via private action; each distribution is 'a separate violation' (13-72b-202(5))",
+        "special effective date: 'This bill takes effect on January 1, 2027' (Section 21)"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "UT HB 276",
+      "segment": "content-provenance",
+      "category": "company",
+      "family": "provenance-transparency",
+      "appliesTo": "large online platforms, capture device manufacturers, and covered providers of generative AI systems",
+      "duties": ["watermarking", "detection-tool"],
+      "dutySources": {
+        "watermarking": "13-72c-202(1) — 'A capture device manufacturer shall include a latent disclosure in content captured by the capture device'; 13-72c-203 — 'A covered provider shall include a latent disclosure in image, video, or audio content'",
+        "detection-tool": "13-72c-201(1)(a),(c) — 'detect whether compliant system provenance data is embedded into or attached to content' and 'allow a user to inspect all available compliant system provenance data'"
+      },
+      "params": {
+        "watermark": "required",
+        "detectionTool": "required",
+        "disclosureTrigger": "av-only",
+        "userThreshold": 1000000
+      },
+      "exposure": {
+        "penaltyMax": 2500,
+        "penaltyUnit": "per violation",
+        "enforcer": "division-of-consumer-protection"
+      },
+      "sources": {
+        "watermark": "13-72c-203 — 'A covered provider shall include a latent disclosure in image, video, or audio content … created or substantially modified by the covered provider's generative artificial intelligence system'",
+        "detectionTool": "13-72c-201(1)(a) — 'detect whether compliant system provenance data is embedded into or attached to content distributed on the large online platform'",
+        "disclosureTrigger": "13-72c-203 — 'in image, video, or audio content, or content that is any combination of image, video, or audio'",
+        "userThreshold": "13-72c-101(5)(a)(i) — 'has over 1,000,000 monthly visitors or users'",
+        "penaltyMax": "13-72c-301(2)(a) — 'the division director may impose an administrative fine of up to $2,500 for each violation of this chapter'",
+        "enforcer": "13-72c-301(1) — 'The Division of Consumer Protection shall administer and enforce the provisions of Part 2, Content Provenance Standards and Requirements'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "second user threshold not capturable in params: 'large online platform' requires having 'exceeded 2,000,000 unique monthly users during the preceding 12 months' (13-72c-101(8)(a)); userThreshold coded from the covered-provider definition",
+        "platform UI duty ('provide a user interface to disclose the availability of system provenance data', 13-72c-201(1)(b)) coded under detection-tool, not disclosure-ui — it discloses provenance availability, not that AI is in use",
+        "anti-stripping prohibition: a platform 'may not, to the extent technically feasible, knowingly strip any system provenance data or digital signature' (13-72c-201(2))",
+        "capture-device duty applies only to devices produced 'for sale in the state on or after January 1, 2028' (13-72c-202(4)), and manufacturers 'may provide a user with the option to disable the latent disclosure' (13-72c-202(2))",
+        "duties conditioned on technical feasibility and compliance 'with widely adopted specifications adopted by an established standards-setting body' (13-72c-202(3)); covered-provider disclosure must be 'consistent with widely accepted industry standards' (13-72c-203(2))",
+        "apparent drafting artifact: 13-72c-203(1)(b)(i) requires GenAI content disclosure of 'the name of the capture device manufacturer'",
+        "additional civil penalty 'of no more than $5,000 for each violation of an administrative or court order' (13-72c-301(5)); attorney general may sue to collect (13-72c-301(6))"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "UT HB 276",
+      "segment": "government-websites",
+      "category": "public-sector",
+      "family": "public-sector",
+      "appliesTo": "state agency public-facing webpages, via chief information officer rulemaking",
+      "duties": ["watermarking"],
+      "dutySources": {
+        "watermarking": "63A-16-215(2) — 'shall require a digitally accessible provenance record containing provenance information for digital content captured, created, or edited'"
+      },
+      "params": {
+        "program": "provenance standards for state agency webpage content"
+      },
+      "exposure": null,
+      "sources": {
+        "program": "63A-16-215(1) — 'establishing standards for digital content on a webpage of a state agency that the public can access to facilitate a transaction or obtain a service'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "duty operates through future rulemaking: the chief information officer 'shall make rules' only if the officer 'determines there is a substantial risk that fraudulent or misleading media could cause harm to a resident of the state' (63A-16-215(1))",
+        "'This section does not apply to digital content created before January 1, 2027' (63A-16-215(3))",
+        "no enforcement provision stated for this section"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

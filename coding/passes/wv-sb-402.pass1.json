@@ -1,0 +1,28 @@
+{
+  "entries": [
+    {
+      "id": "WV SB 402",
+      "category": "public-sector",
+      "family": "public-sector",
+      "appliesTo": "West Virginia Higher Education Policy Commission (Chancellor or designee)",
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": {
+        "program": "micro-credential program"
+      },
+      "exposure": null,
+      "sources": {
+        "program": "§18B-3D-8(c) — 'the West Virginia Micro-Credential Program is established within the West Virginia Higher Education Policy Commission. The Chancellor or their designee shall be responsible for developing and administering the Micro-Credential Program'"
+      },
+      "segment": null,
+      "duplicateOf": null,
+      "flags": [
+        "AI is mentioned only once and permissively — §18B-3D-8(d)(4): 'Utilize digital, web-based, artificial intelligence-based, hands-on, or on-the-job micro-credentials as needed to meet workforce and market demands' — the bill imposes no AI-specific duty on anyone",
+        "the commission's mandatory program-development obligations (§18B-3D-8(c)(1)-(6): standards and procedures for micro-credential design, verification, records security, and institutional assistance) fit no listed duty key; noted here rather than inventing a duty",
+        "no penalty, enforcement, or private/education compliance provision anywhere in the text",
+        "arguably an education-adjacent bill, but it binds only a state agency (the commission), not schools/districts/curricula, so category is public-sector"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

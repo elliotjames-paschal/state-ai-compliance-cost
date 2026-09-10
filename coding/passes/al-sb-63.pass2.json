@@ -1,0 +1,53 @@
+{
+  "entries": [
+    {
+      "id": "AL SB 63",
+      "category": "company",
+      "family": "insurance-adm",
+      "segment": null,
+      "appliesTo": "health benefit plan providers using artificial intelligence in utilization review / prior-authorization determinations",
+      "duties": [
+        "statutory-review",
+        "human-review",
+        "registration-filing",
+        "disclosure-ui",
+        "impact-assessment"
+      ],
+      "dutySources": {
+        "human-review": "§ 1(b)(3) — 'a determination to deny, delay, or modify a request for prior authorization based on medical necessity shall always be made by a licensed physician or other health care professional who is competent to evaluate any recommendation or conclusion of artificial intelligence'",
+        "registration-filing": "§ 1(b)(2) — 'A health benefit plan provider shall certify annually to the department that the artificial intelligence used to make determinations of medical necessity on requests for prior authorization complies'",
+        "disclosure-ui": "§ 1(c)(1) — 'Make prominent written disclosure regarding its use of artificial intelligence in utilization review in its policies and procedures.'",
+        "impact-assessment": "§ 1(c)(2) — 'Ensure that its use of artificial intelligence and the outcomes that it generates are reviewed on a periodic basis to maximize accuracy and reliability'"
+      },
+      "params": {
+        "humanReview": "required-final",
+        "decisionsCovered": "prior-auth",
+        "disclosure": "required"
+      },
+      "exposure": {
+        "penaltyMax": 5000,
+        "penaltyUnit": "per violation",
+        "enforcer": "state-insurance-department"
+      },
+      "sources": {
+        "humanReview": "§ 1(b)(3) — 'a determination to deny, delay, or modify a request for prior authorization based on medical necessity shall always be made by a licensed physician or other health care professional'",
+        "decisionsCovered": "§ 1(b)(1) — 'uses artificial intelligence to make determinations of medical necessity on requests for prior authorization under health benefit plans'",
+        "disclosure": "§ 1(c)(1) — 'Make prominent written disclosure regarding its use of artificial intelligence in utilization review in its policies and procedures.'",
+        "penaltyMax": "§ 1(d)(3)b.1. — 'Impose an administrative fine of not more than five thousand dollars ($5,000) for a violation that occurred with such frequency as to indicate a general business pattern or practice.'",
+        "penaltyUnit": "§ 1(d)(3)b.1. — 'for a violation that occurred with such frequency as to indicate a general business pattern or practice'",
+        "enforcer": "§ 1(a)(2) — 'DEPARTMENT. The Department of Insurance of the State of Alabama.'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "Fine available only 'For repeat violations of subsection (b)'; first remedy is a department-imposed corrective plan (§ 1(d)(3)a.)",
+        "Department may also 'Suspend or revoke the certificate of authority of the health benefit plan provider' for pattern-or-practice violations (§ 1(d)(3)b.2.)",
+        "§ 1(b)(1) substantive standard — AI determinations must be based on the enrollee's medical history, unique clinical circumstances, and medical record — has no param key",
+        "§ 1(b)(2)a. certification that AI 'does not rely on a group dataset' and (b)(2)b.-c. fair/equitable, nondiscriminatory application have no param key",
+        "§ 1(c)(3) limits patient-data use to its 'intended and stated purpose consistent with the federal Health Insurance Portability and Accountability Act (HIPAA)' — no matching duty key",
+        "§ 1(c)(4) allows compliance to 'be satisfied by an attestation by an authorized representative' relying on internal policies and third-party vendors",
+        "Provider must 'reimburse the department the administrative expenses incurred by the department in the investigation and enforcement' (§ 1(d)(4))"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

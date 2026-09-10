@@ -1,0 +1,27 @@
+{
+  "entries": [
+    {
+      "id": "MA H 5555",
+      "category": "public-sector",
+      "family": "public-sector",
+      "appliesTo": "executive office of technology services and security (FY2027 appropriation proviso)",
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": { "program": "AI For Impact" },
+      "sources": {
+        "program": "item 1790-0100 — 'not less than $250,000 shall be expended to expand the AI For Impact program to design, test and deploy artificial intelligence solutions that improve delivery of state services and build an AI-ready state workforce'"
+      },
+      "segment": null,
+      "exposure": null,
+      "duplicateOf": null,
+      "flags": [
+        "appropriations-only: MA H 5555 is the FY2027 general appropriations act (~1.4MB text); its sole AI provision is a minimum-spend proviso ($250,000) inside line-item 1790-0100 funding the AI For Impact program — no regulatory duties, no compliance obligations on any party, no penalties",
+        "not omnibus for rule-9 purposes: only one AI-relevant provision, one family-coherent segment",
+        "legiscan relations show this bill 'replaces' H 5501 — H 5555 is the surviving vehicle, so duplicateOf is null",
+        "item 1790-0100 also requires an IT consolidation/cybersecurity report to the legislature by February 17, 2027, but that reporting duty is general IT, not AI-specific — not coded",
+        "text on file is the Introduced (conference committee report) version per manifest, doc_id 3451620"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "entries": [
+    {
+      "id": "TN SB 1815",
+      "category": "criminal",
+      "family": "ai-crimes",
+      "segment": null,
+      "appliesTo": "any person who intentionally advises or encourages another person to commit suicide, knowing that person has communicated an intent to commit suicide",
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": {
+        "prohibition": "suicide-encouragement",
+        "coveredSubjects": "all-persons"
+      },
+      "exposure": null,
+      "sources": {
+        "prohibition": "§ 2(a)(1) — 'Intentionally, in any manner, advises or encourages another person to commit or attempt to commit suicide for the purpose of inciting, persuading, or aiding the other person to commit or attempt to commit suicide within an imminent period of time'",
+        "coveredSubjects": "§ 2(a)(1) — 'advises or encourages another person'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "Criminal tier, no fine stated: § 2(b) — 'A violation of this section is a Class D felony.' (rule 11: no penaltyMax coded; felony classification flagged here)",
+        "Text contains no AI-specific language — a general criminal prohibition on coercive suicide ('in any manner'); coded ai-crimes/suicide-encouragement per rule 10's conduct-prohibition scope, but the statute is not AI-specific",
+        "Knowledge element: § 2(a)(2) — 'Knows that the other person has communicated an intent to commit suicide'",
+        "Effective date: § 3 — 'This act takes effect July 1, 2026 … and applies to acts committed on or after that date'",
+        "SB 1815 'Substituted for: House Bill No. 1951' — SB 1815 is the surviving vehicle; legiscan.js shows only a 'crossfiled' relation to HB 1951, no 'replaced by' on SB 1815"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

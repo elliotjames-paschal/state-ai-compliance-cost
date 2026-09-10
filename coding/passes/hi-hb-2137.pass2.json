@@ -1,0 +1,43 @@
+{
+  "entries": [
+    {
+      "id": "HI HB 2137",
+      "category": "company",
+      "family": "likeness-rights",
+      "segment": null,
+      "appliesTo": "any person who knowingly publishes a realistic AI-generated digital imitation of an identifiable individual without consent",
+      "duties": ["statutory-review", "consent-workflow"],
+      "dutySources": {
+        "consent-workflow": "§ -2 — 'It shall be unlawful for any person to knowingly publish a realistic digital imitation of an identifiable individual without that individual's consent'"
+      },
+      "params": {
+        "consentRequired": "yes",
+        "coveredSubjects": "all-persons",
+        "postmortemYears": 10
+      },
+      "sources": {
+        "consentRequired": "§ -2 — 'without that individual's consent'; § -1 — '\"Consent\" means express, written permission from a depicted individual or the depicted individual's authorized representative.'",
+        "coveredSubjects": "§ -1 — '\"Digital imitation\" means any highly realistic AI-generated depiction, audio, or video that is derived from or based upon identifying characteristics of an actual, particular individual'",
+        "postmortemYears": "§ -4(a) — 'the individual or the individual's estate, for up to ten years after the death of the individual, may bring an action for civil remedies'",
+        "penaltyMax": "§ -4(b)(2) — 'Monetary damages of up to $25,000 per advertisement or recovery of actual damages, including for reputational injury and emotional distress'",
+        "penaltyUnit": "§ -4(b)(2) — 'up to $25,000 per advertisement'",
+        "enforcer": "§ -4(b) — 'an individual or an individual's estate may bring a civil action'; § -4(c) — 'A cause of action for injunctive or other equitable relief may be brought by the attorney general in instances in which the distribution of realistic digital imitations involves broad public interest or widespread harm.'"
+      },
+      "exposure": {
+        "penaltyMax": 25000,
+        "penaltyUnit": "per advertisement",
+        "enforcer": "private-right + attorney-general equitable-only"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "binds 'any person' (conduct prohibition with civil remedies), not only businesses — category 'company' chosen because the regime is civil, not criminal, and § -2(1) targets use 'in connection with an advertisement'",
+        "prohibition triggers are disjunctive: advertisement use, causing harm, or use 'to commit fraud, defamation, harassment, or other criminal acts' (§ -2)",
+        "broad exemptions in § -3 for parody, satire, commentary, criticism, scholarship, political/educational expression, news reporting, and documentary/historical/biographical works",
+        "§ -5(b) exempts media publishing third-party content (newspapers, TV, streaming, cable, transit ads) for the medium's role only; § -5(c) preserves 47 U.S.C. § 230",
+        "punitive damages available 'where malice is proven' and reasonable attorneys' fees and court costs recoverable (§ -4(b)(3)-(4)) — beyond the $25,000 penaltyMax",
+        "no ongoing compliance program duties; the only affirmative duty is obtaining consent before publication"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

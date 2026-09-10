@@ -1,0 +1,61 @@
+{
+  "entries": [
+    {
+      "id": "WA HB 1170",
+      "segment": "provenance",
+      "category": "company",
+      "family": "provenance-transparency",
+      "appliesTo": "producers of publicly accessible generative AI systems with over 1,000,000 monthly users",
+      "duties": ["statutory-review", "watermarking"],
+      "dutySources": {
+        "watermarking": "Sec. 2(1) — 'a covered provider shall include provenance data in any video, image, or audio content, or content that is any combination thereof, created or materially altered by the covered provider's generative artificial intelligence system'"
+      },
+      "params": {
+        "watermark": "required",
+        "disclosureTrigger": "av-only",
+        "userThreshold": 1000000
+      },
+      "exposure": {
+        "enforcer": "attorney-general (exclusive; via consumer protection act ch. 19.86 RCW)"
+      },
+      "sources": {
+        "watermark": "Sec. 2(1) — 'a covered provider shall include provenance data in any video, image, or audio content'; Sec. 2(2) — 'must use commercially and technically reasonable methods to make the provenance data difficult to remove or tamper with'",
+        "disclosureTrigger": "Sec. 2(1) — 'any video, image, or audio content, or content that is any combination thereof, created or materially altered by the covered provider's generative artificial intelligence system'",
+        "userThreshold": "Sec. 1(2) — 'a generative artificial intelligence system that has over 1,000,000 monthly users and is publicly accessible within the geographic boundaries of the state to consumers for personal use'",
+        "enforcer": "Sec. 4(2)-(3) — 'The attorney general may bring an action in the name of the state … a violation of this chapter is … an unfair or deceptive act in trade or commerce … for purposes of applying the consumer protection act, chapter 19.86 RCW'; 'Only the attorney general can bring an action under the consumer protection act, chapter 19.86 RCW, pursuant to this section.'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "duty qualified: 'To the extent commercially and technically reasonable' (Sec. 2(1)) and 'commercially and technically reasonable methods' (Sec. 2(2))",
+        "safe harbor: 'The use of a commonly supported technical standard for watermarking or metadata, such as the coalition for content provenance and authenticity specification, for provenance data is considered compliant' (Sec. 2(2))",
+        "provenance data need not include 'any information relating to an identified or reasonably identifiable individual' (Sec. 2(3))",
+        "exemptions: business-to-business uses (Sec. 3(2)); exclusively video game or interactive experiences (Sec. 5(1)); systems used solely for upscaling, noise reduction, or compression (Sec. 5(2)); covered provider excludes 'state, local, and tribal governments' (Sec. 1(2))",
+        "waivers void: 'Any waiver of the provisions of this chapter is contrary to public policy and is void and unenforceable' (Sec. 4(1))",
+        "effective February 1, 2027 (Sec. 9)"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "WA HB 1170",
+      "segment": "gov-ai-disclosure",
+      "category": "public-sector",
+      "family": "public-sector",
+      "appliesTo": "government agencies making available AI systems intended to interact with consumers",
+      "duties": ["disclosure-ui"],
+      "dutySources": {
+        "disclosure-ui": "Sec. 6(1) — 'A government agency that makes available an artificial intelligence system intended to interact with consumers must disclose to each consumer, before or at the time of interaction, that the consumer is interacting with an artificial intelligence system.'"
+      },
+      "params": {},
+      "exposure": null,
+      "sources": {},
+      "duplicateOf": null,
+      "flags": [
+        "consumer AI-interaction disclosure duty fits no fixed public-sector param (inventory/procurementRules/assessment/program); coded via disclosure-ui duty only",
+        "no enforcement provision in the Title 42 chapter — Sec. 4 enforcement applies only to 'this chapter' (the Title 19 chapter, Secs. 1-5 and 9 per Sec. 7); Sec. 6 stands alone per Sec. 8",
+        "disclosure must be 'Clear and conspicuously posted', 'Written in plain language', and 'May not use a dark pattern' (Sec. 6(1)(a)-(c)); may be provided 'by using a hyperlink to direct a consumer to a separate web page' (Sec. 6(2))",
+        "disclosure required 'regardless of whether it would be obvious to a reasonable consumer that the consumer is interacting with an artificial intelligence system' (Sec. 6(3))"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

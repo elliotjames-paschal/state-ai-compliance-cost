@@ -1,0 +1,41 @@
+{
+  "entries": [
+    {
+      "id": "RI SB 2197",
+      "category": "company",
+      "family": "mental-health-practice",
+      "segment": null,
+      "appliesTo": "licensed mental-health professionals/providers, and any individual, corporation, or entity offering therapy or psychotherapy services in Rhode Island",
+      "duties": ["statutory-review", "disclosure-ui", "consent-workflow", "human-review"],
+      "dutySources": {
+        "disclosure-ui": "§ 40.1-5.5-3(a)(1) — 'is informed in writing of the following' ... '(1) That artificial intelligence will be used'",
+        "consent-workflow": "§ 40.1-5.5-3(a) — 'is informed in writing of the following and provides consent as defined'",
+        "human-review": "§ 40.1-5.5-3(c)(1) — 'may not allow or otherwise use artificial intelligence to do any of the following' ... 'Make independent therapeutic decisions'"
+      },
+      "params": {
+        "aiTherapyRule": "supervised",
+        "consentRequired": "yes",
+        "scope": "psychotherapy"
+      },
+      "exposure": {
+        "enforcer": "executive-office-of-health-and-human-services (investigation); confidentiality penalties cross-referenced to § 5-37.3-9"
+      },
+      "sources": {
+        "aiTherapyRule": "§ 40.1-5.5-3(b)–(c) — '(b) An individual, corporation, or entity may not provide, advertise, or otherwise offer' therapy including via AI unless 'conducted' 'by an individual who is a licensed professional or provider'; '(c) A licensed professional or provider may use artificial intelligence only to the extent that' it 'meets the requirements of subsection (a)'",
+        "consentRequired": "§ 40.1-5.5-3(a) — 'is informed in writing of the following and provides consent as defined'",
+        "scope": "§ 40.1-5.5-2(10) — '\"Therapy or psychotherapy services\" means services provided to diagnose or treat an' 'individual's mental health or behavioral health'",
+        "enforcer": "§ 40.1-5.5-5(a)–(b) — '(a) The penalties pursuant to § 5-37.3-9 shall apply to any violation of the confidentiality' 'provisions of this chapter'; '(b) The executive office of health and human services shall have authority to investigate'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "aiTherapyRule 'supervised' is lossy: standalone/unlicensed AI therapy is prohibited outright (§ 40.1-5.5-3(b)) while licensed providers may use AI for administrative/supplementary support under consent and oversight (§ 40.1-5.5-3(a),(c))",
+        "consent/disclosure trigger in § 40.1-5.5-3(a) is narrowed to AI 'designed to simulate emotional attachment, bonding, or dependency or artificial intelligence companions' used 'where the client's therapeutic session is recorded or transcribed'",
+        "confidentiality duty (§ 40.1-5.5-4 — records and communications 'shall be confidential and shall not be disclosed except as provided pursuant to the provisions of § 40.1-') fits no listed duty key",
+        "penalties are cross-referenced (§ 5-37.3-9) and apply only to 'the confidentiality provisions of this chapter'; no penalty stated for other violations, so no penaltyMax coded",
+        "exemptions in § 40.1-5.5-5(c): religious counseling, peer support, public self-help/educational materials, FDA-cleared (or other federal-agency-approved) AI tools, and IRB-approved research",
+        "§ 40.1-5.5-6 authorizes EOHHS rulemaking to carry out the chapter"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

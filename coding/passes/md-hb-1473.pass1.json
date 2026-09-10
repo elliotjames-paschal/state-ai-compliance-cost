@@ -1,0 +1,29 @@
+{
+  "entries": [
+    {
+      "id": "MD HB 1473",
+      "category": "public-sector",
+      "family": "public-sector",
+      "segment": null,
+      "appliesTo": "Maryland's Future Board (Department of Commerce) and the Comptroller",
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": {
+        "program": "Maryland's Future Board visionary-planning + Future Fund"
+      },
+      "exposure": null,
+      "sources": {
+        "program": "§ 2.5–302(A), (F)(1) — 'THERE IS A MARYLAND’S FUTURE BOARD IN THE DEPARTMENT' … 'DEVELOPING AND REVISING A VISIONARY PLAN'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "AI is tangential: the bill is an economic-development planning act; AI appears only as a required planning topic (§ 2.5–301(E)(4)(II) — 'ARTIFICIAL INTELLIGENCE' among 'STRATEGIES THAT IMAGINE FUTURE TRENDS') and as an optional study factor (§ 2(a)(3)(ii) — 'job replacement due to the rise in artificial intelligence')",
+        "no compliance duties on private parties; board/Comptroller obligations (develop visionary plan by January 1, 2027; annual evaluation; project recommendations each August 1; Comptroller study report by December 1, 2026) fit no listed duty key",
+        "establishes the Maryland's Future Fund, a 'SPECIAL, NONLAPSING FUND' administered by the Department — no data-centers or infrastructure scope, so no fund-related param exists in the public-sector vocabulary",
+        "sunset: Section 3 — 'It shall remain effective for a period of 5 years and, a t the end of June 30, 2031, this Act … shall be abrogated'",
+        "crossfiled companion MD SB 770 per legiscan relations ('type': 'crossfiled'); no 'replaced by' relation, so not coded as duplicate"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

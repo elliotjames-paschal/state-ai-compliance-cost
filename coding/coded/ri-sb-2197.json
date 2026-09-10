@@ -1,0 +1,47 @@
+{
+ "entries": [
+  {
+   "id": "RI SB 2197",
+   "category": "company",
+   "family": "mental-health-practice",
+   "segment": null,
+   "appliesTo": "licensed mental health professionals/providers and any individual, corporation, or entity offering therapy or psychotherapy services in Rhode Island",
+   "duties": [
+    "statutory-review",
+    "disclosure-ui",
+    "consent-workflow",
+    "human-review"
+   ],
+   "dutySources": {
+    "disclosure-ui": "\u00a7 40.1-5.5-3(a) \u2014 'unless the patient or the patient's parent, guardian or other legally authorized representative is informed in writing of the following\u2026 (1) That artificial intelligence will be used; (2) The specific purpose of the artificial intelligence tool or system that will be used'",
+    "consent-workflow": "\u00a7 40.1-5.5-3(a) \u2014 'is informed in writing of the following and provides consent as defined in \u00a7 40.1-5.5-2'",
+    "human-review": "\u00a7 40.1-5.5-3(c) \u2014 'A licensed professional or provider may not allow or otherwise use artificial intelligence to do any of the following: (1) Make independent therapeutic decisions; \u2026 (3) Determine therapeutic recommendations or treatment plans.'"
+   },
+   "params": {
+    "aiTherapyRule": "supervised",
+    "consentRequired": "yes",
+    "scope": "psychotherapy"
+   },
+   "exposure": {
+    "enforcer": "executive-office-of-health-and-human-services (investigatory)"
+   },
+   "sources": {
+    "aiTherapyRule": "\u00a7 40.1-5.5-3(b) \u2014 'An individual, corporation, or entity may not provide, advertise, or otherwise offer therapy or psychotherapy services, including through the use of Internet-based artificial intelligence, to the public in this state unless the therapy or psychotherapy services are conducted by an individual who is a licensed professional or provider.'",
+    "consentRequired": "\u00a7 40.1-5.5-3(a) \u2014 'is informed in writing of the following and provides consent as defined in \u00a7 40.1-5.5-2'",
+    "scope": "\u00a7 40.1-5.5-2(10) \u2014 '\"Therapy or psychotherapy services\" means services provided to diagnose or treat an individual's mental health or behavioral health.'",
+    "enforcer": "\u00a7 40.1-5.5-5(b) \u2014 'The executive office of health and human services shall have authority to investigate any actual, alleged, or suspected violation of this chapter.'"
+   },
+   "duplicateOf": null,
+   "flags": [
+    "Confidentiality-of-records requirement (\u00a7 40.1-5.5-4 \u2014 'All records kept by a licensed professional or provider and all communications\u2026 shall be confidential and shall not be disclosed except as provided pursuant to the provisions of \u00a7 40.1-5-26') fits no listed duty key.",
+    "Penalties are imported by cross-reference, so no penaltyMax coded: \u00a7 40.1-5.5-5(a) \u2014 'The penalties pursuant to \u00a7 5-37.3-9 shall apply to any violation of the confidentiality provisions of this chapter' \u2014 and apply only to confidentiality violations, not the whole chapter.",
+    "consent-workflow duty used for consent to AI use in therapy (the duty vocabulary lists likeness/replica/data use); closest available key.",
+    "\u00a7 40.1-5.5-3(b) extends beyond licensed providers to bind any 'individual, corporation, or entity' offering AI-based therapy to the public \u2014 an unlicensed-practice ban alongside the provider duties.",
+    "Exemptions in \u00a7 40.1-5.5-5(c): religious counseling, peer support, public self-help/educational materials, FDA-cleared (or other federal-agency-cleared) AI tools, and IRB-approved research.",
+    "\u00a7 40.1-5.5-3(a)'s consent trigger is conditioned on use of AI 'designed to simulate emotional attachment, bonding, or dependency or artificial intelligence companions' in supplementary support or therapeutic communication 'where the client's therapeutic session is recorded or transcribed' \u2014 a narrower trigger than all AI use."
+   ],
+   "confidence": "high"
+  }
+ ],
+ "resolution": "pass1"
+}

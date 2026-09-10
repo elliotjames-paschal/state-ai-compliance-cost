@@ -1,0 +1,27 @@
+{
+  "entries": [
+    {
+      "id": "TN SB 1493",
+      "category": "public-sector",
+      "family": "public-sector",
+      "appliesTo": "Tennessee Advisory Commission on Intergovernmental Relations (TACIR)",
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": {
+        "program": "TACIR AI risk study + report"
+      },
+      "exposure": null,
+      "sources": {
+        "program": "§ 1(a) — 'The Tennessee Advisory Commission on Intergovernmental Relations (TACIR) shall conduct a study and produce a report on artificial intelligence.'"
+      },
+      "segment": null,
+      "duplicateOf": null,
+      "flags": [
+        "One-time study/report mandate only; no ongoing compliance duty on any party — report due to governor and speakers 'no later than January 31, 2027' (§ 1(c))",
+        "Title recites amendment of Titles 29, 33, 39 and 47, but the enacted text contains only the TACIR study mandate and an effective-date section",
+        "Study scope covers chatbot/companion-AI risks (§ 1(b)(4)-(5)) but imposes no chatbot-safeguards duties"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

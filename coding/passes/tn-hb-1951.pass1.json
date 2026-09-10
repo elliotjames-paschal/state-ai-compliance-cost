@@ -1,0 +1,15 @@
+{
+  "entries": [
+    {
+      "id": "TN HB 1951",
+      "duplicateOf": "TN SB 1815",
+      "sources": {
+        "duplicateOf": "Caption page — 'PUBLIC CHAPTER NO. 1098 / SENATE BILL NO. 1815 … Substituted for: House Bill No. 1951'"
+      },
+      "flags": [
+        "data/legiscan.js lists the relation as 'crossfiled' (not 'replaced by'), but the chaptered text is enacted as Senate Bill 1815 'Substituted for: House Bill No. 1951' — TN SB 1815 is the surviving vehicle and is also in the dataset; count once under TN SB 1815"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

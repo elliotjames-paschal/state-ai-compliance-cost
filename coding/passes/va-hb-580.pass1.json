@@ -1,0 +1,29 @@
+{
+  "entries": [
+    {
+      "id": "VA HB 580",
+      "category": "public-sector",
+      "family": "public-sector",
+      "segment": null,
+      "appliesTo": "Division of Consumer Counsel, Department of Law (Office of the Attorney General)",
+      "duties": ["statutory-review", "takedown-process"],
+      "dutySources": {
+        "takedown-process": "§ 2.2-517(C)(7) — 'Establish mechanisms for receiving and investigating complaints by the Commonwealth's consumers involving emerging technologies, including referring appropriate complaints to the federal, state, and local departments or agencies charged with the enforcement of applicable consumer laws'"
+      },
+      "params": {
+        "program": "emerging-tech complaint mechanism"
+      },
+      "sources": {
+        "program": "§ 2.2-517(C)(7) — 'Establish mechanisms for receiving and investigating complaints by the Commonwealth's consumers involving emerging technologies'"
+      },
+      "exposure": null,
+      "duplicateOf": null,
+      "flags": [
+        "AI appears only in the act's relating clause ('relating to Division of Consumer Counsel; duties; artificial intelligence fraud and abuse'); the operative amended text says 'emerging technologies', not 'artificial intelligence'",
+        "Bill imposes no duty on private parties and creates no penalty or enforcement provision; it adds one complaint-intake duty to an existing state division",
+        "takedown-process assigned because the bound party (the Division) must establish a complaint-receiving channel; vocabulary duty is usually applied to companies — flagged as a possible stretch"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

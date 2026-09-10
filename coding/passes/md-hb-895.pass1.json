@@ -1,0 +1,39 @@
+{
+  "entries": [
+    {
+      "id": "MD HB 895",
+      "category": "company",
+      "family": "pricing-competition",
+      "segment": null,
+      "appliesTo": "food retailers (>=15,000 sq ft selling tax-exempt food) and third-party food delivery service providers; merchants generally for the disclosure duty",
+      "duties": ["statutory-review", "disclosure-ui"],
+      "dutySources": {
+        "disclosure-ui": "§ 13-322(C) — 'UNLESS THE MERCHANT INCLUDES WITH THE ADVERTISEMENT, PROMOTION, LABEL, OR OTHER COMMUNICATION A CLEAR AND CONSPICUOUS DISCLOSURE WITH THE FOLLOWING STATEMENT: \"THIS PRICE WAS SET BY AN ALGORITHM OR BY USING YOUR PERSONAL DATA\"'"
+      },
+      "params": {
+        "prohibition": "surveillance-pricing",
+        "disclosure": "required"
+      },
+      "exposure": {
+        "enforcer": "consumer-protection-division (enforcement under Subtitle 4, Maryland Consumer Protection Act); private right of action expressly excluded",
+        "cureDays": 45
+      },
+      "sources": {
+        "prohibition": "§ 13-321(B)(2) — 'A FOOD RETAILER OR THIRD-PARTY FOOD DELIVERY SERVICE PROVIDER MAY NOT: (I) ENGAGE IN DYNAMIC PRICING TO SET A HIGHER PRICE FOR FOOD THAT IS EXEMPT FROM THE SALE AND USE TAX IN ACCORDANCE WITH § 11-206(C) OF THE TAX - GENERAL ARTICLE FOR A SPECIFIC CONSUMER; OR (II) USE SURVEILLANCE PERSONAL DATA TO SET A HIGHER PRICE'",
+        "disclosure": "§ 13-322(C) — 'A MERCHANT MAY NOT SET THE PRICE OF A CONSUMER GOOD OR SERVICE USING DYNAMIC PRICING OR PERSONAL DATA AND DIRECTLY OR INDIRECTLY ADVERTISE OR PROMOTE, INCLUDE ON A LABEL, OR PUBLISH ANY OTHER COMMUNICATION CONTAINING THE PRICE, UNLESS THE MERCHANT INCLUDES ... A CLEAR AND CONSPICUOUS DISCLOSURE'",
+        "enforcer": "§ 13-321(D)(1) — 'BEFORE INITIATING AN ENFORCEMENT ACTION UNDER SUBTITLE 4 OF THIS TITLE FOR A VIOLATION OF THIS SECTION, THE DIVISION SHALL ISSUE A NOTICE OF VIOLATION TO THE ALLEGED VIOLATOR'; § 13-408(a) — 'THIS SECTION DOES NOT APPLY TO A VIOLATION OF § 13-321 OR § 13-322 OF THIS TITLE'",
+        "cureDays": "§ 13-321(D)(2) — 'THE DIVISION SHALL PROVIDE THE ALLEGED VIOLATOR 45 DAYS AFTER THE NOTICE OF VIOLATION IS RECEIVED TO CURE THE VIOLATION'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "AI appears only inside the dynamic-pricing definition: § 13-321(A)(3)(I) — 'INCLUDING THROUGH THE USE OF ARTIFICIAL INTELLIGENCE OR MODELS THAT RETRAIN OR RECALIBRATE BASED ON RECEIVED INFORMATION IN NEAR REAL-TIME'; the prohibitions reach personalized pricing from personal data whether or not AI is used",
+        "§ 13-321(C) additionally prohibits food retailers/delivery providers from using 'PROTECTED CLASS DATA TO OFFER, ADVERTISE, OR SELL A CONSUMER GOOD OR SERVICE' where it has 'THE EFFECT OF WITHHOLDING OR DENYING ... AN ACCOMMODATION, AN ADVANTAGE, OR A PRIVILEGE ACCORDED TO OTHERS' — no matching param in the pricing-competition vocabulary",
+        "non-AI provision: Labor & Employment § 4-406 bars a food retailer from implementing changes that diminish rights under 'AN EXISTING COLLECTIVE BARGAINING AGREEMENT OR MEMORANDUM OF UNDERSTANDING UNLESS THE CHANGE IS NEGOTIATED AND MUTUALLY AGREED ON WITH THE EXCLUSIVE REPRESENTATIVE', with its own private right of action (§ 4-406(C)) — fits no family/duty in the vocabulary",
+        "§ 13-321 prohibitions are limited to a HIGHER price for tax-exempt food; § 13-322 disclosure applies to merchants generally but exempts insurance-regulated conduct, § 13-321-covered entities, financial institutions, and employee discounts (§ 13-322(B))",
+        "criminal penalty expressly excluded: § 13-411(A) — 'THIS SECTION DOES NOT APPLY TO A VIOLATION OF § 13-321 OR § 13-322 OF THIS TITLE'; no penaltyMax stated in this text (MCPA penalties cross-referenced, not stated)",
+        "crossfiled with MD SB 387 per legiscan.js relations (not a replaced-by substitution)"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

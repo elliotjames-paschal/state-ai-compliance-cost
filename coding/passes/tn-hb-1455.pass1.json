@@ -1,0 +1,21 @@
+{
+  "entries": [
+    {
+      "id": "TN HB 1455",
+      "duplicateOf": "TN SB 1493",
+      "duties": [],
+      "dutySources": {},
+      "params": {},
+      "sources": {
+        "duplicateOf": "caption page — 'SENATE BILL N0.1493 … Substituted for: House Bill No. 1455' (PUBLIC CHAPTER NO. 1066)"
+      },
+      "exposure": null,
+      "segment": null,
+      "flags": [
+        "legiscan.js relation for TN HB 1455 is type 'crossfiled' (bill: SB 1493), not 'replaced by'; the chaptered text itself establishes the substitution — Public Chapter 1066 is SB 1493, substituted for HB 1455",
+        "the surviving TN SB 1493 is a TACIR study-and-report mandate only (report due January 31, 2027); no compliance duties on any private or public party — code that in the SB 1493 entry, not here"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

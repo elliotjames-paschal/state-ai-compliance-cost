@@ -1,0 +1,50 @@
+{
+  "entries": [
+    {
+      "id": "RI SB 2195",
+      "category": "company",
+      "family": "chatbot-safeguards",
+      "segment": null,
+      "appliesTo": "operators of AI companions",
+      "duties": [
+        "statutory-review",
+        "crisis-protocol",
+        "incident-reporting",
+        "disclosure-ui"
+      ],
+      "dutySources": {
+        "crisis-protocol": "§ 6-63-2(a) — 'It shall be unlawful for any operator to operate or provide an AI companion to a user unless such AI companion contains a protocol for addressing: (1) Possible suicidal ideation or self-harm expressed by a user to the AI companion'",
+        "incident-reporting": "§ 6-63-2(b) — 'Beginning July 1, 2027, operators shall file annual reports with the office of the attorney general which shall include the number of safety protocol activations and related metrics.'",
+        "disclosure-ui": "§ 6-63-3 — 'An operator shall provide a clear and conspicuous notification to a user at the beginning of any AI companion interaction and at least every three (3) hours for continuing AI companion interactions hereafter, which states either verbally or in writing that the user is not communicating with a human.'"
+      },
+      "params": {
+        "scope": "companion",
+        "ageFocus": "all-users",
+        "aiDisclosure": "periodic",
+        "crisisProtocol": "required"
+      },
+      "exposure": {
+        "penaltyMax": 15000,
+        "penaltyUnit": "per day",
+        "enforcer": "attorney-general"
+      },
+      "sources": {
+        "scope": "§ 6-63-1(1)(i) — '\"AI companion\" means a system using artificial intelligence, generative artificial intelligence, and/or emotional recognition algorithms to simulate a sustained human or human-like relationship with a user'",
+        "ageFocus": "§ 6-63-1(8) — '\"User\" means any person who uses an AI companion within the state and who is not an operator or agent or affiliate of the operator of the AI companion.'",
+        "aiDisclosure": "§ 6-63-3 — 'at the beginning of any AI companion interaction and at least every three (3) hours for continuing AI companion interactions hereafter'",
+        "crisisProtocol": "§ 6-63-2(a)(3) — 'a notification shall be provided to the user that refers them to crisis service providers such as a suicide hotline, crisis text line, or other appropriate crisis services as soon as any of those expressions are detected'",
+        "penaltyMax": "§ 6-63-4(b) — 'Violations of this chapter may result in civil penalties up to fifteen thousand dollars ($15,000) per day'",
+        "enforcer": "§ 6-63-4(a) — 'The attorney general shall be empowered to enforce this chapter, including the power to investigate, sue, and seek injunctions against noncompliant AI companion operators'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "aiDisclosure is both session-start and every-3-hours periodic ('at the beginning of any AI companion interaction and at least every three (3) hours'); coded as periodic — lossy single-enum pick",
+        "crisis protocol must also address 'Possible physical harm to others expressed by a user' (§ 6-63-2(a)(2)), beyond self-harm/suicidal ideation",
+        "annual safety-protocol-activation reports to the attorney general coded as incident-reporting; could alternatively read as registration-filing (a recurring filing to an agency)",
+        "fines are 'directed to suicide prevention programs' (§ 6-63-4(b))",
+        "attorney general 'shall publish aggregated data on its website' (§ 6-63-2(b)) — duty on the AG, not the operator"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

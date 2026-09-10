@@ -1,0 +1,61 @@
+{
+ "entries": [
+  {
+   "id": "CO SB 26-189",
+   "category": "company",
+   "family": "adm-governance",
+   "segment": null,
+   "appliesTo": "developers and deployers of covered ADMT used to materially influence consequential decisions",
+   "duties": [
+    "statutory-review",
+    "documentation",
+    "disclosure-ui",
+    "human-review",
+    "takedown-process"
+   ],
+   "dutySources": {
+    "documentation": "\u00a7 6-1-1702(1) \u2014 'A DEVELOPER SHALL MAKE AVAILABLE TO EACH DEPLOYER OF A COVERED ADMT DEVELOPED BY THE DEVELOPER \u2026 A GENERAL STATEMENT DESCRIBING THE INTENDED USES AND KNOWN HARMFUL OR INAPPROPRIATE USES OF THE COVERED ADMT' and (1)(b) 'A DESCRIPTION OF THE CATEGORIES OF DATA, INCLUDING PERSONAL DATA, USED TO TRAIN THE COVERED ADMT'",
+    "disclosure-ui": "\u00a7 6-1-1704(1) \u2014 'THE DEPLOYER SHALL PROVIDE A CLEAR AND CONSPICUOUS NOTICE TO A CONSUMER THAT THE DEPLOYER USED OR WILL USE A COVERED ADMT IN A CONSEQUENTIAL DECISION AFFECTING THE CONSUMER'",
+    "human-review": "\u00a7 6-1-1705(1)(a)(II) \u2014 'AN OPPORTUNITY FOR MEANINGFUL HUMAN REVIEW AND RECONSIDERATION OF THE CONSEQUENTIAL DECISION, TO THE EXTENT COMMERCIALLY REASONABLE'",
+    "takedown-process": "\u00a7 6-1-1705(1)(a)(I) \u2014 'INSTRUCTIONS FOR REQUESTING PERSONAL DATA AND CORRECTING FACTUALLY INCORRECT OR MATERIALLY INACCURATE PERSONAL DATA USED IN A CONSEQUENTIAL DECISION'; \u00a7 6-1-1704(3)(b) \u2014 'INSTRUCTIONS AND A SIMPLE-TO-FOLLOW PROCESS TO REQUEST ADDITIONAL INFORMATION ABOUT THE COVERED ADMT'"
+   },
+   "params": {
+    "covers": "both",
+    "trigger": "consequential-decisions",
+    "consumerNotice": "required",
+    "appealRight": "required"
+   },
+   "exposure": {
+    "enforcer": "attorney-general",
+    "cureDays": 60
+   },
+   "sources": {
+    "covers": "\u00a7 6-1-1701(7) \u2014 '\"DEPLOYER\" MEANS A PERSON DOING BUSINESS IN COLORADO THAT DEPLOYS A COVERED ADMT'; \u00a7 6-1-1701(8)(a) \u2014 '\"DEVELOPER\" MEANS A PERSON DOING BUSINESS IN COLORADO THAT: (I) DEVELOPS, OFFERS, SELLS, LEASES, LICENSES, OR OTHERWISE MAKES COMMERCIALLY AVAILABLE A COVERED ADMT'",
+    "trigger": "\u00a7 6-1-1701(5) \u2014 '\"COVERED ADMT\" MEANS AUTOMATED DECISION-MAKING TECHNOLOGY THAT IS USED TO MATERIALLY INFLUENCE A CONSEQUENTIAL DECISION'",
+    "consumerNotice": "\u00a7 6-1-1704(1) \u2014 'PRIOR TO A DEPLOYER USING A COVERED ADMT TO MATERIALLY INFLUENCE A CONSEQUENTIAL DECISION, THE DEPLOYER SHALL PROVIDE A CLEAR AND CONSPICUOUS NOTICE TO A CONSUMER'",
+    "appealRight": "\u00a7 6-1-1705(1)(a)(II) \u2014 'AN OPPORTUNITY FOR MEANINGFUL HUMAN REVIEW AND RECONSIDERATION OF THE CONSEQUENTIAL DECISION'",
+    "enforcer": "\u00a7 6-1-1706(1)(a) \u2014 'THE ATTORNEY GENERAL SHALL ENFORCE THIS PART 17 THROUGH THE \"COLORADO CONSUMER PROTECTION ACT\", THIS ARTICLE 1.'; \u00a7 6-1-1706(1)(b) \u2014 'ENFORCEABLE EXCLUSIVELY BY THE ATTORNEY GENERAL'; \u00a7 6-1-1706(2)(a) \u2014 'A VIOLATION OF THIS PART 17 IS A DECEPTIVE TRADE PRACTICE'",
+    "cureDays": "\u00a7 6-1-1706(3)(b) \u2014 'IF THE DEVELOPER OR DEPLOYER FAILS TO CURE A VIOLATION WITHIN SIXTY DAYS AFTER RECEIPT OF A NOTICE OF VIOLATION, THE ATTORNEY GENERAL MAY BRING AN ACTION'"
+   },
+   "duplicateOf": null,
+   "flags": [
+    "Repeal-and-reenactment: SECTION 1 'repeal and reenact, with amendments, part 17 of article 1 of title 6' \u2014 replaces the prior Colorado AI Act (SB 24-205) framework; the reenacted text contains no impact-assessment, risk-management-program, or AG incident-notification duties, so those duties are intentionally absent, not overlooked.",
+    "No penaltyMax coded: enforcement routes through the Colorado Consumer Protection Act (rule 4 \u2014 no imports); this text states no fine amount.",
+    "Enforcer detail: \u00a7 6-1-1706(1)(b) makes \u00a7\u00a7 6-1-1702 to 6-1-1705 'ENFORCEABLE EXCLUSIVELY BY THE ATTORNEY GENERAL WITHOUT REGARD TO ANY OTHER PROVISION IN THIS TITLE 6'; a violation 'IS A DECEPTIVE TRADE PRACTICE' (\u00a7 6-1-1706(2)(a)) \u2014 exclusivity and DTP routing carried here and in sources per rule 11's short-free-text convention.",
+    "Record retention (3 years) required of developers (\u00a7 6-1-1702(4)) and deployers (\u00a7 6-1-1703 \u2014 'A DEPLOYER SHALL RETAIN, FOR NOT LESS THAN THREE YEARS \u2026 RECORDS REASONABLY NECESSARY TO DEMONSTRATE COMPLIANCE') fits no listed duty key.",
+    "Developer must notify deployers of material updates within a reasonable time (\u00a7 6-1-1702(2)(a)) \u2014 coded under documentation; no separate duty key exists for deployer-facing update notices.",
+    "Post-adverse-outcome disclosure must be provided 'WITHIN THIRTY DAYS AFTER MAKING THE DECISION' (\u00a7 6-1-1704(3)); no adm-governance param captures this 30-day window.",
+    "Human-review/reconsideration right is qualified 'TO THE EXTENT COMMERCIALLY REASONABLE' (\u00a7 6-1-1705(1)(a)(II)).",
+    "assessment param omitted (not set to 'none'): the statute is simply silent on assessments \u2014 rule 3.",
+    "Broad exemptions: insurers subject to \u00a7 10-3-1104.9 'ARE IN COMPLIANCE WITH THIS PART 17 IN THE PRACTICE OF INSURANCE' (\u00a7 6-1-1708(1)(a)); HIPAA covered entities exempt from \u00a7\u00a7 6-1-1701 to 6-1-1706 except for employment decisions (\u00a7 6-1-1708(3)(a)), but must still 'PROVIDE PATIENTS WITH A GENERAL NOTICE OF USE OF ADVANCED TECHNOLOGIES' (\u00a7 6-1-1708(3)(c)) and make financial-assistance-eligibility disclosures (\u00a7 6-1-1708(3)(d)); FDA-overseen medical devices exempt (\u00a7 6-1-1708(4)); ECOA/FCRA-compliant creditor notices satisfy the disclosure duty (\u00a7 6-1-1704(6)); FERPA processes satisfy notice and correction duties for education decisions (\u00a7\u00a7 6-1-1704(9), 6-1-1705(2)).",
+    "AG rulemaking mandated on or before January 1, 2027 for post-adverse-outcome disclosures (\u00a7 6-1-1704(4)(b)) and consumer rights (\u00a7 6-1-1705(3)); the operative disclosure content may shift with rules.",
+    "Cure-period subsection (including AG annual SMART Act reporting) 'IS REPEALED, EFFECTIVE JANUARY 1, 2030' (\u00a7 6-1-1706(3)(f)); cure not required for knowing or repeated violations (\u00a7 6-1-1706(3)(c)).",
+    "No private right of action (\u00a7 6-1-1706(4), \u00a7 6-1-1709(1)); \u00a7 6-1-1707 allocates anti-discrimination liability between developers and deployers by relative fault and voids indemnification clauses \u2014 liability rules, not compliance duties.",
+    "Effective January 1, 2027; applies to consequential decisions made on or after January 1, 2027 (SECTION 5); developer documentation duty runs 'ON AND AFTER JANUARY 1, 2027' (\u00a7 6-1-1702(1)).",
+    "takedown-process assignment is a closest-fit call: the duty is a data-correction/information-request channel (\u00a7\u00a7 6-1-1704(3)(b), 6-1-1705(1)(a)(I)), matched to 'a reporting, removal, or complaint channel'."
+   ],
+   "confidence": "high"
+  }
+ ],
+ "resolution": "final"
+}

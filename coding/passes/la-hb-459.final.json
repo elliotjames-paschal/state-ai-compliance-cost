@@ -1,0 +1,43 @@
+{
+  "entries": [
+    {
+      "id": "LA HB 459",
+      "category": "company",
+      "family": "election-disclosure",
+      "segment": null,
+      "appliesTo": "any person making electioneering communications that use AI to falsely portray a candidate or elected official subject to recall; persons other than candidates or committees spending over $1,000 on electioneering communications",
+      "duties": ["statutory-review", "disclosure-ui", "registration-filing"],
+      "dutySources": {
+        "disclosure-ui": "R.S. 18:1463(F)(1) — 'without providing a clear and understandable disclosure on the electioneering communication that it was created using artificial intelligence'",
+        "registration-filing": "R.S. 18:1501.1(A)(1) — 'Any person, other than a candidate or a committee, who makes any expenditure for … an electioneering communication shall file reports if such expenditures exceed one thousand dollars in the aggregate during the aggregating period'"
+      },
+      "params": {
+        "disclosure": "required",
+        "scope": "all-communications"
+      },
+      "exposure": {
+        "penaltyMax": 2000,
+        "enforcer": "criminal-prosecution"
+      },
+      "sources": {
+        "disclosure": "R.S. 18:1463(F)(1) — 'No person shall make or cause to be made any electioneering communication that portrays a candidate or an elected official subject to recall and that is, through the use of artificial intelligence, created, altered, or digitally manipulated in a manner that would falsely appear to a reasonable observer to be an authentic record of the actual speech or conduct of a candidate or an elected official subject to recall … without providing a clear and understandable disclosure on the electioneering communication that it was created using artificial intelligence'",
+        "scope": "R.S. 18:1483(33)(a) — '\"Electioneering communication\" means any communication, whether printed, digital, or broadcast by a media entity'",
+        "penaltyMax": "R.S. 18:1463(H) — 'shall be fined not more than two thousand dollars'",
+        "enforcer": "R.S. 18:1463(H) — 'or be imprisoned, with or without hard labor, for not more than two years, or both'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "Criminal enforcement: R.S. 18:1463(H) — 'Whoever violates any provision of this Section with the intent to injure the reputation of a candidate or elected official subject to recall or to otherwise deceive a voter shall be fined not more than two thousand dollars or be imprisoned, with or without hard labor, for not more than two years, or both.' Coded in election-disclosure per rule 10; fine only in penaltyMax and imprisonment term flagged per rule 11. No agency enforcer is named in the text; enforcement is by criminal prosecution.",
+        "penaltyUnit omitted: the text states a fine cap but no per-violation or per-day unit (rule 3, silence is silence).",
+        "Scienter: the penalty carries an intent element ('with the intent to injure the reputation of a candidate or elected official subject to recall or to otherwise deceive a voter', § 1463(H)); the disclosure duty itself in (F)(1) has no intent element.",
+        "Media-entity exemption: R.S. 18:1463(I) — the Section 'shall not apply to a media entity that broadcasts a paid political announcement, advertisement, or electioneering communication in which the broadcaster has had no input in or control over' the communication.",
+        "registration-filing is a general campaign-finance reporting duty (R.S. 18:1501.1(A)(1), $1,000 aggregate expenditure threshold), not conditioned on AI use; included because this act's enacted text imposes it, but it may overstate AI-specific compliance cost.",
+        "Non-AI remainder: the act also amends campaign-finance definitions — 'contribution' (R.S. 18:1483(7)), 'coordinated expenditure' (R.S. 18:1483(8)), 'expenditure' (R.S. 18:1483(11)) — and repeals R.S. 18:1463(C)(5), 1491.7(B)(22), and 1495.5(B)(21); no coded duty/param fits these (rule 5).",
+        "'Artificial intelligence' is defined by cross-reference: R.S. 18:1463(F)(2)(a) — '\"Artificial intelligence\" shall have the same meaning as provided in R.S. 14:73.14'; definition not in this text (rule 4, no imports).",
+        "Disclosure form incorporated by reference: 'The form of the disclosure shall be consistent with the disclosure requirements of Subsection (E) of this Section' — Subsection (E) is not reproduced in this act.",
+        "scope enum lossy: electioneering communications cover printed, digital, and broadcast express-advocacy/vote-appeal communications, not only ads — coded 'all-communications' as closest enum."
+      ],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "entries": [
+    {
+      "id": "TN HB 1946",
+      "duplicateOf": "TN SB 1700",
+      "sources": {
+        "duplicateOf": "Public Chapter No. 1082, caption — 'SENATE BILL NO. 1700 … Substituted for: House Bill No. 1946'"
+      },
+      "flags": [
+        "data/legiscan.js lists only a 'crossfiled' relation between TN HB 1946 and TN SB 1700 (no 'replaced by' type), but the chaptered text itself states the substitution: the enacted law is SB 1700 (Public Chapter 1082); coded as duplicate per rule 7 — count once under TN SB 1700"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

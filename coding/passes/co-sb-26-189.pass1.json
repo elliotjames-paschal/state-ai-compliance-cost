@@ -1,0 +1,56 @@
+{
+  "entries": [
+    {
+      "id": "CO SB 26-189",
+      "category": "company",
+      "family": "adm-governance",
+      "segment": null,
+      "appliesTo": "developers and deployers of covered ADMT used to materially influence consequential decisions",
+      "duties": [
+        "statutory-review",
+        "documentation",
+        "disclosure-ui",
+        "human-review",
+        "takedown-process"
+      ],
+      "dutySources": {
+        "documentation": "§ 6-1-1702(1) — 'A DEVELOPER SHALL MAKE AVAILABLE TO EACH DEPLOYER OF A COVERED ADMT DEVELOPED BY THE DEVELOPER … A GENERAL STATEMENT DESCRIBING THE INTENDED USES AND KNOWN HARMFUL OR INAPPROPRIATE USES OF THE COVERED ADMT'",
+        "disclosure-ui": "§ 6-1-1704(1) — 'THE DEPLOYER SHALL PROVIDE A CLEAR AND CONSPICUOUS NOTICE TO A CONSUMER THAT THE DEPLOYER USED OR WILL USE A COVERED ADMT IN A CONSEQUENTIAL DECISION AFFECTING THE CONSUMER'",
+        "human-review": "§ 6-1-1705(1)(a)(II) — 'AN OPPORTUNITY FOR MEANINGFUL HUMAN REVIEW AND RECONSIDERATION OF THE CONSEQUENTIAL DECISION, TO THE EXTENT COMMERCIALLY REASONABLE'",
+        "takedown-process": "§ 6-1-1705(1)(a)(I) — 'INSTRUCTIONS FOR REQUESTING PERSONAL DATA AND CORRECTING FACTUALLY INCORRECT OR MATERIALLY INACCURATE PERSONAL DATA USED IN A CONSEQUENTIAL DECISION'"
+      },
+      "params": {
+        "covers": "both",
+        "trigger": "consequential-decisions",
+        "consumerNotice": "required",
+        "appealRight": "required"
+      },
+      "exposure": {
+        "enforcer": "attorney-general",
+        "cureDays": 60
+      },
+      "sources": {
+        "covers": "§ 6-1-1701(7)–(8) — '\"DEPLOYER\" MEANS A PERSON DOING BUSINESS IN COLORADO THAT DEPLOYS A COVERED ADMT' / '\"DEVELOPER\" MEANS A PERSON DOING BUSINESS IN COLORADO THAT … MAKES COMMERCIALLY AVAILABLE A COVERED ADMT'",
+        "trigger": "§ 6-1-1701(5) — '\"COVERED ADMT\" MEANS AUTOMATED DECISION-MAKING TECHNOLOGY THAT IS USED TO MATERIALLY INFLUENCE A CONSEQUENTIAL DECISION'",
+        "consumerNotice": "§ 6-1-1704(1) — 'PRIOR TO A DEPLOYER USING A COVERED ADMT TO MATERIALLY INFLUENCE A CONSEQUENTIAL DECISION, THE DEPLOYER SHALL PROVIDE A CLEAR AND CONSPICUOUS NOTICE TO A CONSUMER'",
+        "appealRight": "§ 6-1-1705(1)(a)(II) — 'AN OPPORTUNITY FOR MEANINGFUL HUMAN REVIEW AND RECONSIDERATION OF THE CONSEQUENTIAL DECISION'",
+        "enforcer": "§ 6-1-1706(1)(a) — 'THE ATTORNEY GENERAL SHALL ENFORCE THIS PART 17 THROUGH THE \"COLORADO CONSUMER PROTECTION ACT\", THIS ARTICLE 1.'",
+        "cureDays": "§ 6-1-1706(3)(b) — 'IF THE DEVELOPER OR DEPLOYER FAILS TO CURE A VIOLATION WITHIN SIXTY DAYS AFTER RECEIPT OF A NOTICE OF VIOLATION, THE ATTORNEY GENERAL MAY BRING AN ACTION'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "repeal-and-reenactment: SECTION 1 'repeal and reenact, with amendments, part 17 of article 1 of title 6' — replaces the prior part 17 (2024 Colorado AI Act) regime; the reenacted text contains no impact-assessment, risk-program, or bias-audit duties, so those are omitted rather than coded",
+        "no penaltyMax: violation is 'A DECEPTIVE TRADE PRACTICE AND IS SUBJECT TO THE PROVISIONS OF THE \"COLORADO CONSUMER PROTECTION ACT\"' (§ 6-1-1706(2)(a)) — cross-referenced act's penalties not imported per rule 4; § 6-1-1706(1)(b) makes enforcement 'ENFORCEABLE EXCLUSIVELY BY THE ATTORNEY GENERAL' and § 6-1-1706(4)/6-1-1709 create no new private right of action",
+        "record retention fits no listed duty key: developers 3 years (§ 6-1-1702(4)) and deployers 3 years (§ 6-1-1703 — 'A DEPLOYER SHALL RETAIN, FOR NOT LESS THAN THREE YEARS AFTER THE DATE OF A CONSEQUENTIAL DECISION … RECORDS REASONABLY NECESSARY TO DEMONSTRATE COMPLIANCE')",
+        "developer notice-of-material-updates duty to deployers (§ 6-1-1702(2)(a)) coded under documentation; it runs to deployers, not consumers",
+        "post-adverse-outcome disclosure within 30 days (§ 6-1-1704(3)) with AG rulemaking due Jan 1, 2027 (§ 6-1-1704(4)(b)); AG must also adopt consumer-rights rules by Jan 1, 2027 (§ 6-1-1705(3))",
+        "human review qualified 'TO THE EXTENT COMMERCIALLY REASONABLE' (§ 6-1-1705(1)(a)(II))",
+        "cure period repeal: § 6-1-1706(3)(f) — 'THIS SUBSECTION (3) IS REPEALED, EFFECTIVE JANUARY 1, 2030'; no cure required for knowing or repeated violations (§ 6-1-1706(3)(c))",
+        "carve-outs: insurers subject to 10-3-1104.9 'ARE IN COMPLIANCE WITH THIS PART 17 IN THE PRACTICE OF INSURANCE' (§ 6-1-1708(1)(a)); HIPAA covered entities exempt from §§ 6-1-1701 to 1706 except employment decisions but must give patients 'A GENERAL NOTICE OF USE OF ADVANCED TECHNOLOGIES' (§ 6-1-1708(3)(c)) and financial-assistance-eligibility disclosures (§ 6-1-1708(3)(d)); FDA-regulated medical devices exempt (§ 6-1-1708(4)); ECOA/FCRA-compliant creditor notices satisfy § 6-1-1704 (§ 6-1-1704(6)); FERPA-process safe harbors for education deployers (§§ 6-1-1704(9), 6-1-1705(2))",
+        "liability allocation under anti-discrimination law: developer/deployer relative-fault allocation, no new joint-and-several liability, developer-deployer indemnification clauses void (§ 6-1-1707)",
+        "effective Jan 1, 2027 and 'applies to consequential decisions made on or after January 1, 2027' (SECTION 5); developer documentation duty starts 'ON AND AFTER JANUARY 1, 2027' (§ 6-1-1702(1))"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

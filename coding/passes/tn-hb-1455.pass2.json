@@ -1,0 +1,16 @@
+{
+  "entries": [
+    {
+      "id": "TN HB 1455",
+      "duplicateOf": "TN SB 1493",
+      "sources": {
+        "duplicateOf": "Caption page — 'PUBLIC CHAPTER NO. 1066 / SENATE BILL N0.1493 … Substituted for: House Bill No. 1455'"
+      },
+      "flags": [
+        "legiscan.js lists the SB 1493 relation only as type 'crossfiled', not 'replaced by'; the substitution is stated on the face of the chaptered text itself ('Substituted for: House Bill No. 1455'), and both bills share statusDate 2026-05-27 and identical titles — same law, counted once under TN SB 1493",
+        "underlying act (if coded under the surviving id) is a TACIR study/report mandate binding a state commission only — no company duty"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

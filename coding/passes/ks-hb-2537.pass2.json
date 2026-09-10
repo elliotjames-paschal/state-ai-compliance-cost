@@ -1,0 +1,55 @@
+{
+  "entries": [
+    {
+      "id": "KS HB 2537",
+      "segment": "sexual-extortion-crimes",
+      "category": "criminal",
+      "family": "ai-crimes",
+      "appliesTo": "any person committing sexual extortion (coercive threats involving sexual/nude images, expressly including AI-generated or AI-altered depictions)",
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": {
+        "prohibition": "ncii",
+        "coveredSubjects": "all-persons"
+      },
+      "exposure": null,
+      "sources": {
+        "prohibition": "Sec. 2 / K.S.A. 21-5515(a)(2) — 'communicating by any means a threat to distribute an image, video or other recording of a person that is of a sexual nature or depicts a person in a state of nudity'",
+        "coveredSubjects": "Sec. 2 / K.S.A. 21-5515(a)(1) — 'Communicating by any means a demand for anything of value or a threat to injure the property or reputation of a person, commit violence against a person, or distribute an image, video or other recording of a person that is of a sexual nature'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "prohibition enum is lossy: the crime is sexual extortion (coercive threat/demand), not NCII distribution itself; 'ncii' is the closest listed enum because the threatened conduct is distribution of sexual/nude imagery",
+        "AI relevance is definitional only: (h)(2) — '\"image, video or other recording\" means any photograph, film, video picture, digital or computer-generated image or picture … including, but not limited to, any such item that has been created, in whole or in part, altered or modified by artificial intelligence or any digital means to appear to depict or purport to depict a person, regardless of whether such person was involved in the creation of the original image, video or other recording'",
+        "criminal tier structure, no fines stated (so no exposure block): (d)(1)(A) severity level 7 person felony for coercion-intent extortion; (d)(2)(A) severity level 4 person felony for completed extortion; (e) aggravated sexual extortion causing great bodily harm is severity level 3 person felony; (f) aggravated sexual extortion causing death is severity level 1 person felony",
+        "enhanced tiers when 'the offender is 18 years of age or older and the victim is: (i) Less than 18 years of age; or (ii) a dependent adult' — (d)(1)(B) level 7 becomes level 6; (d)(2)(B) level 4 becomes level 3",
+        "(g) — 'It shall not be a defense that the victim contributed to the victim's own great bodily harm or death'",
+        "act is named: 'Section 1 and the amendments made to the provisions of K.S.A. 21-5515 by this act shall be known as Caleb's Law'"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "KS HB 2537",
+      "segment": "ag-education-mandate",
+      "category": "public-sector",
+      "family": "public-sector",
+      "appliesTo": "Kansas attorney general (with collaboration from the state board of education and law enforcement agencies)",
+      "duties": [],
+      "dutySources": {},
+      "params": {
+        "program": "sexual-extortion education materials + annual report"
+      },
+      "exposure": null,
+      "sources": {
+        "program": "New Section 1 — 'The attorney general shall prepare and provide educational materials and information concerning sexual extortion as defined in K.S.A. 21-5515, and amendments thereto.'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "no listed duty key fits an educational-materials/outreach mandate on a state officer; New Section 1 — 'The attorney general shall collaborate with the state board of education and law enforcement agencies to educate and notify schools, students, parents and guardians and the public'",
+        "annual reporting duty, but 'incident-reporting' does not fit (implementation report, not safety incidents): 'On or before July 1, 2027, and annually thereafter, the attorney general shall file a report regarding the implementation of this section with the governor, the president and minority leader of the senate, the speaker and minority leader of the house of representatives and the state board of education'",
+        "segment binds government only; no company or school compliance duty"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

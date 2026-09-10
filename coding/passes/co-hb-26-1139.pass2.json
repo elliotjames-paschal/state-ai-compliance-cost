@@ -1,0 +1,66 @@
+{
+  "entries": [
+    {
+      "id": "CO HB 26-1139",
+      "segment": "utilization-review",
+      "category": "company",
+      "family": "insurance-adm",
+      "appliesTo": "carriers, pharmacy benefit managers, private utilization review organizations, behavioral health administrative services organizations, and managed care entities that use an AI system for utilization review",
+      "duties": ["statutory-review", "human-review", "impact-assessment", "registration-filing"],
+      "dutySources": {
+        "human-review": "§ 2, C.R.S. 10-16-112.7(5)(b) — 'SHALL NOT BE ISSUED SOLELY ON THE OUTPUT OF AN ARTIFICIAL INTELLIGENCE SYSTEM WITHOUT HUMAN REVIEW AND APPROVAL OF THE DENIAL BY A LICENSED CLINICIAN, LICENSED PHYSICIAN, OR OTHER REGULATED PROFESSIONAL'",
+        "impact-assessment": "§ 2, C.R.S. 10-16-112.7(3)(f) — 'THE ARTIFICIAL INTELLIGENCE SYSTEM'S PERFORMANCE, USE, AND OUTCOMES ARE PERIODICALLY REVIEWED TO MAXIMIZE ACCURACY AND RELIABILITY'",
+        "registration-filing": "§ 2, C.R.S. 10-16-112.7(4) — 'SHALL PROVIDE WRITTEN DISCLOSURES TO THE DIVISION, THE DEPARTMENT OF HUMAN SERVICES, OR THE DEPARTMENT OF HEALTH CARE POLICY AND FINANCING, AS APPLICABLE'"
+      },
+      "params": {
+        "humanReview": "required-final",
+        "aiSoleBasis": "prohibited",
+        "decisionsCovered": "all"
+      },
+      "sources": {
+        "humanReview": "§ 2, C.R.S. 10-16-112.7(5)(b) — 'WITHOUT HUMAN REVIEW AND APPROVAL OF THE DENIAL BY A LICENSED CLINICIAN, LICENSED PHYSICIAN, OR OTHER REGULATED PROFESSIONAL THAT IS COMPETENT TO EVALUATE THE SPECIFIC CLINICAL ISSUES INVOLVED'",
+        "aiSoleBasis": "§ 2, C.R.S. 10-16-112.7(5)(b) — 'A CARRIER'S DENIAL OF COVERAGE BASED IN WHOLE OR IN PART ON MEDICAL NECESSITY SHALL NOT BE ISSUED SOLELY ON THE OUTPUT OF AN ARTIFICIAL INTELLIGENCE SYSTEM'",
+        "decisionsCovered": "§ 2, C.R.S. 10-16-112.7(2)(a)(I) — 'USES AN ARTIFICIAL INTELLIGENCE SYSTEM FOR THE PURPOSE OF UTILIZATION REVIEW'"
+      },
+      "exposure": null,
+      "duplicateOf": null,
+      "flags": [
+        "human-review / sole-basis prohibition applies only to denials of coverage based in whole or in part on medical necessity (§ 2(5)(b)); subsections (3)-(4) apply to all utilization review, so decisionsCovered='all' is slightly lossy",
+        "§ 2(3)(e) requires the AI system to produce and retain 'DOCUMENTATION, AUDIT LOGS, AND MODEL-GOVERNANCE RECORDS' — internal recordkeeping, not published documentation, so no `documentation` duty assigned",
+        "§ 2(3)(a)-(d), (g)-(h) impose substantive operating conditions (determinations based on the individual's clinical data, no sole reliance on group data, nondiscrimination, fair and equitable application, data-use limitation, compliance of criteria/guidelines) that fit no listed duty key",
+        "§ 2(5)(a) expressly permits AI to assist with utilization review, 'INCLUDING EXPEDITED APPROVALS'",
+        "behavioral health administrative services organizations and managed care entities (Medicaid/behavioral-health payers) are also bound — quasi-public payers included under a company categorization",
+        "no penalty or enforcement provision in the text; codified in the insurance code (title 10, article 16) with disclosures to the division, but the text names no enforcer",
+        "effective January 1, 2027, subject to referendum petition (§ 4)"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "CO HB 26-1139",
+      "segment": "ai-psychotherapy-coverage",
+      "category": "company",
+      "family": "mental-health-practice",
+      "appliesTo": "carriers offering health benefit plans in the state; payers of mental or behavioral health-care services under the Colorado Medical Assistance Act or the Children's Basic Health Plan Act",
+      "duties": [],
+      "dutySources": {},
+      "params": {
+        "aiTherapyRule": "ban",
+        "scope": "psychotherapy"
+      },
+      "sources": {
+        "aiTherapyRule": "§ 2, C.R.S. 10-16-112.7(6)(a) — 'SHALL NOT PROVIDE COVERAGE FOR SERVICES THAT CONSTITUTE PSYCHOTHERAPY SERVICES, AS DEFINED IN SECTION 12-245-202 (14), THAT ARE PROVIDED DIRECTLY TO AN INDIVIDUAL AND THAT ARE CONDUCTED BY AN ARTIFICIAL INTELLIGENCE SYSTEM'",
+        "scope": "§ 2, C.R.S. 10-16-112.7(6)(a) — 'PSYCHOTHERAPY SERVICES, AS DEFINED IN SECTION 12-245-202 (14)'"
+      },
+      "exposure": null,
+      "duplicateOf": null,
+      "flags": [
+        "aiTherapyRule='ban' is lossy: the text bans coverage/payment for AI-conducted psychotherapy and binds payers (carriers, Medicaid/CHP+ payers), not providers — it does not prohibit the practice itself",
+        "§ 3 (C.R.S. 25.5-1-209) extends the same payment prohibition to payers under the Colorado Medical Assistance Act and Children's Basic Health Plan Act — public-program payers folded into a company entry per category rule",
+        "carve-outs: § 2(6)(b) nontherapeutic software tools (billing, EHR, video platforms) incident to human-provided services; § 2(6)(c) communications software enabling human supervision/consultation is not AI-conducted",
+        "no penalty or enforcement provision in the text",
+        "per rule 9, statutory-review is carried only by the first segment"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

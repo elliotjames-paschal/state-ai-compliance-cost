@@ -1,0 +1,59 @@
+{
+  "entries": [
+    {
+      "id": "MD HB 895",
+      "segment": "dynamic-pricing",
+      "category": "company",
+      "family": "pricing-competition",
+      "appliesTo": "food retailers and third-party food delivery service providers (dynamic-pricing / personal-data prohibitions on tax-exempt food); merchants generally (algorithmic-pricing disclosure)",
+      "duties": ["statutory-review", "disclosure-ui"],
+      "dutySources": {
+        "disclosure-ui": "§ 13-322(C) — 'A CLEAR AND CONSPICUOUS DISCLOSURE WITH THE FOLLOWING' statement: 'THIS PRICE WAS SET BY AN ALGORITHM OR BY USING YOUR' PERSONAL DATA"
+      },
+      "params": {
+        "prohibition": "surveillance-pricing",
+        "disclosure": "required"
+      },
+      "exposure": {
+        "enforcer": "consumer-protection-division (no private right of action)",
+        "cureDays": 45
+      },
+      "sources": {
+        "prohibition": "§ 13-321(B)(2) — a food retailer or third-party food delivery service provider may not 'ENGAGE IN DYNAMIC PRICING TO SET A HIGHER PRICE FOR' tax-exempt food, or 'USE SURVEILLANCE PERSONAL DATA TO SET A HIGHER' price; § 13-321(A)(3)(I) defines dynamic pricing 'INCLUDING THROUGH TH E USE OF ARTIFICIAL INTELLIGENCE' or models that retrain in near real-time",
+        "disclosure": "§ 13-322(C) — 'A MERCHANT MAY NOT SET' the price of a consumer good or service using dynamic pricing or personal data and communicate the price unless it includes 'A CLEAR AND CONSPICUOUS DISCLOSURE WITH THE FOLLOWING' statement: 'THIS PRICE WAS SET BY AN ALGORITHM OR BY USING YOUR' PERSONAL DATA",
+        "enforcer": "§ 13-321(D)(1) / § 13-322(D)(1) — before an enforcement action under Subtitle 4 of this title 'THE DIVISION SHALL ISSUE A' notice of violation; § 13-321(E) — 'MAY NOT BE CONSTRUED TO AUTH ORIZE A PRIVATE' right of action",
+        "cureDays": "§ 13-321(D)(2) / § 13-322(D)(2) — 'THE DIVISION SHALL PROVIDE THE ALLEGED VIOLATOR 45 DAYS' after the notice of violation is received to cure the violation"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "No penaltyMax: §§ 13-408 and 13-411 as amended each state 'THIS SECTION DOES NOT  APPLY TO A VIOLATION' of § 13-321 or § 13-322 — the title's private action and general $1,000 misdemeanor fine are expressly excluded for these sections; enforcement runs only through Division action under Subtitle 4",
+        "§ 13-321(C) additionally prohibits use of protected class data — 'MAY NOT USE PROTECTED CLASS DATA TO OFFER' , advertise, or sell where it has the effect of 'WITHHOLDING OR DENYI NG FROM THE CONSUMER' an accommodation, advantage, or privilege — no matching param key in the pricing-competition vocabulary",
+        "prohibition param is lossy: the text bans both personalized dynamic pricing (personal-data-based, incl. AI) and surveillance-personal-data pricing; 'surveillance-pricing' is the closest single enum",
+        "Plain-text extraction retains inline amendment markup (struck vs. inserted words indistinguishable, e.g. § 13-321(B) and Section 2's effective-date clause reading 'shall take effect from the date it is enacted shall take effect October 1, 2026'); coded values rely on the final-reading language"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "MD HB 895",
+      "segment": "food-retailer-cba",
+      "category": "company",
+      "family": "workforce",
+      "appliesTo": "food retailers with employees under an existing collective bargaining agreement or memorandum of understanding",
+      "duties": [],
+      "dutySources": {},
+      "params": {},
+      "exposure": {
+        "enforcer": "private-right-of-action (damages + attorney's fees)"
+      },
+      "sources": {
+        "enforcer": "Labor & Employment § 4-406(C) — 'A PERSON MAY BRING AN ACTION TO RECOVER FO R INJURY OR LOSS' sustained as a result of a violation of this section; § 4-406(D) — court may award reasonable attorney's fees"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "Core requirement fits no listed duty or workforce param: Labor & Employment § 4-406(B) — 'A FOOD RETAILER MAY NO T IMPLEMENT AN ADMIN ISTRATIVE' , operational, or organizational change that diminishes or impairs any right or benefit under an existing CBA or MOU 'UNLESS THE CHANGE IS NEGOTIATED AND MUTUALLY AGREED ON' with the exclusive representative",
+        "Provision contains no AI-specific language; it is a worker-protection duty on employers enacted as part of the Protection From Predatory Pricing Act — workforce is the closest family"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

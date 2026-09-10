@@ -1,0 +1,302 @@
+{
+  "entries": [
+    {
+      "id": "CT SB 5",
+      "segment": "ai-subscriptions",
+      "category": "company",
+      "appliesTo": "subscription-based providers of artificial intelligence technology to Connecticut consumers",
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": {},
+      "exposure": {
+        "enforcer": "attorney-general (CUTPA; private action excluded)"
+      },
+      "sources": {
+        "appliesTo": "§ 1(a)(5) — '\"Subscription-based provider\" means a person doing business in the state who provides, or offers to provide, an artificial intelligence technology to a consumer pursuant to a subscription'",
+        "enforcer": "§ 1(c) — 'shall constitute an unfair or deceptive trade practice for the purposes of subsection (a) of section 42-110b of the general statutes and shall be enforced solely by the Attorney General. The provisions of section 42-110g of the general statutes shall not apply to any such violation.'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "no listed family fits: § 1(b) bars entering/renewing an AI subscription or collecting fees unless the provider gives written notice of key terms (usage limitations, discretion to 'limit or eliminate the consumer's access to, or reduce the quantity or quality of, any functionality') and the consumer accepts in writing — consumer-contract disclosure regime; propose family addition",
+        "notice-content requirement (§ 1(b)(2)) fits no listed duty key — coded in flags per rule 5",
+        "§ 1(c): 'Nothing in this section shall be construed as providing the basis for a private right of action'",
+        "effective October 1, 2026"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "CT SB 5",
+      "segment": "frontier-whistleblower",
+      "category": "company",
+      "family": "frontier-safety",
+      "appliesTo": "frontier developers doing business in the state training foundation models with more than 10^26 operations; internal reporting-channel duty limited to large frontier developers",
+      "duties": ["takedown-process"],
+      "dutySources": {
+        "takedown-process": "§ 2(c)(1) — 'each large frontier developer shall establish and maintain a reasonable internal process through which (A) a covered employee of such large frontier developer may anonymously submit a report to such large frontier developer disclosing any information that the covered employee believes, in good faith, indicates that such large frontier developer has engaged in any activity that poses a specific and substantial danger to the public health or safety due to a catastrophic risk'"
+      },
+      "params": {
+        "threshold": "compute",
+        "whistleblower": "protected"
+      },
+      "exposure": {
+        "penaltyMax": 1000,
+        "penaltyUnit": "per violation",
+        "enforcer": "attorney-general"
+      },
+      "sources": {
+        "threshold": "§ 2(a)(8) — 'uses, or intends to use, a quantity of computing power that is greater than ten to the twenty-sixth power integer or floating-point operations, inclusive of any computing power used for original training and for any fine-tuning, reinforcement learning or other material modifications'",
+        "whistleblower": "§ 2(b) — 'No frontier developer shall make, adopt, enforce or enter into any rule, regulation, policy or contract that provides that ... any person with authority over a covered employee ... may discipline or retaliate against such covered employee if such covered employee has reasonable cause to believe that an issue reported by such covered employee indicates that such frontier developer has engaged in any activity that poses a specific and substantial danger to the public health or safety due to a catastrophic risk'",
+        "penaltyMax": "§ 2(e) — 'liable to the state for a civil penalty in an amount that does not exceed one thousand dollars per violation'",
+        "enforcer": "§ 2(e) — 'The Attorney General may bring an action in the superior court for the judicial district of Hartford to collect such civil penalty and for any injunctive or equitable relief'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "large-frontier-developer gate on the reporting-channel duty: § 2(a)(9) 'annual gross revenues in excess of five hundred million dollars for the most recently completed calendar year' — no revenue param in frontier-safety vocabulary",
+        "employee-rights notice duty (§ 2(d) workplace posting or annual written notice) fits no listed duty key",
+        "quarterly sharing of reports with officers and directors (§ 2(c)(2)(A)) fits no listed duty key",
+        "whistleblower-protection regime only — no safety-framework, incident-reporting, or third-party-audit duties in this act",
+        "reporting-channel deadline January 1, 2027; section effective October 1, 2026"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "CT SB 5",
+      "segment": "ai-companions",
+      "category": "company",
+      "family": "chatbot-safeguards",
+      "appliesTo": "operators providing or operating artificial intelligence companions for users in the state",
+      "duties": ["crisis-protocol", "disclosure-ui", "content-safeguards"],
+      "dutySources": {
+        "crisis-protocol": "§ 5(a)(1)(A) — 'Uses evidence-based methods to (I) detect any user expression to the artificial intelligence companion clearly indicating a risk of suicide, self-harm or imminent physical violence, and (II) institute measures to prevent the artificial intelligence companion from generating any output that encourages suicide, self-harm or physical violence'",
+        "disclosure-ui": "§ 5(b) — 'the operator of such artificial intelligence companion shall provide a clear and conspicuous notice to a user disclosing that the user is communicating with an artificial intelligence companion'",
+        "content-safeguards": "§ 6(a)(1) — 'unless the operator has instituted measures, that meet or exceed industry standards, to prevent the artificial intelligence companion from: (A) Encouraging such user to engage in self-harm, suicidal ideation, physical violence, disordered eating or the unlawful consumption of alcohol or drugs ... (E) Engaging in any romantic, erotic or sexually explicit interaction with such user'"
+      },
+      "params": {
+        "scope": "companion",
+        "ageFocus": "all-users",
+        "aiDisclosure": "periodic",
+        "crisisProtocol": "required",
+        "parentalTools": "required",
+        "engagementLimits": "required",
+        "contentSafeguards": "required",
+        "ageThreshold": 18
+      },
+      "exposure": {
+        "enforcer": "attorney-general (CUTPA; private action excluded for §§ 5)"
+      },
+      "sources": {
+        "scope": "§ 4(1) — '\"Artificial intelligence companion\" (A) means any form of artificial intelligence ... with a natural language interface that (i) provides adaptive, human-like responses to user inputs ... and (ii) is able to sustain a relationship across multiple interactions'",
+        "ageFocus": "§ 5(a)(1) — 'No operator shall provide an artificial intelligence companion to a user, or operate an artificial intelligence companion for a user, unless' (crisis-protocol and disclosure duties run to all users)",
+        "aiDisclosure": "§ 5(b) — 'at the beginning of the first interaction between such user and the artificial intelligence companion during any twenty-four-hour period, and (B) (i) if such user is younger than eighteen years of age, at least once hourly during any continuous artificial intelligence companion interaction, or (ii) if such user is eighteen years of age or older, at least once during each three-hour-period of continuous artificial intelligence companion interaction'",
+        "crisisProtocol": "§ 5(a)(1)(A)(ii) — 'refer the user to appropriate mental health evaluation and treatment resources, including, but not limited to, the 9-8-8 National Suicide Prevention Lifeline'",
+        "parentalTools": "§ 6(b) — 'unless the operator has made available to minor users and their parents or legal guardians tools to manage minor users' screen time and account settings'",
+        "engagementLimits": "§ 6(a)(1)(F) — 'Engaging such user through any manipulative technique that is intended to extend interaction between such user and such artificial intelligence companion'",
+        "contentSafeguards": "§ 5(a)(1)(B)(i) — 'implemented reasonable measures to prohibit and prevent the artificial intelligence companion from: (i) Claiming that the artificial intelligence companion is a human being'",
+        "ageThreshold": "§ 6(a)(1) — 'if the operator knows, or has reason to believe, that the user is younger than eighteen years of age'",
+        "enforcer": "§ 5(c) — 'shall constitute an unfair or deceptive trade practice for the purposes of subsection (a) of section 42-110b of the general statutes and shall be enforced solely by the Attorney General'; § 6(c) same"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "ageFocus lossy: § 5 duties (crisis protocol, human-being safeguards, disclosure) apply to all users; § 6 duties (minor content safeguards, parental tools) apply only when operator knows or has reason to believe user is under 18 — coded all-users",
+        "aiDisclosure lossy: notice required only 'If an artificial intelligence companion would cause a reasonable individual ... to believe that such individual is interacting with another human being'; operator may choose static always-visible notice OR per-24-hour session-start notice plus hourly (minors) / three-hour (adults) repeats — coded periodic",
+        "no age-verification duty: § 6 triggers on knowledge/reason-to-believe; § 6(a)(2) safe harbor if operator 'knew, or had reason to believe ... that the user was eighteen years of age or older'",
+        "crisis protocol must be posted 'in a prominent and publicly accessible location on such operator's Internet web site' (§ 5(a)(2)) — publication requirement fits no listed duty key",
+        "§ 6(a)(1)(B) restricts offering mental health services to minors unless clinical-best-practice, accountability, transparency and not-a-licensed-professional disclosure conditions are met",
+        "§§ 5(c): no private right of action; § 6(c) lacks the express private-action exclusion language",
+        "effective January 1, 2027"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "CT SB 5",
+      "segment": "employment-adm",
+      "category": "company",
+      "family": "adm-governance",
+      "appliesTo": "developers and deployers of automated employment-related decision technologies used for employment-related decisions in the state",
+      "duties": ["disclosure-ui", "documentation"],
+      "dutySources": {
+        "disclosure-ui": "§ 9(a) — 'shall ensure that it is disclosed to each such employee or applicant who interacts with such technology or technologies that such employee or applicant is interacting with such technology or technologies. Such disclosure shall be made in plain language.'",
+        "documentation": "§ 8(a) — 'the developer of an automated employment-related decision technology that is deployed in the state on or after October 1, 2027, shall provide to the deployer of such automated employment-related decision technology all information that such deployer requires to perform such deployer's duties under sections 9 and 10 of this act'"
+      },
+      "params": {
+        "covers": "both",
+        "trigger": "consequential-decisions",
+        "consumerNotice": "required"
+      },
+      "exposure": {
+        "enforcer": "attorney-general (CUTPA; private action excluded)",
+        "cureDays": 60
+      },
+      "sources": {
+        "covers": "§ 7(3)-(4) — '\"Deployer\" means a person doing business in the state who deploys an automated employment-related decision technology in the state'; '\"Developer\" means a person doing business in the state who develops, or intentionally and substantially modifies, an automated employment-related decision technology'",
+        "trigger": "§ 7(5) — '\"Employment-related decision\" (A) means any decision, made based on any individual's personal data, to hire, promote, discipline or discharge such individual, to renew such individual's employment, to select such individual for any training or apprenticeship or with respect to such individual's tenure or terms, privileges or conditions of employment'",
+        "consumerNotice": "§ 10 — 'shall, before such employment-related decision is made, provide to such employee or applicant a written notice disclosing: (1) That the deployer has deployed an automated employment-related decision technology; (2) The purpose ... (3) The trade name ... (4) The categories of personal data ... (5) The sources of the personal data ... and (6) Contact information for the deployer.'",
+        "enforcer": "§ 12 — 'shall constitute an unfair or deceptive trade practice for the purposes of subsection (a) of section 42-110b of the general statutes and shall be enforced solely by the Attorney General'",
+        "cureDays": "§ 12 — 'If such person fails to cure such violation within sixty days of receipt of such notice of violation, the Attorney General may bring an action pursuant to this section'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "trigger coded consequential-decisions but statute covers employment-related decisions only, not a general consequential-decisions list",
+        "cure opportunity is discretionary and applies only to violations occurring on or before December 31, 2027 (§ 12)",
+        "duties attach to technologies deployed on or after October 1, 2027; sections effective October 1, 2026",
+        "no impact-assessment, appeal-right or opt-out duties; § 9(b) exempts disclosure where 'a reasonable person would deem it obvious'",
+        "developer may contractually assume deployer duties (§ 8(c)); trade-secret withholding requires notice of withholding and basis (§ 11(b))",
+        "§§ 13-14 amend CGS 46a-60(b)/46a-81c: AEDT use 'shall not be a defense against a complaint' alleging discriminatory practice, and 'evidence of anti-bias testing or similar proactive efforts' may be considered — evidentiary provisions, not an affirmative bias-audit duty",
+        "§ 12: no private right of action"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "CT SB 5",
+      "segment": "provenance",
+      "category": "company",
+      "family": "provenance-transparency",
+      "appliesTo": "covered providers of publicly accessible generative AI systems with more than one million users per month",
+      "duties": ["watermarking"],
+      "dutySources": {
+        "watermarking": "§ 15(b)(1)(A) — 'include provenance data in any audio, image or video content, or in any content that is a combination thereof, that is created or materially altered by such covered provider's generative artificial intelligence system in a manner that allows a consumer to assess whether such content was created or materially altered'"
+      },
+      "params": {
+        "watermark": "required",
+        "disclosureTrigger": "av-only",
+        "userThreshold": 1000000
+      },
+      "exposure": {
+        "enforcer": "attorney-general (CUTPA; private action excluded)"
+      },
+      "sources": {
+        "watermark": "§ 15(b)(1)(B) — 'Use commercially and technically reasonable methods, including, but not limited to, the relevant standard established by the Coalition for Content Provenance and Authenticity, to make the provenance data ... difficult to tamper with, remove or disassociate from such content'",
+        "disclosureTrigger": "§ 15(a)(3) — '\"Generative artificial intelligence system\" (A) means any technology that uses machine learning to generate images, audio or video'",
+        "userThreshold": "§ 15(a)(2)(A) — 'a generative artificial intelligence system that (i) has more than one million users per month, and (ii) is publicly accessible to consumers for personal use'",
+        "enforcer": "§ 15(c) — 'shall constitute an unfair or deceptive trade practice for the purposes of subsection (a) of section 42-110b of the general statutes and shall be enforced solely by the Attorney General'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "duty qualified: 'To the extent commercially and technically reasonable' (§ 15(b)(1)(A))",
+        "text-only generative AI excluded — definition limited to systems generating images, audio or video",
+        "exclusions: government agencies, business-to-business uses, video-game/interactive experiences, systems used solely for upscaling, noise reduction or compression (§ 15(a)(2)(B), (b)(2)(B))",
+        "no detection-tool duty; no personal-information disclosure required in provenance data (§ 15(b)(2)(A))",
+        "§ 15(c): no private right of action; effective October 1, 2026"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "CT SB 5",
+      "segment": "workforce-layoff-notice",
+      "category": "company",
+      "family": "workforce",
+      "appliesTo": "employers serving federal WARN Act written notice on the Connecticut Labor Department",
+      "duties": ["registration-filing"],
+      "dutySources": {
+        "registration-filing": "§ 26 — 'Each employer that serves written notice on the Labor Department pursuant to 29 USC 2102(a) ... shall disclose to the department, in a form and manner prescribed by the Labor Commissioner, whether the layoffs that are the subject of such written notice are related to the employer's use of artificial intelligence or another technological change.'"
+      },
+      "params": {
+        "noticeRequired": "yes"
+      },
+      "exposure": null,
+      "sources": {
+        "noticeRequired": "§ 26 — 'shall disclose to the department ... whether the layoffs that are the subject of such written notice are related to the employer's use of artificial intelligence or another technological change'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "duty coded registration-filing (filing to an agency) as closest fit for an AI-relatedness disclosure appended to a WARN filing",
+        "no penalty or enforcement provision in § 26 — exposure omitted (silence is silence)",
+        "effective October 1, 2026"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "CT SB 5",
+      "segment": "minor-social-media",
+      "category": "company",
+      "family": "privacy-data",
+      "appliesTo": "covered operators of platforms that algorithmically recommend, select or prioritize user-generated media items for users in the state",
+      "duties": ["age-assurance", "consent-workflow", "content-safeguards"],
+      "dutySources": {
+        "age-assurance": "§ 39(b)(1)(A)(i) — 'The covered operator has used commercially reasonable and technically feasible methods to determine that the covered user is not a covered minor'",
+        "consent-workflow": "§ 39(b)(1)(A)(ii) — 'the covered operator has obtained verifiable consent from the covered minor's parent or legal guardian to recommend, select or prioritize media items for such covered minor'",
+        "content-safeguards": "§ 39(d)(2)(A)(iv) — 'prevent the covered minor from accessing, viewing or receiving sensitive content'"
+      },
+      "params": {
+        "minorsFocus": "yes"
+      },
+      "exposure": {
+        "enforcer": "unfair-trade-practice (CUTPA § 42-110b); no sole-AG limitation stated"
+      },
+      "sources": {
+        "minorsFocus": "§ 39(a)(1) — '\"Covered minor\" means any covered user who is younger than eighteen years of age'",
+        "enforcer": "§ 39(g) — 'A violation of any provision of subsections (b) to (e), inclusive, of this section shall be deemed an unfair or deceptive trade practice under subsection (a) of section 42-110b of the general statutes.'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "family fit imperfect: regulates algorithmic recommendation feeds on social platforms rather than AI expressly — coded privacy-data ('AI provisions inside privacy/data-broker/social-media acts')",
+        "unlike §§ 1, 5, 12 and 15, § 39(g) does not limit enforcement solely to the Attorney General and does not exclude CUTPA § 42-110g private remedies",
+        "Surgeon General mental-health warning with prescribed size/duration (75% of screen for 30 seconds at first daily access; 25% for 10 seconds after 3 hours' use and each additional hour) (§ 39(c)) fits no listed duty key",
+        "minor defaults: notification curfew 8:00 a.m.-9:00 p.m. ET, one-hour daily limit on algorithmic feed, restricted account mode, sensitive-content block (§ 39(d)); parental override mechanism required (§ 39(d)(2)(B)) — fits no listed duty/param keys",
+        "age-determination and parental-consent data must be used for no other purpose and deleted immediately after the attempt (§ 39(b)(3))",
+        "annual public disclosure of user counts, consent counts, default-setting counts and average daily use by age and hour, in a form prescribed by the Attorney General (§ 39(e)) — fits no listed duty key",
+        "no-detriment provision: operator may not withhold, degrade or reprice products due to the feed prohibition (§ 39(b)(4))",
+        "effective January 1, 2028"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "CT SB 5",
+      "segment": "public-sector-governance",
+      "category": "public-sector",
+      "family": "public-sector",
+      "appliesTo": "Connecticut state agencies and offices (DAS, OPM, DCP, DECD, Labor Department, constitutional offices) and entities acting on their behalf",
+      "duties": ["impact-assessment"],
+      "dutySources": {
+        "impact-assessment": "§ 38(b)(3) — 'If a state agency is authorized to procure, purchase or acquire an artificial intelligence technology, the state agency shall complete an artificial intelligence impact assessment in compliance with policies and standards established by the Office of Policy and Management and the Department of Administrative Services.'"
+      },
+      "params": {
+        "inventory": "annual",
+        "procurementRules": "required",
+        "assessment": "required",
+        "program": "regulatory-sandbox plan; AI working group; DCP verification pilot; AI Academy outreach; AG tech fellowship"
+      },
+      "exposure": null,
+      "sources": {
+        "inventory": "§ 37(b)(1) — 'and annually thereafter, the Department of Administrative Services shall conduct an inventory of all systems that employ artificial intelligence and are in use by any state agency'",
+        "procurementRules": "§ 38(b)(2) — 'No state agency shall authorize any procurement, purchase or acquisition of any artificial intelligence technology, except where the use of such system is in compliance with policies and standards established by the Office of Policy and Management and the Department of Administrative Services.'",
+        "assessment": "§ 38(c) — 'Any artificial intelligence impact assessment completed pursuant to subdivision (3) of subsection (b) of this section shall be submitted to the Commissioner of Administrative Services ... and posted on the agency's Internet web site not later than sixty days prior to deployment'",
+        "program": "§ 3 — 'shall develop a plan to establish an artificial intelligence regulatory sandbox program'; § 18(b) — 'There is established a working group'; § 33(b) — 'develop and administer a pilot program to evaluate the use of independent verification programs administered by independent third-party entities'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "§ 38(b)(1) bars state-agency use of AI for public-assistance delivery or functions with 'a material impact on the rights, civil liberties, safety or welfare of individuals' unless compliant with OPM/DAS policies and standards",
+        "DCP independent-verification-organization pilot (§ 33, effective July 1, 2027, terminating June 30, 2030) is voluntary for companies; verification evidence admissible only in private civil actions for personal injury or property damage and 'shall not be admissible in any civil or administrative enforcement action brought by the Attorney General or any state agency'",
+        "studies/plans/reports only, no company duties: sandbox plan (§ 3), CASE legislative fellows (§ 16), AI working group reporting by Feb 1, 2027 (§ 18), UConn workforce-impact study (§ 29), higher-ed AI alliance (§ 31), Comptroller health-AI competition (§ 32), AG technology fellowship (§ 35), economic-development strategic-plan AI additions (§ 28), Technology Talent and Innovation Fund AI programs (§§ 24-25)",
+        "agencies must disseminate Connecticut AI Academy information to unemployment claimants, small businesses, housing residents, home-visiting-program parents and Baby Bond beneficiaries (§§ 19-22, 30)",
+        "Chief Data Officer must review high-value data inventories and identify/publish data useful for AI by January 1, 2028 (§ 36(j))",
+        "DAS annual AI inventory must be publicly posted on the state's open data portal with expanded fields incl. impact-assessment status and known risks (§ 37(b))"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "CT SB 5",
+      "segment": "education",
+      "category": "education",
+      "family": "education-k12",
+      "appliesTo": "Connecticut public schools, teacher-preparation programs and the Board of Regents for Higher Education (Connecticut AI Academy)",
+      "duties": [],
+      "dutySources": {},
+      "params": {
+        "curriculum": "required"
+      },
+      "exposure": null,
+      "sources": {
+        "curriculum": "§ 34(a) — 'In the public schools the program of instruction offered shall include at least the following subject matter ... computer science, including, but not limited to, computer programming instruction, artificial intelligence and emerging technologies'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "teacher-preparation programs must include computer science instruction, 'which may include instruction in topics such as the responsible use of emerging technologies' (§ 27)",
+        "Board of Regents must establish the Connecticut AI Academy by December 31, 2026, offering AI courses, digital literacy, workforce courses, teacher training, and certificates and badges (§ 17)",
+        "computer science education account renamed 'computer science education and workforce development account' with expanded permitted expenditures (§ 23)",
+        "safe use of social media already in required health/safety curriculum; § 34 change adds AI to computer science subject matter"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

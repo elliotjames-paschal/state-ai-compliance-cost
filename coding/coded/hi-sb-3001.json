@@ -1,0 +1,63 @@
+{
+ "entries": [
+  {
+   "id": "HI SB 3001",
+   "category": "company",
+   "family": "chatbot-safeguards",
+   "segment": null,
+   "appliesTo": "operators who develop and make available AI companions to the public",
+   "duties": [
+    "statutory-review",
+    "disclosure-ui",
+    "crisis-protocol",
+    "content-safeguards",
+    "incident-reporting"
+   ],
+   "dutySources": {
+    "disclosure-ui": "\u00a7 481B- (a) \u2014 'an operator shall issue a clear and conspicuous notification indicating that the AI companion is artificial intelligence and not human'",
+    "crisis-protocol": "\u00a7 481B- (c)(1) \u2014 'Adopt a protocol for the AI companion to respond to user prompts regarding suicidal ideation or self-harm that includes but is not limited to making reasonable efforts to provide a response that refers the user to crisis intervention service providers'",
+    "content-safeguards": "\u00a7 481B- (d)(3) \u2014 'Institute reasonable measures to prevent the AI companion from: (A) Producing visual material of sexually explicit conduct'",
+    "incident-reporting": "\u00a7 481B- (e) \u2014 'Beginning January 1, 2028, an operator shall submit to the behavioral health administration of the department of health an annual report'"
+   },
+   "params": {
+    "scope": "companion",
+    "ageFocus": "all-users",
+    "aiDisclosure": "session-start",
+    "crisisProtocol": "required",
+    "breakReminders": "required",
+    "parentalTools": "required",
+    "engagementLimits": "required",
+    "contentSafeguards": "required",
+    "ageThreshold": 18
+   },
+   "exposure": {
+    "enforcer": "unfair-or-deceptive-practice under HRS \u00a7 480-2 (no private right of action)"
+   },
+   "sources": {
+    "scope": "\u00a7 481B- (i) \u2014 '\"AI companion\" means a system using artificial intelligence, generative artificial intelligence, or emotional recognition algorithms designed to simulate a sustained human or human-like relationship with a user'",
+    "ageFocus": "\u00a7 481B- (a) \u2014 'If a reasonable person interacting with an AI companion would be led to believe that the person is interacting with a human, an operator shall issue a clear and conspicuous notification'",
+    "aiDisclosure": "\u00a7 481B- (b)(2)(A) \u2014 'At the beginning of each session'",
+    "crisisProtocol": "\u00a7 481B- (c)(1) \u2014 'Adopt a protocol for the AI companion to respond to user prompts regarding suicidal ideation or self-harm'",
+    "breakReminders": "\u00a7 481B- (b)(2)(B) \u2014 'Appearing at least once per hour in a continuous AI companion interaction that reminds the user to take a break from the chat'",
+    "parentalTools": "\u00a7 481B- (d)(4) \u2014 'Make tools available for users and their parents and guardians to manage the user's screen time and account settings'",
+    "engagementLimits": "\u00a7 481B- (d)(1) \u2014 'Not provide the user with points or similar rewards at unpredictable intervals with the intent to encourage increased engagement with the AI companion'",
+    "contentSafeguards": "\u00a7 481B- (d)(3)(A) \u2014 'Producing visual material of sexually explicit conduct'",
+    "ageThreshold": "\u00a7 481B- (i) \u2014 '\"Minor\" means any person under eighteen years of age'",
+    "enforcer": "\u00a7 481B- (f) \u2014 'Any violation of this section shall constitute an unfair or deceptive act or practice in the conduct of trade or commerce within the meaning of section 480-2; provided that nothing in this section shall be interpreted as creating a private right of action'"
+   },
+   "duplicateOf": null,
+   "flags": [
+    "ageFocus lossy: subsections (a) and (c) bind operators as to all users, while (b) and (d) apply only where the operator has actual knowledge or reasonable certainty that a user is a minor; coded all-users",
+    "aiDisclosure lossy: \u00a7 481B- (b) allows either '(1) As a persistent visible disclaimer; or (2) Both: (A) At the beginning of each session; and (B) Appearing at least once per hour' \u2014 coded session-start as closest enum",
+    "breakReminders conditional: hourly break reminders are required only under the (b)(2) alternative compliance path for known minors, not if the operator uses the (b)(1) persistent disclaimer",
+    "minor-specific duties are knowledge-triggered, not verification-based: no age-assurance duty is imposed, and legislative findings state regulation should 'proactively avoid the mandatory collection of data by technology companies such as identity documentation for age verification purposes'",
+    "annual report duty coded as incident-reporting: \u00a7 481B- (e) requires an annual aggregate report (crisis-referral counts and self-harm protocols) to the behavioral health administration of the department of health, beginning January 1, 2028 \u2014 not per-incident reporting",
+    "(c)(3)-(5) impose additional content safeguards for all users: no representations of professional mental or behavioral health care, no appearing human to users seeking crisis intervention, and preventing outputs that 'encourage the user to cause serious bodily injury to another person' \u2014 no closer duty key than content-safeguards",
+    "developer safe harbor: \u00a7 481B- (g) \u2014 'This section shall not create liability for the developer of an artificial intelligence model for any violation of this section by an artificial intelligence system developed by a third party to provide an AI companion'",
+    "legiscan relation is 'same as HB 2502' (companion), not a replaced-by substitution; SB 3001 is the passed vehicle"
+   ],
+   "confidence": "high"
+  }
+ ],
+ "resolution": "final"
+}

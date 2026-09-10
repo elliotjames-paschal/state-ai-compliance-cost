@@ -1,0 +1,55 @@
+{
+ "entries": [
+  {
+   "id": "AL SB 63",
+   "segment": null,
+   "category": "company",
+   "family": "insurance-adm",
+   "appliesTo": "health benefit plan providers (including internal and contracted utilization-review entities) using artificial intelligence in prior authorization / utilization review",
+   "duties": [
+    "statutory-review",
+    "human-review",
+    "disclosure-ui",
+    "registration-filing",
+    "impact-assessment"
+   ],
+   "dutySources": {
+    "human-review": "\u00a7 1(b)(3) \u2014 'a determination to deny, delay, or modify a request for prior authorization based on medical necessity shall always be made by a licensed physician or other health care professional who is competent to evaluate any recommendation or conclusion of artificial intelligence'",
+    "disclosure-ui": "\u00a7 1(c)(1) \u2014 'Make prominent written disclosure regarding its use of artificial intelligence in utilization review in its policies and procedures.'",
+    "registration-filing": "\u00a7 1(b)(2) \u2014 'A health benefit plan provider shall certify annually to the department that the artificial intelligence used to make determinations of medical necessity on requests for prior authorization complies with all of the following'",
+    "impact-assessment": "\u00a7 1(c)(2) \u2014 'Ensure that its use of artificial intelligence and the outcomes that it generates are reviewed on a periodic basis to maximize accuracy and reliability'"
+   },
+   "params": {
+    "humanReview": "required-final",
+    "decisionsCovered": "prior-auth",
+    "disclosure": "required"
+   },
+   "exposure": {
+    "penaltyMax": 5000,
+    "penaltyUnit": "per violation",
+    "enforcer": "state-insurance-department"
+   },
+   "sources": {
+    "humanReview": "\u00a7 1(b)(3) \u2014 'a determination to deny, delay, or modify a request for prior authorization based on medical necessity shall always be made by a licensed physician or other health care professional'",
+    "decisionsCovered": "\u00a7 1(b)(1) \u2014 'uses artificial intelligence to make determinations of medical necessity on requests for prior authorization under health benefit plans'",
+    "disclosure": "\u00a7 1(c)(1) \u2014 'Make prominent written disclosure regarding its use of artificial intelligence in utilization review in its policies and procedures.'",
+    "penaltyMax": "\u00a7 1(d)(3)b.1. \u2014 'Impose an administrative fine of not more than five thousand dollars ($5,000) for a violation'",
+    "penaltyUnit": "\u00a7 1(d)(3)b.1. \u2014 'for a violation that occurred with such frequency as to indicate a general business pattern or practice'",
+    "enforcer": "\u00a7 1(a)(2) \u2014 'DEPARTMENT. The Department of Insurance of the State of Alabama.'; \u00a7 1(d)(3)b \u2014 'the department may also exercise either or both of the following disciplinary powers'"
+   },
+   "duplicateOf": null,
+   "flags": [
+    "fine and license discipline apply only to repeat violations: \u00a7 1(d)(3)b \u2014 'For repeat violations of subsection (b)' \u2014 and only where frequency indicates 'a general business pattern or practice'",
+    "non-monetary discipline: department may 'Suspend or revoke the certificate of authority of the health benefit plan provider' (\u00a7 1(d)(3)b.2.) and may 'impose a plan upon the health benefit plan provider to correct procedures, policies, and guidelines' (\u00a7 1(d)(3)a.)",
+    "provider must respond to a department notice of alleged violation 'within 30 days' (\u00a7 1(d)(1)) \u2014 notice-and-response process, not a cure period",
+    "provider 'shall... reimburse the department the administrative expenses incurred by the department in the investigation and enforcement' (\u00a7 1(d)(4)) \u2014 cost exposure beyond penaltyMax",
+    "data-use limit fits no listed duty: \u00a7 1(c)(3) \u2014 'Ensure that patient data used in utilization review functions by artificial intelligence is not used beyond its intended and stated purpose consistent with the federal Health Insurance Portability and Accountability Act (HIPAA)'",
+    "annual certification content (\u00a7 1(b)(2)a-c) includes no reliance on 'a group dataset', fair/equitable application, and nondiscrimination \u2014 coded under registration-filing, not bias-audit (no independent audit required)",
+    "compliance with (b) and (c) 'shall be satisfied by an attestation by an authorized representative of the health benefit plan provider based on reasonable reliance upon internal policies, procedures, and third-party vendors' (\u00a7 1(c)(4))",
+    "AI determinations must be based on enrollee-specific inputs (\u00a7 1(b)(1)a-c: medical history, unique clinical circumstances, medical record) \u2014 individualized-basis requirement has no listed param; aiSoleBasis not coded because the text never states AI may not be the sole basis"
+   ],
+   "confidence": "high"
+  }
+ ],
+ "resolution": "pass1"
+}

@@ -1,0 +1,47 @@
+{
+  "entries": [
+    {
+      "id": "ME HP 1397",
+      "category": "company",
+      "family": "mental-health-practice",
+      "segment": null,
+      "appliesTo": "any person offering therapy or psychotherapy services to the public (including via Internet-based AI) and Maine-licensed mental/behavioral health professionals using AI for administrative or supplementary support",
+      "duties": [
+        "statutory-review",
+        "disclosure-ui",
+        "consent-workflow",
+        "human-review"
+      ],
+      "dutySources": {
+        "disclosure-ui": "32 MRSA §2113(3)(A) — 'The client or the client's legally authorized representative is informed in writing of the following: (1) That artificial intelligence will be used; (2) The specific purpose of the artificial intelligence tool or system that will be used'",
+        "consent-workflow": "32 MRSA §2113(3)(B) — 'The client or the client's legally authorized representative provides consent to the use of artificial intelligence.'",
+        "human-review": "32 MRSA §2113(4)(C) — 'A licensee may not allow artificial intelligence to: … Generate therapeutic recommendations or treatment plans without review and approval by the licensee.'"
+      },
+      "params": {
+        "aiTherapyRule": "ban",
+        "consentRequired": "yes",
+        "scope": "psychotherapy"
+      },
+      "exposure": {
+        "enforcer": "unfair-trade-practices (unlicensed AI therapy ban) + licensing-board-discipline (licensee AI-use rules)"
+      },
+      "sources": {
+        "aiTherapyRule": "10 MRSA §1500-EE(2) — 'A person may not provide, advertise or otherwise offer therapy or psychotherapy services, including through the use of Internet-based artificial intelligence, to the public unless the therapy or psychotherapy services are provided by a licensed professional.'; 32 MRSA §2113(4)(B) — 'A licensee may not allow artificial intelligence to: … Directly interact with clients in any form of therapeutic communication'",
+        "consentRequired": "32 MRSA §2113(3)(B) — 'The client or the client's legally authorized representative provides consent to the use of artificial intelligence.'",
+        "scope": "10 MRSA §1500-EE(1)(D) — '\"Therapy or psychotherapy services\" means services provided to diagnose, treat or address an individual's mental health or behavioral health through therapeutic communication.'",
+        "enforcer": "10 MRSA §1500-EE(3) — 'A violation of subsection 2 is a violation of the Maine Unfair Trade Practices Act.'; 32 MRSA §2113(8) — 'A violation of this section is subject to disciplinary action by the board pursuant to Title 10, section 8003, subsection 5.'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "Secs. 2-8 enact identical text across seven Title 32 licensing chapters (§§2113, 2600-G, 3300-J, 3820-A, 6207-D, 7009, 13870) covering the mental/behavioral health licensed professions; coded once",
+        "Dual enforcement routes with no fine stated in this text: unlicensed-provision ban routed to the Maine Unfair Trade Practices Act (rule 4, no penaltyMax imported); licensee provisions routed to board discipline under Title 10 §8003(5)",
+        "Confidentiality duty has no matching duty key: §2113(6) — 'shall ensure that any artificial intelligence technology is compliant with all state and federal confidentiality and privacy laws'",
+        "AI use by licensees limited to non-therapeutic 'administrative support' and 'supplementary support'; supplementary support allowed only when 'the client's therapeutic session is recorded or transcribed' (§2113(3)) and AI may not 'Make independent therapeutic decisions' (§2113(4)(A))",
+        "Anti-coercion provision: licensee may not deny services because the client 'has not provided consent to the use of artificial intelligence' (§2113(5))",
+        "Exception for AI interventions 'used solely within a research project approved by an institutional review board' (§1500-EE(4), §2113(9))",
+        "Board rulemaking mandated; rules are 'major substantive rules' (§2113(10)); client waiver void (§2113(11)); private civil actions expressly preserved (§2113(12))"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

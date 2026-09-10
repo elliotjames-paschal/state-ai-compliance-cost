@@ -1,0 +1,38 @@
+{
+  "entries": [
+    {
+      "id": "SC H 3049",
+      "category": "criminal",
+      "family": "ai-crimes",
+      "segment": null,
+      "appliesTo": "any person who intentionally discloses or threatens to disclose a private intimate image (including AI-generated/deepfake images) of an identifiable individual without consent",
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": {
+        "prohibition": "ncii",
+        "coveredSubjects": "all-persons"
+      },
+      "exposure": {
+        "penaltyMax": 10000,
+        "penaltyUnit": "statutory damages per defendant, covering all disclosures and threatened disclosures",
+        "enforcer": "private-right-of-action (depicted individual)"
+      },
+      "sources": {
+        "prohibition": "§ 15-75-320(A) — 'a depicted individual who is identifiable and who suffers harm from a person's intentional disclosure or threatened disclosure of an intimate image that was private without the depicted individual's consent has a cause of action against the person'",
+        "coveredSubjects": "§ 15-75-310(3) — '\"Depicted individual\" means the individual whose body is shown, in whole or in part, in an intimate image.'",
+        "penaltyMax": "§ 15-75-350(A)(1)(b) — 'statutory damages not to exceed ten thousand dollars against each defendant found liable under this article for all disclosure and threatened disclosures by the defendant'",
+        "penaltyUnit": "§ 15-75-350(A)(1)(b) — 'against each defendant found liable under this article for all disclosure and threatened disclosures by the defendant'",
+        "enforcer": "§ 15-75-320(A) — 'has a cause of action against the person'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "Civil-remedies act (private cause of action), not a criminal prohibition or company compliance regime; 'criminal' is the closest category fit (conduct liability on persons, no ongoing company duty) — flagged per rule 8.",
+        "AI hook: 'intimate image' definition covers deepfakes — § 15-75-310(9)(a) 'generated or substantially modified using machine learning techniques or any other computer-generated or machine-generated means to falsely depict an individual's appearance or conduct'; as drafted the definition also reaches authentic images ('a photograph, film, video recording, or other similar medium, including any still or videographic image…').",
+        "penaltyMax is civil statutory damages, not a fine; plaintiff alternatively recovers actual economic/noneconomic damages, disgorgement of defendant's monetary gain (§ 15-75-350(A)(2)), punitive damages (§ 15-75-350(A)(3)), and discretionary attorney's fees and injunctive relief (§ 15-75-350(B)).",
+        "Platform safe harbor: § 15-75-330(E) — 'A covered platform that is in compliance with the Tools to Address Known Exploitation by Immobilizing Technological Deepfakes on Websites and Networks Act of 2025, P.L. No. 119-12, is not liable under this article'; also construed consistent with 47 U.S.C. § 230 (§ 15-75-370(A)).",
+        "Limitations: 3 years from discovery for disclosure, 4 years for threats (§ 15-75-360(A)); tolled for child victims until age eighteen (§ 15-75-360(C))."
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

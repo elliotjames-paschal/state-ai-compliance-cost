@@ -1,0 +1,29 @@
+{
+  "entries": [
+    {
+      "id": "RI SB 2570",
+      "category": "company",
+      "family": "healthcare-clinical",
+      "segment": null,
+      "appliesTo": "healthcare providers and healthcare facilities that employ AI to document in-person or telehealth visits",
+      "duties": ["statutory-review", "disclosure-ui", "human-review"],
+      "dutySources": {
+        "disclosure-ui": "§ 23-106-3 — 'shall notify patients of the use of AI for that sole purpose'",
+        "human-review": "§ 23-106-3 — 'review the AI-generated documentation for accuracy after the visit'"
+      },
+      "params": {
+        "aiPracticeRule": "disclosure"
+      },
+      "exposure": null,
+      "sources": {
+        "aiPracticeRule": "§ 23-106-3 — 'Any and all healthcare providers and healthcare facilities that employ artificial intelligence (\"AI\") to document in-person or telehealth visits shall notify patients of the use of AI for that sole purpose'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "scope fits no healthcare-clinical scope enum (licensure|treatment|all): the duty applies only to AI used 'to document in-person or telehealth visits' (AI scribes/documentation), narrower than 'treatment' — scope param omitted",
+        "no penalty or enforcement provision in the text — exposure omitted"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

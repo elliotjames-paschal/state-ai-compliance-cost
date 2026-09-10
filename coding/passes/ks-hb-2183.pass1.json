@@ -1,0 +1,26 @@
+{
+  "entries": [
+    {
+      "id": "KS HB 2183",
+      "category": "public-sector",
+      "family": "public-sector",
+      "appliesTo": "state courts and administrative hearing officers interpreting statutes, rules and regulations",
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": {},
+      "exposure": null,
+      "sources": {
+        "appliesTo": "§ 1(a) — 'a state court or an administrative hearing officer hearing an administrative action may consider but shall not defer to a state agency's interpretation'"
+      },
+      "duplicateOf": null,
+      "segment": null,
+      "flags": [
+        "text-version-mismatch: fetched text (Amended, doc_id 3332942 per manifest) is a judicial-deference bill ('prohibiting deference to the agency's interpretation by a state court or an administrative hearing officer'), but LegiScan's enacted title for KS HB 2183 describes a criminal bill on visual depictions 'morphed from a real child's image or generated without any actual child involvement' — likely a Kansas gut-and-go conference substitute; the enacted text is not in the corpus and must be refetched before coding",
+        "no-ai-content: the text on hand contains no artificial intelligence provisions of any kind",
+        "family-mismatch: no listed family fits an agency-deference/de novo review bill; 'public-sector' used only as the closest available (binds government), with no family params applicable",
+        "if the enacted substitute matches the LegiScan title, the correct coding would be category 'criminal', family 'ai-crimes' (prohibition csam/ncii) — not codeable from this text per rule 1"
+      ],
+      "confidence": "low"
+    }
+  ]
+}

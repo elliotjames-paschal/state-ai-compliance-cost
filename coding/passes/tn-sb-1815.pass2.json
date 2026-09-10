@@ -1,0 +1,30 @@
+{
+  "entries": [
+    {
+      "id": "TN SB 1815",
+      "category": "criminal",
+      "family": "ai-crimes",
+      "appliesTo": "any person who intentionally advises or encourages another person to commit suicide",
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": {
+        "prohibition": "suicide-encouragement",
+        "coveredSubjects": "all-persons"
+      },
+      "exposure": null,
+      "sources": {
+        "prohibition": "§ 2(a)(1) — 'Intentionally, in any manner, advises or encourages another person to commit or attempt to commit suicide for the purpose of inciting, persuading, or aiding the other person to commit or attempt to commit suicide within an imminent period of time'",
+        "coveredSubjects": "§ 2(a)(1) — 'advises or encourages another person'"
+      },
+      "duplicateOf": null,
+      "segment": null,
+      "flags": [
+        "Criminal tier per rule 11: § 2(b) — 'A violation of this section is a Class D felony.' No fine amount stated in this text, so no penaltyMax (no imports from Title 40 sentencing).",
+        "Enacted text contains no AI-specific language; the offense is technology-neutral (no mention of artificial intelligence, chatbots, or computer systems). Coded ai-crimes/suicide-encouragement as closest family fit.",
+        "Knowledge element: § 2(a)(2) — 'Knows that the other person has communicated an intent to commit suicide.'",
+        "Effective July 1, 2026, prospective only: § 3 — 'applies to acts committed on or after that date.'"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

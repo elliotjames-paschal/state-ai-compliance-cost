@@ -1,0 +1,30 @@
+{
+  "entries": [
+    {
+      "id": "VA HB 580",
+      "category": "public-sector",
+      "family": "public-sector",
+      "appliesTo": "Division of Consumer Counsel in the Department of Law",
+      "segment": null,
+      "duties": ["statutory-review", "takedown-process"],
+      "dutySources": {
+        "takedown-process": "§ 2.2-517(C)(7) — 'Establish mechanisms for receiving and investigating complaints by the Commonwealth's consumers involving emerging technologies, including referring appropriate complaints to the federal, state, and local departments or agencies charged with the enforcement of applicable consumer laws'"
+      },
+      "params": {
+        "program": "emerging-technology consumer complaint intake and referral"
+      },
+      "sources": {
+        "program": "§ 2.2-517(C)(7) — 'Establish mechanisms for receiving and investigating complaints by the Commonwealth's consumers involving emerging technologies'"
+      },
+      "exposure": null,
+      "duplicateOf": null,
+      "flags": [
+        "Act title says 'artificial intelligence fraud and abuse' but the operative amended text never mentions artificial intelligence — the new duty covers 'emerging technologies' generally",
+        "Bill amends an existing consumer-counsel statute; the sole new provision is subdivision C 7 (complaint mechanisms); all other quoted duties are preexisting law reenacted",
+        "takedown-process assigned for the government-run complaint channel; duty vocabulary is company-oriented, applied here to the bound state agency",
+        "No penalty or enforcement provision in the text — exposure omitted (statute is silent)"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

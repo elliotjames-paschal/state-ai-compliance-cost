@@ -1,0 +1,13 @@
+{
+ "entries": [
+  {
+   "id": "TN HB 1946",
+   "duplicateOf": "TN SB 1700",
+   "flags": [
+    "data/legiscan.js lists only a 'crossfiled' relation (no explicit replaced-by), but the chaptered text at texts/tn-hb-1946.txt is Public Chapter No. 1082 captioned 'SENATE BILL NO. 1700 ... Substituted for: House Bill No. 1946' \u2014 SB 1700 is the surviving vehicle and is coded separately; count once per rule 7"
+   ],
+   "confidence": "high"
+  }
+ ],
+ "resolution": "pass1"
+}

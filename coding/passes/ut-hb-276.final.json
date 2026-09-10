@@ -1,0 +1,111 @@
+{
+  "entries": [
+    {
+      "id": "UT HB 276",
+      "segment": "digital-voyeurism",
+      "category": "company",
+      "family": "likeness-rights",
+      "appliesTo": "generation services and covered platforms that distribute counterfeit intimate images",
+      "duties": ["statutory-review", "consent-workflow", "takedown-process", "risk-program"],
+      "dutySources": {
+        "consent-workflow": "§ 13-72b-201(3) — 'a generation service shall implement and maintain a consent system that: (a) requires the identifiable individual depicted in the counterfeit intimate image to affirmatively provide consent before the counterfeit intimate image is distributed'",
+        "takedown-process": "§ 13-72b-302(1) — 'A covered platform shall establish and implement notice and removal procedures that comply with the requirements established in Section 3(a) of the Take It Down Act'; § 13-72b-205(2) — 'A generation service shall clearly and conspicuously provide to users procedures for reporting violations to the generation service.'",
+        "risk-program": "§ 13-72b-205(3) — 'A generation service shall publish in a clear and conspicuous location on the generation service's website or primary user interface: (a) the written policy required by Subsection 13-72b-203(1)(b)'"
+      },
+      "params": {
+        "consentRequired": "yes",
+        "coveredSubjects": "all-persons"
+      },
+      "exposure": {
+        "enforcer": "private-right (actual + punitive damages, attorney fees, injunctive relief)"
+      },
+      "sources": {
+        "consentRequired": "§ 13-72b-201(2) — 'A generation service may not distribute a counterfeit intimate image without first obtaining consent from the identifiable individual depicted in the counterfeit intimate image.'",
+        "coveredSubjects": "§ 13-72b-101(8) — '\"Identifiable individual\" means an individual who is recognizable as an actual human individual by the human individual's face, likeness, or other distinguishing characteristic'",
+        "enforcer": "§ 13-72b-202(1) — 'A person, or the heirs of a deceased person, who has been injured by a violation recognized in Section 13-72b-201 may bring a civil action against the generation service that committed the violation.'; § 13-72b-303(1) (same for covered platforms)"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "family-fit: civil NCII (counterfeit-intimate-image) consent/takedown regime; likeness-rights coded as the closest civil consent family — ai-crimes excluded per rule 10 because this chapter creates no criminal offense and imposes ongoing company compliance duties (category: company)",
+        "adjudicated — content-safeguards NOT coded as a duty: § 13-72b-203 is a safe harbor ('A generation service is not liable under Section 13-72b-202 if the generation service demonstrates that... (b) the generation service has implemented and maintains a written policy that... (ii) includes reasonable safeguards designed to prevent the creation of counterfeit intimate images'), and § 13-72b-203(3) lets a service qualify without those conditions via safeguards that 'categorically prevent the generation of intimate images'; the only unconditional command is the § 13-72b-205(3) publication duty (coded risk-program), whose (b) mandates publishing 'a general description of the safeguards implemented' — a description-publication duty, not a shall-implement-safeguards mandate",
+        "§ 13-72b-205(3)(a)'s phrase 'the written policy required by Subsection 13-72b-203(1)(b)' arguably makes the policy itself mandatory despite the safe-harbor framing — genuine ambiguity, resolved per rule 8 by flagging rather than coding content-safeguards",
+        "consent records: 'maintains a record of the consent for a period of not less than seven years' (§ 13-72b-201(3)(c)) — no retention param key in vocabulary",
+        "§ 13-72b-205(1) duty to 'inform users that: (a) distribution of non-consensual counterfeit intimate images is prohibited' fits no listed duty key (not disclosure-ui, which is AI-in-use labeling)",
+        "48-hour platform takedown: 'removing the reported counterfeit intimate image within 48 hours after receiving the notice' (§ 13-72b-302(2)(c)) — no param key",
+        "no penaltyMax: remedies are uncapped actual damages 'including damages for emotional distress', punitive damages if 'willful, reckless, or malicious', and attorney fees; 'Each distribution of a counterfeit intimate image depicting an identifiable individual without consent constitutes a separate violation.' (§ 13-72b-202(5))",
+        "extensive defendant protections: safe harbors (§§ 13-72b-203, 13-72b-304), heightened pleading standards with mandatory dismissal and fee-shifting on repeat deficient pleadings (§§ 13-72b-204, 13-72b-305)",
+        "Chapter 72b is NOT added to the Division of Consumer Protection's enforcement list in § 13-2-1(2) (only '(dd) Chapter 72c, Digital Content Provenance Standards Act' is added) — enforcement of Chapter 72b is private civil action only",
+        "special effective date: 'This bill takes effect on January 1, 2027.' (Section 21)"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "UT HB 276",
+      "segment": "content-provenance",
+      "category": "company",
+      "family": "provenance-transparency",
+      "appliesTo": "large online platforms, capture device manufacturers, and covered providers of generative AI systems",
+      "duties": ["watermarking", "detection-tool"],
+      "dutySources": {
+        "watermarking": "§ 13-72c-203 — 'A covered provider shall include a latent disclosure in image, video, or audio content, or content that is any combination of image, video, or audio, created or substantially modified by the covered provider's generative artificial intelligence system'; § 13-72c-202(1) — 'A capture device manufacturer shall include a latent disclosure in content captured by the capture device'",
+        "detection-tool": "§ 13-72c-201(1)(a) — 'detect whether compliant system provenance data is embedded into or attached to content distributed on the large online platform'; (1)(c) — 'allow a user to inspect all available compliant system provenance data in an easily accessible manner'"
+      },
+      "params": {
+        "watermark": "required",
+        "detectionTool": "required",
+        "disclosureTrigger": "av-only",
+        "userThreshold": 1000000
+      },
+      "exposure": {
+        "penaltyMax": 2500,
+        "penaltyUnit": "per violation",
+        "enforcer": "division-of-consumer-protection"
+      },
+      "sources": {
+        "watermark": "§ 13-72c-203 — 'A covered provider shall include a latent disclosure in image, video, or audio content'",
+        "detectionTool": "§ 13-72c-201(1)(a) — 'A large online platform shall: (a) detect whether compliant system provenance data is embedded into or attached to content distributed on the large online platform'",
+        "disclosureTrigger": "§ 13-72c-203 — 'in image, video, or audio content, or content that is any combination of image, video, or audio, created or substantially modified by the covered provider's generative artificial intelligence system'",
+        "userThreshold": "§ 13-72c-101(5)(a)(i) — 'has over 1,000,000 monthly visitors or users'",
+        "penaltyMax": "§ 13-72c-301(2)(a) — 'the division director may impose an administrative fine of up to $2,500 for each violation of this chapter'",
+        "penaltyUnit": "§ 13-72c-301(2)(a) — 'for each violation of this chapter'",
+        "enforcer": "§ 13-72c-301(1) — 'The Division of Consumer Protection shall administer and enforce the provisions of Part 2, Content Provenance Standards and Requirements'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "adjudicated — disclosure-ui NOT coded: § 13-72c-201(1)(b) requires the platform to 'provide a user interface to disclose the availability of system provenance data', which discloses provenance-data availability, not that AI is in use (the duty table's definition of disclosure-ui); it is part of the detect/inspect regime coded under detection-tool",
+        "two user thresholds, lossy single param: covered provider (watermarking duty) at 'has over 1,000,000 monthly visitors or users' (§ 13-72c-101(5)(a)(i)) vs large online platform (detection duties) at 'exceeded 2,000,000 unique monthly users during the preceding 12 months' (§ 13-72c-101(8)(a)); userThreshold coded to the covered-provider figure",
+        "anti-stripping prohibition fits no duty key: § 13-72c-201(2) — a platform 'may not, to the extent technically feasible, knowingly strip any system provenance data or digital signature'",
+        "capture-device duty starts later and is disableable: 'applies to any capture device a capture device manufacturer produces for sale in the state on or after January 1, 2028' (§ 13-72c-202(4)); manufacturer 'may provide a user with the option to disable the latent disclosure' (§ 13-72c-202(2))",
+        "duties qualified by feasibility/standards: 'only to the extent technically feasible and compliant with widely adopted specifications adopted by an established standards-setting body' (§ 13-72c-202(3)); covered-provider disclosure applies 'to the extent that it is technically feasible and reasonable' (§ 13-72c-203(1)) and must be 'consistent with widely accepted industry standards' (§ 13-72c-203(2))",
+        "apparent drafting artifact: § 13-72c-203(1)(b)(i) requires the GenAI content disclosure to convey 'the name of the capture device manufacturer'",
+        "additional penalty not coded as penaltyMax: 'A court may impose a civil penalty of no more than $5,000 for each violation of an administrative or court order' (§ 13-72c-301(5)); 'The attorney general may bring a civil action on behalf of the division to collect a civil penalty' (§ 13-72c-301(6))",
+        "covered-provider carve-out: excludes a system 'used exclusively for the person's internal business operations and is not made publicly accessible' (§ 13-72c-101(5)(b))"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "UT HB 276",
+      "segment": "government-websites",
+      "category": "public-sector",
+      "family": "public-sector",
+      "appliesTo": "state agency public-facing webpages, via chief information officer rulemaking",
+      "duties": ["watermarking"],
+      "dutySources": {
+        "watermarking": "§ 63A-16-215(2) — 'The standards required by Subsection (1) shall require a digitally accessible provenance record containing provenance information for digital content captured, created, or edited'"
+      },
+      "params": {
+        "program": "provenance standards for state agency webpage content"
+      },
+      "sources": {
+        "program": "§ 63A-16-215(1) — 'establishing standards for digital content on a webpage of a state agency that the public can access to facilitate a transaction or obtain a service'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "duty operates through conditional future rulemaking: the chief information officer 'shall make rules... if the chief information officer determines there is a substantial risk that fraudulent or misleading media could cause harm to a resident of the state interacting with the state agency' (§ 63A-16-215(1))",
+        "'This section does not apply to digital content created before January 1, 2027.' (§ 63A-16-215(3))",
+        "no exposure block: the section states no penalty or enforcement mechanism (rule 3 — silence is silence)"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

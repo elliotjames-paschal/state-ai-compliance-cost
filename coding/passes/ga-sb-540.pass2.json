@@ -1,0 +1,66 @@
+{
+  "entries": [
+    {
+      "id": "GA SB 540",
+      "category": "company",
+      "family": "chatbot-safeguards",
+      "segment": null,
+      "appliesTo": "operators of AI companion chatbots made available to users in Georgia",
+      "duties": [
+        "statutory-review",
+        "disclosure-ui",
+        "content-safeguards",
+        "crisis-protocol",
+        "age-assurance"
+      ],
+      "dutySources": {
+        "disclosure-ui": "§ 39-5-6(b)(1) — 'An operator shall clearly and conspicuously disclose to a user that he or she is interacting with an AI companion chatbot as opposed to a natural person'",
+        "content-safeguards": "§ 39-5-6(d) — 'the operator shall institute reasonable measures to prevent the AI companion chatbot from: (1) Producing visual material of sexually explicit conduct'",
+        "crisis-protocol": "§ 39-5-6(f) — 'An operator shall not make available an AI companion chatbot unless the operator implements and maintains a protocol for detecting and addressing severe harm or related emotional crises.'",
+        "age-assurance": "§ 39-5-6(j) — 'Before allowing access to a feature or mode that may generate synthetic content containing sexually explicit conduct, an operator shall use a commercially reasonable age assurance method proportionate to the risk of the feature.'"
+      },
+      "params": {
+        "scope": "companion",
+        "ageFocus": "all-users",
+        "aiDisclosure": "session-start",
+        "crisisProtocol": "required",
+        "parentalTools": "required",
+        "engagementLimits": "required",
+        "contentSafeguards": "required",
+        "ageThreshold": 18
+      },
+      "exposure": {
+        "penaltyMax": 10000,
+        "penaltyUnit": "per knowing violation",
+        "enforcer": "attorney-general",
+        "cureDays": 30
+      },
+      "sources": {
+        "scope": "§ 39-5-6(a)(1)(A) — ''AI companion chatbot' means a system using artificial intelligence, generative artificial intelligence, or emotional recognition algorithms designed to simulate a sustained human or human-like relationship with a user'",
+        "ageFocus": "§ 39-5-6(b)(1) — 'An operator shall clearly and conspicuously disclose to a user' (baseline duties bind as to all users; subsections (c)-(e), (i) and the hourly disclosure apply to minors)",
+        "aiDisclosure": "§ 39-5-6(b)(1)(A) — 'At the beginning of each interaction or session'",
+        "crisisProtocol": "§ 39-5-6(f) — 'implements and maintains a protocol for detecting and addressing severe harm or related emotional crises'",
+        "parentalTools": "§ 39-5-6(i) — 'For accounts known to belong to minor users, an operator shall offer reasonable tools to a minor or parent to manage the minor's screen time and account settings'",
+        "engagementLimits": "§ 39-5-6(e) — 'An operator shall adopt reasonable measures to prevent an AI companion chatbot to use the following techniques directed to a minor … (5) Variable or unpredictable rewards intended to increase engagement.'",
+        "contentSafeguards": "§ 39-5-6(d) — 'institute reasonable measures to prevent the AI companion chatbot from: (1) Producing visual material of sexually explicit conduct; … (5) Role-playing adult-minor romantic relationships'",
+        "ageThreshold": "§ 39-5-6(a)(4) — ''Minor' means an individual who is less than 18 years of age.'",
+        "penaltyMax": "§ 39-5-6(k)(1)(A) — 'A civil penalty of up to $10,000.00 per knowing violation of this Code section'",
+        "penaltyUnit": "§ 39-5-6(k)(1)(A) — 'per knowing violation of this Code section'",
+        "enforcer": "§ 39-5-6(k)(1) — 'The Attorney General may bring a civil action against any operator violating this Code section'",
+        "cureDays": "§ 39-5-6(k)(3) — 'provide written notice and an opportunity to cure within 30 days for a first-time violation'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "aiDisclosure lossy: (b)(1) requires disclosure both at session start and 'At least every three hours during continued interaction'; (b)(2) tightens the periodic cadence to 'every hour' for known-minor users or chatbots directed/marketed to minors",
+        "ageFocus lossy: disclosure (b)(1), crisis protocol (f), public disclosure (g), licensure-representation ban (h), and age assurance (j) bind as to all users, while (c), (d), (e), (i) and hourly disclosure are minor-specific",
+        "(g) requires public website/in-app disclosure of a plain-language crisis-protocol summary and, annually, 'the aggregate number of crisis referral notifications issued in the preceding calendar year' — no matching duty key (public reporting, not incident-reporting to an authority)",
+        "(h) prohibits knowingly programming the chatbot to represent 'that it is licensed, certified, or otherwise authorized to provide professional mental health, behavioral health, medical, or counseling services' unless lawfully authorized — no matching duty key",
+        "(j) imposes age-assurance data handling limits: no sale of age-assurance data, use limited to age verification, retention capped — 'in no event shall such data be retained longer than 24 hours or another specified time if permitted by law, whichever is longer'",
+        "cureDays is discretionary, not mandatory: (k)(3) 'The Attorney General may, in the Attorney General's discretion, provide written notice and an opportunity to cure within 30 days for a first-time violation that does not involve knowing misconduct, sexual exploitation of a minor, or self-harm related misconduct'",
+        "penalty multiplier: (k)(2) 'each day in violation of this Code section shall be considered a separate violation for each user affected'",
+        "(m)(5) carve-out: no 'liability for the developer of a conversational AI service which is made available to the public by a separate operator'"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

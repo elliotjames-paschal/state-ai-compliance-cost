@@ -1,0 +1,33 @@
+{
+  "entries": [
+    {
+      "id": "AL HB 329",
+      "category": "education",
+      "family": "education-k12",
+      "appliesTo": "Alabama public K-12 schools (elementary, middle, and high) and public school students",
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": {
+        "curriculum": "required",
+        "graduationReq": "yes"
+      },
+      "exposure": {
+        "enforcer": "cross-reference — Section 16-1-11.1"
+      },
+      "sources": {
+        "curriculum": "§ 16-46B-2(a)(1) — 'each public high school shall offer at least one authentic computer science course from a department-approved list'; § 16-46B-2(d) — 'shall include, but not be limited to, instruction in the concepts of computer science as defined in Section 16-46B-1'",
+        "graduationReq": "§ 16-46B-7(c)(1) — 'Beginning with the graduating class of 2032, all public school students shall demonstrate digital literacy by earning at least one credit in a department-approved, high school or college-level computer science course, or by completing a department-approved course with embedded computer science skills and experiences.'",
+        "enforcer": "§ 16-46B-2(e) — 'The enforcement of this section shall comply with Section 16-1-11.1.'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "AI-adjacent only: artificial intelligence appears solely in the amended definition of computer science (§ 16-46B-1(2) — 'their emerging technologies, including, but not limited to, artificial intelligence'); the bill imposes no AI-specific duty beyond curriculum content.",
+        "State Department of Education (not schools) bears standards-setting duties: § 16-46B-7(c)(1) — 'The department shall develop and publish a set of minimum standards' and 'shall publish a list of high school or college-level computer science courses'.",
+        "Graduation requirement expressly does not add credits: § 16-46B-7(c)(1) — 'This requirement shall not result in an increase in the number of credits required for graduation.'",
+        "No penalty provision in this text; enforcement routed by cross-reference to Section 16-1-11.1 (rule 4 — no penaltyMax coded).",
+        "Effective October 1, 2026 (Section 2); graduation requirement begins with the class of 2032."
+      ],
+      "confidence": "high"
+    }
+  ]
+}

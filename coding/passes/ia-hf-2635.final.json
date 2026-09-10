@@ -1,0 +1,40 @@
+{
+  "entries": [
+    {
+      "id": "IA HF 2635",
+      "category": "company",
+      "family": "insurance-adm",
+      "segment": null,
+      "appliesTo": "utilization review organizations and health carriers making prior-authorization decisions",
+      "duties": ["statutory-review", "human-review"],
+      "dutySources": {
+        "human-review": "§ 514F.8A(2)(a) (Sec. 6) — 'The decision to deny or downgrade the request is made by either of the following: (1) A qualified reviewer, if the health care provider requesting prior authorization is a physician. (2) A clinical peer, if the health care provider requesting prior authorization is not a physician.'"
+      },
+      "params": {
+        "aiSoleBasis": "prohibited",
+        "decisionsCovered": "prior-auth",
+        "humanReview": "required-final"
+      },
+      "exposure": {
+        "enforcer": "commissioner of insurance — remedies under chapters 505 and 507B; may suspend URO authority"
+      },
+      "sources": {
+        "aiSoleBasis": "§ 514F.8(2A) (Sec. 2) — 'a utilization review organization shall not use an artificial intelligence-based algorithm or system as the sole basis for the utilization review organization’s decision to deny, delay, or downgrade the prior authorization request'",
+        "decisionsCovered": "§ 514F.8(2A) (Sec. 2) — 'may use an artificial intelligence-based algorithm or system to provide an initial review of a request for prior authorization, except that, for a prior authorization request for a health care service based on medical necessity'",
+        "humanReview": "§ 514F.8A(2)(a) (Sec. 6) — 'The decision to deny or downgrade the request is made by either of the following: (1) A qualified reviewer, if the health care provider requesting prior authorization is a physician.'",
+        "enforcer": "§ 514F.8E (Sec. 8) — 'The remedy for noncompliance with section 514F.8, 514F.8A, 514F.8B, 514F.8C, or 514F.8D shall be those remedies authorized by chapters 505 and 507B pursuant to the procedures set forth in sections 507B.6, 507B.7, and 507B.8.' … 'Upon a finding of a pattern or practice of noncompliance … the commissioner of insurance may also suspend a utilization review organization’s authority to conduct utilization review.'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "Omnibus health bill; the AI provision is narrow: only § 514F.8(2A) addresses AI (initial review permitted, but AI may not be the sole basis for a deny/delay/downgrade decision on a medical-necessity prior-authorization request). All other provisions are non-AI insurance/health regulation.",
+        "humanReview coded required-final is lossy: appeals must also be conducted by a qualified reviewer or clinical peer not involved in the initial determination (§ 514F.8A(4)(a)-(b) — 'A qualified reviewer or clinical peer involved in the initial denial or downgrade determination … shall not conduct the appeal'), so required-appeal is also true; coded required-final per closest-single-enum rule.",
+        "Denial/downgrade also requires a signed written statement of specific reasons, a written explanation of the appeals process, and a written attestation of the reviewer's qualifications (§ 514F.8A(2)(b)); on request, a peer-to-peer consultation within seven business days of a denial (§ 514F.8A(3)) — no matching duty/param keys in the vocabulary.",
+        "appealDays not coded: the 30-calendar-day appeal window in § 514F.8C(2)(c) applies to claim-payment audit determinations, not the prior-authorization/AI decisions this entry covers; the prior-authorization appeal in § 514F.8A(4) states no filing deadline.",
+        "Additional audit-violation remedy not capturable in params: § 514F.8C(2)(e) — violating claims must be approved and 'promptly paid, including interest at the rate of ten percent per annum'.",
+        "Non-coded divisions fitting no family: Div. I § 514F.8D health-carrier standards of conduct (no referral penalties, no interference in provider staffing/referral decisions, opportunity to negotiate agreements); Div. II § 514F.8B and Div. III §§ 249A.5, 249A.6, 514I.13 prior-authorization exemptions (NCCN category-2A-or-lower cancer screenings, life-threatening emergency conditions) and mandatory electronic prior-auth submission via standards-based API (binds providers, and Div. III binds the department of health and human services and Medicaid/Hawki managed care organizations); Div. IV (Secs. 12-28) certificate-of-need amendments to chapter 135 contain no AI provisions.",
+        "Applicability: § 514F.8A(5) — 'This section applies to requests for prior authorization made on or after January 1, 2027.'"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

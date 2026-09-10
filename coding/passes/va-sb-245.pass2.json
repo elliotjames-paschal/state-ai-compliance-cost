@@ -1,0 +1,24 @@
+{
+  "entries": [
+    {
+      "id": "VA SB 245",
+      "category": "education",
+      "family": "education-k12",
+      "appliesTo": "school boards (governing public elementary and secondary schools, school board employees, and school volunteers)",
+      "duties": ["statutory-review"],
+      "params": { "policyRequired": "yes" },
+      "sources": {
+        "policyRequired": "§ 22.1-79.3:2(B) — 'Each school board shall prohibit public elementary and secondary schools, school board employees, and school volunteers from using a social media platform as the sole means of communication with students for the facilitation of school-related extracurricular activities.'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "No AI provisions: the bill regulates use of social media platforms as a communication channel for school extracurricular activities ('use of social media platforms by schools, school board employees, and volunteers prohibited'); no artificial intelligence content anywhere in the text",
+        "Family fit imperfect: education-k12 chosen because the bill binds school boards, but its params (curriculum/training/graduation) target AI-in-schools regimes; only policyRequired applies, and no social-media family exists in the v1.0 vocabulary",
+        "Superintendent exception process: § 22.1-79.3:2(C) allows a division superintendent or designee to 'provide a written exception to the prohibition in subsection B' with 'clear, written instructions on such use', revocable at any time — no listed param captures this",
+        "Savings clause: 'Nothing in this section shall be construed to prohibit the use of school division-approved communication or messaging applications' (§ B)",
+        "No penalty or enforcement provision in the text — exposure omitted (silence is silence)"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

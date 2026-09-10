@@ -1,0 +1,73 @@
+{
+  "entries": [
+    {
+      "id": "NC HB 301",
+      "segment": "social-media-minors",
+      "category": "company",
+      "family": "privacy-data",
+      "appliesTo": "addictive social media platforms with child (under 16) account holders resident in North Carolina",
+      "duties": ["statutory-review", "age-assurance", "takedown-process"],
+      "dutySources": {
+        "age-assurance": "§ 114B-3(a) — 'An addictive social media platform shall use either anonymous age verification or standard age verification to verify that an account holder is 16 years of age or older'",
+        "takedown-process": "§ 114B-2(c)(2) — 'Allow the parent or guardian of an account holder who is 14 or 15 years of age to request that the child's account be terminated. Termination must be effective within 10 business days after the request.'"
+      },
+      "params": {
+        "minorsFocus": "yes"
+      },
+      "exposure": {
+        "penaltyMax": 50000,
+        "penaltyUnit": "per violation",
+        "enforcer": "attorney-general (exclusive) + private-right (child account holder, damages capped at $10,000)"
+      },
+      "sources": {
+        "minorsFocus": "§ 114B-1(b)(4) — 'Child. – A person who is under 16 years of age.'",
+        "penaltyMax": "§ 114B-2(d)(2) — 'the Attorney General may collect a civil penalty of up to fifty thousand dollars ($50,000) per violation and reasonable attorneys' fees and court costs'",
+        "enforcer": "§ 114B-2(d)(1) — 'The action may solely be brought by the Attorney General against an addictive social media platform.' ; § 114B-2(e) — 'An addictive social media platform that knowingly or recklessly violates this section is liable to the child account holder … Claimants may be awarded up to ten thousand dollars ($10,000) in damages.'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "data-use prohibition fits no listed duty/param: § 114B-3.5(a) bars using a child's user data 'to inform content recommendations to the child', 'to inform what commercial advertisements or promotions are shown to the child', and to 'Sell the child's user data to a third party'",
+        "account-termination + deletion mandate fits no listed duty: § 114B-2(b) requires platforms to 'Terminate an account held by a child under 14 years of age after providing the account holder 30 days to dispute the termination' and 'Permanently delete all personal information held by the addictive platform relating to the terminated account'",
+        "age tiers not expressible in privacy-data params: under-14 accounts prohibited outright (§ 114B-2(b)); 14-15 permitted only with parent/guardian consent (§ 114B-2(c)); verification threshold is '16 years of age or older' (§ 114B-3(a))",
+        "anonymous age verification must be offered alongside standard verification and the user selects the method (§ 114B-3(a)); anonymous method carries data-minimization requirements (§ 114B-1(b)(3))",
+        "enforcement routed through G.S. 75-1.1 ('an unfair and deceptive trade practice under G.S. 75-1.1 and is enforceable under Chapter 75'), but the $50,000 penalty is stated in this text and coded; the underlying G.S. 75-15.2 penalty is not imported",
+        "punitive damages available for 'a consistent pattern of knowing or reckless conduct' (§ 114B-2(d)(3))",
+        "Part I effective January 1, 2027 (Section 1.(b))",
+        "text on file is Sixth Edition Engrossed (6/10/26); legiscan.js status is 'Engrossed', not chaptered — not final enacted text",
+        "the regulated trigger is algorithmic/addictive-design social media, not AI systems per se ('Employs algorithms that analyze user data or information on users to select content for users', § 114B-1(b)(2)c.)"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "NC HB 301",
+      "segment": "education-ai",
+      "category": "education",
+      "family": "education-k12",
+      "appliesTo": "State Board of Education, Department of Public Instruction, and governing bodies of public school units (local boards, charter schools, regional schools, lab schools)",
+      "duties": ["risk-program"],
+      "dutySources": {
+        "risk-program": "§ 115C-47(73) — 'Local boards of education shall adopt a policy on the use of artificial intelligence by students and staff for educational purposes after review of the model policy developed by the Department of Public Instruction pursuant to G.S. 115C-102.13.'"
+      },
+      "params": {
+        "curriculum": "required",
+        "policyRequired": "yes",
+        "trainingRequired": "yes"
+      },
+      "sources": {
+        "curriculum": "§ 115C-81.90(a1) — 'The State Board shall adopt age-appropriate standards for instruction on artificial intelligence (AI) literacy for grades kindergarten through 12. All courses offered pursuant to this section shall include instruction on AI literacy aligned with the standards adopted by the State Board.'",
+        "policyRequired": "Section 3.(g) — 'Governing bodies of public school units shall adopt the policies required by subsections (b) through (f) of this section by no later than June 30, 2027.'",
+        "trainingRequired": "Section 5.(d) — 'All teachers employed by local school administrative units, charter schools, or laboratory schools shall complete the professional development provided pursuant to this section by June 30, 2028.'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "DPI agency duties fit no listed duty key: § 115C-102.14 requires an 'evaluation framework that provides criteria and guiding considerations for evaluating generative artificial intelligence-powered educational tools', a 'publicly available list of AI tools that have been reviewed', 'procurement guidance, qualified vendor lists', and a 'publicly available list of all AI tools being used in public school units'",
+        "DPI must develop a model AI policy (§ 115C-102.13) by December 31, 2026, with unit access by January 15, 2027 (Section 3.(g))",
+        "educator training built with the Friday Institute; modules 'require a minimum of 10 hours of seat time to complete' (Section 5.(b)(1)); resources available to units by June 30, 2027 (Section 5.(c))",
+        "DPI reports to the Joint Legislative Education Oversight Committee by December 15, 2028 on standards implementation (Section 2.(d)) and training uptake (Section 5.(e))",
+        "AI literacy standards must be reviewed and updated 'every two years' (§ 115C-81.90(a1)); revised computer-science standards implemented beginning with the 2028-2029 school year (Section 2.(b))",
+        "no penalty or enforcement provision in Parts II-V — exposure omitted"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

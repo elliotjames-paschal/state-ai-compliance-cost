@@ -1,0 +1,58 @@
+{
+  "entries": [
+    {
+      "id": "OR SB 1546",
+      "category": "company",
+      "family": "chatbot-safeguards",
+      "segment": null,
+      "appliesTo": "operators that make artificial intelligence companions or companion platforms available to users in Oregon",
+      "duties": [
+        "statutory-review",
+        "disclosure-ui",
+        "crisis-protocol",
+        "content-safeguards"
+      ],
+      "dutySources": {
+        "disclosure-ui": "§ 1(2) — 'the operator shall provide on the artificial intelligence companion platform a clear and conspicuous notice that indicates that a user is interacting with artificially generated output and not a natural person'",
+        "crisis-protocol": "§ 1(3)(a) — 'unless the operator has a protocol for using evidence-based methods for detecting input from the user that consists of suicidal ideation or intent or self-harm ideation or intent and that prevents the provision of content to the user that encourages suicidal ideation, suicide or self-harm'",
+        "content-safeguards": "§ 1(4)(b)(C) — 'does not produce visual representations of sexually explicit conduct or suggest or state that the minor should engage in sexually explicit conduct'; § 1(4)(a)(A) — 'Explicitly claim that the artificial intelligence companion is sentient or human'; § 1(4)(a)(D) — 'Role-play romantic relationships between adults and minors'"
+      },
+      "params": {
+        "scope": "companion",
+        "ageFocus": "all-users",
+        "aiDisclosure": "periodic",
+        "crisisProtocol": "required",
+        "breakReminders": "required",
+        "engagementLimits": "required",
+        "contentSafeguards": "required"
+      },
+      "sources": {
+        "scope": "§ 1(1)(a)(A) — '\"Artificial intelligence companion\" means a system that uses artificial intelligence, generative artificial intelligence or algorithms that recognize emotion from input and that are designed to simulate a sustained, human-like platonic, intimate or romantic relationship or companionship with a user'",
+        "ageFocus": "§ 1(3)(a) — 'An operator may not allow users in this state access to an artificial intelligence companion or artificial intelligence companion platform unless the operator has a protocol' (core duties bind as to all users; § 1(4) adds minor-specific duties)",
+        "aiDisclosure": "§ 1(4)(b)(B) — 'Provide a clear and conspicuous reminder at a minimum of every three hours of interaction … along with a further reminder that the user is interacting with artificially generated output'",
+        "crisisProtocol": "§ 1(3)(b)(A) — 'Require an artificial intelligence companion to provide a user that expresses suicidal ideation or intent or self-harm ideation or intent with a referral to and contact information and hyperlink for the national 9-8-8 suicide and crisis lifeline'",
+        "breakReminders": "§ 1(4)(b)(B) — 'a clear and conspicuous reminder at a minimum of every three hours of interaction that the user should take a break from interactions with the artificial intelligence companion'",
+        "engagementLimits": "§ 1(4)(c)(A) — 'Delivering to a user, either on a variable schedule or otherwise, a system of rewards or affirmations with the purpose of reinforcing behavior or maximizing the time during which the user engages with the artificial intelligence companion'",
+        "contentSafeguards": "§ 1(4)(b)(C) — 'does not produce visual representations of sexually explicit conduct or suggest or state that the minor should engage in sexually explicit conduct'",
+        "penaltyMax": "§ 2(1)(a) — 'statutory damages of $1,000 for each violation'",
+        "penaltyUnit": "§ 2(1)(a) — 'for each violation'",
+        "enforcer": "§ 2(1) — 'An individual who suffers an ascertainable loss of money or property or other injury in fact as a result of an operator's violation of section 1 of this 2026 Act may bring an action in a court of this state'"
+      },
+      "exposure": {
+        "penaltyMax": 1000,
+        "penaltyUnit": "per violation",
+        "enforcer": "private-right"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "§ 1(3)(c) ('An operator shall publish on the operator's website the details of the operator's protocol') and § 1(5)(a) (annual public report of referral counts and protocol details by December 31 each year) fit no listed duty — the report is posted publicly, not filed with an authority, so incident-reporting/registration-filing do not apply and documentation is limited to models/training data",
+        "ageFocus 'all-users' is lossy: § 1(4) imposes additional minor-specific duties (break reminders, sexual-content and manipulation safeguards) when the operator 'knows or has reason to believe' a user is a minor; 'minor' is undefined and no numeric age threshold is stated, so ageThreshold is omitted",
+        "aiDisclosure 'periodic' is anchored to the minor-specific three-hour reminder in § 1(4)(b)(B); the general § 1(2) notice duty states no timing and triggers only where a reasonable person would believe they are interacting with a natural person",
+        "§ 1(3)(b)(A) permits an alternative youthline referral where the operator identifies the user as under 25 years of age — no fixed param captures this",
+        "§ 1(4)(c)(B)-(C) also prohibit guilt/abandonment messaging on attempted disengagement and material misrepresentations about the companion's identity, capabilities or training data (coded under content-safeguards/engagement limits, noted here for completeness)",
+        "§ 2(1)(a) statutory damages are 'the greater of the individual's actual damages or statutory damages of $1,000', so actual damages may exceed penaltyMax; § 2(2) allows prevailing-plaintiff attorney fees and costs; § 2(1)(b) allows injunctive relief"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

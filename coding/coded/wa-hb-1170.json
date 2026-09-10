@@ -1,0 +1,65 @@
+{
+ "entries": [
+  {
+   "id": "WA HB 1170",
+   "segment": "provenance-transparency",
+   "category": "company",
+   "family": "provenance-transparency",
+   "appliesTo": "covered providers \u2014 persons or entities that create, code, or otherwise produce a generative AI system with over 1,000,000 monthly users, publicly accessible in the state to consumers for personal use (governments excluded)",
+   "duties": [
+    "statutory-review",
+    "watermarking"
+   ],
+   "dutySources": {
+    "watermarking": "Sec. 2(1) \u2014 'a covered provider shall include provenance data in any video, image, or audio content, or content that is any combination thereof, created or materially altered by the covered provider's generative artificial intelligence system'"
+   },
+   "params": {
+    "watermark": "required",
+    "disclosureTrigger": "av-only",
+    "userThreshold": 1000000
+   },
+   "sources": {
+    "watermark": "Sec. 2(2) \u2014 'A covered provider must use commercially and technically reasonable methods to make the provenance data difficult to remove or tamper with.'",
+    "disclosureTrigger": "Sec. 2(1) \u2014 'any video, image, or audio content, or content that is any combination thereof' (Sec. 1(3) defines generative AI as technology used 'to generate images, audio, or video')",
+    "userThreshold": "Sec. 1(2) \u2014 'a generative artificial intelligence system that has over 1,000,000 monthly users'",
+    "enforcer": "Sec. 4(2)-(3) \u2014 'The attorney general may bring an action in the name of the state\u2026 a violation of this chapter is\u2026 an unfair or deceptive act in trade or commerce\u2026 for purposes of applying the consumer protection act, chapter 19.86 RCW'; 'Only the attorney general can bring an action under the consumer protection act, chapter 19.86 RCW, pursuant to this section.'"
+   },
+   "exposure": {
+    "enforcer": "attorney-general only (exclusive; via consumer protection act, ch. 19.86 RCW)"
+   },
+   "duplicateOf": null,
+   "flags": [
+    "duty is qualified: 'To the extent commercially and technically reasonable' (Sec. 2(1)); safe harbor for 'a commonly supported technical standard for watermarking or metadata, such as the coalition for content provenance and authenticity specification' (Sec. 2(2))",
+    "no penaltyMax coded: enforcement routed through consumer protection act ch. 19.86 RCW (rule 4 \u2014 no imports)",
+    "exemptions: business-to-business uses/sales/licensing/distribution (Sec. 3(2)); exclusively video game or interactive experiences (Sec. 5(1)); systems used solely for upscaling, noise reduction, or compression (Sec. 5(2))",
+    "provenance data may not be required to include information about an identified or reasonably identifiable individual (Sec. 2(3)); waivers void and unenforceable (Sec. 4(1))",
+    "effective February 1, 2027 (Sec. 9)"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "WA HB 1170",
+   "segment": "govt-ai-disclosure",
+   "category": "public-sector",
+   "family": "public-sector",
+   "appliesTo": "government agencies that make available an artificial intelligence system intended to interact with consumers",
+   "duties": [
+    "disclosure-ui"
+   ],
+   "dutySources": {
+    "disclosure-ui": "Sec. 6(1) \u2014 'A government agency that makes available an artificial intelligence system intended to interact with consumers must disclose to each consumer, before or at the time of interaction, that the consumer is interacting with an artificial intelligence system.'"
+   },
+   "params": {},
+   "sources": {},
+   "exposure": null,
+   "duplicateOf": null,
+   "flags": [
+    "public-sector family param vocabulary (inventory/procurementRules/assessment/program) has no key for a consumer AI-interaction disclosure mandate \u2014 proposed addition: an aiDisclosure-style param for the public-sector family",
+    "disclosure format requirements: 'Clear and conspicuously posted', 'Written in plain language', 'May not use a dark pattern' (Sec. 6(1)(a)-(c)); hyperlink to a separate web page permitted (Sec. 6(2)); required 'regardless of whether it would be obvious to a reasonable consumer' (Sec. 6(3))",
+    "no enforcement or penalty provision in this segment's chapter (Sec. 6 is codified as a separate new chapter in Title 42 RCW per Sec. 8; the AG-enforcement section 4 applies only to the Title 19 chapter)"
+   ],
+   "confidence": "high"
+  }
+ ],
+ "resolution": "pass1"
+}

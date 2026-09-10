@@ -1,0 +1,36 @@
+{
+  "entries": [
+    {
+      "id": "UT HB 289",
+      "category": "criminal",
+      "family": "ai-crimes",
+      "segment": null,
+      "appliesTo": "persons who possess, distribute, produce, or receive AI-generated (apparent) or obscene child sexual abuse material",
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": {
+        "prohibition": "csam",
+        "coveredSubjects": "minors"
+      },
+      "exposure": {
+        "enforcer": "criminal prosecution; attorney-general ICAC unit"
+      },
+      "sources": {
+        "prohibition": "76-5b-207(2) — 'An actor commits possession of apparent child sexual abuse material if the actor intentionally or knowingly possesses, views, accesses with intent to view, or maintains access with intent to view apparent child sexual abuse material.'; 76-5b-103(1) — '\"Apparent child sexual abuse material\" means a visual depiction, generated or created through the use of artificial intelligence or generative artificial intelligence, or any other means, of a minor engaging in, observing, or being used for sexually explicit conduct'",
+        "coveredSubjects": "76-5b-103(12) — '\"Minor\" means an individual who is younger than 18 years old.'",
+        "enforcer": "67-5-21(1) — 'There is created within the Office of the Attorney General the Internet Crimes Against Children (ICAC) unit to investigate and prosecute cases involving child sexual abuse material, apparent child sexual abuse material, or obscene child sexual abuse material'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "criminal tiers, no stated fines: possession of apparent CSAM is 'a second degree felony' (76-5b-207(3)); distribution or production of apparent CSAM is 'a first degree felony' or, 'If an actor is under 18 years old at the time the actor commits the offense... a second degree felony' (76-5b-208(3)); unlawful activity regarding obscene CSAM is 'a second degree felony' (76-5b-209(3)); no dollar fine amounts appear in this text, so no penaltyMax is coded",
+        "per-image stacking: 'It is a separate offense under this section: (a) for each minor depicted in the apparent child sexual abuse material; and (b) for each time the same minor is depicted in different apparent child sexual abuse material' (76-5b-207(4), 76-5b-208(4))",
+        "no real-minor proof required: 'In proving a violation of this section, proof that the minor depicted in the apparent child sexual abuse material is a real minor that exists is not required' (76-5b-207(6), 76-5b-208(5))",
+        "good-faith safe harbor for entities: an entity or its employees are 'not criminally or civilly liable under this section when acting in good faith compliance with Section 77-4-201' for 'reporting or data preservation duties required under federal or state law' or 'implementing a policy of attempting to prevent the presence of apparent child sexual abuse material' (76-5b-207(7), 76-5b-208(6), 76-5b-209(5)) — a liability shield, not an affirmative company duty",
+        "definitional rebalance: removes '[artificially generated and depicts an individual with substantial characteristics of a minor...]' from the 'child sexual abuse material' definition (76-5b-103(3)) and moves AI-generated realistic depictions into the new 'apparent child sexual abuse material' offense structure",
+        "non-criminal conforming provisions outside the ai-crimes family: public-library internet-filter funding condition extended to apparent/obscene CSAM (9-7-215(2): 'State funds may not be provided to any public library... unless the library... has in place a policy of internet safety for minors, including the operation of a technology protection measure'), plus conforming amendments to DHHS material handling, background checks, sex/kidnap/child-abuse offender registry, GRAMA records, ICAC unit mandate, habitual/repeat-offender enhancements, RICO predicates, forfeiture, juvenile code, custody, and adoption — no ongoing company compliance duty is created",
+        "existing computer-technician reporting offense (76-5b-206, class B misdemeanor for willful failure to report) is amended only to add the new material terms; it binds individual technicians, not their employers (employer procedure under 76-5b-206(7) is permissive: 'An employer of a computer technician may implement a procedure')"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

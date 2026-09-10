@@ -1,0 +1,49 @@
+{
+ "entries": [
+  {
+   "id": "WA SB 5395",
+   "category": "company",
+   "family": "insurance-adm",
+   "segment": null,
+   "appliesTo": "health carriers (and public-employee health plans, and contracted health care benefit managers) using AI in prior authorization determinations",
+   "duties": [
+    "statutory-review",
+    "human-review",
+    "risk-program",
+    "impact-assessment",
+    "registration-filing"
+   ],
+   "dutySources": {
+    "human-review": "Sec. 2(3)(a) \u2014 'Algorithms may be used to process and approve prior authorization requests, but may not be used without human review to deny care based on a determination of medical necessity.'",
+    "risk-program": "Sec. 2(3)(b) \u2014 'A carrier that uses artificial intelligence for the purpose of prior authorization or prior authorization functions, based in whole or in part on medical necessity, \u2026 shall ensure all of the following'; (vi) 'The policies and procedures for using artificial intelligence are open to audit by the office of the insurance commissioner under chapter 48.37 RCW'",
+    "impact-assessment": "Sec. 2(3)(b)(vii) \u2014 'The artificial intelligence's performance, use, and outcomes are periodically reviewed by the carrier to maximize accuracy and reliability'",
+    "registration-filing": "Sec. 8(1) \u2014 'the carrier shall report to the commissioner the following aggregated and deidentified data related to the carrier's prior authorization practices and experience for the prior plan year'; (1)(a)(i) 'The percentage of total denials that were aided by artificial intelligence'"
+   },
+   "params": {
+    "humanReview": "required-final",
+    "decisionsCovered": "prior-auth",
+    "aiSoleBasis": "prohibited"
+   },
+   "exposure": {
+    "enforcer": "office-of-insurance-commissioner (AI policies/procedures open to audit under ch. 48.37 RCW; commissioner may adopt rules)"
+   },
+   "sources": {
+    "humanReview": "Sec. 2(3)(a) \u2014 'Only a licensed physician or a licensed health professional working within their scope of practice may deny a prior authorization request based on medical necessity. \u2026 may not be used without human review to deny care based on a determination of medical necessity.'",
+    "decisionsCovered": "Sec. 2(3)(b) \u2014 'uses artificial intelligence for the purpose of prior authorization or prior authorization functions, based in whole or in part on medical necessity'",
+    "aiSoleBasis": "Sec. 2(3)(a) \u2014 'Artificial intelligence shall not be the sole means used to deny, delay, or modify health care services.'",
+    "enforcer": "Sec. 2(3)(b)(vi) \u2014 'The policies and procedures for using artificial intelligence are open to audit by the office of the insurance commissioner under chapter 48.37 RCW'; Sec. 2(7) \u2014 'The commissioner may adopt any rules necessary to implement this section.'"
+   },
+   "duplicateOf": null,
+   "flags": [
+    "Dual-version drafting: Sec. 2 (RCW 48.43.830) and Sec. 6 (RCW 48.43.535) expire January 1, 2027 (Sec. 9); Secs. 3 and 7 are parallel reenactments taking effect January 1, 2027 (Sec. 10) \u2014 the AI provisions are identical across versions.",
+    "Sec. 4 applies the same standards to health plans offered to public employees, retirees, and dependents under RCW 41.05 (rules by the health care authority, not the commissioner) \u2014 coded company per category rule; public-employee-plan applicability noted here.",
+    "Sec. 3(3)(b)(i)-(viii) AI-use conditions include requirements with no listed param/duty: determinations must be based on the enrollee's individual clinical history/circumstances and not 'solely on a group data set'; no discrimination 'directly or indirectly'; patient data 'not used beyond its intended and stated purpose' (cross-references ch. 70.02 RCW and HIPAA).",
+    "registration-filing covers the annual prior-authorization data report to the commissioner (Sec. 8), which includes the percentage of denials aided by AI; it applies only to carriers 'that has written at least one percent of the total accident and health insurance premiums' (Sec. 8(1)).",
+    "Substantial non-AI provisions in the same prior-auth regime: determination/notification timeframes and clinical-review-criteria standards (Secs. 2-4(1)); prior authorization API and interoperable e-process requirements (Secs. 2-4(4)); denial notices must include reviewing provider's credentials (Secs. 2-4(1)(e)); prohibition on retrospective denial/modification of approved prior authorizations with 1%-per-month interest on wrongly denied claims (Sec. 5); independent review organization process (Secs. 6-7).",
+    "No penalty amounts stated anywhere in the act \u2014 exposure carries enforcer only (audit/rulemaking authority quotes)."
+   ],
+   "confidence": "high"
+  }
+ ],
+ "resolution": "pass1"
+}

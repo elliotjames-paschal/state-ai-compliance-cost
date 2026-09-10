@@ -1,0 +1,49 @@
+{
+ "entries": [
+  {
+   "id": "RI SB 2195",
+   "category": "company",
+   "family": "chatbot-safeguards",
+   "appliesTo": "operators of AI companions provided to users in the state",
+   "duties": [
+    "statutory-review",
+    "crisis-protocol",
+    "disclosure-ui",
+    "incident-reporting"
+   ],
+   "dutySources": {
+    "crisis-protocol": "\u00a7 6-63-2(a) \u2014 'It shall be unlawful for any operator to operate or provide an AI companion to a user unless such AI companion contains a protocol for addressing: (1) Possible suicidal ideation or self-harm expressed by a user to the AI companion; (2) Possible physical harm to others expressed by a user to the AI companion'",
+    "disclosure-ui": "\u00a7 6-63-3 \u2014 'An operator shall provide a clear and conspicuous notification to a user at the beginning of any AI companion interaction and at least every three (3) hours for continuing AI companion interactions hereafter, which states either verbally or in writing that the user is not communicating with a human'",
+    "incident-reporting": "\u00a7 6-63-2(b) \u2014 'Beginning July 1, 2027, operators shall file annual reports with the office of the attorney general which shall include the number of safety protocol activations and related metrics'"
+   },
+   "params": {
+    "scope": "companion",
+    "ageFocus": "all-users",
+    "aiDisclosure": "periodic",
+    "crisisProtocol": "required"
+   },
+   "exposure": {
+    "penaltyMax": 15000,
+    "penaltyUnit": "per day",
+    "enforcer": "attorney-general"
+   },
+   "sources": {
+    "scope": "\u00a7 6-63-1(1)(i) \u2014 '\"AI companion\" means a system using artificial intelligence, generative artificial intelligence, and/or emotional recognition algorithms to simulate a sustained human or human-like relationship with a user'",
+    "ageFocus": "\u00a7 6-63-1(8) \u2014 '\"User\" means any person who uses an AI companion within the state and who is not an operator or agent or affiliate of the operator'",
+    "aiDisclosure": "\u00a7 6-63-3 \u2014 'at the beginning of any AI companion interaction and at least every three (3) hours for continuing AI companion interactions hereafter'",
+    "crisisProtocol": "\u00a7 6-63-2(a)(3) \u2014 'a notification shall be provided to the user that refers them to crisis service providers such as a suicide hotline, crisis text line, or other appropriate crisis services as soon as any of those expressions are detected'",
+    "penaltyMax": "\u00a7 6-63-4(b) \u2014 'Violations of this chapter may result in civil penalties up to fifteen thousand dollars ($15,000) per day'",
+    "enforcer": "\u00a7 6-63-4(a) \u2014 'The attorney general shall be empowered to enforce this chapter, including the power to investigate, sue, and seek injunctions against noncompliant AI companion operators'"
+   },
+   "duplicateOf": null,
+   "flags": [
+    "aiDisclosure=periodic is lossy: \u00a7 6-63-3 requires the notification both at the beginning of any interaction (session-start) and at least every three (3) hours thereafter",
+    "incident-reporting coded for the \u00a7 6-63-2(b) annual safety-protocol-activation report to the attorney general; it is an aggregate annual filing, not per-incident reporting, and could alternatively read as registration-filing",
+    "\u00a7 6-63-4(b): 'fines directed to suicide prevention programs'",
+    "act takes effect January 1, 2027 (SECTION 2); annual reporting duty begins July 1, 2027 (\u00a7 6-63-2(b))"
+   ],
+   "confidence": "high"
+  }
+ ],
+ "resolution": "pass1"
+}

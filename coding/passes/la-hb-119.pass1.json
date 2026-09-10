@@ -1,0 +1,59 @@
+{
+  "entries": [
+    {
+      "id": "LA HB 119",
+      "segment": "ai-image-crimes",
+      "category": "criminal",
+      "family": "ai-crimes",
+      "appliesTo": "persons who create, possess, disseminate, or sell AI-generated sexual or nude images of another person",
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": {
+        "prohibition": "ncii",
+        "coveredSubjects": "minors"
+      },
+      "exposure": {
+        "penaltyMax": 10000,
+        "penaltyUnit": "per offense",
+        "enforcer": "criminal-prosecution"
+      },
+      "sources": {
+        "prohibition": "§ 73.14.1(A) — 'It is unlawful for any person to possess any video or still image created by artificial intelligence that depicts another person who is under the age of seventeen years and is totally nude or in a state of undress so as to expose the genitals, pubic area, buttocks, or female breasts'",
+        "coveredSubjects": "§ 73.13(C)(4) — '\"Minor\" means a person under the age of eighteen years.'; § 73.14.1(A) — 'another person who is under the age of seventeen years'",
+        "penaltyMax": "§ 73.13(A)(1) — 'shall be punished by imprisonment at hard labor for not less than five nor more than twenty years, or a fine of not more than ten thousand dollars, or both'",
+        "enforcer": "§ 73.13(A)(1) — 'shall be punished by imprisonment at hard labor' (criminal statute; no civil enforcer named)"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "multi-value prohibition (lossy): § 73.13 is a csam-type prohibition — 'with knowledge that the material is a deepfake depicting a minor, knowingly creates or possesses material that depicts a minor engaging in sexual conduct' — while §§ 73.14/73.14.1 cover nude 'images of another created by artificial intelligence' (ncii-type); coded ncii as the closest single enum",
+        "coveredSubjects lossy: the § 73.14 dissemination/sale offense base penalty applies to depictions of any person (§ 73.14(D)(1) 'whoever violates the provisions of this Section shall be imprisoned with or without hard labor for not more than one year, fined not more than one thousand dollars, or both'), with an enhanced tier 'when the depicted person is under the age of seventeen years'; coded minors as the act's dominant focus",
+        "imprisonment terms (per rule 11): § 73.13 five to twenty years at hard labor, at least five without parole; § 73.14(D)(1) up to one year; § 73.14(D)(2) up to five years (at least one without parole) when depicted person under seventeen; § 73.14.1(C)(1) up to five years (at least one without parole)",
+        "educator enhancement: §§ 73.13(A)(2), 73.14(D)(3), 73.14.1(C)(2) — 'If the offender is an educator and the victim is a student, the offender may be imprisoned for an additional two years with or without hard labor'",
+        "juvenile carve-outs: offenders under fourteen (§§ 73.14(D)(4), 73.14.1(C)(3)) and sexting violations by persons under seventeen (§ 81.1.1(D)(1)) 'governed exclusively by the provisions of Title VII of the Louisiana Children's Code'",
+        "service-provider exemption: § 73.14.1(D) — 'This Section does not apply to an interactive computer service, electronic mail service provider, or a provider of a telecommunications service'",
+        "§ 81.1.1(A)(3) extends the sexting crime to minors who 'knowingly possess, sell, or maliciously disseminate any video or still image created by artificial intelligence' depicting another nude, 'with the intent to coerce, harass, or intimidate'"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "LA HB 119",
+      "segment": "school-information",
+      "category": "education",
+      "family": "education-k12",
+      "appliesTo": "public school principals, public school governing authorities (including charter schools), and the Louisiana Department of Education",
+      "duties": [],
+      "dutySources": {},
+      "params": {},
+      "sources": {},
+      "duplicateOf": null,
+      "flags": [
+        "annual information-dissemination mandate fits no education-k12 param or duty key: § 416.20.1(A) — 'The principal of each public school shall disseminate information during the first five days of each school year to each student grades six and above regarding the crime and consequences of unlawful dissemination or sale of images of another created by artificial intelligence'",
+        "parental acknowledgment form required: § 416.20.1(A) — 'the information shall be provided to each student's parent or legal guardian on a written form containing a signature line ... to sign to acknowledge receipt and understanding of the information'",
+        "state-agency development duty: § 416.20.1(B) — 'The Louisiana Department of Education shall develop the information prescribed by this Section and provide it to each public school governing authority'",
+        "charter schools bound: § 3996(B)(92) makes the mandate one of the laws 'otherwise applicable to public schools' from which charter schools are not exempt",
+        "no penalty provision in this segment; exposure omitted (silence is silence)"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

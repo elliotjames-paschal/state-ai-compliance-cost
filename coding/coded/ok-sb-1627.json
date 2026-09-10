@@ -1,0 +1,41 @@
+{
+ "entries": [
+  {
+   "id": "OK SB 1627",
+   "category": "criminal",
+   "segment": null,
+   "family": "ai-crimes",
+   "appliesTo": "persons who disseminate nonconsensual private sexual images, including artificially generated sexual depictions",
+   "duties": [
+    "statutory-review"
+   ],
+   "dutySources": {},
+   "params": {
+    "prohibition": "ncii",
+    "coveredSubjects": "all-persons"
+   },
+   "exposure": {
+    "penaltyMax": 1000,
+    "penaltyUnit": "per conviction (misdemeanor fine)",
+    "enforcer": "criminal-prosecution"
+   },
+   "sources": {
+    "prohibition": "SECTION 37 (21 O.S. \u00a7 1040.13b(B)(2)(a)) \u2014 'disseminates an artificially generated sexual depiction of another person with the intent or with reckless disregard to harass, annoy, threaten, alarm, or cause physical, emotional, reputational, or economic harm to the depicted person'",
+    "coveredSubjects": "SECTION 37 (21 O.S. \u00a7 1040.13b(B)(1)(a)) \u2014 'intentionally disseminates an image of another person who is engaged in a sexual act or whose intimate parts are exposed, in whole or in part'",
+    "penaltyMax": "SECTION 37 (21 O.S. \u00a7 1040.13b(F)) \u2014 'Any person who violates the provisions of subsection B of this section shall, upon conviction, be guilty of a misdemeanor punishable by imprisonment in a county jail for not more than one (1) year or by a fine of not more than One Thousand Dollars ($1,000.00), or both such fine and imprisonment.'",
+    "enforcer": "SECTION 37 (21 O.S. \u00a7 1040.13b(F)) \u2014 'shall, upon conviction, be guilty of a misdemeanor'"
+   },
+   "duplicateOf": null,
+   "flags": [
+    "Reconciliation act, not a new AI regime: the bill is 'An Act relating to multiple versions of statutes; amending, merging, consolidating, and repealing multiple versions of statutes' (SUBJECT: 'Criminal statutes duplicate sections'); the AI provisions re-enact/merge 2025 session amendments rather than imposing new obligations.",
+    "AI-relevant content is limited to SECTION 37 (21 O.S. \u00a7 1040.13b, NCII including 'artificially generated sexual depiction', with definitions of 'Artificial intelligence' and 'Generative artificial intelligence') and the CSAM sections \u2014 SECTION 30 (21 O.S. \u00a7 1024.1) defines child sexual abuse material to include 'a computer-generated image'; the rest of the bill (child-abuse reporting, assault, eluding, trafficking, stalking, firearms, transit crimes, DUI) is non-AI criminal law.",
+    "prohibition param is lossy (multi-value): besides NCII, the bill carries CSAM offenses covering computer-generated depictions \u2014 21 O.S. \u00a7 1021.2 ('a fine of not more than Twenty-five Thousand Dollars ($25,000.00)', up to 20 years) and \u00a7 1040.12a aggravated possession ('a fine in an amount of not more than Ten Thousand Dollars ($10,000.00)', up to life, sex-offender registration); ncii chosen because \u00a7 1040.13b is the provision with explicit AI definitions.",
+    "NCII imprisonment tiers per rule 11 (not in penaltyMax): \u00a7 1040.13b(F) misdemeanor up to 1 year; \u00a7 1040.13b(G) Class D1 felony up to 5 years (10 years for second/subsequent, plus sex-offender registration) where the violator gains or attempts to gain property or anything of value; \u00a7 1040.13b(K) Class D1 felony up to 10 years for disseminating three or more images/depictions within six months.",
+    "Court takedown authority in \u00a7 1040.13b(I) \u2014 'The court shall have the authority to order the defendant to remove the disseminated image or artificially generated sexual depictions' \u2014 is a court power over a convicted defendant, not an operator takedown-process duty; not coded as a duty.",
+    "Section 230-style carve-out: \u00a7 1040.13b(D) exempts interactive computer services, wireless providers, and telecommunications/broadband providers from liability 'solely as a result of content or information provided by another person'."
+   ],
+   "confidence": "medium"
+  }
+ ],
+ "resolution": "pass1"
+}

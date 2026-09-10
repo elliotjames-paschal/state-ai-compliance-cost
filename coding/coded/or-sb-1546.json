@@ -1,0 +1,59 @@
+{
+ "entries": [
+  {
+   "id": "OR SB 1546",
+   "category": "company",
+   "family": "chatbot-safeguards",
+   "segment": null,
+   "appliesTo": "operators that make an AI companion or AI companion platform available to users in Oregon",
+   "duties": [
+    "statutory-review",
+    "disclosure-ui",
+    "crisis-protocol",
+    "content-safeguards"
+   ],
+   "dutySources": {
+    "disclosure-ui": "\u00a7 1(2) \u2014 'the operator shall provide on the artificial intelligence companion platform a clear and conspicuous notice that indicates that a user is interacting with artificially generated output and not a natural person'",
+    "crisis-protocol": "\u00a7 1(3)(a) \u2014 'unless the operator has a protocol for using evidence-based methods for detecting input from the user that consists of suicidal ideation or intent or self-harm ideation or intent'",
+    "content-safeguards": "\u00a7 1(4)(a) \u2014 'the operator shall undertake reasonable measures to prevent the artificial intelligence companion from generating statements that would lead a reasonable person to believe that the person is interacting with another natural person'"
+   },
+   "params": {
+    "scope": "companion",
+    "ageFocus": "all-users",
+    "aiDisclosure": "periodic",
+    "crisisProtocol": "required",
+    "breakReminders": "required",
+    "engagementLimits": "required",
+    "contentSafeguards": "required"
+   },
+   "sources": {
+    "scope": "\u00a7 1(1)(a)(A) \u2014 'designed to simulate a sustained, human-like platonic, intimate or romantic relationship or companionship with a user'",
+    "ageFocus": "\u00a7 1(3)(a) \u2014 'An operator may not allow users in this state access to an artificial intelligence companion or artificial intelligence companion platform unless the operator has a protocol'",
+    "aiDisclosure": "\u00a7 1(4)(b)(B) \u2014 'a clear and conspicuous reminder at a minimum of every three hours of interaction \u2026 along with a further reminder that the user is interacting with artificially generated output'",
+    "crisisProtocol": "\u00a7 1(3)(a) \u2014 'a protocol for using evidence-based methods for detecting input from the user that consists of suicidal ideation or intent or self-harm ideation or intent and that prevents the provision of content to the user that encourages suicidal ideation, suicide or self-harm'",
+    "breakReminders": "\u00a7 1(4)(b)(B) \u2014 'Provide a clear and conspicuous reminder at a minimum of every three hours of interaction that the user should take a break'",
+    "engagementLimits": "\u00a7 1(4)(c)(A) \u2014 'a system of rewards or affirmations with the purpose of reinforcing behavior or maximizing the time during which the user engages with the artificial intelligence companion'",
+    "contentSafeguards": "\u00a7 1(4)(a)(A)\u2013(D) \u2014 'Explicitly claim that the artificial intelligence companion is sentient or human; \u2026 Simulate romantic interest or are sexual innuendo; or \u2026 Role-play romantic relationships between adults and minors'",
+    "penaltyMax": "\u00a7 2(1)(a) \u2014 'The greater of the individual's actual damages or statutory damages of $1,000 for each violation'",
+    "penaltyUnit": "\u00a7 2(1)(a) \u2014 'for each violation'",
+    "enforcer": "\u00a7 2(1) \u2014 'An individual who suffers an ascertainable loss of money or property or other injury in fact as a result of an operator's violation of section 1 of this 2026 Act may bring an action in a court of this state'"
+   },
+   "exposure": {
+    "penaltyMax": 1000,
+    "penaltyUnit": "per violation",
+    "enforcer": "private-right"
+   },
+   "duplicateOf": null,
+   "flags": [
+    "exposure: enforcement is exclusively a private right of action \u2014 \u00a7 2 contains no agency enforcement provision; \u00a7 2(1)(a) damages are 'the greater of the individual's actual damages or statutory damages of $1,000 for each violation', so actual damages may exceed penaltyMax; injunction (\u00a7 2(1)(b)) and prevailing-plaintiff attorney fees and costs (\u00a7 2(2)) also available",
+    "ageFocus coded all-users (disclosure \u00a7 1(2) and crisis protocol \u00a7 1(3) bind for all users) but \u00a7 1(4) adds minor-specific safeguards triggered by a 'knows or has reason to believe \u2026 is a minor' knowledge standard \u2014 no age-verification duty imposed, so age-assurance not assigned and ageThreshold omitted ('minor' is never defined numerically)",
+    "aiDisclosure 'periodic' is anchored to the minors-only three-hour reminder in \u00a7 1(4)(b)(B); the general \u00a7 1(2) notice states no timing and triggers only where a reasonable person would believe they are interacting with a natural person \u2014 lossy",
+    "protocol publication (\u00a7 1(3)(c): 'An operator shall publish on the operator's website the details of the operator's protocol') and the annual public transparency report (\u00a7 1(5)(a): post referral counts and protocol details on a publicly accessible website by December 31 each year) fit no listed duty \u2014 posted publicly, not filed with an authority, so incident-reporting/registration-filing do not apply",
+    "\u00a7 1(3)(b)(A) allows an alternative youthline referral for users the operator identifies as under 25 years of age \u2014 no fixed param captures this",
+    "\u00a7 1(4)(c)(B)\u2013(C) also prohibit guilt/abandonment messaging on attempted disengagement and material misrepresentations about the companion's identity, capabilities or training data \u2014 coded under engagementLimits/contentSafeguards"
+   ],
+   "confidence": "high"
+  }
+ ],
+ "resolution": "final"
+}

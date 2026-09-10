@@ -1,0 +1,39 @@
+{
+  "entries": [
+    {
+      "id": "SC H 3049",
+      "category": "criminal",
+      "family": "ai-crimes",
+      "segment": null,
+      "appliesTo": "any person who intentionally discloses or threatens to disclose a private intimate image without consent",
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": {
+        "prohibition": "ncii",
+        "coveredSubjects": "all-persons"
+      },
+      "exposure": {
+        "penaltyMax": 10000,
+        "penaltyUnit": "statutory damages per defendant",
+        "enforcer": "private-right"
+      },
+      "sources": {
+        "prohibition": "§ 15-75-320(A) — 'a depicted individual who is identifiable and who suffers harm from a person's intentional disclosure or threatened disclosure of an intimate image that was private without the depicted individual's consent has a cause of action against the person'",
+        "coveredSubjects": "§ 15-75-320(A) — 'a depicted individual who is identifiable and who suffers harm' (no age limitation; § 15-75-360(C) tolls the limitations period for 'a depicted individual who was a child')",
+        "penaltyMax": "§ 15-75-350(A)(1)(b) — 'statutory damages not to exceed ten thousand dollars against each defendant found liable under this article for all disclosure and threatened disclosures by the defendant'",
+        "penaltyUnit": "§ 15-75-350(A)(1)(b) — 'against each defendant found liable under this article'",
+        "enforcer": "§ 15-75-320(A) — 'has a cause of action against the person'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "civil-remedies act, not a criminal prohibition — no criminal penalties anywhere in the text; category 'criminal' used because the act binds persons with a conduct prohibition and creates no ongoing company compliance duty, and rule 10 routes NCII conduct prohibitions to ai-crimes",
+        "intimate-image definition reaches AI deepfakes: § 15-75-310(9)(a) covers images 'generated or substantially modified using machine learning techniques or any other computer-generated or machine-generated means to falsely depict an individual's appearance or conduct' alongside authentic photographs/film/video",
+        "platform safe harbor, not a duty: § 15-75-330(E) — 'A covered platform that is in compliance with the Tools to Address Known Exploitation by Immobilizing Technological Deepfakes on Websites and Networks Act of 2025, P.L. No. 119-12, is not liable under this article'",
+        "remedies beyond statutory damages: greater of actual damages or the $10,000 statutory cap, plus disgorgement (§ 15-75-350(A)(2) 'an amount equal to any monetary gain made by the defendant'), punitive damages (§ 15-75-350(A)(3)), attorney's fees and injunctive relief (§ 15-75-350(B))",
+        "limitations: 3 years from discovery for disclosure, 4 years for a threat to disclose (§ 15-75-360(A)); tolled until age eighteen for child plaintiffs (§ 15-75-360(C))",
+        "construction clauses: consistent with 47 U.S.C. § 230 and no alteration of sovereign immunity (§ 15-75-370)"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

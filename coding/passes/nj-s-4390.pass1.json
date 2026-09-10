@@ -1,0 +1,28 @@
+{
+  "entries": [
+    {
+      "id": "NJ S 4390",
+      "category": "public-sector",
+      "family": "data-centers",
+      "segment": null,
+      "appliesTo": "New Jersey Economic Development Authority tax-credit allocations under the Next New Jersey Program Act",
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": {
+        "scope": "halves Next New Jersey Program (AI/data-center investment) tax-credit set-aside from $500M to $250M"
+      },
+      "exposure": null,
+      "sources": {
+        "scope": "§ 1 (amending § 98(b)(1)(k) of P.L.2020, c.156, C.34:1B-362) — 'an amount not to exceed [$500,000,000] $250,000,000 shall be made available for projects awarded a tax credit pursuant to the \"Next New Jersey Program Act,\" P.L.2024, c.49 (C.34:1B-394 et al.)'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "reprint-deletions: all superscript-1 bracketed matter was struck by the June 24, 2026 Senate Budget and Appropriations Committee amendments — the energy-storage tax-credit program (§§ 4-5), the $100 ratepayer gross-income-tax credit (§ 6), rulemaking (§ 7), and the P.L.2025, c.136 amendments (§§ 2-3) are all deleted; only the § 1 cap reduction and the effective-date clause remain operative",
+        "no-compliance-duty: bill imposes no obligation on any private or public actor beyond reallocating an incentive cap; there are no duty-hour-generating requirements — cost impact is forgone tax credits, not compliance work",
+        "ai-nexus-indirect: the enacted text never uses the words 'artificial intelligence' or 'data center' outside the act's designation ('designated as the \"End Data Center Tax Credits Act\"'); the AI/data-center connection runs through the cross-referenced Next New Jersey Program Act, P.L.2024, c.49, which this text does not describe",
+        "category-fit: no CODING.md category cleanly fits a tax-credit reallocation; coded public-sector because the only entity whose behavior the text constrains is the state authority administering the cap"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

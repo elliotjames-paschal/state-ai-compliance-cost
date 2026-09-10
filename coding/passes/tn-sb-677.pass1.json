@@ -1,0 +1,27 @@
+{
+  "entries": [
+    {
+      "id": "TN SB 677",
+      "category": "education",
+      "family": "education-k12",
+      "segment": null,
+      "appliesTo": "the department of education, teachers in grades 6-12, LEAs and public charter schools",
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": { "trainingRequired": "yes" },
+      "exposure": null,
+      "sources": {
+        "trainingRequired": "§ 1(b) — 'teachers in grades six through twelve (6-12) must complete at least one ( 1) professional development course approved by the department that provides asynchronous instruction on the use of artificial intelligence in the classroom'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "Department duty to supply the course: § 1(a) — 'The department shall provide at least one (1) professional development course for teachers that provides asynchronous instruction on the use of artificial intelligence in the classroom' — made available 'at no cost, to teachers in grades six through twelve (6-12)'; binds a state agency, not schools, but the bill's core mandate is teacher training so coded education, not public-sector.",
+        "Completion deadline: § 1(b) — 'By August 1, 2028, or within two (2) years of becoming licensed as a teacher in this state, whichever is later'.",
+        "LEA/charter duty: § 1(b) — 'Each LEA and public charter school shall approve professional development points... for a teacher's completion of at least one (1) department-approved artificial intelligence training' — no fixed duty key fits (administrative credit-approval, not curriculum/policy).",
+        "No penalty or enforcement provision in the text; exposure omitted (silence is silence).",
+        "Legiscan relation is 'crossfiled' HB 545 only; text says 'Substituted for: House Bill No. 545' — SB 677 is the surviving vehicle, not a duplicate."
+      ],
+      "confidence": "high"
+    }
+  ]
+}

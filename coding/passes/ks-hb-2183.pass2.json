@@ -1,0 +1,25 @@
+{
+  "entries": [
+    {
+      "id": "KS HB 2183",
+      "category": "public-sector",
+      "family": "public-sector",
+      "segment": null,
+      "appliesTo": "state courts and administrative hearing officers interpreting statutes, rules and regulations, and documents with the force and effect of law",
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": {},
+      "exposure": null,
+      "sources": {
+        "category": "§ 1(a) — 'a state court or an administrative hearing officer hearing an administrative action may consider but shall not defer to a state agency's interpretation of such statute, rule and regulation or document'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "text-mismatch: the on-file text (texts/ks-hb-2183.txt) is an agency-deference act — 'prohibiting deference to the agency's interpretation by a state court or an administrative hearing officer' — containing no AI provisions; data/legiscan.js titles the enacted 2025-26 KS HB 2183 as 'Modifying elements in the crimes of sexual exploitation of a child … visual depictions … morphed from a real child's image or generated without any actual child involvement', i.e. an ai-crimes (csam) bill. The fetched PDF appears to be the wrong bill (a known Kansas enrolled-PDF link failure per repo runbook); refetch the correct enrolled text before adjudication.",
+        "no fixed-vocabulary duty or param fits the on-file text: it mandates de novo judicial interpretation ('shall interpret the meaning and effect of such statute, rule and regulation or document de novo') and a constitutional-rights tiebreaker, binding courts, not agency AI use — family 'public-sector' assigned only as nearest category for a government-binding act",
+        "no penalty or enforcement provision in the on-file text; exposure omitted"
+      ],
+      "confidence": "low"
+    }
+  ]
+}

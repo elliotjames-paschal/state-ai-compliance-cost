@@ -1,0 +1,41 @@
+{
+  "entries": [
+    {
+      "id": "UT SB 256",
+      "category": "company",
+      "family": "likeness-rights",
+      "segment": null,
+      "appliesTo": "persons who use, publish, distribute, or cause the publication of content containing an individual's personal identity (picture, portrait, likeness, voice, audiovisual appearance), including AI simulations and recreations",
+      "duties": ["statutory-review", "consent-workflow"],
+      "dutySources": {
+        "consent-workflow": "45-3-3(1)(a) — 'each individual has the exclusive right to consent to the use of the individual's personal identity'; 45-3-5(1)(b) — 'if the publisher did not take reasonable steps to [assure] ensure that consent was obtained'"
+      },
+      "params": {
+        "consentRequired": "yes",
+        "coveredSubjects": "all-persons",
+        "postmortemYears": 70
+      },
+      "exposure": {
+        "enforcer": "private-right (individual or right holder)"
+      },
+      "sources": {
+        "consentRequired": "45-3-3(1)(a) — 'each individual has the exclusive right to consent to the use of the individual's personal identity'",
+        "coveredSubjects": "45-3-2(6) — '\"Individual\" means a natural person, living or dead.'",
+        "postmortemYears": "45-3-3(1)(b)(iii) — 'does not expire until 70 years after the death of the individual'",
+        "enforcer": "45-3-4(1) — 'An individual whose personal identity has been abused under Section 45-3-3 of this [act] chapter, or a right holder of that individual, may bring an action against a person who caused the publication of the advertisement or content'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "Defamation provisions fit no duty vocabulary: 45-2-3.5 makes AI/technological creation no defense to libel or slander ('It is not a defense to a claim of libel or slander that the communication: (a) was created through generative artificial intelligence'), and 45-2-14 requires the PLAINTIFF to give pre-suit written notice and limits recovery to actual damages 'if the person who published or caused the publication of the digitally created content removes the content within 10 days after the day on which the person receives notice' — a removal safe harbor incentive, not a mandated takedown-process duty",
+        "Disclosure safe harbor not coded as disclosure-ui: 45-3-3(5) exempts distribution liability if 'accompanied by a clear and conspicuous disclosure that the content is a simulation or artificial recreation of the individual' — optional defense, not a requirement",
+        "Tool-trafficking prohibition fits no listed duty: 45-3-3(2)(c) — abuse if a person 'knowingly distributes, sells, or licenses any technology, software, or tool whose intended primary purpose is the unauthorized creation or modification of content that includes an individual's personal identity'",
+        "Remedies are uncapped civil awards, no penaltyMax: 45-3-4(2) — 'the court may award to the plaintiff injunctive relief, damages alleged and proved, exemplary damages, and reasonable [attorney's] attorney fees and costs'",
+        "Cross-referenced criminal penalty not imported: 45-3-3(3) — 'Nothing in this [part] chapter prohibits prosecution of abuse of personal identity under Section 76-12-304'",
+        "Interactive computer services exempt: 45-3-7(3) and 45-2-14(5) exclude 'an interactive computer service, as defined in 47 U.S.C. 230(f)(2), for content provided by another person'",
+        "coveredSubjects enum lossy: statute covers living and deceased individuals, with retroactive vesting — 45-3-3(1)(b)(v) 'in the case of an individual who died before May 6, 2026, applies retroactively for up to 70 years before May 6, 2026'; coded all-persons",
+        "Exemptions at 45-3-7(1): news/public affairs/sports broadcasts, documentary/historical/biographical works, works of 'political, public interest, or newsworthy value, including a comment, criticism, parody, satire, scholarship, or a transformative creation', and 'fleeting or incidental uses'"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

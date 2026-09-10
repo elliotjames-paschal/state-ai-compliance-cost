@@ -1,0 +1,29 @@
+{
+  "entries": [
+    {
+      "id": "WV SB 402",
+      "category": "public-sector",
+      "family": "public-sector",
+      "segment": null,
+      "appliesTo": "West Virginia Higher Education Policy Commission (Chancellor), which must develop and administer the Micro-Credential Program",
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": {
+        "program": "micro-credential program"
+      },
+      "exposure": null,
+      "sources": {
+        "program": "§18B-3D-8(c) — 'the West Virginia Micro-Credential Program is established within the West Virginia Higher Education Policy Commission. The Chancellor or their designee shall be responsible for developing and administering the Micro-Credential Program'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "minimal AI relevance: AI appears once, as a permitted delivery modality — §18B-3D-8(d)(4) 'Utilize digital, web-based, artificial intelligence-based, hands-on, or on-the-job micro-credentials as needed to meet workforce and market demands' — an authorization, not a duty; the bill imposes no AI-specific obligations",
+        "category judgment: bound party is the Higher Education Policy Commission, a state agency, so coded public-sector rather than education; no duties fall on schools/districts/curricula",
+        "rulemaking is permissive only: §18B-3D-8(e) 'The commission may propose rules in accordance with §29A-3A-1 et seq.'",
+        "no penalty or enforcement provision in the text (exposure omitted per rule 3)",
+        "legiscan.js relation is 'similar to HB 4014' only — no replaced-by relation, so not a duplicate"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+ "entries": [
+  {
+   "id": "LA SB 386",
+   "category": "company",
+   "family": "privacy-data",
+   "appliesTo": "controllers and processors doing business in Louisiana with >$25M annual gross revenues, or annually handling personal information of 75,000+ consumers/households/devices, or deriving 50%+ of annual revenue from selling personal information",
+   "segment": null,
+   "duties": [
+    "statutory-review",
+    "impact-assessment",
+    "consent-workflow",
+    "takedown-process",
+    "risk-program"
+   ],
+   "dutySources": {
+    "impact-assessment": "\u00a71780.4(E)(1) \u2014 'A controller shall conduct and document a data protection assessment of each of the following processing activities involving personal data'",
+    "consent-workflow": "\u00a71780.4(A)(2)(d) \u2014 'Process the sensitive data of a consumer without obtaining the consumer's consent'",
+    "takedown-process": "\u00a71780.3(C)(1) \u2014 'A controller shall establish a process for a consumer to appeal the controller's refusal to take action on a request'; \u00a71780.3(E)(1) \u2014 'A controller shall establish two or more secure and reliable methods to enable consumers to submit a request to exercise their consumer rights under this Chapter'",
+    "risk-program": "\u00a71780.4(A)(1)(b) \u2014 'shall establish, implement, and maintain reasonable administrative, technical, and physical data security practices that are appropriate to the volume and nature of the personal data at issue'"
+   },
+   "params": {
+    "admOptOut": "required",
+    "profilingAssessment": "required"
+   },
+   "exposure": {
+    "enforcer": "attorney-general (violations are unfair trade practices under R.S. 51:1401 et seq., private rights of action excluded)",
+    "cureDays": 30
+   },
+   "sources": {
+    "admOptOut": "\u00a71780.3(A)(2)(e)(iii) \u2014 'Opt out of the processing of the personal data for purposes of\u2026 Profiling in furtherance of a decision that produces a legal or similarly significant effect concerning the consumer.'",
+    "profilingAssessment": "\u00a71780.4(E)(1)(c) \u2014 'The processing of personal data for purposes of profiling, if the profiling presents a reasonably foreseeable risk of any of the following'",
+    "enforcer": "\u00a71780.5(A), (C) \u2014 'The attorney general shall enforce the provisions of this Chapter.' \u2026 'Any violation of the provisions of this Chapter shall constitute an unfair and deceptive trade practice pursuant to the Unfair Trade Practices and Consumer Protection Law, R.S. 51:1401 et seq., excluding private rights of action as provided in R.S. 51:1409 and 1409.1.'",
+    "cureDays": "\u00a71780.5(D)(1) \u2014 'Cures the alleged violation identified by the attorney general within the thirty-day period.'",
+    "appliesTo": "\u00a71780.2(A) \u2014 'shall apply only to a person or entity that does business in the state and that satisfies one or more of the following thresholds: (1) Has annual gross revenues in excess of twenty-five million dollars. (2) Annually buys, receives for the business's commercial purposes, sells, or shares for commercial purposes the personal information of seventy-five thousand or more consumers, households, or devices. (3) Derives fifty percent or more of its annual revenues from selling consumers' personal information.'"
+   },
+   "duplicateOf": null,
+   "flags": [
+    "General consumer data privacy act; AI relevance is limited to 'profiling' (defined \u00a71780.1(24) as 'any form of solely automated processing performed on personal data') \u2014 the opt-out right and the data protection assessment trigger.",
+    "No penaltyMax coded: enforcement is routed through the Unfair Trade Practices and Consumer Protection Law, R.S. 51:1401 et seq. (rule 4, no imports).",
+    "Cure period is time-limited: the 30-day right-to-cure notice regime applies only 'Beginning January 1, 2027, and ending July 31, 2027' (\u00a71780.5(D)).",
+    "Consumer rights suite (access, correction, deletion, portability, 45-day response, 60-day appeal decision, privacy notice, processor contracts) exceeds the fixed duty/param vocabulary; closest duties assigned, remainder not separately codable.",
+    "risk-program is coded for the \u00a71780.4(A)(1)(b) data-security-practices mandate, not an AI governance program \u2014 arguably lossy against the duty definition.",
+    "Known-child provisions exist (sensitive data includes 'Personal data collected from a known child'; COPPA parental-consent safe harbor in \u00a71780.2(E)) but the act is not minors-focused, so minorsFocus not coded.",
+    "\u00a71780.4(P) separately prohibits entities described by \u00a71780.2(A)(3) from selling sensitive personal data without prior consent.",
+    "Effective January 1, 2027 (Section 2); data protection assessments are required for processing activities as of January 1, 2027 and are not retroactive (\u00a71780.4(E)(7))."
+   ],
+   "confidence": "high"
+  }
+ ],
+ "resolution": "final"
+}

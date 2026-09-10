@@ -1,0 +1,38 @@
+{
+ "entries": [
+  {
+   "id": "NY S 8831",
+   "category": "public-sector",
+   "family": "public-sector",
+   "segment": null,
+   "appliesTo": "covered entities \u2014 any county, city, town, village, school district, board of cooperative educational services, county vocational education and extension board, district corporation, SUNY, CUNY, or community college \u2014 using automated employment decision-making tools or AI systems",
+   "duties": [
+    "statutory-review",
+    "documentation"
+   ],
+   "dutySources": {
+    "documentation": "\u00a7 6 (adding STL \u00a7 402-a) \u2014 'any covered entity that utilizes an automated employment decision-making tool, shall publish a list of such automated employment decision-making tools on such covered entity's website'"
+   },
+   "params": {
+    "inventory": "annual"
+   },
+   "exposure": null,
+   "sources": {
+    "inventory": "\u00a7 6 (adding STL \u00a7 402-a) \u2014 'shall publish a list of such automated employment decision-making tools on such covered entity's website no later than the thirtieth of December next succeeding the date on which this section shall have become a law, and annually thereafter'",
+    "appliesTo": "\u00a7 4 (adding STL \u00a7 401(3)) \u2014 '\"Covered entity\" shall mean any county, city, town, village, school district, board of cooperative educational services, county vocational education and extension board, district corporation, the state university of New York, the city university of New York, or community college.'"
+   },
+   "duplicateOf": null,
+   "flags": [
+    "Not a duplicate: legiscan relation shows S 8831 'replaces' A 9487 \u2014 S 8831 is the surviving vehicle; A 9487 should be coded duplicateOf this bill.",
+    "Core of \u00a7\u00a7 7-15 is anti-displacement/collective-bargaining protection fitting no listed duty: use of AI systems 'shall not result in the: (i) discharge, displacement or loss of position, including partial displacement such as a reduction in the hours of non-overtime work, wages, or employment benefits' and 'shall not affect the: (i) existing rights of employees pursuant to an existing collective bargaining agreement' \u2014 workforce-style protections applied to public employers (school districts, BOCES, SUNY, CUNY, community colleges, civil service).",
+    "The \u00a7 402-a disclosure duty is twice qualified by 'To the extent feasible', softening the annual-inventory obligation.",
+    "Bill also covers education entities (school districts, BOCES, SUNY, CUNY, community colleges); coded public-sector rather than education because coverage spans general local governments (counties, cities, towns, villages) and the civil service law.",
+    "\u00a7\u00a7 1-3 and \u00a7 16 REPEAL provisions of the 2025 chapter (S. 7599-C / A. 8295-D), including Article 5 and \u00a7 103-f of the state technology law and \u00a7 115 of the education law; \u00a7 17 adds a sunset to that chapter: 'shall expire and be deemed repealed July 1, 2028'.",
+    "\u00a7 18: most sections 'shall take effect on the same date and in the same manner as a chapter of the laws of 2025... as proposed in legislative bills numbers S. 7599-C and A. 8295-D, takes effect' \u2014 effectiveness is contingent on that chapter.",
+    "No penalty or enforcement provision in the text \u2014 exposure omitted (silence is silence)."
+   ],
+   "confidence": "medium"
+  }
+ ],
+ "resolution": "pass1"
+}

@@ -1,0 +1,29 @@
+{
+ "entries": [
+  {
+   "id": "TN SB 837",
+   "category": "public-sector",
+   "family": "definitions-only",
+   "appliesTo": "no bound party \u2014 amends the code-wide statutory definition of 'person'",
+   "duties": [
+    "statutory-review"
+   ],
+   "dutySources": {},
+   "params": {},
+   "exposure": null,
+   "sources": {
+    "family": "SECTION 1 (amending Tenn. Code Ann. \u00a7 1-3-105(a)(20)) \u2014 '(20) \"Person\": (A) Includes a corporation, firm, company, or association; and (B) Does not include artificial intelligence, a computer algorithm, a software program, computer hardware, or any type of machine'"
+   },
+   "segment": null,
+   "duplicateOf": null,
+   "flags": [
+    "definitions-only act: amends the general definition of 'person' in Title 1 (rules of code construction) to exclude AI/algorithms/software/hardware/machines; imposes no compliance duty on any party",
+    "category is a forced choice \u2014 none of company/criminal/public-sector/education fits a code-construction amendment with no bound party; coded public-sector because the definition governs interpretation of state statutes",
+    "no penalty or enforcement provision in the text \u2014 exposure omitted (silence is silence)",
+    "not a duplicate: SB 837 was 'Substituted for: House Bill No. 849' \u2014 SB 837 is the surviving vehicle (legiscan.js shows only a 'crossfiled' relation to HB 849, no replaced-by)"
+   ],
+   "confidence": "medium"
+  }
+ ],
+ "resolution": "pass1"
+}

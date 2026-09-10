@@ -1,0 +1,26 @@
+{
+  "entries": [
+    {
+      "id": "TN SB 837",
+      "category": "public-sector",
+      "family": "definitions-only",
+      "appliesTo": "statutory construction of the Tennessee Code (definition of 'person'); imposes no duties on any party",
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": {},
+      "exposure": null,
+      "sources": {
+        "family": "SECTION 1 — '(20) \"Person\": (A) Includes a corporation, firm, company, or association; and (B) Does not include artificial intelligence, a computer algorithm, a software program, computer hardware, or any type of machine;'"
+      },
+      "segment": null,
+      "duplicateOf": null,
+      "flags": [
+        "category does not fit the fixed vocabulary: the act amends the general definitions section (T.C.A. 1-3-105(a)(20)) governing construction of the entire code and binds no company, person, agency, or school; 'public-sector' coded as the least-wrong choice",
+        "no penalty, enforcement, or compliance provision anywhere in the text — exposure omitted as silence",
+        "OCR artifact in source text: subdivision '(B)' rendered as '(8)' in texts/tn-sb-837.txt",
+        "legiscan.js shows only a 'crossfiled' relation to HB 849; SB 837 is the surviving enacted vehicle ('Substituted for: House Bill No. 849'), so duplicateOf is null"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

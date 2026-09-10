@@ -1,0 +1,27 @@
+{
+  "entries": [
+    {
+      "id": "UT HB 110",
+      "category": "public-sector",
+      "family": "public-sector",
+      "segment": null,
+      "appliesTo": "Utah courts and the Board of Pardons and Parole making probation and parole decisions",
+      "duties": ["statutory-review", "human-review"],
+      "dutySources": {
+        "human-review": "77-27-5(8) — 'The board may not rely solely on an algorithm or a risk assessment tool score in determining whether parole should be granted or terminated for an offender.' ; 77-18-105(9)(b) — 'the court may not rely solely on an algorithm or a risk assessment tool score.'"
+      },
+      "params": {},
+      "exposure": null,
+      "sources": {},
+      "duplicateOf": null,
+      "flags": [
+        "Primarily a non-AI offender-procedure bill (class B misdemeanor probation supervision, parole reconsideration after revocation, pardon waiting periods of 10/20 years for sex-offender-registry offenses per 77-27-5.6(2), expungement-certificate ineligibility for registry offenses per 77-40a-303(2)(a)(v)); the only AI-relevant provisions are the algorithm sole-reliance prohibitions in 77-18-105(9)(b) and 77-27-5(8).",
+        "Cannot determine from the plain-text extraction (underline markup lost) whether the algorithm sole-reliance provisions are newly enacted by this bill or pre-existing law restated in the amended sections; the bill's Highlighted Provisions do not mention algorithms or risk assessment tools.",
+        "public-sector param vocabulary (inventory/procurementRules/assessment/program) has no key for a prohibition on sole reliance on an algorithm in individual government decisions; coded as human-review duty only.",
+        "No penalty attaches to the bound decision-makers for the algorithm provisions; the bill's only penalty clause (77-27-9(4)(b) — 'A person who willfully disobeys a properly served subpoena issued by the board is guilty of a class B misdemeanor.') concerns board subpoenas, not AI, so no exposure block is coded.",
+        "Effective date: Section 8 — 'This bill takes effect on May 6, 2026.'"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

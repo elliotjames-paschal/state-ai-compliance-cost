@@ -574,7 +574,7 @@
         "<td>" + b.status + "</td>";
       tbody.appendChild(tr);
     });
-    $("bill-count").textContent = included + " of " + DATA.bills.length + " bills in scope · placeholder coding";
+    $("bill-count").textContent = included + " of " + DATA.bills.length + " coded entries in scope · double-coded from enacted texts";
   }
 
   function recompute() {

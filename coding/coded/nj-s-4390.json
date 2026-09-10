@@ -1,0 +1,32 @@
+{
+ "entries": [
+  {
+   "id": "NJ S 4390",
+   "category": "public-sector",
+   "family": "data-centers",
+   "segment": null,
+   "appliesTo": "New Jersey Economic Development Authority tax-credit allocations under the Next New Jersey Program Act",
+   "duties": [
+    "statutory-review"
+   ],
+   "dutySources": {},
+   "params": {
+    "scope": "Next New Jersey Program credit-cap cut $500M to $250M"
+   },
+   "exposure": null,
+   "sources": {
+    "scope": "\u00a7 1, amending b.(1)(k) of section 98 of P.L.2020, c.156 (C.34:1B-362) \u2014 'an amount not to exceed [$500,000,000] $250,000,000 shall be made available for projects awarded a tax credit pursuant to the \"Next New Jersey Program Act,\" P.L.2024, c.49 (C.34:1B-394 et al.)'"
+   },
+   "duplicateOf": null,
+   "flags": [
+    "no-compliance-duty: bill imposes no obligation on any private party or ongoing duty on an agency beyond the reallocated incentive cap; cost impact is forgone tax credits, not compliance work",
+    "ai-nexus-indirect: the enacted text never uses 'artificial intelligence' and uses 'data center' only in the act's designation ('designated as the \"End Data Center Tax Credits Act\"'); the AI/data-center connection runs through the cross-referenced Next New Jersey Program Act, P.L.2024, c.49, which this text does not describe",
+    "reprint-deletions: the June 24, 2026 Senate Budget and Appropriations Committee amendments (First Reprint) struck the introduced bill's entire operative regime \u2014 energy-storage tax credits (former \u00a7\u00a7 2-5), the $100 residential-ratepayer gross-income-tax credit for income \u2264 $55,000 (former \u00a7 6), and rulemaking authority (former \u00a7 7); the subparagraph (n) allocation and \u00a7 98(a) program-list reference to this act were likewise bracket-deleted; only the \u00a7 1 cap reduction and the immediate effective-date clause remain operative",
+    "category-fit: no CODING.md category cleanly fits a tax-credit reallocation; coded public-sector/data-centers as closest fit because the only entity whose behavior the text constrains is the state authority administering the cap",
+    "legiscan.js relations show only 'same as' companion A 5165 \u2014 no 'replaced by' relation, so not coded as duplicate"
+   ],
+   "confidence": "high"
+  }
+ ],
+ "resolution": "final"
+}

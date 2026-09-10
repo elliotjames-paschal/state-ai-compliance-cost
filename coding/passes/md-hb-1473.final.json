@@ -1,0 +1,31 @@
+{
+  "entries": [
+    {
+      "id": "MD HB 1473",
+      "category": "public-sector",
+      "family": "public-sector",
+      "segment": null,
+      "appliesTo": "Maryland's Future Board (Department of Commerce), the State Treasurer/Comptroller (Fund), and the Comptroller (study) — state government only",
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": {
+        "program": "Maryland's Future Board visionary-planning + Future Fund"
+      },
+      "exposure": null,
+      "sources": {
+        "program": "§ 2.5–302(A), (F)(1) & § 2.5–304(A) — 'THERE IS A MARYLAND’S FUTURE BOARD IN THE DEPARTMENT' … 'DEVELOPING AND REVISING A VISIONARY PLAN' … 'THERE IS A MARYLAND’S FUTURE FUND'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "AI is tangential: this is an economic-development planning act; artificial intelligence appears only as one of five required future-trend areas of the visionary plan (§ 2.5–301(E)(4)(II) — 'ARTIFICIAL INTELLIGENCE') and as an optional Comptroller study factor (Section 2(a)(3)(ii) — 'job replacement due to the rise in artificial intelligence')",
+        "no compliance duties on private parties; Board must develop a visionary plan on or before January 1, 2027 (§ 2.5–303(A)), evaluate/revise it at least annually (§ 2.5–303(B)), and submit project recommendations each August 1 beginning 2027 (§ 2.5–303(D)) — internal-government planning/reporting duties with no matching duty key",
+        "Comptroller must report study results to the General Assembly on or before December 1, 2026 (Section 2(b))",
+        "establishes the Maryland's Future Fund, a 'SPECIAL, NONLAPSING FUND' administered by the Department (§ 2.5–304(C)–(D)); State Treasurer holds and invests it, Comptroller accounts for it — no fund-related param exists in the public-sector vocabulary",
+        "no penalty or enforcement provision anywhere in the Act — exposure omitted",
+        "sunset: Section 3 — Act 'shall remain effective for a period of 5 years' and is abrogated at the end of June 30, 2031",
+        "crossfiled companion MD SB 770 per legiscan relations ('type': 'crossfiled'); no 'replaced by' relation — HB 1473 is the enacted chapter (Ch. 378), not coded as duplicate"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

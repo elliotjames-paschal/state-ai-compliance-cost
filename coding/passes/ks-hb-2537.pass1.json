@@ -1,0 +1,31 @@
+{
+  "entries": [
+    {
+      "id": "KS HB 2537",
+      "category": "criminal",
+      "family": "ai-crimes",
+      "appliesTo": "any person (criminal prohibition on sexual extortion, including via AI-generated or AI-altered sexual images)",
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": {
+        "prohibition": "ncii",
+        "coveredSubjects": "all-persons"
+      },
+      "exposure": null,
+      "sources": {
+        "prohibition": "Sec. 2, K.S.A. 21-5515(a)(2) — 'communicating by any means a threat to distribute an image, video or other recording of a person that is of a sexual nature or depicts a person in a state of nudity'",
+        "coveredSubjects": "Sec. 2, K.S.A. 21-5515(a)(2) — 'a threat to distribute an image, video or other recording of a person'; enhanced tier only when 'the offender is 18 years of age or older and the victim is: (i) Less than 18 years of age; or (ii) a dependent adult' (subsection (d)(1)(B))"
+      },
+      "duplicateOf": null,
+      "segment": null,
+      "flags": [
+        "prohibition=ncii is lossy: the crime is sexual extortion (coercion/demand via threat to distribute sexual or nude images), not distribution itself; no closer enum exists in the ai-crimes vocabulary",
+        "AI hook is definitional only: subsection (h)(2) — '\"image, video or other recording\" means any photograph, film, video picture, digital or computer-generated image or picture… including, but not limited to, any such item that has been created, in whole or in part, altered or modified by artificial intelligence or any digital means to appear to depict or purport to depict a person, regardless of whether such person was involved in the creation of the original image, video or other recording'",
+        "criminal tier structure, no fines stated (hence no exposure block): subsection (d)(1) — sexual extortion under (a)(1)(A) or (a)(2)(A) is a 'Severity level 7, person felony', rising to 'severity level 6, person felony when the offender is 18 years of age or older and the victim is' under 18 or a dependent adult; subsection (d)(2) — under (a)(1)(B) or (a)(2)(B) a 'Severity level 4, person felony', rising to 'a severity level 3, person felony' for the same victim classes; subsection (e) — aggravated sexual extortion causing great bodily harm is 'a severity level 3, person felony'; subsection (f) — aggravated sexual extortion causing death is 'a severity level 1, person felony'",
+        "New Section 1 binds the attorney general, not private parties: 'The attorney general shall prepare and provide educational materials and information concerning sexual extortion' and 'On or before July 1, 2027, and annually thereafter, the attorney general shall file a report regarding the implementation of this section' — ancillary public-sector mandate inside a criminal bill, not coded as a separate segment",
+        "victim-conduct defense barred: subsection (g) — 'It shall not be a defense that the victim contributed to the victim's own great bodily harm or death'"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

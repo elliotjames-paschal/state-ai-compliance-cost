@@ -1,0 +1,34 @@
+{
+ "entries": [
+  {
+   "id": "IL SB 2909",
+   "category": "education",
+   "family": "education-k12",
+   "segment": null,
+   "appliesTo": "school districts, evaluators, and teachers in teacher performance evaluations under School Code \u00a7 24A-5",
+   "duties": [
+    "statutory-review",
+    "disclosure-ui"
+   ],
+   "dutySources": {
+    "disclosure-ui": "105 ILCS 5/24A-5 \u2014 'If an evaluator uses an artificial intelligence tool, the name and specific purpose of the artificial intelligence tool must be disclosed to the teacher being evaluated. If a teacher uses an artificial intelligence tool, the name and specific purpose of the artificial intelligence tool must be disclosed to the evaluator evaluating the teacher.'"
+   },
+   "params": {
+    "policyRequired": "yes"
+   },
+   "sources": {
+    "policyRequired": "105 ILCS 5/24A-5 \u2014 'The joint committee under subsection (b-5) of Section 24A-4 shall determine how artificial intelligence tools may be used in accordance with paragraphs (a) through (o).'"
+   },
+   "exposure": null,
+   "duplicateOf": null,
+   "flags": [
+    "Evaluator-side AI use prohibition fits no listed duty key (not human-review: the text bans AI from making the decision rather than requiring human review/override of an automated decision): 'An evaluator is prohibited from using an artificial intelligence tool to assign a numerical score or qualitative rating, such as \"excellent\", \"proficient\", \"need improvement\", or \"unsatisfactory\", for any component of a teacher's evaluation or any evaluation task that requires professional judgment. However, an artificial intelligence tool may be used to support the evaluator in administrative tasks.'",
+    "Teacher-side AI use prohibition fits no listed duty key: 'A teacher is prohibited from using an artificial intelligence tool to generate evidence of professional practice that will be used by an evaluator to evaluate the teacher's performance.'",
+    "disclosure-ui is a lossy fit: disclosure runs between evaluator and teacher (name and specific purpose of the AI tool), not consumer-facing labeling of an AI interaction",
+    "No penalty or enforcement provision in the amended section \u2014 exposure omitted"
+   ],
+   "confidence": "high"
+  }
+ ],
+ "resolution": "final"
+}

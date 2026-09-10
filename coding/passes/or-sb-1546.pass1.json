@@ -1,0 +1,52 @@
+{
+  "entries": [
+    {
+      "id": "OR SB 1546",
+      "category": "company",
+      "family": "chatbot-safeguards",
+      "segment": null,
+      "appliesTo": "operators that make an AI companion or AI companion platform available to users in Oregon",
+      "duties": ["statutory-review", "disclosure-ui", "crisis-protocol", "content-safeguards"],
+      "dutySources": {
+        "disclosure-ui": "§ 1(2) — 'the operator shall provide on the artificial intelligence companion platform a clear and conspicuous notice that indicates that a user is interacting with artificially generated output and not a natural person'",
+        "crisis-protocol": "§ 1(3)(a) — 'unless the operator has a protocol for using evidence-based methods for detecting input from the user that consists of suicidal ideation or intent or self-harm ideation or intent'",
+        "content-safeguards": "§ 1(4)(a) — 'the operator shall undertake reasonable measures to prevent the artificial intelligence companion from generating statements that would lead a reasonable person to believe that the person is interacting with another natural person'"
+      },
+      "params": {
+        "scope": "companion",
+        "ageFocus": "all-users",
+        "aiDisclosure": "periodic",
+        "crisisProtocol": "required",
+        "breakReminders": "required",
+        "engagementLimits": "required",
+        "contentSafeguards": "required"
+      },
+      "sources": {
+        "scope": "§ 1(1)(a)(A) — 'designed to simulate a sustained, human-like platonic, intimate or romantic relationship or companionship with a user'",
+        "ageFocus": "§ 1(3)(a) — 'An operator may not allow users in this state access to an artificial intelligence companion or artificial intelligence companion platform unless the operator has a protocol'",
+        "aiDisclosure": "§ 1(4)(b)(B) — 'a clear and conspicuous reminder at a minimum of every three hours of interaction … along with a further reminder that the user is interacting with artificially generated output'",
+        "crisisProtocol": "§ 1(3)(a) — 'a protocol for using evidence-based methods for detecting input from the user that consists of suicidal ideation or intent or self-harm ideation or intent and that prevents the provision of content to the user that encourages suicidal ideation, suicide or self-harm'",
+        "breakReminders": "§ 1(4)(b)(B) — 'Provide a clear and conspicuous reminder at a minimum of every three hours of interaction that the user should take a break'",
+        "engagementLimits": "§ 1(4)(c)(A) — 'a system of rewards or affirmations with the purpose of reinforcing behavior or maximizing the time during which the user engages with the artificial intelligence companion'",
+        "contentSafeguards": "§ 1(4)(a)(A)–(D) — 'Explicitly claim that the artificial intelligence companion is sentient or human; … Simulate romantic interest or are sexual innuendo; or … Role-play romantic relationships between adults and minors'",
+        "penaltyMax": "§ 2(1)(a) — 'The greater of the individual's actual damages or statutory damages of $1,000 for each violation'",
+        "enforcer": "§ 2(1) — 'An individual who suffers an ascertainable loss of money or property or other injury in fact as a result of an operator's violation of section 1 of this 2026 Act may bring an action in a court of this state'"
+      },
+      "exposure": {
+        "penaltyMax": 1000,
+        "penaltyUnit": "per violation",
+        "enforcer": "private-right-of-action only"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "ageFocus coded all-users (disclosure § 1(2) and crisis protocol § 1(3) bind for all users) but § 1(4) adds minor-specific safeguards triggered by a 'knows or has reason to believe … is a minor' knowledge standard — no age-verification duty imposed, so age-assurance not assigned and ageThreshold omitted (text never defines 'minor' numerically)",
+        "aiDisclosure coded periodic from the minors-only three-hour reminder (§ 1(4)(b)(B)); the general § 1(2) notice states no timing — lossy",
+        "annual public transparency report (§ 1(5): post referral counts and protocol details on a publicly accessible website by December 31 each year) and protocol publication (§ 1(3)(c)) fit no listed duty",
+        "§ 1(3)(b)(A) allows an alternative youthline referral for users the operator identifies as under 25 years of age",
+        "§ 1(4)(c)(B)–(C) also prohibits guilt/abandonment messages on disengagement and material misrepresentations about the companion's identity, capabilities or training data — coded under engagementLimits/contentSafeguards",
+        "exposure: statutory damages are 'the greater of the individual's actual damages or statutory damages of $1,000 for each violation'; injunction and attorney fees/costs also available (§ 2(1)(b), § 2(2)); no agency enforcement provision"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

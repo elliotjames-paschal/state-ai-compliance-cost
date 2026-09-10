@@ -1,0 +1,24 @@
+{
+  "entries": [
+    {
+      "id": "CA AB 2148",
+      "category": "education",
+      "family": "definitions-only",
+      "segment": null,
+      "appliesTo": "public school employees and contractors performing services in a public school (definitional only)",
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": {},
+      "exposure": null,
+      "sources": {
+        "family": "SEC. 1, Ed. Code § 98 — 'Both of the following mean a natural person: (a) A public school employee, including, but not limited to, certificated employees, classified employees, teachers, educators, short-term employees, principals, administrators, counselors, school nurses, school psychologists, and school social workers. (b) A contractor performing services in a public school.'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "Text contains no AI-specific language; the operative effect is definitional — restricting 'public school employee' and 'contractor performing services in a public school' to natural persons implicitly excludes non-natural persons (e.g., AI systems) from those roles, but the statute is silent on AI.",
+        "No duties, parameters, or penalty provisions in the enacted text; exposure omitted (silence is silence)."
+      ],
+      "confidence": "high"
+    }
+  ]
+}

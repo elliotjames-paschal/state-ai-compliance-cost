@@ -1,0 +1,16 @@
+{
+ "entries": [
+  {
+   "id": "TN HB 545",
+   "duplicateOf": "TN SB 677",
+   "sources": {
+    "duplicateOf": "Public Chapter No. 1056 caption \u2014 'SENATE BILL NO. 677 \u2026 Substituted for: House Bill No. 545'"
+   },
+   "flags": [
+    "data/legiscan.js lists the HB 545 <-> SB 677 relation as type 'crossfiled', not 'replaced by'; the chaptered text itself states SB 677 was 'Substituted for: House Bill No. 545', so SB 677 is the surviving vehicle and HB 545 is coded as a duplicate per rule 7"
+   ],
+   "confidence": "high"
+  }
+ ],
+ "resolution": "pass1"
+}

@@ -1,0 +1,41 @@
+{
+  "entries": [
+    {
+      "id": "IA HF 2635",
+      "category": "company",
+      "family": "insurance-adm",
+      "segment": null,
+      "appliesTo": "utilization review organizations and health carriers making prior-authorization decisions",
+      "duties": ["statutory-review", "human-review"],
+      "dutySources": {
+        "human-review": "§ 514F.8A(2)(a) (Sec. 6) — 'The decision to deny or downgrade the request is made by either of the following: (1) A qualified reviewer, if the health care provider requesting prior authorization is a physician. (2) A clinical peer, if the health care provider requesting prior authorization is not a physician.'"
+      },
+      "params": {
+        "aiSoleBasis": "prohibited",
+        "decisionsCovered": "prior-auth",
+        "humanReview": "required-final"
+      },
+      "exposure": {
+        "enforcer": "commissioner of insurance — remedies under chapters 505 and 507B; may suspend URO authority"
+      },
+      "sources": {
+        "aiSoleBasis": "§ 514F.8(2A) (Sec. 2) — 'a utilization review organization shall not use an artificial intelligence-based algorithm or system as the sole basis for the utilization review organization’s decision to deny, delay, or downgrade the prior authorization request'",
+        "decisionsCovered": "§ 514F.8(2A) (Sec. 2) — 'may use an artificial intelligence-based algorithm or system to provide an initial review of a request for prior authorization'",
+        "humanReview": "§ 514F.8A(2) (Sec. 6) — 'A utilization review organization shall not deny or downgrade a request for prior authorization unless all of the following requirements are met'",
+        "enforcer": "§ 514F.8E (Sec. 8) — 'The remedy for noncompliance with section 514F.8, 514F.8A, 514F.8B, 514F.8C, or 514F.8D shall be those remedies authorized by chapters 505 and 507B pursuant to the procedures set forth in sections 507B.6, 507B.7, and 507B.8' … 'the commissioner of insurance may also suspend a utilization review organization’s authority to conduct utilization review'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "humanReview coded required-final is lossy: appeals must also be conducted by a qualified reviewer or clinical peer not involved in the initial determination (§ 514F.8A(4)(a)-(b) — 'the appeal shall be conducted by either of the following' … 'shall not conduct the appeal'), so required-appeal is also true.",
+        "Denial/downgrade requires a signed written statement of specific reasons, a written explanation of the appeals process, and a written attestation of the reviewer's qualifications (§ 514F.8A(2)(b)); on request, a peer-to-peer consultation within seven business days of a denial (§ 514F.8A(3)) — no matching duty/param keys in the vocabulary.",
+        "Div. I § 514F.8C imposes claim-audit process deadlines on UROs (15-day audit-initiation notice, 45-day determination, 30-day provider appeal window, 30-day final determination; violation remedy is claim approval 'promptly paid, including interest at the rate of ten percent per annum') — not AI-specific and no vocabulary fit; the 30-day audit appeal window was NOT coded as appealDays because it governs claim audits, not the prior-authorization/ADM decisions this entry covers.",
+        "Div. I § 514F.8D health-carrier standards of conduct (no penalties for out-of-network referrals/affiliations, no interference in provider staffing and referral decisions, opportunity to negotiate agreements) — not AI-related, no family fit.",
+        "Div. II § 514F.8(6A) and Div. III § 249A.6 require health care providers (not carriers) to submit prior authorization requests electronically via a standards-based API compliant with federal interoperability regulations, for requests on or after July 1, 2027 — binds providers, no vocabulary fit.",
+        "Div. II § 514F.8B and Div. III §§ 249A.5, 514I.13 prohibit prior authorization / additional utilization review for NCCN category-2A-or-lower cancer screenings and for life-threatening emergency conditions arising during inpatient care — coverage exemptions with no family/param fit; Div. III binds the department and Medicaid/Hawki managed care organizations.",
+        "Div. IV (Secs. 12-28) rewrites certificate-of-need thresholds and procedures in chapter 135 — not AI-related, no family fit.",
+        "Applicability: § 514F.8A applies to prior authorization requests made on or after January 1, 2027, and to listed plan classes delivered/issued/continued/renewed on or after January 1, 2027 (§ 514F.8A(5)-(6))."
+      ],
+      "confidence": "high"
+    }
+  ]
+}

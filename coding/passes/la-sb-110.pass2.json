@@ -1,0 +1,30 @@
+{
+  "entries": [
+    {
+      "id": "LA SB 110",
+      "category": "criminal",
+      "family": "ai-crimes",
+      "appliesTo": "any person using an image of a child under seventeen to train an AI model to produce child sexual abuse materials",
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": {
+        "prohibition": "csam",
+        "coveredSubjects": "minors"
+      },
+      "exposure": null,
+      "sources": {
+        "prohibition": "R.S. 14:81.1(A)(3) — 'It shall also be a violation of this Section for a person to use an image of a child under the age of seventeen years at the time the image was created with the intent to train an artificial intelligence model to produce child sexual abuse materials.'",
+        "coveredSubjects": "R.S. 14:81.1(A)(3) — 'an image of a child under the age of seventeen years at the time the image was created'"
+      },
+      "duplicateOf": null,
+      "segment": null,
+      "flags": [
+        "Age threshold is seventeen ('a child under the age of seventeen years') but ai-crimes has no age param in the fixed vocabulary; recorded here rather than as a param.",
+        "No fine, imprisonment term, or enforcer appears in the enacted text; penalties presumably live in unamended subsections of R.S. 14:81.1 not reproduced in this act — exposure omitted per rules 3-4.",
+        "R.S. 14:81.1(A)(4) removes an element of the existing offense: 'It is not a required element of an offense under this Section that the child depicted in the child sexual abuse materials be a natural person.' (covers wholly AI-generated depictions).",
+        "R.S. 14:81.1(G) extends the trier-of-fact age-determination factors to 'the image used to train an artificial intelligence model' — evidentiary provision, fits no listed duty/param."
+      ],
+      "confidence": "high"
+    }
+  ]
+}

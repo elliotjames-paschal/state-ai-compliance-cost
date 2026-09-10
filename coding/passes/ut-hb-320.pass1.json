@@ -1,0 +1,31 @@
+{
+  "entries": [
+    {
+      "id": "UT HB 320",
+      "category": "public-sector",
+      "family": "public-sector",
+      "appliesTo": "Utah Office of Artificial Intelligence Policy (Department of Commerce); learning-laboratory / agreement participants only by voluntary opt-in",
+      "segment": null,
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": {
+        "program": "AI learning laboratory + regulatory mitigation and joint interpretation agreements"
+      },
+      "exposure": null,
+      "sources": {
+        "program": "13-72-301(1) — 'There is established the Artificial Intelligence Learning Laboratory Program, to be administered by the office.'; 13-72-401(2) — 'The office may grant, on a temporary basis, regulatory mitigation to a participant by entering into a regulatory mitigation agreement or a joint interpretation agreement'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "voluntary regulatory sandbox: consumer-disclosure, reporting, safeguard, and audit obligations attach only to participants who apply for and sign an agreement — 13-72-401(1) 'A participant who uses or wants to utilize an artificial intelligence technology in the state may apply for a regulatory mitigation agreement or a joint interpretation agreement'; not general company compliance duties",
+        "agreement contents set by contract, not statute: 13-72-401(4) requires each agreement to specify '(d) any required disclosures to consumers; and (e) reporting requirements to comply with audits from the office'",
+        "office duty with no matching duty key: annual legislative report — 13-72-201(3)(d) 'report annually, before November 30, to the Business and Labor Interim Committee'",
+        "office duty with no matching duty key: rulemaking — 13-72-201(3)(c) 'make rules in accordance with Title 63G, Chapter 3, Utah Administrative Rulemaking Act'; and regular participant audits — 13-72-401(6) 'The office shall perform regular audits of a participant's application of artificial intelligence technology'",
+        "demonstration period capped: 13-72-403(1) 'may not exceed 12 months'; 13-72-403(4) 'The office may grant up to two extensions'",
+        "no penalty provision of its own; violating participants are 'subject to all applicable civil and criminal penalties' (13-72-401(8)(b)) — cross-reference to existing law, so no exposure block per rule 4",
+        "amendatory bill: amends Laws of Utah 2024, Chapter 186 (the 2024 act creating the office); coded as the program stands amended"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

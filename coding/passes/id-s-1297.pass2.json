@@ -1,0 +1,57 @@
+{
+  "entries": [
+    {
+      "id": "ID S 1297",
+      "category": "company",
+      "family": "chatbot-safeguards",
+      "segment": null,
+      "appliesTo": "operators of public-facing conversational AI services",
+      "duties": ["statutory-review", "disclosure-ui", "crisis-protocol", "content-safeguards"],
+      "dutySources": {
+        "disclosure-ui": "48-2103(1) — 'an operator shall clearly and conspicuously disclose that the conversational AI service is artificial intelligence'",
+        "crisis-protocol": "48-2103(2) — 'An operator shall adopt a protocol for the conversational AI service to respond to user prompts regarding suicidal ideation that includes but is not limited to making reasonable efforts to provide a response to users that refers them to crisis service providers'",
+        "content-safeguards": "48-2104(3) — 'an operator shall institute reasonable measures to prevent the conversational AI service from: (a) Producing visual material of sexually explicit conduct'"
+      },
+      "params": {
+        "scope": "all-chatbots",
+        "ageFocus": "all-users",
+        "aiDisclosure": "session-start",
+        "crisisProtocol": "required",
+        "contentSafeguards": "required",
+        "engagementLimits": "required",
+        "parentalTools": "required",
+        "ageThreshold": 18
+      },
+      "exposure": {
+        "penaltyMax": 500000,
+        "penaltyUnit": "per operator",
+        "enforcer": "attorney-general"
+      },
+      "sources": {
+        "scope": "48-2102(2)(a) — 'an artificial intelligence software application, web interface, or computer program that is accessible to the general public and that primarily simulates human conversation and interaction through textual, visual, or aural communications'",
+        "ageFocus": "48-2103 — 'OPERATOR REQUIREMENTS'; 48-2104 — 'OPERATOR REQUIREMENTS -- MINORS'",
+        "aiDisclosure": "48-2104(1)(b)(i) — 'At the beginning of each session'",
+        "crisisProtocol": "48-2103(2) — 'shall adopt a protocol for the conversational AI service to respond to user prompts regarding suicidal ideation'",
+        "contentSafeguards": "48-2104(4) — 'institute reasonable measures to prevent a conversational AI service from generating statements that would lead reasonable persons to believe that they are interacting with a human'",
+        "engagementLimits": "48-2104(2) — 'the operator shall not provide the user with points or similar rewards at unpredictable intervals with the intent to encourage increased engagement with the conversational AI service'",
+        "parentalTools": "48-2104(5) — 'An operator shall also offer related tools to the parents or guardians of minor account holders thirteen (13) years of age and older, as appropriate based on relevant risks'",
+        "ageThreshold": "48-2102(4) — 'the individual is under eighteen (18) years of age'",
+        "penaltyMax": "48-2105(1) — 'civil penalties of one thousand dollars ($1,000) per violation, not to exceed five hundred thousand dollars ($500,000) per operator, or actual damages, whichever is greater'",
+        "enforcer": "48-2105(2) — 'Civil penalties for violations of the provisions of this chapter are to be sought by the attorney general.'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "aiDisclosure lossy: 48-2104(1) lets the operator choose 'a persistent visible disclaimer' OR both session-start and a repeat 'at least every three (3) hours in a continuous conversational AI service interaction'; coded session-start",
+        "general-audience AI disclosure (48-2103(1)) is conditional — required only 'If reasonable persons would be misled to believe that they are interacting with a human'; no aiDisclosure enum captures this trigger",
+        "ageFocus lossy: baseline duties (48-2103) bind operators as to all users, while 48-2104 layers minor-specific duties (disclosure cadence, engagement rewards, content safeguards, parental tools); coded all-users",
+        "48-2103(3) prohibits causing the service 'to make any representation or statement that explicitly indicates that the conversational AI service is designed to provide professional mental or behavioral health care' — a representation ban folded under content-safeguards",
+        "penalty structure: $1,000 per violation capped at $500,000 per operator, 'or actual damages, whichever is greater'; penaltyMax codes the aggregate cap",
+        "no private right of action (48-2105(2)); 48-2105(3) shields 'the developer of an AI model' from liability for violations by a third-party operator",
+        "parental tools tiered at age 13 (48-2104(5)): under-13 parents/guardians get privacy and account-settings tools; parents of minors 13 and older get tools 'as appropriate based on relevant risks'",
+        "broad exclusions from 'conversational AI service' (48-2102(2)(b)): developer/research tools, embedded features, in-game chatbots, narrow-topic bots, enterprise/B2B deployments, voice assistants, internal business use, customer-service bots",
+        "effective July 1, 2027 (Section 2)"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

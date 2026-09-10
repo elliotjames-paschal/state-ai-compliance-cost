@@ -1,0 +1,72 @@
+{
+  "entries": [
+    {
+      "id": "VT H 211",
+      "segment": "data-brokers",
+      "category": "company",
+      "family": "privacy-data",
+      "appliesTo": "data brokers that knowingly collect and sell or license brokered personal information of Vermont consumers",
+      "duties": ["statutory-review", "registration-filing", "incident-reporting"],
+      "dutySources": {
+        "registration-filing": "§ 2446(a)(1) — 'register with the Secretary of State as a data broker'",
+        "incident-reporting": "§ 2436(b)(2)(A)(i) — 'The data broker shall notify the Attorney General of the date of the security breach and the date of discovery of the breach and shall provide a preliminary description of the breach within 14 business days'"
+      },
+      "params": {
+        "registration": "required"
+      },
+      "exposure": {
+        "penaltyMax": 25000,
+        "penaltyUnit": "per materially incorrect registration filing",
+        "enforcer": "attorney-general"
+      },
+      "sources": {
+        "registration": "§ 2446(a)(1) — 'register with the Secretary of State as a data broker'",
+        "penaltyMax": "§ 2446(b)(3)(A) — 'be liable to the State for a civil penalty of $25,000.00'",
+        "penaltyUnit": "§ 2446(b)(3) — 'A data broker that files materially incorrect information in its registration shall:  (A)  be liable to the State for a civil penalty of $25,000.00'",
+        "enforcer": "§ 2446(d)(2) — 'The Attorney General has the same authority to adopt rules to implement the provisions of this section and to conduct civil investigations, enter into assurances of discontinuance, and bring civil actions as provided under chapter 63, subchapter 1 of this title'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "AI hook: registration must disclose whether the data broker 'in the past year, has shared consumers' data with or sold consumers' data to … a developer of a GenAI system or model' (§ 2446(a)(4)(E)(ii)(V)); 'GenAI system' defined at § 2430(9)",
+        "purchaser-credentialing requirement (§ 2431(b) — 'maintain procedures that require prospective users of the data broker's brokered personal information to identify themselves') fits no listed duty key",
+        "consumer breach notice 'not later than 45 days after the discovery or notification' (§ 2436(b)(1)) coded under incident-reporting alongside the 14-business-day Attorney General notice",
+        "additional per-day penalties not in penaltyMax: 'an administrative fine of $200.00 for each day the data broker fails to register' (§ 2446(b)(1)(A)); 'a civil penalty of $1,000.00 per day' for failure to file an amendment with omitted information (§ 2446(b)(2)); 'an additional civil penalty of $1,000.00 per day' for failure to correct materially incorrect information (§ 2446(b)(3)(B))",
+        "registration fee raised to $900.00 (§ 2446(a)(2)) and $20,000.00 bond required (§ 2446(a)(3) — 'maintain a bond in the amount of $20,000.00')",
+        "violations also 'commit[…] an unfair and deceptive act in commerce in violation of section 2453 of this title' (§§ 2431(c)(1), 2436(e)(1), 2446(d)(1), 2447(d)(1)) — cross-reference; no penalty imported per rule 4",
+        "conduct prohibitions in § 2431(a) (acquisition by fraudulent means; use for stalking, fraud, or unlawful discrimination) are prohibitions, not ongoing compliance duties",
+        "minors provision: separate registration statement required 'where the data broker has actual knowledge that it possesses the brokered personal information of minors' (§ 2446(a)(4)(D)) — a registration-content element only; minorsFocus param not coded",
+        "opt-out registration disclosures are conditional ('if the data broker permits a consumer to opt out') — admOptOut not coded",
+        "Department of Financial Regulation enforces the security-breach subchapter for entities it regulates (§ 2435(h)(2))",
+        "public-sector provisions not coded per category rule: Sec. 2 Secretary of State study of an accessible deletion mechanism with reports due Dec. 1, 2027 and Dec. 1, 2028; Sec. 3 Cybersecurity Advisory Council membership changes; Sec. 3a extends cybersecurity chapter repeal from 2028 to 2033",
+        "Secs. 1 and 4 take effect January 1, 2027 (Sec. 5(a))"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "VT H 211",
+      "segment": "edtech-registration",
+      "category": "company",
+      "family": "privacy-data",
+      "appliesTo": "providers of educational technology products in use at Vermont schools",
+      "duties": ["registration-filing"],
+      "dutySources": {
+        "registration-filing": "§ 2444a(b) — 'a person doing business in this State as a provider of an educational technology product shall, at the time of a filing, provide the following'"
+      },
+      "params": {
+        "registration": "required"
+      },
+      "sources": {
+        "registration": "§ 2444a(b) — 'a person doing business in this State as a provider of an educational technology product shall, at the time of a filing, provide the following'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "segmented from the data-brokers regime because it binds a different party (edtech providers) with a distinct duty set, but shares the privacy-data family — same-family segmentation flagged per rule 9 ambiguity",
+        "no AI-specific provisions in this segment",
+        "filing must include 'an attestation that each product meets:  (A)  the standards set forth in subchapter 3A of this chapter (student privacy) and subchapter 6 of this chapter (the Vermont Age-Appropriate Design Code Act); and (B)  all relevant federal and State privacy laws, including the federal Children's Online Privacy Protection Act' (§ 2444a(b)(6))",
+        "no enforcement or penalty provision stated for new subchapter 3B in this text — § 2443f enforcement is amended to reach 'this subchapter' (3A, student privacy) only; exposure omitted",
+        "takes effect January 1, 2027 (Sec. 5(a))"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

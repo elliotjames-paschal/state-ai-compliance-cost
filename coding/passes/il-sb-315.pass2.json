@@ -1,0 +1,62 @@
+{
+  "entries": [
+    {
+      "id": "IL SB 315",
+      "category": "company",
+      "family": "frontier-safety",
+      "appliesTo": "frontier developers of frontier models (>10^26 operations); heavier duties on large frontier developers (> $500,000,000 annual gross revenues)",
+      "segment": null,
+      "duties": [
+        "statutory-review",
+        "risk-program",
+        "documentation",
+        "impact-assessment",
+        "incident-reporting",
+        "registration-filing"
+      ],
+      "dutySources": {
+        "risk-program": "§ 10(a) — 'a large frontier developer shall write, implement, comply with, and clearly and conspicuously publish on its website a frontier AI framework'",
+        "documentation": "§ 10(c)(1) — 'Before, or concurrently with, deploying a new frontier model or a substantially modified version of an existing frontier model, a frontier developer shall clearly and conspicuously publish on its website a transparency report'",
+        "impact-assessment": "§ 10(e) — 'A large frontier developer shall transmit to the Agency a summary of any assessment of catastrophic risk resulting from internal use of its frontier models every 3 months'",
+        "incident-reporting": "§ 15(c) — 'A frontier developer shall report any critical safety incident pertaining to one or more of its frontier models to the Agency and the Attorney General within 72 hours'",
+        "registration-filing": "§ 18(a) — 'no large frontier developer may develop, deploy, or operate a frontier model, in whole or in part in this State, without having a current disclosure statement filed with the Agency and paying the required fee'"
+      },
+      "params": {
+        "threshold": "compute",
+        "safetyFramework": "required",
+        "incidentReporting": "required",
+        "thirdPartyAudit": "required",
+        "whistleblower": "protected"
+      },
+      "exposure": {
+        "penaltyMax": 3000000,
+        "penaltyUnit": "per violation",
+        "enforcer": "attorney-general (exclusive civil action); Agency levies registration penalties"
+      },
+      "sources": {
+        "threshold": "§ 5 — '\"Frontier model\" means a foundation model that was trained using a quantity of computing power greater than 10 26 integer or floating-point operations' (superscript 10^26 flattened in text extraction)",
+        "safetyFramework": "§ 10(a) — 'shall write, implement, comply with, and clearly and conspicuously publish on its website a frontier AI framework'",
+        "incidentReporting": "§ 15(c) — 'shall report any critical safety incident pertaining to one or more of its frontier models to the Agency and the Attorney General within 72 hours'",
+        "thirdPartyAudit": "§ 10(d) — 'a large frontier developer shall annually retain a third party to perform an independent audit of compliance with the requirements of this Section'",
+        "whistleblower": "§ 20(a) — 'A frontier developer shall not make, adopt, enforce, or enter into a rule, regulation, policy, or contract that prevents a covered employee from disclosing, or retaliates against a covered employee for disclosing'",
+        "penaltyMax": "§ 25(a) — 'For a subsequent violation, the civil penalty may not exceed $3,000,000 per violation.'",
+        "penaltyUnit": "§ 25(a) — 'may not exceed $3,000,000 per violation'",
+        "enforcer": "§ 25(b) — 'recovered in a civil action brought exclusively by the Attorney General'; § 18(e) — 'the Agency may, after notice and hearing, levy civil penalties, fees, and costs'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "first-violation penalty capped lower: § 25(a) — 'does not exceed $1,000,000 for the first violation'; coded penaltyMax is the subsequent-violation cap",
+        "separate registration penalty: § 18(e)(1) — 'a civil penalty of $1,000 for each day the person fails to file a disclosure as required by this Section or fails to correct false information'",
+        "dual applicability threshold: compute (10^26 ops defines frontier model) plus revenue tier — § 5: 'Large frontier developer' means one with 'annual gross revenues in excess of $500,000,000 in the preceding calendar year'; threshold param coded as compute, revenue tier is lossy",
+        "most duties bind only large frontier developers; the § 10(c)(1) transparency report, § 15(c) incident reporting, § 10(f) no-false-statements rule, and § 20 whistleblower protections bind all frontier developers",
+        "annual third-party compliance audit (§ 10(d)) fits no listed duty key; captured via thirdPartyAudit param only",
+        "whistleblower notice-posting (§ 20(d)) and anonymous internal disclosure process with monthly updates (§ 20(e)) fit no listed duty key",
+        "interoperability safe harbor: § 17(b)(2)(A) — compliance with a designated federal law/regulation/guidance is 'deemed in compliance with this Act' after declaring intent to the Agency",
+        "annual pro rata fee assessment on large frontier developers for administration costs (§ 18(d))",
+        "no private right of action: § 25(d); state preemption of home rule: § 35; Sections 80 and 90 are conforming amendments (FOIA exemption, Whistleblower Act) supporting the same regime, not separate segments",
+        "effective January 1, 2027 (§ 99); frontier AI framework and audit duties begin January 1, 2028 (§ 10(a), (d))"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

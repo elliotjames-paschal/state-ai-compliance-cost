@@ -1,0 +1,50 @@
+{
+ "entries": [
+  {
+   "id": "SC H 3431",
+   "category": "company",
+   "family": "privacy-data",
+   "segment": null,
+   "appliesTo": "covered online services reasonably likely to be accessed by minors (revenue/data-volume thresholds)",
+   "duties": [
+    "statutory-review",
+    "takedown-process",
+    "impact-assessment",
+    "documentation"
+   ],
+   "dutySources": {
+    "takedown-process": "\u00a7 39-80-60(A) \u2014 'Covered online services shall establish mechanisms for parents, minors, and schools to report harm to minors on covered online services, especially those harms that pose an imminent threat to a minor.'",
+    "impact-assessment": "\u00a7 39-80-70(A) \u2014 'Annually, on or before July first, the covered online service must issue a public report prepared by an independent third-party auditor that contains a detailed description of the covered online service as it pertains to minors'",
+    "documentation": "\u00a7 39-80-60(D) \u2014 'Each covered online service that utilizes personalized recommendation systems is required to describe in its terms and conditions, in a clear, conspicuous, and easy-to-understand manner, how the systems are used to provide information to minors'"
+   },
+   "params": {
+    "admOptOut": "required",
+    "minorsFocus": "yes"
+   },
+   "exposure": {
+    "enforcer": "attorney-general + private treble-damages liability"
+   },
+   "sources": {
+    "admOptOut": "\u00a7 39-80-30(B) \u2014 'A covered online service must provide to a user the option to opt out of personalized recommendation systems, except for optimizations based on the user's expressed preferences.'",
+    "minorsFocus": "\u00a7 39-80-20(A) \u2014 'A covered online service shall exercise reasonable care in the use of a minor's personal data and the design and operation of the covered online service \u2026 to prevent the following harm to minors'",
+    "enforcer": "\u00a7 39-80-80(A)-(B) \u2014 'The Attorney General shall enforce the provisions contained in this chapter.' / 'A covered online service shall be liable for treble the financial damages incurred as a result of a violation of this chapter.'"
+   },
+   "duplicateOf": null,
+   "flags": [
+    "AI appears only incidentally: \u00a7 39-80-10(9) 'An online service may include any service, product, or feature that is based in part or in whole on artificial intelligence' \u2014 the act is a minors' design code, coded privacy-data per that family's scope note",
+    "\u00a7 39-80-20(A) duty of reasonable care to prevent enumerated harms (compulsive usage, severe psychological harm, etc.) fits no listed duty key",
+    "\u00a7 39-80-30(A)/(C) required user tools (disable covered design features, time limits, block unconnected contacts, visibility limits) with highest-protection defaults for known minors fit no listed duty key",
+    "\u00a7 39-80-40 data-minimization, retention limits, ban on targeted advertising to minors ('Covered online services may not facilitate targeted advertising to minors'), default geolocation-collection ban, profiling prohibition for known minors, and nighttime/school-hours notification-suppression tools fit no listed duty/param keys",
+    "\u00a7 39-80-50 parental tools required and on by default for known minors ('Covered online services must provide parents with accessible and easy-to-use tools') \u2014 parentalTools param exists only in the chatbot-safeguards family, not privacy-data",
+    "\u00a7 39-80-60(B) prohibits ads directed to known minors for products prohibited for minors (narcotics, tobacco, gambling, alcohol) \u2014 fits no listed duty key",
+    "\u00a7 39-80-60(C) dark-pattern use 'shall constitute an unlawful trade practice under Section 39-5-20 of the South Carolina Unfair Trade Practices Act' \u2014 cross-referenced act's penalties not imported per rule 4",
+    "no fixed penaltyMax: remedy is 'treble the financial damages' (\u00a7 39-80-80(B)); officers/employees 'may be held personally liable for wilful and wanton violations' (\u00a7 39-80-80(C))",
+    "impact-assessment is a vocabulary stretch: \u00a7 39-80-70 annual audited public report covers design features, data practices, and 'description of algorithms used by the covered online service' \u2014 not AI-system-specific",
+    "minor defined as under eighteen (\u00a7 39-80-10(8) 'a consumer who is less than eighteen years of age') but privacy-data family has no ageThreshold param",
+    "LegiScan titles the bill 'South Carolina Social Media Regulation Act' and the caption recites social-media-company provisions, but the enacted Section 1 text ('Amend Title to Conform') adds Chapter 80 'Age-Appropriate Code Design'"
+   ],
+   "confidence": "medium"
+  }
+ ],
+ "resolution": "pass1"
+}

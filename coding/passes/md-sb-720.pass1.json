@@ -1,0 +1,37 @@
+{
+  "entries": [
+    {
+      "id": "MD SB 720",
+      "category": "education",
+      "family": "education-k12",
+      "segment": null,
+      "appliesTo": "State Department of Education, local school systems, and the Maryland AI Education Collaborative",
+      "duties": ["statutory-review", "risk-program"],
+      "dutySources": {
+        "risk-program": "§ 7-2202(C) — 'EACH LOCAL SCHOOL SYSTEM SHALL HAVE AN ARTIFICIAL INTELLIGENCE POLICY ALIGNED WITH THE GUIDANCE'"
+      },
+      "params": {
+        "curriculum": "required",
+        "policyRequired": "yes",
+        "trainingRequired": "yes"
+      },
+      "sources": {
+        "curriculum": "§ 7-2203(A) — 'THE DEPARTMENT ... SHALL ENSURE THAT ARTIFICIAL INTELLIGENCE LITERACY IS A COMPONENT OF WORKFORCE PREPARATION STANDARDS AND COMPUTER SCIENCE STANDARDS FOR KINDERGARTEN THROUGH GRADE 12'",
+        "policyRequired": "§ 7-2202(C) — 'ON OR BEFORE 120 DAYS FROM THE DATE THAT THE DEPARTMENT RELEASES THE GUIDANCE REQUIRED UNDER SUBSECTION (A)(1) OF THIS SECTION, EACH LOCAL SCHOOL SYSTEM SHALL HAVE AN ARTIFICIAL INTELLIGENCE POLICY ALIGNED WITH THE GUIDANCE'",
+        "trainingRequired": "§ 7-2203(B) — 'THE DEPARTMENT SHALL PROVIDE PROFESSIONAL DEVELOPMENT IN ARTIFICIAL INTELLIGENCE TO EDUCATORS AND SCHOOL LEADERS'"
+      },
+      "exposure": null,
+      "duplicateOf": null,
+      "flags": [
+        "curriculum param coded from a standards mandate ('WORKFORCE PREPARATION STANDARDS AND COMPUTER SCIENCE STANDARDS FOR KINDERGARTEN THROUGH GRADE 12', § 7-2203(A)), not a curriculum-adoption command; lossy fit",
+        "§ 7-2202(D): each local school system must designate a noninstructional central-office AI coordinator — no matching duty key in the fixed vocabulary",
+        "§ 7-2202(E)(3): local school systems 'SHALL USE THE RUBRIC AND OTHER EVALUATIVE TOOLS DEVELOPED BY THE DEPARTMENT IN THE REVIEW AND SELECTION OF ARTIFICIAL INTELLIGENCE TOOLS' — pre-procurement tool evaluation duty with no matching duty key (not a periodic impact-assessment)",
+        "§ 7-2202(F): local school systems shall procure AI tools 'CONSISTENT WITH THE PROVISIONS OF TITLE 3.5, SUBTITLE 8 OF THE STATE FINANCE AND PROCUREMENT ARTICLE' — cross-reference only, nothing coded per rule 4",
+        "§ 7-2204 (Section 2) establishes the Maryland AI Education Collaborative on Artificial Intelligence in K-12 Education, a state advisory body with study and annual reporting duties; Section 2 is abrogated May 31, 2028 per Section 3",
+        "no penalty or enforcement provision anywhere in the act; exposure omitted (silence is silence)",
+        "chaptered text renders floor amendments inline (struck matter alongside insertions, e.g. the Morgan State certification subsection was struck and replaced by the rubric subsection); coded from the surviving provisions only"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "entries": [
+    {
+      "id": "MD SB 597",
+      "category": "public-sector",
+      "family": "public-sector",
+      "segment": null,
+      "appliesTo": "University System of Maryland, Morgan State University, and Maryland state agencies (Department of Information Technology, Governor's AI Subcabinet)",
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": {
+        "program": "AI Partnership + Technology Extension Hubs + Incubation Lab + public-service fellowship/scholarships"
+      },
+      "exposure": null,
+      "sources": {
+        "program": "§ 12-124(B)(1) — 'THERE IS A MARYLAND ARTIFICIAL INTELLIGENCE PARTNERSHIP IN THE UNIVERSITY SYSTEM OF MARYLAND.'; § 12-126(B)(1) — 'THERE IS AN ARTIFICIAL INTELLIGENCE INCUBATION LAB IN THE UNIVERSITY SYSTEM OF MARYLAND.'; § 12-125(B) — 'THERE IS AN ARTIFICIAL INTELLIGENCE PUBLIC SERVICE FELLOWSHIP IN THE UNIVERSITY SYSTEM OF MARYLAND'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "Partnership must develop a strategic plan by Dec 1, 2026 and submit annual progress reports to the Governor and General Assembly (§ 12-124(C)(1)(I) — 'ON OR BEFORE DECEMBER 1, 2026, THE PARTNERSHIP SHALL DEVELOP A STRATEGIC PLAN'; § 12-124(C)(2) — 'ON OR BEFORE DECEMBER 1, 2027, AND EACH DECEMBER 1 THEREAFTER, THE PARTNERSHIP SHALL SUBMIT A PROGRESS REPORT') — internal government reporting, not a coded duty in the vocabulary",
+        "Three pilot Technology Extension Hubs required by Dec 15, 2027 providing no-charge AI skills training (§ 12-124(D)(2) — 'ON OR BEFORE DECEMBER 15, 2027, THERE SHALL BE ONE HUB IN EACH OF THREE REGIONS OF THE STATE ESTABLISHED ON A PILOT BASIS')",
+        "Incubation Lab is conditional: 'SUBJECT TO A MEMORANDUM OF UNDERSTANDING BETWEEN THE UNIVERSITY SYSTEM OF MARYLAND AND THE DEPARTMENT OF BUDGET AND MANAGEMENT' (§ 12-126(B)(1))",
+        "Center for Equitable AI and Machine Learning Systems at Morgan State must complete Subcabinet research requests and report annually (§ 14-111(B)(3) — 'THE CENTER ... SHALL SUBMIT A REPORT')",
+        "Education-adjacent provisions: adds AI to the Cyber Warrior Diversity Program training purpose (§ 11-1402(b) — 'computer networking [and], cybersecurity, AND ARTIFICIAL INTELLIGENCE') and renames/expands the Cybersecurity Public Service Scholarship Program to the 'EMERGING TECHNOLOGY Public Service Scholarship Program' covering 'cybersecurity OR ARTIFICIAL INTELLIGENCE' (§§ 18-3501–18-3504); coded within the single public-sector entry since these bind public institutions and scholarship recipients, not companies",
+        "No penalty or enforcement provision anywhere in the act — exposure omitted (silence is silence)"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

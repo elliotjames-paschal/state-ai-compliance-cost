@@ -1,0 +1,40 @@
+{
+  "entries": [
+    {
+      "id": "OR HB 4018",
+      "category": "company",
+      "family": "election-disclosure",
+      "appliesTo": "persons making campaign communications that include synthetic media",
+      "duties": ["statutory-review", "disclosure-ui"],
+      "dutySources": {
+        "disclosure-ui": "§ 40 (ORS 260.268(2)) — 'A campaign communication that includes any form of synthetic media must include a disclosure stating that the image, audio recording or video recording has been manipulated.'"
+      },
+      "params": {
+        "disclosure": "required",
+        "scope": "all-communications"
+      },
+      "exposure": {
+        "penaltyMax": 10000,
+        "penaltyUnit": "per violation",
+        "enforcer": "secretary-of-state (injunctive proceedings); civil penalty imposed by circuit court"
+      },
+      "sources": {
+        "disclosure": "§ 40 (ORS 260.268(2)) — 'A campaign communication that includes any form of synthetic media must include a disclosure stating that the image, audio recording or video recording has been manipulated.'",
+        "scope": "§ 40 (ORS 260.268(1)(a)(A)–(B)) — '\"Campaign communication\" means a communication in support of or in opposition to a clearly identified candidate or measure' … 'a campaign communication may involve aggregate expenditures of any amount.'",
+        "penaltyMax": "§ 40 (ORS 260.268(4)) — 'Upon proof of any violation of this section, the court shall impose a civil penalty of not more than $10,000.'",
+        "enforcer": "§ 40 (ORS 260.268(3)) — 'The Secretary of State may institute proceedings to enjoin any violation of this section.' and (4) 'the court shall impose a civil penalty'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "Omnibus campaign-finance act: the bill's dominant content (contribution limits ORS 260.014, unexpended-funds limits ORS 260.018, independent-expenditure original-source disclosure ORS 260.059, donor identification lists §§ 23-25, foreign-national contribution ban § 14, disclaimer rules ORS 260.266) has no AI content and fits no family in the coding vocabulary; only § 40 (ORS 260.268 synthetic media) is coded.",
+        "§ 40 amends preexisting ORS 260.268; the visible changes are conforming cross-reference updates (e.g. 'as defined in ORS 260.005 [(10)(c)]') — the synthetic-media disclosure regime itself predates this act (chapter 9, Oregon Laws 2024) and is restated here as amended text.",
+        "scope enum is lossy: 'campaign communication' covers communications 'distributed via print, telephone, radio, television or the Internet' in support of or opposition to a clearly identified candidate or measure, at any expenditure amount; coded as all-communications.",
+        "Exemptions in ORS 260.268(6): interactive computer services/information services (47 U.S.C. 230(f), 153), bona fide newscasts with authenticity acknowledgment, paid broadcasters/platforms, periodicals with an accuracy statement, and satire/parody or non-technological impersonation.",
+        "ORS 260.268(5): 'The remedy provided by this section is the exclusive remedy for a violation of this section.'",
+        "Injunctions available 'without proof of injury or damage to any person'; prevailing party recovers 'reasonable attorney fees at trial and on appeal' (ORS 260.268(3)).",
+        "Operative date: § 42(1) — 'The amendments to ORS 260.007, 260.041, 260.044, 260.083, 260.205 and 260.268 by sections 30, 31 and 37 to 40 of this 2026 Act become operative on January 1, 2027.'"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

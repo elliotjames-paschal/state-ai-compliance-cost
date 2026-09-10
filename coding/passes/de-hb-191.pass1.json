@@ -1,0 +1,30 @@
+{
+  "entries": [
+    {
+      "id": "DE HB 191",
+      "category": "company",
+      "family": "healthcare-clinical",
+      "appliesTo": "nonhuman entities, including agents powered by artificial intelligence, seeking licensure or using professional titles in nursing, medicine, or as physician assistants",
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": {
+        "aiPracticeRule": "ban",
+        "scope": "licensure"
+      },
+      "sources": {
+        "aiPracticeRule": "§ 1920(h), Title 24 — 'A nonhuman entity, including an agent powered by artificial intelligence, may not be licensed in any of the following'; § 1720(k), Title 24 — 'A nonhuman entity, including an agent powered by artificial intelligence, may not be certified to practice medicine in the State.'",
+        "scope": "§ 1773(d), Title 24 — 'A nonhuman entity, including an agent powered by artificial intelligence, may not be licensed as a physician assistant in the State.'"
+      },
+      "duplicateOf": null,
+      "exposure": null,
+      "segment": null,
+      "flags": [
+        "Title-use prohibition fits no listed duty: § 1920(i) — 'A nonhuman entity, including an agent powered by artificial intelligence, may not use any of the following titles or abbreviations' (parallel prohibitions in § 1720(l) and § 1773(d) covering 'Doctor'/'Dr.', 'Physician or surgeon', 'MD', 'DO', nursing titles, and 'PA').",
+        "No penalty or enforcement provision in this text; exposure omitted (silence is silence).",
+        "Prohibition only — bill imposes no ongoing compliance program on licensed human providers or operators.",
+        "Text on file is the Introduced version (per corpus caveat in CLAUDE.md); LegiScan status Passed 2026-04-23, no substitution relation found."
+      ],
+      "confidence": "high"
+    }
+  ]
+}

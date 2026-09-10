@@ -1,0 +1,33 @@
+{
+  "entries": [
+    {
+      "id": "ME HP 343",
+      "category": "criminal",
+      "family": "ai-crimes",
+      "appliesTo": "persons who create, disseminate, or possess child sexual abuse material, including AI-generated or AI-modified images",
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": {
+        "prohibition": "csam",
+        "coveredSubjects": "minors"
+      },
+      "exposure": {
+        "enforcer": "state criminal prosecution"
+      },
+      "sources": {
+        "prohibition": "17-A MRSA §282(1)(A-3) — 'The person intentionally or knowingly manufactures or creates, including using generative AI or machine learning, obscene material that is child sexual abuse material and the person knows or has reason to know that the material is child sexual abuse material.'",
+        "coveredSubjects": "17-A MRSA §281(1-A) — '\"Child sexual abuse material\" means any image, including a computer-generated image, that depicts or has been created or modified so that it appears to depict a minor, regardless of whether that depiction is an identifiable child, engaged in sexually explicit conduct.'",
+        "enforcer": "17-A MRSA §282(5) — 'A person is subject to prosecution pursuant to this section in this State if the person, the minor or the identifiable child was in the State at the time of the offense.'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "criminal tiers, no fine amounts stated in this text: sexual exploitation/creation offenses are Class B, rising to Class A with prior convictions or victim under 12 (§282(1)(A)-(F)); dissemination is Class C, rising to Class B (priors or child under 12) and Class A (both) (§283(1)); possession is Class D, rising to Class C and Class B (§284(1))",
+        "mandatory minimum imprisonment for sexual exploitation of a minor: 'a term of imprisonment of at least 5 years' (§282(2)(A)); 'at least 10 years' for repeat offenders (§282(2)(B))",
+        "amends the general definition of 'minor' in §281(2) from 'has not attained 18 years of age' to 'has not attained 16 years of age' (with §282(1)(A-1) retaining an under-18 definition for coerced conduct)",
+        "AI-generated CSAM offenses (§282(1)(A-3), §283(1)(A-1), §284(1)(A-1)) apply only to material that is also 'obscene material' as defined in §281(3-A)",
+        "emergency clause — 'this legislation takes effect when approved'; approved April 16, 2026"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

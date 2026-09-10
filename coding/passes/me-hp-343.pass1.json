@@ -1,0 +1,33 @@
+{
+  "entries": [
+    {
+      "id": "ME HP 343",
+      "category": "criminal",
+      "family": "ai-crimes",
+      "appliesTo": "persons who create, disseminate, or possess child sexual abuse material, including AI-generated or AI-modified images",
+      "duties": ["statutory-review"],
+      "dutySources": {
+        "statutory-review": "Sec. 2, 17-A MRSA § 282(1)(A-3) — 'The person intentionally or knowingly manufactures or creates, including using generative AI or machine learning, obscene material that is child sexual abuse material'"
+      },
+      "params": {
+        "prohibition": "csam",
+        "coveredSubjects": "minors"
+      },
+      "exposure": null,
+      "sources": {
+        "prohibition": "Sec. 1, 17-A MRSA § 281(1-A) — '\"Child sexual abuse material\" means any image, including a computer-generated image, that depicts or has been created or modified so that it appears to depict a minor, regardless of whether that depiction is an identifiable child, engaged in sexually explicit conduct.'",
+        "coveredSubjects": "Sec. 1, 17-A MRSA § 281(2) — '\"Minor\" means a person who has not attained 16 years of age.'"
+      },
+      "duplicateOf": null,
+      "segment": null,
+      "flags": [
+        "criminal tier structure, no fines stated: creation/exploitation is Class B (§ 282(1)(A)-(A-3), (D)), elevated to Class A for prior convictions or victim under 12 (§ 282(1)(B), (C), (E), (F)); dissemination is Class C, elevated to Class B then Class A (§ 283(1)); possession is Class D, elevated to Class C then Class B (§ 284(1))",
+        "mandatory minimum imprisonment: 'a term of imprisonment of at least 5 years' (§ 282(2)(A)) and 'at least 10 years' for repeat offenders (§ 282(2)(B))",
+        "definitional change: 'Minor' redefined from under 18 to under 16 years of age for the chapter (§ 281(2)); § 282(1)(A-1) retains 'a person who has not attained 18 years of age' for compelled-conduct offenses",
+        "possession-with-intent-to-disseminate inference threshold raised from 10 to 100 images (§ 283(2))",
+        "emergency clause — 'this legislation takes effect when approved' (approved April 16, 2026)"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "entries": [
+    {
+      "id": "TN SB 677",
+      "category": "education",
+      "family": "education-k12",
+      "segment": null,
+      "appliesTo": "state department of education, teachers in grades 6-12, LEAs and public charter schools",
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": {
+        "trainingRequired": "yes"
+      },
+      "exposure": null,
+      "sources": {
+        "trainingRequired": "§ 1(b) — 'By August 1, 2028, or within two (2) years of becoming licensed as a teacher in this state, whichever is later, teachers in grades six through twelve (6-12) must complete at least one ( 1) professional development course approved by the department that provides asynchronous instruction on the use of artificial intelligence in the classroom.'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "Bill also binds a state agency: § 1(a) — 'The department shall provide at least one (1) professional development course for teachers that provides asynchronous instruction on the use of artificial intelligence in the classroom' — made available 'at no cost' to grade 6-12 teachers; coded under education-k12 since the operative ongoing duty falls on teachers/LEAs, not company or public-sector compliance.",
+        "LEA/charter-school duty fits no listed duty key: § 1(b) — 'Each LEA and public charter school shall approve professional development points, pursuant to the state board of education's educator licensure policies and rules, for a teacher's completion of at least one (1) department-approved artificial intelligence training.'",
+        "Training content sourcing constraint: § 1(a) — 'The course content must be created by an entity with experience in a related subject area, such as computer science or another science, technology, engineering, and mathematics {STEM) field.'",
+        "No penalty or enforcement provision in the text; exposure omitted (silence is silence)."
+      ],
+      "confidence": "high"
+    }
+  ]
+}

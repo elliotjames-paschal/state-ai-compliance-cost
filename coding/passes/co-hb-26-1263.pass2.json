@@ -1,0 +1,58 @@
+{
+  "entries": [
+    {
+      "id": "CO HB 26-1263",
+      "category": "company",
+      "family": "chatbot-safeguards",
+      "appliesTo": "operators of conversational artificial intelligence services",
+      "duties": [
+        "statutory-review",
+        "age-assurance",
+        "disclosure-ui",
+        "content-safeguards",
+        "crisis-protocol",
+        "incident-reporting"
+      ],
+      "dutySources": {
+        "age-assurance": "§ 6-1-1708(2) — 'An operator shall use commercially reasonable methods or generally accepted methods to estimate the age of account holders or users. An operator shall not willfully disregard clear and convincing information that an account holder or user is a minor.'",
+        "disclosure-ui": "§ 6-1-1708(3) — 'an operator shall clearly and conspicuously disclose to a user that a conversational artificial intelligence service is artificial intelligence'",
+        "content-safeguards": "§ 6-1-1708(2)(c)–(f) — 'institute technically feasible measures to prevent a conversational artificial intelligence service from: (I) producing textual, visual, or aural depictions of explicit sexual conduct; (II) producing an intimate digital depiction…'; '(d)…preventing: (I) an explicit claim that the conversational artificial intelligence service is human or artificially sentient; (II) a statement that simulates a romantic companionship; or (III) role-playing of an adult-minor romantic relationship'",
+        "crisis-protocol": "§ 6-1-1708(4) — 'an operator shall implement a protocol for a conversational artificial intelligence service to respond to a user prompt regarding suicidal ideation or self-harm, which protocol must include user referral to a crisis service provider such as a suicide hotline, a crisis text line, or another appropriate crisis service…and escalation procedures for repeated or severe crisis indicators'",
+        "incident-reporting": "§ 6-1-1708(6)(a) — 'On and after July 1, 2027, an operator shall annually report to the attorney general's office: (I) the number of times the operator has issued a crisis service provider referral notification in the preceding calendar year…'"
+      },
+      "params": {
+        "scope": "all-chatbots",
+        "ageFocus": "all-users",
+        "aiDisclosure": "session-start",
+        "crisisProtocol": "required",
+        "parentalTools": "required",
+        "engagementLimits": "required",
+        "contentSafeguards": "required",
+        "ageThreshold": 18
+      },
+      "sources": {
+        "scope": "§ 6-1-1701(3.5)(a) — ''Conversational artificial intelligence service' means an artificial intelligence system that is accessible to the general public and that primarily simulates human conversation and interaction through adaptive textual, visual, or aural communications.'",
+        "ageFocus": "§ 6-1-1708(3) — 'an operator shall clearly and conspicuously disclose to a user'; § 6-1-1708(4) — 'a protocol for a conversational artificial intelligence service to respond to a user prompt regarding suicidal ideation or self-harm' (duties on users generally, not only minors)",
+        "aiDisclosure": "§ 6-1-1708(3)(a) — 'be provided at the beginning of a user's first interaction with a conversational artificial intelligence service for each day of interaction'",
+        "crisisProtocol": "§ 6-1-1708(4) — 'an operator shall implement a protocol for a conversational artificial intelligence service to respond to a user prompt regarding suicidal ideation or self-harm'",
+        "parentalTools": "§ 6-1-1708(2)(h)(II) — 'offer tools for a parent or guardian of the minor account holder or minor user to manage the minor account holder's or minor user's privacy and account settings'",
+        "engagementLimits": "§ 6-1-1708(2)(b) — 'not provide the minor account holder or minor user with points or similar rewards at unpredictable intervals with the intent to encourage increased engagement with a conversational artificial intelligence service'",
+        "contentSafeguards": "§ 6-1-1708(2)(c) — 'institute technically feasible measures to prevent a conversational artificial intelligence service from: (I) producing textual, visual, or aural depictions of explicit sexual conduct'",
+        "ageThreshold": "§ 6-1-1701(15.3) — ''Minor' means a consumer under eighteen years old.'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "aiDisclosure is multi-value: also required at least once every three hours in a continuous interaction or as a persistent disclosure (§ 6-1-1708(3)(b)) and in response to user prompts (§ 6-1-1708(3)(c)); minor-specific disclosure adds persistent visible disclaimer / intermittent audio disclaimer formats (§ 6-1-1708(2)(a)); coded session-start as closest single enum (lossy)",
+        "ageFocus coded all-users (lossy): subsection (2) duties (minor AI disclosure, engagement-reward ban, content safeguards, parental/privacy tools) bind only as to known minor account holders/users; subsections (3)-(6) apply to all users",
+        "scope coded all-chatbots (lossy): definition carries twelve exclusions (§ 6-1-1701(3.5)(b)(I)-(XII)) — developer/researcher tools, commerce/customer-service assistants, narrow-topic bots, business-productivity tools, device voice assistants, internal business use, video-game and theme-park features, HIPAA covered entities/business associates, Health Care Availability Act entities, non-companionship educational tools, and embedded non-companionship features — narrowing coverage toward companion-style services",
+        "engagementLimits coded from the prohibition on unpredictable-interval rewards intended to encourage engagement (§ 6-1-1708(2)(b)), not from usage/time limits",
+        "§ 6-1-1708(5) prohibits any term stating outputs are 'provided by, endorsed by, or equivalent to services provided by' a licensed health-care, legal, or mental health professional or qualified dietitian — no matching duty key in the fixed vocabulary",
+        "§ 6-1-1708(2)(g) requires compliance 'with part 13 of this article 1 regarding protecting the privacy and data of a minor' — cross-reference not coded per no-imports rule",
+        "§ 6-1-1708(2)(h)(I) requires minor-facing tools to control memory/personalization retention and use of personal data for training — no matching duty key",
+        "no penalty or enforcement provision in this text (attorney general's office receives and posts annual report data under § 6-1-1708(6)(c) but no enforcement is stated); act is codified in part 17 of article 1 of title 6",
+        "effective dates: operator duties apply 'on and after January 1, 2027' (§ 6-1-1708(2)-(5)); annual reporting 'on and after July 1, 2027' (§ 6-1-1708(6)(a)); act effective ~August 12, 2026 subject to referendum petition (Section 3)"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

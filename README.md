@@ -66,10 +66,17 @@ via the LegiScan API with per-bill provenance manifests in `texts/manifest/`. 67
 enacted text (Chaptered/Enrolled/final); 10 have only Introduced versions pending later
 legislative action.
 
-The statute coding pass is next. Duty hours, reuse values, and bill selection in
-`data/bills.js` are illustrative placeholders. The final version will ship the coded dataset with
-every extracted parameter anchored to the quoted statutory provision, double-coded, and
-hand-validated on a sample.
+**The statute coding is done.** All 89 bills were coded twice independently by LLM against the
+fixed protocol in `CODING.md` (families, parameter vocabularies, duty triggers); the two passes
+materially agreed on 76 of 89 bills, and the 13 disagreements were adjudicated from the statutory
+text. Every parameter and exposure value is anchored to a quoted provision (`sources`); full
+records including flags and confidence are in `coding/`. Companion-bill substitutions are counted
+once (5 duplicate vehicles excluded); the 2 bills passed by only one chamber are excluded from
+the estimate. Reuse and the federal baseline now derive from the coded parameters.
+
+Remaining caveat: the per-duty hour blocks are informed estimates for the average AI model,
+adjustable in the model and pending citation to published burden figures (PRA filings, fiscal
+notes).
 
 Bill text data via [LegiScan](https://legiscan.com) (CC BY 4.0).
 

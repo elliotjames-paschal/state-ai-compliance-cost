@@ -1,0 +1,46 @@
+{
+ "entries": [
+  {
+   "id": "HI HB 2137",
+   "category": "company",
+   "family": "likeness-rights",
+   "appliesTo": "any person publishing realistic AI-generated digital imitations of identifiable individuals",
+   "duties": [
+    "statutory-review",
+    "consent-workflow"
+   ],
+   "dutySources": {
+    "consent-workflow": "\u00a7 -2 \u2014 'It shall be unlawful for any person to knowingly publish a realistic digital imitation of an identifiable individual without that individual's consent'"
+   },
+   "params": {
+    "consentRequired": "yes",
+    "coveredSubjects": "all-persons",
+    "postmortemYears": 10
+   },
+   "exposure": {
+    "penaltyMax": 25000,
+    "penaltyUnit": "per advertisement",
+    "enforcer": "private-right + attorney-general equitable-only"
+   },
+   "sources": {
+    "consentRequired": "\u00a7 -1 \u2014 '\"Consent\" means express, written permission from a depicted individual or the depicted individual's authorized representative.'",
+    "coveredSubjects": "\u00a7 -1 \u2014 'derived from or based upon identifying characteristics of an actual, particular individual'",
+    "postmortemYears": "\u00a7 -4(a) \u2014 'the individual or the individual's estate, for up to ten years after the death of the individual, may bring an action for civil remedies'",
+    "penaltyMax": "\u00a7 -4(b)(2) \u2014 'Monetary damages of up to $25,000 per advertisement or recovery of actual damages'",
+    "penaltyUnit": "\u00a7 -4(b)(2) \u2014 'Monetary damages of up to $25,000 per advertisement'",
+    "enforcer": "\u00a7 -4(b) \u2014 'an individual or an individual's estate may bring a civil action'; \u00a7 -4(c) \u2014 'A cause of action for injunctive or other equitable relief may be brought by the attorney general in instances in which the distribution of realistic digital imitations involves broad public interest or widespread harm.'"
+   },
+   "duplicateOf": null,
+   "segment": null,
+   "flags": [
+    "penaltyMax is a private statutory-damages cap, not an agency-assessed fine; punitive damages also available 'where malice is proven' (\u00a7 -4(b)(3))",
+    "binds 'any person', not only businesses \u2014 civil-liability conduct regime rather than an ongoing compliance program; coded company because likeness-rights is a civil family and ai-crimes is reserved for criminal prohibitions",
+    "prohibition triggers limited to advertisement use, harm, or use 'to commit fraud, defamation, harassment, or other criminal acts' (\u00a7 -2)",
+    "speech exemptions for parody, satire, commentary, news reporting, and documentary/historical/biographical works (\u00a7 -3)",
+    "third-party distribution media (newspapers, streaming services, etc.) exempted for their dissemination role, and 47 U.S.C. \u00a7 230 protections expressly preserved (\u00a7 -5(b), (c))"
+   ],
+   "confidence": "high"
+  }
+ ],
+ "resolution": "pass1"
+}

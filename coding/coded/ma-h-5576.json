@@ -1,0 +1,18 @@
+{
+ "entries": [
+  {
+   "id": "MA H 5576",
+   "duplicateOf": "MA S 3228",
+   "sources": {
+    "duplicateOf": "data/legiscan.js \u2014 MA H 5576 relations: { \"type\": \"replaced by\", \"bill\": \"S 3228\" }"
+   },
+   "flags": [
+    "rule-7 duplicate: legiscan relation 'replaced by' S 3228 \u2014 coded nothing else per protocol",
+    "surviving bill 'MA S 3228' is not present in data/bills-2026.js or data/legiscan.js as its own record; the surviving vehicle may need to be fetched and coded",
+    "legiscan status for MA H 5576 is 'Engrossed' (2026-07-08), not Passed"
+   ],
+   "confidence": "high"
+  }
+ ],
+ "resolution": "pass1"
+}

@@ -1,0 +1,28 @@
+{
+  "entries": [
+    {
+      "id": "DE HB 191",
+      "category": "company",
+      "family": "professional-services",
+      "appliesTo": "nonhuman entities, including agents powered by artificial intelligence, in nursing, medicine, and physician-assistant practice",
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": {
+        "aiRule": "ban",
+        "profession": "nursing, medicine, physician assistant"
+      },
+      "sources": {
+        "aiRule": "§ 1920(h), Title 24 — 'A nonhuman entity, including an agent powered by artificial intelligence, may not be licensed in any of the following: (1) The practice of professional nursing.'; § 1720(k) — 'A nonhuman entity, including an agent powered by artificial intelligence, may not be certified to practice medicine in the State.'; § 1773(d) — 'A nonhuman entity, including an agent powered by artificial intelligence, may not be licensed as a physician assistant in the State.'",
+        "profession": "§ 1920(h)(1)-(3) — 'The practice of professional nursing. … Practice as an advanced practice registered nurse. … The practice of practical nursing.'; § 1720(k) — 'may not be certified to practice medicine in the State'; § 1773(d) — 'may not be licensed as a physician assistant'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "title-use prohibition fits no listed duty: § 1920(i) — 'A nonhuman entity, including an agent powered by artificial intelligence, may not use any of the following titles or abbreviations' (Nurse, RN, APRN, CRNA, CNS, CNP, CNM, LPN, Doctor/'Dr.'); parallel title bans in § 1720(l) (Doctor, Physician, MD, DO) and § 1773(d) ('may not use the title physician assistant or the abbreviation \"PA\"')",
+        "no penalty or enforcement provision in this text; exposure omitted (silence is silence)",
+        "text on file is the Introduced/Draft version only; LegiScan status is Passed (2026-04-23) — enacted text not verified against this draft",
+        "category note: prohibition binds 'a nonhuman entity' directly (licensure ban + title ban) rather than imposing an affirmative program on a business; coded company as it constrains private AI products, not government or schools"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

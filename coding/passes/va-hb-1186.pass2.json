@@ -1,0 +1,35 @@
+{
+  "entries": [
+    {
+      "id": "VA HB 1186",
+      "category": "education",
+      "family": "education-k12",
+      "segment": null,
+      "appliesTo": "Department of Education and local school boards (public elementary and secondary schools)",
+      "duties": ["statutory-review", "risk-program"],
+      "dutySources": {
+        "risk-program": "§ 22.1-20.2:1(C) — 'Each school board shall establish, implement, and enforce policies consistent with the guidance developed by the Department pursuant to subsection B.'"
+      },
+      "params": {
+        "policyRequired": "yes",
+        "trainingRequired": "yes"
+      },
+      "sources": {
+        "policyRequired": "§ 22.1-20.2:1(C) — 'Each school board shall establish, implement, and enforce policies consistent with the guidance developed by the Department pursuant to subsection B.'",
+        "trainingRequired": "§ 22.1-20.2:1(D)(3) — 'Require each school division selected for participation in the Pilot Program to (i) include professional development for educators on AIS literacy and responsible use'"
+      },
+      "exposure": null,
+      "duplicateOf": null,
+      "flags": [
+        "trainingRequired binds only school divisions selected for the Pilot Program, not all divisions (§ D(3))",
+        "Department of Education must compile information on current AIS uses and publish safe/ethical/equitable-use guidance on its website (§ B) — agency duty with no matching duty key",
+        "Department must establish and oversee the AIS Innovation in Education Pilot Program, contingent on appropriations ('With such funds as are appropriated for such purpose') (§ D)",
+        "annual report to Chairs of House Committee on Education and Senate Committee on Education and Health by December 1 of each year (§ D(4)) — legislative reporting fits no duty key",
+        "Pilot Program provisions (subsection D) expire July 1, 2030 (enactment clause 2)",
+        "school board policy content is set by Department guidance rather than by the statute itself; guidance must address data-privacy agreements prohibiting use of division-level or student data for training external AIS models (§ B(1)(d))",
+        "no penalty or enforcement provision — exposure omitted"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

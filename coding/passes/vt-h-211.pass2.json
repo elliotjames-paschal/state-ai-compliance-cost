@@ -1,0 +1,66 @@
+{
+  "entries": [
+    {
+      "id": "VT H 211",
+      "segment": "data-brokers",
+      "category": "company",
+      "family": "privacy-data",
+      "appliesTo": "data brokers that collect and sell or license brokered personal information of Vermont consumers",
+      "duties": ["statutory-review", "registration-filing", "incident-reporting"],
+      "dutySources": {
+        "registration-filing": "§ 2446(a) — 'register with the Secretary of State as a data broker'",
+        "incident-reporting": "§ 2436(b)(2) — 'A data broker shall provide notice of a breach to the Attorney General as follows'"
+      },
+      "params": {
+        "registration": "required"
+      },
+      "sources": {
+        "registration": "§ 2446(a)(1) — 'register with the Secretary of State as a data broker'",
+        "exposure.penaltyMax": "§ 2446(b)(3)(A) — 'be liable to the State for a civil penalty of $25,000.00'",
+        "exposure.enforcer": "§ 2446(d) — 'commits an unfair and deceptive act in commerce in violation of section 2453 of this title' / 'The Attorney General has the same authority to adopt rules to implement the provisions of this section and to conduct civil investigations, enter into assurances of discontinuance, and bring civil actions'"
+      },
+      "exposure": {
+        "penaltyMax": 25000,
+        "penaltyUnit": "per violation",
+        "enforcer": "attorney-general (violations are unfair and deceptive acts in commerce under § 2453)"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "AI relevance: registration must disclose whether the data broker 'in the past year, has shared consumers' data with or sold consumers' data to ... a developer of a GenAI system or model' (§ 2446(a)(4)(E)(ii)(V)); bill adds a 'GenAI system' definition (§ 2430(9))",
+        "penaltyMax is the highest single stated fine ($25,000 for filing materially incorrect registration information); tiered penalties also include $200.00/day administrative fine for failure to register, $1,000.00/day for failure to amend omitted information, and $1,000.00/day for failure to correct materially incorrect information (§ 2446(b))",
+        "purchaser-credentialing duty fits no listed duty key: data broker shall 'maintain procedures that require prospective users of the data broker's brokered personal information to identify themselves, state the purposes for which the information is sought, and certify' (§ 2431(b)(1))",
+        "consumer breach-notice duty (notice to affected consumers 'not later than 45 days after the discovery or notification', § 2436(b)(1)) has no vocabulary key beyond incident-reporting, which is coded for the Attorney General notice",
+        "annual registration fee raised to $900.00 and a $20,000.00 bond is required (§ 2446(a)(2)-(3)) — monetary compliance items with no param key",
+        "registration disclosures include opt-out and deletion-page URLs and, where the broker has actual knowledge it possesses minors' brokered personal information, a separate statement of practices (§ 2446(a)(4)(D), (I)) — disclosure content only; the act does not mandate an opt-out or deletion right (deletion mechanism is study-only, Sec. 2)",
+        "non-company provisions: Sec. 2 orders a Secretary of State study of an accessible deletion mechanism with reports due December 1, 2027 and December 1, 2028; Sec. 3 amends the Cybersecurity Advisory Council membership; Sec. 3a extends the cybersecurity chapter repeal to 2033 (public-sector)",
+        "Secs. 1 and 4 take effect on January 1, 2027 (Sec. 5(a))"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "VT H 211",
+      "segment": "ed-tech-registration",
+      "category": "company",
+      "family": "privacy-data",
+      "appliesTo": "providers of educational technology products in use at Vermont schools",
+      "duties": ["registration-filing"],
+      "dutySources": {
+        "registration-filing": "§ 2444a(b) — 'a person doing business in this State as a provider of an educational technology product shall, at the time of a filing, provide the following'"
+      },
+      "params": {
+        "registration": "required"
+      },
+      "sources": {
+        "registration": "§ 2444a(b) — 'In addition to all other requirements of a person registering with the Secretary of State pursuant to State law, a person doing business in this State as a provider of an educational technology product shall, at the time of a filing, provide the following'"
+      },
+      "exposure": null,
+      "duplicateOf": null,
+      "flags": [
+        "filing must include 'an attestation that each product meets: (A) the standards set forth in subchapter 3A of this chapter (student privacy) and subchapter 6 of this chapter (the Vermont Age-Appropriate Design Code Act); and (B) all relevant federal and State privacy laws' (§ 2444a(b)(6)) — attestation content fits no listed duty key",
+        "no enforcement provision is stated for subchapter 3B (§ 2443f as amended covers only subchapter 3A student privacy), so no exposure block is coded",
+        "products are defined by collection of 'student data' used 'for teaching and learning purposes in a school' (§ 2444a(a)(1)(A)); minorsFocus not coded because the statute regulates student data, not an age class"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

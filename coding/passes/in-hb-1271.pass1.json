@@ -1,0 +1,40 @@
+{
+  "entries": [
+    {
+      "id": "IN HB 1271",
+      "category": "company",
+      "family": "insurance-adm",
+      "segment": null,
+      "appliesTo": "health insurers, HMOs, and dental preferred provider plan insurers (including their third party contractors) that downcode health benefits claims; providers submitting claims",
+      "duties": ["statutory-review", "disclosure-ui", "human-review", "takedown-process"],
+      "dutySources": {
+        "disclosure-ui": "IC 27-1-52 Sec. 9(c) — 'An insurer must disclose in an easily accessible and readable manner when artificial intelligence is used to: (1) make an adverse determination on a prior authorization request; or (2) downcode a claim.'",
+        "human-review": "IC 27-1-52 Sec. 9(a) — 'An insurer may not use an automated: (1) process; (2) system; or (3) tool, including artificial intelligence; as the sole basis to downcode a claim based on medical necessity without the review of the covered individual's medical record by an employee or contractor of the insurer.'",
+        "takedown-process": "IC 27-1-52 Sec. 12(a) — 'An insurer shall provide providers with a clear and accessible process for appealing downcoded claims'"
+      },
+      "params": {
+        "humanReview": "required-final",
+        "disclosure": "required",
+        "aiSoleBasis": "prohibited",
+        "appealDays": 180
+      },
+      "exposure": null,
+      "sources": {
+        "humanReview": "IC 27-1-52 Sec. 9(a) — 'without the review of the covered individual's medical record by an employee or contractor of the insurer'",
+        "disclosure": "IC 27-1-52 Sec. 9(c) — 'An insurer must disclose in an easily accessible and readable manner when artificial intelligence is used'",
+        "aiSoleBasis": "IC 27-1-52 Sec. 9(a) — 'may not use an automated: (1) process; (2) system; or (3) tool, including artificial intelligence; as the sole basis to downcode a claim based on medical necessity'",
+        "appealDays": "IC 27-1-52 Sec. 12(a)(3) — 'a timeline for submission of an appeal that is not less than one hundred eighty (180) days'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "Omnibus insurance/hospital bill: only IC 27-1-52 (SECTION 6, downcoding) contains AI provisions. Non-AI provisions coded nowhere: IC 16-21-9.5 hospital payment-assistance-program notices (with state department civil penalty 'of not more than one thousand dollars ($1,000) per violation' deposited to the state general fund), IC 27-8-5.7 and IC 27-13-36.2 recoupment/overpayment time limits, CPT rate-reduction notice, and coordination-of-benefits resubmission rules.",
+        "decisionsCovered fits no enum: the AI provisions cover claim downcoding and adverse prior authorization determinations ('make an adverse determination on a prior authorization request; or (2) downcode a claim'), not denials generally; param omitted rather than coded lossy.",
+        "Sec. 9(b) also binds providers: 'A provider may not use an automated: (1) process; (2) system; or (3) tool, including artificial intelligence; to submit a health benefits claim without the review of a provider or other person involved in the development of the claim for submission.'",
+        "No penalty or enforcement provision in the downcoding chapter; Sec. 14 grants rulemaking only: 'The department shall adopt rules under IC 4-22-2 to carry out this chapter.' Exposure omitted (silence is silence).",
+        "Chapter scope exclusion, Sec. 0.3: 'This chapter does not apply to the Medicaid program or a managed care organization (as defined in IC 12-7-2-126.9) that provides services to a Medicaid recipient.'",
+        "appealDays (180) applies to appeals of all downcoded claims, not only AI-driven downcoding."
+      ],
+      "confidence": "high"
+    }
+  ]
+}

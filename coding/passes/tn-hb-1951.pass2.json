@@ -1,0 +1,16 @@
+{
+  "entries": [
+    {
+      "id": "TN HB 1951",
+      "duplicateOf": "TN SB 1815",
+      "sources": {
+        "duplicateOf": "caption of Public Chapter No. 1098 — 'SENATE BILL NO. 1815 … Substituted for: House Bill No. 1951'"
+      },
+      "flags": [
+        "data/legiscan.js relation for TN HB 1951 is typed 'crossfiled' (bill: SB 1815), not 'replaced by'; substitution is established by the enacted text itself ('Substituted for: House Bill No. 1951') and by the dataset lastAction 'Comp. became Pub. Ch. 1098'",
+        "both TN HB 1951 and TN SB 1815 appear in data/bills-2026.js — count only TN SB 1815 in the cost model"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

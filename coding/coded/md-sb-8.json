@@ -1,0 +1,46 @@
+{
+ "entries": [
+  {
+   "id": "MD SB 8",
+   "category": "criminal",
+   "family": "ai-crimes",
+   "segment": null,
+   "appliesTo": "any person using artificial intelligence or a deepfake representation to impersonate, falsely depict, create false records, or cause harm with fraudulent intent",
+   "duties": [
+    "statutory-review"
+   ],
+   "dutySources": {},
+   "params": {
+    "prohibition": "impersonation-fraud",
+    "coveredSubjects": "all-persons"
+   },
+   "exposure": {
+    "penaltyMax": 15000,
+    "penaltyUnit": "per conviction",
+    "enforcer": "state's-attorney + attorney-general; private-right (injunction + other appropriate relief)"
+   },
+   "sources": {
+    "prohibition": "\u00a7 8-301(f)(2) \u2014 'A PERSON MAY NOT KNOWINGLY, WILLFULLY, AND WITH FRAUDULENT INTENT USE ARTIFICIAL INTELLIGENCE OR A DEEPFAKE REPRESENTATION TO: (I) \u2026 CAUSE HARM TO ANOTHER BY IMPERSONATING, FALSELY DEPICTING, OR CLAIMING TO REPRESENT THAT PERSON OR ANY OTHER PERSON; OR (II) CREATE OR DISTRIBUTE FALSE RECORDS WITH THE INTENT TO: 1. CAUSE HARM TO ANOTHER PERSON; 2. INDUCE ANOTHER PERSON TO PROVIDE PERSONAL IDENTIFYING INFORMATION; OR 3. OBTAIN A BENEFIT, CREDIT, GOOD, SERVICE, OR OTHER THING OF VALUE'",
+    "coveredSubjects": "\u00a7 8-301(f)(2)(I) \u2014 'CAUSE HARM TO ANOTHER BY IMPERSONATING, FALSELY DEPICTING, OR CLAIMING TO REPRESENT THAT PERSON OR ANY OTHER PERSON'",
+    "penaltyMax": "\u00a7 8-301(g)(5)(II) \u2014 'A PERSON WHO VIOLATES SUBSECTION (F)(2) OF THIS SECTION INVOLVING TWO OR MORE VICTIMS IS GUILTY OF A FELONY AND ON CONVICTION IS SUBJECT TO IMPRISONMENT NOT EXCEEDING 10 YEARS OR A FINE NOT EXCEEDING $15,000 OR BOTH'",
+    "penaltyUnit": "\u00a7 8-301(g)(5)(II) \u2014 'ON CONVICTION IS SUBJECT TO IMPRISONMENT NOT EXCEEDING 10 YEARS OR A FINE NOT EXCEEDING $15,000 OR BOTH'",
+    "enforcer": "\u00a7 8-301(P)(1) \u2014 'A State's Attorney or the Attorney General may investigate and prosecute a violation of this section'; \u00a7 8-301(H)(1) \u2014 'A PERSON WHO IS THE VICTIM OF AN ACT THAT WOULD CONSTITUTE A VIOLATION OF SUBSECTION (F)(2) OF THIS SECTION MAY BRING A CIVIL ACTION AGAINST THE PERSON OR PERSONS WHO COMMITTED THE ACT'"
+   },
+   "duplicateOf": null,
+   "flags": [
+    "criminal tiers for the AI offense (rule 11): (f)(2) involving one victim = felony, imprisonment \u22645 years or fine \u2264$10,000 (\u00a7 8-301(g)(5)(I)); two or more victims = felony, imprisonment \u226410 years or fine \u2264$15,000 (\u00a7 8-301(g)(5)(II))",
+    "penaltyMax = $15,000 is the highest fine for the AI/deepfake subsection (f)(2); the amended section's pre-existing non-AI identity-fraud tiers reach $25,000 (\u00a7 8-301(g)(1)(iii), (g)(3)) but do not attach to the (f)(2) AI offense",
+    "victim civil action for (f)(2) violations: court may 'ISSUE AN INJUNCTION' and 'GRANT ANY OTHER APPROPRIATE RELIEF' (\u00a7 8-301(H)) \u2014 no statutory damages amount stated",
+    "bill also adds non-AI criminal prohibitions in the same section: (B-2) using personal identifying information 'IN ORDER TO CAUSE HARM' and (c)(2)(IV) assuming identity to 'HARM, HARASS, INTIMIDATE, THREATEN, OR COERCE' \u2014 each a misdemeanor, imprisonment \u22641 year or fine \u2264$500 (\u00a7 8-301(g)(4))",
+    "restitution available for reasonable costs including attorney's fees (\u00a7 8-301(J))",
+    "plain-text extraction of the chaptered PDF loses strikethrough in (f)(2)(I): struck amendment language ('IMPERSONATE, FALSELY DEPICT, OR CLAIM TO REPRESENT ANOTHER PERSON WITH THE INTENT TO DEFRAUD, MISLEAD, OR CAUSE HARM TO THAT PERSON OR ANY OTHER PERSON') appears alongside its enacted replacement ('CAUSE HARM TO ANOTHER BY IMPERSONATING\u2026'); coded from the replacement clause \u2014 either reading is impersonation-fraud, so coding is unaffected",
+    "quotes are whitespace-normalized: the source PDF text contains mid-word spacing artifacts (e.g. 'INTELLI GENCE', 'IMPRIS ONMENT')",
+    "'deepfake representation' is defined as media 'INDISTINGUISHABLE FROM AN ACTUAL AND IDENTIFIABLE HUMAN BEING' and excludes drawings, cartoons, sculptures, and paintings (\u00a7 8-301(a)(3)); 'artificial intelligence' defined by cross-reference to State Finance and Procurement \u00a7 3.5-801(c), which the Act reprints without amendment",
+    "crossfiled with MD HB 184 (LegiScan relation), which is not in the dataset; no 'replaced by' relation, so not coded as a duplicate",
+    "effective October 1, 2026 (Section 2)"
+   ],
+   "confidence": "high"
+  }
+ ],
+ "resolution": "final"
+}

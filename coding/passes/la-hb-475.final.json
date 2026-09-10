@@ -1,0 +1,35 @@
+{
+  "entries": [
+    {
+      "id": "LA HB 475",
+      "category": "company",
+      "family": "healthcare-clinical",
+      "appliesTo": "healthcare professionals licensed under Title 37 who record appointments or treatment for AI transcription",
+      "duties": ["statutory-review", "disclosure-ui"],
+      "dutySources": {
+        "disclosure-ui": "R.S. 37:22.1(A) — 'shall verbally disclose the use of any recording device, software, or service to a patient before recording any part of an appointment or treatment to be transcribed by artificial intelligence'"
+      },
+      "params": {
+        "aiPracticeRule": "disclosure",
+        "scope": "treatment"
+      },
+      "exposure": {
+        "enforcer": "professional-licensing-board"
+      },
+      "sources": {
+        "aiPracticeRule": "R.S. 37:22.1(A) — 'A healthcare professional licensed by this Title shall verbally disclose the use of any recording device, software, or service to a patient'",
+        "scope": "R.S. 37:22.1(A) — 'before recording any part of an appointment or treatment to be transcribed by artificial intelligence'",
+        "enforcer": "R.S. 37:22.1(B) — 'may be subject to disciplinary action by his professional licensing board'"
+      },
+      "duplicateOf": null,
+      "segment": null,
+      "flags": [
+        "disclosure must be verbal — 'shall verbally disclose' (R.S. 37:22.1(A))",
+        "civil-liability immunity provision: R.S. 37:22.1(B) — 'shall be immune from civil liability in the absence of gross negligence or willful misconduct'",
+        "no monetary penalty stated; sole enforcement is licensing-board disciplinary action",
+        "scope param coded 'treatment' — statute covers 'any part of an appointment or treatment', which the fixed enum (licensure|treatment|all) captures only approximately"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

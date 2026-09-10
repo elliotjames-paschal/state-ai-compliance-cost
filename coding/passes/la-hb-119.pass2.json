@@ -1,0 +1,58 @@
+{
+  "entries": [
+    {
+      "id": "LA HB 119",
+      "segment": "ai-image-crimes",
+      "category": "criminal",
+      "family": "ai-crimes",
+      "appliesTo": "persons who create, possess, disseminate, or sell AI-generated deepfake or intimate images of another person",
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": {
+        "prohibition": "csam",
+        "coveredSubjects": "minors"
+      },
+      "exposure": {
+        "penaltyMax": 10000,
+        "enforcer": "criminal-prosecution"
+      },
+      "sources": {
+        "prohibition": "§73.13(A)(1) — 'Any person who, with knowledge that the material is a deepfake depicting a minor, knowingly creates or possesses material that depicts a minor engaging in sexual conduct'",
+        "coveredSubjects": "§73.14.1(A) — 'possess any video or still image created by artificial intelligence that depicts another person who is under the age of seventeen years and is totally nude or in a state of undress'",
+        "penaltyMax": "§73.13(A)(1) — 'or a fine of not more than ten thousand dollars, or both'",
+        "enforcer": "criminal title (R.S. 14) — penalties stated as imprisonment/fines; no civil enforcer named"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "prohibition enum is lossy: bill spans deepfake CSAM (§73.13, minors in sexual conduct), unlawful dissemination/sale of AI images of another (§73.14, base offense not limited to minors), new crime of possession of AI nude images of under-17s (§73.14.1), and minor-on-minor AI sexting (§81.1.1(A)(3)); coded csam as closest single enum",
+        "coveredSubjects lossy: §73.14 base offense applies to all persons ('images of another'); minors coded because the enacted amendments' new elements and enhancements all target under-17 victims",
+        "imprisonment tiers (per rule 11, not in penaltyMax): §73.13(A)(1) hard labor 5–20 years, at least 5 without parole; §73.14(D)(1) up to 1 year and fine up to $1,000; §73.14(D)(2) up to 5 years when depicted person under 17, at least 1 year without parole; §73.14.1(C)(1) up to 5 years, at least 1 year without parole (no fine stated)",
+        "educator enhancement: §§73.13(A)(2), 73.14(D)(3), 73.14.1(C)(2) — 'may be imprisoned for an additional two years with or without hard labor' when offender is an educator and victim a student",
+        "offenders under 14 and sexting violations disposed under Title VII of the Louisiana Children's Code (§§73.14(D)(4), 73.14.1(C)(3), 81.1.1(D)(1))",
+        "§73.14.1(D) exempts interactive computer services, electronic mail service providers, telecommunications/information service providers; §73.14.1(E) exempts unintentional, non-consenting recipients",
+        "Act cited as 'The Ivy Daniels Act' (Section 3)"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "LA HB 119",
+      "segment": "school-information-dissemination",
+      "category": "education",
+      "family": "education-k12",
+      "appliesTo": "public school principals, public school governing authorities (incl. charter schools), and the Louisiana Department of Education",
+      "duties": [],
+      "dutySources": {},
+      "params": {},
+      "sources": {},
+      "duplicateOf": null,
+      "flags": [
+        "annual information-dissemination duty fits no listed duty or education-k12 param: §416.20.1(A) — 'The principal of each public school shall disseminate information during the first five days of each school year to each student grades six and above regarding the crime and consequences of unlawful dissemination or sale of images of another created by artificial intelligence'",
+        "parental acknowledgment form required: §416.20.1(A) — 'the information shall be provided to each student's parent or legal guardian on a written form containing a signature line ... to sign to acknowledge receipt and understanding'",
+        "state develops the materials: §416.20.1(B) — 'The Louisiana Department of Education shall develop the information prescribed by this Section and provide it to each public school governing authority'",
+        "applies to charter schools via §3996(B)(92) exemption carve-out",
+        "no penalty provision in this segment — exposure omitted"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

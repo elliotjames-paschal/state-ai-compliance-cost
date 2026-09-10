@@ -1,0 +1,64 @@
+{
+  "entries": [
+    {
+      "id": "MD SB 141",
+      "segment": "election-misinformation-response",
+      "category": "public-sector",
+      "family": "public-sector",
+      "appliesTo": "State Board of Elections and State Administrator of Elections",
+      "duties": ["statutory-review", "takedown-process"],
+      "dutySources": {
+        "takedown-process": "§ 2-110(b)(1) — 'The State Board shall maintain a portal on the State Board's website that the public may use to report election misinformation and election disinformation.'"
+      },
+      "params": {
+        "program": "election-misinformation correction"
+      },
+      "sources": {
+        "program": "§ 2-110(c)(1)(i)1 — 'SHALL COMMUNICATE, DISSEMINATE, OR DISTRIBUTE TO THE PUBLIC ACCURATE INFORMATION TO CORRECT THE ELECTION MISINFORMATION OR ELECTION DISINFORMATION'"
+      },
+      "exposure": {
+        "enforcer": "state-board-of-elections civil action for damages, court costs, and attorney's fees (clear-and-convincing standard)"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "Mandatory corrective-information duty on the State Administrator fits no listed duty key; coded as the public-sector 'program' param (§ 2-110(c)(1)(i)1).",
+        "Portal duty in § 2-110(b) is pre-existing law reenacted (lowercase text); new material in this Act is § 2-110(c) and § 16-905.",
+        "§ 2-110(c)(1)(i)2-3 authorizes (does not require) the State Administrator to seek injunctions removing mis/disinformation from online platforms and to issue Stored Communications Act subpoenas; injunctions barred against interactive computer services under 47 U.S.C. § 230 for third-party content (§ 2-110(c)(1)(ii)).",
+        "Exposure block reflects the State Board's authorized civil action against private persons, campaigns, PACs, or other legal entities that created, used, or disseminated election disinformation (or, with reckless disregard, election misinformation) where the Board incurs correction costs (§ 2-110(c)(2)-(4)); no dollar cap stated. This creates liability on private actors without imposing an ongoing compliance duty on them.",
+        "Persons exempt from § 16-905 and security/fraud researchers are exempt from the civil action (§ 2-110(c)(2)(i))."
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "MD SB 141",
+      "segment": "election-deepfakes",
+      "category": "criminal",
+      "family": "ai-crimes",
+      "appliesTo": "any person who knowingly or with reckless disregard creates, uses, or disseminates an election deepfake",
+      "duties": [],
+      "dutySources": {},
+      "params": {
+        "prohibition": "election-deepfakes",
+        "coveredSubjects": "all-persons"
+      },
+      "sources": {
+        "prohibition": "§ 16-905(c) — 'A PERSON MAY NOT KNOWINGLY OR WITH RECKLESS DISREGARD CREATE, USE, OR DISSEMINATE A DEEPFAKE TO PRODUCE MATERIALLY FALSE INFORMATION'",
+        "coveredSubjects": "§ 16-905(a)(2) — 'A REALISTIC BUT FALSE DEPICTION OF A PERSON THAT AN ORDINARY PERSON WOULD CONCLUDE IS AN ACTUAL VISUAL OR AUDIO REPRESENTATION OF THE PERSON DEPICTED'"
+      },
+      "exposure": {
+        "penaltyMax": 5000,
+        "penaltyUnit": "per conviction",
+        "enforcer": "criminal-prosecution (misdemeanor)"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "Misdemeanor; imprisonment up to 5 years or both fine and imprisonment (§ 16-905(d) — 'GUILTY OF A MISDEMEANOR AND ON CONVICTION IS SUBJECT TO A FINE OF NOT MORE THAN $5,000 OR IMPRISONMENT FOR NOT MORE THAN 5 YEARS OR BOTH').",
+        "Conduct prohibition, not a disclosure regime, hence ai-crimes rather than election-disclosure per rule 10; no disclosure duty is imposed on any party.",
+        "Intent elements required: intent to impede/influence a voter's ballot decision, misrepresent election facts, induce petition signing, or influence a vote on a candidate or ballot issue, AND resulting or intended harm to a voter, potential voter, or petition (§ 16-905(c)(1)-(2)).",
+        "Exemptions: satire or parody; broadcasters under federal candidate-ad requirements, bona fide newscasts with disclosure, or paid broadcasts after good-faith verification; news websites/periodicals that clearly state the media does not accurately represent the candidate; online publishers/service providers immune under 47 U.S.C. § 230 (§ 16-905(b)).",
+        "No election window period is set — the prohibition is not time-limited, so electionWindowDays omitted."
+      ],
+      "confidence": "high"
+    }
+  ]
+}

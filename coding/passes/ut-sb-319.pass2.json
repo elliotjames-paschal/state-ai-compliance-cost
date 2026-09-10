@@ -1,0 +1,47 @@
+{
+  "entries": [
+    {
+      "id": "UT SB 319",
+      "category": "company",
+      "family": "insurance-adm",
+      "appliesTo": "insurers with preauthorization requirements",
+      "segment": null,
+      "duties": [
+        "statutory-review",
+        "disclosure-ui",
+        "human-review",
+        "registration-filing"
+      ],
+      "dutySources": {
+        "disclosure-ui": "§ 31A-22-650(2)(d) — 'a notice that the insurer uses artificial intelligence in the insurer's processes for reviewing an authorization request, if applicable'; (3) — 'An insurer shall disclose to the department, to each health care provider in the insurer's network, and to each enrollee if the insurer uses artificial intelligence in the insurer's processes for reviewing an authorization request.'",
+        "human-review": "§ 31A-22-650(6)(e) — 'An insurer shall ensure that an adverse preauthorization determination regarding clinical or medical necessity is made by an individual who … exercises independent medical judgment; and … does not rely solely on recommendations from any other source.'",
+        "registration-filing": "§ 31A-22-650(9)(b) — 'Before March 1, 2026, and each March 1 thereafter, an insurer shall report to the department the following for the previous calendar year'"
+      },
+      "params": {
+        "humanReview": "required-final",
+        "decisionsCovered": "prior-auth",
+        "disclosure": "required",
+        "aiSoleBasis": "prohibited"
+      },
+      "exposure": null,
+      "sources": {
+        "humanReview": "§ 31A-22-650(6)(e) — 'an adverse preauthorization determination regarding clinical or medical necessity is made by an individual who … exercises independent medical judgment'",
+        "decisionsCovered": "§ 31A-22-650(1)(m) — '\"Preauthorization requirement\" means a requirement by an insurer that an enrollee obtain authorization for a drug, device, or service covered by the insurance policy, before receiving the drug, device, or service.'",
+        "disclosure": "§ 31A-22-650(3) — 'An insurer shall disclose to the department, to each health care provider in the insurer's network, and to each enrollee if the insurer uses artificial intelligence in the insurer's processes for reviewing an authorization request.'",
+        "aiSoleBasis": "§ 31A-22-650(6)(e)(iii) — 'does not rely solely on recommendations from any other source.'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "aiSoleBasis coded from (6)(e)(iii) 'does not rely solely on recommendations from any other source' — the sole-reliance prohibition covers any source, not AI specifically; AI-specific provisions of the bill are the definitions ((1)(b), (1)(j)) and the disclosure duties ((2)(d), (3))",
+        "humanReview enum is lossy: human review is also required at the appeal stage — (6)(c) appeals 'may only be reviewed by a physician who is currently licensed as a physician and surgeon'; (6)(d) drug appeals by a licensed physician or pharmacist",
+        "decision deadlines fit no param: (5)(a) decision 'no later than seven calendar days' after receiving all necessary information; (5)(b) urgent care 'no later than 72 hours'",
+        "minimum authorization validity periods fit no param: (7)(b) chronic or long-term care condition 'may not be less than 12 months'; (7)(e) outpatient covered service 'may not be less than six months'",
+        "bill is predominantly general preauthorization reform (website posting of requirements and statistics, formulary-change continuity, payment of authorized services, adverse-determination notice content); duties beyond disclosure-ui are not AI-specific",
+        "no penalty or enforcement provision in the text — exposure omitted; (13) authorizes department rulemaking only for the (9)(b) reporting requirement",
+        "sunsets: § 63I-1-231(2)-(3) repeal the (9)(b) reporting requirement and (13) rulemaking July 1, 2029",
+        "special effective date: Section 3 — 'This bill takes effect on January 1, 2027.'"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

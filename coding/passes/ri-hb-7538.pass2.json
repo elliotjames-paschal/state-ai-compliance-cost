@@ -1,0 +1,28 @@
+{
+  "entries": [
+    {
+      "id": "RI HB 7538",
+      "category": "company",
+      "family": "healthcare-clinical",
+      "appliesTo": "healthcare providers and healthcare facilities that employ AI to document in-person or telehealth visits",
+      "duties": ["statutory-review", "disclosure-ui", "human-review"],
+      "dutySources": {
+        "disclosure-ui": "§ 23-106-3 — 'shall notify patients of the use of AI for that sole purpose'",
+        "human-review": "§ 23-106-3 — 'review the AI-generated documentation for accuracy after the visit'"
+      },
+      "params": {
+        "aiPracticeRule": "disclosure"
+      },
+      "sources": {
+        "aiPracticeRule": "§ 23-106-3 — 'shall notify patients of the use of AI for that sole purpose'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "scope param omitted: the act covers only AI used 'to document in-person or telehealth visits' (AI scribing), which fits none of licensure|treatment|all cleanly",
+        "human-review coded for review of AI-generated documentation, not review of automated decisions — closest listed duty",
+        "no penalty or enforcement provision in the text; exposure omitted"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

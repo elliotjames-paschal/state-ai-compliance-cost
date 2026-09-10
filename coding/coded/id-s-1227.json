@@ -1,0 +1,37 @@
+{
+ "entries": [
+  {
+   "id": "ID S 1227",
+   "category": "education",
+   "family": "education-k12",
+   "segment": null,
+   "appliesTo": "Idaho local school districts and public charter schools; the state department of education (statewide framework, standards, guidance)",
+   "duties": [
+    "statutory-review",
+    "risk-program"
+   ],
+   "dutySources": {
+    "risk-program": "\u00a7 33-7004 \u2014 'Each local school district and public charter school shall adopt a policy governing the use of generative artificial intelligence by students and employees in school buildings, on school grounds, during school activities, and on school-issued devices.'"
+   },
+   "params": {
+    "policyRequired": "yes"
+   },
+   "exposure": null,
+   "sources": {
+    "policyRequired": "\u00a7 33-7004 \u2014 'Each local school district and public charter school shall adopt a policy governing the use of generative artificial intelligence'"
+   },
+   "duplicateOf": null,
+   "flags": [
+    "CODING.md rule 6 cites ID S 1227 as an example of a chatbot-safeguards bill filed under 'AI in Education', but the enacted text (new Chapter 70, Title 33 \u2014 'GENERATIVE ARTIFICIAL INTELLIGENCE IN EDUCATION') contains no chatbot or companion-AI provisions; coded education-k12 from the text (possible confusion with ID S 1297 'Conversational AI Safety Act').",
+    "\u00a7 33-7007(1) imposes a duty directly on private vendors \u2014 'Vendors shall disclose whether products utilize machine learning, predictive analytics, or generative AI and shall provide assurances regarding data protection, algorithmic transparency, and responsible use' \u2014 which arguably triggers the company mixing rule for category and fits no listed duty key; left in flags rather than coded.",
+    "State department of education (not schools) is bound to: develop a statewide generative AI in education framework subject to state board approval (\u00a7 33-7003(1) \u2014 'The state department of education shall develop a statewide generative artificial intelligence in education framework'), develop and recommend K-12 generative AI literacy standards, assessment guidelines, and a professional development plan (\u00a7 33-7005 \u2014 'shall develop and recommend to the state board of education'), and develop a parent/guardian guidance document (\u00a7 33-7006).",
+    "curriculum and trainingRequired params not coded: \u00a7 33-7005 requires the department to 'develop and recommend' literacy standards and a professional development plan \u2014 it does not mandate that schools teach the standards or that educators complete training.",
+    "\u00a7 33-7007(2) is permissive only: 'The state department of education may establish a list of approved generative AI tools or develop model procurement guidelines' \u2014 no procurement param coded.",
+    "No penalty, enforcement, or remedy provision anywhere in the chapter \u2014 exposure omitted per rule 3.",
+    "Emergency clause: 'this act shall be in full force and effect on and after July 1, 2026' (Section 2)."
+   ],
+   "confidence": "medium"
+  }
+ ],
+ "resolution": "pass1"
+}

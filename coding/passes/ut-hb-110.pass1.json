@@ -1,0 +1,26 @@
+{
+  "entries": [
+    {
+      "id": "UT HB 110",
+      "category": "public-sector",
+      "family": "public-sector",
+      "appliesTo": "Utah courts and the Board of Pardons and Parole making probation and parole decisions",
+      "duties": ["statutory-review", "human-review"],
+      "dutySources": {
+        "human-review": "§ 77-18-105(9)(b) — 'the court may not rely solely on an algorithm or a risk assessment tool score.'; § 77-27-5(8) — 'The board may not rely solely on an algorithm or a risk assessment tool score in determining whether parole should be granted or terminated for an offender.'"
+      },
+      "params": {},
+      "sources": {
+        "appliesTo": "§ 77-18-105(9) — 'When making any decision regarding probation: … (b) the court may not rely solely on an algorithm or a risk assessment tool score.'; § 77-27-5(8) — 'The board may not rely solely on an algorithm or a risk assessment tool score'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "AI-relevant provisions (§ 77-18-105(9)(b) and § 77-27-5(8), 'may not rely solely on an algorithm or a risk assessment tool score') carry no amendment markup and appear to be pre-existing law re-enacted verbatim within amended sections; this bill does not appear to add or modify them",
+        "Bill's substantive changes are non-AI offender provisions: class B misdemeanor probation supervision (§ 77-18-105(5)(b)(iii)), parole reconsideration after revocation (§ 77-27-5(5)(a)(v)), pardon timelines for sex-offender registry offenders (new § 77-27-5.6), expungement certificate exclusion for registry offenses (§ 77-40a-303(2)(a)(v)), and pre-minimum-term parole requirements (§ 77-27-9(1)(b))",
+        "No public-sector family param (inventory/procurementRules/assessment/program) fits the no-sole-reliance-on-algorithm rule; the requirement is coded only as the human-review duty",
+        "Only penalty in the bill is unrelated to AI: § 77-27-9(4)(b) — 'A person who willfully disobeys a properly served subpoena issued by the board is guilty of a class B misdemeanor.' No exposure block coded"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

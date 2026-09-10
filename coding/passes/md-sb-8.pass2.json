@@ -1,0 +1,42 @@
+{
+  "entries": [
+    {
+      "id": "MD SB 8",
+      "category": "criminal",
+      "family": "ai-crimes",
+      "segment": null,
+      "appliesTo": "any person using AI or a deepfake representation to impersonate, falsely depict, or create false records with fraudulent intent",
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": {
+        "prohibition": "impersonation-fraud",
+        "coveredSubjects": "all-persons"
+      },
+      "exposure": {
+        "penaltyMax": 15000,
+        "penaltyUnit": "per violation (tiered by number of victims)",
+        "enforcer": "state's-attorney + attorney-general; private-right (injunction + other appropriate relief)"
+      },
+      "sources": {
+        "prohibition": "§ 8–301(f)(2) — 'A PERSON MAY NOT KNOWINGLY, WILLFULLY, AND WITH FRAUDULENT INTENT USE ARTIFICIAL INTELLIGENCE OR A DEEPFAKE REPRESENTATION TO: (I) IMPERSONATE, FALSELY DEPICT, OR CLAIM TO REPRESENT … (II) CREATE OR DISTRIBUTE FALSE RECORDS'",
+        "coveredSubjects": "§ 8–301(f)(2)(I) — 'CAUSE HARM TO ANOTHER BY IMPERSONATING, FALSELY DEPICTING, OR CLAIMING TO REPRESENT THAT PERSON OR ANY OTHER PERSON'",
+        "penaltyMax": "§ 8–301(g)(5)(II) — 'A PERSON WHO VIOLATES SUBSECTION (F)(2) OF THIS SECTION INVOLVING TWO OR MORE VICTIMS IS GUILTY OF A FELONY AND ON CONVICTION IS SUBJECT TO IMPRISONMENT NOT EXCEEDING 10 YEARS OR A FINE NOT EXCEEDING $15,000 OR BOTH'",
+        "penaltyUnit": "§ 8–301(g)(5)(I)–(II) — 'INVOLVING ONE VICTIM … INVOLVING TWO OR MORE VICTIMS'",
+        "enforcer": "§ 8–301(P)(1) — 'A State's Attorney or the Attorney General may investigate and prosecute a violation of this section'; § 8–301(H)(1) — 'A PERSON WHO IS THE VICTIM OF AN ACT THAT WOULD CONSTITUTE A VIOLATION OF SUBSECTION (F)(2) OF THIS SECTION MAY BRING A CIVIL ACTION'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "Criminal tier structure (rule 11): (f)(2) violation involving one victim is a felony, imprisonment ≤ 5 years or fine ≤ $10,000 (§ 8–301(g)(5)(I)); two or more victims, imprisonment ≤ 10 years or fine ≤ $15,000 (§ 8–301(g)(5)(II)).",
+        "penaltyMax = $15,000 is the highest fine for the AI/deepfake subsection (f)(2); the amended section's pre-existing non-AI identity-fraud tiers reach $25,000 (§ 8–301(g)(1)(iii), (g)(3)) but do not attach to the AI provision.",
+        "Bill also adds non-AI criminal prohibitions in the same section: (B–2) using personal identifying information to cause harm, and (C)(2)(IV) assuming another's identity to 'HARM, HARASS, INTIMIDATE, THREATEN, OR COERCE' — both misdemeanors, imprisonment ≤ 1 year or fine ≤ $500 (§ 8–301(g)(4)).",
+        "New civil remedy: victim of an (f)(2) act may sue; court may 'ISSUE AN INJUNCTION' and 'GRANT ANY OTHER APPROPRIATE RELIEF' (§ 8–301(H)); no civil damages amount stated.",
+        "Restitution: court may order restitution for reasonable costs including attorney's fees (§ 8–301(J)).",
+        "Plain-text extraction of the chaptered PDF loses strikethrough in (f)(2)(I), so struck amendment language ('WITH THE INTENT TO DEFRAUD, MISLEAD, OR CAUSE HARM TO THAT PERSON OR ANY OTHER PERSON') appears alongside its enacted replacement ('CAUSE HARM TO ANOTHER BY IMPERSONATING, FALSELY DEPICTING, OR CLAIMING TO REPRESENT THAT PERSON OR ANY OTHER PERSON'); coded from the replacement clause.",
+        "Quotes are whitespace-normalized: the source PDF text contains mid-word spacing artifacts (e.g. 'INTELLI GENCE', 'IMPRIS ONMENT').",
+        "'Artificial intelligence' is defined by cross-reference to State Fin. & Proc. § 3.5–801(c), which the Act reprints without amendment.",
+        "Effective October 1, 2026 (Section 2)."
+      ],
+      "confidence": "high"
+    }
+  ]
+}

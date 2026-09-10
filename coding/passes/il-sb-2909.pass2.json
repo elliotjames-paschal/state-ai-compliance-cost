@@ -1,0 +1,29 @@
+{
+  "entries": [
+    {
+      "id": "IL SB 2909",
+      "category": "education",
+      "family": "education-k12",
+      "appliesTo": "school districts, evaluators, and teachers in teacher performance evaluations",
+      "duties": ["statutory-review", "human-review", "disclosure-ui"],
+      "dutySources": {
+        "human-review": "105 ILCS 5/24A-5 — 'An evaluator is prohibited from using an artificial intelligence tool to assign a numerical score or qualitative rating, such as \"excellent\", \"proficient\", \"need improvement\", or \"unsatisfactory\", for any component of a teacher's evaluation or any evaluation task that requires professional judgment.'",
+        "disclosure-ui": "105 ILCS 5/24A-5 — 'If an evaluator uses an artificial intelligence tool, the name and specific purpose of the artificial intelligence tool must be disclosed to the teacher being evaluated. If a teacher uses an artificial intelligence tool, the name and specific purpose of the artificial intelligence tool must be disclosed to the evaluator evaluating the teacher.'"
+      },
+      "params": {
+        "policyRequired": "yes"
+      },
+      "sources": {
+        "policyRequired": "105 ILCS 5/24A-5 — 'The joint committee under subsection (b-5) of Section 24A-4 shall determine how artificial intelligence tools may be used in accordance with paragraphs (a) through (o).'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "human-review coded from a prohibition, not an affirmative review duty: the text bars AI from assigning ratings or performing 'any evaluation task that requires professional judgment', leaving those to the human evaluator ('an artificial intelligence tool may be used to support the evaluator in administrative tasks')",
+        "disclosure-ui is a lossy fit: disclosure runs between evaluator and teacher (name and specific purpose of the AI tool), not to end users of an AI interaction",
+        "teacher-side prohibition fits no listed duty: 'A teacher is prohibited from using an artificial intelligence tool to generate evidence of professional practice that will be used by an evaluator to evaluate the teacher's performance.'",
+        "no penalty or enforcement provision in the amended section — exposure omitted"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+ "entries": [
+  {
+   "id": "AL HB 329",
+   "category": "education",
+   "family": "education-k12",
+   "appliesTo": "Alabama public K-12 schools (elementary, middle, high) and the State Department of Education",
+   "duties": [
+    "statutory-review"
+   ],
+   "dutySources": {},
+   "params": {
+    "curriculum": "required",
+    "graduationReq": "yes"
+   },
+   "exposure": {
+    "enforcer": "cross-reference \u2014 Section 16-1-11.1"
+   },
+   "sources": {
+    "curriculum": "\u00a7 16-46B-2(a)(1)-(3) \u2014 'each public high school shall offer at least one authentic computer science course from a department-approved list' \u2026 'each public middle school shall offer instruction in middle school computer science courses approved by the department' \u2026 'each public elementary school shall offer instruction on the basics of computer science and computational thinking.'",
+    "graduationReq": "\u00a7 16-46B-7(c)(1) \u2014 'Beginning with the graduating class of 2032, all public school students shall demonstrate digital literacy by earning at least one credit in a department-approved, high school or college-level computer science course, or by completing a department-approved course with embedded computer science skills and experiences.'",
+    "enforcer": "\u00a7 16-46B-2(e) \u2014 'The enforcement of this section shall comply with Section 16-1-11.1.'"
+   },
+   "duplicateOf": null,
+   "flags": [
+    "AI content is limited to the amended definition of computer science: \u00a7 16-46B-1(2) \u2014 'their emerging technologies, including, but not limited to, artificial intelligence'; the bill is otherwise a general computer science graduation-requirement act",
+    "State Department of Education carries administrative duties (\u00a7 16-46B-7(c)(1) \u2014 'The department shall develop and publish a set of minimum standards\u2026' and 'shall publish a list of\u2026 courses\u2026 that have been approved'), which bind an agency rather than schools; retained under education category since the regime targets K-12 curricula",
+    "graduation requirement adds no credits: \u00a7 16-46B-7(c)(1) \u2014 'This requirement shall not result in an increase in the number of credits required for graduation.'",
+    "no penalty stated; enforcement routed by cross-reference only (rule 4 \u2014 no penaltyMax coded)",
+    "Effective October 1, 2026 (Section 2 \u2014 'This act shall become effective on October 1, 2026.'); graduation requirement begins with the class of 2032"
+   ],
+   "confidence": "high"
+  }
+ ],
+ "resolution": "final"
+}

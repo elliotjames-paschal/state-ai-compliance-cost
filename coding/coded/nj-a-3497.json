@@ -1,0 +1,36 @@
+{
+ "entries": [
+  {
+   "id": "NJ A 3497",
+   "category": "company",
+   "family": "pricing-competition",
+   "appliesTo": "residential rental property owners (and their agents, representatives, or subcontractors) and owners of rent-pricing coordinators \u2014 software, data analytics services, or entities performing a coordinating function \u2014 plus coordinator agents/representatives/subcontractors",
+   "duties": [
+    "statutory-review"
+   ],
+   "dutySources": {},
+   "params": {
+    "prohibition": "price-coordination"
+   },
+   "exposure": {
+    "enforcer": "New Jersey Antitrust Act enforcement (cross-referenced; includes civil actions per \u00a7 5)"
+   },
+   "sources": {
+    "prohibition": "\u00a7 3 \u2014 'It shall be unlawful and a violation of the \"New Jersey Antitrust Act,\" P.L.1970, c.73 (C.56:9-1 et seq.) for: a. a rental property owner, or any agent, representative, or subcontractor thereof, \u2026 to subscribe to, contract with, or otherwise exchange any form of consideration in return for the use of services of a coordinator; b. the owner of a coordinator to facilitate an agreement among rental property owners that restricts competition with respect to residential dwelling units, including by performing a coordinating function; \u2026 c. two or more rental property owners to engage in consciously parallel pricing coordination \u2026 d. any agent or representative of a coordinator or subcontractor thereof to engage in consciously parallel pricing coordination'",
+    "enforcer": "\u00a7 4 \u2014 'Sections 7 through 17 of the \"New Jersey Antitrust Act,\" P.L.1970, c.73 (C.56:9-7 through 56:9-17) shall apply for a violation pursuant to section 3 of this act.'"
+   },
+   "duplicateOf": null,
+   "flags": [
+    "Text on file is the First Reprint (doc_id 3390099, Amended 2026-03-10); later versions (Comm Sub 2026-06-09, Amended 2026-06-24) extracted to 0 chars per manifest \u2014 final enacted text may differ from what was coded",
+    "Enforcement is a pure cross-reference to NJ Antitrust Act \u00a7\u00a7 7-17 (\u00a7 4); no penalty amounts stated in this text (rule 4: no penaltyMax coded)",
+    "Not exclusively AI-specific: 'coordinating function' covers 'analyzing or processing nonpublic information through use of a system, software, algorithm, or other automated process' (\u00a7 2) \u2014 algorithmic and non-algorithmic coordination alike",
+    "Relaxed pleading standard for civil actions: complaint 'need not allege facts tending to exclude the possibility of independent action' (\u00a7 5.a(2)), limited to violations of \u00a7 3 of this act only (\u00a7 5.b)",
+    "Carve-outs: licensed real estate brokers/broker-salespersons/salespersons (\u00a7\u00a7 2, 3.a), aggregated-data reports and research/statistics/testing/training uses (\u00a7 2), government entities under rental price restriction programs (\u00a7 2), single-owner multi-property actions (\u00a7 2), multiple listing services and their members (\u00a7 7), third-party property managers acting in accordance with a rental contract (\u00a7 8)",
+    "Non-company provisions noted per category rule: public education program by Dept. of Law and Public Safety and Dept. of Community Affairs (\u00a7 9); AG + Commissioner of Community Affairs rulemaking (\u00a7 10); municipal ordinances superseding the act prohibited (\u00a7 6.b)",
+    "Effective 'on the first day of the fourth month next following the date of enactment' (\u00a7 11)"
+   ],
+   "confidence": "medium"
+  }
+ ],
+ "resolution": "final"
+}

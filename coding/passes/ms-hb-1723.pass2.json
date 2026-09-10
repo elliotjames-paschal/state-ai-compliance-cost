@@ -1,0 +1,26 @@
+{
+  "entries": [
+    {
+      "id": "MS HB 1723",
+      "category": "public-sector",
+      "family": "definitions-only",
+      "segment": null,
+      "appliesTo": "no bound party — defines \"artificial intelligence\" for the Mississippi Code (definitional only)",
+      "duties": ["statutory-review"],
+      "dutySources": {},
+      "params": {},
+      "exposure": null,
+      "sources": {
+        "family": "SECTION 1 — 'The term \"artificial intelligence\" means a machine-based system that can, for a given set of human-defined objectives, make predictions, recommendations or decisions influencing real or virtual environments.'",
+        "category": "SECTION 2 — 'Section 1 of this act shall be codified in Chapter 3, Title 1, Mississippi Code of 1972.'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "Bill binds no one: it only defines 'artificial intelligence' and codifies the definition in Chapter 3, Title 1 (general provisions of the Mississippi Code). None of the four categories fits a pure definitions act; 'public-sector' is coded as the least-wrong forced choice since the definition operates only on construction of state statutes.",
+        "No duties, parameters, or penalty/enforcement provisions in the enacted text; exposure omitted (silence is silence).",
+        "Effective July 1, 2026 (SECTION 3)."
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

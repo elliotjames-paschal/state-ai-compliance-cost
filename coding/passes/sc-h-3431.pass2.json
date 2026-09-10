@@ -1,0 +1,43 @@
+{
+  "entries": [
+    {
+      "id": "SC H 3431",
+      "category": "company",
+      "family": "privacy-data",
+      "segment": null,
+      "appliesTo": "covered online services conducting business in South Carolina that are reasonably likely to be accessed by minors and meet revenue or data-volume thresholds",
+      "duties": ["statutory-review", "takedown-process", "documentation", "impact-assessment"],
+      "dutySources": {
+        "takedown-process": "§ 39-80-60(A) — 'Covered online services shall establish mechanisms for parents, minors, and schools to report harm to minors on covered online services'",
+        "documentation": "§ 39-80-60(D) — 'required to describe in its terms and conditions, in a clear, conspicuous, and easy-to-understand manner, how the systems are used to provide information to minors'",
+        "impact-assessment": "§ 39-80-70(A) — 'Annually, on or before July first, the covered online service must issue a public report prepared by an independent third-party auditor'"
+      },
+      "params": {
+        "admOptOut": "required",
+        "minorsFocus": "yes"
+      },
+      "exposure": {
+        "enforcer": "attorney-general"
+      },
+      "sources": {
+        "admOptOut": "§ 39-80-30(B) — 'must provide to a user the option to opt out of personalized recommendation systems, except for optimizations based on the user's expressed preferences'",
+        "minorsFocus": "§ 39-80-10(8) — '\"Minor\" means a consumer who is less than eighteen years of age.'",
+        "enforcer": "§ 39-80-80(A) — 'The Attorney General shall enforce the provisions contained in this chapter.'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "bill title describes a social media company act, but the enacted text ('Amend Title to Conform') adds Chapter 80, Title 39, 'Age-Appropriate Code Design' binding 'covered online services' — coded from the enacted text per rule 1",
+        "AI nexus is definitional/algorithmic: § 39-80-10(9) 'An online service may include any service, product, or feature that is based in part or in whole on artificial intelligence'; personalized recommendation systems (§ 39-80-10(12)) and profiling (§ 39-80-10(15)) are defined as automated processing",
+        "duty of 'reasonable care in the use of a minor's personal data and the design and operation of the covered online service' to prevent enumerated harms (§ 39-80-20(A)) fits no listed duty key",
+        "required user tools to disable covered design features, limit time and purchases, restrict visibility/contact/indexing/location (§ 39-80-30(A)), with highest-protection defaults for known minors (§ 39-80-30(C), § 39-80-40(G)) — no matching duty key",
+        "data minimization and purpose limitation, targeted-advertising ban to minors, default limits on precise geolocation collection, and notification quiet-hour tools (§ 39-80-40(A)-(E)) — privacy duties with no matching duty/param keys",
+        "profiling of a known minor prohibited unless necessary to the requested service (§ 39-80-40(F)) — no profiling-prohibition param in the privacy-data vocabulary",
+        "parental tools required and on by default for known minors, incl. account-settings control, purchase restrictions, time-of-day limits, with notice to the minor (§ 39-80-50) — no matching duty key",
+        "ads directed to minors for prohibited products banned (§ 39-80-60(B)); dark patterns prohibited and made 'an unlawful trade practice under Section 39-5-20 of the South Carolina Unfair Trade Practices Act' (§ 39-80-60(C)) — cross-referenced enforcement not imported per rule 4",
+        "the annual § 39-80-70 report must be 'submitted to the Attorney General who shall post it in a prominent place on his internet website' and include 'description of algorithms used by the covered online service'; age verification is contemplated ('age verification or estimation methods used') but not mandated — no age-assurance duty coded",
+        "exposure: no fixed fine stated; 'liable for treble the financial damages incurred as a result of a violation' (§ 39-80-80(B)) and officers/employees 'may be held personally liable for wilful and wanton violations' (§ 39-80-80(C))"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

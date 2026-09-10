@@ -1,0 +1,39 @@
+{
+  "entries": [
+    {
+      "id": "CO HB 26-1195",
+      "category": "company",
+      "family": "mental-health-practice",
+      "segment": null,
+      "appliesTo": "licensees, registrants, certificate holders, and other individuals lawfully permitted to provide psychotherapy services in Colorado; plus any person marketing an AI system as psychotherapy (§ 6-1-1705.2)",
+      "duties": ["statutory-review", "disclosure-ui", "consent-workflow", "human-review"],
+      "dutySources": {
+        "disclosure-ui": "§ 2, 12-245-224.5(4)(a)(I)(A) — 'THE CLIENT OR THE CLIENT'S LEGALLY AUTHORIZED REPRESENTATIVE IS INFORMED IN ADVANCE IN WRITING OF THE FOLLOWING: (A) THAT AN ARTIFICIAL INTELLIGENCE SYSTEM WILL BE USED'; also (6)(b) — 'SHALL PROVIDE TO THE CLIENT DURING THE INITIAL CLIENT CONTACT WRITTEN INFORMATION CONCERNING PROHIBITIONS SPECIFIED IN SUBSECTION (6)(a) OF THIS SECTION ON THE USE OF ARTIFICIAL INTELLIGENCE SYSTEMS'",
+        "consent-workflow": "§ 2, 12-245-224.5(4)(a)(II) — 'THE CLIENT OR THE CLIENT'S LEGALLY AUTHORIZED REPRESENTATIVE CONSENTS IN WRITING TO THE USE OF THE ARTIFICIAL INTELLIGENCE SYSTEM'",
+        "human-review": "§ 2, 12-245-224.5(5)(b) — 'GENERATE THERAPEUTIC RECOMMENDATIONS OR TREATMENT PLANS WITHOUT REVIEW AND APPROVAL BY THE LICENSEE, REGISTRANT, CERTIFICATE HOLDER, OR OTHER INDIVIDUAL LAWFULLY PERMITTED TO PROVIDE PSYCHOTHERAPY SERVICES IN THE STATE'; also (2) — 'MAINTAINS RESPONSIBILITY FOR REVIEWING ANY OUTPUTS OF THE ARTIFICIAL INTELLIGENCE SYSTEM'"
+      },
+      "params": {
+        "aiTherapyRule": "supervised",
+        "consentRequired": "yes",
+        "scope": "psychotherapy"
+      },
+      "exposure": {
+        "enforcer": "mental-health licensing boards (article 245 professional discipline)"
+      },
+      "sources": {
+        "aiTherapyRule": "§ 2, 12-245-224.5(5)(a) — 'SHALL NOT ALLOW AN ARTIFICIAL INTELLIGENCE SYSTEM TO ... INTERACT WITH CLIENTS IN ANY FORM OF THERAPEUTIC COMMUNICATION WITHOUT SYNCHRONOUS, REAL-TIME INTERACTION BETWEEN THE LICENSEE, REGISTRANT, CERTIFICATE HOLDER, OR OTHER INDIVIDUAL LAWFULLY PERMITTED TO PROVIDE PSYCHOTHERAPY SERVICES IN THE STATE, THE ARTIFICIAL INTELLIGENCE SYSTEM, AND THE CLIENT'; (6)(a) — 'SHALL NOT USE AN ARTIFICIAL INTELLIGENCE SYSTEM TO PROVIDE, DIRECT, GUIDE, OR ATTEMPT TO PROVIDE, DIRECT, OR GUIDE PSYCHOTHERAPY ... UNLESS THE USE COMPLIES WITH SUBSECTION (5) OF THIS SECTION'",
+        "consentRequired": "§ 2, 12-245-224.5(4)(a)(II) — 'CONSENTS IN WRITING TO THE USE OF THE ARTIFICIAL INTELLIGENCE SYSTEM'",
+        "scope": "§ 2, 12-245-224.5(6)(a) — 'PSYCHOTHERAPY, CLINICAL INTERVENTION, COUNSELING, DIAGNOSIS, TREATMENT PLANNING, OR ANY OTHER ACTIVITY THAT CONSTITUTES THE PRACTICE OF PSYCHOTHERAPY'",
+        "enforcer": "§ 1, 12-245-224(1) — 'A person licensed, registered, or certified under this article 245 violates this article 245 if the person: ... (y) FAILS TO COMPLY WITH SECTION 12-245-224.5 CONCERNING THE USE OF ARTIFICIAL INTELLIGENCE SYSTEMS.'"
+      },
+      "duplicateOf": null,
+      "flags": [
+        "Section 3 adds 6-1-1705.2 (codified in the Colorado Consumer Protection Act article) prohibiting any person from implying an AI system's output 'IS BEING PROVIDED BY, IS ENDORSED BY, OR IS EQUIVALENT TO SERVICES PROVIDED BY' a licensed individual, representing that the system 'PROVIDES PSYCHOTHERAPY SERVICES', or representing user data as confidential comparably to 'THERAPIST-CLIENT CONFIDENTIALITY' — this text states no penalty or enforcement mechanism for that section (rule 4: no imports), so exposure reflects only the article 245 discipline route in section 1",
+        "consent is one-time: required 'ONLY FOR THE INITIAL USE OF THE ARTIFICIAL INTELLIGENCE SYSTEM ... AND NOT FOR EACH SUBSEQUENT THERAPEUTIC SESSION, UNLESS THE PURPOSE OR MANNER OF USE MATERIALLY CHANGES' (§ 12-245-224.5(4)(b)); refusal or revocation 'SHALL NOT BE USED AS A BASIS TO DENY PSYCHOTHERAPY SERVICES' ((4)(a)(III))",
+        "carve-outs: educational/training programs ((7)), IRB-overseen research ((8)), wellness tools and FDA-authorized behavioral-health products that 'DO NOT DIAGNOSE OR TREAT MENTAL HEALTH DISORDERS' and disclose they are 'NOT A SUBSTITUTE FOR CLINICAL CARE' ((9)); parallel carve-outs in 6-1-1705.2(3)-(5)",
+        "administrative and supplementary support uses are expressly permitted with output-review responsibility (12-245-224.5(2)); 6-1-1705.2(2) shifts developer/deployer defect liability to 'APPLICABLE CONSUMER PROTECTION LAW'"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

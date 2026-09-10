@@ -1,0 +1,31 @@
+{
+ "entries": [
+  {
+   "id": "TN SB 1700",
+   "category": "public-sector",
+   "family": "public-sector",
+   "appliesTo": "Tennessee advisory commission on intergovernmental relations (TACIR); state and local governmental entities must provide requested information",
+   "duties": [
+    "statutory-review"
+   ],
+   "dutySources": {},
+   "params": {
+    "program": "AI regulation study (TACIR)"
+   },
+   "sources": {
+    "program": "\u00a7 1 \u2014 'The Tennessee advisory commission on intergovernmental relations (TACIR) shall conduct a study of the potential regulation of artificial intelligence systems and generative artificial intelligence chatbots in this state.'"
+   },
+   "duplicateOf": null,
+   "flags": [
+    "study-and-report mandate does not fit any listed duty key: \u00a7 2 \u2014 'TACIR shall publish a report of the study's findings and recommendations and shall deliver a copy of the report to the governor, the speaker of the senate, the speaker of the house of representatives, and the legislative librarian.'",
+    "cooperation duty on other government entities: \u00a7 3 \u2014 'State and local governmental entities shall, to the extent permitted by law, provide information requested by TACIR.'",
+    "no report deadline stated; act 'takes effect upon becoming a law' (\u00a7 4)",
+    "no appropriation: \u00a7 3 \u2014 'TACIR shall conduct the study using TACIR's existing resources.'",
+    "no penalty or enforcement provision (exposure omitted)",
+    "substitution: the act states 'Substituted for: House Bill No. 1946' \u2014 SB 1700 is the enacted vehicle (Public Chapter No. 1082), not a duplicate"
+   ],
+   "confidence": "high"
+  }
+ ],
+ "resolution": "final"
+}
