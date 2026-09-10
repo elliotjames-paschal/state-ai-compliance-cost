@@ -672,13 +672,15 @@
   };
 
   function buildGlossaryDuties() {
-    var host = $("gloss-duties");
-    host.innerHTML = Object.keys(DATA.duties).map(function (k) {
+    var rows = Object.keys(DATA.duties).map(function (k) {
       var d = DATA.duties[k];
-      return "<div class='gloss-duty'><span class='gd-name'>" + d.label + "</span>" +
-        "<span class='gd-meaning'>" + (DUTY_MEANINGS[k] || "") + "</span>" +
-        "<span class='gd-hours'>" + d.legal.mode + " / " + d.eng.mode + " · " + d.ops.mode + "/yr</span></div>";
+      return "<tr><td><strong>" + d.label + "</strong><br><code>" + k + "</code></td>" +
+        "<td>" + (DUTY_MEANINGS[k] || "") + "</td>" +
+        "<td class='num'>" + d.legal.mode + " / " + d.eng.mode + " · " + d.ops.mode + "/yr</td></tr>";
     }).join("");
+    $("gloss-duties").innerHTML =
+      "<table class='gloss-table'><thead><tr><th>Duty</th><th>What the law requires</th>" +
+      "<th>Default hours</th></tr></thead><tbody>" + rows + "</tbody></table>";
   }
 
   buildDutyControls();

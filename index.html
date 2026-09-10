@@ -256,59 +256,91 @@
   </header>
 
       <section class="card" id="glossary">
-        <h2>Glossary <span class="hint">duties, parameters, and how they fit together</span></h2>
+        <h2>Glossary <span class="hint">reference for every term, duty, and parameter in the model</span></h2>
 
-        <h3 class="gloss-h">How the model works, in five steps</h3>
+        <h3 class="gloss-h">Core concepts</h3>
+        <table class="gloss-table"><thead><tr><th>Term</th><th>Definition</th></tr></thead><tbody><tr><td><strong>Category</strong></td><td>Who a law binds: <code>company</code> (enters the estimate), <code>criminal</code> (binds individuals), <code>public-sector</code> (binds the state), <code>education</code> (binds schools). Only company laws are counted by default.</td></tr><tr><td><strong>Requirement family</strong></td><td>A group of laws that demand the same kind of thing across states (chatbot safeguards, insurance decisions, &hellip;). Reuse and the federal baseline are computed within a family.</td></tr><tr><td><strong>Duty</strong></td><td>A unit of work a law demands (build a crisis protocol, run an annual audit). Each duty carries hour estimates &mdash; legal and engineering once, operations per year. Duties drive cost.</td></tr><tr><td><strong>Parameter</strong></td><td>A concrete setting a statute picks (age limit 18, notice in 90 days). Parameters never add cost directly; they measure how much states agree. Every coded value is anchored to a quoted provision.</td></tr><tr><td><strong>Reuse</strong></td><td>The share of parameters two states set to the same value, averaged across state pairs in a family. Each later state pays only (1&nbsp;&minus;&nbsp;reuse) of a fresh build.</td></tr><tr><td><strong>Federal baseline</strong></td><td>The parameters every state in a family sets identically &mdash; the least common denominator. A single federal rule would require that work anyway, so it is never counted. Its size is shown under the headline.</td></tr><tr><td><strong>Statutory exposure</strong></td><td>The penalty a law itself states for violations (amount, unit, enforcer, cure period). Reported as fact next to each bill; never added to the cost estimate.</td></tr><tr><td><strong>Time horizon</strong></td><td>How many years of recurring (operations) costs are counted. One-time costs are unaffected.</td></tr><tr><td><strong>Monte Carlo</strong></td><td>The model runs 4,000 seeded simulations with duty hours drawn from their ranges, plus a shared error factor across all draws. Results are the spread: conservative p10, central p50, upper p90.</td></tr></tbody></table>
+
+        <h3 class="gloss-h">How a law becomes a number</h3>
         <ol class="gloss-steps">
-          <li>Every enacted state AI law was read and coded into four facts: <strong>who it binds</strong>
-          (companies, individuals, agencies, or schools), which <strong>requirement family</strong> it
-          belongs to, which <strong>duties</strong> it demands, and which <strong>parameters</strong> it
-          sets &mdash; each anchored to a quoted provision.</li>
-          <li><strong>Duties drive cost.</strong> Each duty has hour estimates (legal review and engineering
-          once; operations every year) for the average AI model. A law's cost is the sum of its duties'
-          hours &times; your rates.</li>
-          <li><strong>Parameters drive discounts.</strong> Comparing two states' parameters gives
-          <em>reuse</em> &mdash; the share of work that carries from one state to the next. What every
-          state sets identically is the <em>federal baseline</em> &mdash; work a single national rule
-          would have required anyway, so it is never counted.</li>
-          <li>Each family is costed in sequence: the first state pays its divergence from the federal
-          baseline; every later state pays (1&nbsp;&minus;&nbsp;reuse) of a fresh build, plus its share of
-          recurring operations.</li>
-          <li>The simulation runs 4,000 times with the hour estimates wiggled inside their ranges; the
-          dashboard reports the resulting spread, conservative end first.</li>
+          <li>Every enacted state AI law was read and coded into four facts: <strong>who it binds</strong>,
+          its <strong>requirement family</strong>, the <strong>duties</strong> it demands, and the
+          <strong>parameters</strong> it sets &mdash; each anchored to a quoted provision.</li>
+          <li><strong>Duties &rarr; cost.</strong> A law's cost is the sum of its duties' hours &times; your rates
+          (legal and engineering once; operations each year of the horizon).</li>
+          <li><strong>Parameters &rarr; discounts.</strong> Parameter agreement between states sets each family's
+          reuse; what all states agree on is the federal baseline, which is never counted.</li>
+          <li>Within each family: the first state pays its divergence from the federal baseline; every later
+          state pays (1&nbsp;&minus;&nbsp;reuse) of a fresh build plus its recurring operations.</li>
+          <li>4,000 seeded simulation runs turn the hour ranges into the reported spread &mdash;
+          conservative end first.</li>
         </ol>
 
-        <h3 class="gloss-h">Duties &mdash; the work a law can demand</h3>
-        <p class="note">Hours shown are the most-likely defaults for the average AI model (legal / engineering,
-        one-time &middot; operations, per year) &mdash; all editable under Advanced.</p>
+        <h3 class="gloss-h">Duties reference</h3>
+        <p class="note">Default hours are for the average AI model and editable under Advanced on the
+        Cost Model tab. Format: legal / engineering (one-time) &middot; operations (per year).</p>
         <div id="gloss-duties"></div>
 
-        <h3 class="gloss-h">Parameters &mdash; the settings a law picks</h3>
-        <p class="note">Parameters are the concrete choices a statute makes &mdash; thresholds, deadlines,
-        coverage. They never add cost directly; they measure how much states agree, which sets each
-        family's reuse and federal baseline. Grouped by requirement family:</p>
-        <div class="gloss-params">
-          <div><strong>Chatbot safeguards</strong> &mdash; scope (which chatbots are covered) &middot; ageFocus (minors or all users) &middot; aiDisclosure (when the bot must say it's AI) &middot; crisisProtocol &middot; breakReminders &middot; parentalTools &middot; engagementLimits &middot; contentSafeguards (each: required or not) &middot; ageThreshold (who counts as a minor)</div>
-          <div><strong>AI in mental-health practice</strong> &mdash; aiTherapyRule (ban / supervised / disclosure-only) &middot; consentRequired &middot; scope (psychotherapy or all clinical use)</div>
-          <div><strong>AI in insurance decisions</strong> &mdash; humanReview (final decision or appeal) &middot; decisionsCovered (denials / prior-auth / all) &middot; disclosure &middot; aiSoleBasis (AI alone may not decide) &middot; appealDays</div>
-          <div><strong>Automated decision governance</strong> &mdash; covers (developers / deployers / both) &middot; trigger (which decisions count) &middot; assessment (cadence) &middot; consumerNotice &middot; appealRight &middot; optOut</div>
-          <div><strong>Frontier model safety</strong> &mdash; threshold (compute / cost / capability) &middot; safetyFramework &middot; incidentReporting &middot; thirdPartyAudit &middot; whistleblower</div>
-          <div><strong>Provenance &amp; transparency</strong> &mdash; watermark &middot; detectionTool &middot; disclosureTrigger (what content is covered) &middot; userThreshold (monthly users above which the duty applies)</div>
-          <div><strong>Likeness &amp; digital replicas</strong> &mdash; consentRequired &middot; coveredSubjects (performers / everyone / deceased) &middot; postmortemYears</div>
-          <div><strong>Criminal prohibitions</strong> &mdash; prohibition (NCII / CSAM / election deepfakes / impersonation / suicide-encouragement) &middot; coveredSubjects &middot; electionWindowDays</div>
-          <div><strong>Election AI disclosure</strong> &mdash; disclosure &middot; scope (ads / robocalls / all communications) &middot; windowDays (days before an election)</div>
-          <div><strong>Algorithmic pricing &amp; competition</strong> &mdash; prohibition (surveillance pricing / price coordination) &middot; disclosure</div>
-          <div><strong>Privacy &amp; data (AI provisions)</strong> &mdash; admOptOut (opt out of automated decisions) &middot; profilingAssessment &middot; minorsFocus &middot; registration</div>
-          <div><strong>Workforce protections</strong> &mdash; retaliationProtection &middot; noticeRequired</div>
-          <div><strong>AI in clinical care</strong> &mdash; aiPracticeRule (ban / disclosure / supervision) &middot; scope (licensure / treatment / all)</div>
-          <div><strong>Licensed professions</strong> &mdash; aiRule (ban / disclosure / supervision) &middot; profession</div>
-          <div><strong>Government AI use</strong> &mdash; inventory (one-time / annual) &middot; procurementRules &middot; assessment &middot; program</div>
-          <div><strong>Schools &amp; curriculum</strong> &mdash; curriculum &middot; policyRequired &middot; trainingRequired &middot; graduationReq</div>
-          <div><strong>Definitions only</strong> &mdash; no parameters; defines terms, imposes nothing</div>
-          <div><strong>Data centers</strong> &mdash; scope (what infrastructure provision the law touches)</div>
-        </div>
-        <p class="note">Full coding rules &mdash; fixed vocabularies, quote-anchoring, double-coding &mdash;
-        are in <code>CODING.md</code> in the repo.</p>
+        <h3 class="gloss-h">Parameters reference</h3>
+        <p class="note">All parameters, grouped by requirement family. Values are the fixed choices the
+        coding protocol allows; <code>required</code>/<code>yes</code> parameters are coded only when the
+        statute imposes them &mdash; silence is omitted, never coded as &ldquo;no&rdquo;. Full coding rules in
+        <code>CODING.md</code>.</p>
+
+        <h4 class="gloss-h4">Chatbot safeguards <code class="fam-key">chatbot-safeguards</code></h4>
+        <table class="gloss-table"><thead><tr><th>Parameter</th><th>Values</th><th>What it captures</th></tr></thead><tbody><tr><td><code>scope</code></td><td>companion · all-chatbots</td><td>Which conversational AI the law covers</td></tr><tr><td><code>ageFocus</code></td><td>minors · all-users</td><td>Whose protection the duties target</td></tr><tr><td><code>aiDisclosure</code></td><td>session-start · periodic · on-request</td><td>When the bot must reveal it is AI</td></tr><tr><td><code>crisisProtocol</code></td><td>required</td><td>Self-harm detection and referral protocol mandated</td></tr><tr><td><code>breakReminders</code></td><td>required</td><td>Usage-break reminders mandated</td></tr><tr><td><code>parentalTools</code></td><td>required</td><td>Parent/guardian controls mandated</td></tr><tr><td><code>engagementLimits</code></td><td>required</td><td>Limits on engagement-maximizing design (rewards, streaks)</td></tr><tr><td><code>contentSafeguards</code></td><td>required</td><td>Technical guardrails against prohibited content or interactions</td></tr><tr><td><code>ageThreshold</code></td><td>number</td><td>Age below which a user counts as a minor</td></tr></tbody></table>
+
+        <h4 class="gloss-h4">AI in mental-health practice <code class="fam-key">mental-health-practice</code></h4>
+        <table class="gloss-table"><thead><tr><th>Parameter</th><th>Values</th><th>What it captures</th></tr></thead><tbody><tr><td><code>aiTherapyRule</code></td><td>ban · supervised · disclosure-only</td><td>How AI may participate in therapy</td></tr><tr><td><code>consentRequired</code></td><td>yes</td><td>Written client consent required for AI use</td></tr><tr><td><code>scope</code></td><td>psychotherapy · all-clinical</td><td>Covered practice area</td></tr></tbody></table>
+
+        <h4 class="gloss-h4">AI in insurance decisions <code class="fam-key">insurance-adm</code></h4>
+        <table class="gloss-table"><thead><tr><th>Parameter</th><th>Values</th><th>What it captures</th></tr></thead><tbody><tr><td><code>humanReview</code></td><td>required-final · required-appeal</td><td>Where a licensed human must make the decision</td></tr><tr><td><code>decisionsCovered</code></td><td>denials · prior-auth · all</td><td>Which insurance decisions the law reaches</td></tr><tr><td><code>disclosure</code></td><td>required</td><td>AI use must be disclosed</td></tr><tr><td><code>aiSoleBasis</code></td><td>prohibited</td><td>AI alone may not be the basis of a decision</td></tr><tr><td><code>appealDays</code></td><td>number</td><td>Days allowed to appeal a decision</td></tr></tbody></table>
+
+        <h4 class="gloss-h4">Automated decision governance <code class="fam-key">adm-governance</code></h4>
+        <table class="gloss-table"><thead><tr><th>Parameter</th><th>Values</th><th>What it captures</th></tr></thead><tbody><tr><td><code>covers</code></td><td>developers · deployers · both</td><td>Who bears the obligations</td></tr><tr><td><code>trigger</code></td><td>consequential-decisions · high-risk-listed</td><td>Which AI uses activate the law</td></tr><tr><td><code>assessment</code></td><td>pre-deployment · annual · none</td><td>Impact-assessment cadence</td></tr><tr><td><code>consumerNotice</code></td><td>required</td><td>Consumers must be told AI was used</td></tr><tr><td><code>appealRight</code></td><td>required</td><td>Right to appeal an automated decision</td></tr><tr><td><code>optOut</code></td><td>required</td><td>Right to opt out of automated decisions</td></tr></tbody></table>
+
+        <h4 class="gloss-h4">Frontier model safety <code class="fam-key">frontier-safety</code></h4>
+        <table class="gloss-table"><thead><tr><th>Parameter</th><th>Values</th><th>What it captures</th></tr></thead><tbody><tr><td><code>threshold</code></td><td>compute · cost · capability</td><td>What defines a covered frontier model</td></tr><tr><td><code>safetyFramework</code></td><td>required</td><td>Published safety framework mandated</td></tr><tr><td><code>incidentReporting</code></td><td>required</td><td>Safety incidents must be reported to the state</td></tr><tr><td><code>thirdPartyAudit</code></td><td>required</td><td>Independent compliance audit mandated</td></tr><tr><td><code>whistleblower</code></td><td>protected</td><td>Employee disclosures protected from retaliation</td></tr></tbody></table>
+
+        <h4 class="gloss-h4">Provenance &amp; transparency <code class="fam-key">provenance-transparency</code></h4>
+        <table class="gloss-table"><thead><tr><th>Parameter</th><th>Values</th><th>What it captures</th></tr></thead><tbody><tr><td><code>watermark</code></td><td>required</td><td>Provenance data embedded in AI output</td></tr><tr><td><code>detectionTool</code></td><td>required</td><td>Public AI-detection tool must be provided</td></tr><tr><td><code>disclosureTrigger</code></td><td>all-genai · av-only · on-request</td><td>Which content the duty covers</td></tr><tr><td><code>userThreshold</code></td><td>number</td><td>Monthly users above which the duty applies</td></tr></tbody></table>
+
+        <h4 class="gloss-h4">Likeness &amp; digital replicas <code class="fam-key">likeness-rights</code></h4>
+        <table class="gloss-table"><thead><tr><th>Parameter</th><th>Values</th><th>What it captures</th></tr></thead><tbody><tr><td><code>consentRequired</code></td><td>yes</td><td>Consent needed to publish a digital imitation</td></tr><tr><td><code>coveredSubjects</code></td><td>performers · all-persons · deceased</td><td>Whose likeness is protected</td></tr><tr><td><code>postmortemYears</code></td><td>number</td><td>Years the right survives death</td></tr></tbody></table>
+
+        <h4 class="gloss-h4">Criminal prohibitions <code class="fam-key">ai-crimes</code></h4>
+        <table class="gloss-table"><thead><tr><th>Parameter</th><th>Values</th><th>What it captures</th></tr></thead><tbody><tr><td><code>prohibition</code></td><td>ncii · csam · election-deepfakes · impersonation-fraud · suicide-encouragement</td><td>The conduct criminalized</td></tr><tr><td><code>coveredSubjects</code></td><td>minors · all-persons</td><td>Whose depiction/harm is covered</td></tr><tr><td><code>electionWindowDays</code></td><td>number</td><td>Days before an election the ban applies</td></tr></tbody></table>
+
+        <h4 class="gloss-h4">Election AI disclosure <code class="fam-key">election-disclosure</code></h4>
+        <table class="gloss-table"><thead><tr><th>Parameter</th><th>Values</th><th>What it captures</th></tr></thead><tbody><tr><td><code>disclosure</code></td><td>required</td><td>AI content in political communications must be labeled</td></tr><tr><td><code>scope</code></td><td>ads · robocalls · all-communications</td><td>Which communications are covered</td></tr><tr><td><code>windowDays</code></td><td>number</td><td>Days before an election the duty applies</td></tr></tbody></table>
+
+        <h4 class="gloss-h4">Algorithmic pricing &amp; competition <code class="fam-key">pricing-competition</code></h4>
+        <table class="gloss-table"><thead><tr><th>Parameter</th><th>Values</th><th>What it captures</th></tr></thead><tbody><tr><td><code>prohibition</code></td><td>surveillance-pricing · price-coordination</td><td>The pricing practice restricted</td></tr><tr><td><code>disclosure</code></td><td>required</td><td>Algorithmic pricing must be disclosed</td></tr></tbody></table>
+
+        <h4 class="gloss-h4">Privacy &amp; data (AI provisions) <code class="fam-key">privacy-data</code></h4>
+        <table class="gloss-table"><thead><tr><th>Parameter</th><th>Values</th><th>What it captures</th></tr></thead><tbody><tr><td><code>admOptOut</code></td><td>required</td><td>Consumers may opt out of automated decisions</td></tr><tr><td><code>profilingAssessment</code></td><td>required</td><td>Assessments required for profiling</td></tr><tr><td><code>minorsFocus</code></td><td>yes</td><td>The law's protections target minors</td></tr><tr><td><code>registration</code></td><td>required</td><td>Covered entities must register with the state</td></tr></tbody></table>
+
+        <h4 class="gloss-h4">Workforce protections <code class="fam-key">workforce</code></h4>
+        <table class="gloss-table"><thead><tr><th>Parameter</th><th>Values</th><th>What it captures</th></tr></thead><tbody><tr><td><code>retaliationProtection</code></td><td>yes</td><td>Workers protected for refusing/reporting AI use</td></tr><tr><td><code>noticeRequired</code></td><td>yes</td><td>Workers must be notified about AI use</td></tr></tbody></table>
+
+        <h4 class="gloss-h4">AI in clinical care <code class="fam-key">healthcare-clinical</code></h4>
+        <table class="gloss-table"><thead><tr><th>Parameter</th><th>Values</th><th>What it captures</th></tr></thead><tbody><tr><td><code>aiPracticeRule</code></td><td>ban · disclosure · supervision</td><td>How AI may participate in care</td></tr><tr><td><code>scope</code></td><td>licensure · treatment · all</td><td>Which part of practice is covered</td></tr></tbody></table>
+
+        <h4 class="gloss-h4">Licensed professions <code class="fam-key">professional-services</code></h4>
+        <table class="gloss-table"><thead><tr><th>Parameter</th><th>Values</th><th>What it captures</th></tr></thead><tbody><tr><td><code>aiRule</code></td><td>ban · disclosure · supervision</td><td>How AI may be used in the profession</td></tr><tr><td><code>profession</code></td><td>short text</td><td>The profession covered</td></tr></tbody></table>
+
+        <h4 class="gloss-h4">Government AI use <code class="fam-key">public-sector</code></h4>
+        <table class="gloss-table"><thead><tr><th>Parameter</th><th>Values</th><th>What it captures</th></tr></thead><tbody><tr><td><code>inventory</code></td><td>one-time · annual</td><td>AI system inventory cadence</td></tr><tr><td><code>procurementRules</code></td><td>required</td><td>AI procurement rules mandated</td></tr><tr><td><code>assessment</code></td><td>required</td><td>Impact assessments of agency AI</td></tr><tr><td><code>program</code></td><td>short text</td><td>Program, board, or study the law creates</td></tr></tbody></table>
+
+        <h4 class="gloss-h4">Schools &amp; curriculum <code class="fam-key">education-k12</code></h4>
+        <table class="gloss-table"><thead><tr><th>Parameter</th><th>Values</th><th>What it captures</th></tr></thead><tbody><tr><td><code>curriculum</code></td><td>required</td><td>AI/computer-science curriculum mandated</td></tr><tr><td><code>policyRequired</code></td><td>yes</td><td>Schools must adopt an AI policy</td></tr><tr><td><code>trainingRequired</code></td><td>yes</td><td>Staff training mandated</td></tr><tr><td><code>graduationReq</code></td><td>yes</td><td>Graduation requirement created</td></tr></tbody></table>
+
+        <h4 class="gloss-h4">Definitions only <code class="fam-key">definitions-only</code></h4>
+        <p class="note">No parameters — these laws define terms and impose nothing comparable.</p>
+
+        <h4 class="gloss-h4">Data centers <code class="fam-key">data-centers</code></h4>
+        <table class="gloss-table"><thead><tr><th>Parameter</th><th>Values</th><th>What it captures</th></tr></thead><tbody><tr><td><code>scope</code></td><td>short text</td><td>The infrastructure provision the law touches</td></tr></tbody></table>
+
       </section>
 
 </div>
