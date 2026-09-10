@@ -81,16 +81,14 @@ python3 pipeline/fetch.py <slug> <url> --id "HI HB 2137" --state HI --version "C
    - Check `sasts` on anything new — a "replaced by" relation means the law lives under a
      different bill number (fetch that vehicle, and never count both in the cost model).
 5. **Triage** anything that isn't `OK` using the failure playbook below.
-6. **Code the statute** into `data/bills.js`: who it binds (`category`), which requirement family,
-   duty-hour estimates, the statutory parameters that drive reuse, and the statutory `exposure`
-   (penaltyMax / penaltyUnit / enforcer / cureDays). Anchor every extracted value — params and
-   exposure alike — to the quoted provision in `sources`. Exposure rules, in order of
-   defensibility: code only what this bill's text states; if it cross-references another act for
-   enforcement, code `enforcer` with that quote and no penaltyMax; if it's silent, omit the block
-   (silence is silence, not zero). Exposure is reported as fact and never enters the cost
-   estimate or the reuse/baseline derivation. Until the coding methodology is finalized, mirror
-   how existing entries are structured.
-7. Commit. GitHub Pages redeploys `main` automatically.
+6. **Code the statute** per `CODING.md` (the frozen v1.0 protocol: fixed families, duty triggers,
+   param vocabularies, quote-anchoring, exposure rules). Best practice mirrors the original sweep:
+   two independent coding passes, diff the material fields, adjudicate disagreements from the
+   text. Save the final entry as `coding/coded/<slug>.json` (same format as the existing 89).
+7. **Recompile the dataset**: `python3 pipeline/compile.py` regenerates `data/bills.js` from
+   `coding/coded/` — it dedupes companion vehicles, drops unenacted bills, validates every duty
+   key/family/source, and preserves the duty-hour table. Never edit `data/bills.js` by hand.
+8. Commit. GitHub Pages redeploys `main` automatically.
 
 ## Failure playbook (all of these have happened)
 

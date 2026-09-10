@@ -1,0 +1,31 @@
+# State AI Compliance Cost Model
+
+> A bottom-up, auditable estimate of what state-by-state AI regulation costs a company beyond a
+> single hypothetical federal standard. All 89 state AI laws passed in the 2026 session were
+> double-coded by LLM from enacted texts against a fixed protocol; every coded value is anchored
+> to a quoted statutory provision. Cost = duty hours × rates; reuse between states and the
+> federal baseline are derived from coded statutory parameters, never assigned. Built for a16z;
+> maintained at github.com/elliotjames-paschal/state-ai-compliance-cost.
+
+Key concepts: a law is coded as duties (work it demands — each carrying hour estimates for the
+average AI model) and parameters (settings it picks — whose cross-state agreement sets the reuse
+discount and the federal-baseline exclusion). Only company-binding laws enter the estimate;
+criminal, agency, and school laws are excluded by default. Statutory penalties are reported as
+fact, never added to cost. Headline is a Monte Carlo range; the conservative end leads.
+
+## Pages
+
+- [State Law Explorer](https://elliotjames-paschal.github.io/state-ai-compliance-cost/#explorer): map of all 2026 state AI bills with live LegiScan status, votes, and links
+- [Cost Model](https://elliotjames-paschal.github.io/state-ai-compliance-cost/#model): the interactive estimate — every assumption is a control
+- [Glossary](https://elliotjames-paschal.github.io/state-ai-compliance-cost/#glossary): reference for every term, duty, and parameter
+
+## Data & methods
+
+- [Methodology (one page, PDF)](https://elliotjames-paschal.github.io/state-ai-compliance-cost/docs/methodology.pdf)
+- [CODING.md](https://github.com/elliotjames-paschal/state-ai-compliance-cost/blob/main/CODING.md): the fixed coding protocol — families, duty triggers, parameter vocabularies, rules
+- [data/bills.js](https://github.com/elliotjames-paschal/state-ai-compliance-cost/blob/main/data/bills.js): the coded dataset the dashboard runs on (quote-anchored)
+- [coding/](https://github.com/elliotjames-paschal/state-ai-compliance-cost/tree/main/coding): full coding records — both independent passes, adjudications, flags, confidence
+- [texts/](https://github.com/elliotjames-paschal/state-ai-compliance-cost/tree/main/texts): the enacted statute texts with per-bill provenance manifests
+- [README.md](https://github.com/elliotjames-paschal/state-ai-compliance-cost/blob/main/README.md): project overview and status
+
+Bill status data via LegiScan (CC BY 4.0).

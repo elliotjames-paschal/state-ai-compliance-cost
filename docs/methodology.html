@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>State AI Compliance Cost Model — Methodology</title>
+<style>
+  @page { size: letter; margin: 0.75in; }
+  body { font: 10.5pt/1.45 "Helvetica Neue", Helvetica, Arial, sans-serif; color: #101010; margin: 0; }
+  h1 { font-size: 15pt; letter-spacing: 0.02em; margin: 0 0 2px; }
+  .sub { color: #5f5f5f; font-size: 9.5pt; margin: 0 0 14px; padding-bottom: 8px; border-bottom: 2px solid #101010; }
+  h2 { font-size: 9.5pt; letter-spacing: 0.09em; text-transform: uppercase; margin: 12px 0 3px; color: #b93413; }
+  p, li { margin: 0 0 5px; }
+  ul { margin: 0 0 5px; padding-left: 16px; }
+  li { margin-bottom: 3px; }
+  .foot { margin-top: 12px; padding-top: 8px; border-top: 1px solid #ccc; color: #5f5f5f; font-size: 8.5pt; }
+  strong { font-weight: 600; }
+</style>
+</head>
+<body>
+
+<h1>STATE AI COMPLIANCE COST MODEL</h1>
+<p class="sub">Methodology &middot; September 2026 &middot; elliotjames-paschal.github.io/state-ai-compliance-cost</p>
+
+<h2>The question</h2>
+<p>What does state-by-state AI regulation cost a company <em>beyond</em> what one federal standard would
+have cost? Existing figures come from macroeconomic models whose elasticity assumptions a reader cannot
+test. This model is built the opposite way: every assumption is a dashboard control, so a skeptic can
+substitute their own and see what their number is.</p>
+
+<h2>The data</h2>
+<p>All 89 state AI laws passed in the 2026 session (82 distinct laws after companion-bill deduplication)
+were fetched as enacted texts and coded <strong>twice, independently, by LLM</strong> against a fixed protocol
+(requirement families, duty triggers, parameter vocabularies &mdash; <code>CODING.md</code> in the repo). The two
+passes materially agreed on 76 of 89 bills; the 13 disagreements were adjudicated from the statutory
+text. Every coded value is anchored to a verbatim quoted provision.</p>
+
+<h2>The model — bottom-up, hours &times; rates</h2>
+<ul>
+  <li><strong>Duties drive cost.</strong> Each law is coded as the duties it demands (AI disclosure, crisis
+  protocol, impact assessment, &hellip;). Each duty carries triangular hour estimates for the average AI
+  model &mdash; legal review and engineering once, operations every year of the horizon.</li>
+  <li><strong>Parameters drive discounts.</strong> <em>Reuse</em> is the share of coded parameters (age
+  thresholds, notice deadlines, audit cadence) two states set identically, averaged across state pairs
+  in a family &mdash; that fraction of a build carries to the next state. The <em>federal baseline</em> is what
+  every state sets identically: work a single national rule would require anyway, never counted, its
+  size reported alongside the estimate. Both derive from the statutes; neither is assigned.</li>
+  <li><strong>Sequencing.</strong> Within each family, the first state pays its divergence from the federal
+  baseline; each later state pays (1&nbsp;&minus;&nbsp;reuse) of a fresh build plus its recurring operations.</li>
+  <li><strong>Range, not point.</strong> 4,000 seeded Monte Carlo draws over the hour ranges, with a shared
+  error factor across draws so uncertainty doesn't wash out in the sum. The conservative end (p10) leads.</li>
+</ul>
+
+<h2>Scope discipline</h2>
+<p>Only laws that bind companies enter the estimate. Criminal prohibitions, state-agency rules, and
+school mandates are excluded by default &mdash; dashboard toggles show what indiscriminate counting would
+add. Duplicate companion bills are counted once. Statutory penalties for non-compliance are coded and
+displayed as fact, but never folded into the cost: doing so would require enforcement-probability
+assumptions of exactly the kind this model exists to avoid.</p>
+
+<h2>Caveats</h2>
+<p>Parameters, duties, and penalties are statutory facts with quoted sources. The per-duty hour
+defaults are informed estimates for the average AI model, editable on the dashboard and pending
+citation to published burden figures (Paperwork Reduction Act filings, state fiscal notes).</p>
+
+<p class="foot">Coded dataset, statute texts, coding protocol, and both independent coding passes are
+public in the repository: github.com/elliotjames-paschal/state-ai-compliance-cost &middot; Bill data
+enriched via LegiScan (CC&nbsp;BY&nbsp;4.0).</p>
+
+</body>
+</html>
