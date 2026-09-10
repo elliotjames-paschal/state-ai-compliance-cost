@@ -637,9 +637,7 @@
     $("p90").textContent = money(r.p90);
     $("mc-meta").textContent = ITERATIONS.toLocaleString() + " draws · seeded, reproducible";
 
-    $("federal-line").innerHTML = s.baseline
-      ? "Not counted above: &asymp;<strong>" + money(r.federalMedian) + "</strong> of work the federal-baseline core would require anyway (median)."
-      : "Baseline off &mdash; the figure includes &asymp;<strong>" + money(r.federalMedian) + "</strong> of work a single federal standard would require anyway (median).";
+    $("federal-out").textContent = money(r.federalMedian);
 
     $("aggregate-line").innerHTML = s.nFirms > 0
       ? "Across <strong>" + s.nFirms.toLocaleString() + "</strong> firms in scope: <strong>" +
