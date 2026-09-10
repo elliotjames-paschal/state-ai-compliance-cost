@@ -557,10 +557,9 @@
     host.innerHTML = "";
     var entries = Object.keys(result.familyMedians).map(function (f) {
       var st = FAMILY_STATS[f];
-      var label = DATA.families[f].label +
-        (st.reuse === null ? "" : " · reuse " + Math.round(st.reuse * 100) + "%") +
-        " · federal " + Math.round(st.common * 100) + "%";
-      return { key: f, label: label, value: result.familyMedians[f] };
+      var sub = (st.reuse === null ? "" : "reuse " + Math.round(st.reuse * 100) + "% · ") +
+        "federal " + Math.round(st.common * 100) + "%";
+      return { key: f, label: DATA.families[f].label, sub: sub, value: result.familyMedians[f] };
     }).filter(function (e) { return e.value > 0; })
       .sort(function (a, b) { return b.value - a.value; });
 
@@ -569,17 +568,18 @@
       return;
     }
 
-    var W = 820, rowH = 34, labelW = 260, valueW = 70;
+    var W = 820, rowH = 42, labelW = 250, valueW = 70;
     var H = entries.length * rowH + 6;
     var svg = el("svg", { viewBox: "0 0 " + W + " " + H });
     var maxV = entries[0].value, barMax = W - labelW - valueW - 20;
 
     entries.forEach(function (e, i) {
       var y = i * rowH;
-      svg.appendChild(el("text", { class: "fam-name", x: 0, y: y + 21 }, e.label));
+      svg.appendChild(el("text", { class: "fam-name", x: 0, y: y + 17 }, e.label));
+      svg.appendChild(el("text", { class: "fam-sub", x: 0, y: y + 32 }, e.sub));
       var bw = Math.max(2, (e.value / maxV) * barMax);
-      svg.appendChild(el("rect", { class: "fam-bar", x: labelW, y: y + 8, width: bw, height: 16, rx: 2 }));
-      svg.appendChild(el("text", { class: "fam-value", x: labelW + bw + 8, y: y + 21 }, money(e.value)));
+      svg.appendChild(el("rect", { class: "fam-bar", x: labelW, y: y + 12, width: bw, height: 16, rx: 2 }));
+      svg.appendChild(el("text", { class: "fam-value", x: labelW + bw + 8, y: y + 25 }, money(e.value)));
     });
     host.appendChild(svg);
   }

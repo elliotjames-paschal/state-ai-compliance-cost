@@ -449,7 +449,8 @@ output {
 .axis-label { font-family: var(--mono); font-size: 11px; fill: var(--faint); }
 
 .fam-bar { fill: var(--accent); opacity: 0.85; }
-.fam-name { font-size: 13px; fill: var(--ink); }
+.fam-name { font-size: 13px; fill: var(--ink); font-weight: 600; }
+.fam-sub { font-size: 11px; fill: var(--faint); }
 .fam-value { font-family: var(--mono); font-size: 12px; fill: var(--muted); }
 
 /* ---- bills table ---- */
