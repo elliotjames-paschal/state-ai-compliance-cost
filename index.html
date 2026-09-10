@@ -213,20 +213,78 @@
       <section class="card methodology">
         <h2>Method in brief</h2>
         <ul>
-          <li><strong>Bottom-up.</strong> Each bill is decomposed into duties &mdash; legal review, engineering
-          build, ongoing operations &mdash; with triangular hour estimates. Cost is hours &times; rates, the same
-          approach federal agencies use for regulatory burden estimates.</li>
-          <li><strong>Increment, not total.</strong> The first build in a requirement family stands in for what a
-          single federal standard would require; only per-state divergence beyond it is claimed.</li>
+          <li><strong>Bottom-up.</strong> Each law is coded into the duties it demands; each duty carries
+          hour estimates for the average AI model. Cost is hours &times; rates &mdash; the same approach
+          federal agencies use for regulatory burden estimates.</li>
+          <li><strong>Increment, not total.</strong> The hypothetical federal standard is each family's
+          least common denominator &mdash; the parameters every state sets identically, computed from the
+          coded bills. That shared core is never claimed; only divergence beyond it is.</li>
           <li><strong>Reuse from statutes.</strong> Within a family, each additional state costs
-          (1&nbsp;&minus;&nbsp;reuse) of a fresh build. Reuse will be derived by comparing coded parameters
-          across states, not assigned.</li>
+          (1&nbsp;&minus;&nbsp;reuse) of a fresh build. Reuse is derived live from the coded parameters
+          &mdash; the share two states set to the same value &mdash; never assigned.</li>
           <li><strong>Range, not point.</strong> 4,000 Monte Carlo draws over duty hours (seeded, so results
           are reproducible), with a shared estimation-error factor across bills so uncertainty doesn't
           wash out in the sum. The conservative end leads.</li>
         </ul>
-        <p class="note">Feedback welcome &mdash; open an issue on the repo or annotate anything that looks
-        wrong. The coded dataset will ship alongside the final version so every input is auditable.</p>
+        <p class="note">Every input is auditable: the coded dataset with quoted statutory sources ships in
+        the repo (<code>data/bills.js</code>, full records in <code>coding/</code>). Feedback welcome &mdash;
+        open an issue on anything that looks wrong.</p>
+      </section>
+
+      <section class="card" id="glossary">
+        <h2>Glossary <span class="hint">duties, parameters, and how they fit together</span></h2>
+
+        <h3 class="gloss-h">How the model works, in five steps</h3>
+        <ol class="gloss-steps">
+          <li>Every enacted state AI law was read and coded into four facts: <strong>who it binds</strong>
+          (companies, individuals, agencies, or schools), which <strong>requirement family</strong> it
+          belongs to, which <strong>duties</strong> it demands, and which <strong>parameters</strong> it
+          sets &mdash; each anchored to a quoted provision.</li>
+          <li><strong>Duties drive cost.</strong> Each duty has hour estimates (legal review and engineering
+          once; operations every year) for the average AI model. A law's cost is the sum of its duties'
+          hours &times; your rates.</li>
+          <li><strong>Parameters drive discounts.</strong> Comparing two states' parameters gives
+          <em>reuse</em> &mdash; the share of work that carries from one state to the next. What every
+          state sets identically is the <em>federal baseline</em> &mdash; work a single national rule
+          would have required anyway, so it is never counted.</li>
+          <li>Each family is costed in sequence: the first state pays its divergence from the federal
+          baseline; every later state pays (1&nbsp;&minus;&nbsp;reuse) of a fresh build, plus its share of
+          recurring operations.</li>
+          <li>The simulation runs 4,000 times with the hour estimates wiggled inside their ranges; the
+          dashboard reports the resulting spread, conservative end first.</li>
+        </ol>
+
+        <h3 class="gloss-h">Duties &mdash; the work a law can demand</h3>
+        <p class="note">Hours shown are the most-likely defaults for the average AI model (legal / engineering,
+        one-time &middot; operations, per year) &mdash; all editable under Advanced.</p>
+        <div id="gloss-duties"></div>
+
+        <h3 class="gloss-h">Parameters &mdash; the settings a law picks</h3>
+        <p class="note">Parameters are the concrete choices a statute makes &mdash; thresholds, deadlines,
+        coverage. They never add cost directly; they measure how much states agree, which sets each
+        family's reuse and federal baseline. Grouped by requirement family:</p>
+        <div class="gloss-params">
+          <div><strong>Chatbot safeguards</strong> &mdash; scope (which chatbots are covered) &middot; ageFocus (minors or all users) &middot; aiDisclosure (when the bot must say it's AI) &middot; crisisProtocol &middot; breakReminders &middot; parentalTools &middot; engagementLimits &middot; contentSafeguards (each: required or not) &middot; ageThreshold (who counts as a minor)</div>
+          <div><strong>AI in mental-health practice</strong> &mdash; aiTherapyRule (ban / supervised / disclosure-only) &middot; consentRequired &middot; scope (psychotherapy or all clinical use)</div>
+          <div><strong>AI in insurance decisions</strong> &mdash; humanReview (final decision or appeal) &middot; decisionsCovered (denials / prior-auth / all) &middot; disclosure &middot; aiSoleBasis (AI alone may not decide) &middot; appealDays</div>
+          <div><strong>Automated decision governance</strong> &mdash; covers (developers / deployers / both) &middot; trigger (which decisions count) &middot; assessment (cadence) &middot; consumerNotice &middot; appealRight &middot; optOut</div>
+          <div><strong>Frontier model safety</strong> &mdash; threshold (compute / cost / capability) &middot; safetyFramework &middot; incidentReporting &middot; thirdPartyAudit &middot; whistleblower</div>
+          <div><strong>Provenance &amp; transparency</strong> &mdash; watermark &middot; detectionTool &middot; disclosureTrigger (what content is covered) &middot; userThreshold (monthly users above which the duty applies)</div>
+          <div><strong>Likeness &amp; digital replicas</strong> &mdash; consentRequired &middot; coveredSubjects (performers / everyone / deceased) &middot; postmortemYears</div>
+          <div><strong>Criminal prohibitions</strong> &mdash; prohibition (NCII / CSAM / election deepfakes / impersonation / suicide-encouragement) &middot; coveredSubjects &middot; electionWindowDays</div>
+          <div><strong>Election AI disclosure</strong> &mdash; disclosure &middot; scope (ads / robocalls / all communications) &middot; windowDays (days before an election)</div>
+          <div><strong>Algorithmic pricing &amp; competition</strong> &mdash; prohibition (surveillance pricing / price coordination) &middot; disclosure</div>
+          <div><strong>Privacy &amp; data (AI provisions)</strong> &mdash; admOptOut (opt out of automated decisions) &middot; profilingAssessment &middot; minorsFocus &middot; registration</div>
+          <div><strong>Workforce protections</strong> &mdash; retaliationProtection &middot; noticeRequired</div>
+          <div><strong>AI in clinical care</strong> &mdash; aiPracticeRule (ban / disclosure / supervision) &middot; scope (licensure / treatment / all)</div>
+          <div><strong>Licensed professions</strong> &mdash; aiRule (ban / disclosure / supervision) &middot; profession</div>
+          <div><strong>Government AI use</strong> &mdash; inventory (one-time / annual) &middot; procurementRules &middot; assessment &middot; program</div>
+          <div><strong>Schools &amp; curriculum</strong> &mdash; curriculum &middot; policyRequired &middot; trainingRequired &middot; graduationReq</div>
+          <div><strong>Definitions only</strong> &mdash; no parameters; defines terms, imposes nothing</div>
+          <div><strong>Data centers</strong> &mdash; scope (what infrastructure provision the law touches)</div>
+        </div>
+        <p class="note">Full coding rules &mdash; fixed vocabularies, quote-anchoring, double-coding &mdash;
+        are in <code>CODING.md</code> in the repo.</p>
       </section>
     </main>
 

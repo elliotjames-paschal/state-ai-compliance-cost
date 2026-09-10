@@ -642,7 +642,37 @@
     renderBillsTable(s);
   }
 
+  var DUTY_MEANINGS = {
+    "statutory-review": "Reading and mapping the law — every law's first cost",
+    "disclosure-ui": "Telling users AI is in use",
+    "watermarking": "Provenance marks on AI-generated output",
+    "detection-tool": "A public tool to detect AI content",
+    "age-assurance": "Determining or verifying user age",
+    "crisis-protocol": "Detecting and responding to self-harm or crisis",
+    "impact-assessment": "Periodic risk/impact assessments of AI systems",
+    "bias-audit": "Independent or periodic discrimination audits",
+    "risk-program": "A governance program, policies, or safety framework",
+    "human-review": "Human review or override of automated decisions",
+    "consent-workflow": "Obtaining consent for likeness, replica, or data use",
+    "takedown-process": "A reporting, removal, or complaint channel",
+    "documentation": "Published documentation of models or training data",
+    "incident-reporting": "Reporting safety incidents to a state authority",
+    "registration-filing": "Registering with or filing to an agency",
+    "content-safeguards": "Technical guardrails against prohibited content or interactions"
+  };
+
+  function buildGlossaryDuties() {
+    var host = $("gloss-duties");
+    host.innerHTML = Object.keys(DATA.duties).map(function (k) {
+      var d = DATA.duties[k];
+      return "<div class='gloss-duty'><span class='gd-name'>" + d.label + "</span>" +
+        "<span class='gd-meaning'>" + (DUTY_MEANINGS[k] || "") + "</span>" +
+        "<span class='gd-hours'>" + d.legal.mode + " / " + d.eng.mode + " · " + d.ops.mode + "/yr</span></div>";
+    }).join("");
+  }
+
   buildDutyControls();
+  buildGlossaryDuties();
 
   document.querySelectorAll("#tab-model input, #tab-model select").forEach(function (elm) {
     elm.addEventListener("input", recompute);
