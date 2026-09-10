@@ -420,6 +420,7 @@
 
     var rng = mulberry32(SEED);
     var totals = new Array(ITERATIONS);
+    var fedTotals = new Array(ITERATIONS);
     var familyTotals = {};
     Object.keys(familyBills).forEach(function (f) {
       familyTotals[f] = new Array(ITERATIONS).fill(0);
@@ -445,7 +446,7 @@
           ops: triangular(rng, db.ops)
         };
       }
-      var total = 0;
+      var total = 0, fedDraw = 0;
       for (var f in familyBills) {
         var bills = familyBills[f];
         var reuse = s.reuseOverride ? s.reuse : (FAMILY_STATS[f].reuse || 0);
@@ -462,7 +463,9 @@
           var claimed;
           if (j === 0) {
             // baseline on: the federal LCD covers the family's common core, so
-            // the first state claims only its divergence from that core
+            // the first state claims only its divergence from that core.
+            // Track that core's cost either way — it's reported, not hidden.
+            fedDraw += common * build + common * s.opsShare * opsAnnual * s.horizon;
             claimed = s.baseline
               ? (1 - common) * build + (1 - common * s.opsShare) * opsAnnual * s.horizon
               : build + opsAnnual * s.horizon;
@@ -478,8 +481,10 @@
         total += famTotal;
       }
       totals[i] = total;
+      fedTotals[i] = fedDraw;
     }
 
+    fedTotals.sort(function (a, b) { return a - b; });
     totals.sort(function (a, b) { return a - b; });
     var pct = function (p) { return totals[Math.min(ITERATIONS - 1, Math.floor(p * ITERATIONS))]; };
 
@@ -492,6 +497,7 @@
     return {
       samples: totals,
       p10: pct(0.10), p50: pct(0.50), p90: pct(0.90),
+      federalMedian: fedTotals[Math.floor(ITERATIONS / 2)],
       familyMedians: familyMedians,
       nBills: included.length
     };
@@ -630,6 +636,10 @@
     $("p50").textContent = money(r.p50);
     $("p90").textContent = money(r.p90);
     $("mc-meta").textContent = ITERATIONS.toLocaleString() + " draws · seeded, reproducible";
+
+    $("federal-line").innerHTML = s.baseline
+      ? "Not counted above: &asymp;<strong>" + money(r.federalMedian) + "</strong> of work the federal-baseline core would require anyway (median)."
+      : "Baseline off &mdash; the figure includes &asymp;<strong>" + money(r.federalMedian) + "</strong> of work a single federal standard would require anyway (median).";
 
     $("aggregate-line").innerHTML = s.nFirms > 0
       ? "Across <strong>" + s.nFirms.toLocaleString() + "</strong> firms in scope: <strong>" +
