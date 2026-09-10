@@ -1,4 +1,4 @@
-/* State AI Compliance Cost Model — draft dashboard.
+/* State AI Compliance Cost Model — dashboard.
    Tab 1: state law explorer (choropleth of the working dataset).
    Tab 2: bottom-up cost model, Monte Carlo over duty hours.
    All logic runs client-side; data comes from data/*.js (placeholder). */

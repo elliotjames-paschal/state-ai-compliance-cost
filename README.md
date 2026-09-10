@@ -1,6 +1,7 @@
 # State AI Compliance Cost Model
 
-**Draft for feedback — all inputs are placeholders pending statute coding.**
+**All statutory inputs are coded from enacted texts with quoted sources; duty-hour defaults are
+estimates, editable on the dashboard, pending citation to published burden figures.**
 
 A bottom-up estimate of what state-by-state AI regulation costs a firm *above* a single
 hypothetical federal standard. Live dashboard: https://elliotjames-paschal.github.io/state-ai-compliance-cost/
