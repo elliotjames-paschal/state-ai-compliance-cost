@@ -70,6 +70,37 @@
 
     <aside class="controls">
       <section>
+        <h2>Your model</h2>
+        <div class="control">
+          <label for="firm-scale">Model complexity <span class="hint">scales all duty hours</span></label>
+          <select id="firm-scale">
+            <option value="0.4">Simple wrapper (0.4&times; hours)</option>
+            <option value="1" selected>Typical AI product (1&times; hours)</option>
+            <option value="2.5">Frontier-scale (2.5&times; hours)</option>
+          </select>
+        </div>
+        <div class="control">
+          <label for="horizon">Time horizon <output id="horizon-out">5 yr</output></label>
+          <input type="range" id="horizon" min="1" max="10" step="1" value="5">
+        </div>
+        <p class="note">How complex the AI product is, and how many years of recurring costs to
+        count. Everything else &mdash; rates, hours, scope, reuse &mdash; is under Advanced.</p>
+      </section>
+
+      <section>
+        <h2>Federal baseline</h2>
+        <div class="control check">
+          <label><input type="checkbox" id="baseline" checked> Count only the increment above a federal standard</label>
+        </div>
+        <p class="note">The federal standard is taken as the least common denominator of each
+        requirement family &mdash; the parameters every state sets identically. That shared core is
+        not claimed; only divergence beyond it counts.</p>
+      </section>
+
+      <details class="advanced">
+      <summary>Advanced assumptions</summary>
+
+      <section>
         <h2>Cost types &amp; rates</h2>
         <div class="control">
           <label><input type="checkbox" data-cost="legal" checked> Legal review <span class="hint">one-time</span></label>
@@ -88,19 +119,12 @@
       </section>
 
       <section>
-        <h2>Firm &amp; horizon</h2>
-        <div class="control">
-          <label for="firm-scale">Firm archetype <span class="hint">scales duty hours</span></label>
-          <select id="firm-scale">
-            <option value="0.4">Startup (0.4&times; hours)</option>
-            <option value="1" selected>Mid-size (1&times; hours)</option>
-            <option value="2.5">Large (2.5&times; hours)</option>
-          </select>
-        </div>
-        <div class="control">
-          <label for="horizon">Time horizon <output id="horizon-out">5 yr</output></label>
-          <input type="range" id="horizon" min="1" max="10" step="1" value="5">
-        </div>
+        <h2>Hours per duty <span class="hint">average AI model</span></h2>
+        <div id="duty-table"></div>
+        <p class="note">Most-likely hours for the average AI model to satisfy each duty, wherever a
+        state imposes it; the simulation's low/high range scales with your edits, and model
+        complexity multiplies everything. Initial values are informed estimates pending citation
+        to published burden figures.</p>
         <div class="control">
           <label for="err-spread">Hour-estimate error <output id="err-spread-out">&plusmn;50%</output></label>
           <input type="range" id="err-spread" min="0" max="90" step="5" value="50">
@@ -118,18 +142,6 @@
         <p class="note">The estimate is what compliance costs a company building or deploying AI.
         Laws that bind schools, state agencies, or individuals are not company costs &mdash; toggle
         them on only to see what indiscriminate counting would add.</p>
-      </section>
-
-      <section>
-        <h2>Federal baseline</h2>
-        <div class="control check">
-          <label><input type="checkbox" id="baseline" checked> Count only the increment above a federal standard</label>
-        </div>
-        <p class="note">The federal standard is taken as the least common denominator of each
-        requirement family &mdash; the parameters every state sets identically. That shared core is
-        not claimed: a single federal rule covering it would have required the work anyway. Only
-        divergence beyond it counts, and the denominator recomputes automatically as bills are
-        added to the dataset.</p>
       </section>
 
       <section>
@@ -161,6 +173,8 @@
           <input type="number" id="n-firms" min="1" step="100" value="1000">
         </div>
       </section>
+
+      </details>
 
       <button id="reset">Reset to defaults</button>
     </aside>

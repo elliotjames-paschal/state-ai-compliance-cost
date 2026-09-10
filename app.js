@@ -342,6 +342,40 @@
     return d.high - Math.sqrt((1 - u) * (d.high - d.low) * (d.high - d.mode));
   }
 
+  // The Advanced duty-hours table: one row per duty, editable most-likely
+  // (mode) hours per role; the triangular low/high scale with the edit.
+  function buildDutyControls() {
+    var host = $("duty-table");
+    var html = "<div class='duty-row duty-head'><span></span><span>legal</span><span>eng</span><span>ops</span></div>";
+    Object.keys(DATA.duties).forEach(function (k) {
+      var d = DATA.duties[k];
+      html += "<div class='duty-row'><span class='duty-label' title='" + k + "'>" + d.label + "</span>" +
+        ["legal", "eng", "ops"].map(function (r) {
+          return "<input type='number' min='0' step='5' data-duty='" + k + "' data-role='" + r +
+            "' value='" + d[r].mode + "'>";
+        }).join("") + "</div>";
+    });
+    host.innerHTML = html;
+  }
+
+  function dutyTriangles() {
+    // start from the defaults; where the user edited a mode, rescale the range
+    var tris = {};
+    Object.keys(DATA.duties).forEach(function (k) {
+      tris[k] = { legal: DATA.duties[k].legal, eng: DATA.duties[k].eng, ops: DATA.duties[k].ops };
+    });
+    document.querySelectorAll("#duty-table input").forEach(function (elm) {
+      var base = DATA.duties[elm.dataset.duty][elm.dataset.role];
+      var m = +elm.value || 0;
+      if (m === base.mode) return;
+      tris[elm.dataset.duty] = Object.assign({}, tris[elm.dataset.duty]);
+      tris[elm.dataset.duty][elm.dataset.role] = base.mode > 0
+        ? { low: m * base.low / base.mode, mode: m, high: m * base.high / base.mode }
+        : { low: 0, mode: m, high: m * 2 };
+    });
+    return tris;
+  }
+
   function readSettings() {
     var cats = {}, costs = {};
     document.querySelectorAll("input[data-cat]").forEach(function (elm) {
@@ -363,7 +397,8 @@
       reuse: +$("reuse").value / 100,
       opsShare: +$("ops-share").value / 100,
       errSpread: +$("err-spread").value / 100,
-      nFirms: +$("n-firms").value || 0
+      nFirms: +$("n-firms").value || 0,
+      dutyTris: dutyTriangles()
     };
   }
 
@@ -400,7 +435,7 @@
       // duty (for the average model), not of the bill
       var drawn = {};
       for (var dk in DATA.duties) {
-        var db = DATA.duties[dk];
+        var db = s.dutyTris[dk];
         drawn[dk] = {
           legal: triangular(rng, db.legal),
           eng: triangular(rng, db.eng),
@@ -604,6 +639,8 @@
     renderBillsTable(s);
   }
 
+  buildDutyControls();
+
   document.querySelectorAll("#tab-model input, #tab-model select").forEach(function (elm) {
     elm.addEventListener("input", recompute);
   });
@@ -615,6 +652,9 @@
     });
     document.querySelectorAll("input[data-cost]").forEach(function (elm) {
       elm.checked = true;
+    });
+    document.querySelectorAll("#duty-table input").forEach(function (elm) {
+      elm.value = DATA.duties[elm.dataset.duty][elm.dataset.role].mode;
     });
     $("baseline").checked = true;
     $("reuse-override").checked = false;
