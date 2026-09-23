@@ -62,123 +62,48 @@
     assumption is auditable and adjustable.</p>
   </header>
 
-  <div class="layout">
+  <div class="wizard-wrap">
 
-    <aside class="controls">
-      <section>
-        <h2>Time horizon</h2>
-        <div class="control">
-          <label for="horizon">Years counted <output id="horizon-out">5 yr</output></label>
-          <input type="range" id="horizon" min="1" max="10" step="1" value="5">
+    <div class="wizard card" id="wizard">
+      <ol class="wiz-progress" id="wiz-progress">
+        <li data-s="0">Build</li><li data-s="1">Categories</li><li data-s="2">Where</li><li data-s="3">Estimate</li>
+      </ol>
+
+      <section class="wiz-step" data-step="0">
+        <p class="wiz-q">What are you building?</p>
+        <p class="wiz-help">Select any that apply.</p>
+        <div class="chip-group big">
+          <label class="chip"><input type="checkbox" data-role="developer"> AI model developer</label>
+          <label class="chip"><input type="checkbox" data-role="app"> AI chatbot / app provider</label>
         </div>
-        <p class="note">Years of recurring compliance cost to include; one-time build costs are
-        counted once regardless. Build your profile on the right; fine-tune rates, hours, and
-        reuse under Advanced.</p>
+        <div class="wiz-nav"><span></span><button type="button" class="wiz-btn next" data-go="1">Continue &rarr;</button></div>
       </section>
 
-      <section>
-        <h2>Federal baseline</h2>
-        <div class="control check">
-          <label><input type="checkbox" id="baseline" checked> Count only the increment above a federal standard</label>
+      <section class="wiz-step" data-step="1" hidden>
+        <p class="wiz-q">Which areas does your product touch?</p>
+        <p class="wiz-help">The most common regulated categories &mdash; many laws don&rsquo;t fit neatly, so pick what&rsquo;s closest. The full set is on the State&nbsp;Law&nbsp;Explorer.</p>
+        <div class="chip-group big">
+          <label class="chip"><input type="checkbox" data-sector="model-regulation"> General model regulation <span class="chip-eg">frontier / foundation models</span></label>
+          <label class="chip"><input type="checkbox" data-sector="chatbots"> Chatbots &amp; companion AI</label>
+          <label class="chip"><input type="checkbox" data-sector="healthcare"> Healthcare &amp; mental health</label>
+          <label class="chip"><input type="checkbox" data-sector="insurance"> Insurance</label>
+          <label class="chip"><input type="checkbox" data-sector="education"> Education</label>
+          <label class="chip"><input type="checkbox" data-sector="employment"> Employment / HR</label>
+          <label class="chip"><input type="checkbox" data-sector="media"> Media &amp; digital likeness</label>
+          <label class="chip"><input type="checkbox" data-sector="elections"> Elections / political</label>
+          <label class="chip"><input type="checkbox" data-sector="pricing"> Consumer pricing</label>
         </div>
-        <p class="note">The federal standard is taken as the least common denominator of each
-        requirement family &mdash; the parameters every state sets identically. That shared core
-        &mdash; worth &asymp;<strong id="federal-out">&mdash;</strong> under current settings &mdash;
-        is not claimed; only divergence beyond it counts.</p>
+        <div class="wiz-nav"><button type="button" class="wiz-btn back" data-go="0">&larr; Back</button><button type="button" class="wiz-btn next" data-go="2">Continue &rarr;</button></div>
       </section>
 
-      <details class="advanced">
-      <summary>Advanced assumptions</summary>
-
-      <section>
-        <h2>Cost types &amp; rates</h2>
-        <div class="control">
-          <label><input type="checkbox" data-cost="legal" checked> Legal review <span class="hint">one-time</span></label>
-          <div class="rate-row"><span>$</span><input type="number" id="rate-legal" min="0" step="10" value="350"><span>/hr</span></div>
-        </div>
-        <div class="control">
-          <label><input type="checkbox" data-cost="eng" checked> Engineering build <span class="hint">one-time</span></label>
-          <div class="rate-row"><span>$</span><input type="number" id="rate-eng" min="0" step="10" value="150"><span>/hr</span></div>
-        </div>
-        <div class="control">
-          <label><input type="checkbox" data-cost="ops" checked> Compliance operations <span class="hint">per year</span></label>
-          <div class="rate-row"><span>$</span><input type="number" id="rate-ops" min="0" step="5" value="85"><span>/hr</span></div>
-        </div>
-        <p class="note">Each law's cost is counted in three parts. Untick to isolate one &mdash;
-        e.g. engineering only for the pure build cost.</p>
-      </section>
-
-      <section>
-        <h2>Hours per duty <span class="hint">average AI model</span></h2>
-        <div id="duty-table"></div>
-        <p class="note">Most-likely hours for the average AI model to satisfy each duty, wherever a
-        state imposes it; the simulation's low/high range scales with your edits, and model
-        complexity multiplies everything. Initial values are informed estimates pending citation
-        to published burden figures.</p>
-        <div class="control">
-          <label for="err-spread">Hour-estimate error <output id="err-spread-out">&plusmn;50%</output></label>
-          <input type="range" id="err-spread" min="0" max="90" step="5" value="50">
-        </div>
-        <p class="note">All duty-hour draws share a per-simulation error factor within this band &mdash;
-        if one estimate is off, the rest likely are too.</p>
-      </section>
-
-      <section>
-        <h2>Reuse factor</h2>
-        <div class="control check">
-          <label><input type="checkbox" id="reuse-override"> Override statute-derived reuse</label>
-        </div>
-        <div class="control">
-          <label for="reuse">Global reuse <output id="reuse-out">55%</output></label>
-          <input type="range" id="reuse" min="0" max="95" step="5" value="55" disabled>
-        </div>
-        <div class="control">
-          <label for="ops-share">Ops carryover <output id="ops-share-out">50%</output></label>
-          <input type="range" id="ops-share" min="0" max="100" step="5" value="50">
-        </div>
-        <p class="note"><strong>By default the model uses each family's own statute-derived reuse</strong>
-        (shown next to each family in the cost chart); the global slider applies only when you
-        override. Reuse = how much of the work for one state carries to the next, computed from the
-        coded statute parameters: the share of parameters (age thresholds, notice timing, audit
-        frequency) two states set to the same value, averaged across state pairs. Ops carryover sets
-        how much of that reuse applies to recurring work &mdash; filings and audits repeat per state.
-        Think it's wrong? Override with your own.</p>
-      </section>
-
-      </details>
-
-      <button id="reset">Reset to defaults</button>
-    </aside>
-
-    <main>
-      <section class="card profile" id="profile-card">
-        <h2>Build your profile <span class="hint">tailor the estimate to your company</span></h2>
-        <div class="profile-grid">
-          <div class="profile-field">
-            <label class="pf-label">I am a&hellip; <span class="hint">select any</span></label>
-            <div class="chip-group">
-              <label class="chip"><input type="checkbox" data-role="developer"> AI model developer</label>
-              <label class="chip"><input type="checkbox" data-role="app"> AI chatbot / app provider</label>
-            </div>
-          </div>
-          <div class="profile-field">
-            <label class="pf-label">Building for sector&hellip; <span class="hint">select any</span></label>
-            <div class="chip-group">
-              <label class="chip"><input type="checkbox" data-sector="education"> Education</label>
-              <label class="chip"><input type="checkbox" data-sector="healthcare"> Healthcare &amp; mental health</label>
-              <label class="chip"><input type="checkbox" data-sector="insurance"> Insurance</label>
-              <label class="chip"><input type="checkbox" data-sector="employment"> Employment / HR</label>
-              <label class="chip"><input type="checkbox" data-sector="media"> Media &amp; entertainment</label>
-              <label class="chip"><input type="checkbox" data-sector="elections"> Elections / political</label>
-              <label class="chip"><input type="checkbox" data-sector="pricing"> Consumer pricing</label>
-            </div>
-          </div>
-          <div class="profile-field">
-            <label class="pf-label" for="based-in">Based in</label>
+      <section class="wiz-step" data-step="2" hidden>
+        <p class="wiz-q">Where do you operate?</p>
+        <p class="wiz-help">Your home state always applies; selling nationally exposes you to every state&rsquo;s version. Click the map to pick a single state.</p>
+        <div class="wiz-geo">
+          <label class="geo-field">Based in
             <select id="based-in"><option value="">Select state</option></select>
-          </div>
-          <div class="profile-field">
-            <label class="pf-label">Product available</label>
+          </label>
+          <div class="geo-field">Product available
             <div class="avail-row">
               <label class="radio"><input type="radio" name="avail" value="national" checked> Nationally</label>
               <label class="radio"><input type="radio" name="avail" value="state"> One state:</label>
@@ -186,26 +111,38 @@
             </div>
           </div>
         </div>
-        <p class="note" id="profile-summary"></p>
+        <div class="wiz-map" id="wiz-map"></div>
+        <p class="note" id="wiz-map-note"></p>
+        <div class="wiz-nav"><button type="button" class="wiz-btn back" data-go="1">&larr; Back</button><button type="button" class="wiz-btn next primary" data-go="3">See my estimate &rarr;</button></div>
       </section>
 
-      <section class="card">
-        <h2>Compliance cost by company size <span class="hint">the same rules, a very different burden</span></h2>
+      <section class="wiz-step result" data-step="3" hidden>
+        <p class="wiz-q" id="result-headline">Your estimated compliance cost</p>
+        <p class="note" id="profile-summary"></p>
         <div id="size-cards" class="size-cards"></div>
-        <p class="note">Each company faces the same binding laws, but the cost is a fixed build that
-        barely grows with size &mdash; while revenue grows far faster. As a share of revenue, state-by-state
-        compliance is a rounding error for the largest firms and a real tax on the smallest. Representative
-        revenues are assumptions shown on each card; cost is the median 5&#8209;year estimate.</p>
+        <p class="note">The same binding laws hit every company, but a fixed build barely grows with size while revenue grows far faster &mdash; so state-by-state compliance is a rounding error for the largest firms and a real tax on the smallest. Representative revenues are shown on each card; cost is the median 5&#8209;year estimate.</p>
+        <div class="wiz-nav">
+          <button type="button" class="wiz-btn back" data-go="0">&larr; Edit answers</button>
+          <button type="button" class="wiz-btn" id="toggle-detail">Full breakdown &amp; assumptions &darr;</button>
+        </div>
+        <form id="lead-form" class="lead-form">
+          <input type="email" id="lead-email" placeholder="Email for a16z AI-policy updates" autocomplete="email" aria-label="Email address">
+          <button type="submit">Notify me</button>
+        </form>
+        <label class="lead-consent"><input type="checkbox" id="lead-consent"> Send me occasional a16z AI-policy updates. Unsubscribe anytime.</label>
+        <p class="note" id="lead-status"></p>
+      </section>
+    </div>
+
+    <div id="cost-detail" class="hidden">
+      <section class="card">
+        <h2>Where your cost comes from <span class="hint">median contribution by requirement family, mid-size reference</span></h2>
+        <div id="families"></div>
       </section>
 
       <section class="card">
         <h2>Distribution of simulated outcomes <span class="hint" id="mc-meta"></span></h2>
         <div id="histogram"></div>
-      </section>
-
-      <section class="card">
-        <h2>Where your cost comes from <span class="hint">median contribution by requirement family, mid-size reference</span></h2>
-        <div id="families"></div>
       </section>
 
       <section class="card">
@@ -218,40 +155,82 @@
         </table>
       </section>
 
-      <section class="card stay-updated">
-        <h2>Stay in the loop <span class="hint">a16z on AI policy</span></h2>
-        <p>New state laws land constantly. Get a16z's latest analysis, releases, and policy news &mdash;
-        and we'll factor your profile into what we send.</p>
-        <form id="lead-form" class="lead-form">
-          <input type="email" id="lead-email" placeholder="you@company.com" autocomplete="email" aria-label="Email address">
-          <button type="submit">Notify me</button>
-        </form>
-        <label class="lead-consent"><input type="checkbox" id="lead-consent"> Send me occasional a16z AI-policy updates. Unsubscribe anytime.</label>
-        <p class="note" id="lead-status"></p>
-      </section>
+      <details class="advanced" id="adv-panel">
+        <summary>Advanced assumptions</summary>
+
+        <section>
+          <h2>Time horizon</h2>
+          <div class="control">
+            <label for="horizon">Years counted <output id="horizon-out">5 yr</output></label>
+            <input type="range" id="horizon" min="1" max="10" step="1" value="5">
+          </div>
+          <p class="note">Years of recurring compliance cost to include; one-time build costs are counted once regardless.</p>
+        </section>
+
+        <section>
+          <h2>Federal baseline</h2>
+          <div class="control check">
+            <label><input type="checkbox" id="baseline" checked> Count only the increment above a federal standard</label>
+          </div>
+          <p class="note">The federal standard is the least common denominator of each requirement family &mdash; the parameters every state sets identically. That shared core &mdash; worth &asymp;<strong id="federal-out">&mdash;</strong> under current settings &mdash; is not claimed; only divergence beyond it counts.</p>
+        </section>
+
+        <section>
+          <h2>Cost types &amp; rates</h2>
+          <div class="control">
+            <label><input type="checkbox" data-cost="legal" checked> Legal review <span class="hint">one-time</span></label>
+            <div class="rate-row"><span>$</span><input type="number" id="rate-legal" min="0" step="10" value="350"><span>/hr</span></div>
+          </div>
+          <div class="control">
+            <label><input type="checkbox" data-cost="eng" checked> Engineering build <span class="hint">one-time</span></label>
+            <div class="rate-row"><span>$</span><input type="number" id="rate-eng" min="0" step="10" value="150"><span>/hr</span></div>
+          </div>
+          <div class="control">
+            <label><input type="checkbox" data-cost="ops" checked> Compliance operations <span class="hint">per year</span></label>
+            <div class="rate-row"><span>$</span><input type="number" id="rate-ops" min="0" step="5" value="85"><span>/hr</span></div>
+          </div>
+        </section>
+
+        <section>
+          <h2>Hours per duty <span class="hint">average AI model</span></h2>
+          <div id="duty-table"></div>
+          <div class="control">
+            <label for="err-spread">Hour-estimate error <output id="err-spread-out">&plusmn;50%</output></label>
+            <input type="range" id="err-spread" min="0" max="90" step="5" value="50">
+          </div>
+          <p class="note">Most-likely hours for the average AI model to satisfy each duty; the low/high range scales with your edits. Initial values are estimates pending citation to published burden figures.</p>
+        </section>
+
+        <section>
+          <h2>Reuse factor</h2>
+          <div class="control check">
+            <label><input type="checkbox" id="reuse-override"> Override statute-derived reuse</label>
+          </div>
+          <div class="control">
+            <label for="reuse">Global reuse <output id="reuse-out">55%</output></label>
+            <input type="range" id="reuse" min="0" max="95" step="5" value="55" disabled>
+          </div>
+          <div class="control">
+            <label for="ops-share">Ops carryover <output id="ops-share-out">50%</output></label>
+            <input type="range" id="ops-share" min="0" max="100" step="5" value="50">
+          </div>
+          <p class="note"><strong>By default the model uses each family&rsquo;s statute-derived reuse</strong> (shown next to each family above); the slider applies only when you override.</p>
+        </section>
+
+        <button id="reset">Reset assumptions to defaults</button>
+      </details>
 
       <section class="card methodology">
         <h2>Method in brief</h2>
         <ul>
-          <li><strong>Bottom-up.</strong> Each law is coded into the duties it demands; each duty carries
-          hour estimates for the average AI model. Cost is hours &times; rates &mdash; the same approach
-          federal agencies use for regulatory burden estimates.</li>
-          <li><strong>Increment, not total.</strong> The hypothetical federal standard is each family's
-          least common denominator &mdash; the parameters every state sets identically, computed from the
-          coded bills. That shared core is never claimed; only divergence beyond it is.</li>
-          <li><strong>Reuse from statutes.</strong> Within a family, each additional state costs
-          (1&nbsp;&minus;&nbsp;reuse) of a fresh build. Reuse is derived live from the coded parameters
-          &mdash; the share two states set to the same value &mdash; never assigned.</li>
-          <li><strong>Range, not point.</strong> 4,000 Monte Carlo draws over duty hours (seeded, so results
-          are reproducible), with a shared estimation-error factor across bills so uncertainty doesn't
-          wash out in the sum. The conservative end leads.</li>
+          <li><strong>Bottom-up.</strong> Each law is coded into the duties it demands; each duty carries hour estimates for the average AI model. Cost is hours &times; rates &mdash; the same approach federal agencies use for regulatory burden estimates.</li>
+          <li><strong>Increment, not total.</strong> The hypothetical federal standard is each family&rsquo;s least common denominator &mdash; the parameters every state sets identically. That shared core is never claimed; only divergence beyond it is.</li>
+          <li><strong>Reuse from statutes.</strong> Within a family, each additional state costs (1&nbsp;&minus;&nbsp;reuse) of a fresh build. Reuse is derived live from the coded parameters &mdash; the share two states set to the same value &mdash; never assigned.</li>
+          <li><strong>Range, not point.</strong> 4,000 seeded Monte Carlo draws over duty hours, with a shared estimation-error factor across bills. The conservative end leads.</li>
         </ul>
-        <p class="note">Every input is auditable: the coded dataset with quoted statutory sources ships in
-        the repo (<code>data/bills.js</code>, full records in <code>coding/</code>). Feedback welcome &mdash;
-        open an issue on anything that looks wrong.</p>
+        <p class="note">Every input is auditable: the coded dataset with quoted statutory sources ships in the repo (<code>data/bills.js</code>, full records in <code>coding/</code>).</p>
       </section>
-
-    </main>
+    </div>
 
   </div>
 </div>

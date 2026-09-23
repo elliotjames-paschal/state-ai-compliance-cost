@@ -34,6 +34,8 @@
     "app": ["chatbot-safeguards", "likeness-rights", "provenance-transparency"]
   };
   var SECTOR_FAMILIES = {
+    "model-regulation": ["frontier-safety"],   // CA SB 53, IL SB 315, NY RAISE Act, …
+    "chatbots": ["chatbot-safeguards"],
     "education": ["chatbot-safeguards", "privacy-data"],
     "healthcare": ["healthcare-clinical", "mental-health-practice"],
     "insurance": ["insurance-adm"],
@@ -723,7 +725,7 @@
         "profile in the selected geography — so there is no state-specific compliance cost here. " +
         "(The dataset covers laws passed in the 2026 session; earlier laws and other states aren't " +
         "included.) Broaden the sector, or set availability to nationally, to see the fragmentation cost.</p>";
-      return;
+      return null;
     }
     var results = SIZE_BANDS.map(function (band) {
       var r = runSimulation(bills, s, band.scale);
@@ -746,6 +748,7 @@
       return "<div class='size-card'><div class='sc-tier'>" + b.label + "</div>" +
         "<div class='sc-rev'>revenue " + b.bound + "</div>" + head + bar + foot + "</div>";
     }).join("");
+    return results;
   }
 
   function renderProfileSummary(p, bills) {
@@ -774,15 +777,81 @@
     $("avail-state").disabled = p.availability !== "state";
 
     renderProfileSummary(p, bills);
-    renderSizeCards(bills, s);
+    renderWizMap(p);
 
-    // reference views use the mid-size band (1× work) on the binding set
+    var results = renderSizeCards(bills, s);
+    if (results) {
+      var small = results.find(function (x) { return x.band.key === "small"; });
+      var xl = results.find(function (x) { return x.band.key === "xlarge"; });
+      $("result-headline").innerHTML = "A small company would spend about <strong>" +
+        pctRev(small.cost, small.band.rev) + "</strong> of revenue on this &mdash; a very large one, about <strong>" +
+        pctRev(xl.cost, xl.band.rev) + "</strong>.";
+    } else {
+      $("result-headline").textContent = "No state-specific compliance cost for this profile.";
+    }
+
+    // reference views use the mid-size band (1x work) on the binding set
     var ref = runSimulation(bills, s, 1.0);
     $("mc-meta").textContent = ITERATIONS.toLocaleString() + " draws · mid-size reference";
     $("federal-out").textContent = money(ref.federalMedian);
     renderHistogram(ref);
     renderFamilies(ref);
     renderBillsTable(bills);
+  }
+
+  // states where a profile-family law binds (ignores geography) — colours the map
+  function familyStateCounts(p) {
+    var fams = profileFamilies(p);
+    var counts = {};
+    DATA.bills.forEach(function (b) {
+      if (b.category !== "company") return;
+      if (fams && !fams[b.family]) return;
+      counts[b.state] = (counts[b.state] || 0) + 1;
+    });
+    return counts;
+  }
+
+  function mix(t) { // pale accent-soft → accent ramp
+    var a = [253, 234, 227], b = [240, 78, 35];
+    return "rgb(" + a.map(function (c, i) { return Math.round(c + (b[i] - c) * t); }).join(",") + ")";
+  }
+
+  function buildWizMap() {
+    var svg = el("svg", { viewBox: "0 0 975 610", role: "img", "aria-label": "US map of where AI laws bind" });
+    Object.keys(MAP).forEach(function (ab) {
+      var path = el("path", { class: "wm-state", d: MAP[ab].d, "data-state": ab });
+      path.addEventListener("click", function () {
+        document.querySelector("input[name='avail'][value='state']").checked = true;
+        $("avail-state").value = ab;
+        $("avail-state").disabled = false;
+        recompute();
+      });
+      svg.appendChild(path);
+    });
+    $("wiz-map").appendChild(svg);
+  }
+
+  function renderWizMap(p) {
+    var counts = familyStateCounts(p);
+    var max = Object.keys(counts).reduce(function (m, k) { return Math.max(m, counts[k]); }, 0) || 1;
+    var national = p.availability === "national";
+    document.querySelectorAll("#wiz-map .wm-state").forEach(function (path) {
+      var ab = path.dataset.state, n = counts[ab] || 0;
+      var inGeo = national || ab === p.availState || ab === p.basedIn;
+      path.setAttribute("fill", n > 0 && inGeo ? mix(n / max) : "#ececec");
+      path.classList.toggle("dim", !national && !inGeo);
+      path.classList.toggle("picked", !national && (ab === p.availState || ab === p.basedIn));
+    });
+    var total = Object.keys(counts).reduce(function (a, k) { return a + counts[k]; }, 0);
+    var nStates = Object.keys(counts).length;
+    $("wiz-map-note").innerHTML = national
+      ? "<strong>" + total + "</strong> binding laws across <strong>" + nStates +
+        "</strong> states reach a company like yours today."
+      : (p.availState
+          ? "Showing <strong>" + (counts[p.availState] || 0) + "</strong> binding law(s) in " +
+            (STATE_NAMES[p.availState] || p.availState) +
+            (p.basedIn && p.basedIn !== p.availState ? " plus your home state" : "") + "."
+          : "Pick a state above or click the map.");
   }
 
   var DUTY_MEANINGS = {
@@ -828,6 +897,44 @@
     $("avail-state").insertAdjacentHTML("beforeend", opts);
   })();
 
+  buildWizMap();
+
+  // ------------------------------------------------------------------------
+  // Wizard: one question per step, estimate on the final step.
+  // ------------------------------------------------------------------------
+  var wizStep = 0;
+  function wizGo(n, skipScroll) {
+    wizStep = n;
+    document.querySelectorAll("#wizard .wiz-step").forEach(function (st) {
+      st.hidden = +st.dataset.step !== n;
+    });
+    document.querySelectorAll("#wiz-progress li").forEach(function (li) {
+      var s = +li.dataset.s;
+      li.classList.toggle("active", s === n);
+      li.classList.toggle("done", s < n);
+    });
+    if (n === 2) renderWizMap(readProfile());
+    if (n === 3) recompute();
+    if (n < 3) $("cost-detail").classList.add("hidden"); // hide detail when editing
+    if (!skipScroll) {
+      var top = $("wizard").getBoundingClientRect().top + window.scrollY - 74;
+      window.scrollTo({ top: top < 0 ? 0 : top, behavior: "smooth" });
+    }
+  }
+  document.querySelectorAll("#wizard .wiz-btn[data-go]").forEach(function (btn) {
+    btn.addEventListener("click", function () { wizGo(+btn.dataset.go); });
+  });
+  $("wiz-progress").addEventListener("click", function (e) {
+    var li = e.target.closest("li"); if (li) wizGo(+li.dataset.s);
+  });
+  $("toggle-detail").addEventListener("click", function () {
+    var d = $("cost-detail");
+    d.classList.toggle("hidden");
+    if (!d.classList.contains("hidden")) d.scrollIntoView({ behavior: "smooth" });
+  });
+
+  // live recompute: profile chips/selects refresh the estimate + map;
+  // advanced knobs refresh only matter once on the result step
   document.querySelectorAll("#tab-model input, #tab-model select").forEach(function (elm) {
     elm.addEventListener("input", recompute);
     elm.addEventListener("change", recompute);
@@ -900,5 +1007,6 @@
   populateCategoryFilter();
   refreshExplorer();
   recompute();
+  wizGo(0, true);
   showTab(location.hash === "#model" ? "model" : location.hash === "#glossary" ? "glossary" : "explorer");
 })();

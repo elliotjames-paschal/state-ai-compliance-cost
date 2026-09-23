@@ -355,19 +355,19 @@ a { color: var(--accent-dark); }
 @media (max-width: 780px) { .size-cards { grid-template-columns: 1fr 1fr; } .profile-grid { grid-template-columns: 1fr; } }
 
 /* ---- stay updated / lead capture ---- */
-.stay-updated .lead-form { display: flex; gap: 8px; margin: 10px 0 8px; max-width: 460px; }
-.stay-updated .lead-form input {
+.lead-form { display: flex; gap: 8px; margin: 10px 0 8px; max-width: 460px; }
+.lead-form input {
   flex: 1; font: inherit; font-size: 14px; padding: 9px 11px;
   border: 1px solid var(--line); border-radius: 4px;
 }
-.stay-updated .lead-form input:focus { border-color: var(--accent); outline: none; }
-.stay-updated .lead-form button {
+.lead-form input:focus { border-color: var(--accent); outline: none; }
+.lead-form button {
   font: inherit; font-size: 14px; font-weight: 600; padding: 9px 18px; cursor: pointer;
   border: 1px solid var(--accent); background: var(--accent); color: #fff; border-radius: 4px;
 }
-.stay-updated .lead-form button:hover { background: var(--accent-dark); border-color: var(--accent-dark); }
-.stay-updated .lead-consent { display: flex; align-items: flex-start; gap: 7px; font-size: 12.5px; color: var(--muted); }
-.stay-updated .lead-consent input { margin-top: 2px; accent-color: var(--accent); }
+.lead-form button:hover { background: var(--accent-dark); border-color: var(--accent-dark); }
+.lead-consent { display: flex; align-items: flex-start; gap: 7px; font-size: 12.5px; color: var(--muted); }
+.lead-consent input { margin-top: 2px; accent-color: var(--accent); }
 
 .bill-card .bill-params { font-size: 12px; color: var(--muted); }
 .bill-card .bill-links { font-size: 12px; margin-top: 3px; }
@@ -410,6 +410,46 @@ a { color: var(--accent-dark); }
 }
 
 .tooltip.hidden { display: none; }
+#cost-detail.hidden { display: none; }
+
+/* ---- cost wizard ---- */
+.wizard-wrap { max-width: 880px; margin: 0 auto; }
+.wizard { padding: 0; overflow: hidden; }
+.wiz-progress { display: flex; list-style: none; margin: 0; padding: 0; border-bottom: 1px solid var(--line); }
+.wiz-progress li {
+  flex: 1; text-align: center; padding: 12px 6px; font-size: 12px; font-weight: 600;
+  color: var(--faint); cursor: pointer; position: relative; border-bottom: 2px solid transparent;
+}
+.wiz-progress li.done { color: var(--muted); }
+.wiz-progress li.active { color: var(--accent-dark); border-bottom-color: var(--accent); }
+.wiz-step { padding: 30px 34px 26px; }
+.wiz-q { font-size: 21px; font-weight: 700; letter-spacing: -0.01em; margin: 0 0 6px; }
+.wiz-help { color: var(--muted); font-size: 13.5px; margin: 0 0 20px; }
+.chip-group.big { gap: 10px; }
+.chip-group.big .chip { font-size: 14px; padding: 10px 16px; }
+.chip-eg { font-size: 11px; color: var(--faint); font-weight: 400; margin-left: 2px; }
+.chip:has(input:checked) .chip-eg { color: var(--accent-dark); }
+.wiz-nav { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-top: 26px; }
+.wiz-btn {
+  font: inherit; font-size: 14px; font-weight: 600; padding: 9px 18px; cursor: pointer;
+  border: 1px solid var(--line); background: var(--paper); color: var(--ink); border-radius: 5px;
+}
+.wiz-btn:hover { border-color: var(--faint); }
+.wiz-btn.next, .wiz-btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+.wiz-btn.next:hover, .wiz-btn.primary:hover { background: var(--accent-dark); border-color: var(--accent-dark); }
+.wiz-btn.back { color: var(--muted); }
+.wiz-geo { display: grid; grid-template-columns: 1fr 1fr; gap: 16px 24px; margin-bottom: 18px; }
+.geo-field { font-size: 13px; font-weight: 600; display: flex; flex-direction: column; gap: 7px; }
+.geo-field select { font: inherit; font-size: 13px; padding: 7px 8px; border: 1px solid var(--line); border-radius: 4px; background: var(--paper); font-weight: 400; }
+.wiz-map { margin: 6px 0 4px; }
+.wiz-map svg { width: 100%; height: auto; display: block; }
+.wm-state { stroke: #fff; stroke-width: 1; cursor: pointer; transition: opacity .1s; }
+.wm-state:hover { stroke: var(--ink); stroke-width: 1.4; }
+.wm-state.dim { opacity: 0.32; }
+.wm-state.picked { stroke: var(--ink); stroke-width: 1.8; }
+#result-headline { font-size: 19px; font-weight: 700; line-height: 1.35; letter-spacing: -0.01em; }
+.wiz-step.result .lead-form { margin-top: 18px; }
+@media (max-width: 620px) { .wiz-geo { grid-template-columns: 1fr; } .wiz-step { padding: 24px 20px; } }
 .tooltip .tt-count { color: #f8b39c; font-family: var(--mono); }
 
 /* ---- cost model layout ---- */
