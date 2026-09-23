@@ -127,6 +127,21 @@ python3 pipeline/fetch.py <slug> <url> --id "HI HB 2137" --state HI --version "C
   pipeline's verify step (bill number must appear in the fetched text) is the guard — don't
   weaken it.
 
+## Cost-model profile (the "what does this cost you?" tab)
+
+The Cost Model tab is profile-driven: the visitor picks role(s), sector(s), and geography, and the
+estimate filters to the laws that bind them, shown across five company-size bands as cost and % of
+revenue. The mapping from profile → binding law families lives in `app.js` as `ROLE_FAMILIES`,
+`SECTOR_FAMILIES`, `BASELINE_FAMILIES`; the size bands (representative revenue + hour multiplier)
+are `SIZE_BANDS`. Edit those objects to retune — no other code changes needed. When new families
+are added by the coding pass, wire them into the relevant role/sector arrays or they won't surface
+in any profile.
+
+Profile + optional email opt-in are captured via the "Stay in the loop" form. It POSTs to
+`SUBMIT_ENDPOINT` in `app.js` (empty by default → stored in browser localStorage only, nothing
+sent). See `SETUP.md` to connect a Formspree / Apps Script / Airtable backend. Never commit an API
+secret — the repo is public.
+
 ## Norms
 
 - Never commit the LegiScan key. It lives in the environment (`~/.zshenv`), nowhere in the repo.

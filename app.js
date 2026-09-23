@@ -23,6 +23,43 @@
 
   function $(id) { return document.getElementById(id); }
 
+  // ------------------------------------------------------------------------
+  // Profile → binding law families. Editable mapping: each role/sector points
+  // at the company-binding families that regulate it. See CODING.md for the
+  // families themselves. BASELINE applies to any AI company handling data.
+  // ------------------------------------------------------------------------
+  var BASELINE_FAMILIES = ["privacy-data"];
+  var ROLE_FAMILIES = {
+    "developer": ["frontier-safety", "provenance-transparency"],
+    "app": ["chatbot-safeguards", "likeness-rights", "provenance-transparency"]
+  };
+  var SECTOR_FAMILIES = {
+    "education": ["chatbot-safeguards", "privacy-data"],
+    "healthcare": ["healthcare-clinical", "mental-health-practice"],
+    "insurance": ["insurance-adm"],
+    "employment": ["workforce", "adm-governance"],
+    "media": ["likeness-rights", "election-disclosure"],
+    "elections": ["election-disclosure"],
+    "pricing": ["pricing-competition"]
+  };
+
+  // Company-size bands. `rev` is a representative revenue for the % denominator
+  // (labeled "assumed" on the card, editable here). `scale` multiplies duty
+  // hours — bigger builds cost more, but revenue grows far faster, so % of
+  // revenue collapses with size. That regressivity is the headline story.
+  var SIZE_BANDS = [
+    { key: "pre",    label: "Pre-revenue", bound: "$0",     rev: 0,       scale: 0.5 },
+    { key: "small",  label: "Small",       bound: "< $1B",  rev: 250e6,   scale: 0.8 },
+    { key: "mid",    label: "Mid-sized",   bound: "< $10B", rev: 3e9,     scale: 1.0 },
+    { key: "large",  label: "Large",       bound: "< $50B", rev: 25e9,    scale: 1.8 },
+    { key: "xlarge", label: "Very large",  bound: "$100B+", rev: 150e9,   scale: 2.5 }
+  ];
+
+  // Where profile responses + email opt-ins are sent. LEAVE EMPTY until a form
+  // backend is set up (Formspree / Airtable / Google Apps Script — see SETUP.md).
+  // Empty = store to localStorage + console only; nothing leaves the browser.
+  var SUBMIT_ENDPOINT = "";
+
   // ========================================================================
   // Tabs
   // ========================================================================
@@ -272,7 +309,7 @@
 
   var DEFAULTS = {
     "rate-legal": "350", "rate-eng": "150", "rate-ops": "85",
-    "firm-scale": "1", "horizon": "5", "reuse": "55", "n-firms": "1000",
+    "horizon": "5", "reuse": "55",
     "ops-share": "50", "err-spread": "50"
   };
 
@@ -380,10 +417,7 @@
   }
 
   function readSettings() {
-    var cats = {}, costs = {};
-    document.querySelectorAll("input[data-cat]").forEach(function (elm) {
-      cats[elm.dataset.cat] = elm.checked;
-    });
+    var costs = {};
     document.querySelectorAll("input[data-cost]").forEach(function (elm) {
       costs[elm.dataset.cost] = elm.checked;
     });
@@ -392,15 +426,13 @@
       rateLegal: costs.legal === false ? 0 : +$("rate-legal").value || 0,
       rateEng: costs.eng === false ? 0 : +$("rate-eng").value || 0,
       rateOps: costs.ops === false ? 0 : +$("rate-ops").value || 0,
-      firmScale: +$("firm-scale").value,
+      firmScale: 1,
       horizon: +$("horizon").value,
-      categories: cats,
       baseline: $("baseline").checked,
       reuseOverride: $("reuse-override").checked,
       reuse: +$("reuse").value / 100,
       opsShare: +$("ops-share").value / 100,
       errSpread: +$("err-spread").value / 100,
-      nFirms: +$("n-firms").value || 0,
       dutyTris: dutyTriangles()
     };
   }
@@ -410,8 +442,8 @@
   // on, its cost is not claimed. Each later state claims (1 - reuse) of a
   // fresh build, and ops reuse is assumed weaker (half the build reuse)
   // because filings and audits repeat per state.
-  function runSimulation(s) {
-    var included = DATA.bills.filter(function (b) { return s.categories[b.category]; });
+  function runSimulation(included, s, scaleOverride) {
+    var firmScale = scaleOverride != null ? scaleOverride : s.firmScale;
 
     var familyBills = {};
     included.forEach(function (b) {
@@ -458,8 +490,8 @@
             var dd = drawn[bills[j].duties[q]];
             hL += dd.legal; hE += dd.eng; hO += dd.ops;
           }
-          var build = (hL * s.rateLegal + hE * s.rateEng) * s.firmScale * shared;
-          var opsAnnual = hO * s.rateOps * s.firmScale * shared;
+          var build = (hL * s.rateLegal + hE * s.rateEng) * firmScale * shared;
+          var opsAnnual = hO * s.rateOps * firmScale * shared;
           var claimed;
           if (j === 0) {
             // baseline on: the federal LCD covers the family's common core, so
@@ -590,12 +622,20 @@
     host.appendChild(svg);
   }
 
-  function renderBillsTable(s) {
+  function renderBillsTable(bindingSet) {
+    var inSet = {};
+    bindingSet.forEach(function (b) { inSet[b.id + "|" + (b.segment || "")] = 1; });
     var tbody = document.querySelector("#bills-table tbody");
     tbody.innerHTML = "";
     var included = 0;
-    DATA.bills.forEach(function (b) {
-      var inScope = s.categories[b.category];
+    // show binding laws first, then the rest greyed out
+    var ordered = DATA.bills.slice().sort(function (a, b) {
+      var ai = inSet[a.id + "|" + (a.segment || "")] ? 0 : 1;
+      var bi = inSet[b.id + "|" + (b.segment || "")] ? 0 : 1;
+      return ai - bi;
+    });
+    ordered.forEach(function (b) {
+      var inScope = !!inSet[b.id + "|" + (b.segment || "")];
       if (inScope) included++;
       var tr = document.createElement("tr");
       if (!inScope) tr.className = "excluded";
@@ -618,36 +658,131 @@
         "<td>" + b.status + "</td>";
       tbody.appendChild(tr);
     });
-    $("bill-count").textContent = included + " of " + DATA.bills.length + " coded entries in scope · double-coded from enacted texts";
+    $("bill-count").textContent = included + " laws bind this profile · " +
+      DATA.bills.length + " coded entries total";
+  }
+
+  // ------------------------------------------------------------------------
+  // Profile: read the self-selection, resolve to a binding set of laws.
+  // ------------------------------------------------------------------------
+  function readProfile() {
+    var roles = [], sectors = [];
+    document.querySelectorAll("input[data-role]:checked").forEach(function (e) { roles.push(e.dataset.role); });
+    document.querySelectorAll("input[data-sector]:checked").forEach(function (e) { sectors.push(e.dataset.sector); });
+    var availEl = document.querySelector("input[name='avail']:checked");
+    return {
+      roles: roles, sectors: sectors,
+      basedIn: $("based-in").value,
+      availability: availEl ? availEl.value : "national",
+      availState: $("avail-state").value
+    };
+  }
+
+  function profileFamilies(p) {
+    if (!p.roles.length && !p.sectors.length) return null; // nothing chosen → all
+    var fams = {};
+    BASELINE_FAMILIES.forEach(function (f) { fams[f] = 1; });
+    p.roles.forEach(function (r) { (ROLE_FAMILIES[r] || []).forEach(function (f) { fams[f] = 1; }); });
+    p.sectors.forEach(function (s) { (SECTOR_FAMILIES[s] || []).forEach(function (f) { fams[f] = 1; }); });
+    return fams;
+  }
+
+  function geoStates(p) {
+    if (p.availability === "national") return null; // all states
+    var set = {};
+    if (p.availState) set[p.availState] = 1;
+    if (p.basedIn) set[p.basedIn] = 1; // you always face your home state
+    return set;
+  }
+
+  function bindingBills(p) {
+    var fams = profileFamilies(p);
+    var states = geoStates(p);
+    return DATA.bills.filter(function (b) {
+      if (b.category !== "company") return false;        // the estimate is company cost
+      if (fams && !fams[b.family]) return false;
+      if (states && !states[b.state]) return false;
+      return true;
+    });
+  }
+
+  function pctRev(cost, rev) {
+    if (!rev) return null;
+    var p = cost / rev * 100;
+    if (p >= 10) return p.toFixed(0) + "%";
+    if (p >= 1) return p.toFixed(1) + "%";
+    if (p >= 0.1) return p.toFixed(2) + "%";
+    if (p >= 0.01) return p.toFixed(3) + "%";
+    return p.toFixed(4) + "%";
+  }
+
+  function renderSizeCards(bills, s) {
+    var host = $("size-cards");
+    if (!bills.length) {
+      host.innerHTML = "<p class='note' style='grid-column:1/-1'>No 2026-session laws bind this " +
+        "profile in the selected geography — so there is no state-specific compliance cost here. " +
+        "(The dataset covers laws passed in the 2026 session; earlier laws and other states aren't " +
+        "included.) Broaden the sector, or set availability to nationally, to see the fragmentation cost.</p>";
+      return;
+    }
+    var results = SIZE_BANDS.map(function (band) {
+      var r = runSimulation(bills, s, band.scale);
+      return { band: band, cost: r.p50, pct: band.rev ? r.p50 / band.rev * 100 : null };
+    });
+    var maxPct = results.reduce(function (m, x) { return x.pct != null ? Math.max(m, x.pct) : m; }, 0);
+    host.innerHTML = results.map(function (x) {
+      var b = x.band;
+      var head = b.rev
+        ? "<div class='sc-pct'>" + (pctRev(x.cost, b.rev) || "—") + "</div><div class='sc-pct-label'>of revenue</div>"
+        : "<div class='sc-pct'>" + money(x.cost) + "</div><div class='sc-pct-label'>total, " + s.horizon + " yr</div>";
+      var bar = (b.rev && maxPct > 0)
+        ? "<div class='sc-bar'><span style='width:" + (x.pct / maxPct * 100).toFixed(1) + "%'></span></div>"
+        : "<div class='sc-bar empty'></div>";
+      var foot = b.rev
+        ? "<div class='sc-cost'>" + money(x.cost) + " over " + s.horizon + " yr</div>" +
+          "<div class='sc-assumed'>assumed revenue " + money(b.rev) + "</div>"
+        : "<div class='sc-cost'>build + " + s.horizon + " yr ops</div>" +
+          "<div class='sc-assumed'>no revenue to divide by</div>";
+      return "<div class='size-card'><div class='sc-tier'>" + b.label + "</div>" +
+        "<div class='sc-rev'>revenue " + b.bound + "</div>" + head + bar + foot + "</div>";
+    }).join("");
+  }
+
+  function renderProfileSummary(p, bills) {
+    var host = $("profile-summary");
+    if (!p.roles.length && !p.sectors.length) {
+      host.innerHTML = "Select what you build above to tailor the estimate — showing <strong>all " +
+        bills.length + "</strong> company-binding laws until you do.";
+      return;
+    }
+    var geo = p.availability === "national" ? "available nationally"
+      : "available in " + (STATE_NAMES[p.availState] || "one state");
+    host.innerHTML = "<strong>" + bills.length + "</strong> laws bind this profile (" + geo +
+      "). Costs below assume the work each law requires of the average AI product, scaled by company size.";
   }
 
   function recompute() {
     var s = readSettings();
-    var r = runSimulation(s);
+    var p = readProfile();
+    var bills = bindingBills(p);
 
     $("horizon-out").textContent = s.horizon + " yr";
-    $("headline-horizon").textContent = s.horizon + "-year";
     $("reuse-out").textContent = Math.round(s.reuse * 100) + "%";
     $("reuse").disabled = !s.reuseOverride;
     $("ops-share-out").textContent = Math.round(s.opsShare * 100) + "%";
     $("err-spread-out").textContent = "±" + Math.round(s.errSpread * 100) + "%";
+    $("avail-state").disabled = p.availability !== "state";
 
-    $("p10").textContent = money(r.p10);
-    $("p50").textContent = money(r.p50);
-    $("p90").textContent = money(r.p90);
-    $("mc-meta").textContent = ITERATIONS.toLocaleString() + " draws · seeded, reproducible";
+    renderProfileSummary(p, bills);
+    renderSizeCards(bills, s);
 
-    $("federal-out").textContent = money(r.federalMedian);
-
-    $("aggregate-line").innerHTML = s.nFirms > 0
-      ? "Across <strong>" + s.nFirms.toLocaleString() + "</strong> firms in scope: <strong>" +
-        money(r.p10 * s.nFirms) + "</strong> – <strong>" + money(r.p90 * s.nFirms) +
-        "</strong> (central " + money(r.p50 * s.nFirms) + ")"
-      : "";
-
-    renderHistogram(r);
-    renderFamilies(r);
-    renderBillsTable(s);
+    // reference views use the mid-size band (1× work) on the binding set
+    var ref = runSimulation(bills, s, 1.0);
+    $("mc-meta").textContent = ITERATIONS.toLocaleString() + " draws · mid-size reference";
+    $("federal-out").textContent = money(ref.federalMedian);
+    renderHistogram(ref);
+    renderFamilies(ref);
+    renderBillsTable(bills);
   }
 
   var DUTY_MEANINGS = {
@@ -684,15 +819,67 @@
   buildDutyControls();
   buildGlossaryDuties();
 
+  // populate the state dropdowns (all states, alphabetical by name)
+  (function () {
+    var opts = Object.keys(MAP).map(function (ab) { return { ab: ab, name: MAP[ab].name }; })
+      .sort(function (a, b) { return a.name < b.name ? -1 : 1; })
+      .map(function (x) { return "<option value='" + x.ab + "'>" + x.name + "</option>"; }).join("");
+    $("based-in").insertAdjacentHTML("beforeend", opts);
+    $("avail-state").insertAdjacentHTML("beforeend", opts);
+  })();
+
   document.querySelectorAll("#tab-model input, #tab-model select").forEach(function (elm) {
     elm.addEventListener("input", recompute);
+    elm.addEventListener("change", recompute);
+  });
+
+  // ------------------------------------------------------------------------
+  // Lead capture: profile + optional email opt-in.
+  // Sends to SUBMIT_ENDPOINT if configured; otherwise stores locally only.
+  // ------------------------------------------------------------------------
+  function submitLead(payload) {
+    if (SUBMIT_ENDPOINT) {
+      return fetch(SUBMIT_ENDPOINT, {
+        method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload)
+      }).then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); });
+    }
+    // no backend configured — keep it in the browser, nothing leaves the page
+    try {
+      var store = JSON.parse(localStorage.getItem("leadSubmissions") || "[]");
+      store.push(payload);
+      localStorage.setItem("leadSubmissions", JSON.stringify(store));
+    } catch (e) { /* ignore */ }
+    return Promise.resolve();
+  }
+
+  $("lead-form").addEventListener("submit", function (e) {
+    e.preventDefault();
+    var email = $("lead-email").value.trim();
+    var status = $("lead-status");
+    if (!email || email.indexOf("@") < 1) { status.textContent = "Enter a valid email."; return; }
+    var p = readProfile();
+    var payload = {
+      email: email,
+      consent: $("lead-consent").checked,
+      roles: p.roles, sectors: p.sectors,
+      basedIn: p.basedIn, availability: p.availability, availState: p.availState,
+      ts: new Date().toISOString(),
+      source: "state-ai-compliance-cost"
+    };
+    status.textContent = "Sending…";
+    submitLead(payload).then(function () {
+      status.textContent = $("lead-consent").checked
+        ? "Thanks — you're on the list. We'll share a16z's AI-policy updates."
+        : "Saved. Tick the box above if you'd like a16z policy updates too.";
+      $("lead-form").reset();
+    }).catch(function () {
+      status.textContent = "Something went wrong — please try again later.";
+    });
   });
 
   $("reset").addEventListener("click", function () {
     for (var id in DEFAULTS) $(id).value = DEFAULTS[id];
-    document.querySelectorAll("input[data-cat]").forEach(function (elm) {
-      elm.checked = elm.dataset.cat === "company";
-    });
     document.querySelectorAll("input[data-cost]").forEach(function (elm) {
       elm.checked = true;
     });

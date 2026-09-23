@@ -55,31 +55,25 @@
 <div id="tab-model" class="tab-panel hidden">
 
   <header class="page-head">
-    <h1>What fragmentation costs</h1>
-    <p>What does state-by-state AI regulation cost a firm <em>above</em> a single hypothetical federal
-    standard? Bottom-up: hours &times; rates for specific duties, Monte Carlo over the inputs. Every
-    assumption is a control &mdash; move any of them and see what your own number is.</p>
+    <h1>What does this cost you?</h1>
+    <p>Tell us what you build and where you operate; we'll show what state-by-state AI regulation
+    costs a company like yours &mdash; above a single hypothetical federal standard, side by side
+    across company sizes. Bottom-up: hours &times; rates for the duties each law imposes. Every
+    assumption is auditable and adjustable.</p>
   </header>
 
   <div class="layout">
 
     <aside class="controls">
       <section>
-        <h2>Your model</h2>
+        <h2>Time horizon</h2>
         <div class="control">
-          <label for="firm-scale">Model complexity <span class="hint">scales all duty hours</span></label>
-          <select id="firm-scale">
-            <option value="0.4">Simple wrapper (0.4&times; hours)</option>
-            <option value="1" selected>Typical AI product (1&times; hours)</option>
-            <option value="2.5">Frontier-scale (2.5&times; hours)</option>
-          </select>
-        </div>
-        <div class="control">
-          <label for="horizon">Time horizon <output id="horizon-out">5 yr</output></label>
+          <label for="horizon">Years counted <output id="horizon-out">5 yr</output></label>
           <input type="range" id="horizon" min="1" max="10" step="1" value="5">
         </div>
-        <p class="note">How complex the AI product is, and how many years of recurring costs to
-        count. Everything else &mdash; rates, hours, scope, reuse &mdash; is under Advanced.</p>
+        <p class="note">Years of recurring compliance cost to include; one-time build costs are
+        counted once regardless. Build your profile on the right; fine-tune rates, hours, and
+        reuse under Advanced.</p>
       </section>
 
       <section>
@@ -130,17 +124,6 @@
       </section>
 
       <section>
-        <h2>Scope <span class="hint">cost to AI companies</span></h2>
-        <div class="control check"><label><input type="checkbox" data-cat="company" checked> Laws binding companies <span class="hint">the estimate</span></label></div>
-        <div class="control check"><label><input type="checkbox" data-cat="criminal"> Criminal bans <span class="hint">bind individuals</span></label></div>
-        <div class="control check"><label><input type="checkbox" data-cat="public-sector"> Agency rules <span class="hint">bind the state</span></label></div>
-        <div class="control check"><label><input type="checkbox" data-cat="education"> School rules <span class="hint">bind schools</span></label></div>
-        <p class="note">The estimate is what compliance costs a company building or deploying AI.
-        Laws that bind schools, state agencies, or individuals are not company costs &mdash; toggle
-        them on only to see what indiscriminate counting would add.</p>
-      </section>
-
-      <section>
         <h2>Reuse factor</h2>
         <div class="control check">
           <label><input type="checkbox" id="reuse-override"> Override statute-derived reuse</label>
@@ -162,28 +145,57 @@
         Think it's wrong? Override with your own.</p>
       </section>
 
-      <section>
-        <h2>Aggregate</h2>
-        <div class="control">
-          <label for="n-firms">Firms in scope nationally</label>
-          <input type="number" id="n-firms" min="1" step="100" value="1000">
-        </div>
-      </section>
-
       </details>
 
       <button id="reset">Reset to defaults</button>
     </aside>
 
     <main>
-      <section class="headline card">
-        <h2>Incremental cost per firm, <span id="headline-horizon">5-year</span> horizon</h2>
-        <div class="headline-figures">
-          <div class="fig lead"><div class="fig-label">Conservative (p10)</div><div class="fig-value" id="p10">&mdash;</div></div>
-          <div class="fig"><div class="fig-label">Central (p50)</div><div class="fig-value" id="p50">&mdash;</div></div>
-          <div class="fig"><div class="fig-label">Upper (p90)</div><div class="fig-value" id="p90">&mdash;</div></div>
+      <section class="card profile" id="profile-card">
+        <h2>Build your profile <span class="hint">tailor the estimate to your company</span></h2>
+        <div class="profile-grid">
+          <div class="profile-field">
+            <label class="pf-label">I am a&hellip; <span class="hint">select any</span></label>
+            <div class="chip-group">
+              <label class="chip"><input type="checkbox" data-role="developer"> AI model developer</label>
+              <label class="chip"><input type="checkbox" data-role="app"> AI chatbot / app provider</label>
+            </div>
+          </div>
+          <div class="profile-field">
+            <label class="pf-label">Building for sector&hellip; <span class="hint">select any</span></label>
+            <div class="chip-group">
+              <label class="chip"><input type="checkbox" data-sector="education"> Education</label>
+              <label class="chip"><input type="checkbox" data-sector="healthcare"> Healthcare &amp; mental health</label>
+              <label class="chip"><input type="checkbox" data-sector="insurance"> Insurance</label>
+              <label class="chip"><input type="checkbox" data-sector="employment"> Employment / HR</label>
+              <label class="chip"><input type="checkbox" data-sector="media"> Media &amp; entertainment</label>
+              <label class="chip"><input type="checkbox" data-sector="elections"> Elections / political</label>
+              <label class="chip"><input type="checkbox" data-sector="pricing"> Consumer pricing</label>
+            </div>
+          </div>
+          <div class="profile-field">
+            <label class="pf-label" for="based-in">Based in</label>
+            <select id="based-in"><option value="">Select state</option></select>
+          </div>
+          <div class="profile-field">
+            <label class="pf-label">Product available</label>
+            <div class="avail-row">
+              <label class="radio"><input type="radio" name="avail" value="national" checked> Nationally</label>
+              <label class="radio"><input type="radio" name="avail" value="state"> One state:</label>
+              <select id="avail-state" disabled><option value="">Select state</option></select>
+            </div>
+          </div>
         </div>
-        <p class="aggregate-line" id="aggregate-line"></p>
+        <p class="note" id="profile-summary"></p>
+      </section>
+
+      <section class="card">
+        <h2>Compliance cost by company size <span class="hint">the same rules, a very different burden</span></h2>
+        <div id="size-cards" class="size-cards"></div>
+        <p class="note">Each company faces the same binding laws, but the cost is a fixed build that
+        barely grows with size &mdash; while revenue grows far faster. As a share of revenue, state-by-state
+        compliance is a rounding error for the largest firms and a real tax on the smallest. Representative
+        revenues are assumptions shown on each card; cost is the median 5&#8209;year estimate.</p>
       </section>
 
       <section class="card">
@@ -192,18 +204,30 @@
       </section>
 
       <section class="card">
-        <h2>Where the cost comes from <span class="hint">median contribution by requirement family</span></h2>
+        <h2>Where your cost comes from <span class="hint">median contribution by requirement family, mid-size reference</span></h2>
         <div id="families"></div>
       </section>
 
       <section class="card">
-        <h2>Coded bills in the model <span class="hint" id="bill-count"></span></h2>
+        <h2>The laws that bind you <span class="hint" id="bill-count"></span></h2>
         <table id="bills-table">
           <thead>
             <tr><th>Bill</th><th>State</th><th>Requirement family</th><th>Binds</th><th>Key parameters</th><th>Exposure if violated</th><th>Status</th></tr>
           </thead>
           <tbody></tbody>
         </table>
+      </section>
+
+      <section class="card stay-updated">
+        <h2>Stay in the loop <span class="hint">a16z on AI policy</span></h2>
+        <p>New state laws land constantly. Get a16z's latest analysis, releases, and policy news &mdash;
+        and we'll factor your profile into what we send.</p>
+        <form id="lead-form" class="lead-form">
+          <input type="email" id="lead-email" placeholder="you@company.com" autocomplete="email" aria-label="Email address">
+          <button type="submit">Notify me</button>
+        </form>
+        <label class="lead-consent"><input type="checkbox" id="lead-consent"> Send me occasional a16z AI-policy updates. Unsubscribe anytime.</label>
+        <p class="note" id="lead-status"></p>
       </section>
 
       <section class="card methodology">
