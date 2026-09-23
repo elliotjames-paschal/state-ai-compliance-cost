@@ -65,16 +65,18 @@
   <div class="wizard-wrap">
 
     <div class="wizard card" id="wizard">
-      <ol class="wiz-progress" id="wiz-progress">
-        <li data-s="0">Build</li><li data-s="1">Categories</li><li data-s="2">Where</li><li data-s="3">Estimate</li>
-      </ol>
+      <div class="wiz-bar"><span id="wiz-bar-fill"></span></div>
 
       <section class="wiz-step" data-step="0">
         <p class="wiz-q">What are you building?</p>
-        <p class="wiz-help">Select any that apply.</p>
+        <p class="wiz-help">Pick whatever fits &mdash; you can choose more than one.</p>
         <div class="chip-group big">
-          <label class="chip"><input type="checkbox" data-role="developer"> AI model developer</label>
-          <label class="chip"><input type="checkbox" data-role="app"> AI chatbot / app provider</label>
+          <label class="chip"><input type="checkbox" data-role="frontier"> Foundation / frontier model</label>
+          <label class="chip"><input type="checkbox" data-role="chatbot"> Chatbot or companion AI</label>
+          <label class="chip"><input type="checkbox" data-role="consumer-app"> Consumer app with AI features</label>
+          <label class="chip"><input type="checkbox" data-role="genmedia"> Generative media <span class="chip-eg">image, audio, video, voice</span></label>
+          <label class="chip"><input type="checkbox" data-role="platform"> Developer platform / API</label>
+          <label class="chip"><input type="checkbox" data-role="decisions"> Automated decisions <span class="chip-eg">hiring, lending, eligibility</span></label>
         </div>
         <div class="wiz-nav"><span></span><button type="button" class="wiz-btn next" data-go="1">Continue &rarr;</button></div>
       </section>
@@ -84,7 +86,6 @@
         <p class="wiz-help">The most common regulated categories &mdash; many laws don&rsquo;t fit neatly, so pick what&rsquo;s closest. The full set is on the State&nbsp;Law&nbsp;Explorer.</p>
         <div class="chip-group big">
           <label class="chip"><input type="checkbox" data-sector="model-regulation"> General model regulation <span class="chip-eg">frontier / foundation models</span></label>
-          <label class="chip"><input type="checkbox" data-sector="chatbots"> Chatbots &amp; companion AI</label>
           <label class="chip"><input type="checkbox" data-sector="healthcare"> Healthcare &amp; mental health</label>
           <label class="chip"><input type="checkbox" data-sector="insurance"> Insurance</label>
           <label class="chip"><input type="checkbox" data-sector="education"> Education</label>

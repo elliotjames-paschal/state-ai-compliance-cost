@@ -30,8 +30,12 @@
   // ------------------------------------------------------------------------
   var BASELINE_FAMILIES = ["privacy-data"];
   var ROLE_FAMILIES = {
-    "developer": ["frontier-safety", "provenance-transparency"],
-    "app": ["chatbot-safeguards", "likeness-rights", "provenance-transparency"]
+    "frontier": ["frontier-safety", "provenance-transparency"],
+    "chatbot": ["chatbot-safeguards"],
+    "consumer-app": ["chatbot-safeguards", "privacy-data"],
+    "genmedia": ["likeness-rights", "provenance-transparency"],
+    "platform": ["provenance-transparency"],
+    "decisions": ["adm-governance", "workforce"]
   };
   var SECTOR_FAMILIES = {
     "model-regulation": ["frontier-safety"],   // CA SB 53, IL SB 315, NY RAISE Act, …
@@ -721,10 +725,11 @@
   function renderSizeCards(bills, s) {
     var host = $("size-cards");
     if (!bills.length) {
-      host.innerHTML = "<p class='note' style='grid-column:1/-1'>No 2026-session laws bind this " +
-        "profile in the selected geography — so there is no state-specific compliance cost here. " +
-        "(The dataset covers laws passed in the 2026 session; earlier laws and other states aren't " +
-        "included.) Broaden the sector, or set availability to nationally, to see the fragmentation cost.</p>";
+      host.innerHTML = "<p class='note' style='grid-column:1/-1'>No laws in this dataset bind this " +
+        "profile in the selected state — so there's no state-specific compliance cost here. (The " +
+        "dataset is the working set of passed state AI laws through mid-2026; it isn't exhaustive, so " +
+        "some states' laws aren't captured yet.) Broaden the category, or set availability to " +
+        "nationally, to see the fragmentation cost.</p>";
       return null;
     }
     var results = SIZE_BANDS.map(function (band) {
@@ -902,17 +907,19 @@
   // ------------------------------------------------------------------------
   // Wizard: one question per step, estimate on the final step.
   // ------------------------------------------------------------------------
-  var wizStep = 0;
+  var wizStep = 0, WIZ_STEPS = 4;
   function wizGo(n, skipScroll) {
+    var dir = n >= wizStep ? 1 : -1;
     wizStep = n;
     document.querySelectorAll("#wizard .wiz-step").forEach(function (st) {
       st.hidden = +st.dataset.step !== n;
     });
-    document.querySelectorAll("#wiz-progress li").forEach(function (li) {
-      var s = +li.dataset.s;
-      li.classList.toggle("active", s === n);
-      li.classList.toggle("done", s < n);
-    });
+    $("wiz-bar-fill").style.width = ((n + 1) / WIZ_STEPS * 100) + "%";
+    // re-trigger the enter animation on the now-visible step
+    var cur = document.querySelector('#wizard .wiz-step[data-step="' + n + '"]');
+    cur.classList.remove("slide-r", "slide-l");
+    void cur.offsetWidth;
+    cur.classList.add(dir > 0 ? "slide-r" : "slide-l");
     if (n === 2) renderWizMap(readProfile());
     if (n === 3) recompute();
     if (n < 3) $("cost-detail").classList.add("hidden"); // hide detail when editing
@@ -923,9 +930,6 @@
   }
   document.querySelectorAll("#wizard .wiz-btn[data-go]").forEach(function (btn) {
     btn.addEventListener("click", function () { wizGo(+btn.dataset.go); });
-  });
-  $("wiz-progress").addEventListener("click", function (e) {
-    var li = e.target.closest("li"); if (li) wizGo(+li.dataset.s);
   });
   $("toggle-detail").addEventListener("click", function () {
     var d = $("cost-detail");
