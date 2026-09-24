@@ -380,19 +380,26 @@ a { color: var(--accent-dark); }
 .sc-assumed { font-size: 11px; color: var(--faint); margin-top: 1px; }
 
 /* ---- stay updated / lead capture ---- */
-.lead-form { display: flex; gap: 8px; margin: 10px 0 8px; max-width: 460px; }
-.lead-form input {
-  flex: 1; font: inherit; font-size: 14px; padding: 9px 11px;
-  border: 1px solid var(--line); border-radius: 4px;
+/* understated, editorial "stay posted" — not a conversion box */
+.stay { margin-top: 30px; padding-top: 22px; border-top: 1px solid var(--line); }
+.stay-lead { font-size: 15px; color: var(--ink); margin: 0 0 12px; }
+.lead-inline { display: inline-flex; align-items: baseline; gap: 4px; max-width: 100%; }
+.lead-inline input {
+  font: inherit; font-size: 15px; padding: 4px 2px; min-width: 220px;
+  border: none; border-bottom: 1.5px solid var(--line); background: transparent; color: var(--ink);
+  transition: border-color .16s;
 }
-.lead-form input:focus { border-color: var(--accent); outline: none; }
-.lead-form button {
-  font: inherit; font-size: 14px; font-weight: 600; padding: 9px 18px; cursor: pointer;
-  border: 1px solid var(--accent); background: var(--accent); color: #fff; border-radius: 4px;
+.lead-inline input::placeholder { color: var(--faint); }
+.lead-inline input:focus { border-bottom-color: var(--accent); outline: none; }
+.lead-inline button {
+  font: inherit; font-size: 15px; font-weight: 600; padding: 4px 6px; cursor: pointer;
+  border: none; background: none; color: var(--accent-dark); white-space: nowrap;
+  transition: opacity .16s;
 }
-.lead-form button:hover { background: var(--accent-dark); border-color: var(--accent-dark); }
-.lead-consent { display: flex; align-items: flex-start; gap: 7px; font-size: 12.5px; color: var(--muted); }
-.lead-consent input { margin-top: 2px; accent-color: var(--accent); }
+.lead-inline button:hover { opacity: .7; }
+.lead-consent { display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; color: var(--faint); margin-top: 12px; }
+.lead-consent input { accent-color: var(--accent); }
+#lead-status:not(:empty) { display: block; margin-top: 10px; color: var(--accent-dark); }
 
 .bill-card .bill-params { font-size: 12px; color: var(--muted); }
 .bill-card .bill-links { font-size: 12px; margin-top: 3px; }
@@ -511,7 +518,6 @@ a { color: var(--accent-dark); }
 .wiz-step.result { padding-top: 44px; }
 #result-headline { font-size: 27px; font-weight: 800; line-height: 1.22; letter-spacing: -0.02em; margin: 0 0 6px; }
 #result-headline strong { color: var(--accent-dark); }
-.wiz-step.result .lead-form { margin-top: 22px; }
 @media (max-width: 620px) { .wiz-step { padding: 36px 24px 30px; } .wiz-q { font-size: 25px; } .wiz-geo { grid-template-columns: 1fr; } }
 .tooltip .tt-count { color: #f8b39c; font-family: var(--mono); }
 

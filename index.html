@@ -137,12 +137,15 @@
           <button type="button" class="wiz-btn back" data-go="0">&larr; Edit answers</button>
           <button type="button" class="wiz-btn" id="toggle-detail">Full breakdown &amp; assumptions &darr;</button>
         </div>
-        <form id="lead-form" class="lead-form">
-          <input type="email" id="lead-email" placeholder="Email for a16z AI-policy updates" autocomplete="email" aria-label="Email address">
-          <button type="submit">Notify me</button>
-        </form>
-        <label class="lead-consent"><input type="checkbox" id="lead-consent"> Send me occasional a16z AI-policy updates. Unsubscribe anytime.</label>
-        <p class="note" id="lead-status"></p>
+        <div class="stay">
+          <p class="stay-lead">New state AI laws land often &mdash; we track them so you don&rsquo;t have to.</p>
+          <form id="lead-form" class="lead-inline">
+            <input type="email" id="lead-email" placeholder="your email" autocomplete="email" aria-label="Email address">
+            <button type="submit">Keep me posted &rarr;</button>
+          </form>
+          <label class="lead-consent"><input type="checkbox" id="lead-consent"> occasional a16z AI-policy updates &middot; unsubscribe anytime</label>
+          <span class="note" id="lead-status"></span>
+        </div>
       </section>
     </div>
 
