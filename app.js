@@ -746,30 +746,37 @@
       var r = runSimulation(bills, s, band.scale);
       return { band: band, cost: r.p50, pct: band.rev ? r.p50 / band.rev * 100 : null };
     });
-    var maxPct = results.reduce(function (m, x) { return x.pct != null ? Math.max(m, x.pct) : m; }, 0);
-    host.innerHTML = results.map(function (x) {
-      var b = x.band;
-      var hero = b.rev
-        ? "<div class='sc-pct'>" + (pctRev(x.cost, b.rev) || "—") + "</div><div class='sc-pct-label'>of revenue</div>"
-        : "<div class='sc-pct'>" + money(x.cost) + "</div><div class='sc-pct-label'>total, " + s.horizon + " yr</div>";
-      var bar = (b.rev && maxPct > 0)
-        ? "<div class='sc-bar'><span style='width:" + Math.max(3, x.pct / maxPct * 100).toFixed(1) + "%'></span></div>"
-        : "<div class='sc-bar empty'></div>";
-      var foot = b.rev
-        ? "<div class='sc-cost'>" + money(x.cost) + " <span>/ " + s.horizon + "yr</span></div>" +
-          "<div class='sc-assumed'>on ~" + moneyR(b.rev) + " revenue</div>"
-        : "<div class='sc-cost'>build + ops</div><div class='sc-assumed'>pre-revenue</div>";
-      var sel = b.key === selSize;
-      return "<div class='size-card" + (sel ? " sel" : "") + "'>" +
-        (sel ? "<div class='sc-you'>Your size</div>" : "") +
-        "<div class='sc-head'><div class='sc-tier'>" + b.label + "</div>" +
-        "<div class='sc-rev'>revenue " + b.bound + "</div></div>" +
-        "<div class='sc-hero'>" + hero + "</div>" + bar +
-        "<div class='sc-foot'>" + foot + "</div></div>";
+    // horizontal falloff chart: one row per revenue-bearing size, bar width
+    // = % of revenue (normalised to the smallest firm), so the cliff shows.
+    var revRows = results.filter(function (x) { return x.band.rev; });
+    var maxPct = revRows.reduce(function (m, x) { return Math.max(m, x.pct); }, 0) || 1;
+    var pre = results.filter(function (x) { return !x.band.rev; })[0];
+
+    var rows = revRows.map(function (x) {
+      var b = x.band, sel = b.key === selSize;
+      var w = Math.max(1.5, x.pct / maxPct * 100);
+      return "<div class='cc-row" + (sel ? " sel" : "") + "'>" +
+        "<div class='cc-label'><span class='cc-tier'>" + b.label +
+          (sel ? "<span class='cc-you'>you</span>" : "") + "</span>" +
+          "<span class='cc-rev'>revenue " + b.bound + "</span></div>" +
+        "<div class='cc-track'><div class='cc-fill' data-w='" + w.toFixed(1) + "' style='width:0'></div></div>" +
+        "<div class='cc-figs'><span class='cc-pct'>" + pctRev(x.cost, b.rev) + "</span>" +
+          "<span class='cc-cost'>" + money(x.cost) + " on ~" + moneyR(b.rev) + "</span></div>" +
+        "</div>";
     }).join("");
-    // centre the chosen size in the scroll row without moving the page
-    var selCard = host.querySelector(".size-card.sel");
-    if (selCard) host.scrollLeft = selCard.offsetLeft - (host.clientWidth - selCard.clientWidth) / 2;
+
+    var preRow = pre
+      ? "<div class='cc-pre" + (selSize === "pre" ? " sel" : "") + "'>" +
+        "<span class='cc-pre-dot'></span>A <strong>pre-revenue</strong> startup pays about <strong>" +
+        money(pre.cost) + "</strong> over " + s.horizon + " years — before earning a dollar." +
+        "</div>"
+      : "";
+
+    host.innerHTML = "<div class='cc-rows'>" + rows + "</div>" + preRow;
+    // grow the bars in for a light, alive feel
+    requestAnimationFrame(function () {
+      host.querySelectorAll(".cc-fill").forEach(function (f) { f.style.width = f.dataset.w + "%"; });
+    });
     return results;
   }
 
