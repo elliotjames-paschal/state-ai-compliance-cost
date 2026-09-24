@@ -861,8 +861,13 @@
   function buildWizMap() {
     var svg = el("svg", { viewBox: "0 0 975 610", role: "img", "aria-label": "US map of where AI laws bind" });
     var tip = $("tooltip");
+    // a non-interactive outline layer painted on top of every state, so a
+    // hovered state's full border shows (neighbours can't clip it) and clicks
+    // still land on the real state paths underneath
+    var hover = el("path", { class: "wm-hover" });
     Object.keys(MAP).forEach(function (ab) {
       var path = el("path", { class: "wm-state", d: MAP[ab].d, "data-state": ab });
+      path.addEventListener("mouseenter", function () { hover.setAttribute("d", MAP[ab].d); });
       path.addEventListener("mousemove", function (e) {
         var n = wizCounts[ab] || 0;
         tip.innerHTML = "<strong>" + MAP[ab].name + "</strong> · " + n + (n === 1 ? " law" : " laws") + " bind you";
@@ -870,7 +875,7 @@
         tip.style.left = Math.min(e.clientX + 14, window.innerWidth - 200) + "px";
         tip.style.top = (e.clientY + 14) + "px";
       });
-      path.addEventListener("mouseleave", function () { tip.classList.add("hidden"); });
+      path.addEventListener("mouseleave", function () { tip.classList.add("hidden"); hover.removeAttribute("d"); });
       path.addEventListener("click", function () {
         document.querySelector("input[name='avail'][value='state']").checked = true;
         $("avail-state").value = ab;
@@ -880,6 +885,7 @@
       });
       svg.appendChild(path);
     });
+    svg.appendChild(hover);
     $("wiz-map").appendChild(svg);
   }
 
@@ -896,9 +902,12 @@
       path.setAttribute("fill", fill);
       path.classList.toggle("picked", picked);
     });
-    // raise the picked state so its dark outline isn't clipped by neighbours
+    // raise the picked state so its dark outline isn't clipped by neighbours,
+    // then keep the hover overlay on top of everything
     var pk = document.querySelector("#wiz-map .wm-state.picked");
     if (pk) pk.parentNode.appendChild(pk);
+    var hv = document.querySelector("#wiz-map .wm-hover");
+    if (hv) hv.parentNode.appendChild(hv);
     var total = Object.keys(counts).reduce(function (a, k) { return a + counts[k]; }, 0);
     var nStates = Object.keys(counts).length;
     $("wiz-map-note").innerHTML = national
