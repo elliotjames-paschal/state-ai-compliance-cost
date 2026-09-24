@@ -112,10 +112,23 @@
         </div>
         <div class="wiz-map" id="wiz-map"></div>
         <p class="note" id="wiz-map-note"></p>
-        <div class="wiz-nav"><button type="button" class="wiz-btn back" data-go="1">&larr; Back</button><button type="button" class="wiz-btn next primary" data-go="3">See my estimate &rarr;</button></div>
+        <div class="wiz-nav"><button type="button" class="wiz-btn back" data-go="1">&larr; Back</button><button type="button" class="wiz-btn next" data-go="3">Continue &rarr;</button></div>
       </section>
 
-      <section class="wiz-step result" data-step="3" hidden>
+      <section class="wiz-step" data-step="3" hidden>
+        <p class="wiz-q">How big is your company?</p>
+        <p class="wiz-help">Pick the closest &mdash; you&rsquo;ll still see how the burden compares across every size.</p>
+        <div class="chip-group big size-pick">
+          <label class="chip"><input type="radio" name="size" data-size="pre"> Pre-revenue <span class="chip-eg">$0</span></label>
+          <label class="chip"><input type="radio" name="size" data-size="small"> Small <span class="chip-eg">revenue &lt; $1B</span></label>
+          <label class="chip"><input type="radio" name="size" data-size="mid"> Mid-sized <span class="chip-eg">revenue &lt; $10B</span></label>
+          <label class="chip"><input type="radio" name="size" data-size="large"> Large <span class="chip-eg">revenue &lt; $50B</span></label>
+          <label class="chip"><input type="radio" name="size" data-size="xlarge"> Very large <span class="chip-eg">$100B+</span></label>
+        </div>
+        <div class="wiz-nav"><button type="button" class="wiz-btn back" data-go="2">&larr; Back</button><button type="button" class="wiz-btn next primary" data-go="4">See my estimate &rarr;</button></div>
+      </section>
+
+      <section class="wiz-step result" data-step="4" hidden>
         <p class="wiz-q" id="result-headline">Your estimated compliance cost</p>
         <p class="note" id="profile-summary"></p>
         <div id="size-cards" class="size-cards"></div>

@@ -684,11 +684,13 @@
     document.querySelectorAll("input[data-role]:checked").forEach(function (e) { roles.push(e.dataset.role); });
     document.querySelectorAll("input[data-sector]:checked").forEach(function (e) { sectors.push(e.dataset.sector); });
     var availEl = document.querySelector("input[name='avail']:checked");
+    var sizeEl = document.querySelector("input[name='size']:checked");
     return {
       roles: roles, sectors: sectors,
       basedIn: $("based-in").value,
       availability: availEl ? availEl.value : "national",
-      availState: $("avail-state").value
+      availState: $("avail-state").value,
+      size: sizeEl ? sizeEl.dataset.size : null
     };
   }
 
@@ -730,7 +732,7 @@
     return p.toFixed(4) + "%";
   }
 
-  function renderSizeCards(bills, s) {
+  function renderSizeCards(bills, s, selSize) {
     var host = $("size-cards");
     if (!bills.length) {
       host.innerHTML = "<p class='note' style='grid-column:1/-1'>No laws in this dataset bind this " +
@@ -757,12 +759,17 @@
         ? "<div class='sc-cost'>" + money(x.cost) + " <span>/ " + s.horizon + "yr</span></div>" +
           "<div class='sc-assumed'>on ~" + moneyR(b.rev) + " revenue</div>"
         : "<div class='sc-cost'>build + ops</div><div class='sc-assumed'>pre-revenue</div>";
-      return "<div class='size-card'>" +
+      var sel = b.key === selSize;
+      return "<div class='size-card" + (sel ? " sel" : "") + "'>" +
+        (sel ? "<div class='sc-you'>Your size</div>" : "") +
         "<div class='sc-head'><div class='sc-tier'>" + b.label + "</div>" +
         "<div class='sc-rev'>revenue " + b.bound + "</div></div>" +
         "<div class='sc-hero'>" + hero + "</div>" + bar +
         "<div class='sc-foot'>" + foot + "</div></div>";
     }).join("");
+    // centre the chosen size in the scroll row without moving the page
+    var selCard = host.querySelector(".size-card.sel");
+    if (selCard) host.scrollLeft = selCard.offsetLeft - (host.clientWidth - selCard.clientWidth) / 2;
     return results;
   }
 
@@ -794,13 +801,24 @@
     renderProfileSummary(p, bills);
     renderWizMap(p);
 
-    var results = renderSizeCards(bills, s);
+    var results = renderSizeCards(bills, s, p.size);
     if (results) {
-      var small = results.find(function (x) { return x.band.key === "small"; });
-      var xl = results.find(function (x) { return x.band.key === "xlarge"; });
-      $("result-headline").innerHTML = "A small company would spend about <strong>" +
-        pctRev(small.cost, small.band.rev) + "</strong> of revenue on this &mdash; a very large one, about <strong>" +
-        pctRev(xl.cost, xl.band.rev) + "</strong>.";
+      var chosen = p.size ? results.find(function (x) { return x.band.key === p.size; }) : null;
+      if (chosen && chosen.band.rev) {
+        $("result-headline").innerHTML = "For a " + chosen.band.label.toLowerCase() +
+          " company, state AI compliance runs about <strong>" + pctRev(chosen.cost, chosen.band.rev) +
+          "</strong> of revenue &mdash; roughly <strong>" + money(chosen.cost) + "</strong> over " +
+          s.horizon + " years.";
+      } else if (chosen) {
+        $("result-headline").innerHTML = "Pre-revenue, this is about <strong>" + money(chosen.cost) +
+          "</strong> over " + s.horizon + " years &mdash; before you&rsquo;ve made a dollar.";
+      } else {
+        var small = results.find(function (x) { return x.band.key === "small"; });
+        var xl = results.find(function (x) { return x.band.key === "xlarge"; });
+        $("result-headline").innerHTML = "A small company would spend about <strong>" +
+          pctRev(small.cost, small.band.rev) + "</strong> of revenue on this &mdash; a very large one, about <strong>" +
+          pctRev(xl.cost, xl.band.rev) + "</strong>.";
+      }
     } else {
       $("result-headline").textContent = "No state-specific compliance cost for this profile.";
     }
@@ -835,6 +853,9 @@
     var svg = el("svg", { viewBox: "0 0 975 610", role: "img", "aria-label": "US map of where AI laws bind" });
     Object.keys(MAP).forEach(function (ab) {
       var path = el("path", { class: "wm-state", d: MAP[ab].d, "data-state": ab });
+      // SVG paints in document order, so neighbours drawn later cover a hovered
+      // state's border — raise it to the front so its full outline shows
+      path.addEventListener("mouseenter", function () { path.parentNode.appendChild(path); });
       path.addEventListener("click", function () {
         document.querySelector("input[name='avail'][value='state']").checked = true;
         $("avail-state").value = ab;
@@ -858,6 +879,9 @@
       path.setAttribute("fill", fill);
       path.classList.toggle("picked", picked);
     });
+    // raise the picked state so its dark outline isn't clipped by neighbours
+    var pk = document.querySelector("#wiz-map .wm-state.picked");
+    if (pk) pk.parentNode.appendChild(pk);
     var total = Object.keys(counts).reduce(function (a, k) { return a + counts[k]; }, 0);
     var nStates = Object.keys(counts).length;
     $("wiz-map-note").innerHTML = national
@@ -918,7 +942,7 @@
   // ------------------------------------------------------------------------
   // Wizard: one question per step, estimate on the final step.
   // ------------------------------------------------------------------------
-  var wizStep = 0, WIZ_STEPS = 4;
+  var wizStep = 0, WIZ_STEPS = 5, RESULT_STEP = 4;
   function wizGo(n, skipScroll) {
     var dir = n >= wizStep ? 1 : -1;
     wizStep = n;
@@ -932,8 +956,8 @@
     void cur.offsetWidth;
     cur.classList.add(dir > 0 ? "slide-r" : "slide-l");
     if (n === 2) renderWizMap(readProfile());
-    if (n === 3) recompute();
-    if (n < 3) $("cost-detail").classList.add("hidden"); // hide detail when editing
+    if (n === RESULT_STEP) recompute();
+    if (n < RESULT_STEP) $("cost-detail").classList.add("hidden"); // hide detail when editing
     if (!skipScroll) {
       var top = $("wizard").getBoundingClientRect().top + window.scrollY - 74;
       window.scrollTo({ top: top < 0 ? 0 : top, behavior: "smooth" });
