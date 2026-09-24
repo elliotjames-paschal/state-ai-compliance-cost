@@ -133,9 +133,12 @@
         <p class="note" id="profile-summary"></p>
         <div id="size-cards" class="cost-chart"></div>
         <p class="note">Every company faces the same laws, but the work barely grows with size while revenue races ahead &mdash; a rounding error for the biggest, a real tax on the smallest. Bars are cost as a share of revenue over 5 years.</p>
+        <button type="button" class="assumptions-cta" id="toggle-detail">
+          <span class="ac-main">Every number here is an assumption you can change</span>
+          <span class="ac-sub">Rates, hours per law, reuse, horizon &mdash; open the breakdown &amp; adjust <span class="ac-caret">&darr;</span></span>
+        </button>
         <div class="wiz-nav">
           <button type="button" class="wiz-btn back" data-go="0">&larr; Edit answers</button>
-          <button type="button" class="wiz-btn" id="toggle-detail">Full breakdown &amp; assumptions &darr;</button>
         </div>
         <div class="stay">
           <p class="stay-lead">New state AI laws land often &mdash; we track them so you don&rsquo;t have to.</p>
@@ -150,28 +153,6 @@
     </div>
 
     <div id="cost-detail" class="hidden">
-      <section class="card">
-        <h2>Where your cost comes from <span class="hint">median contribution by requirement family, mid-size reference</span></h2>
-        <div id="families"></div>
-      </section>
-
-      <section class="card">
-        <h2>Distribution of simulated outcomes <span class="hint" id="mc-meta"></span></h2>
-        <div id="histogram"></div>
-      </section>
-
-      <section class="card">
-        <details class="laws-toggle">
-          <summary>Browse the individual laws <span class="hint" id="bill-count"></span></summary>
-          <table id="bills-table">
-            <thead>
-              <tr><th>Bill</th><th>State</th><th>Requirement family</th><th>Binds</th><th>Key parameters</th><th>Exposure if violated</th><th>Status</th></tr>
-            </thead>
-            <tbody></tbody>
-          </table>
-        </details>
-      </section>
-
       <details class="advanced" id="adv-panel">
         <summary>Advanced assumptions</summary>
 
@@ -236,6 +217,28 @@
 
         <button id="reset">Reset assumptions to defaults</button>
       </details>
+
+      <section class="card">
+        <h2>Where your cost comes from <span class="hint">median contribution by requirement family, mid-size reference</span></h2>
+        <div id="families"></div>
+      </section>
+
+      <section class="card">
+        <h2>Distribution of simulated outcomes <span class="hint" id="mc-meta"></span></h2>
+        <div id="histogram"></div>
+      </section>
+
+      <section class="card">
+        <details class="laws-toggle">
+          <summary>Browse the individual laws <span class="hint" id="bill-count"></span></summary>
+          <table id="bills-table">
+            <thead>
+              <tr><th>Bill</th><th>State</th><th>Requirement family</th><th>Binds</th><th>Key parameters</th><th>Exposure if violated</th><th>Status</th></tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </details>
+      </section>
 
       <section class="card methodology">
         <h2>Method in brief</h2>

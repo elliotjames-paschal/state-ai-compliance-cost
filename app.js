@@ -789,7 +789,8 @@
     var geo = p.availability === "national" ? "available nationally"
       : "available in " + (STATE_NAMES[p.availState] || "one state");
     host.innerHTML = "<strong>" + bills.length + "</strong> laws bind this profile (" + geo +
-      "). Costs below assume the work each law requires of the average AI product, scaled by company size.";
+      "). This is <strong>compliance</strong> cost &mdash; the legal review, engineering, and ongoing " +
+      "operations each law adds <em>on top of</em> building your product, not the cost of building it.";
   }
 
   function recompute() {
@@ -855,17 +856,26 @@
     return "rgb(" + a.map(function (c, i) { return Math.round(c + (b[i] - c) * t); }).join(",") + ")";
   }
 
+  var wizCounts = {}; // per-state binding counts for the current profile (tooltip)
+
   function buildWizMap() {
     var svg = el("svg", { viewBox: "0 0 975 610", role: "img", "aria-label": "US map of where AI laws bind" });
+    var tip = $("tooltip");
     Object.keys(MAP).forEach(function (ab) {
       var path = el("path", { class: "wm-state", d: MAP[ab].d, "data-state": ab });
-      // SVG paints in document order, so neighbours drawn later cover a hovered
-      // state's border — raise it to the front so its full outline shows
-      path.addEventListener("mouseenter", function () { path.parentNode.appendChild(path); });
+      path.addEventListener("mousemove", function (e) {
+        var n = wizCounts[ab] || 0;
+        tip.innerHTML = "<strong>" + MAP[ab].name + "</strong> · " + n + (n === 1 ? " law" : " laws") + " bind you";
+        tip.classList.remove("hidden");
+        tip.style.left = Math.min(e.clientX + 14, window.innerWidth - 200) + "px";
+        tip.style.top = (e.clientY + 14) + "px";
+      });
+      path.addEventListener("mouseleave", function () { tip.classList.add("hidden"); });
       path.addEventListener("click", function () {
         document.querySelector("input[name='avail'][value='state']").checked = true;
         $("avail-state").value = ab;
         $("avail-state").disabled = false;
+        tip.classList.add("hidden");
         recompute();
       });
       svg.appendChild(path);
@@ -875,6 +885,7 @@
 
   function renderWizMap(p) {
     var counts = familyStateCounts(p);
+    wizCounts = counts;
     var max = Object.keys(counts).reduce(function (m, k) { return Math.max(m, counts[k]); }, 0) || 1;
     var national = p.availability === "national";
     document.querySelectorAll("#wiz-map .wm-state").forEach(function (path) {
@@ -973,9 +984,12 @@
     btn.addEventListener("click", function () { wizGo(+btn.dataset.go); });
   });
   $("toggle-detail").addEventListener("click", function () {
-    var d = $("cost-detail");
-    d.classList.toggle("hidden");
-    if (!d.classList.contains("hidden")) d.scrollIntoView({ behavior: "smooth" });
+    var d = $("cost-detail"), open = d.classList.toggle("hidden") === false;
+    $("toggle-detail").classList.toggle("open", open);
+    if (open) {
+      $("adv-panel").open = true; // reveal the editable assumptions right away
+      d.scrollIntoView({ behavior: "smooth" });
+    }
   });
 
   // live recompute: profile chips/selects refresh the estimate + map;

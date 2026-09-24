@@ -472,28 +472,40 @@ a { color: var(--accent-dark); }
 
 /* selectable option tiles */
 .chip-group.big { display: grid; grid-template-columns: repeat(auto-fit, minmax(215px, 1fr)); gap: 12px; }
+.chip-group.big { grid-template-columns: repeat(auto-fit, minmax(288px, 1fr)); gap: 12px; }
 .chip-group.big .chip {
   position: relative; display: flex; flex-direction: column; align-items: flex-start;
-  justify-content: center; gap: 3px; text-align: left;
-  min-height: 78px; padding: 16px 44px 16px 20px; border: 1.5px solid var(--line);
-  border-radius: 13px; background: #fff; cursor: pointer; user-select: none;
-  font-size: 15.5px; font-weight: 600; line-height: 1.25;
+  justify-content: center; gap: 2px; text-align: left;
+  padding: 16px 46px 16px 18px; border: 1.5px solid var(--line);
+  border-radius: 14px; background: #fff; cursor: pointer; user-select: none;
+  font-size: 15px; font-weight: 600; line-height: 1.3;
   transition: border-color .16s, background .16s, transform .16s, box-shadow .16s;
 }
 .chip-group.big .chip input { position: absolute; opacity: 0; pointer-events: none; }
-.chip-group.big .chip:hover { border-color: #cfc8bf; transform: translateY(-2px); box-shadow: 0 10px 24px -14px rgba(16,16,16,.3); }
-.chip-group.big .chip:has(input:checked) { border-color: var(--accent); background: var(--accent-soft); color: var(--accent-dark); box-shadow: 0 10px 26px -16px rgba(240,78,35,.5); }
-.chip-group.big .chip::after {
-  content: ""; position: absolute; top: 15px; right: 15px; width: 20px; height: 20px;
-  border-radius: 50%; border: 1.5px solid var(--line); transition: all .16s; background: #fff;
-}
+.chip-group.big .chip:hover { border-color: #cbc3b9; transform: translateY(-1px); box-shadow: 0 8px 20px -14px rgba(16,16,16,.28); }
+.chip-group.big .chip:has(input:checked) { border-color: var(--accent); background: var(--accent-soft); color: var(--accent-dark); }
+/* checkmark only when selected — no empty circle stealing space from the text */
 .chip-group.big .chip:has(input:checked)::after {
-  border-color: var(--accent); background: var(--accent) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E") center/12px no-repeat;
+  content: ""; position: absolute; top: 50%; right: 16px; transform: translateY(-50%);
+  width: 22px; height: 22px; border-radius: 50%; background: var(--accent) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E") center/12px no-repeat;
 }
 .chip-eg { display: block; font-size: 12.5px; color: var(--faint); font-weight: 400; }
 .chip:has(input:checked) .chip-eg { color: var(--accent-dark); opacity: .8; }
 
-.wiz-nav { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-top: 36px; }
+/* "you can change the assumptions" call-to-action */
+.assumptions-cta {
+  display: block; width: 100%; text-align: left; cursor: pointer; margin-top: 22px;
+  padding: 16px 20px; border: 1.5px dashed #e0ccbf; border-radius: 14px;
+  background: linear-gradient(90deg, #fff6f1, #fffdfb); font: inherit;
+  transition: border-color .16s, background .16s, transform .16s;
+}
+.assumptions-cta:hover { border-color: var(--accent); transform: translateY(-1px); }
+.assumptions-cta .ac-main { display: block; font-size: 15px; font-weight: 700; color: var(--ink); }
+.assumptions-cta .ac-sub { display: block; font-size: 12.5px; color: var(--muted); margin-top: 2px; }
+.assumptions-cta .ac-caret { color: var(--accent); font-weight: 700; display: inline-block; transition: transform .18s; }
+.assumptions-cta.open .ac-caret { transform: rotate(180deg); }
+
+.wiz-nav { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-top: 24px; }
 .wiz-btn {
   font: inherit; font-size: 15px; font-weight: 600; padding: 12px 24px; cursor: pointer;
   border: 1.5px solid transparent; background: none; color: var(--muted); border-radius: 10px;
@@ -515,9 +527,11 @@ a { color: var(--accent-dark); }
 .avail-row .radio { font-size: 14px; }
 .wiz-map { margin: 8px 0 6px; }
 .wiz-map svg { width: 100%; height: auto; display: block; }
-.wm-state { stroke: #d8d2c9; stroke-width: 1; cursor: pointer; transition: fill .15s; }
-.wm-state:hover { stroke: var(--ink); stroke-width: 1.5; }
+.wm-state { stroke: #d8d2c9; stroke-width: 1; cursor: pointer; transition: fill .12s; }
+/* CSS fill beats the presentation attribute, so hover always reads clearly */
+.wm-state:hover { fill: #ffb488 !important; stroke: var(--ink); stroke-width: 1.6; }
 .wm-state.picked { stroke: var(--ink); stroke-width: 2; }
+.wm-state.picked:hover { fill: #f04e23 !important; }
 
 .wiz-step.result { padding-top: 44px; }
 #result-headline { font-size: 27px; font-weight: 800; line-height: 1.22; letter-spacing: -0.02em; margin: 0 0 6px; }
