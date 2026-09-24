@@ -758,10 +758,9 @@
       return "<div class='cc-row" + (sel ? " sel" : "") + "'>" +
         "<div class='cc-label'><span class='cc-tier'>" + b.label +
           (sel ? "<span class='cc-you'>you</span>" : "") + "</span>" +
-          "<span class='cc-rev'>revenue " + b.bound + "</span></div>" +
+          "<span class='cc-rev'>" + b.bound + "</span></div>" +
         "<div class='cc-track'><div class='cc-fill' data-w='" + w.toFixed(1) + "' style='width:0'></div></div>" +
-        "<div class='cc-figs'><span class='cc-pct'>" + pctRev(x.cost, b.rev) + "</span>" +
-          "<span class='cc-cost'>" + money(x.cost) + " on ~" + moneyR(b.rev) + "</span></div>" +
+        "<span class='cc-pct'>" + pctRev(x.cost, b.rev) + "</span>" +
         "</div>";
     }).join("");
 
