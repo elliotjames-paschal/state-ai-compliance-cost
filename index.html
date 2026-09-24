@@ -161,13 +161,15 @@
       </section>
 
       <section class="card">
-        <h2>The laws that bind you <span class="hint" id="bill-count"></span></h2>
-        <table id="bills-table">
-          <thead>
-            <tr><th>Bill</th><th>State</th><th>Requirement family</th><th>Binds</th><th>Key parameters</th><th>Exposure if violated</th><th>Status</th></tr>
-          </thead>
-          <tbody></tbody>
-        </table>
+        <details class="laws-toggle">
+          <summary>Browse the individual laws <span class="hint" id="bill-count"></span></summary>
+          <table id="bills-table">
+            <thead>
+              <tr><th>Bill</th><th>State</th><th>Requirement family</th><th>Binds</th><th>Key parameters</th><th>Exposure if violated</th><th>Status</th></tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </details>
       </section>
 
       <details class="advanced" id="adv-panel">
