@@ -550,6 +550,14 @@
     return sign + "$" + Math.round(v);
   }
 
+  // compact money without trailing zeros — for round revenue figures
+  function moneyR(v) {
+    if (v >= 1e9) return "$" + (+(v / 1e9).toFixed(1)) + "B";
+    if (v >= 1e6) return "$" + (+(v / 1e6).toFixed(1)) + "M";
+    if (v >= 1e3) return "$" + Math.round(v / 1e3) + "k";
+    return "$" + Math.round(v);
+  }
+
   function renderHistogram(result) {
     var host = $("histogram");
     host.innerHTML = "";
@@ -739,19 +747,21 @@
     var maxPct = results.reduce(function (m, x) { return x.pct != null ? Math.max(m, x.pct) : m; }, 0);
     host.innerHTML = results.map(function (x) {
       var b = x.band;
-      var head = b.rev
+      var hero = b.rev
         ? "<div class='sc-pct'>" + (pctRev(x.cost, b.rev) || "—") + "</div><div class='sc-pct-label'>of revenue</div>"
         : "<div class='sc-pct'>" + money(x.cost) + "</div><div class='sc-pct-label'>total, " + s.horizon + " yr</div>";
       var bar = (b.rev && maxPct > 0)
-        ? "<div class='sc-bar'><span style='width:" + (x.pct / maxPct * 100).toFixed(1) + "%'></span></div>"
+        ? "<div class='sc-bar'><span style='width:" + Math.max(3, x.pct / maxPct * 100).toFixed(1) + "%'></span></div>"
         : "<div class='sc-bar empty'></div>";
       var foot = b.rev
-        ? "<div class='sc-cost'>" + money(x.cost) + " over " + s.horizon + " yr</div>" +
-          "<div class='sc-assumed'>assumed revenue " + money(b.rev) + "</div>"
-        : "<div class='sc-cost'>build + " + s.horizon + " yr ops</div>" +
-          "<div class='sc-assumed'>no revenue to divide by</div>";
-      return "<div class='size-card'><div class='sc-tier'>" + b.label + "</div>" +
-        "<div class='sc-rev'>revenue " + b.bound + "</div>" + head + bar + foot + "</div>";
+        ? "<div class='sc-cost'>" + money(x.cost) + " <span>/ " + s.horizon + "yr</span></div>" +
+          "<div class='sc-assumed'>on ~" + moneyR(b.rev) + " revenue</div>"
+        : "<div class='sc-cost'>build + ops</div><div class='sc-assumed'>pre-revenue</div>";
+      return "<div class='size-card'>" +
+        "<div class='sc-head'><div class='sc-tier'>" + b.label + "</div>" +
+        "<div class='sc-rev'>revenue " + b.bound + "</div></div>" +
+        "<div class='sc-hero'>" + hero + "</div>" + bar +
+        "<div class='sc-foot'>" + foot + "</div></div>";
     }).join("");
     return results;
   }
@@ -842,10 +852,11 @@
     var national = p.availability === "national";
     document.querySelectorAll("#wiz-map .wm-state").forEach(function (path) {
       var ab = path.dataset.state, n = counts[ab] || 0;
-      var inGeo = national || ab === p.availState || ab === p.basedIn;
-      path.setAttribute("fill", n > 0 && inGeo ? mix(n / max) : "#ececec");
-      path.classList.toggle("dim", !national && !inGeo);
-      path.classList.toggle("picked", !national && (ab === p.availState || ab === p.basedIn));
+      var picked = !national && (ab === p.availState || ab === p.basedIn);
+      // fill by colour, never opacity, so the borders stay crisp
+      var fill = picked ? "#f04e23" : (national && n > 0 ? mix(n / max) : "#efe9e2");
+      path.setAttribute("fill", fill);
+      path.classList.toggle("picked", picked);
     });
     var total = Object.keys(counts).reduce(function (a, k) { return a + counts[k]; }, 0);
     var nStates = Object.keys(counts).length;
