@@ -152,7 +152,7 @@ a { color: var(--accent-dark); }
   font-weight: 600;
   padding: 5px 14px;
   border: 1px solid var(--line);
-  border-radius: 999px;
+  border-radius: 8px;
   background: var(--paper);
   color: var(--muted);
   cursor: pointer;
@@ -322,7 +322,7 @@ a { color: var(--accent-dark); }
 .chip {
   display: inline-flex; align-items: center; gap: 6px; cursor: pointer;
   font-size: 12.5px; padding: 6px 11px; border: 1px solid var(--line);
-  border-radius: 999px; background: var(--paper); user-select: none; transition: all .12s;
+  border-radius: 8px; background: var(--paper); user-select: none; transition: all .12s;
 }
 .chip input { margin: 0; accent-color: var(--accent); }
 .chip:hover { border-color: var(--faint); }
@@ -351,8 +351,8 @@ a { color: var(--accent-dark); }
 .cc-row.sel .cc-tier { color: var(--accent-dark); }
 .cc-you { font-size: 10px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
 .cc-rev { font-size: 11.5px; color: var(--faint); }
-.cc-track { height: 16px; background: rgba(150,105,80,.1); border-radius: 6px; overflow: hidden; }
-.cc-fill { height: 100%; border-radius: 6px; background: linear-gradient(90deg, #ffc196, #f5722f);
+.cc-track { height: 15px; background: rgba(150,105,80,.1); border-radius: 3px; overflow: hidden; }
+.cc-fill { height: 100%; border-radius: 3px 0 0 3px; background: linear-gradient(90deg, #ffc196, #f5722f);
   transition: width .7s cubic-bezier(.2,.75,.2,1); }
 .cc-row.sel .cc-fill { background: linear-gradient(90deg, #ff8846, #e5410e); }
 .cc-pct { font-size: 20px; font-weight: 800; letter-spacing: -0.02em; color: var(--ink); font-variant-numeric: tabular-nums; text-align: right; }
