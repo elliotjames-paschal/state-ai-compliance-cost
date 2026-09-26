@@ -9,12 +9,14 @@
 window.MODEL_DATA = {
 
   // Hours for the average AI model to satisfy each duty, wherever imposed.
+  // perRelease: true = the legal/eng work recurs with every model release
+  // (docs, provenance integration); the "model releases" control multiplies it.
   duties: {
     "statutory-review":  { label: "Read & map the statute",
       legal: { low: 10, mode: 25, high: 60 },   eng: { low: 0, mode: 0, high: 0 },       ops: { low: 0, mode: 0, high: 0 } },
     "disclosure-ui":     { label: "AI-use disclosure in product",
       legal: { low: 5, mode: 10, high: 25 },    eng: { low: 20, mode: 60, high: 150 },   ops: { low: 5, mode: 10, high: 30 } },
-    "watermarking":      { label: "Output watermarking / provenance",
+    "watermarking":      { label: "Output watermarking / provenance", perRelease: true,
       legal: { low: 5, mode: 15, high: 30 },    eng: { low: 80, mode: 200, high: 450 },  ops: { low: 20, mode: 40, high: 90 } },
     "detection-tool":    { label: "Public AI-detection tool",
       legal: { low: 5, mode: 15, high: 30 },    eng: { low: 100, mode: 250, high: 550 }, ops: { low: 30, mode: 60, high: 120 } },
@@ -34,7 +36,7 @@ window.MODEL_DATA = {
       legal: { low: 15, mode: 30, high: 65 },   eng: { low: 30, mode: 80, high: 180 },   ops: { low: 5, mode: 15, high: 40 } },
     "takedown-process":  { label: "Report & removal channel",
       legal: { low: 10, mode: 20, high: 45 },   eng: { low: 40, mode: 100, high: 220 },  ops: { low: 30, mode: 70, high: 150 } },
-    "documentation":     { label: "Training-data / model documentation",
+    "documentation":     { label: "Training-data / model documentation", perRelease: true,
       legal: { low: 10, mode: 25, high: 55 },   eng: { low: 40, mode: 110, high: 240 },  ops: { low: 10, mode: 25, high: 60 } },
     "incident-reporting": { label: "Safety incident reporting",
       legal: { low: 10, mode: 25, high: 50 },   eng: { low: 20, mode: 60, high: 130 },   ops: { low: 10, mode: 30, high: 70 } },

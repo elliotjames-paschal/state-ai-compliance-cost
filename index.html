@@ -133,6 +133,7 @@
         <p class="note" id="profile-summary"></p>
         <div id="size-cards" class="cost-chart"></div>
         <p class="note">Every company faces the same laws, but the work barely grows with size while revenue races ahead &mdash; a rounding error for the biggest, a real tax on the smallest. Bars are cost as a share of revenue over 5 years.</p>
+        <div id="family-split" class="family-split"></div>
         <button type="button" class="assumptions-cta" id="toggle-detail">
           <span class="ac-icon" aria-hidden="true">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
@@ -171,15 +172,25 @@
             <label for="horizon">Years counted <output id="horizon-out">5 yr</output></label>
             <input type="range" id="horizon" min="1" max="10" step="1" value="5">
           </div>
-          <p class="note">Years of recurring compliance cost to include; one-time build costs are counted once regardless.</p>
+          <div class="control">
+            <label for="releases">Model releases over the horizon <output id="releases-out">1 release</output></label>
+            <input type="range" id="releases" min="1" max="20" step="1" value="1">
+          </div>
+          <p class="note">Years of recurring compliance cost to include; one-time build costs are counted
+          once regardless. Duties marked <em>per release</em> (model documentation, provenance
+          integration) repeat their legal and engineering work with every model release.</p>
         </section>
 
         <section>
-          <h2>Federal baseline</h2>
+          <h2>Shared baseline</h2>
           <div class="control check">
-            <label><input type="checkbox" id="baseline" checked> Count only the increment above a federal standard</label>
+            <label><input type="checkbox" id="baseline" checked> Count only costs beyond the shared core</label>
           </div>
-          <p class="note">The federal standard is the least common denominator of each requirement family &mdash; the parameters every state sets identically. That shared core &mdash; worth &asymp;<strong id="federal-out">&mdash;</strong> under current settings &mdash; is not claimed; only divergence beyond it counts.</p>
+          <p class="note">There is no federal AI standard today &mdash; but the state laws share a core:
+          one-time work plus the requirements every state sets identically. A company builds that core
+          once no matter how many states regulate (and it&rsquo;s what a single federal rule would have
+          asked for). That shared core &mdash; worth &asymp;<strong id="federal-out">&mdash;</strong>
+          under current settings &mdash; is not counted; only state-by-state divergence is.</p>
         </section>
 
         <section>
@@ -253,7 +264,7 @@
         <h2>Method in brief</h2>
         <ul>
           <li><strong>Bottom-up.</strong> Each law is coded into the duties it demands; each duty carries hour estimates for the average AI model. Cost is hours &times; rates &mdash; the same approach federal agencies use for regulatory burden estimates.</li>
-          <li><strong>Increment, not total.</strong> The hypothetical federal standard is each family&rsquo;s least common denominator &mdash; the parameters every state sets identically. That shared core is never claimed; only divergence beyond it is.</li>
+          <li><strong>Increment, not total.</strong> The state laws share a core &mdash; one-time work plus the parameters every state sets identically (what a single federal standard would have required). That shared core is never counted; only state-by-state divergence is.</li>
           <li><strong>Reuse from statutes.</strong> Within a family, each additional state costs (1&nbsp;&minus;&nbsp;reuse) of a fresh build. Reuse is derived live from the coded parameters &mdash; the share two states set to the same value &mdash; never assigned.</li>
           <li><strong>Range, not point.</strong> 4,000 seeded Monte Carlo draws over duty hours, with a shared estimation-error factor across bills. The conservative end leads.</li>
         </ul>
@@ -279,14 +290,14 @@
   <header class="page-head">
     <h1>How to read this model</h1>
     <p>What the terms mean and how the pieces fit together &mdash; duties, parameters, reuse,
-    and the federal baseline. Every value described here is auditable in the repo.</p>
+    and the shared baseline. Every value described here is auditable in the repo.</p>
   </header>
 
       <section class="card" id="glossary">
         <h2>Glossary <span class="hint">reference for every term, duty, and parameter in the model</span></h2>
 
         <h3 class="gloss-h">Core concepts</h3>
-        <table class="gloss-table"><thead><tr><th>Term</th><th>Definition</th></tr></thead><tbody><tr><td><strong>Category</strong></td><td>Who a law binds: <code>company</code> (enters the estimate), <code>criminal</code> (binds individuals), <code>public-sector</code> (binds the state), <code>education</code> (binds schools). Only company laws are counted by default.</td></tr><tr><td><strong>Requirement family</strong></td><td>A group of laws that demand the same kind of thing across states (chatbot safeguards, insurance decisions, &hellip;). Reuse and the federal baseline are computed within a family.</td></tr><tr><td><strong>Duty</strong></td><td>A unit of work a law demands (build a crisis protocol, run an annual audit). Each duty carries hour estimates &mdash; legal and engineering once, operations per year. Duties drive cost.</td></tr><tr><td><strong>Parameter</strong></td><td>A concrete setting a statute picks (age limit 18, notice in 90 days). Parameters never add cost directly; they measure how much states agree. Every coded value is anchored to a quoted provision.</td></tr><tr><td><strong>Reuse</strong></td><td>The share of parameters two states set to the same value, averaged across state pairs in a family. Each later state pays only (1&nbsp;&minus;&nbsp;reuse) of a fresh build.</td></tr><tr><td><strong>Federal baseline</strong></td><td>The parameters every state in a family sets identically &mdash; the least common denominator. A single federal rule would require that work anyway, so it is never counted. Its size is shown under the headline.</td></tr><tr><td><strong>Statutory exposure</strong></td><td>The penalty a law itself states for violations (amount, unit, enforcer, cure period). Reported as fact next to each bill; never added to the cost estimate.</td></tr><tr><td><strong>Time horizon</strong></td><td>How many years of recurring (operations) costs are counted. One-time costs are unaffected.</td></tr><tr><td><strong>Monte Carlo</strong></td><td>The model runs 4,000 seeded simulations with duty hours drawn from their ranges, plus a shared error factor across all draws. Results are the spread: conservative p10, central p50, upper p90.</td></tr></tbody></table>
+        <table class="gloss-table"><thead><tr><th>Term</th><th>Definition</th></tr></thead><tbody><tr><td><strong>Category</strong></td><td>Who a law binds: <code>company</code> (enters the estimate), <code>criminal</code> (binds individuals), <code>public-sector</code> (binds the state), <code>education</code> (binds schools). Only company laws are counted by default.</td></tr><tr><td><strong>Requirement family</strong></td><td>A group of laws that demand the same kind of thing across states (chatbot safeguards, insurance decisions, &hellip;). Reuse and the shared baseline are computed within a family.</td></tr><tr><td><strong>Duty</strong></td><td>A unit of work a law demands (build a crisis protocol, run an annual audit). Each duty carries hour estimates &mdash; legal and engineering once, operations per year. Duties drive cost.</td></tr><tr><td><strong>Parameter</strong></td><td>A concrete setting a statute picks (age limit 18, notice in 90 days). Parameters never add cost directly; they measure how much states agree. Every coded value is anchored to a quoted provision.</td></tr><tr><td><strong>Reuse</strong></td><td>The share of parameters two states set to the same value, averaged across state pairs in a family. Each later state pays only (1&nbsp;&minus;&nbsp;reuse) of a fresh build.</td></tr><tr><td><strong>Shared baseline</strong></td><td>The core the state laws have in common: one-time work plus the parameters every state sets identically. A company builds it once no matter how many states regulate &mdash; and it is what a single federal standard would have required &mdash; so it is never counted. Only state-by-state divergence is.</td></tr><tr><td><strong>Statutory exposure</strong></td><td>The penalty a law itself states for violations (amount, unit, enforcer, cure period). Reported as fact next to each bill; never added to the cost estimate.</td></tr><tr><td><strong>Time horizon</strong></td><td>How many years of recurring (operations) costs are counted. One-time costs are unaffected.</td></tr><tr><td><strong>Monte Carlo</strong></td><td>The model runs 4,000 seeded simulations with duty hours drawn from their ranges, plus a shared error factor across all draws. Results are the spread: conservative p10, central p50, upper p90.</td></tr></tbody></table>
 
         <h3 class="gloss-h">How a law becomes a number</h3>
         <ol class="gloss-steps">
@@ -296,8 +307,8 @@
           <li><strong>Duties &rarr; cost.</strong> A law's cost is the sum of its duties' hours &times; your rates
           (legal and engineering once; operations each year of the horizon).</li>
           <li><strong>Parameters &rarr; discounts.</strong> Parameter agreement between states sets each family's
-          reuse; what all states agree on is the federal baseline, which is never counted.</li>
-          <li>Within each family: the first state pays its divergence from the federal baseline; every later
+          reuse; what all states agree on is the shared baseline &mdash; built once, never counted.</li>
+          <li>Within each family: the first state pays its divergence from the shared baseline; every later
           state pays (1&nbsp;&minus;&nbsp;reuse) of a fresh build plus its recurring operations.</li>
           <li>4,000 seeded simulation runs turn the hour ranges into the reported spread &mdash;
           conservative end first.</li>

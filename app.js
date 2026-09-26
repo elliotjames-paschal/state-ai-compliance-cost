@@ -319,7 +319,7 @@
 
   var DEFAULTS = {
     "rate-legal": "350", "rate-eng": "150", "rate-ops": "85",
-    "horizon": "5", "reuse": "55",
+    "horizon": "5", "reuse": "55", "releases": "1",
     "ops-share": "50", "err-spread": "50"
   };
 
@@ -397,7 +397,8 @@
     var html = "";
     Object.keys(DATA.duties).forEach(function (k) {
       var d = DATA.duties[k];
-      html += "<div class='duty-item'><div class='duty-label' title='" + k + "'>" + d.label + "</div>" +
+      html += "<div class='duty-item'><div class='duty-label' title='" + k + "'>" + d.label +
+        (d.perRelease ? " <span class='duty-flag'>per release</span>" : "") + "</div>" +
         "<div class='duty-inputs'>" +
         ["legal", "eng", "ops"].map(function (r) {
           return "<div class='duty-cell'><input type='number' min='0' step='5' data-duty='" + k +
@@ -443,6 +444,7 @@
       reuse: +$("reuse").value / 100,
       opsShare: +$("ops-share").value / 100,
       errSpread: +$("err-spread").value / 100,
+      releases: Math.max(1, +$("releases").value || 1),
       dutyTris: dutyTriangles()
     };
   }
@@ -482,9 +484,12 @@
       var drawn = {};
       for (var dk in DATA.duties) {
         var db = s.dutyTris[dk];
+        // per-release duties (docs, provenance integration) repeat their
+        // legal/eng work with every model release over the horizon
+        var rel = DATA.duties[dk].perRelease ? s.releases : 1;
         drawn[dk] = {
-          legal: triangular(rng, db.legal),
-          eng: triangular(rng, db.eng),
+          legal: triangular(rng, db.legal) * rel,
+          eng: triangular(rng, db.eng) * rel,
           ops: triangular(rng, db.ops)
         };
       }
@@ -614,7 +619,7 @@
     var entries = Object.keys(result.familyMedians).map(function (f) {
       var st = FAMILY_STATS[f];
       var sub = (st.reuse === null ? "" : "reuse " + Math.round(st.reuse * 100) + "% · ") +
-        "federal " + Math.round(st.common * 100) + "%";
+        "shared core " + Math.round(st.common * 100) + "%";
       return { key: f, label: DATA.families[f].label, sub: sub, value: result.familyMedians[f] };
     }).filter(function (e) { return e.value > 0; })
       .sort(function (a, b) { return b.value - a.value; });
@@ -783,6 +788,29 @@
     return results;
   }
 
+  // % share of the estimate by requirement family — the at-a-glance summary
+  // on the result page ("summary graphic as %s of where costs come from")
+  function renderFamilySplit(ref) {
+    var host = $("family-split");
+    var entries = Object.keys(ref.familyMedians)
+      .map(function (f) { return { label: DATA.families[f].label, v: ref.familyMedians[f] }; })
+      .filter(function (e) { return e.v > 0; })
+      .sort(function (a, b) { return b.v - a.v; });
+    var total = entries.reduce(function (a, e) { return a + e.v; }, 0);
+    if (!total) { host.innerHTML = ""; return; }
+    var top = entries.slice(0, 5);
+    var rest = entries.slice(5).reduce(function (a, e) { return a + e.v; }, 0);
+    if (rest > 0) top.push({ label: "Everything else", v: rest, other: true });
+    host.innerHTML = "<div class='fs-title'>Where the cost comes from</div>" +
+      top.map(function (e) {
+        var pct = e.v / total * 100;
+        return "<div class='fs-row" + (e.other ? " other" : "") + "'>" +
+          "<span class='fs-label'>" + e.label + "</span>" +
+          "<span class='fs-track'><span class='fs-fill' style='width:" + Math.max(1.5, pct).toFixed(1) + "%'></span></span>" +
+          "<span class='fs-pct'>" + (pct >= 10 ? Math.round(pct) : pct.toFixed(1)) + "%</span></div>";
+      }).join("");
+  }
+
   function renderProfileSummary(p, bills) {
     var host = $("profile-summary");
     if (!p.roles.length && !p.sectors.length) {
@@ -803,6 +831,7 @@
     var bills = bindingBills(p);
 
     $("horizon-out").textContent = s.horizon + " yr";
+    $("releases-out").textContent = s.releases + (s.releases === 1 ? " release" : " releases");
     $("reuse-out").textContent = Math.round(s.reuse * 100) + "%";
     $("reuse").disabled = !s.reuseOverride;
     $("ops-share-out").textContent = Math.round(s.opsShare * 100) + "%";
@@ -838,6 +867,7 @@
     var ref = runSimulation(bills, s, 1.0);
     $("mc-meta").textContent = ITERATIONS.toLocaleString() + " draws · mid-size reference";
     $("federal-out").textContent = money(ref.federalMedian);
+    renderFamilySplit(ref);
     renderHistogram(ref);
     renderFamilies(ref);
     renderBillsTable(bills);
@@ -947,7 +977,7 @@
     var rows = Object.keys(DATA.duties).map(function (k) {
       var d = DATA.duties[k];
       return "<tr><td><strong>" + d.label + "</strong><br><code>" + k + "</code></td>" +
-        "<td>" + (DUTY_MEANINGS[k] || "") + "</td>" +
+        "<td>" + (DUTY_MEANINGS[k] || "") + (d.perRelease ? " <em>(recurs with every model release)</em>" : "") + "</td>" +
         "<td class='num'>" + d.legal.mode + " / " + d.eng.mode + " · " + d.ops.mode + "/yr</td></tr>";
     }).join("");
     $("gloss-duties").innerHTML =

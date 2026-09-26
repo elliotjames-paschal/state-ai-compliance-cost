@@ -18,10 +18,10 @@ Two views:
 - **Bottom-up.** Each bill is decomposed into duties — legal review, engineering build, ongoing
   operations — with triangular hour estimates. Cost is hours × rates, the same approach federal
   agencies use for regulatory burden estimates.
-- **Increment, not total.** The hypothetical federal standard is each requirement family's least
-  common denominator — the parameters every state sets identically, derived from the coded bills
-  and recomputed automatically as bills are added. That shared core is never claimed; only
-  divergence beyond it is.
+- **Increment, not total.** The state laws share a core: one-time work plus the parameters every
+  state sets identically (in effect, what a single federal standard would have required), derived
+  from the coded bills and recomputed automatically as bills are added. That shared baseline is
+  built once and never claimed; only state-by-state divergence is.
 - **Scope carefully.** Bills are sorted by who they bind. Criminal prohibitions and bills binding
   state agencies or schools are excluded from the estimate by default (toggles show what
   indiscriminate counting adds).

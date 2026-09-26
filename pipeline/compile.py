@@ -111,7 +111,9 @@ def main():
         for k in FAM if fam_counts.get(k))
     bills = ",\n".join("    " + json.dumps(r, ensure_ascii=False) for r in rows)
     out = (HEADER + "\nwindow.MODEL_DATA = {\n\n"
-           "  // Hours for the average AI model to satisfy each duty, wherever imposed.\n  "
+           "  // Hours for the average AI model to satisfy each duty, wherever imposed.\n"
+           "  // perRelease: true = the legal/eng work recurs with every model release\n"
+           "  // (docs, provenance integration); the \"model releases\" control multiplies it.\n  "
            + duties_block + "\n\n  families: {\n" + fams + "\n  },\n\n  bills: [\n" + bills + "\n  ]\n};\n")
     (ROOT / "data" / "bills.js").write_text(out)
     print(f"data/bills.js: {len(rows)} entries from {len(glob.glob(str(ROOT / 'coding' / 'coded' / '*.json')))} coded bills")
