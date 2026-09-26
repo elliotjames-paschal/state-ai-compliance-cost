@@ -472,7 +472,8 @@ a { color: var(--accent-dark); }
 
 /* selectable option tiles */
 .chip-group.big { display: grid; grid-template-columns: repeat(auto-fit, minmax(215px, 1fr)); gap: 12px; }
-.chip-group.big { grid-template-columns: repeat(auto-fit, minmax(288px, 1fr)); gap: 12px; }
+/* content-sized tiles in centred, self-balancing rows — no orphan corners */
+.chip-group.big { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
 .chip-group.big .chip {
   position: relative; display: flex; flex-direction: column; align-items: flex-start;
   justify-content: center; gap: 2px; text-align: left;
