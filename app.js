@@ -38,7 +38,8 @@
     "consumer-app": ["privacy-data"],                             // general consumer AI → data/privacy rules
     "genmedia": ["likeness-rights", "provenance-transparency"],   // likenesses/synthetic media
     "platform": ["provenance-transparency"],                      // AI tooling/API → provenance of output
-    "decisions": ["adm-governance"]                               // consequential-decision governance (hiring/lending/eligibility). NB: workforce laws (WARN layoffs, retail-worker rights) are employer/layoff duties, not decision-making — they live under the employment sector
+    "decisions": ["adm-governance"],                              // consequential-decision governance (hiring/lending/eligibility). NB: workforce laws (WARN layoffs, retail-worker rights) are employer/layoff duties, not decision-making — they live under the employment sector
+    "pricing-engine": ["pricing-competition"]                     // NJ A 3497 binds rent-pricing software makers — a product, not just a vertical
   };
   var SECTOR_FAMILIES = {
     "model-regulation": ["frontier-safety"],                      // CA SB 53, IL SB 315, NY RAISE Act
