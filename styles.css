@@ -472,8 +472,10 @@ a { color: var(--accent-dark); }
 
 /* selectable option tiles */
 .chip-group.big { display: grid; grid-template-columns: repeat(auto-fit, minmax(215px, 1fr)); gap: 12px; }
-/* one option per row, full width — clean form list, no layout asymmetry ever */
-.chip-group.big { display: flex; flex-direction: column; gap: 10px; max-width: 620px; }
+/* equal two-column grid; an odd last option spans the full row, so the
+   layout is always symmetric regardless of count */
+.chip-group.big { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.chip-group.big .chip:last-child:nth-child(odd) { grid-column: 1 / -1; }
 .chip-group.big .chip {
   position: relative; display: flex; flex-direction: column; align-items: flex-start;
   justify-content: center; gap: 2px; text-align: left;
