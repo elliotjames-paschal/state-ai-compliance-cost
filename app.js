@@ -42,7 +42,8 @@
     "pricing-engine": ["pricing-competition"]                     // NJ A 3497 binds rent-pricing software makers — a product, not just a vertical
   };
   var SECTOR_FAMILIES = {
-    "model-regulation": ["frontier-safety"],                      // CA SB 53, IL SB 315, NY RAISE Act
+    // NB: no "model regulation" sector — frontier-safety is an identity, not a
+    // vertical, and is reached via the "Foundation / frontier model" build role
     "healthcare": ["healthcare-clinical", "mental-health-practice"],
     "insurance": ["insurance-adm"],
     "education": ["chatbot-safeguards", "privacy-data"],          // minor-protection + student-data rules
