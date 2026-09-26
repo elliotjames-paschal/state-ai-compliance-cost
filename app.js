@@ -24,27 +24,29 @@
   function $(id) { return document.getElementById(id); }
 
   // ------------------------------------------------------------------------
-  // Profile → binding law families. Editable mapping: each role/sector points
-  // at the company-binding families that regulate it. See CODING.md for the
-  // families themselves. BASELINE applies to any AI company handling data.
+  // Profile → binding law families. Each role/sector maps to exactly the
+  // company-binding families that regulate it (see CODING.md). No blanket
+  // baseline — a universal privacy-data floor over-charged B2B/model builders
+  // with consumer-privacy rules they don't face; privacy-data is now assigned
+  // only where consumer data is central. Binding set = UNION of the selected
+  // roles' and sectors' families, so each choice changes a distinct set of laws.
   // ------------------------------------------------------------------------
-  var BASELINE_FAMILIES = ["privacy-data"];
+  var BASELINE_FAMILIES = [];
   var ROLE_FAMILIES = {
-    "frontier": ["frontier-safety", "provenance-transparency"],
-    "chatbot": ["chatbot-safeguards"],
-    "consumer-app": ["chatbot-safeguards", "privacy-data"],
-    "genmedia": ["likeness-rights", "provenance-transparency"],
-    "platform": ["provenance-transparency"],
-    "decisions": ["adm-governance", "workforce"]
+    "frontier": ["frontier-safety", "provenance-transparency"],   // trains large models
+    "chatbot": ["chatbot-safeguards", "privacy-data"],            // conversational/companion + user data
+    "consumer-app": ["privacy-data"],                             // general consumer AI → data/privacy rules
+    "genmedia": ["likeness-rights", "provenance-transparency"],   // likenesses/synthetic media
+    "platform": ["provenance-transparency"],                      // AI tooling/API → provenance of output
+    "decisions": ["adm-governance", "workforce"]                  // consequential decisions (hiring, lending)
   };
   var SECTOR_FAMILIES = {
-    "model-regulation": ["frontier-safety"],   // CA SB 53, IL SB 315, NY RAISE Act, …
-    "chatbots": ["chatbot-safeguards"],
-    "education": ["chatbot-safeguards", "privacy-data"],
+    "model-regulation": ["frontier-safety"],                      // CA SB 53, IL SB 315, NY RAISE Act
     "healthcare": ["healthcare-clinical", "mental-health-practice"],
     "insurance": ["insurance-adm"],
+    "education": ["chatbot-safeguards", "privacy-data"],          // minor-protection + student-data rules
     "employment": ["workforce", "adm-governance"],
-    "media": ["likeness-rights", "election-disclosure"],
+    "media": ["likeness-rights"],                                 // synthetic likenesses (elections is separate)
     "elections": ["election-disclosure"],
     "pricing": ["pricing-competition"]
   };

@@ -131,11 +131,14 @@ python3 pipeline/fetch.py <slug> <url> --id "HI HB 2137" --state HI --version "C
 
 The Cost Model tab is profile-driven: the visitor picks role(s), sector(s), and geography, and the
 estimate filters to the laws that bind them, shown across five company-size bands as cost and % of
-revenue. The mapping from profile → binding law families lives in `app.js` as `ROLE_FAMILIES`,
-`SECTOR_FAMILIES`, `BASELINE_FAMILIES`; the size bands (representative revenue + hour multiplier)
-are `SIZE_BANDS`. Edit those objects to retune — no other code changes needed. When new families
-are added by the coding pass, wire them into the relevant role/sector arrays or they won't surface
-in any profile.
+revenue. The mapping from profile → binding law families lives in `app.js` as `ROLE_FAMILIES` and
+`SECTOR_FAMILIES` (each key → exactly the families that regulate it; every role/sector resolves to
+a distinct set so each choice changes a distinct set of laws — keep it that way). `BASELINE_FAMILIES`
+is intentionally empty: there is no universal floor, because a blanket privacy-data baseline
+over-charged B2B/model builders with consumer-privacy rules they don't face. The size bands
+(representative revenue + hour multiplier) are `SIZE_BANDS`. Edit those objects to retune — no other
+code changes needed. When new families are added by the coding pass, wire them into the relevant
+role/sector arrays or they won't surface in any profile.
 
 Profile + optional email opt-in are captured via the "Stay in the loop" form. It POSTs to
 `SUBMIT_ENDPOINT` in `app.js` (empty by default → stored in browser localStorage only, nothing
