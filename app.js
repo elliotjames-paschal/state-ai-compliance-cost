@@ -38,7 +38,7 @@
     "consumer-app": ["privacy-data"],                             // general consumer AI → data/privacy rules
     "genmedia": ["likeness-rights", "provenance-transparency"],   // likenesses/synthetic media
     "platform": ["provenance-transparency"],                      // AI tooling/API → provenance of output
-    "decisions": ["adm-governance", "workforce"]                  // consequential decisions (hiring, lending)
+    "decisions": ["adm-governance"]                               // consequential-decision governance (hiring/lending/eligibility). NB: workforce laws (WARN layoffs, retail-worker rights) are employer/layoff duties, not decision-making — they live under the employment sector
   };
   var SECTOR_FAMILIES = {
     "model-regulation": ["frontier-safety"],                      // CA SB 53, IL SB 315, NY RAISE Act
