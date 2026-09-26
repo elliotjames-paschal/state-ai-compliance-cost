@@ -134,11 +134,17 @@
         <div id="size-cards" class="cost-chart"></div>
         <p class="note">Every company faces the same laws, but the work barely grows with size while revenue races ahead &mdash; a rounding error for the biggest, a real tax on the smallest. Bars are cost as a share of revenue over 5 years.</p>
         <button type="button" class="assumptions-cta" id="toggle-detail">
+          <span class="ac-icon" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+              <line x1="4" y1="7" x2="20" y2="7"/><circle cx="9" cy="7" r="2.6" fill="#fff"/>
+              <line x1="4" y1="17" x2="20" y2="17"/><circle cx="15" cy="17" r="2.6" fill="#fff"/>
+            </svg>
+          </span>
           <span class="ac-text">
             <span class="ac-main">Every number here is an assumption you can change</span>
-            <span class="ac-sub">Rates, hours per law, reuse, horizon &mdash; open the breakdown to adjust</span>
+            <span class="ac-sub">Rates, hours per law, reuse, horizon</span>
           </span>
-          <span class="ac-caret" aria-hidden="true">&rsaquo;</span>
+          <span class="ac-open"><span class="oc">Adjust</span><span class="cc">Close</span> <span class="ac-caret" aria-hidden="true">&darr;</span></span>
         </button>
         <div class="wiz-nav">
           <button type="button" class="wiz-btn back" data-go="0">&larr; Edit answers</button>
